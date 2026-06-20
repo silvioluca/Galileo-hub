@@ -1,0 +1,94 @@
+\begin{question}[ID=1.1, subtitle={De L'Hôpital: $\lim_{x\to0}(e^x-1-x)/x^2$}, tags={de l'hospital, limiti}, difficulty=facile]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to 0} \frac{e^x - 1 - x}{x^2}
+\]
+\begin{solution}
+Forma $\tfrac{0}{0}$. $\dfrac{e^x-1}{2x} \xrightarrow{0/0} \dfrac{e^x}{2} \to \dfrac{1}{2}$
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.2, subtitle={De L'Hôpital: $\lim_{x\to1}(x^3-1)/\ln x$}, tags={de l'hospital, limiti}, difficulty=facile]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to 1} \frac{x^3 - 1}{\ln(x)}
+\]
+\begin{solution}
+Forma $\tfrac{0}{0}$. $\dfrac{3x^2}{1/x}=3x^3 \to 3$
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.3, subtitle={De L'Hôpital: $\lim_{x\to0^+} x\ln x$}, tags={de l'hospital, limiti}, difficulty=facile]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to 0^+} x \ln(x)
+\]
+(Suggerimento: riscrivi l'espressione come una frazione per poter applicare il teorema)
+\begin{solution}
+$0 \cdot (-\infty)$. $\dfrac{\ln x}{1/x} \xrightarrow{-\infty/+\infty} \dfrac{1/x}{-1/x^2}=-x \to 0$
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.4, subtitle={De L'Hôpital: $\lim_{x\to+\infty}(x^3+2x)/e^{x/2}$}, tags={de l'hospital, limiti}, difficulty=media]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to \infty} \frac{x^3 + 2x}{e^{x/2}}
+\]
+\begin{solution}
+Forma $\tfrac{+\infty}{+\infty}$. Tre applicazioni successive: $\dfrac{6}{e^{x/2}/8}=\dfrac{48}{e^{x/2}} \to 0$
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.5, subtitle={De L'Hôpital: $\lim_{x\to0}(x-x\cos x)/x^3$}, tags={de l'hospital, limiti}, difficulty=media]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to 0} \frac{x - x \cos(x)}{x^3}
+\]
+\begin{solution}
+$\dfrac{1-\cos x}{x^2} \xrightarrow{0/0} \dfrac{\sin x}{2x} \xrightarrow{0/0} \dfrac{\cos x}{2} \to \dfrac{1}{2}$
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.6, subtitle={De L'Hôpital: $\lim_{x\to+\infty}(e^{1/x}-1)/(1/x)$}, tags={de l'hospital, limiti}, difficulty=facile]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to \infty} \frac{e^{1/x} - 1}{1/x}
+\]
+\begin{solution}
+Forma $\tfrac{0}{0}$ (con $t=1/x \to 0$): $\lim_{t\to0}\dfrac{e^t-1}{t}=1$
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.7, subtitle={De L'Hôpital: $\lim_{x\to0^+} xe^{1/x}$}, tags={de l'hospital, limiti}, difficulty=media]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to 0^+}  x\, e^{1/x}
+\]
+\begin{solution}
+$0 \cdot (+\infty)$. $\dfrac{e^{1/x}}{1/x} \xrightarrow{+\infty/+\infty} \dfrac{-e^{1/x}/x^2}{-1/x^2}=e^{1/x} \to +\infty$
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.8, subtitle={De L'Hôpital: $\lim_{x\to+\infty} xe^{-x^2}$}, tags={de l'hospital, limiti}, difficulty=facile]
+Calcola il seguente limite utilizzando il teorema de L'Hôpital:
+\[
+\lim_{x \to \infty}  x\, e^{-x^2}
+\]
+\begin{solution}
+$\dfrac{x}{e^{x^2}} \xrightarrow{+\infty/+\infty} \dfrac{1}{2x\,e^{x^2}} \to 0$
+\end{solution}
+\end{question}

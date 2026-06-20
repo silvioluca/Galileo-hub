@@ -1,0 +1,184 @@
+\begin{question}[ID=1.1, subtitle={Thermos cilindrico di minima superficie a volume fissato}, tags={ottimizzazione, geometria, solidi}, difficulty=media]
+Un'azienda produce thermos con capacità di 1 L, a forma di cilindro circolare retto. Il settore Ricerca e sviluppo dell'azienda vuole determinare il raggio di base $r$ e l'altezza $h$ del thermos che permettano di minimizzare il calore disperso all'esterno, che è proporzionale alla superficie del contenitore.
+\begin{solution}
+$S(r)=2\pi r^2+2/r$; $S'=0 \Rightarrow r=\bigl(\tfrac{1}{2\pi}\bigr)^{1/3}$, $h=2r$ (altezza doppia del raggio).
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.2, subtitle={Massimizzare il guadagno nella produzione di piumini}, tags={ottimizzazione, economia}, difficulty=media]
+In economia si definisce domanda di un bene economico la quantità di bene $x$ richiesta a un dato prezzo $p$.
+Un'impresa produce piumini per letti matrimoniali e sostiene per la produzione una spesa fissa mensile di 1600 euro e un costo per i materiali e la manodopera di 80 euro per ogni pezzo. La domanda di piumini è espressa dalla funzione $x = 120 - 0{,}4 \cdot p$, con $p \le 300$ euro. Esprimi le funzioni del costo mensile totale $C(x)$ e del ricavo $R(x) = x \cdot p(x)$, e determina per quale quantità il guadagno mensile $G(x) = R(x) - C(x)$ è massimo.
+\begin{solution}
+$C(x)=1600+80x$; $p(x)=300-2{,}5x$; $R(x)=300x-2{,}5x^2$. $G(x)=-2{,}5x^2+220x-1600$; max in $x=44$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=1.3, subtitle={Recinto rettangolare di massima area con un lato al muro}, tags={ottimizzazione, geometria}, difficulty=facile]
+Monica vuole realizzare sul retro della sua casa un recinto per i suoi cani, di forma rettangolare e che abbia un lato appoggiato al muro di casa. Ha a disposizione 15 m di rete. Individua qual è il recinto che consente ai cani di Monica di avere più spazio a disposizione.
+\begin{solution}
+Tre lati: $x+L+x=15 \Rightarrow L=15-2x$. $A(x)=x(15-2x)$; max in $x=\tfrac{15}{4}$ m, $L=\tfrac{15}{2}$ m. $A_{\max}=\tfrac{225}{8}$ m$^2$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=2.1, subtitle={Cilindro di massimo volume con superficie totale fissa}, tags={ottimizzazione, geometria, solidi}, difficulty=media]
+Un cilindro di raggio \(r\) ha superficie totale \(S\) costante. Quale cilindro ha volume massimo?
+\begin{solution}
+$S=2\pi r^2+2\pi rh$; $V(r)=(Sr-2\pi r^3)/2$; $V'=0 \Rightarrow r=\sqrt{S/(6\pi)}$, $h=2r$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=2.2, subtitle={Parallelepipedo di massimo volume con superficie totale fissa}, tags={ottimizzazione, geometria, solidi}, difficulty=difficile]
+Tra tutti i parallelepipedi rettangoli di altezza \(h\) e di superficie totale costante \(S\), qual è quello di volume massimo?
+\begin{solution}
+Sia la base $a\times b$. Superficie: $S=2ab+2h(a+b)$, volume $V=abh$ (con $h$ fissato). Massimizzando $ab$ con il vincolo $ab+h(a+b)=\tfrac{S}{2}$ si trova, per simmetria, $a=b$. Allora $a^2+2ha-\tfrac{S}{2}=0$, da cui
+\[
+a=b=\sqrt{h^2+\tfrac{S}{2}}-h.
+\]
+Il parallelepipedo di volume massimo ha quindi \textbf{base quadrata} di lato $a=\sqrt{h^2+\tfrac S2}-h$ e volume $V_{\max}=h\,a^2$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=2.3, subtitle={Piramide a base quadrata di minima superficie a volume fisso}, tags={ottimizzazione, geometria, solidi}, difficulty=difficile]
+Fra tutte le piramidi a base quadrata di volume \(V\) costante, determinare quella di superficie totale minima.
+\begin{solution}
+Base di lato $a$, altezza $H$, apotema $l=\sqrt{H^2+\tfrac{a^2}{4}}$. Superficie $S=a^2+2a\,l$, vincolo $V=\tfrac13a^2H$. Minimizzando $S$ con il metodo dei moltiplicatori (o sostituendo $H=\tfrac{3V}{a^2}$ e ponendo $S'(a)=0$) si arriva alla condizione
+\[
+2H^2=a^2+2a\,l \;\Rightarrow\; H^2=2a^2 \;\Rightarrow\; H=a\sqrt2.
+\]
+Imponendo il volume, $a^2H=3V\Rightarrow a^3\sqrt2=3V$, quindi
+\[
+a=\sqrt[3]{\dfrac{3V}{\sqrt2}}=\sqrt[3]{\dfrac{3\sqrt2\,V}{2}},\qquad H=a\sqrt2.
+\]
+La piramide di superficie minima ha dunque altezza pari a $\sqrt2$ volte il lato di base.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=2.4, subtitle={Prisma di massimo volume inscritto in una piramide}, tags={ottimizzazione, geometria, solidi}, difficulty=difficile]
+Determinare l'altezza del prisma di massimo volume inscritto in una piramide di base \(S\) e altezza \(h\) assegnate.
+\begin{solution}
+A quota $x$ dalla base la sezione della piramide è simile alla base e ha area $S\!\left(1-\dfrac{x}{h}\right)^2$. Il prisma poggia sulla base e ha la faccia superiore a quota $x$, quindi la sua sezione costante è quella a quota $x$ e il volume è
+\[
+V(x)=S\left(1-\frac{x}{h}\right)^2 x.
+\]
+Derivando: $V'(x)=S\left(1-\dfrac{x}{h}\right)\!\left(1-\dfrac{3x}{h}\right)=0\Rightarrow x=\dfrac{h}{3}$. L'altezza del prisma di volume massimo è $\boxed{\,x=\dfrac{h}{3}\,}$, con volume $V_{\max}=\dfrac{4}{27}Sh$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=2.5, subtitle={Serbatoio prismatico di minima superficie a volume fissato}, tags={ottimizzazione, geometria, solidi}, difficulty=media]
+Un serbatoio ha la forma di un prisma retto con base a forma di rettangolo. Il serbatoio deve avere un volume di $V$. Determinare le dimensioni del serbatoio in modo che la superficie sia minima.
+\begin{solution}
+Siano $a,b$ i lati di base e $c$ l'altezza, con vincolo $abc=V$. La superficie totale (serbatoio chiuso) è $\Sigma=2(ab+bc+ca)$. A volume fissato la somma $ab+bc+ca$ è minima quando i tre prodotti sono uguali, cioè $a=b=c$. Imponendo $a^3=V$:
+\[
+a=b=c=\sqrt[3]{V}.
+\]
+Il serbatoio di superficie minima è quindi un \textbf{cubo} di spigolo $\sqrt[3]{V}$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=3.1, subtitle={Rettangolo di massima area inscritto in un cerchio di raggio $R$}, tags={ottimizzazione, geometria}, difficulty=media]
+Trova il rettangolo di area massima inscritto in un cerchio di raggio \(R\).
+\begin{solution}
+Lati $2a$ e $2b$ con $a^2+b^2=R^2$. Max $A=4ab$ per $a=b=R/\sqrt{2}$: quadrato di lato $R\sqrt{2}$, area $2R^2$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=3.2, subtitle={Punto della parabola $y=x^2$ più vicino a $(0,1)$}, tags={ottimizzazione, geometria}, difficulty=media]
+Determina il punto della parabola di equazione \(y = x^2\) più vicino al punto di coordinate \((0, 1)\).
+\begin{solution}
+$d^2=x^4-x^2+1$; $\tfrac{d}{dx}(d^2)=2x(2x^2-1)=0 \Rightarrow x=\pm\tfrac{1}{\sqrt{2}}$. Punti: $\bigl(\pm\tfrac{1}{\sqrt{2}},\,\tfrac{1}{2}\bigr)$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=3.3, subtitle={Triangolo isoscele di perimetro $2p$ e area massima}, tags={ottimizzazione, geometria}, difficulty=media]
+Tra tutti i triangoli isosceli di perimetro \(2p\), determina quello di area massima.
+\begin{solution}
+Il triangolo equilatero con $a=b=c=\tfrac{2p}{3}$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=3.4, subtitle={Punto sulla retta $y=4-x$ che forma triangolo di area minima con gli assi}, tags={ottimizzazione, geometria}, difficulty=media]
+Data la retta di equazione \(y = 4 - x\), trova il punto su tale retta che, insieme agli assi cartesiani, forma un triangolo di area minima nel primo quadrante.
+\begin{solution}
+Sia $P=(x,\,4-x)$ con $0<x<4$. Il triangolo rettangolo di cateti $x$ (sull'asse $x$) e $4-x$ (sull'asse $y$) ha area
+\[
+A(x)=\tfrac12\,x(4-x)=2x-\tfrac12x^2.
+\]
+$A'(x)=2-x=0\Rightarrow x=2$, e $A''=-1<0$: è un \emph{massimo}, con $P=(2,2)$ e $A=2$. L'area non ha minimo interno: tende a $0$ quando $P$ si avvicina agli assi (triangolo degenere). L'unico estremo proprio è quindi il massimo in $P=(2,2)$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=3.5, subtitle={Rettangolo di massima area inscritto in $y=|x^2-1|$}, tags={ottimizzazione, geometria}, difficulty=difficile]
+Si determini tra tutti i rettangoli iscritti nella parte di piano compresa tra la curva di equazione \(y = |x^2 - 1|\) e l'asse delle ascisse quello di area massima.
+\begin{solution}
+Su $(-1,1)$: $y=1-x^2$. Rettangolo con base $2a$ e altezza $1-a^2$: $A(a)=2a(1-a^2)$; max in $a=\tfrac{1}{\sqrt{3}}$, $A_{\max}=\tfrac{4\sqrt{3}}{9}$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=4.1, subtitle={Due numeri positivi di somma 10 e prodotto massimo}, tags={ottimizzazione, algebra}, difficulty=facile]
+Trova due numeri positivi la cui somma sia 10 e il cui prodotto sia massimo.
+\begin{solution}
+$x+y=10$, $P=x(10-x)$; max in $x=y=5$, $P_{\max}=25$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=4.2, subtitle={Due numeri positivi di prodotto 16 e somma minima}, tags={ottimizzazione, algebra}, difficulty=facile]
+Trova due numeri positivi il cui prodotto sia 16 e la cui somma sia minima.
+\begin{solution}
+Per AM-GM: $x+y \ge 2\sqrt{xy}=8$; min in $x=y=4$, $S_{\min}=8$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=4.3, subtitle={Due numeri reali di differenza 100 e prodotto minimo}, tags={ottimizzazione, algebra}, difficulty=media]
+Trova due numeri la cui differenza sia 100 e il cui prodotto sia minimo.
+\begin{solution}
+$x-y=100$, $P=y(y+100)=y^2+100y$; min in $y=-50$, $x=50$, $P_{\min}=-2500$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=4.4, subtitle={Prodotto massimo con somma costante $a$}, tags={ottimizzazione, algebra}, difficulty=facile]
+Verifica che, se due numeri reali positivi hanno somma costante $a$, il loro prodotto è massimo quando sono uguali.
+\begin{solution}
+$P=x(a-x)$; $P'=a-2x=0 \Rightarrow x=a/2$, $P_{\max}=a^2/4$.
+\end{solution}
+\end{question}
+
+%-----------------------------%
+
+\begin{question}[ID=4.5, subtitle={Massimizzare $xy$ con $x+2y=10$}, tags={ottimizzazione, algebra}, difficulty=facile]
+Trova due numeri positivi \(x\) e \(y\) tali che \(x + 2y = 10\) e \(xy\) sia massimo.
+\begin{solution}
+$x=10-2y$, $xy=y(10-2y)=10y-2y^2$; max in $y=\tfrac{5}{2}$, $x=5$, $xy_{\max}=\tfrac{25}{2}$.
+\end{solution}
+\end{question}

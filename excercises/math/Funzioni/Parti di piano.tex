@@ -1,0 +1,74 @@
+% ===============================
+% SEZIONE 1: Parti di piano
+% ===============================
+\begin{question}[ID=1.1, subtitle={Rappresentazione di parti di piano — serie 1}, tags={parti di piano}, difficulty=facile]
+Rappresenta graficamente le parti di piano definite dalle seguenti disequazioni o da sistemi di disequazioni:
+\vspace{-10pt}
+\begin{center}\begin{minipage}{0.7\linewidth}
+\begin{enumerate}
+\item $2 x - y > 1$
+\item $\begin{cases} x + y - 2 = 0 \\ x \ge 1 \end{cases}$
+\item $\begin{cases} 2x+y> 0 \\ y \ge 3x+1 \end{cases}$
+\end{enumerate}
+\end{minipage}\end{center}
+\vspace{-20pt}
+\begin{solution}
+Si traccia la retta associata a ogni disequazione e si sceglie il semipiano corretto (continuo se $\le/\ge$, tratteggiato se $</>$).
+\begin{itemize}
+\item a) $2x-y>1\Rightarrow y<2x-1$: semipiano \emph{sotto} la retta $y=2x-1$ (esclusa).
+\item b) $\{x+y-2=0,\ x\ge1\}$: la parte della retta $x+y=2$ con $x\ge1$, cioè la \emph{semiretta} a partire da $(1,1)$.
+\item c) $\{2x+y>0,\ y\ge3x+1\}$: intersezione del semipiano sopra $y=-2x$ con quello sopra $y=3x+1$ (regione comune).
+\end{itemize}
+\end{solution}
+\end{question}
+
+\begin{question}[ID=1.2, subtitle={Rappresentazione di parti di piano — serie 2}, tags={parti di piano}, difficulty=facile]
+Rappresenta graficamente le parti di piano definite dalle seguenti disequazioni o da sistemi di disequazioni:
+\vspace{-10pt}
+\begin{center}\begin{minipage}{0.7\linewidth}
+\begin{enumerate}
+\item $3 x - y < 1$
+\item $\begin{cases} 2x + y - 2 = 0 \\ x \ge 1 \end{cases}$
+\item $\begin{cases} 2x-y> 0 \\ y \le 3x+1 \end{cases}$
+\end{enumerate}
+\end{minipage}\end{center}
+\vspace{-20pt}
+\begin{solution}
+\begin{itemize}
+\item a) $3x-y<1\Rightarrow y>3x-1$: semipiano \emph{sopra} la retta $y=3x-1$ (esclusa).
+\item b) $\{2x+y-2=0,\ x\ge1\}$: la parte della retta $2x+y=2$ con $x\ge1$, cioè la \emph{semiretta} a partire da $(1,0)$.
+\item c) $\{2x-y>0,\ y\le3x+1\}$: intersezione del semipiano sotto $y=2x$ (cioè $y<2x$) con quello sotto/sulla retta $y=3x+1$.
+\end{itemize}
+\end{solution}
+\end{question}
+
+
+% ===============================
+% SEZIONE 2: Problemi
+% ===============================
+\begin{question}[ID=2.1, subtitle={Punteggio di un test a risposta multipla}, tags={parti di piano}, difficulty=media]
+Uno studente svolge un test a risposta multipla in cui il punteggio assegnato è pari a 1 punto per ogni risposta corretta, – 0,25 punti per ogni risposta errata e 0 punti per ogni risposta non data.
+Il test è composto da 10 domande e, una volta completato, lo studente, confrontandosi con i compagni, si rende conto di aver sicuramente sbagliato almeno una domanda.
+Rappresenta sul piano cartesiano ed elenca tutti i possibili esiti del test. \textit{(Suggerimento: poni come variabile $x$ il numero di domande corrette e $y$ il numero di domande errate)}
+\begin{solution}
+Con $x$ corrette e $y$ errate (interi $\ge0$), i vincoli sono: $x+y\le10$ (le restanti sono non date), $y\ge1$ (almeno una errata), $x\ge0$. La regione è il triangolo di vertici $(0,1)$, $(9,1)$, $(0,10)$, e gli esiti possibili sono i suoi \emph{punti a coordinate intere}.
+
+Il punteggio associato a ciascun esito è $P=x-0{,}25\,y$. Ad esempio: $9$ corrette e $1$ errata $\to P=8{,}75$ (massimo possibile con almeno un errore); $0$ corrette e $10$ errate $\to P=-2{,}5$ (minimo). In generale, per ogni coppia $(x,y)$ con $x\ge0,\ y\ge1,\ x+y\le10$ si ottiene un esito ammissibile.
+\end{solution}
+\end{question}
+
+\begin{question}[ID=2.2, subtitle={Composizione di un vassoio di dolci}, tags={parti di piano}, difficulty=media]
+Una pasticceria prepara un vassoio di dolci composto da dolci al cioccolato e dolci alla frutta, per un totale di più di 8 dolci.
+Si richiede che nel vassoio ci siano meno di 6 dolci alla frutta e che il numero dei dolci al cioccolato sia al massimo 5 in più rispetto a quelli alla frutta.
+Rappresenta graficamente ed elenca tutti i possibili modi in cui può essere composto il vassoio di dolci.
+\begin{solution}
+Sia $x$ il numero di dolci al cioccolato e $y$ quelli alla frutta (interi $\ge0$). Vincoli: $x+y>8$ (cioè $x+y\ge9$), $y<6$ (cioè $y\le5$), $x\le y+5$. La condizione $9-y\le x\le y+5$ ha soluzioni solo se $9-y\le y+5$, cioè $y\ge2$. Quindi $y\in\{2,3,4,5\}$:
+\begin{itemize}
+\item $y=2$: $x=7$ $\to$ $(7,2)$;
+\item $y=3$: $x=6,7,8$;
+\item $y=4$: $x=5,6,7,8,9$;
+\item $y=5$: $x=4,5,6,7,8,9,10$.
+\end{itemize}
+In totale $1+3+5+7=16$ composizioni possibili. Graficamente sono i punti interi della regione delimitata da $x+y\ge9$, $y\le5$, $x\le y+5$ (con $x,y\ge0$).
+\end{solution}
+\end{question}

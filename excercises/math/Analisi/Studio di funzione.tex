@@ -1,0 +1,59 @@
+\begin{question}[ID=2.1, subtitle={Studio di $f(x)=(2x+1)/(x+k)$ con parametro $k$}, tags={studio di funzione, parametrico}, difficulty=difficile]
+Considera la funzione
+\begin{equation*}
+    f(x) = \frac{2x+1}{x+k}
+\end{equation*}
+dove $k$ è un parametro reale, e indica con $y$ il suo grafico.
+\begin{enumerate}
+    \item Dimostra che per $k=\frac{1}{2}$ la funzione attraversa solo il primo e secondo quadrante.
+    \item Studia la funzione al variare del parametro $k$ e tracciane il grafico.
+    \item Posto $k=1$ rappresenta la funzione $g(x) = |f(x)|$ e determina eventuali punti di non derivabilità della funzione.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Per $k=\tfrac12$ il denominatore è $x+\tfrac12=\tfrac{2x+1}{2}$, quindi $f(x)=\dfrac{2x+1}{(2x+1)/2}=2$ per ogni $x\neq-\tfrac12$. Il grafico è la retta orizzontale $y=2$ (privata del punto $x=-\tfrac12$): essendo $y=2>0$, attraversa solo il primo e il secondo quadrante.
+\item Per $k\neq\tfrac12$: dominio $x\neq-k$; asintoto verticale $x=-k$ e asintoto orizzontale $y=2$. La derivata è $f'(x)=\dfrac{2k-1}{(x+k)^2}$: nessun estremo, funzione crescente se $k>\tfrac12$, decrescente se $k<\tfrac12$. È un'iperbole equilatera di centro $(-k,2)$ (per $k=\tfrac12$ degenera nella retta $y=2$).
+\item Per $k=1$, $f(x)=\dfrac{2x+1}{x+1}$ si annulla in $x=-\tfrac12$, dove $f'=\dfrac{1}{(x+1)^2}\neq0$. Quindi $g(x)=|f(x)|$ ha in $x=-\tfrac12$ un \textbf{punto angoloso} (la curva tocca l'asse $x$ con pendenza non nulla e viene ribaltata).
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%-------------------------------%
+
+\begin{question}[ID=2.2, subtitle={Studio di $f(x)=x^2/(x-k)$ con parametro $k$}, tags={studio di funzione, parametrico}, difficulty=difficile]
+Considera la funzione
+\begin{equation*}
+    f(x) = \frac{x^2}{x-k}
+\end{equation*}
+dove $k$ è un parametro reale, e indica con $y$ il suo grafico.
+\begin{enumerate}
+    \item Studia la funzione al variare del parametro $k$ e tracciane il grafico.
+    \item Posto $k=0$ rappresenta la funzione $g(x) = |f(x)|$ e determina eventuali punti di non derivabilità della funzione.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Dominio $x\neq k$. Per $k\neq0$: asintoto verticale $x=k$; dalla divisione $\dfrac{x^2}{x-k}=x+k+\dfrac{k^2}{x-k}$ segue l'asintoto obliquo $y=x+k$. Derivata $f'(x)=\dfrac{x(x-2k)}{(x-k)^2}$, che si annulla in $x=0$ e $x=2k$: per $k>0$ massimo in $(0,0)$ e minimo in $(2k,4k)$ (per $k<0$ i ruoli si scambiano).
+\item Per $k=0$, $f(x)=\dfrac{x^2}{x}=x$ per $x\neq0$ (retta privata dell'origine), quindi $g(x)=|x|$ con un buco in $x=0$. Il punto angoloso di $|x|$ cadrebbe proprio in $x=0$, che però è \emph{escluso} dal dominio: nel suo dominio $g$ è perciò derivabile ovunque (nessun punto di non derivabilità effettivo).
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%-------------------------------%
+
+\begin{question}[ID=2.3, subtitle={Potenziale del deuterio: $V(r)=a|r|e^{1-br^2}$}, tags={studio di funzione, parametrico, fisica}, difficulty=difficile]
+Il potenziale di un atomo di deuterio può essere rappresentato dalla seguente funzione:
+\begin{equation*}
+    V(r) = a|r|\cdot e^{1-br^2}
+\end{equation*}
+dove $a$ e $b$ sono due parametri reali, e $r$ la distanza dal centro.
+\begin{enumerate}
+    \item Determina i valori di $a$ e $b$, sapendo che il massimo valore di potenziale si trova nei punti di ascissa $1$ e $-1$ ed ha valore $\sqrt{e}$.
+    \item Verificato che, in corrispondenza dei valori trovati precedentemente, l'espressione analitica della funzione è $V(r) = |r| \cdot e^{1-\frac{1}{2}r^2}$, tracciane il grafico.
+    \item Verifica la presenza di un punto di non derivabilità nel centro dell'atomo e classificalo.
+\end{enumerate}
+\begin{solution}
+$a=1,\ b=\tfrac{1}{2}$. In $r=0$: cuspide (derivata sinistra $-1$, destra $+1$ a meno del fattore $e$).
+\end{solution}
+\end{question}
+
+%-------------------------------%

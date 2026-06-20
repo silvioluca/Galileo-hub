@@ -1,0 +1,464 @@
+% ===============================
+% Esercizi: Formule di addizione, sottrazione e dimezzamento
+% ===============================
+
+\begin{question}[ID=1.1, subtitle={Formule di addizione con $\sin\alpha=2/3$ e $\sin\beta=3/5$}, tags={goniometria, formule di addizione}, difficulty=media]
+Sapendo che $\sin \alpha = \dfrac{2}{3}$ e $\sin \beta = \dfrac{3}{5}$, con $0 < \alpha < \dfrac{\pi}{2}$ e $\dfrac{\pi}{2} < \beta < \pi$, calcola:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin(\alpha + \beta)$
+\item $\cos(\alpha - \beta)$
+\item $\sin\dfrac{\alpha}{2}$
+\item $\tan\dfrac{\beta}{2}$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Ricaviamo prima le funzioni mancanti tenendo conto dei quadranti. Poiché $0<\alpha<\dfrac{\pi}{2}$ ($\alpha$ nel I quadrante), $\cos\alpha=\sqrt{1-\sin^2\alpha}=\sqrt{1-\dfrac49}=\dfrac{\sqrt5}{3}$. Poiché $\dfrac{\pi}{2}<\beta<\pi$ ($\beta$ nel II quadrante), $\cos\beta=-\dfrac45$.
+\begin{enumerate}
+\item Per la formula di addizione del seno: $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac23\!\cdot\!\Big(\!-\dfrac45\Big)+\dfrac{\sqrt5}{3}\!\cdot\!\dfrac35=\dfrac{3\sqrt5-8}{15}$.
+\item Per la formula di sottrazione del coseno: $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\dfrac{\sqrt5}{3}\!\cdot\!\Big(\!-\dfrac45\Big)+\dfrac23\!\cdot\!\dfrac35=\dfrac{6-4\sqrt5}{15}$.
+\item $\dfrac{\alpha}{2}$ è nel I quadrante, dove il seno è positivo: $\sin\dfrac{\alpha}{2}=\sqrt{\dfrac{1-\cos\alpha}{2}}=\sqrt{\dfrac{3-\sqrt5}{6}}$.
+\item $\dfrac{\beta}{2}$ è nel I quadrante, dove la tangente è positiva: $\tan\dfrac{\beta}{2}=\dfrac{1-\cos\beta}{\sin\beta}=\dfrac{1+\frac45}{\frac35}=3$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=1.2, subtitle={Formule di addizione con $\cos\alpha=4/5$ e $\cos\beta=-5/13$}, tags={goniometria, formule di addizione}, difficulty=media]
+Sapendo che $\cos \alpha = \dfrac{4}{5}$ e $\cos \beta = -\dfrac{5}{13}$, con $0 < \alpha < \dfrac{\pi}{2}$ e $\pi < \beta < \dfrac{3\pi}{2}$, calcola:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\cos(\alpha + \beta)$
+\item $\sin(\alpha - \beta)$
+\item $\tan(\alpha + \beta)$
+\item $\cos\dfrac{\beta}{2}$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Quadranti: $0<\alpha<\dfrac{\pi}{2}$ (I quadrante) dà $\sin\alpha=\sqrt{1-\frac{16}{25}}=\dfrac35$; $\pi<\beta<\dfrac{3\pi}{2}$ (III quadrante) dà $\sin\beta=-\sqrt{1-\frac{25}{169}}=-\dfrac{12}{13}$.
+\begin{enumerate}
+\item $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\dfrac45\!\cdot\!\Big(\!-\dfrac{5}{13}\Big)-\dfrac35\!\cdot\!\Big(\!-\dfrac{12}{13}\Big)=\dfrac{-20+36}{65}=\dfrac{16}{65}$.
+\item $\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\dfrac35\!\cdot\!\Big(\!-\dfrac{5}{13}\Big)-\dfrac45\!\cdot\!\Big(\!-\dfrac{12}{13}\Big)=\dfrac{-15+48}{65}=\dfrac{33}{65}$.
+\item Servono anche $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac{-15-48}{65}=-\dfrac{63}{65}$, quindi $\tan(\alpha+\beta)=\dfrac{\sin(\alpha+\beta)}{\cos(\alpha+\beta)}=\dfrac{-63/65}{16/65}=-\dfrac{63}{16}$.
+\item $\beta$ nel III quadrante $\Rightarrow \dfrac{\beta}{2}$ nel II quadrante, dove il coseno è negativo: $\cos\dfrac{\beta}{2}=-\sqrt{\dfrac{1+\cos\beta}{2}}=-\sqrt{\dfrac{1-\frac{5}{13}}{2}}=-\sqrt{\dfrac{4}{13}}=-\dfrac{2\sqrt{13}}{13}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=1.3, subtitle={Formule di addizione con $\sin\alpha=5/13$ e $\cos\beta=12/13$}, tags={goniometria, formule di addizione}, difficulty=media]
+Sapendo che $\sin \alpha = \dfrac{5}{13}$ e $\cos \beta = \dfrac{12}{13}$, con $0 < \alpha < \dfrac{\pi}{2}$ e $0 < \beta < \dfrac{\pi}{2}$, calcola:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin(\alpha - \beta)$
+\item $\cos(\alpha + \beta)$
+\item $\tan(\alpha - \beta)$
+\item $\sin\dfrac{\alpha}{2}$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Entrambi gli angoli sono nel I quadrante: $\cos\alpha=\sqrt{1-\frac{25}{169}}=\dfrac{12}{13}$ e $\sin\beta=\sqrt{1-\frac{144}{169}}=\dfrac{5}{13}$. Si nota che $\sin\alpha=\sin\beta$ e $\cos\alpha=\cos\beta$, cioè $\alpha=\beta$.
+\begin{enumerate}
+\item $\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\dfrac{5}{13}\!\cdot\!\dfrac{12}{13}-\dfrac{12}{13}\!\cdot\!\dfrac{5}{13}=0$ (coerente con $\alpha=\beta$).
+\item $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\dfrac{144-25}{169}=\dfrac{119}{169}$.
+\item $\tan(\alpha-\beta)=\dfrac{\sin(\alpha-\beta)}{\cos(\alpha-\beta)}=0$.
+\item $\dfrac{\alpha}{2}$ è nel I quadrante: $\sin\dfrac{\alpha}{2}=\sqrt{\dfrac{1-\cos\alpha}{2}}=\sqrt{\dfrac{1-\frac{12}{13}}{2}}=\sqrt{\dfrac{1}{26}}=\dfrac{\sqrt{26}}{26}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=1.4, subtitle={Formule di addizione con $\cos\alpha=-3/5$ e $\sin\beta=4/5$}, tags={goniometria, formule di addizione}, difficulty=media]
+Sapendo che $\cos \alpha = -\dfrac{3}{5}$ e $\sin \beta = \dfrac{4}{5}$, con $\dfrac{\pi}{2} < \alpha < \pi$ e $0 < \beta < \dfrac{\pi}{2}$, calcola:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\cos(\alpha - \beta)$
+\item $\sin(\alpha + \beta)$
+\item $\tan(\alpha + \beta)$
+\item $\cos\dfrac{\alpha}{2}$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Quadranti: $\dfrac{\pi}{2}<\alpha<\pi$ (II quadrante) dà $\sin\alpha=\sqrt{1-\frac{9}{25}}=\dfrac45$; $0<\beta<\dfrac{\pi}{2}$ (I quadrante) dà $\cos\beta=\sqrt{1-\frac{16}{25}}=\dfrac35$.
+\begin{enumerate}
+\item $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\Big(\!-\dfrac35\Big)\dfrac35+\dfrac45\!\cdot\!\dfrac45=\dfrac{-9+16}{25}=\dfrac{7}{25}$.
+\item $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac45\!\cdot\!\dfrac35+\Big(\!-\dfrac35\Big)\dfrac45=\dfrac{12-12}{25}=0$.
+\item Poiché $\sin(\alpha+\beta)=0$ e $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\dfrac{-9-16}{25}=-1$, risulta $\alpha+\beta=\pi$ e quindi $\tan(\alpha+\beta)=0$.
+\item $\alpha$ nel II quadrante $\Rightarrow \dfrac{\alpha}{2}$ nel I quadrante, coseno positivo: $\cos\dfrac{\alpha}{2}=\sqrt{\dfrac{1+\cos\alpha}{2}}=\sqrt{\dfrac{1-\frac35}{2}}=\sqrt{\dfrac15}=\dfrac{\sqrt5}{5}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=1.5, subtitle={Formule di addizione con $\sin\alpha=3/5$ e $\cos\beta=-8/17$}, tags={goniometria, formule di addizione}, difficulty=media]
+Sapendo che $\sin \alpha = \dfrac{3}{5}$ e $\cos \beta = -\dfrac{8}{17}$, con $0 < \alpha < \dfrac{\pi}{2}$ e $\pi < \beta < \dfrac{3\pi}{2}$, calcola:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin(\alpha + \beta)$
+\item $\cos(\alpha - \beta)$
+\item $\sin\dfrac{\beta}{2}$
+\item $\tan\dfrac{\alpha}{2}$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Quadranti: $0<\alpha<\dfrac{\pi}{2}$ (I quadrante) dà $\cos\alpha=\sqrt{1-\frac{9}{25}}=\dfrac45$; $\pi<\beta<\dfrac{3\pi}{2}$ (III quadrante) dà $\sin\beta=-\sqrt{1-\frac{64}{289}}=-\dfrac{15}{17}$.
+\begin{enumerate}
+\item $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac35\!\cdot\!\Big(\!-\dfrac{8}{17}\Big)+\dfrac45\!\cdot\!\Big(\!-\dfrac{15}{17}\Big)=\dfrac{-24-60}{85}=-\dfrac{84}{85}$.
+\item $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\dfrac45\!\cdot\!\Big(\!-\dfrac{8}{17}\Big)+\dfrac35\!\cdot\!\Big(\!-\dfrac{15}{17}\Big)=\dfrac{-32-45}{85}=-\dfrac{77}{85}$.
+\item $\beta$ nel III quadrante $\Rightarrow \dfrac{\beta}{2}$ nel II quadrante, seno positivo: $\sin\dfrac{\beta}{2}=\sqrt{\dfrac{1-\cos\beta}{2}}=\sqrt{\dfrac{1+\frac{8}{17}}{2}}=\sqrt{\dfrac{25}{34}}=\dfrac{5\sqrt{34}}{34}$.
+\item $\dfrac{\alpha}{2}$ è nel I quadrante: $\tan\dfrac{\alpha}{2}=\dfrac{1-\cos\alpha}{\sin\alpha}=\dfrac{1-\frac45}{\frac35}=\dfrac{1}{3}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+
+% ===============================
+% Esercizi: Formule di duplicazione
+% ===============================
+
+\begin{question}[ID=2.1, subtitle={Semplificazione con formule di duplicazione e prostaferesi}, tags={goniometria, formule di duplicazione, prostaferesi}, difficulty=facile]
+Semplifica le seguenti espressioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\dfrac{1 + \cos 2\alpha}{\cos \alpha}$
+\item $\sin\!\left(2\alpha + \dfrac{\pi}{4}\right) - \cos\!\left(2\alpha + \dfrac{\pi}{4}\right)$
+\item $\sin 3\alpha + \sin \alpha$
+\item $\cos 5\alpha - \cos 3\alpha$
+\end{enumerate}
+\end{multicols}
+\begin{solution}1) $2\cos\alpha$; 2) $\sqrt{2}\sin 2\alpha$; 3) $2\sin 2\alpha\cos\alpha$; 4) $-2\sin 4\alpha\sin\alpha$\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=2.2, subtitle={Semplificazione con formule di duplicazione (variante)}, tags={goniometria, formule di duplicazione}, difficulty=facile]
+Semplifica le seguenti espressioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\dfrac{1 - \cos 2x}{\sin x}$
+\item $\cos\!\left(x + \dfrac{\pi}{6}\right) + \cos\!\left(x - \dfrac{\pi}{6}\right)$
+\end{enumerate}
+\end{multicols}
+\begin{solution}1) $2\sin x$; 2) $\sqrt{3}\cos x$\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=2.3, subtitle={Semplificazione con duplicazione e prostaferesi}, tags={goniometria, formule di duplicazione, prostaferesi}, difficulty=facile]
+Semplifica le seguenti espressioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\dfrac{\sin 2\theta}{1 + \cos 2\theta}$
+\item $\sin\!\left(\dfrac{3\theta}{2}\right) + \sin\!\left(\dfrac{\theta}{2}\right)$
+\item $\cos\!\left(2\theta - \dfrac{\pi}{3}\right) - \cos\!\left(2\theta + \dfrac{\pi}{3}\right)$
+\item $\sin 5\theta - \sin 3\theta$
+\end{enumerate}
+\end{multicols}
+\begin{solution}1) $\tan\theta$; 2) $2\sin\theta\cos\dfrac{\theta}{2}$; 3) $\sin 3\theta$; 4) $2\cos 4\theta\sin\theta$\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=2.4, subtitle={Semplificazione con duplicazione e prostaferesi (variante)}, tags={goniometria, formule di duplicazione, prostaferesi}, difficulty=facile]
+Semplifica le seguenti espressioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\dfrac{1 - \cos 4x}{\sin 2x}$
+\item $\sin\!\left(x + \dfrac{\pi}{3}\right) + \sin\!\left(x - \dfrac{\pi}{3}\right)$
+\item $\cos 7x - \cos 5x$
+\item $\sin 3x + \sin x$
+\end{enumerate}
+\end{multicols}
+\begin{solution}1) $2\sin 2x$; 2) $\sin x$; 3) $-2\sin 6x\sin x$; 4) $2\sin 2x\cos x$\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=2.5, subtitle={Semplificazione con duplicazione e prostaferesi (terza variante)}, tags={goniometria, formule di duplicazione, prostaferesi}, difficulty=facile]
+Semplifica le seguenti espressioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\dfrac{\cos 2\alpha - 1}{\cos \alpha}$
+\item $\sin\!\left(3\alpha + \dfrac{\pi}{6}\right) + \sin\!\left(3\alpha - \dfrac{\pi}{6}\right)$
+\item $\cos 4\alpha + \cos 2\alpha$
+\item $\sin 6\alpha - \sin 2\alpha$
+\end{enumerate}
+\end{multicols}
+\begin{solution}1) $-2\sin^2\alpha/\cos\alpha$; 2) $\sin 3\alpha$; 3) $2\cos 3\alpha\cos\alpha$; 4) $2\cos 4\alpha\sin 2\alpha$\end{solution}
+\end{question}
+
+% ===============================
+% Esercizi: Formule di Werner e Prostaferesi
+% ===============================
+
+\begin{question}[ID=3.1, subtitle={Formule di Werner e prostaferesi — serie 1}, tags={goniometria, prostaferesi, Werner}, difficulty=media]
+Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\dfrac{\cos x + \cos 3x}{\cos 2x}$
+\item $4 \sin 2x \cdot \cos 3x$
+\item $\sin 4x + \sin 2x$
+\item $\cos 5x - \cos 3x$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+\item Prostaferesi $\cos p+\cos q=2\cos\frac{p+q}{2}\cos\frac{p-q}{2}$: numeratore $\cos x+\cos 3x=2\cos 2x\cos x$, quindi $\dfrac{\cos x+\cos 3x}{\cos 2x}=2\cos x$.
+\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $4\sin 2x\cos 3x=4\cdot\tfrac12[\sin 5x+\sin(-x)]=2\sin 5x-2\sin x$.
+\item $\sin p+\sin q=2\sin\frac{p+q}{2}\cos\frac{p-q}{2}$: $\sin 4x+\sin 2x=2\sin 3x\cos x$.
+\item $\cos p-\cos q=-2\sin\frac{p+q}{2}\sin\frac{p-q}{2}$: $\cos 5x-\cos 3x=-2\sin 4x\sin x$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=3.2, subtitle={Formule di Werner e prostaferesi — serie 2}, tags={goniometria, prostaferesi, Werner}, difficulty=media]
+Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin x + \sin 3x$
+\item $\cos 2x - \cos 4x$
+\item $2 \cos 3x \cdot \cos 2x$
+\item $3 \sin 5x \cdot \cos 2x$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+\item $\sin p+\sin q=2\sin\frac{p+q}{2}\cos\frac{p-q}{2}$: $\sin x+\sin 3x=2\sin 2x\cos x$.
+\item $\cos p-\cos q=-2\sin\frac{p+q}{2}\sin\frac{p-q}{2}$: $\cos 2x-\cos 4x=-2\sin 3x\sin(-x)=2\sin 3x\sin x$.
+\item Werner $\cos A\cos B=\tfrac12[\cos(A-B)+\cos(A+B)]$: $2\cos 3x\cos 2x=\cos x+\cos 5x$.
+\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $3\sin 5x\cos 2x=\tfrac32(\sin 7x+\sin 3x)$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=3.3, subtitle={Formule di Werner e prostaferesi — serie 3}, tags={goniometria, prostaferesi, Werner}, difficulty=media]
+Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin 6x - \sin 2x$
+\item $\cos 7x + \cos 5x$
+\item $\dfrac{1 + \cos 4x}{\cos 2x}$
+\item $\sin 3x \cdot \cos x$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+\item $\sin p-\sin q=2\cos\frac{p+q}{2}\sin\frac{p-q}{2}$: $\sin 6x-\sin 2x=2\cos 4x\sin 2x$.
+\item $\cos p+\cos q=2\cos\frac{p+q}{2}\cos\frac{p-q}{2}$: $\cos 7x+\cos 5x=2\cos 6x\cos x$.
+\item Usando $1+\cos 4x=2\cos^2 2x$: $\dfrac{1+\cos 4x}{\cos 2x}=\dfrac{2\cos^2 2x}{\cos 2x}=2\cos 2x$.
+\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $\sin 3x\cos x=\tfrac12(\sin 4x+\sin 2x)$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=3.4, subtitle={Formule di Werner e prostaferesi — serie 4}, tags={goniometria, prostaferesi, Werner}, difficulty=media]
+Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin 5x + \sin 3x$
+\item $\cos 6x - \cos 2x$
+\item $4 \sin 2x \cdot \cos 5x$
+\item $2 \cos 3x \cdot \cos 4x$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+\item $\sin p+\sin q=2\sin\frac{p+q}{2}\cos\frac{p-q}{2}$: $\sin 5x+\sin 3x=2\sin 4x\cos x$.
+\item $\cos p-\cos q=-2\sin\frac{p+q}{2}\sin\frac{p-q}{2}$: $\cos 6x-\cos 2x=-2\sin 4x\sin 2x$.
+\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $4\sin 2x\cos 5x=2[\sin 7x+\sin(-3x)]=2\sin 7x-2\sin 3x$.
+\item Werner $\cos A\cos B=\tfrac12[\cos(A-B)+\cos(A+B)]$: $2\cos 3x\cos 4x=\cos x+\cos 7x$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=3.5, subtitle={Formule di Werner e prostaferesi — serie 5}, tags={goniometria, prostaferesi, Werner}, difficulty=media]
+Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin 7x - \sin 3x$
+\item $\cos 8x + \cos 4x$
+\item $\dfrac{1 - \cos 6x}{\sin 3x}$
+\item $\sin 2x \cdot \cos 3x$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+\item $\sin p-\sin q=2\cos\frac{p+q}{2}\sin\frac{p-q}{2}$: $\sin 7x-\sin 3x=2\cos 5x\sin 2x$.
+\item $\cos p+\cos q=2\cos\frac{p+q}{2}\cos\frac{p-q}{2}$: $\cos 8x+\cos 4x=2\cos 6x\cos 2x$.
+\item Usando $1-\cos 6x=2\sin^2 3x$: $\dfrac{1-\cos 6x}{\sin 3x}=\dfrac{2\sin^2 3x}{\sin 3x}=2\sin 3x$.
+\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $\sin 2x\cos 3x=\tfrac12[\sin 5x+\sin(-x)]=\tfrac12(\sin 5x-\sin x)$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% ===============================
+% Esercizi: Equazioni
+% ===============================
+
+\begin{question}[ID=4.1, subtitle={Equazioni goniometriche di vario tipo — serie 1}, tags={goniometria, equazioni goniometriche}, difficulty=media]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\cos \ x = \dfrac{-\sqrt{2}}{2}$
+\item $\tan \Big( 2x + \dfrac{\pi}{4}\Big) = \sqrt{3}$
+\item $\sin \Big(\pi - x \Big) = \cos \Big(x -\pi\Big)$
+\item $2 \cos^2x - 3\cos \ x +1 = 0$
+\item $\sqrt{3} \sin^2 x - \sin \ x \cdot \cos \ x = 0$
+\item $\sin \ x - \sqrt{3} \cos \ x = 2$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Le soluzioni sono date a meno di periodicità, con $k\in\mathbb{Z}$.
+\begin{enumerate}
+\item $\cos x=-\dfrac{\sqrt2}{2}\Rightarrow x=\pm\dfrac{3\pi}{4}+2k\pi$.
+\item $\tan\!\Big(2x+\dfrac{\pi}{4}\Big)=\sqrt3\Rightarrow 2x+\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi\Rightarrow x=\dfrac{\pi}{24}+\dfrac{k\pi}{2}$.
+\item $\sin(\pi-x)=\sin x$ e $\cos(x-\pi)=-\cos x$, quindi $\sin x=-\cos x\Rightarrow \tan x=-1\Rightarrow x=-\dfrac{\pi}{4}+k\pi$.
+\item Posto $c=\cos x$: $2c^2-3c+1=0\Rightarrow(2c-1)(c-1)=0$. Da $\cos x=\dfrac12$, $x=\pm\dfrac{\pi}{3}+2k\pi$; da $\cos x=1$, $x=2k\pi$.
+\item Raccolgo $\sin x$: $\sin x(\sqrt3\sin x-\cos x)=0$. Da $\sin x=0$, $x=k\pi$; da $\tan x=\dfrac{1}{\sqrt3}$, $x=\dfrac{\pi}{6}+k\pi$.
+\item Combinazione lineare: $\sin x-\sqrt3\cos x=2\sin\!\Big(x-\dfrac{\pi}{3}\Big)=2\Rightarrow \sin\!\Big(x-\dfrac{\pi}{3}\Big)=1\Rightarrow x=\dfrac{5\pi}{6}+2k\pi$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=4.2, subtitle={Equazioni goniometriche con duplicazione — serie 2}, tags={goniometria, equazioni goniometriche}, difficulty=media]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $2 \sin x  \cos x= \dfrac{1}{2}$
+\item $\cos(2x - \pi/3) = -\dfrac{1}{2}$
+\item $\tan\Big(x + \dfrac{\pi}{6}\Big) = \sqrt{3}$
+\item $2 \sin^2 x - \sin x - 1 = 0$
+\item $\sqrt{3} \sin x + \cos x + 1 = 0 $
+\item $\sin x + \sqrt{3} \cos x = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Con $k\in\mathbb{Z}$:
+\begin{enumerate}
+\item $2\sin x\cos x=\sin 2x=\dfrac12\Rightarrow 2x=\dfrac{\pi}{6}+2k\pi$ oppure $2x=\dfrac{5\pi}{6}+2k\pi\Rightarrow x=\dfrac{\pi}{12}+k\pi$ o $x=\dfrac{5\pi}{12}+k\pi$.
+\item $\cos\!\Big(2x-\dfrac{\pi}{3}\Big)=-\dfrac12\Rightarrow 2x-\dfrac{\pi}{3}=\pm\dfrac{2\pi}{3}+2k\pi\Rightarrow x=\dfrac{\pi}{2}+k\pi$ o $x=-\dfrac{\pi}{6}+k\pi$.
+\item $\tan\!\Big(x+\dfrac{\pi}{6}\Big)=\sqrt3\Rightarrow x+\dfrac{\pi}{6}=\dfrac{\pi}{3}+k\pi\Rightarrow x=\dfrac{\pi}{6}+k\pi$.
+\item Posto $s=\sin x$: $2s^2-s-1=0\Rightarrow(2s+1)(s-1)=0$. Da $\sin x=1$, $x=\dfrac{\pi}{2}+2k\pi$; da $\sin x=-\dfrac12$, $x=-\dfrac{\pi}{6}+2k\pi$ o $x=\dfrac{7\pi}{6}+2k\pi$.
+\item $\sqrt3\sin x+\cos x+1=2\sin\!\Big(x+\dfrac{\pi}{6}\Big)+1=0\Rightarrow\sin\!\Big(x+\dfrac{\pi}{6}\Big)=-\dfrac12\Rightarrow x=-\dfrac{\pi}{3}+2k\pi$ o $x=\pi+2k\pi$.
+\item $\sin x+\sqrt3\cos x=0\Rightarrow\tan x=-\sqrt3\Rightarrow x=-\dfrac{\pi}{3}+k\pi$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=4.3, subtitle={Equazioni goniometriche elementari}, tags={goniometria, equazioni goniometriche}, difficulty=facile]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\cos x = \dfrac{1}{2}$
+\item $\sin(3x - \pi/4) = -\dfrac{\sqrt{2}}{2}$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Con $k\in\mathbb{Z}$:
+\begin{enumerate}
+\item $\cos x=\dfrac12\Rightarrow x=\pm\dfrac{\pi}{3}+2k\pi$.
+\item $\sin\!\Big(3x-\dfrac{\pi}{4}\Big)=-\dfrac{\sqrt2}{2}$. Le soluzioni di $\sin\theta=-\dfrac{\sqrt2}{2}$ sono $\theta=-\dfrac{\pi}{4}+2k\pi$ e $\theta=\dfrac{5\pi}{4}+2k\pi$. Quindi $3x=2k\pi\Rightarrow x=\dfrac{2k\pi}{3}$, oppure $3x=\dfrac{3\pi}{2}+2k\pi\Rightarrow x=\dfrac{\pi}{2}+\dfrac{2k\pi}{3}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=4.4, subtitle={Equazioni goniometriche con duplicazione — serie 4}, tags={goniometria, equazioni goniometriche}, difficulty=media]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin 2x = \dfrac{\sqrt{3}}{2}$
+\item $\cos(3x + \pi/6) = \dfrac{1}{2}$
+\item $\tan(x - \pi/3) = -\sqrt{3}$
+\item $2 \cos^2 x - 1 = 0$
+\item $\sin x \cos x = \dfrac{1}{4}$
+\item $\sin x - \cos x = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Con $k\in\mathbb{Z}$:
+\begin{enumerate}
+\item $\sin 2x=\dfrac{\sqrt3}{2}\Rightarrow 2x=\dfrac{\pi}{3}+2k\pi$ o $2x=\dfrac{2\pi}{3}+2k\pi\Rightarrow x=\dfrac{\pi}{6}+k\pi$ o $x=\dfrac{\pi}{3}+k\pi$.
+\item $\cos\!\Big(3x+\dfrac{\pi}{6}\Big)=\dfrac12\Rightarrow 3x+\dfrac{\pi}{6}=\pm\dfrac{\pi}{3}+2k\pi\Rightarrow x=\dfrac{\pi}{18}+\dfrac{2k\pi}{3}$ o $x=-\dfrac{\pi}{6}+\dfrac{2k\pi}{3}$.
+\item $\tan\!\Big(x-\dfrac{\pi}{3}\Big)=-\sqrt3\Rightarrow x-\dfrac{\pi}{3}=-\dfrac{\pi}{3}+k\pi\Rightarrow x=k\pi$.
+\item $2\cos^2x-1=\cos 2x=0\Rightarrow 2x=\dfrac{\pi}{2}+k\pi\Rightarrow x=\dfrac{\pi}{4}+\dfrac{k\pi}{2}$.
+\item $\sin x\cos x=\dfrac12\sin 2x=\dfrac14\Rightarrow\sin 2x=\dfrac12\Rightarrow x=\dfrac{\pi}{12}+k\pi$ o $x=\dfrac{5\pi}{12}+k\pi$.
+\item $\sin x-\cos x=0\Rightarrow\tan x=1\Rightarrow x=\dfrac{\pi}{4}+k\pi$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+% -------------------------------
+
+\begin{question}[ID=4.5, subtitle={Equazioni goniometriche miste — serie 5}, tags={goniometria, equazioni goniometriche}, difficulty=media]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\cos x = 0$
+\item $\sin(2x + \pi/3) = -\dfrac{1}{2}$
+\item $\tan(3x) = \sqrt{3}$
+\item $3 \sin^2 x - 1 = 0$
+\item $2 \cos^2 x - \sin x = 0$
+\item $\sin x + 2 \cos x = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+Con $k\in\mathbb{Z}$:
+\begin{enumerate}
+\item $\cos x=0\Rightarrow x=\dfrac{\pi}{2}+k\pi$.
+\item $\sin\!\Big(2x+\dfrac{\pi}{3}\Big)=-\dfrac12\Rightarrow 2x+\dfrac{\pi}{3}=-\dfrac{\pi}{6}+2k\pi$ o $=\dfrac{7\pi}{6}+2k\pi\Rightarrow x=-\dfrac{\pi}{4}+k\pi$ o $x=\dfrac{5\pi}{12}+k\pi$.
+\item $\tan 3x=\sqrt3\Rightarrow 3x=\dfrac{\pi}{3}+k\pi\Rightarrow x=\dfrac{\pi}{9}+\dfrac{k\pi}{3}$.
+\item $3\sin^2x-1=0\Rightarrow\sin x=\pm\dfrac{\sqrt3}{3}\Rightarrow x=k\pi\pm\arcsin\dfrac{\sqrt3}{3}$ (con $\arcsin\dfrac{\sqrt3}{3}\approx 35{,}3^\circ$).
+\item $2\cos^2x-\sin x=0\Rightarrow 2(1-\sin^2x)-\sin x=0\Rightarrow 2\sin^2x+\sin x-2=0\Rightarrow\sin x=\dfrac{-1+\sqrt{17}}{4}\approx 0{,}781$ (l'altra radice è $<-1$). Quindi $x\approx 51{,}3^\circ+2k\pi$ o $x\approx 128{,}7^\circ+2k\pi$.
+\item $\sin x+2\cos x=0\Rightarrow\tan x=-2\Rightarrow x=k\pi-\arctan 2$ (con $\arctan 2\approx 63{,}4^\circ$).
+\end{enumerate}
+\end{solution}
+\end{question}
+
+
+\begin{question}[ID=fac.1, subtitle={Interferenza di onde: sovrapposizione e ampiezza}, tags={goniometria, fisica, interferenza}, difficulty=difficile]
+\textbf{FAC)} In un ondoscopio due sorgenti d'onda $S_1$ e $S_2$ producono onde con la stessa ampiezza $A$, lo stesso periodo $T$ e la stessa lunghezza d'onda $\lambda$.
+Lo spostamento trasversale che ognuna di esse produce è descritto dalle funzioni d'onda:
+\[
+y_1 = A \sin \left[ 2\pi \left( \frac{x_1}{\lambda} - \frac{t}{T} \right) \right], \qquad
+y_2 = A \sin \left[ 2\pi \left( \frac{x_2}{\lambda} - \frac{t}{T} \right) \right]
+\]
+dove $x_1$ e $x_2$ rappresentano i cammini percorsi dalle due onde.
+In un punto $P$ dell'ondoscopio le due onde si sovrappongono.
+
+\begin{enumerate}[label=\alph*)]
+  \item Dimostra che la sovrapposizione è un'onda e che l'ampiezza non dipende dal tempo
+  \item Poni $\Delta x = x_1 - x_2$ e dimostra che l'ampiezza del moto è $0$ quando
+  \[
+  \Delta x = (2n + 1)\frac{\lambda}{2}, \qquad n \in \mathbb{Z},
+  \]
+  mentre è uguale a $2A$
+  quando $\Delta x = n\lambda$.
+\end{enumerate}
+\begin{solution}
+\textbf{a)} Posto $\theta_i=2\pi\Big(\dfrac{x_i}{\lambda}-\dfrac{t}{T}\Big)$, la sovrapposizione è $y=y_1+y_2=A(\sin\theta_1+\sin\theta_2)$. Per la prostaferesi $\sin\theta_1+\sin\theta_2=2\sin\dfrac{\theta_1+\theta_2}{2}\cos\dfrac{\theta_1-\theta_2}{2}$:
+\[
+y=2A\cos\!\Big(\dfrac{\pi\,\Delta x}{\lambda}\Big)\,\sin\!\Big[2\pi\Big(\dfrac{x_1+x_2}{2\lambda}-\dfrac{t}{T}\Big)\Big],
+\]
+dove si è usato $\dfrac{\theta_1-\theta_2}{2}=\dfrac{\pi(x_1-x_2)}{\lambda}=\dfrac{\pi\,\Delta x}{\lambda}$. Si tratta ancora di un'onda sinusoidale di periodo $T$, la cui ampiezza $\Big|2A\cos\dfrac{\pi\,\Delta x}{\lambda}\Big|$ dipende solo dalla differenza di cammino $\Delta x$ e \emph{non} dal tempo.
+
+\textbf{b)} L'ampiezza si annulla quando $\cos\dfrac{\pi\,\Delta x}{\lambda}=0$, cioè $\dfrac{\pi\,\Delta x}{\lambda}=\dfrac{\pi}{2}+n\pi$, da cui $\Delta x=(2n+1)\dfrac{\lambda}{2}$ (interferenza distruttiva). È massima e pari a $2A$ quando $\Big|\cos\dfrac{\pi\,\Delta x}{\lambda}\Big|=1$, cioè $\dfrac{\pi\,\Delta x}{\lambda}=n\pi$, da cui $\Delta x=n\lambda$ (interferenza costruttiva).
+\end{solution}
+\end{question}

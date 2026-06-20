@@ -1,0 +1,42 @@
+\begin{question}[ID=1.1, subtitle={Punti di non derivabilità di $f(x)=\sqrt[3]{x^3-3x^2}$}, tags={non derivabilità, studio di funzione}, difficulty=media]
+Studia la natura degli eventuali punti di non derivabilità della seguente funzione:
+\begin{equation*}
+    f(x) = \sqrt[3]{x^3-3x^2}
+\end{equation*}
+\begin{solution}
+$f'(x)=\dfrac{x-2}{x^{1/3}(x-3)^{2/3}}$. In $x=0$: $f'(0^{\pm})=\mp\infty$ (cuspide). In $x=3$: $f'(3^{\pm})=+\infty$ (tangente verticale).
+\end{solution}
+\end{question}
+
+%-------------------------------------------------------%
+
+\begin{question}[ID=1.2, subtitle={Punti di non derivabilità di $f(x)=\sqrt{1-\cos x}$}, tags={non derivabilità, studio di funzione}, difficulty=media]
+Studia la natura degli eventuali punti di non derivabilità della seguente funzione:
+\begin{equation*}
+    f(x) = \sqrt{1-\cos x}
+\end{equation*}
+\begin{solution}
+$f(x)=\sqrt{2}\,|\!\sin(x/2)|$. Nei punti $x=2k\pi$: derivata sinistra $-\dfrac{\sqrt{2}}{2}$, destra $+\dfrac{\sqrt{2}}{2}$ (punto angoloso).
+\end{solution}
+\end{question}
+
+%-------------------------------------------------------%
+
+\begin{question}[ID=2.1, subtitle={Continuità e derivabilità di $f$ a tratti con parametro $k$}, tags={non derivabilità, continuità, parametrico}, difficulty=media]
+Considera la funzione
+\[
+f(x) = \begin{cases}
+    x-3 & x \le 4 \\
+    \sqrt[3]{k-x} & x > 4
+\end{cases}
+\]
+\begin{enumerate}
+    \item Determina $k$ in modo che sia continua in $\mathbb{R}$.
+    \item Traccia il grafico della funzione in corrispondenza del valore di $k$ trovato e stabilisci se è derivabile in $\mathbb{R}$; in caso negativo, studia la natura dei punti di non derivabilità.
+\end{enumerate}
+\begin{solution}
+1) Continuità in $x=4$: $1=(k-4)^{1/3} \Rightarrow k=5$. 2) $f'(4^-)=1$, $f'(4^+)=-\tfrac{1}{3}$: punto angoloso in $x=4$.
+\end{solution}
+\end{question}
+
+%-------------------------------------------------------%

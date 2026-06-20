@@ -1,0 +1,563 @@
+%====================================================%
+% SEZIONE 1: CARATTERISTICHE DELLE ONDE
+%====================================================%
+\begin{question}[ID=1.1, subtitle={Ultrasuoni del delfino — lunghezza d'onda e profondità piscina}, tags={onde, lunghezza d'onda, eco}, difficulty=facile]
+Un delfino emette ultrasuoni in acqua a $v_{acqua} = 1480\ \mathrm{m/s}$ con frequenza $f = 2{,}5\times10^5\ \mathrm{Hz}$.
+\begin{enumerate}
+\item Calcola la lunghezza d'onda in acqua.
+\item Calcola la lunghezza d'onda in aria ($v_{aria} = 343\ \mathrm{m/s}$).
+\item Quanto è profonda la piscina se il delfino riceve l'eco con ritardo $\Delta t = 0{,}03\ \mathrm{s}$?
+\end{enumerate}
+\begin{solution}
+La relazione fondamentale delle onde lega lunghezza d'onda, velocità e frequenza: $\lambda = v/f$. A parità di frequenza, la lunghezza d'onda dipende dal mezzo attraverso la velocità di propagazione.
+\begin{enumerate}
+\item In acqua: $\lambda_{acqua} = v_{acqua}/f = 1480/(2{,}5\times10^5) = 5{,}92\times10^{-3}\ \mathrm{m} = \mathbf{5{,}92\ \mathrm{mm}}$.
+\item In aria, dove il suono è più lento, la lunghezza d'onda è minore: $\lambda_{aria} = 343/(2{,}5\times10^5) = 1{,}37\times10^{-3}\ \mathrm{m} = \mathbf{1{,}37\ \mathrm{mm}}$.
+\item L'eco percorre due volte la profondità (andata e ritorno), quindi $d = v_{acqua}\,\Delta t/2 = 1480\cdot0{,}03/2 = \mathbf{22{,}2\ \mathrm{m}}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=1.4, subtitle={Onda meccanica su corda — parametri dalla equazione}, tags={onde, caratteristiche}, difficulty=media]
+Un'onda meccanica si propaga con equazione
+\[ y(x,t) = 0{,}015 \sin(25\pi t - 0{,}5\pi x) \]
+dove $x$ è in metri e $t$ in secondi.
+\begin{enumerate}
+\item Determina lunghezza d'onda, frequenza e velocità di propagazione.
+\item Calcola pulsazione e numero d'onda.
+\item Qual è lo spostamento del punto $x = 1{,}0\ \mathrm{m}$ a $t = 0{,}10\ \mathrm{s}$?
+\end{enumerate}
+\begin{solution}
+Confrontiamo l'equazione data con la forma generale $y = A\sin(\omega t - kx)$: il coefficiente di $t$ è la pulsazione $\omega$, quello di $x$ è il numero d'onda $k$.
+\begin{enumerate}
+\item Da $\omega = 25\pi\ \mathrm{rad/s}$ si ottiene $f = \omega/2\pi = 12{,}5\ \mathrm{Hz}$; da $k = 0{,}5\pi\ \mathrm{rad/m}$ si ottiene $\lambda = 2\pi/k = 4{,}0\ \mathrm{m}$; quindi $v = f\lambda = \mathbf{50\ \mathrm{m/s}}$.
+\item Riepilogando i due parametri letti direttamente: $\omega = 25\pi \approx 78{,}5\ \mathrm{rad/s}$ e $k = 0{,}5\pi \approx 1{,}571\ \mathrm{rad/m}$.
+\item Sostituiamo posizione e tempo nell'equazione; l'argomento risulta multiplo di $2\pi$, dove il seno si annulla:
+\[
+y(1{,}0;\ 0{,}10) = 0{,}015\sin(2{,}5\pi - 0{,}5\pi) = 0{,}015\sin(2\pi) = \mathbf{0\ \mathrm{m}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=1.5, subtitle={Onda longitudinale — frequenza, lunghezza d'onda e tempo per 5λ}, tags={onde, velocità, periodo}, difficulty=media]
+Un'onda longitudinale si propaga in un gas con $v = 340\ \mathrm{m/s}$ e $T = 2{,}5\times10^{-3}\ \mathrm{s}$.
+\begin{enumerate}
+\item Calcola la frequenza e la lunghezza d'onda.
+\item In quanti millisecondi l'onda percorre una distanza pari a $5\lambda$?
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item La frequenza è l'inverso del periodo e la lunghezza d'onda segue da $\lambda = v/f$:
+\[
+f = 1/T = 400\ \mathrm{Hz}, \qquad \lambda = v/f = 340/400 = \mathbf{0{,}85\ \mathrm{m}}.
+\]
+\item Il tempo per percorrere una distanza è spazio diviso velocità; qui lo spazio è $5\lambda$:
+\[
+t = \frac{5\lambda}{v} = \frac{5\cdot 0{,}85}{340} = 0{,}0125\ \mathrm{s} = \mathbf{12{,}5\ \mathrm{ms}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=1.6, subtitle={Onda trasversale su corda — velocità e potenza media}, tags={onde, energia, potenza}, difficulty=difficile]
+Un'onda trasversale su corda: ampiezza $A = 3{,}0\ \mathrm{cm}$, frequenza $f = 5{,}0\ \mathrm{Hz}$, densità lineare $\mu = 0{,}02\ \mathrm{kg/m}$, tensione $F_T = 50\ \mathrm{N}$.
+\begin{enumerate}
+\item Determina la velocità di propagazione e la lunghezza d'onda.
+\item Calcola la potenza media trasportata.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item La velocità di un'onda su una corda dipende dalla tensione e dalla densità lineare, $v = \sqrt{F_T/\mu}$; la lunghezza d'onda segue da $\lambda = v/f$:
+\[
+v = \sqrt{\frac{F_T}{\mu}} = \sqrt{\frac{50}{0{,}02}} = \mathbf{50\ \mathrm{m/s}}, \qquad \lambda = \frac{v}{f} = \frac{50}{5} = \mathbf{10\ \mathrm{m}}.
+\]
+\item La potenza media trasportata da un'onda armonica è $P = \tfrac{1}{2}\mu\omega^2 A^2 v$, con $\omega = 2\pi f = 10\pi\ \mathrm{rad/s}$:
+\[
+P = \tfrac{1}{2}\cdot 0{,}02\cdot(10\pi)^2\cdot(0{,}03)^2\cdot 50 \approx \mathbf{0{,}444\ \mathrm{W}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+
+
+%====================================================%
+% SEZIONE 2: ECO E RIFLESSIONE DEL SUONO
+%====================================================%
+\begin{question}[ID=2.1, subtitle={Ecolocalizzazione del pipistrello}, tags={onde, eco, ultrasuoni}, difficulty=facile]
+Un pipistrello emette ultrasuoni a $f = 2{,}5\times10^5\ \mathrm{Hz}$ in aria.
+\begin{enumerate}
+\item Calcola la lunghezza d'onda in aria.
+\item Quanto è distante un muro se l'eco torna con ritardo $\Delta t = 0{,}03\ \mathrm{s}$?
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item La lunghezza d'onda in aria si ricava da $\lambda = v/f$: $\lambda = 343/(2{,}5\times10^5) \approx \mathbf{1{,}37\ \mathrm{mm}}$.
+\item L'eco copre due volte la distanza dal muro (andata e ritorno), quindi $d = v\,\Delta t/2 = 343\cdot 0{,}03/2 \approx \mathbf{5{,}1\ \mathrm{m}}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=2.2, subtitle={Eco in teatro da parete a 45 m}, tags={eco, suono, riflessione}, difficulty=facile]
+Un suono viene riflesso da una parete a $45\ \mathrm{m}$.
+\begin{enumerate}
+\item Dopo quanto tempo si percepisce l'eco? ($v_{suono} = 343\ \mathrm{m/s}$)
+\item Il suono riflesso può essere distinto dal diretto?
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Il suono deve raggiungere la parete e tornare indietro, percorrendo $2d$:
+\[
+t = \frac{2d}{v} = \frac{90}{343} \approx \mathbf{0{,}26\ \mathrm{s}}.
+\]
+\item L'orecchio distingue due suoni separati se il ritardo supera circa $0{,}1\ \mathrm{s}$. Poiché $0{,}26\ \mathrm{s} > 0{,}1\ \mathrm{s}$, \textbf{sì}, l'eco è chiaramente distinguibile dal suono diretto.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=2.3, subtitle={Eco in montagna — distanza dalla parete rocciosa}, tags={eco, distanza}, difficulty=media]
+Un escursionista sente l'eco dopo $\Delta t = 0{,}75\ \mathrm{s}$.
+\begin{enumerate}
+\item Distanza della parete rocciosa a $15\ ^\circ\mathrm{C}$.
+\item Come varia il ritardo se la temperatura sale a $25\ ^\circ\mathrm{C}$?
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item La velocità del suono cresce con la temperatura secondo $v = 331 + 0{,}6\,T$. A $15\ ^\circ\mathrm{C}$ vale $v = 340\ \mathrm{m/s}$; poiché l'eco percorre $2d$, la distanza è
+\[
+d = \frac{v\,\Delta t}{2} = \frac{340\cdot 0{,}75}{2} = \mathbf{127{,}5\ \mathrm{m}}.
+\]
+\item A $25\ ^\circ\mathrm{C}$ il suono è più veloce ($v' = 331 + 0{,}6\cdot 25 = 346\ \mathrm{m/s}$), quindi il viaggio dura meno: $\Delta t' = 2d/v' = 255/346 \approx 0{,}737\ \mathrm{s}$. Il ritardo \textbf{diminuisce} di circa $0{,}013\ \mathrm{s}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=2.4, subtitle={Sonar — profondità del fondale e variazione con acqua salata}, tags={eco, sonar, acqua}, difficulty=difficile]
+Un sonar riceve il segnale riflesso dopo $\Delta t = 1{,}8\ \mathrm{s}$. $v_{acqua} = 1500\ \mathrm{m/s}$.
+Se l'acqua è salata e la velocità aumenta del 3\%, quanto cambia la stima della profondità?
+\begin{solution}
+Il segnale del sonar percorre due volte la profondità (andata e ritorno), quindi $d = v\,\Delta t/2$:
+\[
+d = \frac{1500\cdot 1{,}8}{2} = \mathbf{1350\ \mathrm{m}}.
+\]
+Se l'acqua salata rende il suono più veloce del 3\% ($v' = 1545\ \mathrm{m/s}$), a parità di tempo misurato la profondità stimata cresce nella stessa proporzione:
+\[
+d' = \frac{1545\cdot 1{,}8}{2} = 1390{,}5\ \mathrm{m},
+\]
+cioè $1390{,}5 - 1350 = \mathbf{40{,}5\ \mathrm{m}}$ in più. Non tenere conto della salinità introduce quindi un errore sistematico.
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=2.5, subtitle={Misura della velocità del suono con impulso riflesso}, tags={eco, riflessione, velocità}, difficulty=media]
+Un tecnico invia un impulso verso una parete a distanza ignota. Il segnale torna dopo $\Delta t = 0{,}12\ \mathrm{s}$. La distanza reale è $20{,}4\ \mathrm{m}$. Determina la velocità del suono.
+\begin{solution}
+L'impulso percorre la distanza dalla parete due volte (andata e ritorno) nel tempo $\Delta t$, quindi la velocità è lo spazio totale $2d$ diviso il tempo:
+\[
+v = \frac{2d}{\Delta t} = \frac{2\cdot 20{,}4}{0{,}12} = \mathbf{340\ \mathrm{m/s}}.
+\]
+\end{solution}
+\end{question}
+
+%====================================================%
+% SEZIONE 3: EFFETTO DOPPLER
+%====================================================%
+\begin{question}[ID=3.1, subtitle={Pedone che si avvicina e allontana da ambulanza ferma}, tags={effetto doppler, suono}, difficulty=facile]
+Un pedone corre a $v_p = 2\ \mathrm{m/s}$. Un'ambulanza ferma emette $f = 1{,}25\times10^3\ \mathrm{Hz}$.
+\begin{enumerate}
+\item Frequenza percepita avvicinandosi.
+\item Frequenza percepita allontanandosi.
+\end{enumerate}
+\begin{solution}
+Qui la sorgente è ferma e si muove l'osservatore: la formula di Doppler è $f' = f\,(v \pm v_p)/v$, con il segno $+$ in avvicinamento (frequenza maggiore) e $-$ in allontanamento.
+\begin{enumerate}
+\item Avvicinandosi ($+$): $f' = f(v+v_p)/v = 1250\cdot 345/343 \approx \mathbf{1257\ \mathrm{Hz}}$.
+\item Allontanandosi ($-$): $f' = f(v-v_p)/v = 1250\cdot 341/343 \approx \mathbf{1243\ \mathrm{Hz}}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=3.2, subtitle={Motociclista che si avvicina a un semaforo}, tags={effetto doppler, suono}, difficulty=media]
+Un motociclista suona il clacson ($f_s = 600\ \mathrm{Hz}$) viaggiando a $v_s = 25\ \mathrm{m/s}$. $v_{suono} = 340\ \mathrm{m/s}$.
+\begin{enumerate}
+\item Frequenza percepita da un pedone davanti alla moto.
+\item Frequenza percepita da un pedone dietro.
+\end{enumerate}
+\begin{solution}
+Qui a muoversi è la sorgente: la formula di Doppler ha la velocità della sorgente al denominatore, $f' = f\,v/(v \mp v_s)$, con segno $-$ davanti (la moto si avvicina, frequenza maggiore) e $+$ dietro.
+\begin{enumerate}
+\item Pedone davanti, la moto si avvicina: $f' = f\,v/(v-v_s) = 600\cdot 340/315 \approx \mathbf{648\ \mathrm{Hz}}$.
+\item Pedone dietro, la moto si allontana: $f' = f\,v/(v+v_s) = 600\cdot 340/365 \approx \mathbf{559\ \mathrm{Hz}}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=3.3, subtitle={Pedone che si avvicina a ambulanza ferma}, tags={doppler inverso}, difficulty=media]
+Un'ambulanza ferma emette $f = 1{,}2\times10^3\ \mathrm{Hz}$. Un pedone si muove verso di essa a $v_p = 4\ \mathrm{m/s}$.
+\begin{enumerate}
+\item Frequenza percepita.
+\item Variazione percentuale rispetto alla frequenza reale.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item L'osservatore si muove verso la sorgente ferma, quindi vale $f' = f(v+v_p)/v$ (avvicinamento, frequenza maggiore):
+\[
+f' = 1200\cdot\frac{347}{343} \approx \mathbf{1214\ \mathrm{Hz}}.
+\]
+\item La variazione percentuale rispetto alla frequenza emessa è
+\[
+\Delta f\% = \frac{1214-1200}{1200}\cdot 100 \approx \mathbf{1{,}17\%}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=3.4, subtitle={Sorgente e osservatore in moto nella stessa direzione}, tags={doppler, osservatore e sorgente mobili}, difficulty=difficile]
+Un'auto (sorgente) si muove a $v_s = 30\ \mathrm{m/s}$ verso un osservatore che si muove a $v_o = 10\ \mathrm{m/s}$ nella stessa direzione; l'auto, più veloce, sta raggiungendo l'osservatore. La sorgente emette a $f_s = 800\ \mathrm{Hz}$ e la velocità del suono è $v_{suono} = 340\ \mathrm{m/s}$. Determina la frequenza percepita dall'osservatore.
+\begin{solution}
+Applichiamo la formula dell'effetto Doppler nel caso in cui sia la sorgente sia l'osservatore sono in moto. La sorgente si avvicina (denominatore $v - v_s$), mentre l'osservatore si allontana dalla sorgente perché viaggia nello stesso verso (numeratore $v - v_o$):
+\[
+f' = f_s\cdot\frac{v - v_o}{v - v_s} = 800\cdot\frac{340-10}{340-30} = 800\cdot\frac{330}{310} \approx \mathbf{852\ \mathrm{Hz}}.
+\]
+La frequenza percepita è più alta di quella emessa: l'avvicinamento della sorgente prevale sull'allontanamento dell'osservatore.
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=3.5, subtitle={Treno in arrivo: ricavare la velocità del suono dai battimenti}, tags={doppler, avvicinamento e allontanamento}, difficulty=media]
+Un treno si muove a $v = 20\ \mathrm{m/s}$ ed emette un fischio di frequenza propria $f = 850\ \mathrm{Hz}$. Dopo che il treno è passato e si allontana, un osservatore fermo percepisce la frequenza scendere a $800\ \mathrm{Hz}$. Ricava da questi dati la velocità del suono nell'aria.
+\begin{solution}
+Quando la sorgente si allontana dall'osservatore fermo, la frequenza percepita è
+\[
+f'' = f\cdot\frac{v_{suono}}{v_{suono}+v} = 800\ \mathrm{Hz}.
+\]
+Sostituiamo i valori noti e risolviamo rispetto a $v_{suono}$:
+\[
+\frac{v_{suono}}{v_{suono}+20} = \frac{800}{850} = \frac{16}{17}
+\;\Rightarrow\;
+17\,v_{suono} = 16\,v_{suono} + 320
+\;\Rightarrow\;
+v_{suono} = \mathbf{320\ \mathrm{m/s}}.
+\]
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=3.6, subtitle={Auto che si avvicina a una parete: battimenti tra segnale diretto e riflesso}, tags={doppler, avvicinamento e allontanamento}, difficulty=media]
+Un'auto si avvicina a una parete a $v_{auto} = 43{,}2\ \mathrm{km/h} = 12\ \mathrm{m/s}$ emettendo $f = 200\ \mathrm{Hz}$; $v_{suono} = 340\ \mathrm{m/s}$.
+\begin{enumerate}
+    \item Frequenza con cui le onde colpiscono la parete.
+    \item Lunghezza d'onda davanti all'automobile.
+    \item Frequenza dell'onda riflessa percepita dall'autista.
+    \item Frequenza dei battimenti.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Sorgente (auto) si avvicina a parete ferma: $f_1 = f\cdot v/(v-v_{auto}) = 200\cdot340/328 \approx \mathbf{207{,}3\ \mathrm{Hz}}$.
+\item $\lambda = (v-v_{auto})/f = 328/200 = \mathbf{1{,}64\ \mathrm{m}}$.
+\item La parete riflette con $f_1 = 207{,}3\ \mathrm{Hz}$; l'autista (osservatore) si avvicina: $f_{ris} = f_1(v+v_{aut})/v = 207{,}3\cdot352/340 \approx \mathbf{214{,}6\ \mathrm{Hz}}$.
+\item $f_{bat} = |f_{ris} - f| = 214{,}6 - 200 \approx \mathbf{14{,}6\ \mathrm{Hz}}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%====================================================%
+% SEZIONE 4: BATTIMENTI
+%====================================================%
+
+\begin{question}[ID=4.2, subtitle={Battimenti tra due diapason a 440 e 445 Hz}, tags={battimenti, interferenza}, difficulty=facile]
+Due diapason producono $f_1 = 440\ \mathrm{Hz}$ e $f_2 = 445\ \mathrm{Hz}$.
+\begin{enumerate}
+\item Frequenza dei battimenti.
+\item Massimi di intensità in $10\ \mathrm{s}$.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Due suoni di frequenza vicina danno battimenti la cui frequenza è il valore assoluto della differenza: $f_{bat} = |f_2 - f_1| = \mathbf{5\ \mathrm{Hz}}$.
+\item Ogni battimento corrisponde a un massimo di intensità; in $10\ \mathrm{s}$ se ne contano $N = f_{bat}\cdot t = 5\cdot 10 = \mathbf{50}$.
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=4.3, subtitle={Onda risultante da due frequenze quasi uguali}, tags={battimenti, fase}, difficulty=media]
+Due onde con $A = 2{,}0\ \mathrm{mm}$, $f_1 = 500\ \mathrm{Hz}$ e $f_2 = 503\ \mathrm{Hz}$. Scrivi l'onda risultante e la frequenza della modulazione d'ampiezza.
+\begin{solution}
+Sommando due onde di uguale ampiezza e frequenze vicine, con le formule di prostaferesi si ottiene il prodotto di una rapida oscillazione alla frequenza media $\bar{f}$ per una lenta modulazione d'ampiezza alla frequenza $\Delta f/2$. Con $\Delta f = 3\ \mathrm{Hz}$ e $\bar{f} = 501{,}5\ \mathrm{Hz}$:
+\[
+y_{ris}(t) = 2A\cos(\pi\Delta f\,t)\sin(2\pi\bar{f}\,t) = 4{,}0\,\mathrm{mm}\cdot\cos(3\pi t)\cdot\sin(1003\pi t).
+\]
+La modulazione d'ampiezza ha quindi frequenza $f_{mod} = \Delta f/2 = \mathbf{1{,}5\ \mathrm{Hz}}$ (mentre i battimenti udibili, che corrispondono ai massimi di volume, hanno frequenza $\Delta f = 3\ \mathrm{Hz}$).
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=4.4, subtitle={Corda del pianoforte leggermente scordato rispetto al diapason}, tags={battimenti, strumenti musicali}, difficulty=media]
+Un diapason da $440\ \mathrm{Hz}$ produce $3$ battimenti al secondo con una corda del pianoforte. Determina le due possibili frequenze della corda.
+\begin{solution}
+La frequenza dei battimenti è il valore assoluto della differenza tra le due frequenze, quindi la corda può essere $3\ \mathrm{Hz}$ sopra o sotto il diapason. Senza ulteriori informazioni entrambe le possibilità sono valide:
+\[
+f_{corda} = 440 \pm 3 \;\Rightarrow\; \mathbf{437\ \mathrm{Hz}} \ \text{oppure}\ \mathbf{443\ \mathrm{Hz}}.
+\]
+Per distinguere i due casi si potrebbe tendere leggermente la corda e osservare se i battimenti aumentano o diminuiscono.
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=4.5, subtitle={Battimenti con effetto Doppler per osservatore in moto}, tags={battimenti, superposizione}, difficulty=difficile]
+Due altoparlanti emettono rispettivamente $f_1 = 680\ \mathrm{Hz}$ e $f_2 = 684\ \mathrm{Hz}$. Un ascoltatore si muove a $v_o = 1{,}0\ \mathrm{m/s}$ verso di essi, con velocità del suono $v = 340\ \mathrm{m/s}$. Determina la frequenza dei battimenti che percepisce.
+\begin{solution}
+A causa del moto dell'ascoltatore, per effetto Doppler ogni frequenza si sposta dello stesso fattore $(v+v_o)/v$:
+\[
+f_1' = 680\cdot\frac{341}{340} \approx 682\ \mathrm{Hz};\quad f_2' = 684\cdot\frac{341}{340} \approx 686\ \mathrm{Hz}.
+\]
+$f_{bat} = f_2' - f_1' = (f_2-f_1)\cdot\frac{v+v_o}{v} = 4\cdot\frac{341}{340} \approx \mathbf{4{,}01\ \mathrm{Hz}}$.
+\end{solution}
+\end{question}
+
+%====================================================%
+% SEZIONE 5: SUONO, INTENSITÀ E LIVELLO SONORO
+%====================================================%
+\begin{question}[ID=5.1, subtitle={Corda di violino — tensione, distanza e livello sonoro}, tags={suono, intensità, livello sonoro}, difficulty=facile]
+Una corda di violino: massa $100{,}0\ \mathrm{g}$, lunghezza $50{,}0\ \mathrm{cm}$. Le onde si muovono a $v = 1\ \mathrm{m/s}$. Potenza emessa $P = 0{,}15\ \mathrm{W}$; intensità $I = 1{,}5\times10^{-6}\ \mathrm{W/m^2}$.
+\begin{enumerate}
+\item Tensione sulla corda.
+\item Distanza dell'ascoltatore.
+\item Livello sonoro in dB.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Invertendo la relazione $v = \sqrt{F_T/\mu}$ si ricava la tensione $F_T = v^2\mu$; la densità lineare è $\mu = m/L = 0{,}2\ \mathrm{kg/m}$:
+\[
+F_T = v^2\mu = 1\cdot 0{,}2 = \mathbf{0{,}2\ \mathrm{N}}.
+\]
+\item L'intensità di una sorgente puntiforme si distribuisce su una sfera, $I = P/(4\pi r^2)$; invertendo rispetto a $r$:
+\[
+r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{0{,}15}{18{,}85\times10^{-6}}} \approx \mathbf{89\ \mathrm{m}}.
+\]
+\item Il livello sonoro è il logaritmo del rapporto tra intensità e soglia di riferimento $I_0 = 10^{-12}\ \mathrm{W/m^2}$:
+\[
+L_{dB} = 10\log_{10}\frac{I}{I_0} = 10\log_{10}(1{,}5\times10^6) \approx \mathbf{61{,}8\ \mathrm{dB}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=5.2, subtitle={Sorgente puntiforme — intensità, livello sonoro e distanza}, tags={suono, intensità, livello sonoro}, difficulty=media]
+Una sorgente puntiforme emette $P = 1{,}5\ \mathrm{W}$ in modo isotropo.
+\begin{enumerate}
+\item Intensità a $r = 5{,}0\ \mathrm{m}$.
+\item Livello sonoro in dB.
+\item Distanza a cui l'intensità si riduce di un fattore 100.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Per una sorgente isotropa la potenza si ripartisce sulla superficie di una sfera, $I = P/(4\pi r^2)$:
+\[
+I = \frac{1{,}5}{4\pi\cdot 25} \approx \mathbf{4{,}77\times10^{-3}\ \mathrm{W/m^2}}.
+\]
+\item Il livello sonoro corrispondente è
+\[
+L = 10\log_{10}\frac{I}{I_0} = 10\log_{10}(4{,}77\times10^9) \approx \mathbf{96{,}8\ \mathrm{dB}}.
+\]
+\item Poiché $I \propto 1/r^2$, ridurre l'intensità di un fattore 100 richiede di aumentare la distanza di un fattore $\sqrt{100} = 10$:
+\[
+r' = r\sqrt{100} = 5\cdot 10 = \mathbf{50\ \mathrm{m}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=5.3, subtitle={Macchina a 90 dB: intensità a 10 m e a 1 m}, tags={livello sonoro, logaritmi}, difficulty=difficile]
+Una macchina produce un livello sonoro $L = 90\ \mathrm{dB}$ alla distanza $r = 10\ \mathrm{m}$. Assumendo intensità di riferimento $I_0 = 10^{-12}\ \mathrm{W/m^2}$ e propagazione sferica, determina l'intensità sonora a $10\ \mathrm{m}$ e a $1\ \mathrm{m}$ dalla sorgente.
+\begin{solution}
+Invertendo la definizione di livello sonoro $L = 10\log_{10}(I/I_0)$ ricaviamo l'intensità a $10\ \mathrm{m}$:
+\[
+I(10\ \mathrm{m}) = I_0\cdot 10^{L/10} = 10^{-12}\cdot 10^{9} = \mathbf{10^{-3}\ \mathrm{W/m^2}}.
+\]
+Poiché l'intensità di un'onda sferica decresce con il quadrato della distanza ($I \propto 1/r^2$), avvicinandosi da $10\ \mathrm{m}$ a $1\ \mathrm{m}$ essa aumenta di un fattore $(10/1)^2 = 100$:
+\[
+I(1\ \mathrm{m}) = I(10\ \mathrm{m})\cdot\left(\frac{10}{1}\right)^2 = 10^{-3}\cdot 100 = \mathbf{0{,}1\ \mathrm{W/m^2}}.
+\]
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=5.4, subtitle={Due altoparlanti uguali — livello sonoro combinato}, tags={sorgenti multiple, intensità}, difficulty=difficile]
+Due altoparlanti identici, posti vicini, producono ciascuno un livello sonoro $L = 75\ \mathrm{dB}$ a $2\ \mathrm{m}$. Determina il livello sonoro complessivo quando suonano insieme ($I_0 = 10^{-12}\ \mathrm{W/m^2}$).
+\begin{solution}
+I livelli in dB non si sommano direttamente: vanno sommate le \emph{intensità}. L'intensità di un singolo altoparlante è
+\[
+I_{singola} = I_0\cdot 10^{L/10} = 10^{-12}\cdot 10^{7{,}5} = 3{,}162\times10^{-5}\ \mathrm{W/m^2}.
+\]
+Con due sorgenti uguali l'intensità totale raddoppia:
+\[
+I_{tot} = 2\,I_{singola} = 6{,}324\times10^{-5}\ \mathrm{W/m^2}.
+\]
+Riconvertendo in decibel:
+\[
+L_{tot} = 10\log_{10}\!\frac{I_{tot}}{I_0} = 10\log_{10}(6{,}324\times10^{7}) \approx \mathbf{78{,}0\ \mathrm{dB}}.
+\]
+Raddoppiare le sorgenti aumenta il livello di soli $3\ \mathrm{dB}$, non lo raddoppia.
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=5.5, subtitle={Livello sonoro da intensità e variazione per raddoppio}, tags={livello sonoro, scala logaritmica}, difficulty=media]
+Un rumore ha intensità $I = 2{,}0\times10^{-7}\ \mathrm{W/m^2}$.
+\begin{enumerate}
+\item Calcola il livello sonoro in dB.
+\item Variazione in dB se l'intensità raddoppia.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Il livello sonoro è $L = 10\log_{10}(I/I_0)$ con $I_0 = 10^{-12}\ \mathrm{W/m^2}$:
+\[
+L = 10\log_{10}(2\times10^5) = 10\,(5 + \log_{10}2) \approx \mathbf{53{,}0\ \mathrm{dB}}.
+\]
+\item Raddoppiando l'intensità il livello aumenta di una quantità indipendente dal valore iniziale, perché conta solo il rapporto:
+\[
+\Delta L = 10\log_{10}(2) \approx \mathbf{3{,}0\ \mathrm{dB}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=5.6, subtitle={Rapporto tra intensità di due suoni che differiscono di 4 dB}, tags={livello sonoro, scala logaritmica}, difficulty=media]
+I livelli di intensità di due suoni differiscono di $4{,}0\ \mathrm{dB}$.
+\begin{enumerate}
+\item Calcola il rapporto tra le due intensità.
+\end{enumerate}
+\begin{solution}
+La differenza di livello sonoro è legata al rapporto delle intensità da $\Delta L = 10\log_{10}(I_2/I_1)$. Invertendo questa relazione:
+\[
+\frac{I_2}{I_1} = 10^{\Delta L/10} = 10^{0{,}4} \approx \mathbf{2{,}51}.
+\]
+Una differenza di $4\ \mathrm{dB}$ corrisponde quindi a un'intensità circa due volte e mezzo maggiore.
+\end{solution}
+\end{question}
+
+%====================================================%
+% SEZIONE 6: ONDE STAZIONARIE
+%====================================================%
+
+\begin{question}[ID=6.1, subtitle={Corda tesa — frequenza fondamentale e armoniche}, tags={onde stazionarie, corda}, difficulty=media]
+Una corda tesa: $L = 0{,}80\ \mathrm{m}$, $\mu = 0{,}01\ \mathrm{kg/m}$, tensione $F_T = 64\ \mathrm{N}$.
+\begin{enumerate}
+\item Velocità di propagazione e frequenza fondamentale.
+\item Frequenze della seconda e terza armonica.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item La velocità dell'onda sulla corda è $v = \sqrt{F_T/\mu}$; la frequenza fondamentale di una corda fissata agli estremi corrisponde a mezza lunghezza d'onda uguale a $L$, cioè $f_1 = v/(2L)$:
+\[
+v = \sqrt{\frac{F_T}{\mu}} = \sqrt{6400} = 80\ \mathrm{m/s}, \qquad f_1 = \frac{v}{2L} = \frac{80}{1{,}6} = \mathbf{50\ \mathrm{Hz}}.
+\]
+\item Le armoniche superiori sono multipli interi della fondamentale ($f_n = n f_1$):
+\[
+f_2 = 2f_1 = \mathbf{100\ \mathrm{Hz}}, \qquad f_3 = 3f_1 = \mathbf{150\ \mathrm{Hz}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=6.2, subtitle={Tubo chiuso — frequenza fondamentale e terza armonica}, tags={tubo chiuso, armoniche}, difficulty=difficile]
+Un tubo chiuso a un'estremità: $L = 0{,}6\ \mathrm{m}$.
+\begin{enumerate}
+\item Frequenza fondamentale e terza armonica (terzo modo del tubo chiuso).
+\item Se il tubo viene riempito d'acqua fino a metà, come cambiano le frequenze?
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item $f_1 = v/(4L) = 343/(4\cdot0{,}6) \approx \mathbf{142{,}9\ \mathrm{Hz}}$.
+Terza armonica (tubo chiuso, $n=3$): $f_3 = 3f_1 \approx \mathbf{428{,}8\ \mathrm{Hz}}$.
+\item Con $L' = L/2 = 0{,}3\ \mathrm{m}$: $f_1' = 343/(4\cdot0{,}3) \approx 285{,}8\ \mathrm{Hz}$; $f_3' \approx 857{,}5\ \mathrm{Hz}$ (tutte le frequenze raddoppiano).
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=6.3, subtitle={Identificazione dell'armonica con λ = 2L/5}, tags={armoniche, lunghezza d'onda}, difficulty=facile]
+Una corda tesa di lunghezza $L$, fissata alle due estremità, vibra con lunghezza d'onda pari a $2L/5$. Stabilisci a quale armonica corrisponde questa configurazione.
+\begin{solution}
+Per una corda fissata a entrambi gli estremi le lunghezze d'onda permesse sono $\lambda_n = \dfrac{2L}{n}$, con $n$ intero positivo che indica l'ordine dell'armonica. Confrontando con il dato:
+\[
+\frac{2L}{n} = \frac{2L}{5} \;\Rightarrow\; n = \mathbf{5}.
+\]
+La corda vibra quindi nella \textbf{quinta armonica}.
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=6.4, subtitle={Tubo aperto — seconda e terza armonica, lunghezza minima}, tags={tubo aperto, armoniche}, difficulty=media]
+Un tubo aperto alle due estremità: $L = 1{,}0\ \mathrm{m}$.
+\begin{enumerate}
+\item Frequenze della seconda e terza armonica.
+\item Lunghezza minima affinché la seconda armonica sia $600\ \mathrm{Hz}$.
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+\item Un tubo aperto a entrambe le estremità ha frequenze proprie $f_n = nv/(2L)$ (tutti i multipli interi), analogo a una corda fissata agli estremi:
+\[
+f_2 = \frac{2\cdot 343}{2} = \mathbf{343\ \mathrm{Hz}}, \qquad f_3 = \frac{3\cdot 343}{2} = \mathbf{514{,}5\ \mathrm{Hz}}.
+\]
+\item Imponiamo che la seconda armonica valga $600\ \mathrm{Hz}$ e ricaviamo la lunghezza:
+\[
+f_2 = \frac{2v}{2L_{min}} = 600 \;\Rightarrow\; L_{min} = \frac{v}{600} = \frac{343}{600} \approx \mathbf{0{,}572\ \mathrm{m}}.
+\]
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+\begin{question}[ID=6.5, subtitle={Terza armonica di una corda tesa con v = 880 m/s}, tags={onde stazionarie, armoniche}, difficulty=facile]
+Una corda tesa di lunghezza $L = 1\ \mathrm{m}$ è fissata alle due estremità; la velocità di propagazione dell'impulso lungo la corda è $v = 880\ \mathrm{m/s}$. Determina la frequenza della terza armonica.
+\begin{solution}
+Le frequenze proprie di una corda fissata a entrambi gli estremi sono $f_n = \dfrac{nv}{2L}$. Per la terza armonica ($n = 3$):
+\[
+f_3 = \frac{3v}{2L} = \frac{3\cdot 880}{2\cdot 1} = \mathbf{1320\ \mathrm{Hz}}.
+\]
+\end{solution}
+\end{question}
+
+
+%====================================================%
+% FAC
+%====================================================%
+
+
+\begin{question}[ID=fac, subtitle={Effetto Doppler relativistico — velocità di una stella}, tags={onde, effetto doppler, relatività}, difficulty=difficile]
+\textbf{FAC)} La formula relativistica dell'effetto Doppler è:
+\[
+\lambda_O = \sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}\,\lambda_S
+\]
+Un'onda emessa a $\lambda_S = 400\ \mathrm{nm}$ viene ricevuta come $\lambda_O = 515\ \mathrm{nm}$. Calcolare la velocità della stella.
+\begin{solution}
+La luce ricevuta è spostata verso lunghezze d'onda maggiori (redshift), segno che la stella si allontana. Poniamo $\beta = v/c$ e partiamo dal rapporto tra lunghezza d'onda osservata ed emessa:
+\[
+\frac{\lambda_O}{\lambda_S} = \sqrt{\frac{1+\beta}{1-\beta}} = \frac{515}{400} = 1{,}2875.
+\]
+Eleviamo al quadrato e risolviamo rispetto a $\beta$:
+\[
+1{,}2875^2 = \frac{1+\beta}{1-\beta} = 1{,}6577 \;\Rightarrow\; \beta = \frac{1{,}6577-1}{1{,}6577+1} \approx 0{,}2475.
+\]
+La velocità di allontanamento è quindi una frazione apprezzabile della velocità della luce:
+\[
+v = \beta c \approx 0{,}2475\cdot 3\times10^8 \approx \mathbf{7{,}43\times10^7\ \mathrm{m/s}}.
+\]
+\end{solution}
+\end{question}

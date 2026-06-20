@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galileo Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── Header ─────────────────────────────────────────────────── -->
+<header>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="header-logo">Galileo<span>Hub</span></div>
+  <div class="header-right">
+    <span class="header-badge" id="ex-count">– esercizi</span>
+    <button class="btn-verifica" id="btn-verifica" title="Seleziona esercizi e genera una verifica">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+      </svg>
+      Crea verifica
+    </button>
+    <button class="btn-icon" id="theme-toggle" title="Cambia tema" aria-label="Tema">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/>
+        <line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/>
+        <line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<!-- ── Layout ─────────────────────────────────────────────────── -->
+<div class="layout">
+
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-section-label">Disciplina</div>
+    <div class="subject-toggle">
+      <button class="subject-btn active" data-subject="all">Tutto</button>
+      <button class="subject-btn" data-subject="fisica">Fisica</button>
+      <button class="subject-btn" data-subject="matematica">Matematica</button>
+    </div>
+
+    <div class="sidebar-section-label sidebar-section-row" style="margin-top:8px">
+      <span>Argomenti</span>
+      <button class="collapse-all-btn" id="btn-collapse-all" title="Comprimi tutte le categorie" aria-label="Comprimi tutto"></button>
+    </div>
+    <div id="topic-list"></div>
+
+    <div class="sidebar-footer">
+      <button class="btn-auth" id="btn-reset-all">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.17"/>
+        </svg>
+        Azzera filtri
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="main" id="main">
+
+    <!-- Filters bar -->
+    <div class="filters-bar" id="filters-bar">
+      <div class="filters-scroll">
+
+        <div class="filter-group">
+          <span class="filters-label">Materia</span>
+          <div class="diff-pills" id="materia-pills">
+            <button class="diff-pill active" data-subject="all">Tutte</button>
+            <button class="diff-pill" data-subject="matematica">Matematica</button>
+            <button class="diff-pill" data-subject="fisica">Fisica</button>
+          </div>
+        </div>
+
+        <div class="filter-sep"></div>
+
+        <div class="filter-group">
+          <span class="filters-label">Difficoltà</span>
+          <div class="diff-pills">
+            <button class="diff-pill active" data-diff="all">Tutte</button>
+            <button class="diff-pill" data-diff="1">
+              <span class="dot filled"></span><span class="dot"></span><span class="dot"></span>
+              Facile
+            </button>
+            <button class="diff-pill" data-diff="2">
+              <span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+              Media
+            </button>
+            <button class="diff-pill" data-diff="3">
+              <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span>
+              Difficile
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-sep"></div>
+
+        <div class="filter-group">
+          <span class="filters-label" title="Clic per includere, di nuovo per escludere">Caratteristiche</span>
+          <div class="feat-pills">
+            <button class="feat-pill" id="btn-filter-image" data-feat="image" title="Clic: con immagine · ancora: senza immagine">
+              <span class="feat-mark"></span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+              </svg>
+              <span class="feat-label">Immagine</span>
+            </button>
+            <button class="feat-pill" id="btn-filter-mc" data-feat="mc" title="Clic: a risposta multipla · ancora: senza risposta multipla">
+              <span class="feat-mark"></span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/>
+              </svg>
+              <span class="feat-label">Risposta multipla</span>
+            </button>
+            <button class="feat-pill" id="btn-filter-multi" data-feat="multi" title="Clic: con più domande · ancora: domanda singola">
+              <span class="feat-mark"></span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
+              </svg>
+              <span class="feat-label">Più domande</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <div class="filters-right">
+        <div class="search-wrap">
+          <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" class="search-input" id="search-input" placeholder="Cerca esercizio…"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active filters chips -->
+    <div class="active-filters" id="active-filters"></div>
+
+    <!-- Exercise grid -->
+    <div class="ex-grid" id="ex-grid"></div>
+
+    <!-- Empty state -->
+    <div class="empty-state hidden" id="empty-state">
+      <div class="empty-icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </div>
+      <h3>Nessun esercizio trovato</h3>
+      <p>Prova a cambiare i filtri o la ricerca.</p>
+    </div>
+
+  </main>
+</div>
+
+<!-- ── Exercise modal ──────────────────────────────────────────── -->
+<div class="modal-overlay hidden" id="modal-overlay">
+  <div class="modal-box" id="modal-box">
+    <div class="modal-header">
+      <div class="modal-meta">
+        <span class="modal-subject" id="modal-subject"></span>
+        <span class="modal-topic" id="modal-topic"></span>
+        <span class="modal-dots" id="modal-dots"></span>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-icon" id="font-dec" aria-label="Riduci il testo" title="Riduci il testo">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <button class="btn-icon" id="font-inc" aria-label="Ingrandisci il testo" title="Ingrandisci il testo">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="modal-actions-sep"></div>
+        <button class="btn-icon modal-fullscreen" id="modal-fullscreen" aria-label="Espandi" title="Espandi">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+        </button>
+        <button class="btn-icon modal-close" id="modal-close" aria-label="Chiudi">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    <h2 class="modal-title" id="modal-title"></h2>
+    <div class="modal-text" id="modal-text"></div>
+    <div class="modal-solution-wrap" id="modal-solution-wrap">
+      <button class="btn-show-solution" id="btn-show-solution">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+        </svg>
+        Mostra soluzione
+      </button>
+      <div class="solution-block hidden" id="solution-block">
+        <div class="solution-label">Soluzione</div>
+        <div class="solution-text" id="solution-text"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scroll to top -->
+<button class="btn-scroll-top" id="btn-scroll-top" aria-label="Torna in cima" title="Torna in cima">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<!-- ── Pannello laterale "Crea verifica" ──────────────────────── -->
+<aside class="verifica-panel hidden" id="verifica-panel">
+  <div class="vp-resize" id="vp-resize" title="Trascina per ridimensionare"></div>
+  <div class="vp-head">
+    <h2>Crea verifica</h2>
+    <div class="vp-head-actions">
+      <button class="btn-icon" id="vf-layout-btn" title="Anteprima ingrandita a sinistra" aria-label="Cambia layout">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="15" y1="4" x2="15" y2="20"/></svg>
+      </button>
+      <button class="btn-icon" id="vf-history-btn" title="Storico verifiche" aria-label="Storico">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg>
+      </button>
+      <button class="btn-icon" id="verifica-close" aria-label="Chiudi">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="vf-history-pop hidden" id="vf-history-pop">
+      <div class="vf-history-pop-title">Storico verifiche</div>
+      <div class="vf-history" id="vf-history"></div>
+    </div>
+    <div class="vf-layout-pop hidden" id="vf-layout-pop">
+      <div class="vf-history-pop-title">Layout pannello</div>
+      <button class="vf-layout-opt" data-layout="compact">
+        <svg width="22" height="18" viewBox="0 0 24 20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="1" width="22" height="18" rx="2"/><line x1="1" y1="7" x2="23" y2="7"/><rect x="1" y="7" width="22" height="12" fill="currentColor" opacity="0.18" stroke="none"/></svg>
+        <span><b>Compatto</b><small>Impostazioni sopra, anteprima sotto</small></span>
+      </button>
+      <button class="vf-layout-opt" data-layout="left">
+        <svg width="22" height="18" viewBox="0 0 24 20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="1" width="22" height="18" rx="2"/><line x1="15" y1="1" x2="15" y2="19"/><rect x="1" y="1" width="14" height="18" fill="currentColor" opacity="0.18" stroke="none"/></svg>
+        <span><b>Anteprima a sinistra</b><small>Anteprima grande, impostazioni a destra</small></span>
+      </button>
+      <button class="vf-layout-opt" data-layout="right">
+        <svg width="22" height="18" viewBox="0 0 24 20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="1" width="22" height="18" rx="2"/><line x1="9" y1="1" x2="9" y2="19"/><rect x="9" y="1" width="14" height="18" fill="currentColor" opacity="0.18" stroke="none"/></svg>
+        <span><b>Anteprima a destra</b><small>Impostazioni a sinistra, anteprima grande</small></span>
+      </button>
+      <button class="vf-layout-opt" data-layout="full">
+        <svg width="22" height="18" viewBox="0 0 24 20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="1" width="22" height="18" rx="2"/><rect x="1" y="1" width="22" height="18" fill="currentColor" opacity="0.18" stroke="none"/></svg>
+        <span><b>Solo anteprima</b><small>Nasconde le impostazioni</small></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="vp-body">
+  <div class="vp-form">
+    <label class="vf-label">Titolo
+      <input type="text" id="vf-title" class="vf-input" placeholder="Es. Verifica di Matematica"/>
+    </label>
+    <label class="vf-label">Sottotitolo
+      <input type="text" id="vf-subtitle" class="vf-input" placeholder="Es. Funzioni e derivate"/>
+    </label>
+    <label class="vf-label">Classe
+      <input type="text" id="vf-classe" class="vf-input" placeholder="Es. 5ª A"/>
+    </label>
+    <div class="vf-label">Tipologia prova</div>
+    <div class="vf-radios">
+      <label class="vf-radio"><input type="radio" name="vf-tipo" value="Normodotazione" checked/> Normodotazione</label>
+      <label class="vf-radio"><input type="radio" name="vf-tipo" value="PDP"/> PDP</label>
+      <label class="vf-radio"><input type="radio" name="vf-tipo" value="PEI"/> PEI</label>
+    </div>
+
+    <details class="vf-acc">
+      <summary>Impostazioni avanzate
+        <svg class="vf-acc-chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </summary>
+      <div class="vf-acc-body">
+        <div class="vf-label">Margini (cm)</div>
+        <div class="vf-margins">
+          <label class="vf-mini">Alto
+            <input type="number" id="vf-margin-top" value="2.2" min="0.5" max="6" step="0.1"/>
+          </label>
+          <label class="vf-mini">Basso
+            <input type="number" id="vf-margin-bottom" value="2.2" min="0.5" max="6" step="0.1"/>
+          </label>
+          <label class="vf-mini">Sinistra
+            <input type="number" id="vf-margin-left" value="2.2" min="0.5" max="6" step="0.1"/>
+          </label>
+          <label class="vf-mini">Destra
+            <input type="number" id="vf-margin-right" value="2.2" min="0.5" max="6" step="0.1"/>
+          </label>
+        </div>
+
+        <label class="vf-mini">Font
+          <select id="vf-font">
+            <option value="cm" selected>Computer Modern</option>
+            <option value="times">Times</option>
+            <option value="palatino">Palatino</option>
+            <option value="helvet">Helvetica</option>
+            <option value="lmsans">Sans (Latin Modern)</option>
+          </select>
+        </label>
+
+        <div class="vf-controls">
+          <label class="vf-mini">Corpo (pt)
+            <select id="vf-fontsize">
+              <option value="10">10</option>
+              <option value="11" selected>11</option>
+              <option value="12">12</option>
+              <option value="14">14</option>
+            </select>
+          </label>
+          <label class="vf-mini">Spazio esercizi (pt)
+            <input type="number" id="vf-spacing" value="14" min="0" max="60" step="2"/>
+          </label>
+          <label class="vf-mini">Spazio elenco (pt)
+            <input type="number" id="vf-enumsep" value="4" min="0" max="40" step="1"/>
+          </label>
+        </div>
+
+        <div class="vf-label">Soluzioni</div>
+        <button type="button" class="vf-solbtn" id="vf-solutions" data-state="none"></button>
+      </div>
+    </details>
+
+    <details class="vf-acc">
+      <summary>Valutazione
+        <svg class="vf-acc-chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </summary>
+      <div class="vf-acc-body">
+        <label class="vf-check"><input type="checkbox" id="vf-grid" checked/> Griglia di valutazione a fine pagina</label>
+        <label class="vf-check"><input type="checkbox" id="vf-showpoints"/> Mostra i punti accanto all'esercizio</label>
+        <div class="vf-label">Punti per esercizio</div>
+        <div class="vf-scores" id="vf-scores"></div>
+      </div>
+    </details>
+
+  </div>
+
+  <div class="vp-preview-label">
+    <span class="vp-preview-title">Anteprima <span id="vf-count" class="vp-count">0</span></span>
+    <div class="vp-zoom">
+      <button class="vp-zoom-btn" id="vf-zoom-out" title="Riduci anteprima" aria-label="Riduci">−</button>
+      <button class="vp-zoom-val" id="vf-zoom-reset" title="Reimposta zoom al 100%">100%</button>
+      <button class="vp-zoom-btn" id="vf-zoom-in" title="Ingrandisci anteprima" aria-label="Ingrandisci">+</button>
+    </div>
+  </div>
+  <div class="vp-preview" id="vp-preview"></div>
+  </div>
+
+  <div class="vp-foot">
+    <button class="btn-ghost" id="verifica-cancel">Esci</button>
+    <button class="btn-ghost" id="vf-generate" disabled>Scarica .tex</button>
+    <button class="btn-primary" id="vf-overleaf" disabled>Apri in Overleaf ↗</button>
+  </div>
+</aside>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="window._katexReady = true; if(window._appReady) renderMath()"></script>
+<script src="exercises.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

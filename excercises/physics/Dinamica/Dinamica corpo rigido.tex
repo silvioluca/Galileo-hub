@@ -1,0 +1,582 @@
+%====================================================%
+% SEZIONE 1: CENTRO DI MASSA
+%====================================================%
+\begin{question}[ID=1.1, subtitle={Centro di massa di due masse puntiformi}, tags={corpo rigido, centro di massa}, difficulty=facile]
+Due masse puntiformi sono fissate su un piano: $m_1 = 2\ \text{kg}$ nel punto $(1,\ 0)\ \text{m}$ e $m_2 = 3\ \text{kg}$ nel punto $(3,\ 4)\ \text{m}$. Determina le coordinate del centro di massa del sistema.
+\begin{solution}
+Il centro di massa di un sistema di punti materiali ha coordinate pari alla media delle posizioni, pesata con le rispettive masse:
+\[
+x_{CM} = \frac{m_1 x_1 + m_2 x_2}{m_1 + m_2}, \qquad
+y_{CM} = \frac{m_1 y_1 + m_2 y_2}{m_1 + m_2}.
+\]
+Sostituendo i valori assegnati e la massa totale $m_1 + m_2 = 5\ \text{kg}$:
+\[
+x_{CM} = \frac{2\cdot 1 + 3\cdot 3}{5} = \frac{11}{5} = 2{,}2\ \text{m}, \qquad
+y_{CM} = \frac{2\cdot 0 + 3\cdot 4}{5} = \frac{12}{5} = 2{,}4\ \text{m}.
+\]
+Il centro di massa si trova quindi nel punto $\mathbf{(2{,}2;\ 2{,}4)\ \text{m}}$, spostato verso la massa maggiore $m_2$.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=1.2, subtitle={Centro di massa di tre masse su un piano}, tags={corpo rigido, centro di massa}, difficulty=facile]
+Tre masse puntiformi sono disposte su un piano: $m_1 = 1\ \text{kg}$ in $(0,\ 0)$, $m_2 = 2\ \text{kg}$ in $(2,\ 0)$ e $m_3 = 3\ \text{kg}$ in $(0,\ 3)$, con le coordinate espresse in metri. Determina la posizione del centro di massa.
+\begin{solution}
+Con più di due punti la formula del centro di massa si generalizza sommando i contributi di tutte le masse. La massa totale è
+\[
+M_{tot} = m_1 + m_2 + m_3 = 1 + 2 + 3 = 6\ \text{kg}.
+\]
+Le coordinate del centro di massa sono allora
+\[
+x_{CM} = \frac{1\cdot 0 + 2\cdot 2 + 3\cdot 0}{6} = \frac{4}{6} = \frac{2}{3}\ \text{m}, \qquad
+y_{CM} = \frac{1\cdot 0 + 2\cdot 0 + 3\cdot 3}{6} = \frac{9}{6} = \frac{3}{2}\ \text{m}.
+\]
+Il centro di massa del sistema si trova nel punto $\mathbf{\left(\tfrac{2}{3};\ \tfrac{3}{2}\right)\ \text{m}}$.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=1.3, subtitle={Centro di massa di una barra con due sezioni di densità diversa}, tags={corpo rigido, centro di massa}, difficulty=media]
+Una barra rettilinea è composta da due tratti di densità lineare diversa: la sezione 1, lunga $4\ \text{m}$, ha densità $\rho_1 = 2\ \text{kg/m}$; la sezione 2, lunga $2\ \text{m}$, ha densità $\rho_2 = 4\ \text{kg/m}$. Determina la posizione del centro di massa dell'intera barra, misurata a partire dall'estremo sinistro.
+\begin{solution}
+Trattiamo ogni tratto come un punto materiale concentrato nel proprio centro di massa. Le masse delle due sezioni sono
+\[
+m_1 = \rho_1 \ell_1 = 2\cdot 4 = 8\ \text{kg}, \qquad
+m_2 = \rho_2 \ell_2 = 4\cdot 2 = 8\ \text{kg}.
+\]
+Misurando dall'estremo sinistro, il primo tratto ha il baricentro a $x_1 = 2\ \text{m}$ (metà dei primi $4\ \text{m}$) e il secondo a $x_2 = 4 + 1 = 5\ \text{m}$. La massa totale è $16\ \text{kg}$, quindi
+\[
+x_{CM} = \frac{m_1 x_1 + m_2 x_2}{m_1 + m_2} = \frac{8\cdot 2 + 8\cdot 5}{16} = \frac{16 + 40}{16} = \frac{56}{16} = \mathbf{3{,}5\ \text{m}}.
+\]
+Il centro di massa è spostato verso la sezione 2, che pur essendo più corta ha densità maggiore.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=1.4, subtitle={Centro di massa di un triangolo rettangolo uniforme}, tags={corpo rigido, centro di massa}, difficulty=facile]
+Una lamina omogenea ha la forma di un triangolo rettangolo con vertici $A = (0,\ 0)$, $B = (4,\ 0)$ e $C = (0,\ 3)$, con le coordinate in metri. Determina la posizione del centro di massa.
+\begin{solution}
+Per una lamina triangolare omogenea il centro di massa coincide con il \emph{baricentro} geometrico, che è la media aritmetica delle coordinate dei tre vertici:
+\[
+x_{CM} = \frac{x_A + x_B + x_C}{3} = \frac{0 + 4 + 0}{3} = \frac{4}{3}\ \text{m},
+\]
+\[
+y_{CM} = \frac{y_A + y_B + y_C}{3} = \frac{0 + 0 + 3}{3} = 1\ \text{m}.
+\]
+Il centro di massa si trova nel punto $\mathbf{\left(\tfrac{4}{3};\ 1\right)\ \text{m}}$, interno al triangolo.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=1.5, subtitle={Centro di massa di tre masse puntiformi in posizioni generali}, tags={corpo rigido, centro di massa}, difficulty=facile]
+Tre masse puntiformi sono collocate nei punti seguenti: $m_1 = 2\ \text{kg}$ in $(0,\ 0)$, $m_2 = 4\ \text{kg}$ in $(6,\ 0)$ e $m_3 = 3\ \text{kg}$ in $(4,\ 3)$, con le coordinate in metri. Determina le coordinate del centro di massa.
+\begin{solution}
+La massa totale del sistema è
+\[
+M_{tot} = 2 + 4 + 3 = 9\ \text{kg}.
+\]
+Applicando la definizione di centro di massa a entrambe le coordinate:
+\[
+x_{CM} = \frac{2\cdot 0 + 4\cdot 6 + 3\cdot 4}{9} = \frac{0 + 24 + 12}{9} = \frac{36}{9} = 4\ \text{m},
+\]
+\[
+y_{CM} = \frac{2\cdot 0 + 4\cdot 0 + 3\cdot 3}{9} = \frac{9}{9} = 1\ \text{m}.
+\]
+Il centro di massa del sistema si trova nel punto $\mathbf{(4;\ 1)\ \text{m}}$.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+%====================================================%
+% SEZIONE 2: MOMENTO ANGOLARE
+%====================================================%
+\begin{question}[ID=2.1, subtitle={Momento angolare di un corpo in moto}, tags={corpo rigido, momento angolare}, difficulty=media]
+Un punto materiale di massa $m = 2\ \text{kg}$ si trova nella posizione $\vec{r} = (2\hat{\imath} + 3\hat{\jmath})\ \text{m}$ e si muove con velocità $\vec{v} = (3\hat{\imath} + 4\hat{\jmath})\ \text{m/s}$. Calcola il momento angolare $\vec{L}$ rispetto all'origine.
+\begin{solution}
+Il momento angolare di un punto materiale rispetto a un polo è definito come
+\[
+\vec{L} = m\,(\vec{r} \times \vec{v}).
+\]
+Per due vettori contenuti nel piano $xy$, il prodotto vettoriale è diretto lungo $\hat{k}$ e ha componente $r_x v_y - r_y v_x$:
+\[
+\vec{r} \times \vec{v} = (2\cdot 4 - 3\cdot 3)\,\hat{k} = (8 - 9)\,\hat{k} = -\hat{k}\ \ \text{m}^2/\text{s}.
+\]
+Moltiplicando per la massa otteniamo
+\[
+\vec{L} = 2\cdot(-1)\,\hat{k} = \mathbf{-2\,\hat{k}\ \text{kg·m}^2/\text{s}}.
+\]
+Il segno negativo indica che il momento angolare è diretto verso l'interno del piano (rotazione oraria vista dall'asse $z$ positivo).
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=2.2, subtitle={Momento angolare di un disco che ruota}, tags={corpo rigido, momento angolare, disco}, difficulty=facile]
+Un disco omogeneo di massa $m = 5\ \text{kg}$ e raggio $R = 0{,}5\ \text{m}$ ruota attorno al proprio asse con velocità angolare $\omega = 10\ \text{rad/s}$. Calcola il modulo del suo momento angolare.
+\begin{solution}
+Per un corpo rigido in rotazione attorno a un asse fisso, il momento angolare è $L = I\omega$, dove $I$ è il momento d'inerzia. Per un disco omogeneo rispetto al proprio asse:
+\[
+I = \tfrac{1}{2}mR^2 = \tfrac{1}{2}\cdot 5\cdot (0{,}5)^2 = \tfrac{1}{2}\cdot 5\cdot 0{,}25 = 0{,}625\ \text{kg·m}^2.
+\]
+Il momento angolare vale quindi
+\[
+L = I\omega = 0{,}625\cdot 10 = \mathbf{6{,}25\ \text{kg·m}^2/\text{s}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=2.3, subtitle={Momento angolare di una massa in traiettoria circolare}, tags={corpo rigido, momento angolare}, difficulty=facile]
+Un punto materiale di massa $m = 1\ \text{kg}$ percorre una traiettoria circolare di raggio $R = 2\ \text{m}$ con velocità angolare $\omega = 5\ \text{rad/s}$. Calcola il modulo del momento angolare rispetto al centro della circonferenza.
+\begin{solution}
+Il momento d'inerzia di un punto materiale che ruota a distanza $R$ dall'asse è
+\[
+I = mR^2 = 1\cdot 2^2 = 4\ \text{kg·m}^2.
+\]
+Il momento angolare si ottiene moltiplicando il momento d'inerzia per la velocità angolare:
+\[
+L = I\omega = 4\cdot 5 = \mathbf{20\ \text{kg·m}^2/\text{s}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=2.4, subtitle={Momento angolare di un'asta che ruota intorno al proprio centro}, tags={corpo rigido, momento angolare, asta}, difficulty=facile]
+Un'asta sottile e omogenea di lunghezza $L = 2\ \text{m}$ e massa $m = 3\ \text{kg}$ ruota attorno a un asse perpendicolare passante per il suo centro con velocità angolare $\omega = 6\ \text{rad/s}$. Calcola il modulo del momento angolare.
+\begin{solution}
+Il momento d'inerzia di un'asta sottile rispetto a un asse perpendicolare passante per il centro è
+\[
+I = \tfrac{1}{12}mL^2 = \tfrac{1}{12}\cdot 3\cdot 2^2 = \tfrac{1}{12}\cdot 3\cdot 4 = 1\ \text{kg·m}^2.
+\]
+Il momento angolare risulta quindi
+\[
+L = I\omega = 1\cdot 6 = \mathbf{6\ \text{kg·m}^2/\text{s}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=2.5, subtitle={Determinare se una sfera è piena o cava dal momento angolare}, tags={corpo rigido, momento angolare, sfera}, difficulty=media]
+Una sfera di massa $m = 8\ \text{kg}$ e raggio $r = 0{,}4\ \text{m}$ ruota con velocità angolare $\omega = 3\ \text{rad/s}$ e ha momento angolare $L = 2{,}56\ \text{kg·m}^2/\text{s}$. Stabilisci, confrontando i momenti d'inerzia, se la sfera è piena o cava.
+\begin{solution}
+Dal momento angolare misurato ricaviamo il momento d'inerzia effettivo della sfera:
+\[
+I = \frac{L}{\omega} = \frac{2{,}56}{3} = 0{,}853\ \text{kg·m}^2.
+\]
+Confrontiamo ora questo valore con quelli teorici per una sfera \emph{piena} e una sfera \emph{cava}.
+
+\noindent Sfera piena ($I = \tfrac{2}{5}mr^2$):
+\[
+I_{piena} = \tfrac{2}{5}\cdot 8\cdot (0{,}4)^2 = \tfrac{2}{5}\cdot 8\cdot 0{,}16 = 0{,}512\ \text{kg·m}^2.
+\]
+Sfera cava ($I = \tfrac{2}{3}mr^2$):
+\[
+I_{cava} = \tfrac{2}{3}\cdot 8\cdot 0{,}16 = 0{,}853\ \text{kg·m}^2.
+\]
+Il valore misurato coincide con quello della sfera cava: la sfera è quindi \textbf{cava}.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+%====================================================%
+% SEZIONE 3: CONSERVAZIONE DEL MOMENTO ANGOLARE
+%====================================================%
+\begin{question}[ID=3.1, subtitle={Pattinatore che raccoglie le braccia — conservazione di L}, tags={corpo rigido, conservazione momento angolare}, difficulty=facile]
+Un pattinatore ruota su se stesso con momento d'inerzia $I_1 = 20\ \text{kg·m}^2$ e velocità angolare $\omega_1 = 4\ \text{rad/s}$. Raccogliendo le braccia verso il corpo riduce il momento d'inerzia a $I_2 = 5\ \text{kg·m}^2$. Calcola la nuova velocità angolare, trascurando gli attriti.
+\begin{solution}
+Sul pattinatore non agiscono momenti esterni rispetto all'asse di rotazione, quindi il momento angolare si conserva:
+\[
+L = I_1 \omega_1 = I_2 \omega_2.
+\]
+Ricaviamo la velocità angolare finale:
+\[
+\omega_2 = \frac{I_1 \omega_1}{I_2} = \frac{20\cdot 4}{5} = \mathbf{16\ \text{rad/s}}.
+\]
+Diminuendo il momento d'inerzia di un fattore $4$, la velocità angolare aumenta dello stesso fattore.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=3.2, subtitle={Disco rotante a cui viene aggiunta una massa puntiforme sul bordo}, tags={corpo rigido, conservazione momento angolare, disco}, difficulty=media]
+Un disco omogeneo di massa $m = 5\ \text{kg}$ e raggio $R = 0{,}4\ \text{m}$ ruota con velocità angolare $\omega_1 = 10\ \text{rad/s}$. Si deposita delicatamente sul bordo una massa puntiforme $m' = 2\ \text{kg}$. Calcola la velocità angolare del sistema dopo l'aggiunta della massa.
+\begin{solution}
+La massa viene aggiunta senza applicare momenti esterni, quindi il momento angolare si conserva. Calcoliamo prima i momenti d'inerzia.
+
+\noindent Disco: $\;I_{disco} = \tfrac{1}{2}mR^2 = \tfrac{1}{2}\cdot 5\cdot 0{,}16 = 0{,}40\ \text{kg·m}^2$.
+
+\noindent Massa sul bordo: $\;I_{massa} = m'R^2 = 2\cdot 0{,}16 = 0{,}32\ \text{kg·m}^2$.
+
+\noindent Momento d'inerzia totale: $\;I_{tot} = 0{,}40 + 0{,}32 = 0{,}72\ \text{kg·m}^2$.
+
+Il momento angolare iniziale è $L_1 = I_{disco}\,\omega_1 = 0{,}40\cdot 10 = 4\ \text{kg·m}^2/\text{s}$. Imponendone la conservazione:
+\[
+\omega_2 = \frac{L_1}{I_{tot}} = \frac{4}{0{,}72} \approx \mathbf{5{,}56\ \text{rad/s}}.
+\]
+L'aggiunta di massa aumenta l'inerzia e quindi rallenta la rotazione.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=3.3, subtitle={Satellite che passa da orbita circolare a ellittica — velocità al perigeo}, tags={corpo rigido, conservazione momento angolare, satellite}, difficulty=media]
+Un satellite percorre un'orbita circolare di raggio $r_1 = 7\times 10^6\ \text{m}$ con velocità $v_1 = 8\ \text{km/s}$. In seguito a una manovra entra in un'orbita ellittica il cui perigeo si trova a distanza $r_2 = 5\times 10^6\ \text{m}$ dal centro della Terra. Determina la velocità del satellite al perigeo.
+\begin{solution}
+La forza gravitazionale è centrale (sempre diretta verso il centro della Terra), quindi non esercita alcun momento sul satellite e il suo momento angolare si conserva. Nei punti in cui la velocità è perpendicolare al raggio (orbita circolare e perigeo) vale
+\[
+m\, r_1 v_1 = m\, r_2 v_2.
+\]
+Semplificando la massa e ricavando $v_2$:
+\[
+v_2 = \frac{r_1 v_1}{r_2} = \frac{7\times 10^6 \cdot 8000}{5\times 10^6} = \mathbf{11\,200\ \text{m/s}} = 11{,}2\ \text{km/s}.
+\]
+Avvicinandosi alla Terra il satellite accelera, come previsto dalla conservazione del momento angolare.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=3.4, subtitle={Asta con perno al centro a cui si aggiunge una massa a un'estremità}, tags={corpo rigido, conservazione momento angolare, asta}, difficulty=media]
+Un'asta omogenea di lunghezza $L = 2\ \text{m}$ e massa $M = 3\ \text{kg}$ ruota attorno a un perno passante per il suo centro con velocità angolare $\omega_1 = 6\ \text{rad/s}$. A una delle estremità viene fissata una massa puntiforme $m = 1\ \text{kg}$. Calcola la velocità angolare del sistema dopo l'aggiunta.
+\begin{solution}
+Non agendo momenti esterni, il momento angolare si conserva. Calcoliamo i momenti d'inerzia rispetto al perno centrale.
+
+\noindent Asta: $\;I_{asta} = \tfrac{1}{12}ML^2 = \tfrac{1}{12}\cdot 3\cdot 4 = 1\ \text{kg·m}^2$, da cui $L_1 = I_{asta}\,\omega_1 = 1\cdot 6 = 6\ \text{kg·m}^2/\text{s}$.
+
+\noindent Massa all'estremità, a distanza $L/2 = 1\ \text{m}$ dal perno: $\;I_{massa} = m\left(\tfrac{L}{2}\right)^2 = 1\cdot 1 = 1\ \text{kg·m}^2$.
+
+\noindent Momento d'inerzia totale: $\;I_{tot} = 1 + 1 = 2\ \text{kg·m}^2$.
+
+Imponendo la conservazione del momento angolare:
+\[
+\omega_2 = \frac{L_1}{I_{tot}} = \frac{6}{2} = \mathbf{3\ \text{rad/s}}.
+\]
+Raddoppiando il momento d'inerzia, la velocità angolare si dimezza.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=3.5, subtitle={Sfera su cui viene inserito concentricamente un anello}, tags={corpo rigido, conservazione momento angolare}, difficulty=media]
+Una sfera piena di massa $M = 4\ \text{kg}$ e raggio $R = 0{,}2\ \text{m}$ ruota con velocità angolare $\omega_1 = 12\ \text{rad/s}$. Le viene calzato concentricamente un anello di massa $m = 2\ \text{kg}$ e raggio $R_{an} = 0{,}2\ \text{m}$, solidale alla sfera. Determina la velocità angolare finale del sistema.
+\begin{solution}
+Il momento angolare si conserva. Calcoliamo i momenti d'inerzia rispetto all'asse comune.
+
+\noindent Sfera piena: $\;I_{sfera} = \tfrac{2}{5}MR^2 = \tfrac{2}{5}\cdot 4\cdot 0{,}04 = 0{,}064\ \text{kg·m}^2$, da cui $L_1 = I_{sfera}\,\omega_1 = 0{,}064\cdot 12 = 0{,}768\ \text{kg·m}^2/\text{s}$.
+
+\noindent Anello: $\;I_{anello} = mR_{an}^2 = 2\cdot 0{,}04 = 0{,}08\ \text{kg·m}^2$.
+
+\noindent Momento d'inerzia totale: $\;I_{tot} = 0{,}064 + 0{,}08 = 0{,}144\ \text{kg·m}^2$.
+
+Dalla conservazione del momento angolare:
+\[
+\omega_2 = \frac{L_1}{I_{tot}} = \frac{0{,}768}{0{,}144} \approx \mathbf{5{,}33\ \text{rad/s}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+%====================================================%
+% SEZIONE 4: ENERGIA CINETICA DI ROTAZIONE
+%====================================================%
+\begin{question}[ID=4.1, subtitle={Energia cinetica di rotazione di una ruota}, tags={corpo rigido, energia cinetica rotazionale}, difficulty=facile]
+Una ruota, assimilabile a un anello sottile di massa $m = 10\ \text{kg}$ e raggio $R = 0{,}5\ \text{m}$, ruota attorno al proprio asse con velocità angolare $\omega = 20\ \text{rad/s}$. Calcola la sua energia cinetica di rotazione.
+\begin{solution}
+L'energia cinetica di un corpo in rotazione è $E_k = \tfrac{1}{2}I\omega^2$. Per un anello (tutta la massa a distanza $R$ dall'asse) il momento d'inerzia è
+\[
+I = mR^2 = 10\cdot (0{,}5)^2 = 2{,}5\ \text{kg·m}^2.
+\]
+L'energia cinetica vale quindi
+\[
+E_k = \tfrac{1}{2}I\omega^2 = \tfrac{1}{2}\cdot 2{,}5\cdot 20^2 = \tfrac{1}{2}\cdot 2{,}5\cdot 400 = \mathbf{500\ \text{J}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=4.2, subtitle={Energia cinetica di rotazione di un disco solido}, tags={corpo rigido, energia cinetica rotazionale, disco}, difficulty=facile]
+Un disco solido omogeneo di massa $m = 8\ \text{kg}$ e raggio $R = 0{,}4\ \text{m}$ ruota attorno al proprio asse con velocità angolare $\omega = 15\ \text{rad/s}$. Calcola la sua energia cinetica di rotazione.
+\begin{solution}
+Per un disco solido il momento d'inerzia rispetto al proprio asse è
+\[
+I = \tfrac{1}{2}mR^2 = \tfrac{1}{2}\cdot 8\cdot (0{,}4)^2 = \tfrac{1}{2}\cdot 8\cdot 0{,}16 = 0{,}64\ \text{kg·m}^2.
+\]
+L'energia cinetica di rotazione è allora
+\[
+E_k = \tfrac{1}{2}I\omega^2 = \tfrac{1}{2}\cdot 0{,}64\cdot 15^2 = \tfrac{1}{2}\cdot 0{,}64\cdot 225 = \mathbf{72\ \text{J}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=4.3, subtitle={Energia cinetica di rotazione di una sfera}, tags={corpo rigido, energia cinetica rotazionale, sfera}, difficulty=facile]
+Una sfera piena omogenea di massa $m = 6\ \text{kg}$ e raggio $R = 0{,}3\ \text{m}$ ruota attorno a un asse passante per il suo centro con velocità angolare $\omega = 10\ \text{rad/s}$. Calcola la sua energia cinetica di rotazione.
+\begin{solution}
+Il momento d'inerzia di una sfera piena rispetto a un asse diametrale è
+\[
+I = \tfrac{2}{5}mR^2 = \tfrac{2}{5}\cdot 6\cdot (0{,}3)^2 = \tfrac{2}{5}\cdot 6\cdot 0{,}09 = 0{,}216\ \text{kg·m}^2.
+\]
+L'energia cinetica di rotazione risulta
+\[
+E_k = \tfrac{1}{2}I\omega^2 = \tfrac{1}{2}\cdot 0{,}216\cdot 10^2 = \tfrac{1}{2}\cdot 0{,}216\cdot 100 = \mathbf{10{,}8\ \text{J}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=4.4, subtitle={Energia cinetica rotazionale dato il momento d'inerzia}, tags={corpo rigido, energia cinetica rotazionale}, difficulty=facile]
+Un corpo rigido ha momento d'inerzia $I = 12\ \text{kg·m}^2$ rispetto al proprio asse di rotazione e ruota con velocità angolare $\omega = 8\ \text{rad/s}$. Calcola la sua energia cinetica di rotazione.
+\begin{solution}
+Essendo già noto il momento d'inerzia, applichiamo direttamente la formula dell'energia cinetica rotazionale:
+\[
+E_k = \tfrac{1}{2}I\omega^2 = \tfrac{1}{2}\cdot 12\cdot 8^2 = \tfrac{1}{2}\cdot 12\cdot 64 = \mathbf{384\ \text{J}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=4.5, subtitle={Energia cinetica di rotazione di un cilindro solido}, tags={corpo rigido, energia cinetica rotazionale, cilindro}, difficulty=facile]
+Un cilindro solido omogeneo di massa $m = 4\ \text{kg}$ e raggio $R = 0{,}2\ \text{m}$ ruota attorno al proprio asse con velocità angolare $\omega = 30\ \text{rad/s}$. Calcola la sua energia cinetica di rotazione.
+\begin{solution}
+Il momento d'inerzia di un cilindro solido rispetto al proprio asse coincide con quello di un disco:
+\[
+I = \tfrac{1}{2}mR^2 = \tfrac{1}{2}\cdot 4\cdot (0{,}2)^2 = \tfrac{1}{2}\cdot 4\cdot 0{,}04 = 0{,}08\ \text{kg·m}^2.
+\]
+L'energia cinetica di rotazione è quindi
+\[
+E_k = \tfrac{1}{2}I\omega^2 = \tfrac{1}{2}\cdot 0{,}08\cdot 30^2 = \tfrac{1}{2}\cdot 0{,}08\cdot 900 = \mathbf{36\ \text{J}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+%====================================================%
+% SEZIONE 5: ROTOLAMENTO SENZA STRISCIAMENTO
+%====================================================%
+\begin{question}[ID=5.1, subtitle={Cilindro che rotola senza strisciare giù per un piano inclinato}, tags={corpo rigido, rotolamento, cilindro}, difficulty=media]
+Un cilindro uniforme di massa $m = 2\ \text{kg}$ e raggio $R = 0{,}5\ \text{m}$ parte da fermo e rotola senza strisciare lungo un piano inclinato, scendendo di un dislivello $h = 3\ \text{m}$. Determina la velocità del centro di massa del cilindro quando raggiunge la base del piano.
+\begin{solution}
+Poiché il cilindro rotola senza strisciare, l'energia potenziale gravitazionale si trasforma in energia cinetica di traslazione \emph{e} di rotazione. Usando la condizione di rotolamento $v = \omega R$ e $I = \tfrac{1}{2}mR^2$:
+\[
+mgh = \tfrac{1}{2}mv^2 + \tfrac{1}{2}I\omega^2 = \tfrac{1}{2}mv^2 + \tfrac{1}{4}mv^2 = \tfrac{3}{4}mv^2.
+\]
+Ricavando la velocità (la massa si semplifica):
+\[
+v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4\cdot 9{,}81\cdot 3}{3}} = \sqrt{39{,}24} \approx \mathbf{6{,}26\ \text{m/s}}.
+\]
+È minore della velocità di caduta libera $\sqrt{2gh}$, perché parte dell'energia è immagazzinata nella rotazione.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=5.2, subtitle={Sfera piena che rotola senza strisciare da h = 2 m}, tags={corpo rigido, rotolamento, sfera}, difficulty=media]
+Una sfera piena di massa $m = 3\ \text{kg}$ e raggio $R = 0{,}2\ \text{m}$ parte da ferma e rotola senza strisciare scendendo di un dislivello $h = 2\ \text{m}$. Determina la velocità del suo centro di massa alla base.
+\begin{solution}
+Con $I = \tfrac{2}{5}mR^2$ e la condizione di rotolamento $v = \omega R$, il bilancio energetico diventa
+\[
+mgh = \tfrac{1}{2}mv^2 + \tfrac{1}{2}\!\left(\tfrac{2}{5}mR^2\right)\!\frac{v^2}{R^2} = \tfrac{1}{2}mv^2 + \tfrac{1}{5}mv^2 = \tfrac{7}{10}mv^2.
+\]
+Risolvendo rispetto alla velocità:
+\[
+v = \sqrt{\frac{10\,gh}{7}} = \sqrt{\frac{10\cdot 9{,}81\cdot 2}{7}} = \sqrt{28{,}03} \approx \mathbf{5{,}29\ \text{m/s}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=5.3, subtitle={Anello che rotola su piano inclinato di 30°}, tags={corpo rigido, rotolamento, anello}, difficulty=media]
+Un anello sottile di massa $m = 1{,}5\ \text{kg}$ e raggio $R = 0{,}4\ \text{m}$ rotola senza strisciare lungo un piano inclinato lungo $l = 5\ \text{m}$ con inclinazione $\theta = 30^\circ$. Determina la velocità del suo centro di massa alla base del piano.
+\begin{solution}
+Il dislivello percorso è $h = l\sin\theta = 5\cdot 0{,}5 = 2{,}5\ \text{m}$. Per un anello tutta la massa è a distanza $R$ dall'asse, quindi $I = mR^2$ e il bilancio energetico è
+\[
+mgh = \tfrac{1}{2}mv^2 + \tfrac{1}{2}mv^2 = mv^2.
+\]
+Ricavando la velocità:
+\[
+v = \sqrt{gh} = \sqrt{9{,}81\cdot 2{,}5} \approx \mathbf{4{,}95\ \text{m/s}}.
+\]
+L'anello è il corpo «più lento» a rotolare: metà esatta dell'energia finisce nella rotazione.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=5.4, subtitle={Disco uniforme che rotola da h = 4 m}, tags={corpo rigido, rotolamento, disco}, difficulty=media]
+Un disco uniforme di massa $m = 4\ \text{kg}$ e raggio $R = 0{,}3\ \text{m}$ parte da fermo e rotola senza strisciare scendendo di un dislivello $h = 4\ \text{m}$. Determina la velocità del suo centro di massa alla base.
+\begin{solution}
+Per un disco vale $I = \tfrac{1}{2}mR^2$, da cui il bilancio energetico (come per il cilindro) è $mgh = \tfrac{3}{4}mv^2$. Risolvendo rispetto alla velocità:
+\[
+v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4\cdot 9{,}81\cdot 4}{3}} = \sqrt{52{,}32} \approx \mathbf{7{,}23\ \text{m/s}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=5.5, subtitle={Cilindro cavo che rotola senza strisciare da h = 1,5 m}, tags={corpo rigido, rotolamento, cilindro cavo}, difficulty=media]
+Un cilindro cavo a parete sottile, di massa $m = 2{,}5\ \text{kg}$ e raggio $R = 0{,}25\ \text{m}$, rotola senza strisciare scendendo di un dislivello $h = 1{,}5\ \text{m}$. Determina la velocità del suo centro di massa alla base.
+\begin{solution}
+Per un cilindro cavo a parete sottile tutta la massa è a distanza $R$ dall'asse, quindi $I = mR^2$, come per un anello. Il bilancio energetico è
+\[
+mgh = \tfrac{1}{2}mv^2 + \tfrac{1}{2}mv^2 = mv^2,
+\]
+da cui
+\[
+v = \sqrt{gh} = \sqrt{9{,}81\cdot 1{,}5} \approx \mathbf{3{,}84\ \text{m/s}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+%====================================================%
+% SEZIONE 6: MOMENTO MECCANICO
+%====================================================%
+\begin{question}[ID=6.1, subtitle={Momento del peso su pendolo a 45° dalla verticale}, tags={corpo rigido, momento meccanico}, difficulty=facile]
+Un corpo di massa $m = 4\ \text{kg}$ è appeso a una corda di lunghezza $l = 3\ \text{m}$ che forma un angolo di $45^\circ$ rispetto alla verticale. Calcola il momento della forza peso rispetto al punto di sospensione.
+\begin{solution}
+Il momento di una forza rispetto a un polo è $M = F\,l\sin\theta$, dove $\theta$ è l'angolo tra la corda e la forza. La forza peso è $F = mg$ e l'angolo con la corda vale $45^\circ$:
+\[
+M = mgl\sin 45^\circ = 4\cdot 9{,}81\cdot 3\cdot \frac{\sqrt{2}}{2} \approx \mathbf{83{,}1\ \text{N·m}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=6.2, subtitle={Momento meccanico di un braccio di leva a 30°}, tags={corpo rigido, momento meccanico}, difficulty=facile]
+Su un braccio di leva lungo $l = 2{,}5\ \text{m}$ agisce una forza $F = 20\ \text{N}$ inclinata di $30^\circ$ rispetto alla direzione della leva. Calcola il momento meccanico della forza rispetto al fulcro.
+\begin{solution}
+Solo la componente della forza perpendicolare alla leva contribuisce al momento, quindi $M = F\,l\sin\theta$:
+\[
+M = Fl\sin 30^\circ = 20\cdot 2{,}5\cdot 0{,}5 = \mathbf{25\ \text{N·m}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=6.3, subtitle={Momento meccanico di una forza tangenziale su una ruota}, tags={corpo rigido, momento meccanico}, difficulty=facile]
+Una forza $F = 50\ \text{N}$ è applicata tangenzialmente al bordo di una ruota di raggio $R = 0{,}4\ \text{m}$. Calcola il momento meccanico rispetto al centro della ruota.
+\begin{solution}
+Una forza tangenziale è perpendicolare al raggio ($\theta = 90^\circ$, $\sin\theta = 1$), quindi il braccio coincide con il raggio stesso:
+\[
+M = FR = 50\cdot 0{,}4 = \mathbf{20\ \text{N·m}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=6.4, subtitle={Forza di un motore dato il momento meccanico e il braccio}, tags={corpo rigido, momento meccanico}, difficulty=facile]
+Un motore eroga un momento meccanico $M = 25\ \text{N·m}$ agendo con un braccio $l = 0{,}5\ \text{m}$. Determina il modulo della forza esercitata, supposta perpendicolare al braccio.
+\begin{solution}
+Da $M = Fl$ (forza perpendicolare al braccio) ricaviamo la forza:
+\[
+F = \frac{M}{l} = \frac{25}{0{,}5} = \mathbf{50\ \text{N}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=6.5, subtitle={Momento meccanico di una forza perpendicolare a una barra}, tags={corpo rigido, momento meccanico}, difficulty=facile]
+Una forza $F = 10\ \text{N}$ è applicata perpendicolarmente a una barra, a una distanza $r = 1{,}2\ \text{m}$ dal punto di fissaggio. Calcola il momento meccanico rispetto a tale punto.
+\begin{solution}
+Essendo la forza perpendicolare alla barra, il braccio coincide con la distanza $r$ e il momento è semplicemente il prodotto $F\,r$:
+\[
+M = Fr = 10\cdot 1{,}2 = \mathbf{12\ \text{N·m}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+%====================================================%
+% SEZIONE 7: MACCHINA DI ATWOOD
+%====================================================%
+\begin{question}[ID=7.1, subtitle={Macchina di Atwood con carrucola massiva — singola massa}, tags={corpo rigido, macchina di Atwood, carrucola}, difficulty=media]
+In un sistema una carrucola assimilabile a un disco di massa $M = 1\ \text{kg}$ porta un filo a una cui estremità è appeso un corpo di massa $m = 4\ \text{kg}$, mentre l'altra estremità del filo è fissata. Tenendo conto dell'inerzia della carrucola, calcola l'accelerazione con cui scende il corpo.
+\begin{solution}
+Scrivendo la seconda legge di Newton per il corpo appeso e l'equazione del moto rotatorio per la carrucola ($I = \tfrac{1}{2}MR^2$), e usando $a = \alpha R$, si ottiene l'accelerazione
+\[
+a = \frac{mg}{m + \tfrac{M}{2}} = \frac{4\cdot 9{,}81}{4 + 0{,}5} = \frac{39{,}24}{4{,}5} \approx \mathbf{8{,}72\ \text{m/s}^2}.
+\]
+La carrucola massiva «sottrae» parte dell'accelerazione rispetto al valore $g$ della caduta libera.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=7.2, subtitle={Massa appesa a carrucola di massa doppia}, tags={corpo rigido, macchina di Atwood, carrucola}, difficulty=media]
+Un blocco di massa $m$ è appeso a un filo avvolto su una carrucola (disco) di massa $M_p = 2m$. Determina l'accelerazione del blocco in funzione di $g$ e calcolane il valore numerico assumendo $g = 9{,}8\ \text{m/s}^2$.
+\begin{solution}
+Per una carrucola-disco di momento d'inerzia $I = \tfrac{1}{2}M_p R^2$, l'accelerazione del blocco è
+\[
+a = \frac{mg}{m + \tfrac{M_p}{2}} = \frac{mg}{m + m} = \frac{g}{2}.
+\]
+Numericamente:
+\[
+a = \frac{9{,}8}{2} = \mathbf{4{,}9\ \text{m/s}^2}\ \text{(diretta verso il basso)}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=7.3, subtitle={Macchina di Atwood ideale con m₁ = 3 kg e m₂ = 7 kg}, tags={corpo rigido, macchina di Atwood}, difficulty=facile]
+Una macchina di Atwood con carrucola ideale (di massa e attrito trascurabili) regge due masse $m_1 = 3\ \text{kg}$ e $m_2 = 7\ \text{kg}$. Calcola l'accelerazione del sistema.
+\begin{solution}
+Con carrucola ideale la tensione è la stessa lungo tutto il filo. L'accelerazione del sistema è data dalla differenza dei pesi divisa per la massa totale:
+\[
+a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{(7-3)\cdot 9{,}81}{10} = \frac{39{,}24}{10} = \mathbf{3{,}92\ \text{m/s}^2}.
+\]
+La massa $m_2$ scende e $m_1$ sale con questa accelerazione.
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=7.4, subtitle={Tensione nella fune di Atwood con carrucola massiva}, tags={corpo rigido, macchina di Atwood, carrucola}, difficulty=media]
+Un blocco di massa $m = 2{,}5\ \text{kg}$ è appeso a un filo avvolto su una carrucola (disco) di massa $M = 3\ \text{kg}$, mentre l'altra estremità del filo è fissata. Calcola la tensione nella fune, assumendo $g = 9{,}8\ \text{m/s}^2$.
+\begin{solution}
+Calcoliamo prima l'accelerazione del blocco, tenendo conto dell'inerzia della carrucola ($I = \tfrac{1}{2}MR^2$):
+\[
+a = \frac{mg}{m + \tfrac{M}{2}} = \frac{2{,}5\cdot 9{,}8}{2{,}5 + 1{,}5} = \frac{24{,}5}{4} = 6{,}125\ \text{m/s}^2.
+\]
+La tensione si ricava dalla seconda legge di Newton applicata al blocco, $T = m(g - a)$:
+\[
+T = 2{,}5\cdot(9{,}8 - 6{,}125) = 2{,}5\cdot 3{,}675 \approx \mathbf{9{,}19\ \text{N}}.
+\]
+\end{solution}
+\end{question}
+
+%---------------------------------------------------%
+
+\begin{question}[ID=7.5, subtitle={Macchina di Atwood con carrucola massiva e due masse diverse}, tags={corpo rigido, macchina di Atwood, carrucola}, difficulty=media]
+Una macchina di Atwood ha una carrucola (disco) di massa $M = 5\ \text{kg}$ e regge due masse $m_1 = 5\ \text{kg}$ e $m_2 = 2\ \text{kg}$. Tenendo conto dell'inerzia della carrucola, calcola l'accelerazione del sistema.
+\begin{solution}
+Con carrucola massiva ($I = \tfrac{1}{2}MR^2$) la massa equivalente da aggiungere al denominatore è $M/2$. L'accelerazione vale
+\[
+a = \frac{(m_1 - m_2)g}{m_1 + m_2 + \tfrac{M}{2}} = \frac{(5-2)\cdot 9{,}81}{5 + 2 + 2{,}5} = \frac{29{,}43}{9{,}5} \approx \mathbf{3{,}10\ \text{m/s}^2}.
+\]
+La massa $m_1$ scende trascinando il sistema con questa accelerazione.
+\end{solution}
+\end{question}
