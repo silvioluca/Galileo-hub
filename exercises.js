@@ -2648,7 +2648,7 @@ const EXERCISES = [
       "errore"
     ],
     "subtitle": "Misure scorrette per sensibilità dello strumento",
-    "text": "Quale tra queste misure effettuate con uno strumento non può essere corretta:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\ (1{,}05 \\pm 0{,}05)\\ mm$\n\\item $\\ (2{,}17 \\pm 0{,}05)\\ mm$\n\\item $\\ (10{,}2 \\pm 0{,}1)\\ mm$\n\\item $\\ (10{,}21 \\pm 0{,}1)\\ mm$\n\\item $\\ (11 \\pm 1)\\ mm$\n\\item $\\ (11{,}1 \\pm 1)\\ mm$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Quale tra queste misure effettuate con uno strumento non può essere corretta:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\ (1{,}05 \\pm 0{,}05)\\ mm$\n\\item $\\ (2{,}17 \\pm 0{,}05)\\ mm$\n\\item $\\ (10{,}2 \\pm 0{,}1)\\ mm$\n\\item $\\ (10{,}21 \\pm 0{,}1)\\ mm$\n\\item $\\ (11 \\pm 1)\\ mm$\n\\item $\\ (11{,}1 \\pm 1)\\ mm$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "Le misure scorrette sono \\textbf{d)} e \\textbf{f)}: l'incertezza deve avere lo stesso numero di cifre decimali della misura. In d) la misura ha 2 decimali ma l'incertezza ne ha 1; in f) la misura ha 1 decimale ma l'incertezza è intera.",
     "id": 173
   },
@@ -2663,7 +2663,7 @@ const EXERCISES = [
       "relativo e percentuale"
     ],
     "subtitle": "Errore relativo e percentuale — confronto precisione",
-    "text": "Per ogni misura determina errore relativo e percentuale. Quale è più precisa?\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(12{,}4 \\pm 0{,}2)\\ \\text{m}$\n\\item $(8{,}20 \\pm 0{,}05)\\ \\text{m}$\n\\item $(0{,}540 \\pm 0{,}003)\\ \\text{m}$\n\\item $(1450 \\pm 20)\\ \\text{m}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Per ogni misura determina errore relativo e percentuale. Quale è più precisa?\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n\\item $(12{,}4 \\pm 0{,}2)\\ \\text{m}$\n\\item $(8{,}20 \\pm 0{,}05)\\ \\text{m}$\n\\item $(0{,}540 \\pm 0{,}003)\\ \\text{m}$\n\\item $(1450 \\pm 20)\\ \\text{m}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "\\begin{align*}\n\\text{a)}\\; &\\varepsilon_r = 0{,}2/12{,}4 \\approx 1{,}6\\% &\n\\text{b)}\\; &\\varepsilon_r = 0{,}05/8{,}20 \\approx 0{,}61\\% \\\\\n\\text{c)}\\; &\\varepsilon_r = 0{,}003/0{,}540 \\approx 0{,}56\\% &\n\\text{d)}\\; &\\varepsilon_r = 20/1450 \\approx 1{,}38\\%\n\\end{align*}\nLa più precisa è \\textbf{c)}, con l'errore relativo minore ($\\approx 0{,}56\\%$).",
     "id": 174
   },
@@ -2678,7 +2678,7 @@ const EXERCISES = [
       "misure"
     ],
     "subtitle": "Errore relativo su corrente, lunghezza, mol, temperatura",
-    "text": "Calcola l'errore relativo, percentuale e indica la misura più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(3{,}50 \\pm 0{,}04)\\ \\text{A}$\n\\item $(27{,}0 \\pm 0{,}5)\\ \\text{cm}$\n\\item $(0{,}0021 \\pm 0{,}0001)\\ \\text{mol}$\n\\item $(98{,}0 \\pm 0{,}8)\\ ^\\circ\\text{C}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcola l'errore relativo, percentuale e indica la misura più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n\\item $(3{,}50 \\pm 0{,}04)\\ \\text{A}$\n\\item $(27{,}0 \\pm 0{,}5)\\ \\text{cm}$\n\\item $(0{,}0021 \\pm 0{,}0001)\\ \\text{mol}$\n\\item $(98{,}0 \\pm 0{,}8)\\ ^\\circ\\text{C}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "\\begin{align*}\n\\text{a)}\\; &\\varepsilon_r \\approx 1{,}1\\% &\n\\text{b)}\\; &\\varepsilon_r \\approx 1{,}9\\% \\\\\n\\text{c)}\\; &\\varepsilon_r \\approx 4{,}8\\% &\n\\text{d)}\\; &\\varepsilon_r \\approx 0{,}82\\%\n\\end{align*}\nLa più precisa è \\textbf{d)}.",
     "id": 175
   },
@@ -2693,7 +2693,7 @@ const EXERCISES = [
       "misure"
     ],
     "subtitle": "Errore relativo su tensione, volume, massa, distanza",
-    "text": "Determina errore relativo, percentuale e quale misura risulta più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(4{,}80 \\pm 0{,}02)\\ \\text{V}$\n\\item $(0{,}750 \\pm 0{,}010)\\ \\text{L}$\n\\item $(120 \\pm 3)\\ \\text{g}$\n\\item $(15{,}2 \\pm 0{,}3)\\ \\text{m}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determina errore relativo, percentuale e quale misura risulta più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n\\item $(4{,}80 \\pm 0{,}02)\\ \\text{V}$\n\\item $(0{,}750 \\pm 0{,}010)\\ \\text{L}$\n\\item $(120 \\pm 3)\\ \\text{g}$\n\\item $(15{,}2 \\pm 0{,}3)\\ \\text{m}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "\\begin{align*}\n\\text{a)}\\; &\\varepsilon_r \\approx 0{,}42\\% &\n\\text{b)}\\; &\\varepsilon_r \\approx 1{,}3\\% \\\\\n\\text{c)}\\; &\\varepsilon_r \\approx 2{,}5\\% &\n\\text{d)}\\; &\\varepsilon_r \\approx 2{,}0\\%\n\\end{align*}\nLa più precisa è \\textbf{a)}.",
     "id": 176
   },
@@ -2708,7 +2708,7 @@ const EXERCISES = [
       "misure"
     ],
     "subtitle": "Errore relativo su massa, lunghezza, tempo, velocità",
-    "text": "Per ogni misura calcola errore relativo, percentuale e individua la più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(2{,}30 \\pm 0{,}01)\\ \\text{kg}$\n\\item $(480 \\pm 10)\\ \\text{mm}$\n\\item $(0{,}036 \\pm 0{,}001)\\ \\text{s}$\n\\item $(9{,}0 \\pm 0{,}4)\\ \\text{m/s}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Per ogni misura calcola errore relativo, percentuale e individua la più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n\\item $(2{,}30 \\pm 0{,}01)\\ \\text{kg}$\n\\item $(480 \\pm 10)\\ \\text{mm}$\n\\item $(0{,}036 \\pm 0{,}001)\\ \\text{s}$\n\\item $(9{,}0 \\pm 0{,}4)\\ \\text{m/s}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "\\begin{align*}\n\\text{a)}\\; &\\varepsilon_r \\approx 0{,}43\\% &\n\\text{b)}\\; &\\varepsilon_r \\approx 2{,}1\\% \\\\\n\\text{c)}\\; &\\varepsilon_r \\approx 2{,}8\\% &\n\\text{d)}\\; &\\varepsilon_r \\approx 4{,}4\\%\n\\end{align*}\nLa più precisa è \\textbf{a)}.",
     "id": 177
   },
@@ -2723,7 +2723,7 @@ const EXERCISES = [
       "misure"
     ],
     "subtitle": "Errore relativo su massa, distanza, corrente, temperatura",
-    "text": "Completa: errore relativo, errore percentuale e indica la misura più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(720 \\pm 8)\\ \\text{kg}$\n\\item $(0{,}0150 \\pm 0{,}0002)\\ \\text{m}$\n\\item $(6{,}4 \\pm 0{,}2)\\ \\text{A}$\n\\item $(310 \\pm 5)\\ \\text{K}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Completa: errore relativo, errore percentuale e indica la misura più precisa.\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n\\item $(720 \\pm 8)\\ \\text{kg}$\n\\item $(0{,}0150 \\pm 0{,}0002)\\ \\text{m}$\n\\item $(6{,}4 \\pm 0{,}2)\\ \\text{A}$\n\\item $(310 \\pm 5)\\ \\text{K}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "\\begin{align*}\n\\text{a)}\\; &\\varepsilon_r \\approx 1{,}1\\% &\n\\text{b)}\\; &\\varepsilon_r \\approx 1{,}3\\% \\\\\n\\text{c)}\\; &\\varepsilon_r \\approx 3{,}1\\% &\n\\text{d)}\\; &\\varepsilon_r \\approx 1{,}6\\%\n\\end{align*}\nLa più precisa è \\textbf{a)}.",
     "id": 178
   },
@@ -3208,13 +3208,54 @@ const EXERCISES = [
     "difficulty": 1,
     "sourceId": "1.1",
     "tags": [
-      "teoria",
-      "disequazioni"
+      "disequazioni lineari"
     ],
-    "subtitle": "Domande di teoria sulle disequazioni",
-    "text": "Rispondi alle seguenti domande di teoria:\n\\begin{center}\\begin{minipage}{0.85\\linewidth}\n\\begin{enumerate}[label=\\arabic*)]\n\\item Che cos'è una disequazione di primo grado?\n\\item Qual è il primo principio di equivalenza delle disequazioni?\n\\item Qual è il secondo principio di equivalenza delle disequazioni?\n\\item Come si rappresenta graficamente una soluzione su una retta?\n\\item Quando una disequazione è sempre verificata?\n\\item Quando una disequazione è impossibile?\n\\item Quali operazioni si possono fare mantenendo l'equivalenza?\n\\item Cosa succede al verso moltiplicando per un numero positivo?\n\\item Cosa succede al verso moltiplicando per un numero negativo?\n\\item Quando bisogna cambiare il verso della disequazione?\n\\item Cos'è una disequazione frazionaria?\n\\item Qual è la condizione di esistenza in una disequazione frazionaria?\n\\item Perché è importante studiare il segno del denominatore?\n\\item Come si risolve una disequazione con frazioni?\n\\item Cos'è il metodo del segno?\n\\item Come si costruisce una tabella dei segni?\n\\item Cosa sono le C.E.?\n\\item Perché il denominatore non può annullarsi?\n\\item Come si scrive la soluzione in forma di intervallo?\n\\item Qual è la differenza tra intervallo aperto e chiuso?\n\\end{enumerate}\n\\end{minipage}\\end{center}",
-    "solution": "Risposta orale o scritta per ciascun punto.",
+    "subtitle": "Disequazioni di primo grado",
+    "text": "Risolvi le seguenti disequazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $x + 3 > 7$\n    \\item $x - 5 \\leq 2$\n    \\item $2x > 8$\n    \\item $-3x \\leq 9$\n    \\item $2x + 1 > 5$\n    \\item $3x - 4 \\geq 2$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x>4$\n    \\item $x\\leq 7$\n    \\item $x>4$\n    \\item $x\\geq -3$\n    \\item $x>2$\n    \\item $x\\geq 2$\n\\end{enumerate}",
     "id": 210
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Disequazioni",
+    "difficulty": 1,
+    "sourceId": "1.2",
+    "tags": [
+      "disequazioni lineari"
+    ],
+    "subtitle": "Disequazioni di primo grado",
+    "text": "Risolvi le seguenti disequazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $5 - x < 3$\n    \\item $4 - 2x \\geq 6$\n    \\item $2(x + 1) > 6$\n    \\item $3(x - 2) \\leq 6$\n    \\item $2x + 3 > x - 1$\n    \\item $4x - 5 \\leq 2x + 3$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x>2$\n    \\item $x\\leq -1$\n    \\item $x>2$\n    \\item $x\\leq 4$\n    \\item $x>-4$\n    \\item $x\\leq 4$\n\\end{enumerate}",
+    "id": 211
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Disequazioni",
+    "difficulty": 2,
+    "sourceId": "1.3",
+    "tags": [
+      "disequazioni lineari"
+    ],
+    "subtitle": "Disequazioni di primo grado con frazioni e parentesi",
+    "text": "Risolvi le seguenti disequazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $3x - 2 > 5x - 6$\n    \\item $2 - x \\geq x + 4$\n    \\item $\\dfrac{x}{2} > 3$\n    \\item $\\dfrac{3x - 1}{2} \\leq 4$\n    \\item $\\dfrac{x + 2}{3} > \\dfrac{x - 1}{2}$\n    \\item $\\dfrac{2x - 3}{4} \\leq \\dfrac{x + 5}{2}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x<2$\n    \\item $x\\leq -1$\n    \\item $x>6$\n    \\item $x\\leq 3$\n    \\item $x<7$\n    \\item $x\\in\\mathbb{R}$\n\\end{enumerate}",
+    "id": 212
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Disequazioni",
+    "difficulty": 3,
+    "sourceId": "1.4",
+    "tags": [
+      "disequazioni lineari"
+    ],
+    "subtitle": "Disequazioni di primo grado con parentesi e frazioni",
+    "text": "Risolvi le seguenti disequazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $3(2x - 1) - 4x > 5$\n    \\item $2(3x + 1) - (x - 4) \\leq 7$\n    \\item $3(2x-1)-2(x+4)>5$\n    \\item $5-2(3x-1)\\leq 3(x+2)$\n    \\item $\\dfrac{3x-2}{4}-\\dfrac{x+1}{3}>1$\n    \\item $2-\\dfrac{x-3}{2}\\geq\\dfrac{x+1}{3}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x>4$\n    \\item $x\\leq\\tfrac{1}{5}$\n    \\item $x>4$\n    \\item $x\\geq\\tfrac{1}{9}$\n    \\item $x>\\tfrac{22}{5}$\n    \\item $x\\leq\\tfrac{19}{5}$\n\\end{enumerate}",
+    "id": 213
   },
   {
     "subject": "matematica",
@@ -3223,26 +3264,54 @@ const EXERCISES = [
     "difficulty": 1,
     "sourceId": "2.1",
     "tags": [
-      "disequazioni lineari"
+      "disequazioni frazionarie"
     ],
-    "subtitle": "Disequazioni di primo grado",
-    "text": "Risolvi le seguenti disequazioni di primo grado:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $x + 3 > 7$\n\\item $x - 5 \\leq 2$\n\\item $2x > 8$\n\\item $-3x \\leq 9$\n\\item $2x + 1 > 5$\n\\item $3x - 4 \\geq 2$\n\\item $5 - x < 3$\n\\item $4 - 2x \\geq 6$\n\\item $2(x + 1) > 6$\n\\item $3(x - 2) \\leq 6$\n\\item $2x + 3 > x - 1$\n\\item $4x - 5 \\leq 2x + 3$\n\\item $3x - 2 > 5x - 6$\n\\item $2 - x \\geq x + 4$\n\\item $\\frac{x}{2} > 3$\n\\item $\\frac{3x - 1}{2} \\leq 4$\n\\item $\\frac{x + 2}{3} > \\frac{x - 1}{2}$\n\\item $\\frac{2x - 3}{4} \\leq \\frac{x + 5}{2}$\n\\item $3(2x - 1) - 4x > 5$\n\\item $2(3x + 1) - (x - 4) \\leq 7$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "1) $x>4$; 2) $x\\le 7$; 3) $x>4$; 4) $x\\ge -3$; 5) $x>2$; 6) $x\\ge 2$; 7) $x>2$; 8) $x\\le -1$; 9) $x>2$; 10) $x\\le 4$; 11) $x>-4$; 12) $x\\le 4$; 13) $x<2$; 14) $x\\le -1$; 15) $x>6$; 16) $x\\le 3$; 17) $x<7$; 18) $x\\in\\mathbb{R}$; 19) $x>4$; 20) $x\\le\\tfrac{1}{5}$",
-    "id": 211
+    "subtitle": "Disequazioni frazionarie",
+    "text": "Risolvi le seguenti disequazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $\\dfrac{x}{x-1} > 0$\n    \\item $\\dfrac{x-2}{x+1} \\geq 0$\n    \\item $\\dfrac{2x+1}{x-3} > 0$\n    \\item $\\dfrac{x+4}{2x-1} \\leq 0$\n    \\item $\\dfrac{x-1}{x+2} < 0$\n    \\item $\\dfrac{3x-2}{x-2} \\geq 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x<0\\vee x>1$\n    \\item $x\\in(-\\infty,-1)\\cup[2,+\\infty)$\n    \\item $x<-\\tfrac12\\vee x>3$\n    \\item $x\\in[-4,\\tfrac12)$\n    \\item $x\\in(-2,1)$\n    \\item $x\\in(-\\infty,\\tfrac23]\\cup(2,+\\infty)$\n\\end{enumerate}",
+    "id": 214
   },
   {
     "subject": "matematica",
     "category": "Algebra",
     "topic": "Disequazioni",
     "difficulty": 2,
-    "sourceId": "3.1",
+    "sourceId": "2.2",
     "tags": [
       "disequazioni frazionarie"
     ],
     "subtitle": "Disequazioni frazionarie",
-    "text": "Risolvi le seguenti disequazioni frazionarie:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $\\frac{x}{x-1} > 0$\n\\item $\\frac{x-2}{x+1} \\ge 0$\n\\item $\\frac{2x+1}{x-3} > 0$\n\\item $\\frac{x+4}{2x-1} \\le 0$\n\\item $\\frac{x-1}{x+2} < 0$\n\\item $\\frac{3x-2}{x-2} \\ge 0$\n\\item $\\frac{x+1}{x-4} > 1$\n\\item $\\frac{2x}{x-3} \\le 1$\n\\item $\\frac{x-2}{x+1} > \\frac{x}{x+1}$\n\\item $\\frac{2x+3}{x-1} \\ge \\frac{x}{x-1}$\n\\item $\\frac{x+1}{x-2} < \\frac{2x}{x-2}$\n\\item $\\frac{3x-1}{x+2} \\le \\frac{x+4}{x+2}$\n\\item $\\frac{x}{3x-1} > 1$\n\\item $\\frac{2}{x+1} \\ge 2$\n\\item $\\frac{x+1}{x-2} - 1 > 0$\n\\item $\\frac{2x}{x+3} - 2 \\le 0$\n\\item $\\frac{x^2-1}{x-1} > 0$\n\\item $\\frac{x^2-4}{x+2} \\le 0$\n\\item $\\frac{3}{x-2} + \\frac{1}{2x+1} > 0$\n\\item $\\frac{1}{x+1} - \\frac{3}{x-1} \\le 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "1) $x<0\\vee x>1$; 2) $x\\le -1$ escluso $\\cup x\\ge 2$; 3) $x<-\\tfrac12\\vee x>3$; 4) $-4\\le x<\\tfrac12$; 5) $-2<x<1$; 6) $x\\le\\tfrac23\\vee x>2$; 7) $4<x<5$... vedi svolgimento completo.",
-    "id": 212
+    "text": "Risolvi le seguenti disequazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $\\dfrac{x+1}{x-4} > 1$\n    \\item $\\dfrac{2x}{x-3} \\leq 1$\n    \\item $\\dfrac{x-2}{x+1} > \\dfrac{x}{x+1}$\n    \\item $\\dfrac{2x+3}{x-1} \\geq \\dfrac{x}{x-1}$\n    \\item $\\dfrac{x+1}{x-2} < \\dfrac{2x}{x-2}$\n    \\item $\\dfrac{3x-1}{x+2} \\leq \\dfrac{x+4}{x+2}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x>4$\n    \\item $x\\in[-3,3)$\n    \\item $x<-1$\n    \\item $x\\in(-\\infty,-3]\\cup(1,+\\infty)$\n    \\item $x\\in(-\\infty,1)\\cup(2,+\\infty)$\n    \\item $x\\in(-2,\\tfrac52]$\n\\end{enumerate}",
+    "id": 215
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Disequazioni",
+    "difficulty": 2,
+    "sourceId": "2.3",
+    "tags": [
+      "disequazioni frazionarie"
+    ],
+    "subtitle": "Disequazioni frazionarie con semplificazioni",
+    "text": "Risolvi le seguenti disequazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $\\dfrac{x}{3x-1} > 1$\n    \\item $\\dfrac{2}{x+1} \\geq 2$\n    \\item $\\dfrac{x+1}{x-2} - 1 > 0$\n    \\item $\\dfrac{2x}{x+3} - 2 \\leq 0$\n    \\item $\\dfrac{x^2-1}{x-1} > 0$\n    \\item $\\dfrac{x^2-4}{x+2} \\leq 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x\\in(\\tfrac13,\\tfrac12)$\n    \\item $x\\in(-1,0]$\n    \\item $x>2$\n    \\item $x>-3$\n    \\item $x\\in(-1,1)\\cup(1,+\\infty)$\n    \\item $x\\in(-\\infty,-2)\\cup(-2,2]$\n\\end{enumerate}",
+    "id": 216
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Disequazioni",
+    "difficulty": 3,
+    "sourceId": "2.4",
+    "tags": [
+      "disequazioni frazionarie"
+    ],
+    "subtitle": "Disequazioni frazionarie con più fattori",
+    "text": "Risolvi le seguenti disequazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $\\dfrac{3}{x-2}+\\dfrac{1}{2x+1}>0$\n    \\item $\\dfrac{1}{x+1}-\\dfrac{3}{x-1}\\leq 0$\n    \\item $\\dfrac{x-1}{x+2}>\\dfrac{2x+3}{x-1}$\n    \\item $\\dfrac{2x+1}{x-2}-\\dfrac{1}{x+1}\\geq 2$\n    \\item $\\dfrac{x+2}{x-1}+\\dfrac{x-3}{x+2}\\leq 1$\n    \\item $\\dfrac{1}{x-2}-\\dfrac{2}{x+1}\\leq 1$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x\\in(-\\tfrac12,-\\tfrac17)\\cup(2,+\\infty)$\n    \\item $x\\in[-2,-1)\\cup(1,+\\infty)$\n    \\item $x\\in\\left(\\tfrac{-9-\\sqrt{61}}{2},-2\\right)\\cup\\left(\\tfrac{-9+\\sqrt{61}}{2},1\\right)$\n    \\item $x\\in[-\\tfrac74,-1)\\cup(2,+\\infty)$\n    \\item $x\\in(-2,1)$\n    \\item $x\\in(-\\infty,-\\sqrt7]\\cup(-1,2)\\cup[\\sqrt7,+\\infty)$\n\\end{enumerate}",
+    "id": 217
   },
   {
     "subject": "matematica",
@@ -3253,10 +3322,66 @@ const EXERCISES = [
     "tags": [
       "equazioni"
     ],
-    "subtitle": "Classificazione di equazioni: determinata, indeterminata, impossibile",
-    "text": "Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.\n\\begin{center}\\begin{minipage}{0.85\\linewidth}\n\\begin{enumerate}\n\\item $5x = 0 \\qquad \\rule{5cm}{0.2pt}$\n\\item $4x = 4x + 1 \\qquad \\rule{5cm}{0.2pt}$\n\\item $2(x+1) - 2 = 2x \\qquad \\rule{5cm}{0.2pt}$\n\\end{enumerate}\n\\end{minipage}\\end{center}",
-    "solution": "$5x=0$: determinata ($x=0$); $4x=4x+1$: impossibile; $2(x+1)-2=2x$: indeterminata ($\\infty$ soluzioni)",
-    "id": 213
+    "subtitle": "Classificazione di equazioni",
+    "text": "Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\makebox[3cm][l]{5x = 0}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{4x = 4x + 1}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{2(x+1) - 2 = 2x}\\rule{5cm}{0.2pt}$\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}\n    \\item $5x=0$: determinata ($x=0$); \\\\\n    \\item $4x=4x+1$: impossibile; \\\\\n    \\item $2(x+1)-2=2x$: indeterminata ($\\infty$ soluzioni)\n\\end{enumerate}",
+    "id": 218
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "1.2",
+    "tags": [
+      "equazioni"
+    ],
+    "subtitle": "Classificazione di equazioni",
+    "text": "Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\makebox[3cm][l]{7x - 14 = 0}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{3x + 2 = 3x + 2}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{5x - 1 = 5x + 3}\\rule{5cm}{0.2pt}$\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}\n    \\item $7x-14=0$: determinata ($x=2$); \\\\\n    \\item $3x+2=3x+2$: indeterminata ($\\infty$ soluzioni); \\\\\n    \\item $5x-1=5x+3$: impossibile\n\\end{enumerate}",
+    "id": 219
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "1.3",
+    "tags": [
+      "equazioni"
+    ],
+    "subtitle": "Classificazione di equazioni",
+    "text": "Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\makebox[3cm][l]{2(x+3) = 2x + 6}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{4x - 5 = 4x - 8}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{3(x-2) = 3x - 5}\\rule{5cm}{0.2pt}$\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}\n    \\item $2(x+3)=2x+6$: indeterminata ($\\infty$ soluzioni); \\\\\n    \\item $4x-5=4x-8$: impossibile; \\\\\n    \\item $3(x-2)=3x-5$: impossibile\n\\end{enumerate}",
+    "id": 220
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 2,
+    "sourceId": "1.4",
+    "tags": [
+      "equazioni"
+    ],
+    "subtitle": "Classificazione di equazioni con parentesi",
+    "text": "Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\makebox[3cm][l]{3(2x-1) = 6x - 3}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{5(x+2) - 3x = 2x + 7}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{4(2x-1) = 8x + 3}\\rule{5cm}{0.2pt}$\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}\n    \\item $3(2x-1)=6x-3$: indeterminata ($\\infty$ soluzioni); \\\\\n    \\item $5(x+2)-3x=2x+7$: determinata ($x=-\\tfrac32$); \\\\\n    \\item $4(2x-1)=8x+3$: impossibile\n\\end{enumerate}",
+    "id": 221
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 3,
+    "sourceId": "1.5",
+    "tags": [
+      "equazioni"
+    ],
+    "subtitle": "Classificazione di equazioni con frazioni",
+    "text": "Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\makebox[3cm][l]{\\dfrac{3x-2}{2} = \\dfrac{6x-4}{4}}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{2(3x-1) - (4x+5) = 2x - 7}\\rule{5cm}{0.2pt}$\n    \\item $\\makebox[3cm][l]{\\dfrac{2x+3}{3} + \\dfrac{x-1}{2} = \\dfrac{7x+4}{6}}\\rule{5cm}{0.2pt}$\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}\n    \\item $\\dfrac{3x-2}{2}=\\dfrac{6x-4}{4}$: indeterminata ($\\infty$ soluzioni); \\\\\n    \\item $2(3x-1)-(4x+5)=2x-7$: indeterminata ($\\infty$ soluzioni); \\\\\n    \\item $\\dfrac{2x+3}{3}+\\dfrac{x-1}{2}=\\dfrac{7x+4}{6}$: impossibile\n\\end{enumerate}",
+    "id": 222
   },
   {
     "subject": "matematica",
@@ -3268,9 +3393,65 @@ const EXERCISES = [
       "equazioni lineari"
     ],
     "subtitle": "Equazioni di primo grado",
-    "text": "Risolvi le seguenti equazioni di primo grado:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $x + 5 = 7$\n\\item $3x - 7 = 2x + 4$\n\\item $2(x - 3) + 4 = 3x - 2$\n\\item $\\color{gray} \\frac{1}{2}x + 1 = \\frac{2}{3}(x + 1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "$a)\\ x=2$; $b)\\ x=11$; $c)\\ x=0$; $d)\\ x=-2$",
-    "id": 214
+    "text": "Risolvi le seguenti equazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x + 5 = 7$\n    \\item $3x - 7 = 2x + 4$\n    \\item $2(x - 3) + 4 = 3x - 2$\n    \\item $\\dfrac{1}{2}x + 1 = \\dfrac{2}{3}(x + 1)$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=2$\n    \\item $x=11$\n    \\item $x=0$\n    \\item $x=2$\n\\end{enumerate}",
+    "id": 223
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "2.2",
+    "tags": [
+      "equazioni lineari"
+    ],
+    "subtitle": "Equazioni di primo grado",
+    "text": "Risolvi le seguenti equazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $2x + 3 = 11$\n    \\item $5x - 4 = 2x + 8$\n    \\item $3(x + 2) - 5 = 2x + 4$\n    \\item $\\dfrac{3}{4}x - 2 = \\dfrac{1}{2}x + 1$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=4$\n    \\item $x=4$\n    \\item $x=3$\n    \\item $x=12$\n\\end{enumerate}",
+    "id": 224
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "2.3",
+    "tags": [
+      "equazioni lineari"
+    ],
+    "subtitle": "Equazioni di primo grado",
+    "text": "Risolvi le seguenti equazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $4x + 1 = 2x + 9$\n    \\item $7 - 3x = x - 9$\n    \\item $2(3x - 1) + 4 = 5x + 7$\n    \\item $\\dfrac{2x+1}{3} = \\dfrac{x-2}{2}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=4$\n    \\item $x=4$\n    \\item $x=5$\n    \\item $x=-8$\n\\end{enumerate}",
+    "id": 225
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 2,
+    "sourceId": "2.4",
+    "tags": [
+      "equazioni lineari"
+    ],
+    "subtitle": "Equazioni di primo grado",
+    "text": "Risolvi le seguenti equazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $4(2x-3) - 5 = 3x + 6$\n    \\item $7 - 2(3x+1) = 4x - 9$\n    \\item $\\dfrac{3x-2}{4} + \\dfrac{x+1}{2} = 5$\n    \\item $5(x-2) - 2(2x+1) = 3 - x$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=23/5$\n    \\item $x=7/5$\n    \\item $x=4$\n    \\item $x=15$\n\\end{enumerate}",
+    "id": 226
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 3,
+    "sourceId": "2.5",
+    "tags": [
+      "equazioni lineari"
+    ],
+    "subtitle": "Equazioni di primo grado con frazioni",
+    "text": "Risolvi le seguenti equazioni di primo grado:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\dfrac{2x-1}{3} - \\dfrac{x+2}{4} = \\dfrac{5x-7}{6}$\n    \\item $2\\left(\\dfrac{x-3}{4}\\right) - \\dfrac{3x+1}{5} = \\dfrac{x-7}{10}$\n    \\item $\\dfrac{3}{2}(x-4) - \\dfrac{2}{3}(x+3) = \\dfrac{x-5}{6}$\n    \\item $\\dfrac{5x-2}{6} - \\dfrac{2x+1}{3} + \\dfrac{x-4}{2} = 7$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item nessuna soluzione\n    \\item $x=\\tfrac{7}{2}$\n    \\item $x=\\tfrac{13}{5}$\n    \\item nessuna soluzione\n\\end{enumerate}",
+    "id": 227
   },
   {
     "subject": "matematica",
@@ -3282,9 +3463,205 @@ const EXERCISES = [
       "equazioni frazionarie"
     ],
     "subtitle": "Equazioni frazionarie",
-    "text": "Risolvi le seguenti equazioni frazionarie:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\frac{x+1}{x-2} = 0$\n\\item $\\frac{(x-3) \\cdot (x+3)}{2x+6} = 0$\n\\item $\\frac{2x-1}{3x-1} = 2$\n\\item $\\color{gray} \\frac{3}{x-3} = \\frac{2}{2x+4}$\n\\item $\\color{gray} \\frac{1+3x}{4x+4} - \\frac{5-x}{x+1} = 2$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "$a)\\ x=-1$ (CE: $x\\neq 2$); $b)\\ x=3$ (CE: $x\\neq -3$); $c)\\ x=\\tfrac14$ (CE: $x\\neq\\tfrac13$); $d)\\ x=-\\tfrac92$ (CE: $x\\neq 3,\\ x\\neq -2$); $e)\\ x=-27$ (CE: $x\\neq -1$)",
-    "id": 215
+    "text": "Risolvi le seguenti equazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\dfrac{x+1}{x-2} = 0$\n    \\item $\\dfrac{(x-3) \\cdot (x+3)}{2x+6} = 0$\n    \\item $\\dfrac{2x-1}{3x-1} = 2$\n    \\item $\\dfrac{3}{x-3} = \\dfrac{2}{2x+4}$\n    \\item $\\dfrac{1+3x}{4x+4} - \\dfrac{5-x}{x+1} = 2$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=-1$ (CE: $x\\neq 2$)\n    \\item $x=3$ (CE: $x\\neq -3$)\n    \\item $x=\\tfrac14$ (CE: $x\\neq\\tfrac13$)\n    \\item $x=-\\tfrac92$ (CE: $x\\neq 3,\\ x\\neq -2$)\n    \\item $x=-27$ (CE: $x\\neq -1$)\n\\end{enumerate}",
+    "id": 228
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "3.2",
+    "tags": [
+      "equazioni frazionarie"
+    ],
+    "subtitle": "Equazioni frazionarie",
+    "text": "Risolvi le seguenti equazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\dfrac{x-4}{x+1} = 0$\n    \\item $\\dfrac{(x-2)(x+2)}{x-2} = 0$\n    \\item $\\dfrac{x+3}{2x-1} = 1$\n    \\item $\\dfrac{4}{x+2} = \\dfrac{2}{x-1}$\n    \\item $\\dfrac{2x+1}{x-2} - \\dfrac{x+4}{x-2} = 3$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=4$ (CE: $x\\neq -1$)\n    \\item nessuna soluzione (CE: $x\\neq 2$)\n    \\item $x=4$ (CE: $x\\neq\\tfrac12$)\n    \\item $x=5$ (CE: $x\\neq -2,\\ x\\neq 1$)\n    \\item $x=-\\tfrac52$ (CE: $x\\neq 2$)\n\\end{enumerate}",
+    "id": 229
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "3.3",
+    "tags": [
+      "equazioni frazionarie"
+    ],
+    "subtitle": "Equazioni frazionarie",
+    "text": "Risolvi le seguenti equazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\dfrac{2x-6}{x+2} = 0$\n    \\item $\\dfrac{(x+1)(x-4)}{x+1} = 0$\n    \\item $\\dfrac{3x+2}{x-1} = 2$\n    \\item $\\dfrac{5}{x+1} = \\dfrac{3}{x-1}$\n    \\item $\\dfrac{x+2}{3x-3} + \\dfrac{2x-1}{3x-3} = 2$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=3$ (CE: $x\\neq -2$)\n    \\item $x=4$ (CE: $x\\neq -1$)\n    \\item $x=-4$ (CE: $x\\neq 1$)\n    \\item $x=4$ (CE: $x\\neq -1,\\ x\\neq 1$)\n    \\item $x=\\tfrac52$ (CE: $x\\neq 1$)\n\\end{enumerate}",
+    "id": 230
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 2,
+    "sourceId": "3.4",
+    "tags": [
+      "equazioni frazionarie"
+    ],
+    "subtitle": "Equazioni frazionarie",
+    "text": "Risolvi le seguenti equazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\dfrac{x-5}{x+2} = 2$\n    \\item $\\dfrac{2x+1}{x-3} = \\dfrac{3}{x-3}$\n    \\item $\\dfrac{x+4}{x-1} - 1 = 0$\n    \\item $\\dfrac{3}{x+1} = \\dfrac{x}{x+1}$\n    \\item $\\dfrac{2x-3}{x+2} + \\dfrac{x+1}{x+2} = 4$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=-9$ (CE: $x\\neq -2$)\n    \\item $x=2$ (CE: $x\\neq 3$)\n    \\item $x=\\tfrac52$ (CE: $x\\neq 1$)\n    \\item $x=3$ (CE: $x\\neq -1$)\n    \\item $x=\\tfrac{10}{3}$ (CE: $x\\neq -2$)\n\\end{enumerate}",
+    "id": 231
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 3,
+    "sourceId": "3.5",
+    "tags": [
+      "equazioni frazionarie"
+    ],
+    "subtitle": "Equazioni frazionarie con più denominatori",
+    "text": "Risolvi le seguenti equazioni frazionarie:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $\\dfrac{2x+1}{x-2} - \\dfrac{x-3}{x+1} = 1$\n    \\item $\\dfrac{3}{x-1} + \\dfrac{2}{x+2} = \\dfrac{5x+1}{(x-1)(x+2)}$\n    \\item $\\dfrac{x+2}{x-3} = \\dfrac{2x-1}{x+1}$\n    \\item $\\dfrac{4}{x-2} - \\dfrac{1}{x+2} = \\dfrac{3x+10}{x^2-4}$\n    \\item $\\dfrac{x-1}{x+3} + \\dfrac{x+2}{x-2} = 2$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=\\tfrac52$ (CE: $x\\neq 2,\\ x\\neq -1$)\n    \\item nessuna soluzione (CE: $x\\neq 1,\\ x\\neq -2$)\n    \\item $x=\\tfrac{7}{2}$ (CE: $x\\neq 3,\\ x\\neq -1$)\n    \\item identità, quindi $\\infty$ soluzioni (CE: $x\\neq 2,\\ x\\neq -2$)\n    \\item $x=\\tfrac12$ (CE: $x\\neq -3,\\ x\\neq 2$)\n\\end{enumerate}",
+    "id": 232
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "4.1",
+    "tags": [
+      "equazioni di grado superiore"
+    ],
+    "subtitle": "Equazioni di grado superiore al secondo",
+    "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x^3 - 8 = 0$\n    \\item $x^3 + 27 = 0$\n    \\item $x^4 - 16 = 0$\n    \\item $x^4 - 81 = 0$\n    \\item $x^3 - 4x = 0$\n    \\item $x^3 - 9x = 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=2$\n    \\item $x=-3$\n    \\item $x=\\pm2$\n    \\item $x=\\pm3$\n    \\item $x=-2,\\ 0,\\ 2$\n    \\item $x=-3,\\ 0,\\ 3$\n\\end{enumerate}",
+    "id": 233
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "4.2",
+    "tags": [
+      "equazioni di grado superiore"
+    ],
+    "subtitle": "Equazioni di grado superiore al secondo",
+    "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x^3 - 3x^2 = 0$\n    \\item $x^3 + 2x^2 = 0$\n    \\item $x^4 - 5x^2 = 0$\n    \\item $x^4 - 13x^2 + 36 = 0$\n    \\item $x^3 - 6x^2 + 9x = 0$\n    \\item $x^4 - 10x^2 + 9 = 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=0,\\ 3$\n    \\item $x=0,\\ -2$\n    \\item $x=0,\\ \\pm\\sqrt{5}$\n    \\item $x=\\pm2,\\ \\pm3$\n    \\item $x=0,\\ 3$\n    \\item $x=\\pm1,\\ \\pm3$\n\\end{enumerate}",
+    "id": 234
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 2,
+    "sourceId": "4.3",
+    "tags": [
+      "equazioni di grado superiore"
+    ],
+    "subtitle": "Equazioni di grado superiore al secondo mediante scomposizione",
+    "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x^3 - 5x^2 + 6x = 0$\n    \\item $x^3 + x^2 - 6x = 0$\n    \\item $x^4 - 2x^3 - 8x^2 = 0$\n    \\item $x^4 - 5x^2 + 4 = 0$\n    \\item $x^3 - 4x^2 - x + 4 = 0$\n    \\item $x^3 + 2x^2 - 9x - 18 = 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=0,\\ 2,\\ 3$\n    \\item $x=-3,\\ 0,\\ 2$\n    \\item $x=-2,\\ 0,\\ 4$\n    \\item $x=-2,\\ -1,\\ 1,\\ 2$\n    \\item $x=-1,\\ 1,\\ 4$\n    \\item $x=-3,\\ -2,\\ 3$\n\\end{enumerate}",
+    "id": 235
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 2,
+    "sourceId": "4.4",
+    "tags": [
+      "equazioni di grado superiore"
+    ],
+    "subtitle": "Equazioni di grado superiore al secondo",
+    "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x^4 - 7x^2 + 12 = 0$\n    \\item $x^4 - 13x^2 + 36 = 0$\n    \\item $x^4 - 3x^3 - 4x^2 = 0$\n    \\item $2x^3 - 8x^2 + 6x = 0$\n    \\item $x^4 - x^3 - 6x^2 = 0$\n    \\item $x^3 - 7x^2 + 14x - 8 = 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=\\pm\\sqrt{3},\\ \\pm2$\n    \\item $x=\\pm2,\\ \\pm3$\n    \\item $x=-1,\\ 0,\\ 4$\n    \\item $x=0,\\ 1,\\ 3$\n    \\item $x=-2,\\ 0,\\ 3$\n    \\item $x=1,\\ 2,\\ 4$\n\\end{enumerate}",
+    "id": 236
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 3,
+    "sourceId": "4.5",
+    "tags": [
+      "equazioni di grado superiore"
+    ],
+    "subtitle": "Equazioni di grado superiore al secondo con scomposizioni complesse",
+    "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x^4 - 2x^3 - 7x^2 + 8x + 12 = 0$\n    \\item $x^4 + x^3 - 7x^2 - x + 6 = 0$\n    \\item $x^3 - 6x^2 + 11x - 6 = 0$\n    \\item $x^4 - 5x^3 + 5x^2 + 5x - 6 = 0$\n    \\item $x^4 - 10x^2 + 9 = 0$\n    \\item $x^6 - 13x^3 + 36 = 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=-2,\\ -1,\\ 2,\\ 3$\n    \\item $x=-3,\\ -1,\\ 1,\\ 2$\n    \\item $x=1,\\ 2,\\ 3$\n    \\item $x=-1,\\ 1,\\ 2,\\ 3$\n    \\item $x=-3,\\ -1,\\ 1,\\ 3$\n    \\item $x=\\sqrt[3]{4},\\ \\sqrt[3]{9}$ \\quad (nelle soluzioni reali)\n\\end{enumerate}",
+    "id": 237
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "5.1",
+    "tags": [
+      "annullamento del prodotto"
+    ],
+    "subtitle": "Legge dell'annullamento del prodotto",
+    "text": "Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $(x-3)(x+2)=0$\n    \\item $(x+5)(x-1)=0$\n    \\item $x(x-7)=0$\n    \\item $(2x-4)(x+3)=0$\n    \\item $(3x+6)(x-2)=0$\n    \\item $(x-4)(x+4)=0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=3,\\ -2$\n    \\item $x=-5,\\ 1$\n    \\item $x=0,\\ 7$\n    \\item $x=2,\\ -3$\n    \\item $x=-2,\\ 2$\n    \\item $x=-4,\\ 4$\n\\end{enumerate}",
+    "id": 238
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 1,
+    "sourceId": "5.2",
+    "tags": [
+      "annullamento del prodotto"
+    ],
+    "subtitle": "Legge dell'annullamento del prodotto",
+    "text": "Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $(2x+1)(x-5)=0$\n    \\item $(3x-9)(x+4)=0$\n    \\item $(x-2)(4x+8)=0$\n    \\item $(5x-10)(2x+6)=0$\n    \\item $(x+1)(3x-12)=0$\n    \\item $(2x-6)(4x+1)=0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=-\\tfrac12,\\ 5$\n    \\item $x=3,\\ -4$\n    \\item $x=2,\\ -2$\n    \\item $x=2,\\ -3$\n    \\item $x=-1,\\ 4$\n    \\item $x=3,\\ -\\tfrac14$\n\\end{enumerate}",
+    "id": 239
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 2,
+    "sourceId": "5.3",
+    "tags": [
+      "annullamento del prodotto"
+    ],
+    "subtitle": "Legge dell'annullamento del prodotto con fattori di secondo grado",
+    "text": "Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x(x-2)(x+3)=0$\n    \\item $(x-1)(x+2)(x-4)=0$\n    \\item $(2x-3)(x^2-4)=0$\n    \\item $(x+1)(x^2-9)=0$\n    \\item $(3x+2)(x^2-5x+6)=0$\n    \\item $(x-2)(x^2+x-6)=0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=-3,\\ 0,\\ 2$\n    \\item $x=-2,\\ 1,\\ 4$\n    \\item $x=-2,\\ \\tfrac32,\\ 2$\n    \\item $x=-3,\\ -1,\\ 3$\n    \\item $x=-2,\\ -\\tfrac23,\\ 3$\n    \\item $x=-3,\\ 2$\n\\end{enumerate}",
+    "id": 240
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 2,
+    "sourceId": "5.4",
+    "tags": [
+      "annullamento del prodotto"
+    ],
+    "subtitle": "Legge dell'annullamento del prodotto e scomposizione",
+    "text": "Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $x^2 - 5x + 6 = 0$\n    \\item $x^2 - 9 = 0$\n    \\item $x^3 - 4x^2 + 3x = 0$\n    \\item $x^3 + 2x^2 - 8x = 0$\n    \\item $x^3 - x^2 - 6x = 0$\n    \\item $x^4 - 5x^2 + 4 = 0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=2,\\ 3$\n    \\item $x=-3,\\ 3$\n    \\item $x=0,\\ 1,\\ 3$\n    \\item $x=-4,\\ -2,\\ 0$\n    \\item $x=-2,\\ 0,\\ 3$\n    \\item $x=-2,\\ -1,\\ 1,\\ 2$\n\\end{enumerate}",
+    "id": 241
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Equazioni",
+    "difficulty": 3,
+    "sourceId": "5.5",
+    "tags": [
+      "annullamento del prodotto"
+    ],
+    "subtitle": "Legge dell'annullamento del prodotto con più fattori",
+    "text": "Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto e le opportune scomposizioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3cm]\n    \\item $(x^2-4)(x^2-9)=0$\n    \\item $(x^2-5x+6)(x^2-1)=0$\n    \\item $x(x-1)(x^2-4)=0$\n    \\item $(x^2-2x)(x^2-9)=0$\n    \\item $(x^2-4x+3)(x^2-16)=0$\n    \\item $(x^2-3x+2)(x^2+x-6)=0$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=-3,\\ -2,\\ 2,\\ 3$\n    \\item $x=-1,\\ 1,\\ 2,\\ 3$\n    \\item $x=-2,\\ -1,\\ 0,\\ 1,\\ 2$\n    \\item $x=-3,\\ 0,\\ 2,\\ 3$\n    \\item $x=-4,\\ 1,\\ 3,\\ 4$\n    \\item $x=-3,\\ 1,\\ 2$\n\\end{enumerate}",
+    "id": 242
   },
   {
     "subject": "matematica",
@@ -3297,9 +3674,9 @@ const EXERCISES = [
       "semplificazione"
     ],
     "subtitle": "Semplificazione di espressioni con potenze",
-    "text": "Semplificare le seguenti espressioni usando le proprietà delle potenze e scrivere il risultato sotto forma di potenza con esponente intero, quando possibile:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $2^{5}\\cdot 2^{-3} : 2^{2}$\n\\item $(3^{2}\\cdot 3^{-1})^2$\n\\item $\\Big(\\dfrac{2}{3}\\Big)^3 : \\Big(\\dfrac{2}{3}\\Big)^{-1} \\cdot\\Big(\\dfrac{3}{2}\\Big)^{-2} \\cdot \\Big(\\dfrac{2}{3}\\Big)^{-4}$\n\\item $(5^{-1})^{-3}\\cdot 5^{2}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "$a)\\ 2^0=1$; $b)\\ 3^2=9$; $c)\\ \\left(\\tfrac{2}{3}\\right)^2=\\tfrac{4}{9}$; $d)\\ 5^5=3125$",
-    "id": 216
+    "text": "Semplificare le seguenti espressioni usando le proprietà delle potenze e scrivere il risultato sotto forma di potenza con esponente intero, quando possibile:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $2^{5}\\cdot 2^{-3} : 2^{2}$\n    \\item $(3^{2}\\cdot 3^{-1})^2$\n    \\item $\\Big(\\dfrac{2}{3}\\Big)^3 : \\Big(\\dfrac{2}{3}\\Big)^{-1} \\cdot\\Big(\\dfrac{3}{2}\\Big)^{-2} \\cdot \\Big(\\dfrac{2}{3}\\Big)^{-4}$\n    \\item $(5^{-1})^{-3}\\cdot 5^{2}$\n    \\item $(2^{-3}\\cdot 2^{5})^2 : 2^{2}$\n    \\item $(4^{3})^{-1}\\cdot 4^{4}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $2^0=1$\n    \\item $3^2=9$\n    \\item $\\left(\\tfrac{2}{3}\\right)^2=\\tfrac{4}{9}$\n    \\item $5^5=3125$\n    \\item $2^2=4$\n    \\item $4^1=4$\n\\end{enumerate}",
+    "id": 243
   },
   {
     "subject": "matematica",
@@ -3312,9 +3689,9 @@ const EXERCISES = [
       "esponenti frazionari"
     ],
     "subtitle": "Potenze con esponenti frazionari",
-    "text": "Calcolare i seguenti valori (semplificare il più possibile):\n\\begin{enumerate}\n\\item \\( 16^{3/4} \\)\n\\item \\( 27^{-2/3} \\)\n\\item \\( \\sqrt[3]{8^5}\\) (esprimere come potenza con esponente razionale)\n\\item Se \\(a>0\\), esprimere \\( (a^{1/2}\\cdot a^{-3/4})^{-2} \\) come potenza di \\(a\\) con esponente razionale.\n\\end{enumerate}",
-    "solution": "1) $8$; 2) $\\tfrac{1}{9}$; 3) $8^{5/3}=32$; 4) $a^{1/2}$",
-    "id": 217
+    "text": "Calcolare i seguenti valori e semplificare il più possibile:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $16^{3/4}$\n    \\item $27^{-2/3}$\n    \\item $\\sqrt[3]{8^5}$\n    \\item Se $a>0$, esprimere $(a^{1/2}\\cdot a^{-3/4})^{-2}$ come potenza di $a$ con esponente razionale.\n    \\item $81^{3/4}$\n    \\item Se $b>0$, esprimere $(b^{-1/2}\\cdot b^{5/6})^3$ come potenza di $b$.\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $8$\n    \\item $\\tfrac{1}{9}$\n    \\item $8^{5/3}=32$\n    \\item $a^{1/2}$\n    \\item $27$\n    \\item $b$\n\\end{enumerate}",
+    "id": 244
   },
   {
     "subject": "matematica",
@@ -3327,9 +3704,9 @@ const EXERCISES = [
       "equazioni"
     ],
     "subtitle": "Equazioni risolte con le proprietà delle potenze",
-    "text": "Risolvi le seguenti equazioni (per la soluzione positiva quando necessario):\n\\begin{enumerate}\n\\item \\( 4^{x}=64 \\)\n\\item \\( 9\\cdot 3^{2x-1}=81 \\)\n\\item \\( 2^{2x+1}= \\dfrac{1}{8} \\)\n\\item \\( (x^{3})^{2}= 32 \\) (risolvere per \\(x\\) reale).\n\\end{enumerate}",
-    "solution": "1) $x=3$; 2) $x=\\tfrac{3}{2}$; 3) $x=-2$; 4) $x=2^{5/6}$",
-    "id": 218
+    "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $4^{x}=64$\n    \\item $9\\cdot 3^{2x-1}=81$\n    \\item $2^{2x+1}= \\dfrac{1}{8}$\n    \\item $(x^{3})^{2}= 32$\n    \\item $5^{x+1}=125$\n    \\item $27^{x-1}=9$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $x=3$\n    \\item $x=\\tfrac{3}{2}$\n    \\item $x=-2$\n    \\item $x=\\pm2^{5/6}$\n    \\item $x=2$\n    \\item $x=\\tfrac{5}{3}$\n\\end{enumerate}",
+    "id": 245
   },
   {
     "subject": "matematica",
@@ -3342,9 +3719,9 @@ const EXERCISES = [
       "notazione scientifica"
     ],
     "subtitle": "Potenze di 10 e notazione scientifica",
-    "text": "Potenze di 10 e notazione scientifica:\n\\begin{enumerate}\n\\item Riscrivi i seguenti numeri in notazione scientifica: \\( 0{,}00052,\\; 1240000\\).\n\\item Calcola e semplifica: \\( (3{,}2\\times 10^{4})\\cdot (5\\times 10^{-2}) \\).\n\\item Espressione con potenze di 10: semplifica \\( \\dfrac{10^{7}\\cdot 10^{-3}}{10^{2}} \\).\n\\item Un valore in fisica è \\(6{,}02\\times 10^{23}\\). Scrivilo come potenza di 10 moltiplicata per un numero compreso tra 1 e 10 e poi calcola \\((6{,}02\\times 10^{23})^{-1}\\) in notazione scientifica.\n\\end{enumerate}",
-    "solution": "1) $5{,}2\\times10^{-4}$; $1{,}24\\times10^6$; 2) $1{,}6\\times10^3$; 3) $10^2=100$; 4) $\\approx1{,}66\\times10^{-24}$",
-    "id": 219
+    "text": "Potenze di 10 e notazione scientifica:\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item Riscrivi i seguenti numeri in notazione scientifica: $0{,}00052,\\;1240000$.\n    \\item Calcola e semplifica: $(3{,}2\\times 10^{4})\\cdot (5\\times 10^{-2})$.\n    \\item Semplifica: $\\dfrac{10^{7}\\cdot 10^{-3}}{10^{2}}$.\n    \\item Un valore in fisica è $6{,}02\\times 10^{23}$. Scrivilo come potenza di 10 moltiplicata per un numero compreso tra 1 e 10 e poi calcola $(6{,}02\\times 10^{23})^{-1}$ in notazione scientifica.\n    \\item Calcola e scrivi in notazione scientifica: $(7{,}5\\times10^{-3})\\cdot(2\\times10^4)$.\n    \\item Calcola e scrivi in notazione scientifica: $\\dfrac{3{,}6\\times10^7}{1{,}2\\times10^3}$.\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}\n    \\item $5{,}2\\times10^{-4}$; $1{,}24\\times10^6$\n    \\item $1{,}6\\times10^3$\n    \\item $10^2=100$\n    \\item $\\dfrac{1}{6{,}02\\times10^{23}}\\approx1{,}66\\times10^{-24}$\n    \\item $1{,}5\\times10^2$\n    \\item $3\\times10^4$\n\\end{enumerate}",
+    "id": 246
   },
   {
     "subject": "matematica",
@@ -3357,9 +3734,9 @@ const EXERCISES = [
       "esercizi misti"
     ],
     "subtitle": "Esercizi avanzati sulle potenze",
-    "text": "Esercizi misti e argomentazione sulle potenze:\n\\begin{enumerate}\n\\item Dimostra che per ogni \\(a\\neq 0\\) e ogni intero \\(m,n\\) vale \\(a^{m}\\cdot a^{n}=a^{m+n}\\) partendo dalla definizione di potenza per esponenti naturali e indicando come estendere la proprietà agli esponenti negativi.\n\\item Semplifica l'espressione seguente e scrivila con esponente ridotto al minimo:\n\\[\n\\frac{(2^{3}a^{-2}b)^{2}\\cdot (ab^{-1})^{-3}}{2^{4}a^{-1}}.\n\\]\n\\item Un polinomio ha termine principale \\(7x^{5}\\). Se si moltiplica il polinomio per \\(x^{-3}\\) e poi si eleva il risultato al quadrate, quale sarà il termine con la massima potenza di \\(x\\)? (Scrivere il coefficiente e la potenza).\n\\item (Problema applicativo) In un esperimento la concentrazione segue la legge \\(C(t)=C_{0}\\,10^{-kt}\\) con \\(C_{0}=2{,}5\\) e \\(k=0{,}03\\) (tempo in ore). Calcola il rapporto \\( \\dfrac{C(10)}{C(0)}\\) e rispondi: dopo quante ore la concentrazione sarà circa la metà della iniziale? (esprimere il tempo approssimativamente usando i logaritmi).\n\\end{enumerate}",
-    "solution": "2) $2^2 a^{-1}b^{-1}=\\dfrac{4}{ab}$; 3) termine massimo $49x^4$; 4) $\\dfrac{C(10)}{C(0)}=10^{-0{,}3}\\approx0{,}5$; dimezzamento a $t\\approx\\dfrac{\\log 2}{0{,}03}\\approx10$ ore",
-    "id": 220
+    "text": "Risolvi o argomenta i seguenti esercizi sulle potenze:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item Dimostra che per ogni $a\\neq0$ e ogni intero $m,n$ vale $a^{m}\\cdot a^{n}=a^{m+n}$ partendo dalla definizione di potenza per esponenti naturali e indicando come estendere la proprietà agli esponenti negativi.\n    \\item Semplifica:\n    \\[\n    \\dfrac{(2^{3}a^{-2}b)^{2}\\cdot (ab^{-1})^{-3}}{2^{4}a^{-1}}\n    \\]\n    \\item Un polinomio ha termine principale $7x^{5}$. Se si moltiplica il polinomio per $x^{-3}$ e poi si eleva il risultato al quadrato, quale sarà il termine con la massima potenza di $x$?\n    \\item In un esperimento la concentrazione segue la legge $C(t)=C_{0}\\,10^{-kt}$ con $C_{0}=2{,}5$ e $k=0{,}03$. Calcola il rapporto $\\dfrac{C(10)}{C(0)}$ e determina approssimativamente dopo quante ore la concentrazione sarà metà di quella iniziale.\n    \\item Semplifica:\n    \\[\n    \\dfrac{(3^{-2}a^3b^{-1})^2}{3^{-3}a^2b^{-2}}\n    \\]\n    \\item Risolvi l'equazione:\n    \\[\n    10^{2x-1}=4\n    \\]\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item Per gli esponenti naturali la proprietà deriva dalla somma dei fattori uguali; per gli esponenti negativi si usa $a^{-n}=\\dfrac{1}{a^n}$ e si ottiene ancora $a^m\\cdot a^n=a^{m+n}$.\n    \\item $2^2a^{-1}b^{-1}=\\dfrac{4}{ab}$\n    \\item $49x^4$\n    \\item $\\dfrac{C(10)}{C(0)}=10^{-0{,}3}\\approx0{,}501$; il dimezzamento avviene per $t=\\dfrac{\\log 2}{0{,}03}\\approx10{,}03$ ore.\n    \\item $\\dfrac{a^4}{3}$\n    \\item $x=\\dfrac{1+\\log 4}{2}\\approx0{,}801$\n\\end{enumerate}",
+    "id": 247
   },
   {
     "subject": "matematica",
@@ -3372,39 +3749,39 @@ const EXERCISES = [
       "frazionarie"
     ],
     "subtitle": "Calcolo di espressioni frazionarie — serie 1",
-    "text": "Calcola il valore delle seguenti espressioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $-\\frac{2}{3} -\\Biggl\\{ \\frac{1}{6} -\\left(\\frac{1}{2}-\\frac{1}{3}\\right) +3 -\\left(\\frac{7}{12}+\\frac{1}{4}\\right) \\Biggr\\}$\n\\item $\\left[ \\left(\\frac{5}{2}\\right)^{4} \\cdot \\left(3-\\frac{1}{2}\\right)^{2} \\right] :\\left(\\frac{5}{2}\\right)^{2} :\\left[ \\left(-\\frac{5}{2}\\right)^{6} :\\frac{5}{2} \\right]$\n\\item $\\left\\{ \\frac{15}{16} - \\left[ \\left(\\frac{3}{2}-\\frac14\\right)^{2} :\\frac{5}{4} - \\left(\\frac12+\\frac14\\right)^{2} \\right] \\right\\}^{2} +\\frac14$\n\\item $\\left[ \\left(0{,}20+\\frac{2}{3}\\right) : \\left(\\frac{7}{3}-2\\right) \\right] : \\left[ 1{,}3 : \\left(0{,}75-\\frac{2}{3}\\right)^{-1} \\right]$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "$a)$ Le parentesi danno $\\tfrac12-\\tfrac13=\\tfrac16$ e $\\tfrac{7}{12}+\\tfrac14=\\tfrac56$; la graffa vale $\\tfrac16-\\tfrac16+3-\\tfrac56=\\tfrac{13}{6}$, quindi $-\\tfrac23-\\tfrac{13}{6}=\\boxed{-\\tfrac{17}{6}}$. \\\\\n$b)$ $3-\\tfrac12=\\tfrac52$, perciò il numeratore è $\\big(\\tfrac52\\big)^4\\big(\\tfrac52\\big)^2=\\big(\\tfrac52\\big)^6$; diviso $\\big(\\tfrac52\\big)^2$ dà $\\big(\\tfrac52\\big)^4$. La parentesi finale è $\\big(\\tfrac52\\big)^6:\\tfrac52=\\big(\\tfrac52\\big)^5$. Quindi $\\big(\\tfrac52\\big)^4:\\big(\\tfrac52\\big)^5=\\big(\\tfrac52\\big)^{-1}=\\boxed{\\tfrac25}$. \\\\\n$c)$ $\\tfrac32-\\tfrac14=\\tfrac54$, $\\big(\\tfrac54\\big)^2:\\tfrac54=\\tfrac54$; $\\big(\\tfrac12+\\tfrac14\\big)^2=\\tfrac{9}{16}$; quindi $\\tfrac54-\\tfrac{9}{16}=\\tfrac{11}{16}$ e $\\tfrac{15}{16}-\\tfrac{11}{16}=\\tfrac14$. Infine $\\big(\\tfrac14\\big)^2+\\tfrac14=\\tfrac{1}{16}+\\tfrac14=\\boxed{\\tfrac{5}{16}}$. \\\\\n$d)$ $\\tfrac15+\\tfrac23=\\tfrac{13}{15}$, $\\tfrac73-2=\\tfrac13$, rapporto $\\tfrac{13}{5}$; $0{,}75-\\tfrac23=\\tfrac{1}{12}$, $\\big(\\tfrac{1}{12}\\big)^{-1}=12$, $1{,}3:12=\\tfrac{13}{120}$. Quindi $\\tfrac{13}{5}:\\tfrac{13}{120}=\\boxed{24}$.",
-    "id": 221
+    "text": "Calcola il valore delle seguenti espressioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $-\\dfrac{2}{3} -\\Biggl\\{ \\dfrac{1}{6} -\\left(\\dfrac{1}{2}-\\dfrac{1}{3}\\right) +3 -\\left(\\dfrac{7}{12}+\\dfrac{1}{4}\\right) \\Biggr\\}$\n    \\item $\\left[ \\left(\\dfrac{5}{2}\\right)^{4} \\cdot \\left(3-\\dfrac{1}{2}\\right)^{2} \\right] :\\left(\\dfrac{5}{2}\\right)^{2} :\\left[ \\left(-\\dfrac{5}{2}\\right)^{6} :\\dfrac{5}{2} \\right]$\n    \\item $\\left\\{ \\dfrac{15}{16} - \\left[ \\left(\\dfrac{3}{2}-\\dfrac14\\right)^{2} :\\dfrac{5}{4} - \\left(\\dfrac12+\\dfrac14\\right)^{2} \\right] \\right\\}^{2} +\\dfrac14$\n    \\item $\\left[ \\left(0{,}20+\\dfrac{2}{3}\\right) : \\left(\\dfrac{7}{3}-2\\right) \\right] : \\left[ 1{,}3 : \\left(0{,}75-\\dfrac{2}{3}\\right)^{-1} \\right]$\n    \\item $\\dfrac{3}{4}-\\left(\\dfrac{1}{2}-\\dfrac{1}{8}\\right)+\\dfrac{2}{3}$\n    \\item $\\left(\\dfrac{5}{3}\\right)^2:\\left(\\dfrac{5}{3}\\right)+\\dfrac{1}{6}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $-\\dfrac{17}{6}$\n    \\item $\\dfrac{2}{5}$\n    \\item $\\dfrac{5}{16}$\n    \\item $24$\n    \\item $\\dfrac{25}{24}$\n    \\item $\\dfrac{11}{6}$\n\\end{enumerate}",
+    "id": 248
   },
   {
     "subject": "matematica",
     "category": "Algebra",
     "topic": "Espressioni",
-    "difficulty": 1,
+    "difficulty": 2,
     "sourceId": "2.2",
     "tags": [
       "espressioni",
       "frazionarie"
     ],
     "subtitle": "Calcolo di espressioni frazionarie — serie 2",
-    "text": "Calcola il valore delle seguenti espressioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $-\\frac{1}{2} -\\Biggl( \\frac{1}{4} -\\frac{1}{2} +1 \\Biggr)$\n\\item $\\left(\\frac{3}{2}\\right)^{3} :\\left(\\frac{3}{2}\\right)$\n\\item $\\left[ \\frac{5}{6} - \\left( \\frac{1}{2}+\\frac{1}{3} \\right) \\right]^{2} +\\frac{1}{4}$\n\\item $\\left( 0{,}5+\\frac{1}{2} \\right) : \\left( \\frac{3}{2}-1 \\right)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "$a)\\ -1$; $b)\\ \\tfrac{9}{4}$; $c)\\ \\tfrac{1}{4}$; $d)\\ 2$",
-    "id": 222
+    "text": "Calcola il valore delle seguenti espressioni:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $-\\dfrac{1}{2}-\\left(\\dfrac{1}{4}-\\dfrac{1}{2}+1\\right)$\n    \\item $\\left(\\dfrac{3}{2}\\right)^3:\\left(\\dfrac{3}{2}\\right)$\n    \\item $\\left[\\dfrac{5}{6}-\\left(\\dfrac{1}{2}+\\dfrac{1}{3}\\right)\\right]^2+\\dfrac{1}{4}$\n    \\item $\\left(0{,}5+\\dfrac{1}{2}\\right):\\left(\\dfrac{3}{2}-1\\right)$\n    \\item $\\left[\\left(\\dfrac{3}{4}+\\dfrac{1}{2}\\right):\\dfrac{5}{3}\\right]^2$\n    \\item $\\left(0{,}6-\\dfrac{1}{4}\\right):\\dfrac{7}{10}+\\dfrac{1}{5}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $-1$\n    \\item $\\dfrac{9}{4}$\n    \\item $\\dfrac{1}{4}$\n    \\item $2$\n    \\item $\\dfrac{9}{16}$\n    \\item $\\dfrac{7}{10}$\n\\end{enumerate}",
+    "id": 249
   },
   {
     "subject": "matematica",
     "category": "Algebra",
     "topic": "Espressioni",
-    "difficulty": 1,
+    "difficulty": 2,
     "sourceId": "3.1",
     "tags": [
       "espressioni",
       "periodici"
     ],
     "subtitle": "Espressioni con numeri periodici",
-    "text": "Calcola il valore delle seguenti espressioni con numeri periodici:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $1{,}2 - \\frac{3}{5} \\cdot 2{,}\\overline{8} \\cdot (1{,}3 \\cdot 10)^{-1}$\n\\item $\\left[ 0{,}2\\overline{6} : (0{,}4)^{2} \\right]^{2} : \\left(\\frac{5}{3}\\right)^{4}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
-    "solution": "Si convertono i numeri periodici in frazione. \\\\\n$a)$ $1{,}2=\\tfrac65$, $2{,}\\overline{8}=\\tfrac{26}{9}$, $1{,}3\\cdot10=13$. Allora $\\tfrac35\\cdot\\tfrac{26}{9}\\cdot\\tfrac{1}{13}=\\tfrac{2}{15}$ e $\\tfrac65-\\tfrac{2}{15}=\\tfrac{18-2}{15}=\\boxed{\\tfrac{16}{15}}$. \\\\\n$b)$ $0{,}2\\overline{6}=\\tfrac{4}{15}$, $(0{,}4)^2=\\tfrac{4}{25}$, quindi $\\tfrac{4}{15}:\\tfrac{4}{25}=\\tfrac53$ e $\\big(\\tfrac53\\big)^2=\\tfrac{25}{9}$. Infine $\\tfrac{25}{9}:\\big(\\tfrac53\\big)^4=\\tfrac{25}{9}\\cdot\\tfrac{81}{625}=\\boxed{\\tfrac{9}{25}}$.",
-    "id": 223
+    "text": "Calcola il valore delle seguenti espressioni con numeri periodici:\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n    \\item $1{,}2-\\dfrac{3}{5}\\cdot2{,}\\overline{8}\\cdot(1{,}3\\cdot10)^{-1}$\n    \\item $\\left[0{,}2\\overline{6}:(0{,}4)^2\\right]^2:\\left(\\dfrac{5}{3}\\right)^4$\n    \\item $0{,}\\overline{3}+0{,}2\\overline{6}$\n    \\item $1{,}\\overline{2}-0{,}\\overline{6}$\n    \\item $\\left(0{,}\\overline{6}-\\dfrac{1}{3}\\right)^2+\\dfrac{1}{9}$\n    \\item $\\left(1{,}1\\overline{6}-\\dfrac{1}{6}\\right):0{,}\\overline{6}$\n\\end{enumerate}\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\n    \\item $\\dfrac{16}{15}$\n    \\item $\\dfrac{9}{25}$\n    \\item $\\dfrac{3}{5}$\n    \\item $\\dfrac{5}{9}$\n    \\item $\\dfrac{1}{9}$\n    \\item $1$\n\\end{enumerate}",
+    "id": 250
   },
   {
     "subject": "matematica",
@@ -3418,7 +3795,7 @@ const EXERCISES = [
     "subtitle": "Completamento con percentuali — serie 1",
     "text": "Completa con i numeri opportuni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\text{Il }20\\%\\text{ di }150\\text{ è } \\rule{1.5cm}{0.4pt}$\n\\item $\\text{Il }15\\%\\text{ di }200\\text{ è } \\rule{1.5cm}{0.4pt}$\n\\item $\\text{Il }18\\%\\text{ di } \\rule{1.5cm}{0.4pt} \\text{ è }3{,}6$\n\\item $\\text{Il } \\rule{0.5cm}{0.4pt}\\%\\text{ di }80\\text{ è }4$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$30$; $30$; $20$; $5\\%$",
-    "id": 224
+    "id": 251
   },
   {
     "subject": "matematica",
@@ -3432,7 +3809,7 @@ const EXERCISES = [
     "subtitle": "Completamento con percentuali — serie 2",
     "text": "Completa con i numeri opportuni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\text{Il }25\\%\\text{ di }160\\text{ è } \\rule{1.5cm}{0.4pt}$\n\\item $\\text{Il }30\\%\\text{ di }90\\text{ è } \\rule{1.5cm}{0.4pt}$\n\\item $\\text{Il }12\\%\\text{ di } \\rule{1.5cm}{0.4pt} \\text{ è }6$\n\\item $\\text{Il } \\rule{0.5cm}{0.4pt}\\%\\text{ di }250\\text{ è }50$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$40$; $27$; $50$; $20\\%$",
-    "id": 225
+    "id": 252
   },
   {
     "subject": "matematica",
@@ -3446,7 +3823,7 @@ const EXERCISES = [
     "subtitle": "Prezzo scontato del maglione natalizio",
     "text": "Quest'anno per Natale ho deciso: solo regali utili. Un negozio di abbigliamento applica uno sconto del $\\text{25\\%}$ su un maglione a tema natalizio.\n\n\\begin{enumerate}\n    \\item Sapendo che il prezzo iniziale del maglione è di $\\text{39,99}$ euro, determina il prezzo scontato.\n    \\color{gray}\\item In un altro negozio, lo stesso maglione viene venduto a $\\text{25}$ euro già scontato del $\\text{20 \\%}$. Determina il prezzo iniziale del maglione prima dell'applicazione dello sconto.\n\\end{enumerate}",
     "solution": "1) $39{,}99\\times0{,}75\\approx 29{,}99$ €; 2) $25\\div0{,}80=31{,}25$ €",
-    "id": 226
+    "id": 253
   },
   {
     "subject": "matematica",
@@ -3460,7 +3837,7 @@ const EXERCISES = [
     "subtitle": "Conversione in notazione scientifica",
     "text": "Trasforma le seguenti misure in notazione scientifica:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $0{,}0045 = \\rule{3cm}{0.4pt}$\n\\item $32000 = \\rule{3cm}{0.4pt}$\n\\item $0{,}00000082 = \\rule{3cm}{0.4pt}$\n\\item $5\\,600\\,000 = \\rule{3cm}{0.4pt}$\n\\item $123{,}45 = \\rule{3cm}{0.4pt}$\n\\item $34{,}5 \\cdot 10^{-2} = \\rule{3cm}{0.4pt}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$4{,}5\\times10^{-3}$; $3{,}2\\times10^4$; $8{,}2\\times10^{-7}$; $5{,}6\\times10^6$; $1{,}2345\\times10^2$; $3{,}45\\times10^{-1}$",
-    "id": 227
+    "id": 254
   },
   {
     "subject": "matematica",
@@ -3475,7 +3852,7 @@ const EXERCISES = [
     "subtitle": "Classificazione di polinomi: completo e omogeneo",
     "text": "Scrivere se i polinomi seguenti sono completi, omogenei o nessuna delle due opzioni:\n\\begin{center}\\begin{minipage}{0.85\\linewidth}\n\\begin{enumerate}\n\\item $x^2 + 2x - 1 \\qquad \\rule{5cm}{0.2pt}$\n\\item $a^3 + a^2 b + b^3 \\qquad \\rule{5cm}{0.2pt}$\n\\item $ab + a^3 b + b^3 \\qquad \\rule{5cm}{0.2pt}$\n\\end{enumerate}\n\\end{minipage}\\end{center}",
     "solution": "$x^2+2x-1$: completo, non omogeneo; $a^3+a^2b+b^3$: omogeneo (grado 3), non completo; $ab+a^3b+b^3$: nessuna delle due",
-    "id": 228
+    "id": 255
   },
   {
     "subject": "matematica",
@@ -3490,7 +3867,7 @@ const EXERCISES = [
     "subtitle": "Classificazione di polinomi — serie 2",
     "text": "Scrivere se i polinomi seguenti sono completi, omogenei o nessuna delle due opzioni:\n\\begin{center}\\begin{minipage}{0.85\\linewidth}\n\\begin{enumerate}\n\\item $x^3 - 2x^2 + x - 5 \\qquad \\rule{5cm}{0.2pt}$\n\\item $a^2 b + ab^2 + b^3 \\qquad \\rule{5cm}{0.2pt}$\n\\item $x^4 + x^2 + 1 \\qquad \\rule{5cm}{0.2pt}$\n\\end{enumerate}\n\\end{minipage}\\end{center}",
     "solution": "$x^3-2x^2+x-5$: completo, non omogeneo; $a^2b+ab^2+b^3$: omogeneo (grado 3), non completo; $x^4+x^2+1$: nessuna delle due",
-    "id": 229
+    "id": 256
   },
   {
     "subject": "matematica",
@@ -3503,9 +3880,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti di monomi e polinomi",
-    "text": "Calcola i seguenti prodotti di polinomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(2x) \\cdot (3x)$\n\\item $(5a) \\cdot(-2a)$\n\\item $(x) \\cdot (x+4)$\n\\item $(3y) \\cdot (2y-1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcola i seguenti prodotti di polinomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(2x) \\cdot (3x)$\n\\item $(5a) \\cdot(-2a)$\n\\item $(x) \\cdot (x+4)$\n\\item $(3y) \\cdot (2y-1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ 6x^2$; $b)\\ -10a^2$; $c)\\ x^2+4x$; $d)\\ 6y^2-3y$",
-    "id": 230
+    "id": 257
   },
   {
     "subject": "matematica",
@@ -3518,9 +3895,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti tra binomi",
-    "text": "Svolgi i seguenti prodotti tra binomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(x+2) \\cdot (x+3)$\n\\item $(a-1) \\cdot (a+5)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Svolgi i seguenti prodotti tra binomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(x+2) \\cdot (x+3)$\n\\item $(a-1) \\cdot (a+5)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x^2+5x+6$; $b)\\ a^2+4a-5$",
-    "id": 231
+    "id": 258
   },
   {
     "subject": "matematica",
@@ -3533,9 +3910,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti di polinomi e semplificazione",
-    "text": "Svolgi i seguenti prodotti e semplifica le espressioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(a-3) \\cdot (2a^2+1)$\n\\item $(2m+1) \\cdot (m^2-4)$\n\\item $(2x-1) \\cdot (x^2+3) + x \\cdot (-x^2 +3)$\n\\item $(y+5) \\cdot (y^2-y+1) - (y+2)\\cdot (y^2+y-1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Svolgi i seguenti prodotti e semplifica le espressioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(a-3) \\cdot (2a^2+1)$\n\\item $(2m+1) \\cdot (m^2-4)$\n\\item $(2x-1) \\cdot (x^2+3) + x \\cdot (-x^2 +3)$\n\\item $(y+5) \\cdot (y^2-y+1) - (y+2)\\cdot (y^2+y-1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ 2a^3-6a^2+a-3$; $b)\\ 2m^3+m^2-8m-4$; $c)\\ x^3-x^2+9x-3$; $d)\\ y^2-5y+7$",
-    "id": 232
+    "id": 259
   },
   {
     "subject": "matematica",
@@ -3548,9 +3925,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti di polinomi di grado superiore",
-    "text": "Calcola il prodotto dei seguenti polinomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(x^2 + x + 1)(x+2)$\n\\item $(y^2 - 3y + 2)(y-1)$\n\\item $(a^2 + 4a + 4)(a-3)$\n\\item $(2m^2 - m + 1)(m+1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcola il prodotto dei seguenti polinomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(x^2 + x + 1)(x+2)$\n\\item $(y^2 - 3y + 2)(y-1)$\n\\item $(a^2 + 4a + 4)(a-3)$\n\\item $(2m^2 - m + 1)(m+1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x^3+3x^2+3x+2$; $b)\\ y^3-4y^2+5y-2$; $c)\\ a^3+a^2-8a-12$; $d)\\ 2m^3+m^2+1$",
-    "id": 233
+    "id": 260
   },
   {
     "subject": "matematica",
@@ -3563,9 +3940,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti e riduzione di polinomi di secondo grado",
-    "text": "Effettua i prodotti e riduci i risultati:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(x^2 - 2x + 3)(2x^2 + x - 1)$\n\\item $(a^2 + a - 4)(a^2 - a + 2)$\n\\item $(2y^2 - y + 1)(y^2 + 4y - 3)$\n\\item $(m^2 - 3m + 5)(3m^2 + m - 2)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Effettua i prodotti e riduci i risultati:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(x^2 - 2x + 3)(2x^2 + x - 1)$\n\\item $(a^2 + a - 4)(a^2 - a + 2)$\n\\item $(2y^2 - y + 1)(y^2 + 4y - 3)$\n\\item $(m^2 - 3m + 5)(3m^2 + m - 2)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ 2x^4-3x^3+3x^2-5x-3$; $b)\\ a^4-2a^2-5a+a^3-a^2+2a-4a^2+4a-8=a^4+a^3 ...$",
-    "id": 234
+    "id": 261
   },
   {
     "subject": "matematica",
@@ -3578,9 +3955,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti di polinomi — variante",
-    "text": "Svolgi i seguenti prodotti e semplifica le espressioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(a+1)(a^2+2)$\n\\item $(a^2 + a - 4)(a - 1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Svolgi i seguenti prodotti e semplifica le espressioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(a+1)(a^2+2)$\n\\item $(a^2 + a - 4)(a - 1)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ a^3+a^2+2a+2$; $b)\\ a^3-3a-4+a^2-a=a^3+... $ vedi svolgimento",
-    "id": 235
+    "id": 262
   },
   {
     "subject": "matematica",
@@ -3593,9 +3970,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti notevoli — serie 1",
-    "text": "Calcola i seguenti prodotti notevoli:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(a+1)^2$\n\\item $(2a -3)^2$\n\\item $\\Big(\\frac{1}{2}a+\\frac{2}{3}b\\Big)^2$\n\\item $(a-b)^3$\n\\item $(2x - 1 + y)^2$\n\\item $(2a -3)(2a +3) \\color{gray}$\n\\item $\\color{gray} \\Big(\\frac{1}{2}a+\\frac{2}{3}b\\Big)^3 \\color{gray}$\n\\item $\\color{gray} \\Big(\\frac{3}{2}a-\\frac{1}{3}b + c\\Big)^2$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcola i seguenti prodotti notevoli:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(a+1)^2$\n\\item $(2a -3)^2$\n\\item $\\Big(\\frac{1}{2}a+\\frac{2}{3}b\\Big)^2$\n\\item $(a-b)^3$\n\\item $(2x - 1 + y)^2$\n\\item $(2a -3)(2a +3) \\color{gray}$\n\\item $\\color{gray} \\Big(\\frac{1}{2}a+\\frac{2}{3}b\\Big)^3 \\color{gray}$\n\\item $\\color{gray} \\Big(\\frac{3}{2}a-\\frac{1}{3}b + c\\Big)^2$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ a^2+2a+1$; $b)\\ 4a^2-12a+9$; $c)\\ \\tfrac{a^2}{4}+\\tfrac{2ab}{3}+\\tfrac{4b^2}{9}$; $d)\\ a^3-3a^2b+3ab^2-b^3$; $e)\\ 4x^2+y^2+1+4xy-4x-2y$; $f)\\ 4a^2-9$",
-    "id": 236
+    "id": 263
   },
   {
     "subject": "matematica",
@@ -3608,9 +3985,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Prodotti notevoli — serie 2",
-    "text": "Calcola i seguenti prodotti notevoli:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(a+1)^2$\n\\item $(2x - 1)^3$\n\\item $(2x - 1 + y)^2$\n\\item $(a-b)^3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcola i seguenti prodotti notevoli:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(a+1)^2$\n\\item $(2x - 1)^3$\n\\item $(2x - 1 + y)^2$\n\\item $(a-b)^3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ a^2+2a+1$; $b)\\ 8x^3-12x^2+6x-1$; $c)\\ 4x^2+y^2+1+4xy-4x-2y$; $d)\\ a^3-3a^2b+3ab^2-b^3$",
-    "id": 237
+    "id": 264
   },
   {
     "subject": "matematica",
@@ -3623,9 +4000,9 @@ const EXERCISES = [
       "polinomi"
     ],
     "subtitle": "Scomposizione con differenza e somma di cubi",
-    "text": "Scomponi i seguenti polinomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $(x^3-1) \\color{gray}$\n\\item $\\color{gray} \\Big( \\dfrac{1}{9}a^3 + 27\\Big)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Scomponi i seguenti polinomi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(x^3-1) \\color{gray}$\n\\item $\\color{gray} \\Big( \\dfrac{1}{9}a^3 + 27\\Big)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ (x-1)(x^2+x+1)$",
-    "id": 238
+    "id": 265
   },
   {
     "subject": "matematica",
@@ -3640,7 +4017,7 @@ const EXERCISES = [
     "subtitle": "Scomposizione di polinomi — serie 1",
     "text": "Scomponi i seguenti polinomi:\n\\begin{enumerate}\n  \\item $6x^4y - 9x^3y^2 + 3x^2y$\n  \\item $3a^2b - 2a + 12ab - 8$\n  \\item $25x^2 -9$\n  \\item $x^2 - 6x  + 9$\n  \\color{gray}\\item $9y^2 +\\dfrac{1}{4}-3y$\n  \\color{gray}\\item $8x^3 - 12x^2y + 6xy^2 - y^3$\n  \\color{black}\\item $x^2 +4x  - 5$\n  \\color{gray}\\item $2x^2 - 7x - 15$\n  \\color{black}\\item $27x^3 - 125y^3$\n  \\color{gray}\\item $x^3 + 8$\n\\end{enumerate}",
     "solution": "1) $3x^2y(2x^2-3xy+1)$;\n2) $(a+4)(3ab-2)$;\n3) $(5x-3)(5x+3)$;\n4) $(x-3)^2$;\n5) $(3y-\\tfrac12)^2$;\n6) $(2x-y)^3$;\n7) $(x+5)(x-1)$;\n8) $(2x+3)(x-5)$;\n9) $(3x-5y)(9x^2+15xy+25y^2)$;\n10) $(x+2)(x^2-2x+4)$",
-    "id": 239
+    "id": 266
   },
   {
     "subject": "matematica",
@@ -3655,7 +4032,397 @@ const EXERCISES = [
     "subtitle": "Scomposizione di polinomi — serie 2",
     "text": "Scomponi i seguenti polinomi:\n\\begin{enumerate}\n  \\item $6a^2b + 9ab + 3a^3b$\n  \\item $3a^2 + 3ab + 5a + 5b$\n  \\item $x^2 - 16$\n  \\item $x^2 + 10x + 25$\n\\color{gray}  \\item $8x^3 - 12x^2y + 6xy^2 - y^3$\n\\color{gray}  \\item $2x^2 - 7x - 15$\n\\color{black}  \\item $x^2+9x+14$\n\\color{gray}  \\item $x^2 - 6x + 9$\n\\color{gray}  \\item $27x^3 - 125y^3$\n\\color{black}  \\item $x^3 + 8$\n\\end{enumerate}",
     "solution": "1) $3ab(a^2+2a+3)$;\n2) $(3a+5)(a+b)$;\n3) $(x-4)(x+4)$;\n4) $(x+5)^2$;\n5) $(2x-y)^3$;\n6) $(2x+3)(x-5)$;\n7) $(x+7)(x+2)$;\n8) $(x-3)^2$;\n9) $(3x-5y)(9x^2+15xy+25y^2)$;\n10) $(x+2)(x^2-2x+4)$",
-    "id": 240
+    "id": 267
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 1,
+    "sourceId": "1.1",
+    "tags": [
+      "sistemi",
+      "equazioni lineari"
+    ],
+    "subtitle": "Sistemi lineari di due equazioni",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    x+y=5\\\\\r\n    x-y=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    2x+y=7\\\\\r\n    x-y=2\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    x+2y=8\\\\\r\n    x-y=2\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    3x+y=10\\\\\r\n    x+y=6\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(3,2)$\r\n    \\item $(x,y)=(3,1)$\r\n    \\item $(x,y)=(4,2)$\r\n    \\item $(x,y)=(2,4)$\r\n\\end{enumerate}",
+    "id": 268
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 1,
+    "sourceId": "1.2",
+    "tags": [
+      "sistemi",
+      "equazioni lineari"
+    ],
+    "subtitle": "Sistemi lineari con coefficienti interi",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    2x+3y=12\\\\\r\n    x-y=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    3x-2y=4\\\\\r\n    x+y=3\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    4x+y=11\\\\\r\n    2x-y=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    5x+2y=16\\\\\r\n    x-2y=-4\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(3,2)$\r\n    \\item $(x,y)=(2,1)$\r\n    \\item $(x,y)=(2,3)$\r\n    \\item $(x,y)=(1,3)$\r\n\\end{enumerate}",
+    "id": 269
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 2,
+    "sourceId": "1.3",
+    "tags": [
+      "sistemi",
+      "equazioni lineari"
+    ],
+    "subtitle": "Sistemi lineari con parentesi e frazioni",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    2(x+y)=10\\\\\r\n    3x-y=5\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{x}{2}+\\dfrac{y}{3}=3\\\\\r\n    x-y=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    3(x-1)+2y=7\\\\\r\n    x+y=3\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{2x-1}{3}+y=4\\\\\r\n    x-\\dfrac{y+1}{2}=2\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(3,2)$\r\n    \\item $(x,y)=\\left(\\tfrac{19}{5},\\tfrac{14}{5}\\right)$\r\n    \\item $(x,y)=(2,1)$\r\n    \\item $(x,y)=\\left(\\tfrac{13}{4},\\tfrac54\\right)$\r\n\\end{enumerate}",
+    "id": 270
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "1.4",
+    "tags": [
+      "sistemi",
+      "equazioni lineari"
+    ],
+    "subtitle": "Sistemi lineari con parametro numerico e coefficienti frazionari",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    4x-3y=1\\\\\r\n    5x+2y=19\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{3x+y}{2}=5\\\\\r\n    \\dfrac{x-y}{3}=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    2(x-2)-3(y+1)=4\\\\\r\n    5x+2y=13\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{2x-3y}{4}=2\\\\\r\n    \\dfrac{x+y}{3}=2\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(3,1)$\r\n    \\item $(x,y)=\\left(\\tfrac{16}{5},\\tfrac65\\right)$\r\n    \\item $(x,y)=\\left(\\tfrac{37}{19},-\\tfrac{4}{19}\\right)$\r\n    \\item $(x,y)=\\left(\\tfrac{21}{5},\\tfrac95\\right)$\r\n\\end{enumerate}",
+    "id": 271
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "1.5",
+    "tags": [
+      "sistemi",
+      "equazioni lineari"
+    ],
+    "subtitle": "Sistemi lineari: casi particolari",
+    "text": "Risolvi e classifica i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    2x+4y=6\\\\\r\n    x+2y=3\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    3x-6y=9\\\\\r\n    x-2y=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    4x+2y=8\\\\\r\n    2x+y=5\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    2x-3y=7\\\\\r\n    4x-6y=14\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item Sistema indeterminato: infinite soluzioni.\r\n    \\item Sistema impossibile: nessuna soluzione.\r\n    \\item Sistema impossibile: nessuna soluzione.\r\n    \\item Sistema indeterminato: infinite soluzioni.\r\n\\end{enumerate}",
+    "id": 272
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 1,
+    "sourceId": "2.1",
+    "tags": [
+      "sistemi",
+      "equazioni lineari",
+      "frazioni"
+    ],
+    "subtitle": "Sistemi con coefficienti frazionari",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{2}x+\\dfrac{1}{3}y=3\\\\\r\n    x-y=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{3}x+\\dfrac{1}{2}y=3\\\\\r\n    2x-y=2\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{4}x+y=4\\\\\r\n    \\dfrac{1}{2}x-\\dfrac{1}{3}y=1\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{2}x+\\dfrac{1}{5}y=4\\\\\r\n    x-\\dfrac{1}{2}y=-1\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(4,3)$\r\n    \\item $(x,y)=(3,4)$\r\n    \\item $(x,y)=(4,3)$\r\n    \\item $(x,y)=(4,10)$\r\n\\end{enumerate}",
+    "id": 273
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 2,
+    "sourceId": "2.2",
+    "tags": [
+      "sistemi",
+      "equazioni lineari",
+      "frazioni"
+    ],
+    "subtitle": "Sistemi con frazioni e numeratori letterali",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{x+1}{2}+\\dfrac{1}{3}y=3\\\\\r\n    x-\\dfrac{1}{3}y=2\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{4}x+\\dfrac{y-1}{3}=2\\\\\r\n    x-\\dfrac{1}{2}y=2\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{x-2}{3}+\\dfrac{1}{2}y=3\\\\\r\n    2x-y=6\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{2}x+\\dfrac{y+1}{4}=3\\\\\r\n    \\dfrac{x-1}{3}+y=4\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(3,3)$\r\n    \\item $(x,y)=(4,4)$\r\n    \\item $(x,y)=(5,4)$\r\n    \\item $(x,y)=(4,3)$\r\n\\end{enumerate}",
+    "id": 274
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 2,
+    "sourceId": "2.3",
+    "tags": [
+      "sistemi",
+      "equazioni lineari",
+      "frazioni"
+    ],
+    "subtitle": "Sistemi con frazioni in entrambe le equazioni",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{2x-1}{3}+\\dfrac{y+1}{2}=3\\\\\r\n    \\dfrac{1}{2}x-\\dfrac{1}{3}y=0\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{x+y}{2}+\\dfrac{1}{3}x=4\\\\\r\n    x-\\dfrac{1}{3}y=2\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{3x-y}{4}+\\dfrac{1}{2}x=3\\\\\r\n    \\dfrac{1}{2}x-\\dfrac{1}{4}y=0\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{2}x-\\dfrac{y-1}{3}=1\\\\\r\n    \\dfrac{x+2}{3}-\\dfrac{1}{4}y=1\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(2,3)$\r\n    \\item $(x,y)=(3,3)$\r\n    \\item $(x,y)=(4,8)$\r\n    \\item $(x,y)=(4,4)$\r\n\\end{enumerate}",
+    "id": 275
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "2.4",
+    "tags": [
+      "sistemi",
+      "equazioni lineari",
+      "frazioni"
+    ],
+    "subtitle": "Sistemi con denominatori diversi",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{2}x+\\dfrac{1}{3}y=5\\\\\r\n    \\dfrac{1}{4}x+\\dfrac{1}{3}y=4\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{2}{3}x-\\dfrac{1}{2}y=1\\\\\r\n    \\dfrac{1}{2}x+\\dfrac{1}{3}y=5\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{3}{5}x+\\dfrac{1}{2}y=4\\\\\r\n    \\dfrac{1}{5}x-\\dfrac{1}{2}y=0\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{3}x-\\dfrac{2}{5}y=0\\\\\r\n    \\dfrac{1}{2}x+\\dfrac{1}{5}y=4\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(4,9)$\r\n    \\item $(x,y)=(6,6)$\r\n    \\item $(x,y)=(5,2)$\r\n    \\item $(x,y)=(6,5)$\r\n\\end{enumerate}",
+    "id": 276
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "2.5",
+    "tags": [
+      "sistemi",
+      "equazioni lineari",
+      "frazioni"
+    ],
+    "subtitle": "Sistemi con frazioni complesse",
+    "text": "Risolvi i seguenti sistemi lineari di due equazioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{x-1}{2}-\\dfrac{y+1}{3}=0\\\\\r\n    \\dfrac{x+1}{4}+\\dfrac{1}{2}y=6\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{2x+y}{3}-\\dfrac{x-y}{2}=3\\\\\r\n    \\dfrac{x+y}{2}-\\dfrac{1}{3}x=2\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{1}{2}x+\\dfrac{2y-1}{3}=2\\\\\r\n    \\dfrac{3x-2}{4}-\\dfrac{1}{2}y=0\r\n    \\end{cases}\r\n    \\]\r\n\r\n    \\item\r\n    \\[\r\n    \\begin{cases}\r\n    \\dfrac{2(x-1)}{3}+\\dfrac{1}{4}y=2\\\\\r\n    \\dfrac{x+y}{3}-\\dfrac{y-x}{7}=2\r\n    \\end{cases}\r\n    \\]\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(x,y)=(7,8)$\r\n    \\item $(x,y)=(3,3)$\r\n    \\item $(x,y)=(2,2)$\r\n    \\item $(x,y)=(1,8)$\r\n\\end{enumerate}",
+    "id": 277
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 1,
+    "sourceId": "3.1",
+    "tags": [
+      "sistemi",
+      "problemi"
+    ],
+    "subtitle": "Somma e differenza di due numeri",
+    "text": "La somma di due numeri è $48$ e la loro differenza è $12$. Determina i due numeri.",
+    "solution": "Indichiamo con $x$ il numero maggiore e con $y$ il minore:\r\n\\[\r\n\\begin{cases}\r\nx+y=48\\\\\r\nx-y=12\r\n\\end{cases}\r\n\\]\r\nSommando membro a membro: $2x=60$, quindi $x=30$ e $y=48-30=18$.\r\n\r\nI due numeri sono $30$ e $18$.",
+    "id": 278
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 2,
+    "sourceId": "3.2",
+    "tags": [
+      "sistemi",
+      "problemi"
+    ],
+    "subtitle": "Biglietti del cinema",
+    "text": "Al cinema, $3$ biglietti interi e $2$ ridotti costano in tutto $37$ euro, mentre $1$ biglietto intero e $4$ ridotti costano $29$ euro. Quanto costano un biglietto intero e uno ridotto?",
+    "solution": "Sia $x$ il prezzo del biglietto intero e $y$ quello del ridotto:\r\n\\[\r\n\\begin{cases}\r\n3x+2y=37\\\\\r\nx+4y=29\r\n\\end{cases}\r\n\\]\r\nDalla seconda: $x=29-4y$. Sostituendo nella prima: $87-12y+2y=37$, cioè $10y=50$, quindi $y=5$ e $x=9$.\r\n\r\nIl biglietto intero costa $9$ euro, il ridotto $5$ euro.",
+    "id": 279
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 2,
+    "sourceId": "3.3",
+    "tags": [
+      "sistemi",
+      "problemi"
+    ],
+    "subtitle": "Dimensioni di un rettangolo",
+    "text": "Un rettangolo ha il perimetro di $56\\,\\text{cm}$ e la base supera di $4\\,\\text{cm}$ il doppio dell'altezza. Calcola le dimensioni del rettangolo.",
+    "solution": "Siano $b$ la base e $h$ l'altezza. Il semiperimetro è $28\\,\\text{cm}$:\r\n\\[\r\n\\begin{cases}\r\nb+h=28\\\\\r\nb=2h+4\r\n\\end{cases}\r\n\\]\r\nSostituendo: $2h+4+h=28$, cioè $3h=24$, quindi $h=8$ e $b=20$.\r\n\r\nLa base misura $20\\,\\text{cm}$ e l'altezza $8\\,\\text{cm}$.",
+    "id": 280
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "3.4",
+    "tags": [
+      "sistemi",
+      "problemi"
+    ],
+    "subtitle": "Monete in un salvadanaio",
+    "text": "In un salvadanaio ci sono $30$ monete, alcune da $50$ centesimi e altre da $2$ euro, per un totale di $36$ euro. Quante monete ci sono di ciascun tipo?",
+    "solution": "Sia $x$ il numero di monete da $0{,}50$ euro e $y$ quello delle monete da $2$ euro:\r\n\\[\r\n\\begin{cases}\r\nx+y=30\\\\\r\n0{,}5x+2y=36\r\n\\end{cases}\r\n\\]\r\nDalla prima: $x=30-y$. Sostituendo: $15-0{,}5y+2y=36$, cioè $1{,}5y=21$, quindi $y=14$ e $x=16$.\r\n\r\nCi sono $16$ monete da $50$ centesimi e $14$ monete da $2$ euro.",
+    "id": 281
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "3.5",
+    "tags": [
+      "sistemi",
+      "problemi"
+    ],
+    "subtitle": "Età di padre e figlio",
+    "text": "Un padre ha oggi un'età pari al triplo di quella del figlio. Fra $12$ anni l'età del padre sarà il doppio di quella del figlio. Quanti anni hanno oggi il padre e il figlio?",
+    "solution": "Siano $p$ l'età del padre e $f$ quella del figlio:\r\n\\[\r\n\\begin{cases}\r\np=3f\\\\\r\np+12=2(f+12)\r\n\\end{cases}\r\n\\]\r\nSostituendo: $3f+12=2f+24$, quindi $f=12$ e $p=36$.\r\n\r\nIl figlio ha $12$ anni e il padre $36$ anni.",
+    "id": 282
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "3.6",
+    "tags": [
+      "sistemi",
+      "problemi",
+      "percentuali"
+    ],
+    "subtitle": "Miscela di due soluzioni",
+    "text": "Un chimico vuole ottenere $40\\,\\text{litri}$ di una soluzione al $32\\%$ mescolando una soluzione al $20\\%$ con una soluzione al $50\\%$. Quanti litri di ciascuna deve utilizzare?",
+    "solution": "Siano $x$ i litri della soluzione al $20\\%$ e $y$ quelli della soluzione al $50\\%$. Il soluto totale deve essere il $32\\%$ di $40\\,\\text{litri}$, cioè $12{,}8\\,\\text{litri}$:\r\n\\[\r\n\\begin{cases}\r\nx+y=40\\\\\r\n0{,}2x+0{,}5y=12{,}8\r\n\\end{cases}\r\n\\]\r\nDalla prima: $x=40-y$. Sostituendo: $8-0{,}2y+0{,}5y=12{,}8$, cioè $0{,}3y=4{,}8$, quindi $y=16$ e $x=24$.\r\n\r\nServono $24\\,\\text{litri}$ di soluzione al $20\\%$ e $16\\,\\text{litri}$ di soluzione al $50\\%$.",
+    "id": 283
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "3.7",
+    "tags": [
+      "sistemi",
+      "problemi",
+      "moto"
+    ],
+    "subtitle": "Battello e corrente del fiume",
+    "text": "Un battello percorre $36\\,\\text{km}$ controcorrente in $3$ ore e gli stessi $36\\,\\text{km}$ a favore di corrente in $2$ ore. Calcola la velocità del battello in acqua ferma e la velocità della corrente.",
+    "solution": "Siano $v$ la velocità del battello e $c$ quella della corrente. Controcorrente la velocità effettiva è $v-c=\\dfrac{36}{3}=12\\,\\text{km/h}$, a favore è $v+c=\\dfrac{36}{2}=18\\,\\text{km/h}$:\r\n\\[\r\n\\begin{cases}\r\nv+c=18\\\\\r\nv-c=12\r\n\\end{cases}\r\n\\]\r\nSommando membro a membro: $2v=30$, quindi $v=15$ e $c=3$.\r\n\r\nIl battello va a $15\\,\\text{km/h}$ in acqua ferma e la corrente scorre a $3\\,\\text{km/h}$.",
+    "id": 284
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "3.8",
+    "tags": [
+      "sistemi",
+      "problemi",
+      "numeri"
+    ],
+    "subtitle": "Numero di due cifre",
+    "text": "Un numero di due cifre ha la somma delle cifre uguale a $11$. Scambiando tra loro le cifre si ottiene un numero che è minore di $27$ rispetto a quello di partenza. Determina il numero.",
+    "solution": "Siano $a$ la cifra delle decine e $b$ quella delle unità. Il numero è $10a+b$, quello con le cifre scambiate è $10b+a$:\r\n\\[\r\n\\begin{cases}\r\na+b=11\\\\\r\n(10a+b)-(10b+a)=27\r\n\\end{cases}\r\n\\]\r\nLa seconda equazione diventa $9a-9b=27$, cioè $a-b=3$. Sommando con la prima: $2a=14$, quindi $a=7$ e $b=4$.\r\n\r\nIl numero è $74$ (infatti $74-47=27$).",
+    "id": 285
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "3.9",
+    "tags": [
+      "sistemi",
+      "problemi",
+      "moto"
+    ],
+    "subtitle": "Due ciclisti",
+    "text": "Due ciclisti partono contemporaneamente da due città distanti $90\\,\\text{km}$. Se vanno l'uno incontro all'altro, si incontrano dopo $2$ ore. Se invece vanno nello stesso verso, il più veloce raggiunge l'altro dopo $6$ ore. Calcola le velocità dei due ciclisti.",
+    "solution": "Siano $x$ la velocità del ciclista più veloce e $y$ quella dell'altro, in $\\text{km/h}$. Nel primo caso le velocità si sommano, nel secondo si sottraggono:\r\n\\[\r\n\\begin{cases}\r\n2(x+y)=90\\\\\r\n6(x-y)=90\r\n\\end{cases}\r\n\\qquad\\Longrightarrow\\qquad\r\n\\begin{cases}\r\nx+y=45\\\\\r\nx-y=15\r\n\\end{cases}\r\n\\]\r\nSommando membro a membro: $2x=60$, quindi $x=30$ e $y=15$.\r\n\r\nLe velocità sono $30\\,\\text{km/h}$ e $15\\,\\text{km/h}$.",
+    "id": 286
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "3.10",
+    "tags": [
+      "sistemi",
+      "problemi",
+      "percentuali"
+    ],
+    "subtitle": "Prezzi scontati",
+    "text": "Due articoli costano complessivamente $120$ euro. Il primo viene scontato del $20\\%$ e il secondo del $10\\%$, e in tutto si pagano $100$ euro. Quanto costava ciascun articolo prima dello sconto?",
+    "solution": "Siano $x$ e $y$ i prezzi originari. Dopo lo sconto si paga l'$80\\%$ di $x$ e il $90\\%$ di $y$:\r\n\\[\r\n\\begin{cases}\r\nx+y=120\\\\\r\n0{,}8x+0{,}9y=100\r\n\\end{cases}\r\n\\]\r\nDalla prima: $x=120-y$. Sostituendo: $96-0{,}8y+0{,}9y=100$, cioè $0{,}1y=4$, quindi $y=40$ e $x=80$.\r\n\r\nIl primo articolo costava $80$ euro, il secondo $40$ euro.",
+    "id": 287
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 2,
+    "sourceId": "4.1",
+    "tags": [
+      "sistemi",
+      "break-even",
+      "grafici"
+    ],
+    "subtitle": "Break-even di una produzione di magliette",
+    "text": "Un'azienda produce magliette sostenendo costi fissi di $600$ euro e un costo di $4$ euro per ogni maglietta prodotta. Ogni maglietta viene venduta a $10$ euro.\r\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item Scrivi la funzione dei costi $C(x)$ e quella dei ricavi $R(x)$, dove $x$ è il numero di magliette prodotte e vendute.\r\n    \\item Determina il break-even point risolvendo il sistema tra le due funzioni.\r\n    \\item Rappresenta graficamente $C(x)$ e $R(x)$ nello stesso piano cartesiano e indica per quali valori di $x$ l'azienda è in utile e per quali è in perdita.\r\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item $C(x)=600+4x$ e $R(x)=10x$.\r\n    \\item Il break-even point si ottiene quando costi e ricavi coincidono:\r\n    \\[\r\n    \\begin{cases}\r\n    y=600+4x\\\\\r\n    y=10x\r\n    \\end{cases}\r\n    \\quad\\Longrightarrow\\quad 10x=600+4x \\quad\\Longrightarrow\\quad 6x=600 \\quad\\Longrightarrow\\quad x=100.\r\n    \\]\r\n    Quindi $y=1000$: il break-even point è $B(100;\\,1000)$.\r\n    \\item Le due rette si disegnano con due punti ciascuna: $C$ passa per $(0;\\,600)$ e $(100;\\,1000)$, $R$ passa per $(0;\\,0)$ e $(100;\\,1000)$. Si intersecano in $B(100;\\,1000)$.\r\n\r\n    Per $x<100$ la retta dei costi sta sopra quella dei ricavi: l'azienda è in \\textbf{perdita}. Per $x>100$ la retta dei ricavi sta sopra: l'azienda è in \\textbf{utile}. Per $x=100$ non c'è né utile né perdita.\r\n\\begin{center}\r\n\\begin{tikzpicture}\r\n\\begin{axis}[\r\n    width=10cm,\r\n    height=6cm,\r\n    xmin=0, xmax=160,\r\n    ymin=0, ymax=1700,\r\n    axis lines=left,\r\n    xlabel={$x$},\r\n    ylabel={$y$ (euro)},\r\n    grid=both,\r\n]\r\n\\addplot[red,thick,domain=0:160] {600+4*x};\r\n\\node[red] at (axis cs:140,1230) {C};\r\n\\addplot[blue,thick,domain=0:160] {10*x};\r\n\\node[blue] at (axis cs:140,1560) {R};\r\n\\node[black] at (axis cs:100,1000) {● B (100; 1000)};\r\n\\end{axis}\r\n\\end{tikzpicture}\r\n\\end{center}\r\n\\end{enumerate}",
+    "id": 288
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 2,
+    "sourceId": "4.2",
+    "tags": [
+      "sistemi",
+      "break-even",
+      "grafici"
+    ],
+    "subtitle": "Break-even di un carretto dei gelati",
+    "text": "Un gelataio affitta un carretto pagando $450$ euro al mese. Ogni gelato gli costa $0{,}50$ euro di ingredienti e viene venduto a $2{,}50$ euro.\r\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item Scrivi le funzioni dei costi e dei ricavi mensili in funzione del numero $x$ di gelati venduti.\r\n    \\item Quanti gelati deve vendere al mese per raggiungere il break-even point? A quanto ammontano in quel punto ricavi e costi?\r\n    \\item Interpreta graficamente la situazione: come si dispongono le due rette prima e dopo il break-even point?\r\n    \\item Scrivi la funzione utile $U(x)=R(x)-C(x)$ e calcola l'utile se vende $300$ gelati.\r\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item $C(x)=450+0{,}5x$ e $R(x)=2{,}5x$.\r\n    \\item Risolviamo il sistema:\r\n    \\[\r\n    \\begin{cases}\r\n    y=450+0{,}5x\\\\\r\n    y=2{,}5x\r\n    \\end{cases}\r\n    \\quad\\Longrightarrow\\quad 2x=450 \\quad\\Longrightarrow\\quad x=225.\r\n    \\]\r\n    Quindi $y=2{,}5\\cdot 225=562{,}5$. Servono $225$ gelati al mese e in quel punto costi e ricavi valgono $562{,}5$ euro: $B(225;\\,562{,}5)$.\r\n    \\item La retta dei costi parte da $(0;\\,450)$ ed è poco inclinata (coefficiente angolare $0{,}5$), quella dei ricavi parte dall'origine ed è più inclinata (coefficiente angolare $2{,}5$). Le due rette si intersecano in $B$: a sinistra di $B$ i costi superano i ricavi (perdita), a destra i ricavi superano i costi (utile).\r\n\\begin{center}\r\n\\begin{tikzpicture}\r\n\\begin{axis}[\r\n    width=10cm,\r\n    height=6cm,\r\n    xmin=0, xmax=400,\r\n    ymin=0, ymax=1100,\r\n    axis lines=left,\r\n    xlabel={$x$},\r\n    ylabel={$y$ (euro)},\r\n    grid=both,\r\n]\r\n\\addplot[red,thick,domain=0:400] {450+0.5*x};\r\n\\node[red] at (axis cs:350,560) {C};\r\n\\addplot[blue,thick,domain=0:400] {2.5*x};\r\n\\node[blue] at (axis cs:350,960) {R};\r\n\\node[black] at (axis cs:225,562.5) {● B (225; 562,5)};\r\n\\end{axis}\r\n\\end{tikzpicture}\r\n\\end{center}\r\n    \\item $U(x)=2{,}5x-(450+0{,}5x)=2x-450$. Per $x=300$: $U(300)=600-450=150$ euro.\r\n\\end{enumerate}",
+    "id": 289
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "4.3",
+    "tags": [
+      "sistemi",
+      "break-even",
+      "grafici"
+    ],
+    "subtitle": "Confronto tra due piani telefonici",
+    "text": "Un operatore telefonico propone due tariffe mensili. Il piano A costa $5$ euro di canone fisso più $0{,}10$ euro al minuto. Il piano B costa $20$ euro di canone fisso più $0{,}04$ euro al minuto.\r\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item Scrivi la spesa mensile $S_A(x)$ e $S_B(x)$ in funzione dei minuti di conversazione $x$.\r\n    \\item Determina per quanti minuti le due tariffe costano uguale e qual è in quel caso la spesa.\r\n    \\item Rappresenta graficamente le due rette e, osservando il grafico, stabilisci quale piano conviene a seconda dei minuti utilizzati.\r\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item $S_A(x)=5+0{,}10x$ e $S_B(x)=20+0{,}04x$.\r\n    \\item Risolviamo il sistema:\r\n    \\[\r\n    \\begin{cases}\r\n    y=5+0{,}10x\\\\\r\n    y=20+0{,}04x\r\n    \\end{cases}\r\n    \\quad\\Longrightarrow\\quad 0{,}06x=15 \\quad\\Longrightarrow\\quad x=250.\r\n    \\]\r\n    Quindi $y=5+0{,}10\\cdot 250=30$. Le tariffe sono uguali a $250$ minuti, con una spesa di $30$ euro: punto $P(250;\\,30)$.\r\n    \\item La retta A parte più in basso (ordinata all'origine $5$) ma è più inclinata (coefficiente angolare $0{,}10$ contro $0{,}04$), quindi dopo l'intersezione si trova sopra la retta B.\r\n\r\n    Per $x<250$ la retta A è sotto B: conviene il \\textbf{piano A}. Per $x>250$ la retta B è sotto A: conviene il \\textbf{piano B}. Per $x=250$ i due piani sono equivalenti.\r\n\\begin{center}\r\n\\begin{tikzpicture}\r\n\\begin{axis}[\r\n    width=10cm,\r\n    height=6cm,\r\n    xmin=0, xmax=500,\r\n    ymin=0, ymax=62,\r\n    axis lines=left,\r\n    xlabel={$x$ (minuti)},\r\n    ylabel={$y$ (euro)},\r\n    grid=both,\r\n]\r\n\\addplot[red,thick,domain=0:500] {5+0.1*x};\r\n\\node[red] at (axis cs:450,51) {A};\r\n\\addplot[blue,thick,domain=0:500] {20+0.04*x};\r\n\\node[blue] at (axis cs:450,41) {B};\r\n\\node[black] at (axis cs:250,30) {● P (250; 30)};\r\n\\end{axis}\r\n\\end{tikzpicture}\r\n\\end{center}\r\n\\end{enumerate}",
+    "id": 290
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "4.4",
+    "tags": [
+      "sistemi",
+      "break-even",
+      "grafici"
+    ],
+    "subtitle": "Noleggio auto: quale agenzia conviene",
+    "text": "Due agenzie noleggiano la stessa auto. L'agenzia Alfa chiede $50$ euro di quota fissa più $0{,}20$ euro per ogni chilometro percorso. L'agenzia Beta chiede $20$ euro di quota fissa più $0{,}30$ euro per ogni chilometro.\r\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item Scrivi le due funzioni di costo in funzione dei chilometri $x$ percorsi.\r\n    \\item Dopo quanti chilometri i due costi coincidono? Quanto si spende in quel caso?\r\n    \\item Traccia i grafici e spiega, usando il punto di intersezione, per quali percorrenze conviene ciascuna agenzia.\r\n    \\item Un cliente deve percorrere $450\\,\\text{km}$. Quale agenzia sceglie e quanto risparmia rispetto all'altra?\r\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item $C_A(x)=50+0{,}2x$ e $C_B(x)=20+0{,}3x$.\r\n    \\item Risolviamo il sistema:\r\n    \\[\r\n    \\begin{cases}\r\n    y=50+0{,}2x\\\\\r\n    y=20+0{,}3x\r\n    \\end{cases}\r\n    \\quad\\Longrightarrow\\quad 0{,}1x=30 \\quad\\Longrightarrow\\quad x=300.\r\n    \\]\r\n    Quindi $y=50+0{,}2\\cdot 300=110$. I costi coincidono a $300\\,\\text{km}$ e valgono $110$ euro: punto $P(300;\\,110)$.\r\n    \\item Le rette partono da $(0;\\,50)$ e $(0;\\,20)$. Beta parte più in basso ma cresce più rapidamente. Per $x<300$ la retta di Beta è sotto quella di Alfa: conviene \\textbf{Beta}. Per $x>300$ la retta di Alfa è sotto: conviene \\textbf{Alfa}.\r\n\\begin{center}\r\n\\begin{tikzpicture}\r\n\\begin{axis}[\r\n    width=10cm,\r\n    height=6cm,\r\n    xmin=0, xmax=500,\r\n    ymin=0, ymax=190,\r\n    axis lines=left,\r\n    xlabel={$x$ (km)},\r\n    ylabel={$y$ (euro)},\r\n    grid=both,\r\n]\r\n\\addplot[red,thick,domain=0:500] {50+0.2*x};\r\n\\node[red] at (axis cs:440,130) {Alfa};\r\n\\addplot[blue,thick,domain=0:500] {20+0.3*x};\r\n\\node[blue] at (axis cs:440,165) {Beta};\r\n\\node[black] at (axis cs:300,110) {● P (300; 110)};\r\n\\end{axis}\r\n\\end{tikzpicture}\r\n\\end{center}\r\n    \\item Poiché $450>300$ conviene Alfa. Costi: $C_A(450)=50+90=140$ euro, $C_B(450)=20+135=155$ euro. Il cliente risparmia $15$ euro.\r\n\\end{enumerate}",
+    "id": 291
+  },
+  {
+    "subject": "matematica",
+    "category": "Algebra",
+    "topic": "Sistemi Lineari",
+    "difficulty": 3,
+    "sourceId": "4.5",
+    "tags": [
+      "sistemi",
+      "break-even",
+      "grafici"
+    ],
+    "subtitle": "Break-even e utile desiderato",
+    "text": "Un laboratorio artigianale produce zaini. Ogni mese sostiene costi fissi di $1\\,200$ euro e un costo di produzione di $8$ euro per zaino. Ogni zaino viene venduto a $14$ euro.\r\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item Determina il break-even point e rappresentalo graficamente come intersezione delle rette dei costi e dei ricavi.\r\n    \\item Quanti zaini deve vendere il laboratorio per ottenere un utile mensile di $900$ euro?\r\n    \\item Il prezzo di vendita sale a $16$ euro. Come cambia il break-even point? Come cambia la retta dei ricavi nel grafico?\r\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\r\n    \\item Le funzioni sono $C(x)=1200+8x$ e $R(x)=14x$:\r\n    \\[\r\n    \\begin{cases}\r\n    y=1200+8x\\\\\r\n    y=14x\r\n    \\end{cases}\r\n    \\quad\\Longrightarrow\\quad 6x=1200 \\quad\\Longrightarrow\\quad x=200.\r\n    \\]\r\n    Quindi $y=2800$: break-even point $B(200;\\,2800)$. Nel grafico la retta dei costi parte da $(0;\\,1200)$, quella dei ricavi dall'origine, e si incontrano in $B$.\r\n\\begin{center}\r\n\\begin{tikzpicture}\r\n\\begin{axis}[\r\n    width=10cm,\r\n    height=6cm,\r\n    xmin=0, xmax=300,\r\n    ymin=0, ymax=4500,\r\n    axis lines=left,\r\n    xlabel={$x$},\r\n    ylabel={$y$ (euro)},\r\n    grid=both,\r\n]\r\n\\addplot[red,thick,domain=0:300] {1200+8*x};\r\n\\node[red] at (axis cs:260,3050) {C};\r\n\\addplot[blue,thick,domain=0:300] {14*x};\r\n\\node[blue] at (axis cs:260,3800) {R};\r\n\\node[black] at (axis cs:200,2800) {● B (200; 2800)};\r\n\\end{axis}\r\n\\end{tikzpicture}\r\n\\end{center}\r\n    \\item L'utile è $U(x)=R(x)-C(x)=6x-1200$. Imponendo $U(x)=900$: $6x=2100$, quindi $x=350$. Il laboratorio deve vendere $350$ zaini.\r\n\r\n    Graficamente, si cerca il punto in cui la retta dei ricavi supera quella dei costi di esattamente $900$ euro.\r\n    \\item Con $R(x)=16x$ si ha $16x=1200+8x$, cioè $8x=1200$, quindi $x=150$ e $y=2400$: il nuovo break-even point è $B'(150;\\,2400)$. Il break-even viene raggiunto con meno zaini (da $200$ a $150$). Nel grafico la retta dei ricavi diventa più inclinata (coefficiente angolare da $14$ a $16$) e interseca prima la retta dei costi, che resta invariata.\r\n\\end{enumerate}",
+    "id": 292
   },
   {
     "subject": "matematica",
@@ -3672,7 +4439,7 @@ const EXERCISES = [
     "subtitle": "Discontinuità da grafico — serie 1",
     "text": "Determina se esistono punti di discontinuità nei grafici seguenti e indicane la tipologia.\n\\newline\n\n\\includegraphics[width=0.9\\textwidth]{images/grafici_continuità}\n\\begin{center}\n  fig. 1 \\hspace{200pt} fig. 2\n\\end{center}",
     "solution": "Si legge ciascun grafico nel punto critico confrontando limite sinistro, limite destro e valore della funzione. Le tipologie sono:\n\\begin{itemize}\n\\item \\textbf{eliminabile} (3ª specie): $\\lim_{x\\to x_0^-}f=\\lim_{x\\to x_0^+}f$ finiti e uguali, ma il valore manca o è diverso (buco o punto isolato);\n\\item \\textbf{salto} (1ª specie): limite sinistro e destro finiti ma \\emph{diversi}; l'ampiezza del salto è la loro differenza;\n\\item \\textbf{2ª specie}: almeno uno dei due limiti è infinito o non esiste (tipico degli asintoti verticali).\n\\end{itemize}\nPer ogni figura si individua il punto $x_0$ in cui il tratto si interrompe e si classifica secondo lo schema precedente.",
-    "id": 241
+    "id": 293
   },
   {
     "subject": "matematica",
@@ -3689,7 +4456,7 @@ const EXERCISES = [
     "subtitle": "Discontinuità da grafico — serie 2",
     "text": "Determina se esistono punti di discontinuità nei grafici seguenti e indicane la tipologia.\n\\newline\n\n\\includegraphics[width=0.9\\textwidth]{images/grafici_continuità_2}\n\\begin{center}\n  fig. 1 \\hspace{200pt} fig. 2\n\\end{center}",
     "solution": "Stesso metodo: nel punto in cui il grafico si interrompe si confrontano $\\lim_{x\\to x_0^-}f$, $\\lim_{x\\to x_0^+}f$ e $f(x_0)$.\n\\begin{itemize}\n\\item Limiti uguali e finiti, valore mancante o diverso $\\Rightarrow$ \\textbf{eliminabile};\n\\item limiti finiti ma diversi $\\Rightarrow$ \\textbf{salto} (1ª specie), di ampiezza pari alla differenza;\n\\item un limite infinito o inesistente $\\Rightarrow$ \\textbf{2ª specie} (asintoto verticale o oscillazione).\n\\end{itemize}\nSi applica a ciascuna figura nel rispettivo punto di discontinuità.",
-    "id": 242
+    "id": 294
   },
   {
     "subject": "matematica",
@@ -3704,7 +4471,7 @@ const EXERCISES = [
     "subtitle": "Punti singolari — serie 1",
     "text": "Individua e classifica gli eventuali punti singolari delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = \\frac{x^2-4}{x+2}$\n\\item $f(x) = \\frac{\\sqrt{x+2}-2}{x-2}$\n\\item $f(x) = \\frac{|x|}{x}$\n\\item $f(x) = \\frac{(x-2)^2}{|x-2|}$\n\\item $f(x) = \\frac{1}{e^x-1}$\n\\item $f(x) = \\frac{1}{1-\\cos x}$\n\\item $f(x) = \\begin{cases} x - 2 \\quad & x \\ge 2 \\\\ \\frac{2x-4}{x-3} \\quad & x < 2 \\end{cases}$\n\\item $f(x) = \\begin{cases} \\frac{\\sin x}{x} \\qquad x < 0 \\\\ e^{1/\\ln x} \\qquad x > 0 \\end{cases}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $\\dfrac{x^2-4}{x+2}=x-2$ per $x\\neq-2$: \\textbf{eliminabile} in $x=-2$ (limite $-4$). \\\\\n2) Razionalizzando, $\\dfrac{\\sqrt{x+2}-2}{x-2}=\\dfrac{1}{\\sqrt{x+2}+2}$: \\textbf{eliminabile} in $x=2$ (limite $\\tfrac14$). \\\\\n3) $\\dfrac{|x|}{x}$ vale $+1$ a destra e $-1$ a sinistra: \\textbf{salto} (1ª specie) in $x=0$, ampiezza $2$. \\\\\n4) $\\dfrac{(x-2)^2}{|x-2|}=|x-2|$ per $x\\neq2$: \\textbf{eliminabile} in $x=2$ (limite $0$). \\\\\n5) $e^x-1=0$ in $x=0$, con limiti $\\pm\\infty$: \\textbf{2ª specie} (asintoto verticale) in $x=0$. \\\\\n6) $1-\\cos x=0$ in $x=2k\\pi$, denominatore $\\to0^+$: \\textbf{2ª specie} (poli) in $x=2k\\pi$. \\\\\n7) In $x=2$ entrambi i rami valgono $0$ ($\\lim_{x\\to2^-}\\tfrac{2x-4}{x-3}=0=f(2)$): \\textbf{continua}, nessun punto singolare. \\\\\n8) In $x=0$ i due rami tendono a $1$ (buco): \\textbf{eliminabile}; in $x=1$ è $\\ln x\\to0$ con $e^{1/\\ln x}\\to+\\infty$ a destra: \\textbf{2ª specie}.",
-    "id": 243
+    "id": 295
   },
   {
     "subject": "matematica",
@@ -3719,7 +4486,7 @@ const EXERCISES = [
     "subtitle": "Punti singolari — serie 2",
     "text": "Individua e classifica gli eventuali punti singolari delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = \\frac{x^2 + 1}{x - 1}$\n\\item $f(x) = \\frac{\\ln(x+1)}{x}$\n\\item $f(x) = \\frac{|x-1|}{x-1}$\n\\item $f(x) = \\frac{x^3}{|x|}$\n\\item $f(x) = \\frac{1}{\\sin x}$\n\\item $f(x) = \\frac{1}{1-\\tan x}$\n\\item $f(x) = \\begin{cases} \\sqrt{x} \\quad & x \\ge 0 \\\\ x^2 \\quad & x < 0 \\end{cases}$\n\\item $f(x) = \\begin{cases} e^x \\qquad x \\ge 0 \\\\ \\frac{1}{x^2+1} \\qquad x < 0 \\end{cases}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $\\dfrac{x^2+1}{x-1}$: in $x=1$ numeratore $=2\\neq0$, denominatore $\\to0$: \\textbf{2ª specie} (asintoto verticale). \\\\\n2) $\\dfrac{\\ln(x+1)}{x}\\to1$ per $x\\to0$ (limite notevole): \\textbf{eliminabile} in $x=0$. \\\\\n3) $\\dfrac{|x-1|}{x-1}=\\pm1$: \\textbf{salto} (1ª specie) in $x=1$, ampiezza $2$. \\\\\n4) $\\dfrac{x^3}{|x|}=x^2\\,\\mathrm{sgn}(x)\\to0$: \\textbf{eliminabile} in $x=0$. \\\\\n5) $\\sin x=0$ in $x=k\\pi$: \\textbf{2ª specie} (poli). \\\\\n6) $\\tan x=1$ in $x=\\tfrac{\\pi}{4}+k\\pi$: \\textbf{2ª specie}; nei punti $x=\\tfrac{\\pi}{2}+k\\pi$ (dove $\\tan x\\to\\infty$) si ha $f\\to0$: \\textbf{eliminabile}. \\\\\n7) In $x=0$: $\\sqrt0=0$ e $\\lim_{x\\to0^-}x^2=0$: \\textbf{continua}. \\\\\n8) In $x=0$: $e^0=1$ e $\\lim_{x\\to0^-}\\tfrac{1}{x^2+1}=1$: \\textbf{continua}. Nessun punto singolare.",
-    "id": 244
+    "id": 296
   },
   {
     "subject": "matematica",
@@ -3734,7 +4501,7 @@ const EXERCISES = [
     "subtitle": "Punti singolari — serie 3",
     "text": "Individua e classifica gli eventuali punti singolari delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = \\frac{x^2 - x}{x^2 + x}$\n\\item $f(x) = \\frac{\\sqrt{x}}{x-1}$\n\\item $f(x) = \\frac{|x+3|}{x+3}$\n\\item $f(x) = \\frac{x^2 - 4x}{|x-2|}$\n\\item $f(x) = \\frac{1}{e^{x^2}-1}$\n\\item $f(x) = \\frac{1}{\\cos x - 1}$\n\\item $f(x) = \\begin{cases} x^3 - 1 \\quad & x > 1 \\\\ \\frac{x}{x+1} \\quad & x \\le 1 \\end{cases}$\n\\item $f(x) = \\begin{cases} \\ln(x) \\qquad x > 1 \\\\ x^2 - 2x + 1 \\qquad x \\le 1 \\end{cases}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $\\dfrac{x^2-x}{x^2+x}=\\dfrac{x-1}{x+1}$ per $x\\neq0$: \\textbf{eliminabile} in $x=0$ (limite $-1$), \\textbf{2ª specie} in $x=-1$. \\\\\n2) $\\dfrac{\\sqrt{x}}{x-1}$ (dominio $x\\ge0$): in $x=1$ numeratore $=1\\neq0$: \\textbf{2ª specie}. \\\\\n3) $\\dfrac{|x+3|}{x+3}=\\pm1$: \\textbf{salto} (1ª specie) in $x=-3$, ampiezza $2$. \\\\\n4) $\\dfrac{x^2-4x}{|x-2|}$: in $x=2$ numeratore $=-4\\neq0$, $f\\to-\\infty$: \\textbf{2ª specie}. \\\\\n5) $e^{x^2}-1=0$ solo in $x=0$, $f\\to+\\infty$: \\textbf{2ª specie}. \\\\\n6) $\\cos x=1$ in $x=2k\\pi$, $f\\to-\\infty$: \\textbf{2ª specie}. \\\\\n7) In $x=1$: $\\lim_{x\\to1^+}(x^3-1)=0$ ma $f(1)=\\tfrac{1}{2}$: \\textbf{salto} (1ª specie), ampiezza $\\tfrac12$; inoltre \\textbf{2ª specie} in $x=-1$ (dove $\\tfrac{x}{x+1}$ esplode). \\\\\n8) In $x=1$: $\\lim_{x\\to1^+}\\ln x=0=(1-1)^2$: \\textbf{continua}.",
-    "id": 245
+    "id": 297
   },
   {
     "subject": "matematica",
@@ -3749,7 +4516,7 @@ const EXERCISES = [
     "subtitle": "Punti singolari — serie 4",
     "text": "Individua e classifica gli eventuali punti singolari delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = \\frac{x^3 - 3x}{x^2 - 1}$\n\\item $f(x) = \\frac{\\sqrt{x+1}}{x+2}$\n\\item $f(x) = \\frac{|x|}{x^2}$\n\\item $f(x) = \\frac{(x-3)^2}{|x-3|}$\n\\item $f(x) = \\frac{1}{e^{x+1} - 2}$\n\\item $f(x) = \\frac{1}{\\tan x}$\n\\item $f(x) = \\begin{cases} x^2 - 1 \\quad & x \\neq 0 \\\\ 1 \\quad & x = 0 \\end{cases}$\n\\item $f(x) = \\begin{cases} \\sin x \\qquad x > 0 \\\\ x - 2 \\qquad x \\le 0 \\end{cases}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $\\dfrac{x^3-3x}{x^2-1}$: in $x=\\pm1$ numeratore $\\neq0$: \\textbf{2ª specie} in $x=1$ e $x=-1$. \\\\\n2) $\\dfrac{\\sqrt{x+1}}{x+2}$ (dominio $x\\ge-1$): $x=-2$ è fuori dal dominio, quindi \\textbf{nessun punto singolare}. \\\\\n3) $\\dfrac{|x|}{x^2}=\\dfrac{1}{|x|}\\to+\\infty$: \\textbf{2ª specie} in $x=0$. \\\\\n4) $\\dfrac{(x-3)^2}{|x-3|}=|x-3|$: \\textbf{eliminabile} in $x=3$ (limite $0$). \\\\\n5) $e^{x+1}-2=0$ in $x=\\ln2-1$: \\textbf{2ª specie}. \\\\\n6) $\\dfrac{1}{\\tan x}$: $\\tan x=0$ in $x=k\\pi$ $\\Rightarrow$ \\textbf{2ª specie}; in $x=\\tfrac{\\pi}{2}+k\\pi$ vale $0$: \\textbf{eliminabile}. \\\\\n7) In $x=0$: $\\lim(x^2-1)=-1$ ma $f(0)=1$: \\textbf{eliminabile} (limite finito $\\neq$ valore). \\\\\n8) In $x=0$: $\\lim_{x\\to0^+}\\sin x=0$ ma $f(0)=-2$: \\textbf{salto} (1ª specie), ampiezza $2$.",
-    "id": 246
+    "id": 298
   },
   {
     "subject": "matematica",
@@ -3764,7 +4531,7 @@ const EXERCISES = [
     "subtitle": "Punti singolari — serie 5",
     "text": "Individua e classifica gli eventuali punti singolari delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = \\frac{x^2 + 4x + 4}{x^2 - 4}$\n\\item $f(x) = \\frac{\\sqrt{x^2 - 1}}{x-1}$\n\\item $f(x) = \\frac{|x-1|}{x^2 - 1}$\n\\item $f(x) = \\frac{x+2}{|x+2|}$\n\\item $f(x) = \\frac{1}{e^x+1}$\n\\item $f(x) = \\frac{1}{\\sin x - x}$\n\\item $f(x) = \\begin{cases} x^2 \\quad & x \\geq 2 \\\\ 2x - 1 \\quad & x < 2 \\end{cases}$\n\\item $f(x) = \\begin{cases} e^{-x} \\qquad x > 0 \\\\ x + 3 \\qquad x \\le 0 \\end{cases}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $\\dfrac{x^2+4x+4}{x^2-4}=\\dfrac{x+2}{x-2}$ per $x\\neq-2$: \\textbf{eliminabile} in $x=-2$ (limite $0$), \\textbf{2ª specie} in $x=2$. \\\\\n2) $\\dfrac{\\sqrt{x^2-1}}{x-1}$ (dominio $x\\le-1$ o $x\\ge1$): in $x=1$ il limite destro è $+\\infty$: \\textbf{2ª specie}. \\\\\n3) $\\dfrac{|x-1|}{x^2-1}=\\dfrac{|x-1|}{(x-1)(x+1)}$: \\textbf{salto} in $x=1$ (limiti $\\pm\\tfrac12$, ampiezza $1$), \\textbf{2ª specie} in $x=-1$. \\\\\n4) $\\dfrac{x+2}{|x+2|}=\\pm1$: \\textbf{salto} (1ª specie) in $x=-2$, ampiezza $2$. \\\\\n5) $e^x+1>0$ sempre: \\textbf{nessun punto singolare}. \\\\\n6) $\\sin x-x=0$ solo in $x=0$, con $f\\to-\\infty$: \\textbf{2ª specie} in $x=0$. \\\\\n7) In $x=2$: $f(2)=4$ ma $\\lim_{x\\to2^-}(2x-1)=3$: \\textbf{salto} (1ª specie), ampiezza $1$. \\\\\n8) In $x=0$: $\\lim_{x\\to0^+}e^{-x}=1$ ma $f(0)=3$: \\textbf{salto} (1ª specie), ampiezza $2$.",
-    "id": 247
+    "id": 299
   },
   {
     "subject": "matematica",
@@ -3779,7 +4546,7 @@ const EXERCISES = [
     "subtitle": "Punti singolari — serie 6",
     "text": "Individua e classifica gli eventuali punti singolari delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = \\frac{2x+1}{x^2-x}$\n\\item $f(x) = \\frac{\\ln(x^2+1)}{x-1}$\n\\item $f(x) = \\frac{|x+1|}{x-1}$\n\\item $f(x) = \\frac{(x-1)^3}{|x+1|}$\n\\item $f(x) = \\frac{1}{e^{x-1} - 1}$\n\\item $f(x) = \\frac{1}{\\cos(x)-1}$\n\\item $f(x) = \\begin{cases} x^3 - 1 \\quad & x > 0 \\\\ x^2 - 2x \\quad & x \\le 0 \\end{cases}$\n\\item $f(x) = \\begin{cases} \\tan x \\qquad x > 0 \\\\ x^3 - x \\qquad x \\le 0 \\end{cases}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $\\dfrac{2x+1}{x^2-x}=\\dfrac{2x+1}{x(x-1)}$: \\textbf{2ª specie} in $x=0$ e $x=1$. \\\\\n2) $\\dfrac{\\ln(x^2+1)}{x-1}$: in $x=1$ numeratore $=\\ln2\\neq0$: \\textbf{2ª specie}. \\\\\n3) $\\dfrac{|x+1|}{x-1}$: in $x=1$ numeratore $=2\\neq0$: \\textbf{2ª specie} (in $x=-1$ vale $0$, continua). \\\\\n4) $\\dfrac{(x-1)^3}{|x+1|}$: in $x=-1$ numeratore $=-8\\neq0$: \\textbf{2ª specie}. \\\\\n5) $e^{x-1}-1=0$ in $x=1$: \\textbf{2ª specie}. \\\\\n6) $\\cos x=1$ in $x=2k\\pi$: \\textbf{2ª specie}. \\\\\n7) In $x=0$: $\\lim_{x\\to0^+}(x^3-1)=-1$ ma $f(0)=0$: \\textbf{salto} (1ª specie), ampiezza $1$. \\\\\n8) In $x=0$: $\\lim_{x\\to0^+}\\tan x=0=f(0)$: \\textbf{continua}; restano \\textbf{2ª specie} nei poli $x=\\tfrac{\\pi}{2}+k\\pi$ ($k\\ge0$).",
-    "id": 248
+    "id": 300
   },
   {
     "subject": "matematica",
@@ -3794,7 +4561,7 @@ const EXERCISES = [
     "subtitle": "Teorema degli zeri per $e^x-2x^2$ su $[0,2]$",
     "text": "Stabilisci se la funzione soddisfa le ipotesi del \\textit{teorema di esistenza degli zeri} nell'intervallo indicato, motivando adeguatamente la risposta e, se soddisfatte, trovane gli zeri.\n\\begin{center}\n    $f(x) = e^x - 2x^2$ \\qquad $[0,2]$\n\\end{center}",
     "solution": "$f$ continua su $[0,2]$; $f(0)=1>0$, $f(2)=e^2-8<0$: esiste uno zero in $(0,2)$.",
-    "id": 249
+    "id": 301
   },
   {
     "subject": "matematica",
@@ -3809,7 +4576,7 @@ const EXERCISES = [
     "subtitle": "Teorema degli zeri per $\\sin x - x/2$ su $[0,\\pi]$",
     "text": "Verifica se la funzione soddisfa le ipotesi del \\textit{teorema di esistenza degli zeri} nell'intervallo indicato. Se le ipotesi sono soddisfatte, determina almeno uno zero della funzione.\n\\begin{center}\n    $f(x) = \\sin(x) - \\dfrac{x}{2}$ \\qquad $[0, \\pi]$\n\\end{center}",
     "solution": "$f(0)=0$: $x=0$ è già uno zero. $f(\\pi)=-\\pi/2<0$; esiste anche uno zero in $(0,\\pi)$.",
-    "id": 250
+    "id": 302
   },
   {
     "subject": "matematica",
@@ -3824,7 +4591,7 @@ const EXERCISES = [
     "subtitle": "Teorema degli zeri per $\\ln x + x - 3$ su $[1,4]$",
     "text": "Stabilisci se la funzione data soddisfa le condizioni richieste dal \\textit{teorema di esistenza degli zeri} nell'intervallo specificato. Spiega il ragionamento e, se possibile, calcola uno zero.\n\\begin{center}\n    $f(x) = \\ln(x) + x - 3$ \\qquad $[1, 4]$\n\\end{center}",
     "solution": "$f(1)=-2<0$, $f(4)=\\ln4+1>0$: esiste uno zero in $(1,4)$.",
-    "id": 251
+    "id": 303
   },
   {
     "subject": "matematica",
@@ -3839,7 +4606,7 @@ const EXERCISES = [
     "subtitle": "Teorema degli zeri per $x^3-3x+1$ su $[-2,1]$",
     "text": "Analizza la funzione nell'intervallo indicato per verificare l'applicabilità del \\textit{teorema di esistenza degli zeri}. Se il teorema si applica, determina gli zeri (se possibile) o stima il loro valore.\n\\begin{center}\n    $f(x) = x^3 - 3x + 1$ \\qquad $[-2, 1]$\n\\end{center}",
     "solution": "$f(-2)=-1<0$, $f(0)=1>0$, $f(1)=-1<0$: esistono due zeri, in $(-2,0)$ e in $(0,1)$.",
-    "id": 252
+    "id": 304
   },
   {
     "subject": "matematica",
@@ -3854,7 +4621,7 @@ const EXERCISES = [
     "subtitle": "Teorema degli zeri per $e^{-x",
     "text": "Dimostra se il \\textit{teorema di esistenza degli zeri} è applicabile alla funzione considerata nell'intervallo specificato. Nel caso affermativo, calcola o stima almeno uno zero.\n\\begin{center}\n    $f(x) = e^{-x} - \\cos(x)$ \\qquad $[0, \\pi/2]$\n\\end{center}",
     "solution": "$f(0)=0$: $x=0$ è già uno zero della funzione.",
-    "id": 253
+    "id": 305
   },
   {
     "subject": "matematica",
@@ -3869,7 +4636,7 @@ const EXERCISES = [
     "subtitle": "Continuità e salto di $f$ con $e^x-k$ e $x^3+k$ in $x=0$",
     "text": "Determina per quali valori di $k$ la funzione\n\\[\nf(x) = \\begin{cases}\n    e^x - k \\qquad x < 0 \\\\\n    x^3+k \\qquad x \\ge 0\n\\end{cases}\n\\]\n\\begin{enumerate}\n\\item è continua in $x=0$\n\\item presenti un punto di salto in $x=0$, con salto uguale a $2$\n\\end{enumerate}",
     "solution": "1) $1-k=k \\Rightarrow k=\\tfrac{1}{2}$. 2) $|1-2k|=2 \\Rightarrow k=-\\tfrac{1}{2}$ oppure $k=\\tfrac{3}{2}$.",
-    "id": 254
+    "id": 306
   },
   {
     "subject": "matematica",
@@ -3884,7 +4651,7 @@ const EXERCISES = [
     "subtitle": "Continuità e salto di $f$ con $\\ln(1+x)-k$ e $kx^2-1$ in $x=1$",
     "text": "Determina per quali valori di $k$ la funzione\n\\[\nf(x) = \\begin{cases}\n    \\ln(1+x) - k \\qquad x < 1 \\\\\n    kx^2 - 1 \\qquad x \\ge 1\n\\end{cases}\n\\]\n\\begin{enumerate}\n\\item è continua in $x=1$\n\\item presenti un punto di salto in $x=1$, con salto uguale a $1$\n\\end{enumerate}",
     "solution": "1) $\\ln2-k=k-1 \\Rightarrow k=\\tfrac{\\ln2+1}{2}$. 2) $|\\ln2+1-2k|=1 \\Rightarrow k=\\tfrac{\\ln2}{2}$ oppure $k=\\tfrac{\\ln2+2}{2}$.",
-    "id": 255
+    "id": 307
   },
   {
     "subject": "matematica",
@@ -3899,7 +4666,7 @@ const EXERCISES = [
     "subtitle": "Continuità e salto di $f$ con $x^2-kx$ e $kx+3$ in $x=-1$",
     "text": "Trova i valori di $k$ per cui la funzione\n\\[\nf(x) = \\begin{cases}\n    x^2 - kx \\qquad x < -1 \\\\\n    kx + 3 \\qquad x \\ge -1\n\\end{cases}\n\\]\n\\begin{enumerate}\n\\item è continua in $x=-1$\n\\item presenti un punto di salto in $x=-1$, con salto uguale a $4$\n\\end{enumerate}",
     "solution": "1) $1+k=-k+3 \\Rightarrow k=1$. 2) $|2k-2|=4 \\Rightarrow k=3$ oppure $k=-1$.",
-    "id": 256
+    "id": 308
   },
   {
     "subject": "matematica",
@@ -3914,7 +4681,7 @@ const EXERCISES = [
     "subtitle": "Continuità e salto di $f$ con $kx-2$ e $4x+k$ in $x=2$",
     "text": "Determina per quali valori di $k$ la funzione\n\\[\nf(x) = \\begin{cases}\n    kx - 2 \\qquad x < 2 \\\\\n    4x + k \\qquad x \\ge 2\n\\end{cases}\n\\]\n\\begin{enumerate}\n\\item è continua in $x=2$\n\\item presenti un punto di salto in $x=2$, con salto uguale a $3$\n\\end{enumerate}",
     "solution": "1) $2k-2=8+k \\Rightarrow k=10$. 2) $|k-10|=3 \\Rightarrow k=13$ oppure $k=7$.",
-    "id": 257
+    "id": 309
   },
   {
     "subject": "matematica",
@@ -3929,7 +4696,7 @@ const EXERCISES = [
     "subtitle": "Continuità e salto di $f$ con $k+\\sin x$ e $k\\cos x$ in $x=\\pi/2$",
     "text": "Stabilisci i valori di $k$ per cui la funzione\n\\[\nf(x) = \\begin{cases}\n    k + \\sin(x) \\qquad x < \\dfrac{\\pi}{2} \\\\\n    k\\cos(x) \\qquad x \\ge \\dfrac{\\pi}{2}\n\\end{cases}\n\\]\n\\begin{enumerate}\n\\item è continua in $x=\\dfrac{\\pi}{2}$\n\\item presenti un punto di salto in $x=\\dfrac{\\pi}{2}$, con salto uguale a $\\dfrac{1}{2}$\n\\end{enumerate}",
     "solution": "1) $k+1=0 \\Rightarrow k=-1$. 2) $|k+1|=\\tfrac{1}{2} \\Rightarrow k=-\\tfrac{1}{2}$ oppure $k=-\\tfrac{3}{2}$.",
-    "id": 258
+    "id": 310
   },
   {
     "subject": "matematica",
@@ -3944,7 +4711,7 @@ const EXERCISES = [
     "subtitle": "Continuità e salto di $f$ con $kx^2+1$ e $e^x-k$ in $x=0$",
     "text": "Determina per quali valori di $k$ la funzione\n\\[\nf(x) = \\begin{cases}\n    kx^2 + 1 \\qquad x < 0 \\\\\n    e^x - k \\qquad x \\ge 0\n\\end{cases}\n\\]\n\\begin{enumerate}\n\\item è continua in $x=0$\n\\item presenti un punto di salto in $x=0$, con salto uguale a $5$\n\\end{enumerate}",
     "solution": "1) $1=1-k \\Rightarrow k=0$. 2) $|k|=5 \\Rightarrow k=\\pm5$.",
-    "id": 259
+    "id": 311
   },
   {
     "subject": "matematica",
@@ -3959,7 +4726,7 @@ const EXERCISES = [
     "subtitle": "Asintoti di $f(x)=(x^2+1)/(x-1)$",
     "text": "Studia la seguente funzione ponendo particolare attenzione a eventuali asintoti:\n\\begin{equation*}\n    f(x) =\\frac{x^2+1}{x-1}\n\\end{equation*}",
     "solution": "Asintoto verticale $x=1$; asintoto obliquo $y=x+1$ (divisione: $x^2+1=(x-1)(x+1)+2$).",
-    "id": 260
+    "id": 312
   },
   {
     "subject": "matematica",
@@ -3974,7 +4741,7 @@ const EXERCISES = [
     "subtitle": "Asintoti di $f(x)=(x^2-4)/(x+2)$",
     "text": "Studia la seguente funzione ponendo particolare attenzione a eventuali asintoti:\n\\begin{equation*}\n    f(x) = \\frac{x^2 - 4}{x+2}\n\\end{equation*}",
     "solution": "$f(x)=x-2$ per $x\\ne-2$: buco (discontinuità eliminabile) in $x=-2$, nessun asintoto.",
-    "id": 261
+    "id": 313
   },
   {
     "subject": "matematica",
@@ -3989,7 +4756,7 @@ const EXERCISES = [
     "subtitle": "Asintoti di $f(x)=(2x+3)/(x^2-1)$",
     "text": "Analizza la seguente funzione razionale determinando la presenza di eventuali asintoti verticali, orizzontali o obliqui:\n\\begin{equation*}\n    f(x) = \\frac{2x+3}{x^2-1}\n\\end{equation*}",
     "solution": "Asintoti verticali $x=1$ e $x=-1$; asintoto orizzontale $y=0$.",
-    "id": 262
+    "id": 314
   },
   {
     "subject": "matematica",
@@ -4004,7 +4771,7 @@ const EXERCISES = [
     "subtitle": "Asintoti di $f(x)=(x^3-2x)/(x^2+1)$",
     "text": "Studia la funzione seguente, soffermandoti su eventuali asintoti e sul comportamento per $x \\to \\pm\\infty$:\n\\begin{equation*}\n    f(x) = \\frac{x^3 - 2x}{x^2+1}\n\\end{equation*}",
     "solution": "Nessun asintoto verticale; asintoto obliquo $y=x$ (poiché $x^3-2x=(x^2+1)x-3x$, quindi $f(x)=x-\\tfrac{3x}{x^2+1}\\to x$).",
-    "id": 263
+    "id": 315
   },
   {
     "subject": "matematica",
@@ -4019,7 +4786,7 @@ const EXERCISES = [
     "subtitle": "Asintoti di $f(x)=(x^2+x+1)/(x^2-2x)$",
     "text": "Determina il dominio della funzione e analizza eventuali asintoti:\n\\begin{equation*}\n    f(x) = \\frac{x^2 + x + 1}{x^2 - 2x}\n\\end{equation*}",
     "solution": "Asintoti verticali $x=0$ e $x=2$; asintoto orizzontale $y=1$.",
-    "id": 264
+    "id": 316
   },
   {
     "subject": "matematica",
@@ -4034,7 +4801,7 @@ const EXERCISES = [
     "subtitle": "Asintoti di $f(x)=\\sqrt{x^2+1",
     "text": "Studia la funzione seguente, con particolare attenzione agli asintoti verticali e orizzontali:\n\\begin{equation*}\n    f(x) = \\frac{\\sqrt{x^2+1}}{x-3}\n\\end{equation*}",
     "solution": "Asintoto verticale $x=3$; asintoti orizzontali $y=1$ (per $x\\to+\\infty$) e $y=-1$ (per $x\\to-\\infty$).",
-    "id": 265
+    "id": 317
   },
   {
     "subject": "matematica",
@@ -4049,7 +4816,7 @@ const EXERCISES = [
     "subtitle": "Calcolo di derivate — serie 1",
     "text": "Calcola la derivata delle seguenti funzioni, semplificando dove possibile:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = x^3 - 5x^2 + 2x - 7$\n\\item $f(x) = \\sqrt{x^2 + 4x + 4}$\n\\item $f(x) = \\frac{2x}{x^2 + 1}$\n\\item $f(x) = x^3 \\cdot e^x$\n\\item $f(x) = \\ln(x^2 + 1)$\n\\item $f(x) = \\arcsin(x-1)$\n\\item $f(x) = x \\cdot \\tan x$\n\\item $f(x) = 2^{-x} \\cdot \\cos(x)$\n\\item $f(x) = \\frac{|x - 1|}{x}$\n\\item $f(x) = x^{3x}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $f'(x)=3x^2-10x+2$. \\\\\n2) $\\sqrt{x^2+4x+4}=|x+2|$, quindi $f'(x)=\\dfrac{x+2}{|x+2|}$ ($x\\neq-2$). \\\\\n3) $f'(x)=\\dfrac{2(1-x^2)}{(x^2+1)^2}$. \\\\\n4) $f'(x)=x^2e^x(3+x)$. \\\\\n5) $f'(x)=\\dfrac{2x}{x^2+1}$. \\\\\n6) $f'(x)=\\dfrac{1}{\\sqrt{1-(x-1)^2}}=\\dfrac{1}{\\sqrt{2x-x^2}}$ ($0<x<2$). \\\\\n7) $f'(x)=\\tan x+\\dfrac{x}{\\cos^2 x}$. \\\\\n8) $f'(x)=-2^{-x}(\\ln 2\\,\\cos x+\\sin x)$. \\\\\n9) $\\dfrac{|x-1|}{x}$: $f'(x)=\\dfrac{1}{x^2}$ per $x>1$, $f'(x)=-\\dfrac{1}{x^2}$ per $x<1$; non derivabile in $x=1$ (punto angoloso). \\\\\n10) $x^{3x}=e^{3x\\ln x}$, quindi $f'(x)=3x^{3x}(\\ln x+1)$.",
-    "id": 266
+    "id": 318
   },
   {
     "subject": "matematica",
@@ -4064,7 +4831,7 @@ const EXERCISES = [
     "subtitle": "Calcolo di derivate — serie 2",
     "text": "Calcola la derivata delle seguenti funzioni, semplificando dove possibile:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=3.2cm]\n\\item $f(x) = x^4 - 3x^3 + 2x^2 - 1$\n\\item $f(x) = \\sqrt{1 + x^4}$\n\\item $f(x) = \\frac{1}{\\sqrt{x^2 + 1}}$\n\\item $f(x) = x^2 \\cdot \\ln(x)$\n\\item $f(x) = x^{2x}$\n\\item $f(x) = \\cos(x^3)$\n\\item $f(x) = \\frac{x+2}{x^2 - 1}$\n\\item $f(x) = e^x \\cdot \\sin(x)$\n\\item $f(x) = |x^2 - 4|$\n\\item $f(x) = \\ln(\\sqrt{x^2 + 1})$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "1) $f'(x)=4x^3-9x^2+4x$. \\\\\n2) $f'(x)=\\dfrac{2x^3}{\\sqrt{1+x^4}}$. \\\\\n3) $f'(x)=-\\dfrac{x}{(x^2+1)^{3/2}}$. \\\\\n4) $f'(x)=x(2\\ln x+1)$. \\\\\n5) $x^{2x}=e^{2x\\ln x}$, quindi $f'(x)=2x^{2x}(\\ln x+1)$. \\\\\n6) $f'(x)=-3x^2\\sin(x^3)$. \\\\\n7) $f'(x)=\\dfrac{-(x^2+4x+1)}{(x^2-1)^2}$. \\\\\n8) $f'(x)=e^x(\\sin x+\\cos x)$. \\\\\n9) $|x^2-4|$: $f'(x)=2x$ per $|x|>2$, $f'(x)=-2x$ per $|x|<2$; non derivabile in $x=\\pm2$. \\\\\n10) $\\ln\\sqrt{x^2+1}=\\tfrac12\\ln(x^2+1)$, quindi $f'(x)=\\dfrac{x}{x^2+1}$.",
-    "id": 267
+    "id": 319
   },
   {
     "subject": "matematica",
@@ -4079,7 +4846,7 @@ const EXERCISES = [
     "subtitle": "Retta tangente in tre punti assegnati",
     "text": "Determina l'equazione della retta tangente alla curva data nei seguenti punti:\n\\begin{center}\\begin{minipage}{0.85\\linewidth}\n\\begin{enumerate}[label=\\arabic*)]\n\\item $f(x) = x^2 + 2x - 3, \\quad x_0 = -1$\n\\item $f(x) = e^{x^2}, \\quad x_0 = 0$\n\\item $f(x) = \\ln(x+1), \\quad x_0 = 1$\n\\end{enumerate}\n\\end{minipage}\\end{center}",
     "solution": "1) $y=-4$; 2) $y=1$; 3) $y=\\tfrac{1}{2}(x-1)+\\ln 2$",
-    "id": 268
+    "id": 320
   },
   {
     "subject": "matematica",
@@ -4094,7 +4861,7 @@ const EXERCISES = [
     "subtitle": "Retta tangente con verifica intersezione asse $y$",
     "text": "Trova l'equazione della retta tangente alla curva nei seguenti punti e verifica se la tangente interseca l'asse \\( y \\):\n\\begin{center}\\begin{minipage}{0.85\\linewidth}\n\\begin{enumerate}[label=\\arabic*)]\n\\item $f(x) = x^3 - 2x + 2, \\quad x_0 = 1$\n\\item $f(x) = \\cos(x), \\quad x_0 = \\frac{\\pi}{3}$\n\\item $f(x) = \\sqrt{x+2}, \\quad x_0 = 2$\n\\end{enumerate}\n\\end{minipage}\\end{center}",
     "solution": "1) $y=x$; 2) $y=-\\tfrac{\\sqrt{3}}{2}(x-\\tfrac{\\pi}{3})+\\tfrac{1}{2}$; 3) $y=\\tfrac{1}{4}(x-2)+2$",
-    "id": 269
+    "id": 321
   },
   {
     "subject": "matematica",
@@ -4109,7 +4876,7 @@ const EXERCISES = [
     "subtitle": "Studio di $f(x) = x^3/(x^2-4)$ con derivate",
     "text": "Studia la seguente funzione, facendo particolare attenzione allo studio del segno della derivata prima e seconda:\n\\begin{equation*}\n    f(x) = \\frac{x^3}{x^2-4}\n\\end{equation*}",
     "solution": "\\textbf{Dominio e simmetrie:} $x\\neq\\pm2$; funzione dispari ($f(-x)=-f(x)$). \\\\\n\\textbf{Asintoti:} verticali $x=\\pm2$. Dalla divisione $\\dfrac{x^3}{x^2-4}=x+\\dfrac{4x}{x^2-4}$ segue l'asintoto obliquo $y=x$. \\\\\n\\textbf{Derivata prima:} $f'(x)=\\dfrac{x^2(x^2-12)}{(x^2-4)^2}$. Poiché $x^2\\ge0$ e il denominatore è positivo, $f'>0$ per $|x|>2\\sqrt3$ e $f'<0$ per $|x|<2\\sqrt3$ (escluso $x=\\pm2$). Quindi massimo in $x=-2\\sqrt3$ ($f=-3\\sqrt3$), minimo in $x=2\\sqrt3$ ($f=3\\sqrt3$); in $x=0$ tangente orizzontale senza estremo (flesso). \\\\\n\\textbf{Derivata seconda:} $f''(x)=\\dfrac{8x(x^2+12)}{(x^2-4)^3}$, che si annulla in $x=0$: flesso in $(0,0)$. Concavità verso l'alto per $-2<x<0$ e $x>2$, verso il basso per $x<-2$ e $0<x<2$.",
-    "id": 270
+    "id": 322
   },
   {
     "subject": "matematica",
@@ -4124,7 +4891,7 @@ const EXERCISES = [
     "subtitle": "Studio di $f(x) = x^3/(x-4)$ con derivate",
     "text": "Studia la seguente funzione, facendo particolare attenzione allo studio del segno della derivata prima e seconda:\n\\begin{equation*}\n    f(x) = \\frac{x^3}{x- 4}\n\\end{equation*}",
     "solution": "\\textbf{Dominio:} $x\\neq4$. \\\\\n\\textbf{Asintoti:} verticale $x=4$. Dalla divisione $\\dfrac{x^3}{x-4}=x^2+4x+16+\\dfrac{64}{x-4}$ si vede che non c'è asintoto obliquo, ma un asintoto \\emph{parabolico} $y=x^2+4x+16$. \\\\\n\\textbf{Derivata prima:} $f'(x)=\\dfrac{2x^2(x-6)}{(x-4)^2}$. Essendo $x^2\\ge0$ e denominatore positivo, $f'>0$ per $x>6$ e $f'<0$ per $x<6$ (escluso $x=4$); minimo in $x=6$ con $f(6)=108$. In $x=0$ tangente orizzontale senza estremo. \\\\\n\\textbf{Derivata seconda:} $f''(x)=2+\\dfrac{128}{(x-4)^3}$, che si annulla in $x=0$: flesso in $(0,0)$. Concavità verso l'alto per $x<0$ e $x>4$, verso il basso per $0<x<4$.",
-    "id": 271
+    "id": 323
   },
   {
     "subject": "matematica",
@@ -4139,7 +4906,7 @@ const EXERCISES = [
     "subtitle": "Segno della derivata di $ke^{kx",
     "text": "Determina per quali valori di $k$ la derivata della funzione $f(x) = ke^{kx} - e^{-2kx}$ nel punto $x=0$ risulti positiva.",
     "solution": "$k^2+2k>0 \\Rightarrow k<-2 \\vee k>0$",
-    "id": 272
+    "id": 324
   },
   {
     "subject": "matematica",
@@ -4154,7 +4921,7 @@ const EXERCISES = [
     "subtitle": "Derivata di $k\\ln(x+2)+e^{-kx",
     "text": "Determina per quali valori di \\( k \\) la derivata di $f(x)$ nel punto \\( x = 1 \\) è maggiore o uguale a 1.\n\\[\nf(x) = k\\ln(x+2) + e^{-kx}\n\\]",
     "solution": "$f'(x)=\\dfrac{k}{x+2}-ke^{-kx}$. In $x=1$: $f'(1)=\\dfrac{k}{3}-ke^{-k}=k\\!\\left(\\dfrac13-e^{-k}\\right)$. La condizione $f'(1)\\ge1$ è trascendente; risolta numericamente dà $k\\lesssim-0{,}70$ oppure $k\\gtrsim3{,}45$.",
-    "id": 273
+    "id": 325
   },
   {
     "subject": "matematica",
@@ -4169,7 +4936,7 @@ const EXERCISES = [
     "subtitle": "Derivata di $\\sin(kx)+\\cos(2kx)$ positiva in $x=\\pi/6$",
     "text": "Per la funzione\n\\[\nf(x) = \\sin(kx) + \\cos(2kx),\n\\]\ncalcola la derivata e determina i valori di \\( k \\) tali che la derivata calcolata nel punto \\( x = \\dfrac{\\pi}{6} \\) sia positiva.",
     "solution": "$f'(x)=k\\cos(kx)-2k\\sin(2kx)=k\\big[\\cos(kx)-2\\sin(2kx)\\big]$. In $x=\\dfrac{\\pi}{6}$: $f'\\!\\left(\\dfrac{\\pi}{6}\\right)=k\\Big[\\cos\\dfrac{k\\pi}{6}-2\\sin\\dfrac{k\\pi}{3}\\Big]>0$. La parentesi dipende da $k$ in modo non elementare (funzione oscillante), quindi la disequazione si risolve graficamente: il segno di $f'$ è quello di $k$ moltiplicato per quello della parentesi.",
-    "id": 274
+    "id": 326
   },
   {
     "subject": "matematica",
@@ -4184,7 +4951,7 @@ const EXERCISES = [
     "subtitle": "Derivata di $kx/(x+1)-e^{-kx",
     "text": "Considera la funzione\n\\[\nf(x) = \\frac{kx}{x+1} - e^{-kx}.\n\\]\nCalcola la derivata e trova i valori di \\( k \\) per i quali la derivata nel punto \\( x = 2 \\) è negativa.",
     "solution": "$f'(x)=\\dfrac{k}{(x+1)^2}+ke^{-kx}=k\\!\\left[\\dfrac{1}{(x+1)^2}+e^{-kx}\\right]$. In $x=2$: $f'(2)=k\\!\\left(\\dfrac19+e^{-2k}\\right)$. La parentesi è sempre positiva, quindi $f'(2)<0\\iff k<0$.",
-    "id": 275
+    "id": 327
   },
   {
     "subject": "matematica",
@@ -4199,7 +4966,157 @@ const EXERCISES = [
     "subtitle": "Derivata di $kx^2+e^{kx",
     "text": "Per la funzione\n\\[\nf(x) = kx^2 + e^{kx} - \\ln(x+1),\n\\]\ncalcola la derivata e determina i valori di \\( k \\) tali che la derivata calcolata nel punto \\( x = 0 \\) sia maggiore o uguale a 2.",
     "solution": "$f'(0) = k + 1 \\ge 2 \\Rightarrow k \\ge 1$",
-    "id": 276
+    "id": 328
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Dominio",
+    "difficulty": 1,
+    "sourceId": "1.1",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Determinazione del dominio di una funzione",
+    "text": "Determina il dominio delle seguenti funzioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $f(x)=x+2$\r\n    \\item $f(x)=\\sqrt{x-3}$\r\n    \\item $f(x)=\\dfrac{1}{x-4}$\r\n    \\item $f(x)=\\sqrt{5-x}$\r\n    \\item $f(x)=\\dfrac{1}{2x+1}$\r\n    \\item $f(x)=\\sqrt{x+1}$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $D=\\mathbb{R}$\r\n    \\item $D=[3,+\\infty)$\r\n    \\item $D=\\mathbb{R}\\setminus\\{4\\}$\r\n    \\item $D=(-\\infty,5]$\r\n    \\item $D=\\mathbb{R}\\setminus\\{-\\tfrac12\\}$\r\n    \\item $D=[-1,+\\infty)$\r\n\\end{enumerate}",
+    "id": 329
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Dominio",
+    "difficulty": 2,
+    "sourceId": "1.2",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di funzioni razionali e irrazionali",
+    "text": "Determina il dominio delle seguenti funzioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $f(x)=\\dfrac{\\sqrt{2x-1}}{x-3}$\r\n    \\item $f(x)=\\dfrac{1}{\\sqrt{x+2}}$\r\n    \\item $f(x)=\\sqrt{\\dfrac{x-1}{x+2}}$\r\n    \\item $f(x)=\\sqrt{\\dfrac{3-x}{x+1}}$\r\n    \\item $f(x)=\\log_2(x+3)$\r\n    \\item $f(x)=\\ln\\left(\\dfrac{x-1}{x+1}\\right)$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $D=[\\tfrac12,+\\infty)\\setminus\\{3\\}$\r\n    \\item $D=(-2,+\\infty)$\r\n    \\item $D=(-\\infty,-2)\\cup[1,+\\infty)$\r\n    \\item $D=(-1,3]$\r\n    \\item $D=(-3,+\\infty)$\r\n    \\item $D=(-\\infty,-1)\\cup(1,+\\infty)$\r\n\\end{enumerate}",
+    "id": 330
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Dominio",
+    "difficulty": 2,
+    "sourceId": "1.3",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di funzioni con radicali e logaritmi",
+    "text": "Determina il dominio delle seguenti funzioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $f(x)=\\dfrac{\\sqrt{x^2-4}}{x-1}$\r\n    \\item $f(x)=\\dfrac{\\sqrt{\\dfrac{x-2}{x+1}}}{x-3}$\r\n    \\item $f(x)=\\ln(x^2-1)$\r\n    \\item $f(x)=\\sqrt{\\ln(x-1)}$\r\n    \\item $f(x)=\\dfrac{1}{\\ln(x-2)}$\r\n    \\item $f(x)=\\sqrt{\\dfrac{1}{x-2}}$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $D=(-\\infty,-2]\\cup[2,+\\infty)$\r\n    \\item $D=(-\\infty,-1)\\cup[2,3)\\cup(3,+\\infty)$\r\n    \\item $D=(-\\infty,-1)\\cup(1,+\\infty)$\r\n    \\item $D=[2,+\\infty)$\r\n    \\item $D=(2,3)\\cup(3,+\\infty)$\r\n    \\item $D=(2,+\\infty)$\r\n\\end{enumerate}",
+    "id": 331
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Dominio",
+    "difficulty": 3,
+    "sourceId": "1.4",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di funzioni con condizioni multiple",
+    "text": "Determina il dominio delle seguenti funzioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $f(x)=\\sqrt{\\dfrac{x-1}{x-2}}$\r\n    \\item $f(x)=\\ln\\left(\\dfrac{x+1}{x-2}\\right)$\r\n    \\item $f(x)=\\sqrt{\\ln\\left(\\dfrac{x+1}{x-2}\\right)}$\r\n    \\item $f(x)=\\ln\\left(\\sqrt{x^2-5x+6}\\right)$\r\n    \\item $f(x)=\\sqrt{\\ln(x^2-4x+3)}$\r\n    \\item $f(x)=\\dfrac{1}{\\sqrt{\\ln(x-1)}}$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $D=(-\\infty,1]\\cup(2,+\\infty)$\r\n    \\item $D=(-\\infty,-1)\\cup(2,+\\infty)$\r\n    \\item $D=(2,+\\infty)$\r\n    \\item $D=(-\\infty,2)\\cup(3,+\\infty)$\r\n    \\item $D=(-\\infty,2-\\sqrt2]\\cup[2+\\sqrt2,+\\infty)$\r\n    \\item $D=(2,+\\infty)$\r\n\\end{enumerate}",
+    "id": 332
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Dominio",
+    "difficulty": 3,
+    "sourceId": "1.5",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di funzioni complesse",
+    "text": "Determina il dominio delle seguenti funzioni:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $f(x)=\\sqrt{\\dfrac{x^2-9}{x^2-4}}$\r\n    \\item $f(x)=\\ln\\left(\\dfrac{x^2-1}{x-2}\\right)$\r\n    \\item $f(x)=\\sqrt{\\dfrac{x-1}{\\ln(x-2)}}$\r\n    \\item $f(x)=\\ln\\left(\\sqrt{\\dfrac{x-1}{x+1}}\\right)$\r\n    \\item $f(x)=\\sqrt{\\ln\\left(\\dfrac{x^2-1}{x^2-4}\\right)}$\r\n    \\item $f(x)=\\dfrac{1}{\\ln\\left(\\sqrt{x^2-1}\\right)}$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $D=(-\\infty,-3]\\cup(-2,2)\\cup[3,+\\infty)$\r\n    \\item $D=(-1,1)\\cup(2,+\\infty)$\r\n    \\item $D=(3,+\\infty)$\r\n    \\item $D=(-\\infty,-1)\\cup(1,+\\infty)$\r\n    \\item $D=(-\\infty,-2)\\cup(2,+\\infty)$\r\n    \\item $D=(-\\infty,-\\sqrt2)\\cup(-\\sqrt2,-1)\\cup(1,\\sqrt2)\\cup(\\sqrt2,+\\infty)$\r\n\\end{enumerate}",
+    "id": 333
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Funzioni Composte",
+    "difficulty": 1,
+    "sourceId": "1.1",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Composizione di funzioni",
+    "text": "Date le funzioni $f(x)=2x-1$ e $g(x)=x+3$, calcola:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $(f\\circ g)(2)$\r\n    \\item $(g\\circ f)(2)$\r\n    \\item $(f\\circ g)(x)$\r\n    \\item $(g\\circ f)(x)$\r\n    \\item $(f\\circ g)(-1)$\r\n    \\item Determina $x$ tale che $(f\\circ g)(x)=7$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $9$\r\n    \\item $6$\r\n    \\item $(f\\circ g)(x)=2x+5$\r\n    \\item $(g\\circ f)(x)=2x+2$\r\n    \\item $3$\r\n    \\item $x=1$\r\n\\end{enumerate}",
+    "id": 334
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Funzioni Composte",
+    "difficulty": 1,
+    "sourceId": "1.2",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Composizione di funzioni polinomiali",
+    "text": "Date le funzioni $f(x)=x^2+1$ e $g(x)=2x-3$, calcola:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $(f\\circ g)(x)$\r\n    \\item $(g\\circ f)(x)$\r\n    \\item $(f\\circ g)(2)$\r\n    \\item $(g\\circ f)(-2)$\r\n    \\item Determina $x$ tale che $(f\\circ g)(x)=10$\r\n    \\item Determina $x$ tale che $(g\\circ f)(x)=17$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(f\\circ g)(x)=4x^2-12x+10$\r\n    \\item $(g\\circ f)(x)=2x^2-1$\r\n    \\item $(f\\circ g)(2)=2$\r\n    \\item $(g\\circ f)(-2)=7$\r\n    \\item $x=0\\vee x=3$\r\n    \\item $x=\\pm3$\r\n\\end{enumerate}",
+    "id": 335
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Funzioni Composte",
+    "difficulty": 2,
+    "sourceId": "1.3",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Composizione di funzioni con frazioni",
+    "text": "Date le funzioni $f(x)=\\dfrac{x+1}{2}$ e $g(x)=x^2-1$, calcola:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $(f\\circ g)(x)$\r\n    \\item $(g\\circ f)(x)$\r\n    \\item $(f\\circ g)(3)$\r\n    \\item $(g\\circ f)(1)$\r\n    \\item Determina $x$ tale che $(f\\circ g)(x)=8$\r\n    \\item Determina $x$ tale che $(g\\circ f)(x)=6$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(f\\circ g)(x)=\\dfrac{x^2}{2}$\r\n    \\item $(g\\circ f)(x)=\\dfrac{x^2+2x-3}{4}$\r\n    \\item $(f\\circ g)(3)=\\dfrac{9}{2}$\r\n    \\item $(g\\circ f)(1)=0$\r\n    \\item $x=\\pm4$\r\n    \\item $x=-1\\pm\\sqrt{27}$\r\n\\end{enumerate}",
+    "id": 336
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Funzioni Composte",
+    "difficulty": 2,
+    "sourceId": "1.4",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Composizione di funzioni con radicali",
+    "text": "Date le funzioni $f(x)=\\sqrt{2x+1}$ e $g(x)=x^2+1$, calcola:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $(f\\circ g)(x)$\r\n    \\item $(g\\circ f)(x)$\r\n    \\item $(f\\circ g)(2)$\r\n    \\item $(g\\circ f)(4)$\r\n    \\item Determina $x$ tale che $(g\\circ f)(x)=8$\r\n    \\item Determina $x$ tale che $(f\\circ g)(x)=\\sqrt{11}$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(f\\circ g)(x)=\\sqrt{2x^2+3}$\r\n    \\item $(g\\circ f)(x)=2x+2$\r\n    \\item $(f\\circ g)(2)=\\sqrt{11}$\r\n    \\item $(g\\circ f)(4)=10$\r\n    \\item $x=3$\r\n    \\item $x=\\pm2$\r\n\\end{enumerate}",
+    "id": 337
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Funzioni Composte",
+    "difficulty": 3,
+    "sourceId": "1.5",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Composizione di tre funzioni",
+    "text": "Date le funzioni $f(x)=2x-1$, $g(x)=x^2+1$ e $h(x)=3x-2$, calcola:\r\n\\begin{multicols}{2}\r\n\\begin{enumerate}[leftmargin=3.2cm]\r\n    \\item $(f\\circ g\\circ h)(x)$\r\n    \\item $(g\\circ f\\circ h)(x)$\r\n    \\item $(h\\circ g\\circ f)(x)$\r\n    \\item $(f\\circ g)(h(1))$\r\n    \\item $(g\\circ h)(1)$\r\n    \\item Determina $x$ tale che $(f\\circ g\\circ h)(x)=9$\r\n\\end{enumerate}\r\n\\end{multicols}",
+    "solution": "\\begin{enumerate}\r\n    \\item $(f\\circ g\\circ h)(x)=18x^2-24x+9$\r\n    \\item $(g\\circ f\\circ h)(x)=36x^2-60x+26$\r\n    \\item $(h\\circ g\\circ f)(x)=12x^2-12x+4$\r\n    \\item $(f\\circ g)(h(1))=19$\r\n    \\item $(g\\circ h)(1)=2$\r\n    \\item $x=0\\vee x=\\tfrac43$\r\n\\end{enumerate}",
+    "id": 338
   },
   {
     "subject": "matematica",
@@ -4214,7 +5131,7 @@ const EXERCISES = [
     "subtitle": "Integrali indefiniti — serie 1",
     "text": "Risolvi i seguenti integrali indefiniti\n\n\\begin{center}\\begin{minipage}{0.7\\linewidth}\n\\begin{enumerate}\n\\item $\\int (3x^2 - 5x + 2) \\ dx$\n\\item $\\int_{0}^{1} \\frac{1}{2x+1} \\ dx$\n\\item $\\int \\frac{\\ln^3 x}{x} \\ dx$\n\\item $\\int \\sqrt{9 - x^2} \\ dx$\n\\item $\\int x \\cdot \\sin(x) \\ dx$\n\\item $\\int \\tan(x) \\ dx$\n\\item $\\int \\frac{2x + 3}{x^2 + 4x - 5} \\ dx$\n\\item $\\int \\frac{1}{x^2 + 4x + 7} \\ dx$\n\\end{enumerate}\n\\end{minipage}\\end{center}",
     "solution": "\\begin{align*}\n\\begin{split}\na)& \\quad x^3 - \\frac{5}{2}x^2 + 2x + C \\\\[6pt]\nb)& \\quad \\frac{1}{2} \\ln|2x+1| \\Big|_0^1 = \\frac{\\ln 3}{2} \\\\[6pt]\nc)& \\quad \\frac{1}{4} \\ln^4 x + C \\\\[6pt]\nd)& \\quad \\frac{x}{2} \\sqrt{9 - x^2} + \\frac{9}{2} \\arcsin\\left( \\frac{x}{3} \\right) + C \\\\\n\\end{split}\n\\quad\\quad\n\\begin{split}\ne)& \\quad -x\\cos x + \\sin x + C \\\\[6pt]\nf)& \\quad -\\ln|\\cos x| + C \\\\[6pt]\ng)& \\quad \\frac{1}{2} \\ln|x-1| + \\frac{3}{2} \\ln|x+5| + C \\\\[6pt]\nh)& \\quad \\frac{1}{\\sqrt{3}} \\arctan\\left( \\frac{x+2}{\\sqrt{3}} \\right) + C\n\\end{split}\n\\end{align*}",
-    "id": 277
+    "id": 339
   },
   {
     "subject": "matematica",
@@ -4229,7 +5146,7 @@ const EXERCISES = [
     "subtitle": "Integrali indefiniti — serie 2",
     "text": "Risolvi i seguenti integrali indefiniti\n\n\\begin{center}\\begin{minipage}{0.7\\linewidth}\n\\begin{enumerate}\n\\item $\\int (2x^3 - x^2 + 4x -1) \\ dx$\n\\item $\\int \\frac{2x+1}{x^2+x} \\ dx$\n\\item $\\int \\frac{1}{x \\cdot \\ln x} \\ dx$\n\\item $\\int \\sqrt{16- x^2} \\ dx$\n\\item $\\int x \\cdot e^{x} \\ dx$\n\\item $\\int \\frac{dx}{\\cos^2(3x)}$\n\\item $\\int \\frac{1}{x^2 + 2x + 10} \\ dx$\n\\item $\\int \\frac{2x+1}{x^2-9} \\ dx$\n\\end{enumerate}\n\\end{minipage}\\end{center}",
     "solution": "\\begin{align*}\n\\begin{split}\na)& \\quad \\frac{1}{2}x^4 - \\frac{1}{3}x^3 + 2x^2 - x + C \\\\\nb)& \\quad \\ln|x(x+1)| + C \\\\\nc)& \\quad \\ln|\\ln x| + C \\\\\nd)& \\quad \\frac{x}{2} \\sqrt{16 - x^2} + 8 \\arcsin\\left(\\frac{x}{4}\\right) + C\n\\end{split}\n\\quad\\quad\n\\begin{split}\ne)& \\quad e^x(x - 1) + C \\\\\nf)& \\quad \\frac{1}{3} \\tan(3x) + C \\\\\ng)& \\quad \\frac{1}{3} \\arctan\\left(\\frac{x+1}{3}\\right) + C \\\\\nh)& \\quad \\ln|x^2 - 9| + \\frac{1}{6} \\ln\\left|\\frac{x - 3}{x + 3}\\right| + C\n\\end{split}\n\\end{align*}",
-    "id": 278
+    "id": 340
   },
   {
     "subject": "matematica",
@@ -4244,7 +5161,7 @@ const EXERCISES = [
     "subtitle": "Primitiva di $f(x)=\\ln x^2$ passante per $(1,1)$",
     "text": "Tra le primitive della funzione $f(x) = \\ln x^2$ determina quella il cui grafico passa per il punto $(1,1)$.",
     "solution": "\\[ F(x) = 2x \\ln |x| - 2x + 3 \\]",
-    "id": 279
+    "id": 341
   },
   {
     "subject": "matematica",
@@ -4259,7 +5176,7 @@ const EXERCISES = [
     "subtitle": "Primitiva di $f(x)=\\ln(x)/x$ passante per $(1,0)$",
     "text": "Tra le primitive della funzione $f(x) = \\dfrac{\\ln x}{x}$ determina quella il cui grafico passa per il punto $(1,0)$.",
     "solution": "\\[ F(x) = \\frac{1}{2} (\\ln x)^2 - \\frac{1}{2} \\]",
-    "id": 280
+    "id": 342
   },
   {
     "subject": "matematica",
@@ -4274,7 +5191,7 @@ const EXERCISES = [
     "subtitle": "Primitiva di $f(x)=xe^{x^2",
     "text": "Tra le primitive della funzione $f(x) = x \\cdot e^{x^2}$ determina quella il cui grafico passa per il punto $(0,0)$.",
     "solution": "\\[ F(x) = \\frac{1}{2} e^{x^2} - \\frac{1}{2} \\]",
-    "id": 281
+    "id": 343
   },
   {
     "subject": "matematica",
@@ -4289,7 +5206,7 @@ const EXERCISES = [
     "subtitle": "Primitiva di $f(x)=1/(x^2+1)$ passante per $(1,0)$",
     "text": "Tra le primitive della funzione $f(x) = \\dfrac{1}{x^2 + 1}$ determina quella il cui grafico passa per il punto $(1,0)$.",
     "solution": "\\[ F(x) = \\arctan(x) - \\frac{\\pi}{4} \\]",
-    "id": 282
+    "id": 344
   },
   {
     "subject": "matematica",
@@ -4304,7 +5221,7 @@ const EXERCISES = [
     "subtitle": "Valor medio di $\\ln x$ su $[1,2]$",
     "text": "Trova il valor medio $M$ della funzione $f(x) = \\ln x$ su $[1, 2]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.",
     "solution": "\\[ M = \\ln 4 - 1, \\quad c = e^{\\ln 4 - 1} = \\frac{4}{e} \\]",
-    "id": 283
+    "id": 345
   },
   {
     "subject": "matematica",
@@ -4319,7 +5236,7 @@ const EXERCISES = [
     "subtitle": "Valor medio di $\\sqrt{x",
     "text": "Trova il valor medio $M$ della funzione $f(x) = \\sqrt{x}$ su $[1, 4]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.",
     "solution": "\\[ M = \\frac{14}{9}, \\quad c = \\frac{196}{81} \\]",
-    "id": 284
+    "id": 346
   },
   {
     "subject": "matematica",
@@ -4334,7 +5251,7 @@ const EXERCISES = [
     "subtitle": "Valor medio di $x^2+1$ su $[0,2]$",
     "text": "Trova il valor medio $M$ della funzione $f(x) = x^2 + 1$ su $[0, 2]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.",
     "solution": "\\[ M = \\frac{7}{3}, \\quad c = \\sqrt{\\frac{4}{3}} = \\frac{2}{\\sqrt{3}} \\]",
-    "id": 285
+    "id": 347
   },
   {
     "subject": "matematica",
@@ -4349,7 +5266,7 @@ const EXERCISES = [
     "subtitle": "Valor medio di $\\cos x$ su $[0,\\pi/2]$",
     "text": "Trova il valor medio $M$ della funzione $f(x) = \\cos x$ su $[0, \\dfrac{\\pi}{2}]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.",
     "solution": "\\[ M = \\frac{2}{\\pi}, \\quad c = \\arccos\\!\\left(\\frac{2}{\\pi}\\right) \\]",
-    "id": 286
+    "id": 348
   },
   {
     "subject": "matematica",
@@ -4364,7 +5281,7 @@ const EXERCISES = [
     "subtitle": "Valor medio di $1/(x+1)$ su $[1,3]$",
     "text": "Trova il valor medio $M$ della funzione $f(x) = \\dfrac{1}{x + 1}$ su $[1, 3]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.",
     "solution": "\\[ M = \\frac{\\ln 2}{2}, \\quad c = \\frac{2}{\\ln 2} - 1 \\]",
-    "id": 287
+    "id": 349
   },
   {
     "subject": "matematica",
@@ -4380,7 +5297,7 @@ const EXERCISES = [
     "subtitle": "Area della versiera di Agnesi nel primo quadrante",
     "text": "La \\textit{versiera di Agnesi} è una curva a cui Gaetana Agnesi ha legato il suo nome nel 1748, una curva che peraltro non fu scoperta da lei, ma da Guido Grandi. Analiticamente è il luogo dei punti di intersezione tra due rette che si muovono in relazione a una circonferenza. La funzione è esprimibile come:\n\\begin{equation*}\n    f(x) = \\frac{8a^3}{4a^2 + x^2}\n\\end{equation*}\n\\begin{enumerate}\n    \\item Determina l'area delimitata dalla curva nel primo quadrante, l'asse $x$ e la retta verticale di equazione $x=2$.\n    \\item Calcolane il valore con $a=1$\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n    \\item $A = \\int_0^2 \\frac{8a^3}{4a^2 + x^2} \\, dx = 4a^2 \\arctan\\!\\left(\\frac{1}{a}\\right)$\n    \\item Per $a = 1$: $A = 4 \\arctan(1) = \\pi$\n\\end{enumerate}",
-    "id": 288
+    "id": 350
   },
   {
     "subject": "matematica",
@@ -4396,7 +5313,7 @@ const EXERCISES = [
     "subtitle": "Area tra la parabola $y=-x^2+2x$ e la retta $y=-x$",
     "text": "\\begin{minipage}[t]{0.65\\textwidth}\nCalcolare l'area compresa tra la parabola $y = -x^2 + 2x$ \\\\ e la retta $y = -x$\n\\end{minipage}\n\\begin{minipage}[t]{0.35\\textwidth}\n\\centering \\vspace{-3\\baselineskip}\n\\includegraphics[width=\\textwidth]{images/area_tra_curve.png}\n\\end{minipage}",
     "solution": "Intersezioni: $-x^2+2x=-x \\Rightarrow x(x-3)=0 \\Rightarrow x=0,3$.\n\\[\nA = \\int_0^3 [(-x^2 + 2x) - (-x)] \\, dx = \\int_0^3 (-x^2 + 3x) \\, dx = \\frac{9}{2}\n\\]",
-    "id": 289
+    "id": 351
   },
   {
     "subject": "matematica",
@@ -4412,7 +5329,307 @@ const EXERCISES = [
     "subtitle": "Volume della tromba di Torricelli su $[1,2]$",
     "text": "La tromba di Torricelli è un solido ottenuto dalla rivoluzione intorno all'asse $x$ della curva di equazione $y=\\dfrac{1}{x}$. Determina il volume del solido di rotazione limitandoti all'intervallo $x \\in [1, 2]$",
     "solution": "\\[\nV = \\pi \\int_1^2 \\frac{1}{x^2} dx = \\pi \\left[ -\\frac{1}{x} \\right]_1^2 = \\frac{\\pi}{2}\n\\]",
-    "id": 290
+    "id": 352
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.1",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di una funzione",
+    "text": "Qual è il dominio della funzione $f(x)=\\frac{1}{x-3}$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $\\mathbb{R}$ &  \r\n\\boxed{B}\\hspace{6pt} $\\mathbb{R}\\setminus\\{3\\}$ &  \r\n\\boxed{C}\\hspace{6pt} $[3,+\\infty)$ &  \r\n\\boxed{D}\\hspace{6pt} $\\mathbb{R}\\setminus\\{0\\}$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché il denominatore deve essere diverso da zero: $x\\neq3$.\r\n\\end{enumerate}",
+    "id": 353
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.2",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di una funzione irrazionale",
+    "text": "Qual è il dominio della funzione $f(x)=\\sqrt{x+2}$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $x>-2$ &  \r\n\\boxed{B}\\hspace{6pt} $x\\geq-2$ &  \r\n\\boxed{C}\\hspace{6pt} $x\\leq-2$ &  \r\n\\boxed{D}\\hspace{6pt} $\\mathbb{R}$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché il radicando deve essere maggiore o uguale a zero: $x+2\\geq0$.\r\n\\end{enumerate}",
+    "id": 354
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "1.3",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di una funzione razionale e irrazionale",
+    "text": "Determina il dominio della funzione $f(x)=\\frac{\\sqrt{x-1}}{x-2}$.\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $[1,+\\infty)$ &  \r\n\\boxed{B}\\hspace{6pt} $[1,+\\infty)\\setminus\\{2\\}$ &  \r\n\\boxed{C}\\hspace{6pt} $(-\\infty,1]\\setminus\\{2\\}$ &  \r\n\\boxed{D}\\hspace{6pt} $\\mathbb{R}\\setminus\\{2\\}$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $x\\geq1$ per la radice e $x\\neq2$ per il denominatore.\r\n\\end{enumerate}",
+    "id": 355
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "1.4",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di una funzione con radice e frazione",
+    "text": "Qual è il dominio della funzione $f(x)=\\sqrt{\\frac{x-1}{x+2}}$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $(-\\infty,-2)\\cup[1,+\\infty)$ &  \r\n\\boxed{B}\\hspace{6pt} $[-2,1]$ &  \r\n\\boxed{C}\\hspace{6pt} $(-2,1]$ &  \r\n\\boxed{D}\\hspace{6pt} $(-\\infty,-2]\\cup[1,+\\infty)$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $A)$, perché deve essere $\\frac{x-1}{x+2}\\geq0$ e $x\\neq-2$.\r\n\\end{enumerate}",
+    "id": 356
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "1.5",
+    "tags": [
+      "funzioni",
+      "dominio"
+    ],
+    "subtitle": "Dominio di una funzione logaritmica",
+    "text": "Qual è il dominio della funzione $f(x)=\\ln\\left(\\frac{x-1}{x+1}\\right)$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $(-\\infty,-1)\\cup(1,+\\infty)$ &  \r\n\\boxed{B}\\hspace{6pt} $(-1,1)$ &  \r\n\\boxed{C}\\hspace{6pt} $\\mathbb{R}\\setminus\\{-1,1\\}$ &  \r\n\\boxed{D}\\hspace{6pt} $(-\\infty,1)\\cup(1,+\\infty)$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $A)$, perché l'argomento del logaritmo deve essere strettamente positivo: $\\frac{x-1}{x+1}>0$.\r\n\\end{enumerate}",
+    "id": 357
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "2.1",
+    "tags": [
+      "funzioni",
+      "segno"
+    ],
+    "subtitle": "Segno di una funzione lineare",
+    "text": "Per quali valori di $x$ la funzione $f(x)=x-4$ è positiva?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $x<4$ &  \r\n\\boxed{B}\\hspace{6pt} $x\\leq4$ &  \r\n\\boxed{C}\\hspace{6pt} $x>4$ &  \r\n\\boxed{D}\\hspace{6pt} $x\\geq4$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $C)$, perché $x-4>0$ per $x>4$.\r\n\\end{enumerate}",
+    "id": 358
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "2.2",
+    "tags": [
+      "funzioni",
+      "segno"
+    ],
+    "subtitle": "Segno di una funzione quadratica",
+    "text": "Per quali valori di $x$ la funzione $f(x)=x^2-9$ è negativa?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $x<-3\\vee x>3$ &  \r\n\\boxed{B}\\hspace{6pt} $-3<x<3$ &  \r\n\\boxed{C}\\hspace{6pt} $x\\leq-3\\vee x\\geq3$ &  \r\n\\boxed{D}\\hspace{6pt} $-3\\leq x\\leq3$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $(x-3)(x+3)<0$ nell'intervallo compreso tra gli zeri.\r\n\\end{enumerate}",
+    "id": 359
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "2.3",
+    "tags": [
+      "funzioni",
+      "segno"
+    ],
+    "subtitle": "Segno di una funzione razionale",
+    "text": "Per quali valori di $x$ la funzione $f(x)=\\frac{x+1}{x-2}$ è positiva?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $x<-1\\vee x>2$ &  \r\n\\boxed{B}\\hspace{6pt} $-1<x<2$ &  \r\n\\boxed{C}\\hspace{6pt} $x<-2\\vee x>1$ &  \r\n\\boxed{D}\\hspace{6pt} $x>-1$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $A)$, perché numeratore e denominatore hanno lo stesso segno per $x<-1$ oppure $x>2$.\r\n\\end{enumerate}",
+    "id": 360
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "2.4",
+    "tags": [
+      "funzioni",
+      "segno"
+    ],
+    "subtitle": "Segno di una funzione polinomiale",
+    "text": "Qual è l'insieme dei valori di $x$ per cui la funzione $f(x)=(x-1)(x+2)$ è positiva?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $-2<x<1$ &  \r\n\\boxed{B}\\hspace{6pt} $x<-2\\vee x>1$ &  \r\n\\boxed{C}\\hspace{6pt} $x\\leq-2\\vee x\\geq1$ &  \r\n\\boxed{D}\\hspace{6pt} $x>1$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché il prodotto è positivo all'esterno degli zeri $-2$ e $1$.\r\n\\end{enumerate}",
+    "id": 361
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "2.5",
+    "tags": [
+      "funzioni",
+      "segno"
+    ],
+    "subtitle": "Studio del segno di una funzione razionale",
+    "text": "Per quali valori di $x$ la funzione $f(x)=\\frac{x^2-4}{x-1}$ è negativa?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $x<-2\\vee1<x<2$ &  \r\n\\boxed{B}\\hspace{6pt} $x<-2\\vee x>2$ &  \r\n\\boxed{C}\\hspace{6pt} $-2<x<1$ &  \r\n\\boxed{D}\\hspace{6pt} $-2<x<1\\vee x>2$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $A)$, perché $\\frac{(x-2)(x+2)}{x-1}<0$ negli intervalli $(-\\infty,-2)$ e $(1,2)$.\r\n\\end{enumerate}",
+    "id": 362
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "3.1",
+    "tags": [
+      "funzioni",
+      "parità"
+    ],
+    "subtitle": "Funzione pari",
+    "text": "Quale delle seguenti funzioni è pari?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $f(x)=x^3+x$ &  \r\n\\boxed{B}\\hspace{6pt} $f(x)=x^2+1$ &  \r\n\\boxed{C}\\hspace{6pt} $f(x)=2x-1$ &  \r\n\\boxed{D}\\hspace{6pt} $f(x)=x^3-2$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $f(-x)=(-x)^2+1=x^2+1=f(x)$.\r\n\\end{enumerate}",
+    "id": 363
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "3.2",
+    "tags": [
+      "funzioni",
+      "parità"
+    ],
+    "subtitle": "Funzione dispari",
+    "text": "Quale delle seguenti funzioni è dispari?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $f(x)=x^2+1$ &  \r\n\\boxed{B}\\hspace{6pt} $f(x)=x^3-2x$ &  \r\n\\boxed{C}\\hspace{6pt} $f(x)=x^2-3$ &  \r\n\\boxed{D}\\hspace{6pt} $f(x)=x+1$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $f(-x)=-x^3+2x=-f(x)$.\r\n\\end{enumerate}",
+    "id": 364
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "3.3",
+    "tags": [
+      "funzioni",
+      "parità"
+    ],
+    "subtitle": "Pari, dispari o nessuna delle due",
+    "text": "La funzione $f(x)=x^3+x^2$ è:\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} pari &  \r\n\\boxed{B}\\hspace{6pt} dispari &  \r\n\\boxed{C}\\hspace{6pt} né pari né dispari &  \r\n\\boxed{D}\\hspace{6pt} costante  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $C)$, perché $f(-x)=-x^3+x^2$ non coincide né con $f(x)$ né con $-f(x)$.\r\n\\end{enumerate}",
+    "id": 365
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "3.4",
+    "tags": [
+      "funzioni",
+      "parità"
+    ],
+    "subtitle": "Parità di una funzione razionale",
+    "text": "La funzione $f(x)=\\frac{1}{x}$ è:\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} pari &  \r\n\\boxed{B}\\hspace{6pt} dispari &  \r\n\\boxed{C}\\hspace{6pt} né pari né dispari &  \r\n\\boxed{D}\\hspace{6pt} non è una funzione  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $f(-x)=-\\frac{1}{x}=-f(x)$.\r\n\\end{enumerate}",
+    "id": 366
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "3.5",
+    "tags": [
+      "funzioni",
+      "parità"
+    ],
+    "subtitle": "Parità di una funzione razionale",
+    "text": "Quale delle seguenti funzioni è pari?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $f(x)=\\frac{x+1}{x^2+1}$ &  \r\n\\boxed{B}\\hspace{6pt} $f(x)=\\frac{x^2+1}{x^2-4}$ &  \r\n\\boxed{C}\\hspace{6pt} $f(x)=\\frac{x}{x^2-1}$ &  \r\n\\boxed{D}\\hspace{6pt} $f(x)=\\frac{x^3+1}{x^2+1}$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $f(-x)=\\frac{x^2+1}{x^2-4}=f(x)$.\r\n\\end{enumerate}",
+    "id": 367
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "4.1",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Calcolo di una funzione composta",
+    "text": "Siano $f(x)=2x+1$ e $g(x)=x^2$. Quanto vale $(f\\circ g)(3)$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $7$ &  \r\n\\boxed{B}\\hspace{6pt} $9$ &  \r\n\\boxed{C}\\hspace{6pt} $19$ &  \r\n\\boxed{D}\\hspace{6pt} $21$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $C)$, perché $(f\\circ g)(3)=f(g(3))=f(9)=19$.\r\n\\end{enumerate}",
+    "id": 368
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "4.2",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Espressione di una funzione composta",
+    "text": "Siano $f(x)=x+2$ e $g(x)=3x-1$. Qual è l'espressione di $(g\\circ f)(x)$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $3x+1$ &  \r\n\\boxed{B}\\hspace{6pt} $3x+5$ &  \r\n\\boxed{C}\\hspace{6pt} $x+5$ &  \r\n\\boxed{D}\\hspace{6pt} $3x-3$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $(g\\circ f)(x)=g(x+2)=3(x+2)-1=3x+5$.\r\n\\end{enumerate}",
+    "id": 369
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "4.3",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Composizione di funzioni algebriche",
+    "text": "Siano $f(x)=x^2$ e $g(x)=x-1$. Qual è l'espressione di $(f\\circ g)(x)$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $x^2-1$ &  \r\n\\boxed{B}\\hspace{6pt} $(x-1)^2$ &  \r\n\\boxed{C}\\hspace{6pt} $x^2+1$ &  \r\n\\boxed{D}\\hspace{6pt} $(x+1)^2$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $(f\\circ g)(x)=f(x-1)=(x-1)^2$.\r\n\\end{enumerate}",
+    "id": 370
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "4.4",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Calcolo di una funzione composta con radicale",
+    "text": "Siano $f(x)=\\sqrt{x}$ e $g(x)=x+1$. Quanto vale $(f\\circ g)(8)$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $2$ &  \r\n\\boxed{B}\\hspace{6pt} $3$ &  \r\n\\boxed{C}\\hspace{6pt} $8$ &  \r\n\\boxed{D}\\hspace{6pt} $9$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $(f\\circ g)(8)=f(9)=\\sqrt{9}=3$.\r\n\\end{enumerate}",
+    "id": 371
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Introduzione Allo Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "4.5",
+    "tags": [
+      "funzioni",
+      "composizione"
+    ],
+    "subtitle": "Composizione di tre funzioni",
+    "text": "Siano $f(x)=2x$, $g(x)=x+1$ e $h(x)=x^2$. Qual è l'espressione di $(f\\circ g\\circ h)(x)$?\r\n\r\n\\begin{tabularx}{\\linewidth}{@{}X X X X@{}}  \r\n\\boxed{A}\\hspace{6pt} $2x^2+1$ &  \r\n\\boxed{B}\\hspace{6pt} $2x^2+2$ &  \r\n\\boxed{C}\\hspace{6pt} $(2x+1)^2$ &  \r\n\\boxed{D}\\hspace{6pt} $2(x+1)^2$  \r\n\\end{tabularx}",
+    "solution": "\\begin{enumerate}\r\n    \\item La risposta corretta è $B)$, perché $(f\\circ g\\circ h)(x)=f(g(h(x)))=f(x^2+1)=2x^2+2$.\r\n\\end{enumerate}",
+    "id": 372
   },
   {
     "subject": "matematica",
@@ -4428,7 +5645,7 @@ const EXERCISES = [
     "subtitle": "Thermos cilindrico di minima superficie a volume fissato",
     "text": "Un'azienda produce thermos con capacità di 1 L, a forma di cilindro circolare retto. Il settore Ricerca e sviluppo dell'azienda vuole determinare il raggio di base $r$ e l'altezza $h$ del thermos che permettano di minimizzare il calore disperso all'esterno, che è proporzionale alla superficie del contenitore.",
     "solution": "$S(r)=2\\pi r^2+2/r$; $S'=0 \\Rightarrow r=\\bigl(\\tfrac{1}{2\\pi}\\bigr)^{1/3}$, $h=2r$ (altezza doppia del raggio).",
-    "id": 291
+    "id": 373
   },
   {
     "subject": "matematica",
@@ -4443,7 +5660,7 @@ const EXERCISES = [
     "subtitle": "Massimizzare il guadagno nella produzione di piumini",
     "text": "In economia si definisce domanda di un bene economico la quantità di bene $x$ richiesta a un dato prezzo $p$.\nUn'impresa produce piumini per letti matrimoniali e sostiene per la produzione una spesa fissa mensile di 1600 euro e un costo per i materiali e la manodopera di 80 euro per ogni pezzo. La domanda di piumini è espressa dalla funzione $x = 120 - 0{,}4 \\cdot p$, con $p \\le 300$ euro. Esprimi le funzioni del costo mensile totale $C(x)$ e del ricavo $R(x) = x \\cdot p(x)$, e determina per quale quantità il guadagno mensile $G(x) = R(x) - C(x)$ è massimo.",
     "solution": "$C(x)=1600+80x$; $p(x)=300-2{,}5x$; $R(x)=300x-2{,}5x^2$. $G(x)=-2{,}5x^2+220x-1600$; max in $x=44$.",
-    "id": 292
+    "id": 374
   },
   {
     "subject": "matematica",
@@ -4458,7 +5675,7 @@ const EXERCISES = [
     "subtitle": "Recinto rettangolare di massima area con un lato al muro",
     "text": "Monica vuole realizzare sul retro della sua casa un recinto per i suoi cani, di forma rettangolare e che abbia un lato appoggiato al muro di casa. Ha a disposizione 15 m di rete. Individua qual è il recinto che consente ai cani di Monica di avere più spazio a disposizione.",
     "solution": "Tre lati: $x+L+x=15 \\Rightarrow L=15-2x$. $A(x)=x(15-2x)$; max in $x=\\tfrac{15}{4}$ m, $L=\\tfrac{15}{2}$ m. $A_{\\max}=\\tfrac{225}{8}$ m$^2$.",
-    "id": 293
+    "id": 375
   },
   {
     "subject": "matematica",
@@ -4474,7 +5691,7 @@ const EXERCISES = [
     "subtitle": "Cilindro di massimo volume con superficie totale fissa",
     "text": "Un cilindro di raggio \\(r\\) ha superficie totale \\(S\\) costante. Quale cilindro ha volume massimo?",
     "solution": "$S=2\\pi r^2+2\\pi rh$; $V(r)=(Sr-2\\pi r^3)/2$; $V'=0 \\Rightarrow r=\\sqrt{S/(6\\pi)}$, $h=2r$.",
-    "id": 294
+    "id": 376
   },
   {
     "subject": "matematica",
@@ -4490,7 +5707,7 @@ const EXERCISES = [
     "subtitle": "Parallelepipedo di massimo volume con superficie totale fissa",
     "text": "Tra tutti i parallelepipedi rettangoli di altezza \\(h\\) e di superficie totale costante \\(S\\), qual è quello di volume massimo?",
     "solution": "Sia la base $a\\times b$. Superficie: $S=2ab+2h(a+b)$, volume $V=abh$ (con $h$ fissato). Massimizzando $ab$ con il vincolo $ab+h(a+b)=\\tfrac{S}{2}$ si trova, per simmetria, $a=b$. Allora $a^2+2ha-\\tfrac{S}{2}=0$, da cui\n\\[\na=b=\\sqrt{h^2+\\tfrac{S}{2}}-h.\n\\]\nIl parallelepipedo di volume massimo ha quindi \\textbf{base quadrata} di lato $a=\\sqrt{h^2+\\tfrac S2}-h$ e volume $V_{\\max}=h\\,a^2$.",
-    "id": 295
+    "id": 377
   },
   {
     "subject": "matematica",
@@ -4506,7 +5723,7 @@ const EXERCISES = [
     "subtitle": "Piramide a base quadrata di minima superficie a volume fisso",
     "text": "Fra tutte le piramidi a base quadrata di volume \\(V\\) costante, determinare quella di superficie totale minima.",
     "solution": "Base di lato $a$, altezza $H$, apotema $l=\\sqrt{H^2+\\tfrac{a^2}{4}}$. Superficie $S=a^2+2a\\,l$, vincolo $V=\\tfrac13a^2H$. Minimizzando $S$ con il metodo dei moltiplicatori (o sostituendo $H=\\tfrac{3V}{a^2}$ e ponendo $S'(a)=0$) si arriva alla condizione\n\\[\n2H^2=a^2+2a\\,l \\;\\Rightarrow\\; H^2=2a^2 \\;\\Rightarrow\\; H=a\\sqrt2.\n\\]\nImponendo il volume, $a^2H=3V\\Rightarrow a^3\\sqrt2=3V$, quindi\n\\[\na=\\sqrt[3]{\\dfrac{3V}{\\sqrt2}}=\\sqrt[3]{\\dfrac{3\\sqrt2\\,V}{2}},\\qquad H=a\\sqrt2.\n\\]\nLa piramide di superficie minima ha dunque altezza pari a $\\sqrt2$ volte il lato di base.",
-    "id": 296
+    "id": 378
   },
   {
     "subject": "matematica",
@@ -4522,7 +5739,7 @@ const EXERCISES = [
     "subtitle": "Prisma di massimo volume inscritto in una piramide",
     "text": "Determinare l'altezza del prisma di massimo volume inscritto in una piramide di base \\(S\\) e altezza \\(h\\) assegnate.",
     "solution": "A quota $x$ dalla base la sezione della piramide è simile alla base e ha area $S\\!\\left(1-\\dfrac{x}{h}\\right)^2$. Il prisma poggia sulla base e ha la faccia superiore a quota $x$, quindi la sua sezione costante è quella a quota $x$ e il volume è\n\\[\nV(x)=S\\left(1-\\frac{x}{h}\\right)^2 x.\n\\]\nDerivando: $V'(x)=S\\left(1-\\dfrac{x}{h}\\right)\\!\\left(1-\\dfrac{3x}{h}\\right)=0\\Rightarrow x=\\dfrac{h}{3}$. L'altezza del prisma di volume massimo è $\\boxed{\\,x=\\dfrac{h}{3}\\,}$, con volume $V_{\\max}=\\dfrac{4}{27}Sh$.",
-    "id": 297
+    "id": 379
   },
   {
     "subject": "matematica",
@@ -4538,7 +5755,7 @@ const EXERCISES = [
     "subtitle": "Serbatoio prismatico di minima superficie a volume fissato",
     "text": "Un serbatoio ha la forma di un prisma retto con base a forma di rettangolo. Il serbatoio deve avere un volume di $V$. Determinare le dimensioni del serbatoio in modo che la superficie sia minima.",
     "solution": "Siano $a,b$ i lati di base e $c$ l'altezza, con vincolo $abc=V$. La superficie totale (serbatoio chiuso) è $\\Sigma=2(ab+bc+ca)$. A volume fissato la somma $ab+bc+ca$ è minima quando i tre prodotti sono uguali, cioè $a=b=c$. Imponendo $a^3=V$:\n\\[\na=b=c=\\sqrt[3]{V}.\n\\]\nIl serbatoio di superficie minima è quindi un \\textbf{cubo} di spigolo $\\sqrt[3]{V}$.",
-    "id": 298
+    "id": 380
   },
   {
     "subject": "matematica",
@@ -4553,7 +5770,7 @@ const EXERCISES = [
     "subtitle": "Rettangolo di massima area inscritto in un cerchio di raggio $R$",
     "text": "Trova il rettangolo di area massima inscritto in un cerchio di raggio \\(R\\).",
     "solution": "Lati $2a$ e $2b$ con $a^2+b^2=R^2$. Max $A=4ab$ per $a=b=R/\\sqrt{2}$: quadrato di lato $R\\sqrt{2}$, area $2R^2$.",
-    "id": 299
+    "id": 381
   },
   {
     "subject": "matematica",
@@ -4568,7 +5785,7 @@ const EXERCISES = [
     "subtitle": "Punto della parabola $y=x^2$ più vicino a $(0,1)$",
     "text": "Determina il punto della parabola di equazione \\(y = x^2\\) più vicino al punto di coordinate \\((0, 1)\\).",
     "solution": "$d^2=x^4-x^2+1$; $\\tfrac{d}{dx}(d^2)=2x(2x^2-1)=0 \\Rightarrow x=\\pm\\tfrac{1}{\\sqrt{2}}$. Punti: $\\bigl(\\pm\\tfrac{1}{\\sqrt{2}},\\,\\tfrac{1}{2}\\bigr)$.",
-    "id": 300
+    "id": 382
   },
   {
     "subject": "matematica",
@@ -4583,7 +5800,7 @@ const EXERCISES = [
     "subtitle": "Triangolo isoscele di perimetro $2p$ e area massima",
     "text": "Tra tutti i triangoli isosceli di perimetro \\(2p\\), determina quello di area massima.",
     "solution": "Il triangolo equilatero con $a=b=c=\\tfrac{2p}{3}$.",
-    "id": 301
+    "id": 383
   },
   {
     "subject": "matematica",
@@ -4598,7 +5815,7 @@ const EXERCISES = [
     "subtitle": "Punto sulla retta $y=4-x$ che forma triangolo di area minima con gli assi",
     "text": "Data la retta di equazione \\(y = 4 - x\\), trova il punto su tale retta che, insieme agli assi cartesiani, forma un triangolo di area minima nel primo quadrante.",
     "solution": "Sia $P=(x,\\,4-x)$ con $0<x<4$. Il triangolo rettangolo di cateti $x$ (sull'asse $x$) e $4-x$ (sull'asse $y$) ha area\n\\[\nA(x)=\\tfrac12\\,x(4-x)=2x-\\tfrac12x^2.\n\\]\n$A'(x)=2-x=0\\Rightarrow x=2$, e $A''=-1<0$: è un \\emph{massimo}, con $P=(2,2)$ e $A=2$. L'area non ha minimo interno: tende a $0$ quando $P$ si avvicina agli assi (triangolo degenere). L'unico estremo proprio è quindi il massimo in $P=(2,2)$.",
-    "id": 302
+    "id": 384
   },
   {
     "subject": "matematica",
@@ -4613,7 +5830,7 @@ const EXERCISES = [
     "subtitle": "Rettangolo di massima area inscritto in $y=|x^2-1|$",
     "text": "Si determini tra tutti i rettangoli iscritti nella parte di piano compresa tra la curva di equazione \\(y = |x^2 - 1|\\) e l'asse delle ascisse quello di area massima.",
     "solution": "Su $(-1,1)$: $y=1-x^2$. Rettangolo con base $2a$ e altezza $1-a^2$: $A(a)=2a(1-a^2)$; max in $a=\\tfrac{1}{\\sqrt{3}}$, $A_{\\max}=\\tfrac{4\\sqrt{3}}{9}$.",
-    "id": 303
+    "id": 385
   },
   {
     "subject": "matematica",
@@ -4628,7 +5845,7 @@ const EXERCISES = [
     "subtitle": "Due numeri positivi di somma 10 e prodotto massimo",
     "text": "Trova due numeri positivi la cui somma sia 10 e il cui prodotto sia massimo.",
     "solution": "$x+y=10$, $P=x(10-x)$; max in $x=y=5$, $P_{\\max}=25$.",
-    "id": 304
+    "id": 386
   },
   {
     "subject": "matematica",
@@ -4643,7 +5860,7 @@ const EXERCISES = [
     "subtitle": "Due numeri positivi di prodotto 16 e somma minima",
     "text": "Trova due numeri positivi il cui prodotto sia 16 e la cui somma sia minima.",
     "solution": "Per AM-GM: $x+y \\ge 2\\sqrt{xy}=8$; min in $x=y=4$, $S_{\\min}=8$.",
-    "id": 305
+    "id": 387
   },
   {
     "subject": "matematica",
@@ -4658,7 +5875,7 @@ const EXERCISES = [
     "subtitle": "Due numeri reali di differenza 100 e prodotto minimo",
     "text": "Trova due numeri la cui differenza sia 100 e il cui prodotto sia minimo.",
     "solution": "$x-y=100$, $P=y(y+100)=y^2+100y$; min in $y=-50$, $x=50$, $P_{\\min}=-2500$.",
-    "id": 306
+    "id": 388
   },
   {
     "subject": "matematica",
@@ -4673,7 +5890,7 @@ const EXERCISES = [
     "subtitle": "Prodotto massimo con somma costante $a$",
     "text": "Verifica che, se due numeri reali positivi hanno somma costante $a$, il loro prodotto è massimo quando sono uguali.",
     "solution": "$P=x(a-x)$; $P'=a-2x=0 \\Rightarrow x=a/2$, $P_{\\max}=a^2/4$.",
-    "id": 307
+    "id": 389
   },
   {
     "subject": "matematica",
@@ -4688,7 +5905,7 @@ const EXERCISES = [
     "subtitle": "Massimizzare $xy$ con $x+2y=10$",
     "text": "Trova due numeri positivi \\(x\\) e \\(y\\) tali che \\(x + 2y = 10\\) e \\(xy\\) sia massimo.",
     "solution": "$x=10-2y$, $xy=y(10-2y)=10y-2y^2$; max in $y=\\tfrac{5}{2}$, $x=5$, $xy_{\\max}=\\tfrac{25}{2}$.",
-    "id": 308
+    "id": 390
   },
   {
     "subject": "matematica",
@@ -4703,7 +5920,7 @@ const EXERCISES = [
     "subtitle": "Punti di non derivabilità di $f(x)=\\sqrt[3]{x^3-3x^2",
     "text": "Studia la natura degli eventuali punti di non derivabilità della seguente funzione:\n\\begin{equation*}\n    f(x) = \\sqrt[3]{x^3-3x^2}\n\\end{equation*}",
     "solution": "$f'(x)=\\dfrac{x-2}{x^{1/3}(x-3)^{2/3}}$. In $x=0$: $f'(0^{\\pm})=\\mp\\infty$ (cuspide). In $x=3$: $f'(3^{\\pm})=+\\infty$ (tangente verticale).",
-    "id": 309
+    "id": 391
   },
   {
     "subject": "matematica",
@@ -4718,7 +5935,7 @@ const EXERCISES = [
     "subtitle": "Punti di non derivabilità di $f(x)=\\sqrt{1-\\cos x",
     "text": "Studia la natura degli eventuali punti di non derivabilità della seguente funzione:\n\\begin{equation*}\n    f(x) = \\sqrt{1-\\cos x}\n\\end{equation*}",
     "solution": "$f(x)=\\sqrt{2}\\,|\\!\\sin(x/2)|$. Nei punti $x=2k\\pi$: derivata sinistra $-\\dfrac{\\sqrt{2}}{2}$, destra $+\\dfrac{\\sqrt{2}}{2}$ (punto angoloso).",
-    "id": 310
+    "id": 392
   },
   {
     "subject": "matematica",
@@ -4734,14 +5951,333 @@ const EXERCISES = [
     "subtitle": "Continuità e derivabilità di $f$ a tratti con parametro $k$",
     "text": "Considera la funzione\n\\[\nf(x) = \\begin{cases}\n    x-3 & x \\le 4 \\\\\n    \\sqrt[3]{k-x} & x > 4\n\\end{cases}\n\\]\n\\begin{enumerate}\n    \\item Determina $k$ in modo che sia continua in $\\mathbb{R}$.\n    \\item Traccia il grafico della funzione in corrispondenza del valore di $k$ trovato e stabilisci se è derivabile in $\\mathbb{R}$; in caso negativo, studia la natura dei punti di non derivabilità.\n\\end{enumerate}",
     "solution": "1) Continuità in $x=4$: $1=(k-4)^{1/3} \\Rightarrow k=5$. 2) $f'(4^-)=1$, $f'(4^+)=-\\tfrac{1}{3}$: punto angoloso in $x=4$.",
-    "id": 311
+    "id": 393
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.1",
+    "tags": [
+      "funzioni",
+      "studio di funzione"
+    ],
+    "subtitle": "Studio di una funzione polinomiale",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=x^2-4\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}$.\n    \\item Segno: $f(x)>0$ per $x<-2\\vee x>2$; $f(x)<0$ per $-2<x<2$; $f(x)=0$ per $x=\\pm2$.\n    \\item Intersezioni: con l'asse $x$ nei punti $(-2,0)$ e $(2,0)$; con l'asse $y$ nel punto $(0,-4)$.\n    \\item La funzione è pari, poiché $f(-x)=f(x)$.\n\\end{enumerate}",
+    "id": 394
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.2",
+    "tags": [
+      "funzioni",
+      "studio di funzione"
+    ],
+    "subtitle": "Studio di una funzione razionale",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\dfrac{x-2}{x+1}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}\\setminus\\{-1\\}$.\n    \\item Segno: $f(x)>0$ per $x<-1\\vee x>2$; $f(x)<0$ per $-1<x<2$; $f(x)=0$ per $x=2$.\n    \\item Intersezioni: con l'asse $x$ nel punto $(2,0)$; con l'asse $y$ nel punto $(0,-2)$.\n    \\item La funzione non è né pari né dispari, poiché $f(-x)\\neq f(x)$ e $f(-x)\\neq-f(x)$.\n\\end{enumerate}",
+    "id": 395
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "1.3",
+    "tags": [
+      "funzioni",
+      "studio di funzione"
+    ],
+    "subtitle": "Studio di una funzione razionale fratta",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\dfrac{2x-4}{x^2-9}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}\\setminus\\{-3,3\\}$.\n    \\item Segno: $f(x)<0$ per $x<-3\\vee 2<x<3$; $f(x)>0$ per $-3<x<2\\vee x>3$; $f(x)=0$ per $x=2$.\n    \\item Intersezioni: con l'asse $x$ nel punto $(2,0)$; con l'asse $y$ nel punto $\\left(0,\\frac{4}{9}\\right)$.\n    \\item La funzione non è né pari né dispari.\n\\end{enumerate}",
+    "id": 396
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "1.4",
+    "tags": [
+      "funzioni",
+      "studio di funzione"
+    ],
+    "subtitle": "Studio di una funzione razionale pari",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\dfrac{x^2-4}{x^2-1}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}\\setminus\\{-1,1\\}$.\n    \\item Segno: $f(x)>0$ per $x<-2\\vee -1<x<1\\vee x>2$; $f(x)<0$ per $-2<x<-1\\vee 1<x<2$; $f(x)=0$ per $x=\\pm2$.\n    \\item Intersezioni: con l'asse $x$ nei punti $(-2,0)$ e $(2,0)$; con l'asse $y$ nel punto $(0,4)$.\n    \\item La funzione è pari, poiché $f(-x)=f(x)$.\n\\end{enumerate}",
+    "id": 397
   },
   {
     "subject": "matematica",
     "category": "Analisi",
     "topic": "Studio Di Funzione",
     "difficulty": 3,
+    "sourceId": "1.5",
+    "tags": [
+      "funzioni",
+      "studio di funzione"
+    ],
+    "subtitle": "Studio di una funzione razionale con più fattori",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\dfrac{x^2-1}{x(x^2-4)}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}\\setminus\\{-2,0,2\\}$.\n    \\item Segno: $f(x)<0$ per $x<-2\\vee -1<x<0\\vee 1<x<2$; $f(x)>0$ per $-2<x<-1\\vee 0<x<1\\vee x>2$; $f(x)=0$ per $x=\\pm1$.\n    \\item Intersezioni: con l'asse $x$ nei punti $(-1,0)$ e $(1,0)$; non esiste intersezione con l'asse $y$, poiché $x=0$ non appartiene al dominio.\n    \\item La funzione è dispari, poiché $f(-x)=-f(x)$.\n\\end{enumerate}",
+    "id": 398
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.6",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "radicali"
+    ],
+    "subtitle": "Studio di una funzione radicale",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\sqrt{x-1}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=[1,+\\infty)$.\n    \\item Segno: $f(x)\\geq0$ per ogni $x\\in D$; $f(x)=0$ per $x=1$.\n    \\item Intersezioni: con l'asse $x$ nel punto $(1,0)$; non esiste intersezione con l'asse $y$.\n    \\item La funzione non è né pari né dispari.\n\\end{enumerate}",
+    "id": 399
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.7",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "logaritmi"
+    ],
+    "subtitle": "Studio di una funzione logaritmica",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\ln x\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=(0,+\\infty)$.\n    \\item Segno: $f(x)<0$ per $0<x<1$; $f(x)=0$ per $x=1$; $f(x)>0$ per $x>1$.\n    \\item Intersezioni: con l'asse $x$ nel punto $(1,0)$; non esiste intersezione con l'asse $y$.\n    \\item La funzione non è né pari né dispari.\n\\end{enumerate}",
+    "id": 400
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.8",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "esponenziali"
+    ],
+    "subtitle": "Studio di una funzione esponenziale",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=e^x-1\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}$.\n    \\item Segno: $f(x)<0$ per $x<0$; $f(x)=0$ per $x=0$; $f(x)>0$ per $x>0$.\n    \\item Intersezioni: con l'asse $x$ e con l'asse $y$ nel punto $(0,0)$.\n    \\item La funzione non è né pari né dispari.\n\\end{enumerate}",
+    "id": 401
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 1,
+    "sourceId": "1.9",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "esponenziali"
+    ],
+    "subtitle": "Studio di una funzione esponenziale",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=2^x\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}$.\n    \\item Segno: $f(x)>0$ per ogni $x\\in\\mathbb{R}$.\n    \\item Non esistono intersezioni con l'asse $x$; con l'asse $y$ nel punto $(0,1)$.\n    \\item La funzione non è né pari né dispari.\n\\end{enumerate}",
+    "id": 402
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "1.10",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "radicali",
+      "parità"
+    ],
+    "subtitle": "Studio di una funzione radicale pari",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\sqrt{x^2-4}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=(-\\infty,-2]\\cup[2,+\\infty)$.\n    \\item Segno: $f(x)\\geq0$ per ogni $x\\in D$; $f(x)=0$ per $x=\\pm2$.\n    \\item Intersezioni: con l'asse $x$ nei punti $(-2,0)$ e $(2,0)$; non esiste intersezione con l'asse $y$.\n    \\item La funzione è pari, poiché $f(-x)=f(x)$.\n\\end{enumerate}",
+    "id": 403
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "1.11",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "logaritmi",
+      "parità"
+    ],
+    "subtitle": "Studio di una funzione logaritmica pari",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\ln(x^2+1)\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}$.\n    \\item Segno: $f(x)\\geq0$ per ogni $x\\in\\mathbb{R}$; $f(x)=0$ solamente per $x=0$.\n    \\item Intersezioni: con l'asse $x$ e con l'asse $y$ nel punto $(0,0)$.\n    \\item La funzione è pari, poiché $f(-x)=f(x)$.\n\\end{enumerate}",
+    "id": 404
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "1.12",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "logaritmi"
+    ],
+    "subtitle": "Studio di una funzione logaritmica con denominatore",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\frac{\\ln x}{x}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=(0,+\\infty)$.\n    \\item Segno: $f(x)<0$ per $0<x<1$; $f(x)=0$ per $x=1$; $f(x)>0$ per $x>1$.\n    \\item Intersezioni: con l'asse $x$ nel punto $(1,0)$; non esiste intersezione con l'asse $y$.\n    \\item La funzione non è né pari né dispari.\n\\end{enumerate}",
+    "id": 405
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "1.13",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "radicali"
+    ],
+    "subtitle": "Studio di una funzione radicale fratta",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\sqrt{\\frac{x-1}{x+1}}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=(-\\infty,-1)\\cup[1,+\\infty)$.\n    \\item Segno: $f(x)\\geq0$ per ogni $x\\in D$; $f(x)=0$ per $x=1$.\n    \\item Intersezioni: con l'asse $x$ nel punto $(1,0)$; non esiste intersezione con l'asse $y$.\n    \\item La funzione non è né pari né dispari.\n\\end{enumerate}",
+    "id": 406
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "1.14",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "esponenziali",
+      "parità"
+    ],
+    "subtitle": "Studio di una funzione esponenziale razionale",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\frac{e^x-1}{e^x+1}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}$.\n    \\item Segno: $f(x)<0$ per $x<0$; $f(x)=0$ per $x=0$; $f(x)>0$ per $x>0$.\n    \\item Intersezioni: con l'asse $x$ e con l'asse $y$ nel punto $(0,0)$.\n    \\item La funzione è dispari, poiché $f(-x)=-f(x)$.\n\\end{enumerate}",
+    "id": 407
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "1.15",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "logaritmi",
+      "parità"
+    ],
+    "subtitle": "Studio di una funzione logaritmica composta",
+    "text": "Determinare dominio, segno, intersezioni con gli assi cartesiani e parità della funzione seguente:\n\\begin{equation*}\n    f(x)=\\ln\\left(\\frac{x-1}{x+1}\\right)\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=(-\\infty,-1)\\cup(1,+\\infty)$.\n    \\item Segno: $f(x)>0$ per $x<-1$; $f(x)<0$ per $x>1$; non esistono zeri.\n    \\item Non esistono intersezioni né con l'asse $x$ né con l'asse $y$.\n    \\item La funzione è dispari, poiché $f(-x)=-f(x)$.\n\\end{enumerate}",
+    "id": 408
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 1,
     "sourceId": "2.1",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "polinomi"
+    ],
+    "subtitle": "Studio completo di una funzione polinomiale",
+    "text": "Effettua lo studio completo della funzione seguente. Determina dominio, intersezioni con gli assi cartesiani, segno, parità, limiti, eventuali asintoti, derivata prima, intervalli di monotonia, eventuali estremi relativi, derivata seconda e concavità. Rappresenta infine schematicamente il grafico.\n\\begin{equation*}\n    f(x)=x^2-4x+3\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}$.\n    \\item Intersezioni: con l'asse $x$ nei punti $(1,0)$ e $(3,0)$; con l'asse $y$ nel punto $(0,3)$.\n    \\item Segno: $f(x)>0$ per $x<1\\vee x>3$; $f(x)<0$ per $1<x<3$; $f(x)=0$ per $x=1,3$.\n    \\item La funzione non è né pari né dispari; presenta simmetria rispetto alla retta $x=2$.\n    \\item $\\displaystyle \\lim_{x\\to\\pm\\infty}f(x)=+\\infty$.\n    \\item Non presenta asintoti.\n    \\item $f'(x)=2x-4=2(x-2)$.\n    \\item La funzione è decrescente per $x<2$ e crescente per $x>2$.\n    \\item In $x=2$ si ha un minimo relativo e assoluto: $f(2)=-1$.\n    \\item $f''(x)=2>0$: la funzione è convessa su tutto $\\mathbb{R}$ e non presenta punti di flesso.\n\\end{enumerate}",
+    "id": 409
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "2.2",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "funzioni razionali"
+    ],
+    "subtitle": "Studio completo di una funzione razionale",
+    "text": "Effettua lo studio completo della funzione seguente. Determina dominio, intersezioni con gli assi cartesiani, segno, parità, limiti, eventuali asintoti, derivata prima, intervalli di monotonia, eventuali estremi relativi, derivata seconda e concavità. Rappresenta infine schematicamente il grafico.\n\\begin{equation*}\n    f(x)=\\dfrac{x-1}{x+1}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}\\setminus\\{-1\\}$.\n    \\item Intersezioni: con l'asse $x$ nel punto $(1,0)$; con l'asse $y$ nel punto $(0,-1)$.\n    \\item Segno: $f(x)>0$ per $x<-1\\vee x>1$; $f(x)<0$ per $-1<x<1$; $f(x)=0$ per $x=1$.\n    \\item La funzione non è né pari né dispari.\n    \\item $\\displaystyle \\lim_{x\\to-1^-}f(x)=+\\infty$ e $\\displaystyle \\lim_{x\\to-1^+}f(x)=-\\infty$.\n    \\item $\\displaystyle \\lim_{x\\to\\pm\\infty}f(x)=1$.\n    \\item Gli asintoti sono $x=-1$ verticale e $y=1$ orizzontale.\n    \\item $f'(x)=\\dfrac{2}{(x+1)^2}>0$ per ogni $x\\neq-1$.\n    \\item La funzione è crescente negli intervalli $(-\\infty,-1)$ e $(-1,+\\infty)$ e non presenta estremi relativi.\n    \\item $f''(x)=-\\dfrac{4}{(x+1)^3}$; la funzione è convessa per $x<-1$ e concava per $x>-1$. Non presenta punti di flesso perché $x=-1$ non appartiene al dominio.\n\\end{enumerate}",
+    "id": 410
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 2,
+    "sourceId": "2.3",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "funzioni razionali"
+    ],
+    "subtitle": "Studio completo di una funzione razionale fratta",
+    "text": "Effettua lo studio completo della funzione seguente. Determina dominio, intersezioni con gli assi cartesiani, segno, parità, limiti, eventuali asintoti, derivata prima, intervalli di monotonia, eventuali estremi relativi, derivata seconda e concavità. Rappresenta infine schematicamente il grafico.\n\\begin{equation*}\n    f(x)=\\dfrac{x^2-1}{x-2}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}\\setminus\\{2\\}$.\n    \\item Intersezioni: con l'asse $x$ nei punti $(-1,0)$ e $(1,0)$; con l'asse $y$ nel punto $\\left(0,\\tfrac12\\right)$.\n    \\item Segno: $f(x)<0$ per $x<-1\\vee 1<x<2$; $f(x)>0$ per $-1<x<1\\vee x>2$; $f(x)=0$ per $x=\\pm1$.\n    \\item La funzione non è né pari né dispari.\n    \\item $\\displaystyle \\lim_{x\\to2^-}f(x)=-\\infty$ e $\\displaystyle \\lim_{x\\to2^+}f(x)=+\\infty$.\n    \\item $\\displaystyle \\lim_{x\\to\\pm\\infty}f(x)=\\pm\\infty$ e\n    \\[\n    f(x)=x+2+\\dfrac{3}{x-2}.\n    \\]\n    Quindi l'asintoto verticale è $x=2$ e quello obliquo è $y=x+2$.\n    \\item $f'(x)=1-\\dfrac{3}{(x-2)^2}$.\n    \\item $f'(x)=0$ per $x=2\\pm\\sqrt3$. La funzione è crescente per $x<2-\\sqrt3$ e per $x>2+\\sqrt3$, decrescente per $2-\\sqrt3<x<2$ e per $2<x<2+\\sqrt3$.\n    \\item In $x=2-\\sqrt3$ si ha un massimo relativo:\n    \\[\n    f(2-\\sqrt3)=4-2\\sqrt3.\n    \\]\n    In $x=2+\\sqrt3$ si ha un minimo relativo:\n    \\[\n    f(2+\\sqrt3)=4+2\\sqrt3.\n    \\]\n    \\item $f''(x)=\\dfrac{6}{(x-2)^3}$; la funzione è concava per $x<2$ e convessa per $x>2$. Non presenta punti di flesso perché $x=2$ non appartiene al dominio.\n\\end{enumerate}",
+    "id": 411
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "2.4",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "esponenziali"
+    ],
+    "subtitle": "Studio completo di una funzione esponenziale fratta",
+    "text": "Effettua lo studio completo della funzione seguente. Determina dominio, intersezioni con gli assi cartesiani, segno, parità, limiti, eventuali asintoti, derivata prima, intervalli di monotonia, eventuali estremi relativi, derivata seconda e concavità. Rappresenta infine schematicamente il grafico.\n\\begin{equation*}\n    f(x)=\\dfrac{e^x}{x}\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=\\mathbb{R}\\setminus\\{0\\}$.\n    \\item Non esistono intersezioni con l'asse $x$ né con l'asse $y$.\n    \\item Segno: $f(x)<0$ per $x<0$; $f(x)>0$ per $x>0$.\n    \\item La funzione non è né pari né dispari.\n    \\item $\\displaystyle \\lim_{x\\to0^-}f(x)=-\\infty$ e $\\displaystyle \\lim_{x\\to0^+}f(x)=+\\infty$.\n    \\item $\\displaystyle \\lim_{x\\to+\\infty}f(x)=+\\infty$ e $\\displaystyle \\lim_{x\\to-\\infty}f(x)=0^-$.\n    \\item L'asintoto verticale è $x=0$ e l'asintoto orizzontale per $x\\to-\\infty$ è $y=0$.\n    \\item $f'(x)=\\dfrac{e^x(x-1)}{x^2}$.\n    \\item La funzione è decrescente per $x<0$ e per $0<x<1$, crescente per $x>1$.\n    \\item In $x=1$ si ha un minimo relativo e assoluto:\n    \\[\n    f(1)=e.\n    \\]\n    \\item $f''(x)=\\dfrac{e^x(x^2-2x+2)}{x^3}$; poiché $x^2-2x+2=(x-1)^2+1>0$, la funzione è concava per $x<0$ e convessa per $x>0$. Non presenta punti di flesso perché $x=0$ non appartiene al dominio.\n\\end{enumerate}",
+    "id": 412
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "2.5",
+    "tags": [
+      "funzioni",
+      "studio di funzione",
+      "logaritmi"
+    ],
+    "subtitle": "Studio completo di una funzione logaritmica composta",
+    "text": "Effettua lo studio completo della funzione seguente. Determina dominio, intersezioni con gli assi cartesiani, segno, parità, limiti, eventuali asintoti, derivata prima, intervalli di monotonia, eventuali estremi relativi, derivata seconda e concavità. Rappresenta infine schematicamente il grafico.\n\\begin{equation*}\n    f(x)=\\ln\\left(\\dfrac{x-1}{x+1}\\right)\n\\end{equation*}",
+    "solution": "\\begin{enumerate}\n    \\item $D=(-\\infty,-1)\\cup(1,+\\infty)$.\n    \\item Non esistono intersezioni con l'asse $x$ né con l'asse $y$.\n    \\item Segno: $f(x)>0$ per $x<-1$; $f(x)<0$ per $x>1$; non presenta zeri.\n    \\item La funzione è dispari, poiché\n    \\[\n    f(-x)=\\ln\\left(\\dfrac{x+1}{x-1}\\right)=-f(x).\n    \\]\n    \\item $\\displaystyle \\lim_{x\\to-1^-}f(x)=+\\infty$ e $\\displaystyle \\lim_{x\\to1^+}f(x)=-\\infty$.\n    \\item $\\displaystyle \\lim_{x\\to-\\infty}f(x)=0^+$ e $\\displaystyle \\lim_{x\\to+\\infty}f(x)=0^-$.\n    \\item Gli asintoti verticali sono $x=-1$ e $x=1$; l'asintoto orizzontale è $y=0$.\n    \\item\n    \\[\n    f'(x)=\\frac{2}{x^2-1}>0\n    \\]\n    per ogni $x\\in D$.\n    \\item La funzione è crescente negli intervalli $(-\\infty,-1)$ e $(1,+\\infty)$ e non presenta estremi relativi.\n    \\item\n    \\[\n    f''(x)=-\\frac{4x}{(x^2-1)^2}.\n    \\]\n    La funzione è convessa per $x<-1$ e concava per $x>1$. Non presenta punti di flesso perché il punto $x=0$ non appartiene al dominio.\n\\end{enumerate}",
+    "id": 413
+  },
+  {
+    "subject": "matematica",
+    "category": "Analisi",
+    "topic": "Studio Di Funzione",
+    "difficulty": 3,
+    "sourceId": "3.1",
     "tags": [
       "studio di funzione",
       "parametrico"
@@ -4749,14 +6285,14 @@ const EXERCISES = [
     "subtitle": "Studio di $f(x)=(2x+1)/(x+k)$ con parametro $k$",
     "text": "Considera la funzione\n\\begin{equation*}\n    f(x) = \\frac{2x+1}{x+k}\n\\end{equation*}\ndove $k$ è un parametro reale, e indica con $y$ il suo grafico.\n\\begin{enumerate}\n    \\item Dimostra che per $k=\\frac{1}{2}$ la funzione attraversa solo il primo e secondo quadrante.\n    \\item Studia la funzione al variare del parametro $k$ e tracciane il grafico.\n    \\item Posto $k=1$ rappresenta la funzione $g(x) = |f(x)|$ e determina eventuali punti di non derivabilità della funzione.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item Per $k=\\tfrac12$ il denominatore è $x+\\tfrac12=\\tfrac{2x+1}{2}$, quindi $f(x)=\\dfrac{2x+1}{(2x+1)/2}=2$ per ogni $x\\neq-\\tfrac12$. Il grafico è la retta orizzontale $y=2$ (privata del punto $x=-\\tfrac12$): essendo $y=2>0$, attraversa solo il primo e il secondo quadrante.\n\\item Per $k\\neq\\tfrac12$: dominio $x\\neq-k$; asintoto verticale $x=-k$ e asintoto orizzontale $y=2$. La derivata è $f'(x)=\\dfrac{2k-1}{(x+k)^2}$: nessun estremo, funzione crescente se $k>\\tfrac12$, decrescente se $k<\\tfrac12$. È un'iperbole equilatera di centro $(-k,2)$ (per $k=\\tfrac12$ degenera nella retta $y=2$).\n\\item Per $k=1$, $f(x)=\\dfrac{2x+1}{x+1}$ si annulla in $x=-\\tfrac12$, dove $f'=\\dfrac{1}{(x+1)^2}\\neq0$. Quindi $g(x)=|f(x)|$ ha in $x=-\\tfrac12$ un \\textbf{punto angoloso} (la curva tocca l'asse $x$ con pendenza non nulla e viene ribaltata).\n\\end{enumerate}",
-    "id": 312
+    "id": 414
   },
   {
     "subject": "matematica",
     "category": "Analisi",
     "topic": "Studio Di Funzione",
     "difficulty": 3,
-    "sourceId": "2.2",
+    "sourceId": "3.2",
     "tags": [
       "studio di funzione",
       "parametrico"
@@ -4764,14 +6300,14 @@ const EXERCISES = [
     "subtitle": "Studio di $f(x)=x^2/(x-k)$ con parametro $k$",
     "text": "Considera la funzione\n\\begin{equation*}\n    f(x) = \\frac{x^2}{x-k}\n\\end{equation*}\ndove $k$ è un parametro reale, e indica con $y$ il suo grafico.\n\\begin{enumerate}\n    \\item Studia la funzione al variare del parametro $k$ e tracciane il grafico.\n    \\item Posto $k=0$ rappresenta la funzione $g(x) = |f(x)|$ e determina eventuali punti di non derivabilità della funzione.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item Dominio $x\\neq k$. Per $k\\neq0$: asintoto verticale $x=k$; dalla divisione $\\dfrac{x^2}{x-k}=x+k+\\dfrac{k^2}{x-k}$ segue l'asintoto obliquo $y=x+k$. Derivata $f'(x)=\\dfrac{x(x-2k)}{(x-k)^2}$, che si annulla in $x=0$ e $x=2k$: per $k>0$ massimo in $(0,0)$ e minimo in $(2k,4k)$ (per $k<0$ i ruoli si scambiano).\n\\item Per $k=0$, $f(x)=\\dfrac{x^2}{x}=x$ per $x\\neq0$ (retta privata dell'origine), quindi $g(x)=|x|$ con un buco in $x=0$. Il punto angoloso di $|x|$ cadrebbe proprio in $x=0$, che però è \\emph{escluso} dal dominio: nel suo dominio $g$ è perciò derivabile ovunque (nessun punto di non derivabilità effettivo).\n\\end{enumerate}",
-    "id": 313
+    "id": 415
   },
   {
     "subject": "matematica",
     "category": "Analisi",
     "topic": "Studio Di Funzione",
     "difficulty": 3,
-    "sourceId": "2.3",
+    "sourceId": "3.3",
     "tags": [
       "studio di funzione",
       "parametrico",
@@ -4780,7 +6316,7 @@ const EXERCISES = [
     "subtitle": "Potenziale del deuterio: $V(r)=a|r|e^{1-br^2",
     "text": "Il potenziale di un atomo di deuterio può essere rappresentato dalla seguente funzione:\n\\begin{equation*}\n    V(r) = a|r|\\cdot e^{1-br^2}\n\\end{equation*}\ndove $a$ e $b$ sono due parametri reali, e $r$ la distanza dal centro.\n\\begin{enumerate}\n    \\item Determina i valori di $a$ e $b$, sapendo che il massimo valore di potenziale si trova nei punti di ascissa $1$ e $-1$ ed ha valore $\\sqrt{e}$.\n    \\item Verificato che, in corrispondenza dei valori trovati precedentemente, l'espressione analitica della funzione è $V(r) = |r| \\cdot e^{1-\\frac{1}{2}r^2}$, tracciane il grafico.\n    \\item Verifica la presenza di un punto di non derivabilità nel centro dell'atomo e classificalo.\n\\end{enumerate}",
     "solution": "$a=1,\\ b=\\tfrac{1}{2}$. In $r=0$: cuspide (derivata sinistra $-1$, destra $+1$ a meno del fattore $e$).",
-    "id": 314
+    "id": 416
   },
   {
     "subject": "matematica",
@@ -4795,7 +6331,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Cauchy per $x^3+x$ e $x^2+1$ su $[0,2]$",
     "text": "Verifica se le funzioni \\(f(x) = x^3 + x\\) e \\(g(x) = x^2 + 1\\) soddisfano le ipotesi del teorema di Cauchy nell'intervallo \\([0,\\ 2]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "$\\dfrac{f(2)-f(0)}{g(2)-g(0)}=\\dfrac{10}{4}=\\dfrac{5}{2}$. $\\dfrac{3c^2+1}{2c}=\\dfrac{5}{2} \\Rightarrow 3c^2-5c+1=0 \\Rightarrow c=\\dfrac{5\\pm\\sqrt{13}}{6}$",
-    "id": 315
+    "id": 417
   },
   {
     "subject": "matematica",
@@ -4810,7 +6346,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Cauchy per $\\sin(2x)$ e $\\cos x$ su $[0,\\pi/2]$",
     "text": "Verifica se le funzioni \\(f(x) = \\sin(2x)\\) e \\(g(x) = \\cos(x)\\) soddisfano le ipotesi del teorema di Cauchy nell'intervallo \\([0;\\ \\pi/2]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "$\\dfrac{f(\\pi/2)-f(0)}{g(\\pi/2)-g(0)}=\\dfrac{0}{-1}=0$. $\\dfrac{2\\cos(2c)}{-\\sin c}=0 \\Rightarrow \\cos(2c)=0 \\Rightarrow c=\\dfrac{\\pi}{4}$",
-    "id": 316
+    "id": 418
   },
   {
     "subject": "matematica",
@@ -4825,7 +6361,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Cauchy per $e^{2x",
     "text": "Verifica se le funzioni \\(f(x) = e^{2x}\\) e \\(g(x) = e^x\\) soddisfano le ipotesi del teorema di Cauchy nell'intervallo \\([0;\\ 1]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "$\\dfrac{e^2-1}{e-1}=e+1$. $\\dfrac{2e^{2c}}{e^c}=2e^c=e+1 \\Rightarrow c=\\ln\\!\\left(\\dfrac{e+1}{2}\\right)$",
-    "id": 317
+    "id": 419
   },
   {
     "subject": "matematica",
@@ -4840,7 +6376,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Cauchy per $\\ln x$ e $1/x$ su $[1,e]$",
     "text": "Date le funzioni \\(f(x) = \\ln(x)\\) e \\(g(x) = \\dfrac{1}{x}\\), verifica se soddisfano le ipotesi del teorema di Cauchy nell'intervallo \\([1;\\ e]\\) e, in caso affermativo, determina i punti che verificano il teorema.",
     "solution": "$\\dfrac{1-0}{1/e-1}=\\dfrac{-e}{e-1}$. $\\dfrac{1/c}{-1/c^2}=-c=\\dfrac{-e}{e-1} \\Rightarrow c=\\dfrac{e}{e-1}$",
-    "id": 318
+    "id": 420
   },
   {
     "subject": "matematica",
@@ -4855,7 +6391,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Cauchy per $\\arctan x$ e $x$ su $[0,1]$",
     "text": "Date le funzioni \\(f(x) = \\arctan(x)\\) e \\(g(x) = x\\), verifica se soddisfano le ipotesi del teorema di Cauchy nell'intervallo \\([0;\\ 1]\\) e, in caso affermativo, determina i punti che verificano il teorema.",
     "solution": "$\\dfrac{\\pi/4}{1}=\\dfrac{\\pi}{4}$. $\\dfrac{1/(1+c^2)}{1}=\\dfrac{\\pi}{4} \\Rightarrow c=\\sqrt{\\dfrac{4-\\pi}{\\pi}}$",
-    "id": 319
+    "id": 421
   },
   {
     "subject": "matematica",
@@ -4870,7 +6406,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to0",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to 0} \\frac{e^x - 1 - x}{x^2}\n\\]",
     "solution": "Forma $\\tfrac{0}{0}$. $\\dfrac{e^x-1}{2x} \\xrightarrow{0/0} \\dfrac{e^x}{2} \\to \\dfrac{1}{2}$",
-    "id": 320
+    "id": 422
   },
   {
     "subject": "matematica",
@@ -4885,7 +6421,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to1",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to 1} \\frac{x^3 - 1}{\\ln(x)}\n\\]",
     "solution": "Forma $\\tfrac{0}{0}$. $\\dfrac{3x^2}{1/x}=3x^3 \\to 3$",
-    "id": 321
+    "id": 423
   },
   {
     "subject": "matematica",
@@ -4900,7 +6436,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to0^+",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to 0^+} x \\ln(x)\n\\]\n(Suggerimento: riscrivi l'espressione come una frazione per poter applicare il teorema)",
     "solution": "$0 \\cdot (-\\infty)$. $\\dfrac{\\ln x}{1/x} \\xrightarrow{-\\infty/+\\infty} \\dfrac{1/x}{-1/x^2}=-x \\to 0$",
-    "id": 322
+    "id": 424
   },
   {
     "subject": "matematica",
@@ -4915,7 +6451,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to+\\infty",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to \\infty} \\frac{x^3 + 2x}{e^{x/2}}\n\\]",
     "solution": "Forma $\\tfrac{+\\infty}{+\\infty}$. Tre applicazioni successive: $\\dfrac{6}{e^{x/2}/8}=\\dfrac{48}{e^{x/2}} \\to 0$",
-    "id": 323
+    "id": 425
   },
   {
     "subject": "matematica",
@@ -4930,7 +6466,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to0",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to 0} \\frac{x - x \\cos(x)}{x^3}\n\\]",
     "solution": "$\\dfrac{1-\\cos x}{x^2} \\xrightarrow{0/0} \\dfrac{\\sin x}{2x} \\xrightarrow{0/0} \\dfrac{\\cos x}{2} \\to \\dfrac{1}{2}$",
-    "id": 324
+    "id": 426
   },
   {
     "subject": "matematica",
@@ -4945,7 +6481,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to+\\infty",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to \\infty} \\frac{e^{1/x} - 1}{1/x}\n\\]",
     "solution": "Forma $\\tfrac{0}{0}$ (con $t=1/x \\to 0$): $\\lim_{t\\to0}\\dfrac{e^t-1}{t}=1$",
-    "id": 325
+    "id": 427
   },
   {
     "subject": "matematica",
@@ -4960,7 +6496,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to0^+",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to 0^+}  x\\, e^{1/x}\n\\]",
     "solution": "$0 \\cdot (+\\infty)$. $\\dfrac{e^{1/x}}{1/x} \\xrightarrow{+\\infty/+\\infty} \\dfrac{-e^{1/x}/x^2}{-1/x^2}=e^{1/x} \\to +\\infty$",
-    "id": 326
+    "id": 428
   },
   {
     "subject": "matematica",
@@ -4975,7 +6511,7 @@ const EXERCISES = [
     "subtitle": "De L'Hôpital: $\\lim_{x\\to+\\infty",
     "text": "Calcola il seguente limite utilizzando il teorema de L'Hôpital:\n\\[\n\\lim_{x \\to \\infty}  x\\, e^{-x^2}\n\\]",
     "solution": "$\\dfrac{x}{e^{x^2}} \\xrightarrow{+\\infty/+\\infty} \\dfrac{1}{2x\\,e^{x^2}} \\to 0$",
-    "id": 327
+    "id": 429
   },
   {
     "subject": "matematica",
@@ -4990,7 +6526,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Lagrange per $f(x)=x^3+2x$ su $[-2,1]$",
     "text": "Verifica se la funzione \\(f(x) = x^3+2x\\) soddisfa le ipotesi del teorema di Lagrange nell'intervallo \\([-2;\\ 1]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "$f$ continua e derivabile su $[-2,1]$. $f'(c)=\\dfrac{f(1)-f(-2)}{3}=\\dfrac{3-(-12)}{3}=5$. $3c^2+2=5 \\Rightarrow c^2=1 \\Rightarrow c=-1$",
-    "id": 328
+    "id": 430
   },
   {
     "subject": "matematica",
@@ -5005,7 +6541,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Lagrange per $f(x)=3/\\sqrt{x",
     "text": "Verifica se la funzione \\(f(x) = \\dfrac{3}{\\sqrt{x}}\\) soddisfa le ipotesi del teorema di Lagrange nell'intervallo \\([4;\\ 9]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "$f'(c)=\\dfrac{f(9)-f(4)}{5}=\\dfrac{1-\\tfrac{3}{2}}{5}=-\\dfrac{1}{10}$. $-\\dfrac{3}{2c^{3/2}}=-\\dfrac{1}{10} \\Rightarrow c^{3/2}=15 \\Rightarrow c=15^{2/3}$",
-    "id": 329
+    "id": 431
   },
   {
     "subject": "matematica",
@@ -5021,7 +6557,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Lagrange non applicabile: funzione a tratti su $[0,2]$",
     "text": "Data la funzione\n\\[\nf(x) = \\begin{cases}\nx^2 + 1, & \\text{se } x \\leq 1 \\\\\n3 - x, & \\text{se } x > 1\n\\end{cases}\n\\]\nverifica se soddisfa le ipotesi del teorema di Lagrange nell'intervallo \\([0;\\ 2]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "Non applicabile: $f$ è continua in $x=1$ ma non derivabile ($f'(1^-)=2 \\ne f'(1^+)=-1$).",
-    "id": 330
+    "id": 432
   },
   {
     "subject": "matematica",
@@ -5036,7 +6572,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Lagrange per funzione a tratti su $[0,2]$",
     "text": "Data la funzione\n\\[\nf(x) = \\begin{cases}\nx^2 -4x+5, & \\text{se } x \\leq 2 \\\\\nx, & \\text{se } x > 2\n\\end{cases}\n\\]\nverifica se soddisfa le ipotesi del teorema di Lagrange nell'intervallo \\([0;\\ 2]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "Su $[0,2]$ vale $f(x)=x^2-4x+5$; continua e derivabile. $f'(c)=\\dfrac{f(2)-f(0)}{2}=\\dfrac{1-5}{2}=-2$. $2c-4=-2 \\Rightarrow c=1$",
-    "id": 331
+    "id": 433
   },
   {
     "subject": "matematica",
@@ -5051,7 +6587,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Lagrange per $f(x)=2e^x+x$ su $[0,1]$",
     "text": "Verifica se la funzione \\(f(x) = 2e^x + x\\) soddisfa le ipotesi del teorema di Lagrange nell'intervallo \\([0;\\ 1]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "$f'(c)=\\dfrac{f(1)-f(0)}{1}=(2e+1)-2=2e-1$. $2e^c+1=2e-1 \\Rightarrow e^c=e-1 \\Rightarrow c=\\ln(e-1)$",
-    "id": 332
+    "id": 434
   },
   {
     "subject": "matematica",
@@ -5067,7 +6603,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Lagrange non applicabile: $f(x)=4/x$ su $[-1/2,1]$",
     "text": "Verifica se la funzione \\(f(x) = \\dfrac{4}{x}\\) soddisfa le ipotesi del teorema di Lagrange nell'intervallo \\(\\bigl[-\\tfrac{1}{2};\\ 1\\bigr]\\) e, in caso affermativo, trova il punto \\(c\\) che soddisfa il teorema.",
     "solution": "Non applicabile: $f$ è discontinua in $x=0 \\in \\bigl[-\\tfrac{1}{2}, 1\\bigr]$.",
-    "id": 333
+    "id": 435
   },
   {
     "subject": "matematica",
@@ -5083,7 +6619,7 @@ const EXERCISES = [
     "subtitle": "Parametro $a$ per Lagrange: $x^3+ax$ su $[-1,1]$",
     "text": "Trova il valore di \\(a\\) tale che la funzione \\(f(x) = x^3 + ax\\) soddisfi il teorema di Lagrange nell'intervallo \\([-1;\\ 1]\\) e determina il punto \\(c\\) che soddisfa il teorema.",
     "solution": "$f$ è continua e derivabile per ogni $a$. $f'(c)=\\dfrac{f(1)-f(-1)}{2}=\\dfrac{(1+a)-(-1-a)}{2}=1+a$. $3c^2+a=1+a \\Rightarrow c^2=\\dfrac{1}{3} \\Rightarrow c=\\pm\\dfrac{1}{\\sqrt{3}}$ (per ogni $a$).",
-    "id": 334
+    "id": 436
   },
   {
     "subject": "matematica",
@@ -5099,7 +6635,7 @@ const EXERCISES = [
     "subtitle": "Parametro $b$ per Lagrange: $1/x$ su $[1,b]$ con $c=2$",
     "text": "Data la funzione \\(f(x) = \\dfrac{1}{x}\\) nell'intervallo \\([1;\\ b]\\), determina il valore di \\(b > 1\\) tale che il punto \\(c\\) che soddisfa il teorema di Lagrange sia \\(c = 2\\).",
     "solution": "$f'(c)=-\\dfrac{1}{c^2}=-\\dfrac{1}{4}$. $\\dfrac{f(b)-f(1)}{b-1}=\\dfrac{\\tfrac{1}{b}-1}{b-1}=-\\dfrac{1}{b}=-\\dfrac{1}{4} \\Rightarrow b=4$",
-    "id": 335
+    "id": 437
   },
   {
     "subject": "matematica",
@@ -5115,7 +6651,7 @@ const EXERCISES = [
     "subtitle": "Parametri $a,b$ per Lagrange: funzione a tratti su $[-2,0]$",
     "text": "Trova il valore di \\(a\\) e \\(b\\) tale che la funzione\n\\[\nf(x) = \\begin{cases}\nx^2 +ax-1, & \\text{se } x < -1 \\\\\n-4x^2+x+b, & \\text{se } x \\ge -1\n\\end{cases}\n\\]\nsoddisfi il teorema di Lagrange nell'intervallo \\([-2;\\ 0]\\) e determina il punto \\(c\\) che soddisfa il teorema.",
     "solution": "Continuità in $x=-1$: $1-a-1=-4-1+b \\Rightarrow b=5-a$. Derivabilità: $-2+a=8+1=9 \\Rightarrow a=11,\\ b=-6$. $c_1=-\\tfrac{9}{4}$ oppure $c_2=-\\tfrac{11}{16}$.",
-    "id": 336
+    "id": 438
   },
   {
     "subject": "matematica",
@@ -5131,7 +6667,7 @@ const EXERCISES = [
     "subtitle": "Lagrange per $|x^2-6x+5|$ su $[0,2]$ e $[2,a]$",
     "text": "Data la funzione $f(x) = |x^2 - 6x + 5|$, determina se soddisfa il teorema di Lagrange nell'intervallo \\([0;\\ 2]\\). Determina inoltre il valore massimo del parametro $a$ affinché il teorema di Lagrange sia valido nell'intervallo $[2, a]$ e, in caso affermativo, determina i valori che soddisfano il teorema.",
     "solution": "Su $[0,2]$: non applicabile ($f$ non derivabile in $x=1$). Su $[2,a]$ con $a \\le 5$: $f(x)=-x^2+6x-5$, $c=1+\\dfrac{a}{2} \\in (2, a)$. Valore massimo $a=5$.",
-    "id": 337
+    "id": 439
   },
   {
     "subject": "matematica",
@@ -5147,7 +6683,7 @@ const EXERCISES = [
     "subtitle": "Lagrange per $|x^2-4x+3|$ su $[0,2]$ e $[2,a]$",
     "text": "Data la funzione $f(x) = |x^2 - 4x + 3|$, determina se soddisfa il teorema di Lagrange nell'intervallo \\([0;\\ 2]\\). Determina inoltre il valore massimo del parametro $a$ affinché il teorema di Lagrange sia valido nell'intervallo $[2, a]$ e, in caso affermativo, determina i valori che soddisfano il teorema.",
     "solution": "Su $[0,2]$: non applicabile ($f$ non derivabile in $x=1$). Su $[2,a]$ con $a \\le 3$: $f(x)=-x^2+4x-3$, $c=1+\\dfrac{a}{2} \\in (2, a)$. Valore massimo $a=3$.",
-    "id": 338
+    "id": 440
   },
   {
     "subject": "matematica",
@@ -5162,7 +6698,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle per $f(x)=x^2-4x+3$ su $[1,3]$",
     "text": "Verificare se la funzione \\(f(x) = x^2 - 4x + 3\\) soddisfa le ipotesi del teorema di Rolle nell'intervallo \\([1;\\ 3]\\) e, in caso affermativo, trovare il punto \\(c\\) in cui \\(f'(c) = 0\\).",
     "solution": "$f(1)=0=f(3)$, $f$ continua e derivabile su $[1,3]$. $f'(x)=2x-4=0 \\Rightarrow c=2$",
-    "id": 339
+    "id": 441
   },
   {
     "subject": "matematica",
@@ -5177,7 +6713,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle per $\\sin(x)$ su $[0,\\pi]$",
     "text": "Sia \\(f(x) = \\sin(x)\\). Verificare che \\(f(0) = f(\\pi)\\) e trovare un valore \\(c \\in (0;\\ \\pi)\\) tale che \\(f'(c) = 0\\).",
     "solution": "$f(0)=0=f(\\pi)$. $f'(x)=\\cos(x)=0 \\Rightarrow c=\\dfrac{\\pi}{2}$",
-    "id": 340
+    "id": 442
   },
   {
     "subject": "matematica",
@@ -5192,7 +6728,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle per $f(x)=x^3-x$ su $[-1,1]$",
     "text": "Considera la funzione \\(f(x) = x^3 - x\\) nell'intervallo \\([-1;\\ 1]\\). Mostrare che soddisfa le ipotesi del teorema di Rolle e determinare il valore di \\(c\\) in \\((-1, 1)\\) per cui \\(f'(c) = 0\\).",
     "solution": "$f(-1)=0=f(1)$. $f'(x)=3x^2-1=0 \\Rightarrow c=\\pm\\dfrac{1}{\\sqrt{3}}$",
-    "id": 341
+    "id": 443
   },
   {
     "subject": "matematica",
@@ -5207,7 +6743,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle per $f(x)=e^{-x",
     "text": "Applica il teorema di Rolle alla funzione \\(f(x) = e^{-x}\\sin(x)\\) nell'intervallo \\([0;\\ \\pi]\\). Trovare il punto \\(c\\) in cui la derivata si annulla.",
     "solution": "$f(0)=0=f(\\pi)$. $f'(x)=e^{-x}(\\cos x - \\sin x)=0 \\Rightarrow \\tan c = 1 \\Rightarrow c=\\dfrac{\\pi}{4}$",
-    "id": 342
+    "id": 444
   },
   {
     "subject": "matematica",
@@ -5222,7 +6758,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle per $f(x)=x^2-5x$ su $[1,4]$",
     "text": "Applica il teorema di Rolle alla funzione \\(f(x) = x^2 - 5x\\), nell'intervallo \\([1;\\ 4]\\). Trovare il punto \\(c\\) in cui la derivata si annulla.",
     "solution": "$f(1)=-4=f(4)$. $f'(x)=2x-5=0 \\Rightarrow c=\\dfrac{5}{2}$",
-    "id": 343
+    "id": 445
   },
   {
     "subject": "matematica",
@@ -5237,7 +6773,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle per $f(x)=x^2-5x$ su $[1,4]$ — variante",
     "text": "Applica il teorema di Rolle alla funzione \\(f(x) = x^2 - 5x\\), nell'intervallo \\([1;\\ 4]\\). Trovare il punto \\(c\\) in cui la derivata si annulla.",
     "solution": "$f(1)=-4=f(4)$. $f'(x)=2x-5=0 \\Rightarrow c=\\dfrac{5}{2}$",
-    "id": 344
+    "id": 446
   },
   {
     "subject": "matematica",
@@ -5253,7 +6789,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle non applicabile: $f(x)=1/(x-1)$ su $[1/2,3]$",
     "text": "Applica il teorema di Rolle alla funzione \\(f(x) = \\dfrac{1}{x-1}\\), nell'intervallo \\(\\bigl[\\tfrac{1}{2};\\ 3\\bigr]\\). Trovare il punto \\(c\\) in cui la derivata si annulla.",
     "solution": "Teorema non applicabile: $f$ è discontinua in $x=1 \\in \\bigl[\\tfrac{1}{2}, 3\\bigr]$.",
-    "id": 345
+    "id": 447
   },
   {
     "subject": "matematica",
@@ -5269,7 +6805,7 @@ const EXERCISES = [
     "subtitle": "Teorema di Rolle non applicabile: $f(x)=4x^2-2x$ su $[-1,3]$",
     "text": "Applica il teorema di Rolle alla funzione \\(f(x) = 4x^2 -2x\\), nell'intervallo \\([-1;\\ 3]\\). Trovare il punto \\(c\\) in cui la derivata si annulla.",
     "solution": "Teorema non applicabile: $f(-1)=6 \\ne f(3)=30$.",
-    "id": 346
+    "id": 448
   },
   {
     "subject": "matematica",
@@ -5285,7 +6821,7 @@ const EXERCISES = [
     "subtitle": "Parametro $a$ per Rolle: $ax^3+(a-1)x$ su $[-1,2]$",
     "text": "Trova i valori dei parametri in modo che la seguente funzione $f(x) = ax^3 + (a-1)x$ verifichi il teorema di Rolle nell'intervallo $[-1;\\ 2]$. Determina il punto (o i punti) la cui esistenza è assicurata dal teorema.",
     "solution": "$a=\\dfrac{1}{4},\\ c=1$",
-    "id": 347
+    "id": 449
   },
   {
     "subject": "matematica",
@@ -5301,7 +6837,7 @@ const EXERCISES = [
     "subtitle": "Parametro $a$ per Rolle: $(a+2)x^4-2ax+4$ su $[-1,1]$",
     "text": "Trova i valori dei parametri in modo che la seguente funzione $f(x) = (a+2)x^4 -2ax +4$ verifichi il teorema di Rolle nell'intervallo $[-1;\\ 1]$. Determina il punto (o i punti) la cui esistenza è assicurata dal teorema.",
     "solution": "$a=0,\\ c=0$",
-    "id": 348
+    "id": 450
   },
   {
     "subject": "matematica",
@@ -5315,7 +6851,7 @@ const EXERCISES = [
     "subtitle": "Verifica della circonferenza $x^2+y^2-4x+6y-3=0$",
     "text": "Verifica se l'equazione $x^2+y^2-4x+6y-3=0$ rappresenta una circonferenza e determina eventualmente centro e raggio.",
     "solution": "$C(2,-3),\\ r=4$",
-    "id": 349
+    "id": 451
   },
   {
     "subject": "matematica",
@@ -5329,7 +6865,7 @@ const EXERCISES = [
     "subtitle": "Verifica di una circonferenza non reale",
     "text": "Verifica se l'equazione $x^2+y^2+2x-8y+20=0$ rappresenta una circonferenza.",
     "solution": "L'equazione non rappresenta una circonferenza reale.",
-    "id": 350
+    "id": 452
   },
   {
     "subject": "matematica",
@@ -5344,7 +6880,7 @@ const EXERCISES = [
     "subtitle": "Valori di $k$ per la forma canonica della circonferenza",
     "text": "Studia per quali valori di $k$ l'equazione $x^2+y^2+(k-1)x+2y-5=0$ rappresenta una circonferenza.",
     "solution": "$\\forall k\\in\\mathbb{R}$",
-    "id": 351
+    "id": 453
   },
   {
     "subject": "matematica",
@@ -5359,7 +6895,7 @@ const EXERCISES = [
     "subtitle": "Intervallo di $k$ per cui esiste la circonferenza",
     "text": "Studia per quali valori di $k$ l'equazione $x^2+y^2+2(k-2)x+(k+1)y+1=0$ rappresenta una circonferenza.",
     "solution": "$k<\\dfrac{7-2\\sqrt{11}}{5} \\vee k>\\dfrac{7+2\\sqrt{11}}{5}$",
-    "id": 352
+    "id": 454
   },
   {
     "subject": "matematica",
@@ -5374,7 +6910,7 @@ const EXERCISES = [
     "subtitle": "Raggio costante al variare di $k$",
     "text": "Studia per quali valori di $k$ l'equazione $x^2+y^2-2kx+4y+k^2-9=0$ rappresenta una circonferenza.",
     "solution": "$\\forall k\\in\\mathbb{R},\\ r=\\sqrt{13}$",
-    "id": 353
+    "id": 455
   },
   {
     "subject": "matematica",
@@ -5388,7 +6924,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza con centro nell'origine e $r=3$",
     "text": "Scrivi l'equazione della circonferenza con centro $C(0,0)$ e raggio $r=3$.",
     "solution": "$x^2+y^2=9$",
-    "id": 354
+    "id": 456
   },
   {
     "subject": "matematica",
@@ -5402,7 +6938,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza con centro $C(2,-1)$ e $r=4$",
     "text": "Scrivi l'equazione della circonferenza con centro $C(2,-1)$ e raggio $r=4$.",
     "solution": "$(x-2)^2+(y+1)^2=16$",
-    "id": 355
+    "id": 457
   },
   {
     "subject": "matematica",
@@ -5416,7 +6952,7 @@ const EXERCISES = [
     "subtitle": "Verifica dell'appartenenza del punto $P(3,0)$",
     "text": "Verifica se il punto $P(3,0)$ appartiene alla circonferenza $x^2 + y^2 = 9$.",
     "solution": "Sì, $P(3,0)$ appartiene alla circonferenza.",
-    "id": 356
+    "id": 458
   },
   {
     "subject": "matematica",
@@ -5430,7 +6966,7 @@ const EXERCISES = [
     "subtitle": "Centro e raggio di $x^2+y^2-4x+6y=3$",
     "text": "Trova il centro e il raggio della circonferenza $x^2 + y^2 - 4x + 6y = 3$.",
     "solution": "$C(2,-3),\\ r=4$",
-    "id": 357
+    "id": 459
   },
   {
     "subject": "matematica",
@@ -5444,7 +6980,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza avente un segmento come diametro",
     "text": "Scrivi l'equazione della circonferenza avente diametro con estremi $A(1,2)$ e $B(5,6)$.",
     "solution": "$(x-3)^2+(y-4)^2=8$",
-    "id": 358
+    "id": 460
   },
   {
     "subject": "matematica",
@@ -5458,7 +6994,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per tre punti $A(0,0)$, $B(2,0)$, $C(0,2)$",
     "text": "Determina l'equazione della circonferenza passante per i punti $A(0,0)$, $B(2,0)$, $C(0,2)$.",
     "solution": "$(x-1)^2+(y-1)^2=2$",
-    "id": 359
+    "id": 461
   },
   {
     "subject": "matematica",
@@ -5472,7 +7008,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza con centro sull'asse $x$ per $A(1,2)$ e $B(3,4)$",
     "text": "Scrivi l'equazione della circonferenza con centro sull'asse $x$, passante per $A(1,2)$ e $B(3,4)$.",
     "solution": "$(x-2)^2+y^2=5$",
-    "id": 360
+    "id": 462
   },
   {
     "subject": "matematica",
@@ -5486,7 +7022,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per $A(1,0)$ e $B(0,1)$ con centro su $x=y$",
     "text": "Trova la circonferenza passante per $A(1,0)$, $B(0,1)$ con centro sulla retta $x=y$.",
     "solution": "$\\left(x-\\tfrac{1}{2}\\right)^2+\\left(y-\\tfrac{1}{2}\\right)^2=\\tfrac{1}{2}$",
-    "id": 361
+    "id": 463
   },
   {
     "subject": "matematica",
@@ -5500,7 +7036,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per $A(2,0)$, $B(0,2)$, $C(2,2)$",
     "text": "Determina la circonferenza passante per $A(2,0)$, $B(0,2)$, $C(2,2)$.",
     "solution": "$(x-1)^2+(y-1)^2=1$",
-    "id": 362
+    "id": 464
   },
   {
     "subject": "matematica",
@@ -5514,7 +7050,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza con centro sull'asse $y$ tangente all'asse $x$",
     "text": "Trova la circonferenza con centro sull'asse $y$, passante per $A(2,1)$ e tangente all'asse $x$.",
     "solution": "$x^2+(y-1)^2=4$",
-    "id": 363
+    "id": 465
   },
   {
     "subject": "matematica",
@@ -5528,7 +7064,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per $A(0,0)$ e $B(4,0)$ tangente all'asse $y$",
     "text": "Scrivi la circonferenza passante per $A(0,0)$, $B(4,0)$ e tangente all'asse $y$.",
     "solution": "$(x-2)^2+(y-2)^2=8$",
-    "id": 364
+    "id": 466
   },
   {
     "subject": "matematica",
@@ -5542,7 +7078,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per $A(1,1)$, $B(3,1)$, $C(2,4)$",
     "text": "Determina la circonferenza passante per $A(1,1)$, $B(3,1)$, $C(2,4)$.",
     "solution": "$(x-2)^2+(y-2)^2=2$",
-    "id": 365
+    "id": 467
   },
   {
     "subject": "matematica",
@@ -5556,7 +7092,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza con centro su $y=x$ per $A(2,0)$ e $B(0,2)$",
     "text": "Trova la circonferenza con centro sulla retta $y=x$ passante per $A(2,0)$ e $B(0,2)$.",
     "solution": "$(x-1)^2+(y-1)^2=2$",
-    "id": 366
+    "id": 468
   },
   {
     "subject": "matematica",
@@ -5570,7 +7106,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per $A(0,0)$, $B(2,4)$, $C(4,0)$",
     "text": "Determina la circonferenza passante per $A(0,0)$, $B(2,4)$, $C(4,0)$.",
     "solution": "$(x-2)^2+(y-1)^2=5$",
-    "id": 367
+    "id": 469
   },
   {
     "subject": "matematica",
@@ -5584,7 +7120,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per $A(1,0)$, $B(3,2)$, $C(5,0)$",
     "text": "Trova la circonferenza passante per $A(1,0)$, $B(3,2)$, $C(5,0)$.",
     "solution": "$(x-3)^2+(y-1)^2=2$",
-    "id": 368
+    "id": 470
   },
   {
     "subject": "matematica",
@@ -5598,7 +7134,7 @@ const EXERCISES = [
     "subtitle": "Circonferenza per $A(0,1)$, $B(2,3)$, $C(4,1)$",
     "text": "Determina la circonferenza passante per $A(0,1)$, $B(2,3)$, $C(4,1)$.",
     "solution": "$(x-2)^2+(y-2)^2=2$",
-    "id": 369
+    "id": 471
   },
   {
     "subject": "matematica",
@@ -5614,7 +7150,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=2$ rispetto a $x^2+y^2=9$",
     "text": "Determina la posizione reciproca tra la retta $y=2$ e la circonferenza $x^2+y^2=9$.",
     "solution": "Secante",
-    "id": 370
+    "id": 472
   },
   {
     "subject": "matematica",
@@ -5630,7 +7166,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $x=3$ rispetto a $x^2+y^2=9$",
     "text": "Determina la posizione reciproca tra la retta $x=3$ e la circonferenza $x^2+y^2=9$.",
     "solution": "Tangente",
-    "id": 371
+    "id": 473
   },
   {
     "subject": "matematica",
@@ -5646,7 +7182,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=x$ rispetto a $x^2+y^2=4$",
     "text": "Stabilisci la posizione tra la retta $y=x$ e la circonferenza $x^2+y^2=4$.",
     "solution": "Secante",
-    "id": 372
+    "id": 474
   },
   {
     "subject": "matematica",
@@ -5662,7 +7198,7 @@ const EXERCISES = [
     "subtitle": "Intersezioni di $y=mx$ con la circonferenza unitaria al variare di $m$",
     "text": "La retta $y=mx$ interseca la circonferenza $x^2+y^2=1$. Studia il numero di intersezioni al variare di $m$.",
     "solution": "Sempre secante per ogni $m\\in\\mathbb{R}$",
-    "id": 373
+    "id": 475
   },
   {
     "subject": "matematica",
@@ -5678,7 +7214,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=k$ rispetto a $x^2+y^2=4$ al variare di $k$",
     "text": "Studia la posizione reciproca tra la retta $y=k$ e la circonferenza $x^2+y^2=4$ al variare di $k$.",
     "solution": "$|k|<2$ secante; $|k|=2$ tangente; $|k|>2$ esterna",
-    "id": 374
+    "id": 476
   },
   {
     "subject": "matematica",
@@ -5694,7 +7230,7 @@ const EXERCISES = [
     "subtitle": "Valori di $k$ per cui $y=x+k$ è tangente a $x^2+y^2=1$",
     "text": "Per quali valori di $k$ la retta $y=x+k$ è tangente alla circonferenza $x^2+y^2=1$?",
     "solution": "$k=\\pm\\sqrt{2}$",
-    "id": 375
+    "id": 477
   },
   {
     "subject": "matematica",
@@ -5710,7 +7246,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=mx+1$ rispetto a $x^2+y^2=4$ al variare di $m$",
     "text": "Studia la posizione tra la retta $y=mx+1$ e la circonferenza $x^2+y^2=4$ al variare di $m$.",
     "solution": "Sempre secante per ogni $m\\in\\mathbb{R}$",
-    "id": 376
+    "id": 478
   },
   {
     "subject": "matematica",
@@ -5726,7 +7262,7 @@ const EXERCISES = [
     "subtitle": "Valori di $k$ per cui $y=2x+k$ è esterna a $x^2+y^2=1$",
     "text": "Per quali valori di $k$ la retta $y=2x+k$ è esterna alla circonferenza $x^2+y^2=1$?",
     "solution": "$|k|>\\sqrt{5}$",
-    "id": 377
+    "id": 479
   },
   {
     "subject": "matematica",
@@ -5741,7 +7277,7 @@ const EXERCISES = [
     "subtitle": "Valori di $k$ per cui $kx+y=1$ è tangente alla circonferenza unitaria",
     "text": "Determina per quali valori di $k$ la retta $kx+y=1$ è tangente alla circonferenza $x^2+y^2=1$.",
     "solution": "$k=0$",
-    "id": 378
+    "id": 480
   },
   {
     "subject": "matematica",
@@ -5757,7 +7293,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=kx$ rispetto a $x^2+y^2=1$ e tangenza",
     "text": "Studia la posizione reciproca tra la retta $y=kx$ e la circonferenza $x^2+y^2=1$ e determina per quali $k$ è tangente.",
     "solution": "Nessun valore di $k$ rende la retta tangente",
-    "id": 379
+    "id": 481
   },
   {
     "subject": "matematica",
@@ -5773,7 +7309,7 @@ const EXERCISES = [
     "subtitle": "Corda di lunghezza 4 con retta orizzontale sulla circonferenza",
     "text": "Determina le equazioni delle rette parallele all'asse $x$ che individuano sulla circonferenza $x^2+y^2-4x-2y-4=0$ una corda di lunghezza $4$.",
     "solution": "$y=1\\pm\\sqrt{3}$",
-    "id": 380
+    "id": 482
   },
   {
     "subject": "matematica",
@@ -5788,7 +7324,7 @@ const EXERCISES = [
     "subtitle": "Corda di lunghezza $2\\sqrt{2",
     "text": "Determina le equazioni delle rette parallele alla bisettrice del primo e terzo quadrante che individuano sulla circonferenza $x^2+y^2-2x-2y-3=0$ una corda di lunghezza $2\\sqrt{2}$.",
     "solution": "$y=x+1,\\ y=x-3$",
-    "id": 381
+    "id": 483
   },
   {
     "subject": "matematica",
@@ -5803,7 +7339,7 @@ const EXERCISES = [
     "subtitle": "Corda di lunghezza 6 parallela a $y=2x$ sulla circonferenza",
     "text": "Determina le equazioni delle rette parallele alla retta $y=2x$ che individuano sulla circonferenza $x^2+y^2-6x+2y-3=0$ una corda di lunghezza $6$.",
     "solution": "$y=2x+3,\\ y=2x-9$",
-    "id": 382
+    "id": 484
   },
   {
     "subject": "matematica",
@@ -5818,7 +7354,7 @@ const EXERCISES = [
     "subtitle": "Corda di lunghezza $2\\sqrt{5",
     "text": "Determina le equazioni delle rette parallele alla retta $x-y+1=0$ che individuano sulla circonferenza $x^2+y^2-2x+4y-4=0$ una corda di lunghezza $2\\sqrt{5}$.",
     "solution": "$x-y+1\\pm\\sqrt{5}=0$",
-    "id": 383
+    "id": 485
   },
   {
     "subject": "matematica",
@@ -5834,7 +7370,7 @@ const EXERCISES = [
     "subtitle": "Corda di lunghezza 4 parallela a $y=-x$ sulla circonferenza",
     "text": "Determina le equazioni delle rette parallele alla retta $y=-x$ che individuano sulla circonferenza $x^2+y^2-4x+6y-3=0$ una corda di lunghezza $4$.",
     "solution": "$y=-x-1\\pm 2\\sqrt{6}$",
-    "id": 384
+    "id": 486
   },
   {
     "subject": "matematica",
@@ -5850,7 +7386,7 @@ const EXERCISES = [
     "subtitle": "Tangente a $x^2+y^2=9$ nel punto $P(3,0)$",
     "text": "Scrivi l'equazione della retta tangente alla circonferenza $x^2+y^2=9$ nel punto $P(3,0)$.",
     "solution": "$x=3$",
-    "id": 385
+    "id": 487
   },
   {
     "subject": "matematica",
@@ -5865,7 +7401,7 @@ const EXERCISES = [
     "subtitle": "Tangente a $x^2+y^2=4$ nel punto $P(0,2)$",
     "text": "Scrivi la retta tangente alla circonferenza $x^2+y^2=4$ nel punto $P(0,2)$.",
     "solution": "$y=2$",
-    "id": 386
+    "id": 488
   },
   {
     "subject": "matematica",
@@ -5880,7 +7416,7 @@ const EXERCISES = [
     "subtitle": "Tangente a $x^2+y^2=25$ nel punto $P(3,4)$",
     "text": "Trova l'equazione della tangente alla circonferenza $x^2+y^2=25$ nel punto $P(3,4)$.",
     "solution": "$3x+4y=25$",
-    "id": 387
+    "id": 489
   },
   {
     "subject": "matematica",
@@ -5895,7 +7431,7 @@ const EXERCISES = [
     "subtitle": "Tangente a $x^2+y^2=10$ nel punto $P(1,3)$",
     "text": "Determina la retta tangente alla circonferenza $x^2+y^2=10$ nel punto $P(1,3)$.",
     "solution": "$x+3y=10$",
-    "id": 388
+    "id": 490
   },
   {
     "subject": "matematica",
@@ -5910,7 +7446,7 @@ const EXERCISES = [
     "subtitle": "Tangente a $x^2+y^2=13$ nel punto $P(2,3)$",
     "text": "Trova l'equazione della tangente alla circonferenza $x^2+y^2=13$ nel punto $P(2,3)$ e verifica che il punto appartenga alla circonferenza.",
     "solution": "$2x+3y=13$",
-    "id": 389
+    "id": 491
   },
   {
     "subject": "matematica",
@@ -5925,7 +7461,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $C_1: x^2+y^2=9$ e $C_2: x^2+y^2=4$",
     "text": "Determina la posizione reciproca tra le circonferenze:\n$C_1: x^2+y^2=9$ e $C_2: x^2+y^2=4$.",
     "solution": "Circonferenze concentriche",
-    "id": 390
+    "id": 492
   },
   {
     "subject": "matematica",
@@ -5940,7 +7476,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $C_1: x^2+y^2=9$ e $C_2: (x-5)^2+y^2=4$",
     "text": "Determina la posizione tra:\n$C_1: x^2+y^2=9$ e $C_2: (x-5)^2+y^2=4$.",
     "solution": "Tangenti esternamente",
-    "id": 391
+    "id": 493
   },
   {
     "subject": "matematica",
@@ -5955,7 +7491,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $C_1: (x-1)^2+y^2=4$ e $C_2: (x-6)^2+y^2=9$",
     "text": "Studia la posizione tra:\n$C_1: (x-1)^2+y^2=4$ e $C_2: (x-6)^2+y^2=9$.",
     "solution": "Tangenti esternamente",
-    "id": 392
+    "id": 494
   },
   {
     "subject": "matematica",
@@ -5970,7 +7506,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $C_1: x^2+y^2=25$ e $C_2: (x-3)^2+y^2=9$",
     "text": "Determina la posizione tra:\n$C_1: x^2+y^2=25$ e $C_2: (x-3)^2+y^2=9$.",
     "solution": "Secanti",
-    "id": 393
+    "id": 495
   },
   {
     "subject": "matematica",
@@ -5986,7 +7522,7 @@ const EXERCISES = [
     "subtitle": "Posizione reciproca di due circonferenze al variare di $k$",
     "text": "Studia la posizione reciproca al variare di $k$ tra:\n$C_1: x^2+y^2=4$ e $C_2: (x-k)^2+y^2=1$.",
     "solution": "Secanti: $1<|k|<3$; tangenti interne: $|k|=1$; tangenti esterne: $|k|=3$; interne: $|k|<1$; esterne: $|k|>3$",
-    "id": 394
+    "id": 496
   },
   {
     "subject": "matematica",
@@ -6001,7 +7537,7 @@ const EXERCISES = [
     "subtitle": "Fascio $x^2+y^2+2x-4y+k=0$: centro, raggio e $k$ per l'origine",
     "text": "Considera il fascio $x^2+y^2+2x-4y+k=0$.\n\\begin{enumerate}\n\\item Determina il centro e il raggio della circonferenza.\n\\item Trova il valore di $k$ per cui la circonferenza passa per l'origine.\n\\end{enumerate}",
     "solution": "$C(-1,2),\\ r=\\sqrt{5-k},\\ k=0$",
-    "id": 395
+    "id": 497
   },
   {
     "subject": "matematica",
@@ -6016,7 +7552,7 @@ const EXERCISES = [
     "subtitle": "Fascio $x^2+y^2-4x+k(x^2+y^2-4y)=0$: centro e degenere",
     "text": "Considera il fascio $x^2+y^2-4x+k(x^2+y^2-4y)=0$.\n\\begin{enumerate}\n\\item Determina il centro del fascio.\n\\item Trova $k$ per cui la circonferenza è tangente all'asse $x$.\n\\item Studia per quali $k$ la circonferenza è degenere.\n\\end{enumerate}",
     "solution": "$C\\!\\left(2,\\dfrac{2k}{1+k}\\right)$; tangente per $k=0$ o $k=-2$; degenere per $k=-1$",
-    "id": 396
+    "id": 498
   },
   {
     "subject": "matematica",
@@ -6031,7 +7567,7 @@ const EXERCISES = [
     "subtitle": "Fascio $(x^2+y^2-2x)+k(x^2+y^2+2y)=0$: punti base e asse radicale",
     "text": "Considera il fascio $(x^2+y^2-2x) + k(x^2+y^2+2y)=0$.\n\\begin{enumerate}\n\\item Determina i punti base del fascio.\n\\item Trova l'asse radicale.\n\\item Determina per quali $k$ la circonferenza passa per $P(1,-1)$.\n\\end{enumerate}",
     "solution": "$C_1(1,0,r=1)$, $C_2(0,-1,r=1)$; asse radicale: $x+y=0$; $k=0$",
-    "id": 397
+    "id": 499
   },
   {
     "subject": "matematica",
@@ -6046,7 +7582,7 @@ const EXERCISES = [
     "subtitle": "Fascio $x^2+y^2-6x+k(x^2+y^2-2y)=0$: centro e tangenza",
     "text": "Considera il fascio $x^2+y^2-6x+k(x^2+y^2-2y)=0$.\n\\begin{enumerate}\n\\item Determina centro e raggio in funzione di $k$.\n\\item Trova $k$ per cui la circonferenza è tangente alla retta $x=0$.\n\\item Determina per quali $k$ la circonferenza ha area $4\\pi$.\n\\end{enumerate}",
     "solution": "Centro $C\\!\\left(\\dfrac{3}{1+k},\\dfrac{k}{1+k}\\right)$, $r^2=\\dfrac{9+k^2}{(1+k)^2}$; tangente per $k=0$ o $k=-3$; area $4\\pi$ per $k=-1\\pm2$",
-    "id": 398
+    "id": 500
   },
   {
     "subject": "matematica",
@@ -6061,7 +7597,7 @@ const EXERCISES = [
     "subtitle": "Fascio $x^2+y^2+2x+k(x^2+y^2-4y)=0$: luogo dei centri",
     "text": "Considera il fascio $x^2+y^2+2x+k(x^2+y^2-4y)=0$.\n\\begin{enumerate}\n\\item Determina il luogo dei centri al variare di $k$.\n\\item Trova il valore di $k$ per cui la circonferenza è tangente alla circonferenza $x^2+y^2=1$.\n\\item Determina per quali $k$ il centro si trova nel primo quadrante.\n\\end{enumerate}",
     "solution": "Centro $C\\!\\left(\\dfrac{-1}{1+k},\\dfrac{2k}{1+k}\\right)$; tangente per $k=0$ o $k=-2$; $-1<k<0$",
-    "id": 399
+    "id": 501
   },
   {
     "subject": "matematica",
@@ -6076,7 +7612,7 @@ const EXERCISES = [
     "subtitle": "Parabola $y=x^2$: vertice, asse, fuoco e direttrice",
     "text": "Considera la parabola di equazione $y=x^2$. Determina vertice, asse, concavità, fuoco e direttrice e rappresentala nel piano cartesiano.",
     "solution": "$V(0,0),\\ x=0,\\ F\\!\\left(0,\\tfrac{1}{4}\\right),\\ y=-\\tfrac{1}{4}$",
-    "id": 400
+    "id": 502
   },
   {
     "subject": "matematica",
@@ -6090,7 +7626,7 @@ const EXERCISES = [
     "subtitle": "Parabola $x=2y^2-3y+8$: elementi caratteristici",
     "text": "Data la parabola $x=2y^2-3y+8$, determina vertice, asse, fuoco e direttrice e rappresentala nel piano cartesiano.",
     "solution": "$V\\!\\left(\\tfrac{31}{8},\\tfrac{3}{4}\\right),\\ y=\\tfrac{3}{4},\\ F\\!\\left(\\tfrac{33}{8},\\tfrac{3}{4}\\right),\\ x=\\tfrac{29}{8}$",
-    "id": 401
+    "id": 503
   },
   {
     "subject": "matematica",
@@ -6104,7 +7640,7 @@ const EXERCISES = [
     "subtitle": "Parabola $(x-2)^2=12(y+1)$: elementi caratteristici",
     "text": "Data la parabola $(x-2)^2=12(y+1)$, determina vertice, asse, fuoco, direttrice e concavità e rappresentala nel piano cartesiano.",
     "solution": "$V(2,-1),\\ x=2,\\ F(2,2),\\ y=-4$, concavità $\\uparrow$",
-    "id": 402
+    "id": 504
   },
   {
     "subject": "matematica",
@@ -6119,7 +7655,7 @@ const EXERCISES = [
     "subtitle": "Luogo equidistante da $F(0,2)$ e dalla retta $y=-2$",
     "text": "Determina il luogo dei punti equidistanti da $F(0,2)$ e dalla retta $y=-2$, trovandone equazione, vertice, asse e fuoco.",
     "solution": "$x^2=8y,\\ V(0,0),\\ x=0,\\ F(0,2)$",
-    "id": 403
+    "id": 505
   },
   {
     "subject": "matematica",
@@ -6133,7 +7669,7 @@ const EXERCISES = [
     "subtitle": "Parabola $y=-x^2+4x-3$: forma canonica e fuoco",
     "text": "Data la parabola $y=-x^2+4x-3$, determinane vertice, asse, forma canonica, fuoco e direttrice.",
     "solution": "$y=-(x-2)^2+1,\\ V(2,1),\\ x=2,\\ F\\!\\left(2,\\tfrac{3}{4}\\right),\\ y=\\tfrac{5}{4}$",
-    "id": 404
+    "id": 506
   },
   {
     "subject": "matematica",
@@ -6147,7 +7683,7 @@ const EXERCISES = [
     "subtitle": "Parabola con vertice $V(1,0)$ e fuoco $F(3,0)$",
     "text": "Determina l'equazione e la direttrice della parabola avente vertice $V(1,0)$ e fuoco $F(3,0)$.",
     "solution": "$y^2=8(x-1),\\ x=-1$",
-    "id": 405
+    "id": 507
   },
   {
     "subject": "matematica",
@@ -6161,7 +7697,7 @@ const EXERCISES = [
     "subtitle": "Parabola con direttrice $y=-3$ e fuoco $F(0,3)$",
     "text": "Trova vertice, equazione e concavità della parabola avente direttrice $y=-3$ e fuoco $F(0,3)$.",
     "solution": "$V(0,0),\\ x^2=12y$, concavità $\\uparrow$",
-    "id": 406
+    "id": 508
   },
   {
     "subject": "matematica",
@@ -6176,7 +7712,7 @@ const EXERCISES = [
     "subtitle": "Valore di $k$ affinché la parabola $y=x^2+k$ abbia direttrice $y=1$",
     "text": "Determina per quali valori di $k$ la parabola $y=x^2+k$ ha direttrice $y=1$ e trova il fuoco.",
     "solution": "$k=\\tfrac{5}{4},\\ F\\!\\left(0,\\tfrac{3}{2}\\right)$",
-    "id": 407
+    "id": 509
   },
   {
     "subject": "matematica",
@@ -6191,7 +7727,7 @@ const EXERCISES = [
     "subtitle": "Luogo equidistante da $F(2,0)$ e dalla retta $x=-2$",
     "text": "Determina il luogo dei punti equidistanti da $F(2,0)$ e dalla retta $x=-2$, trovandone equazione, vertice, asse e direttrice.",
     "solution": "$y^2=8x,\\ V(0,0),\\ y=0,\\ x=-2$",
-    "id": 408
+    "id": 510
   },
   {
     "subject": "matematica",
@@ -6205,7 +7741,7 @@ const EXERCISES = [
     "subtitle": "Parabola verticale per l'origine passante per $P(2,1)$",
     "text": "Determina equazione, fuoco e direttrice della parabola con asse verticale, vertice nell'origine e passante per $P(2,1)$.",
     "solution": "$y=\\tfrac{1}{4}x^2,\\ F(0,1),\\ y=-1$",
-    "id": 409
+    "id": 511
   },
   {
     "subject": "matematica",
@@ -6221,7 +7757,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=x^2-4$ e $y=-2x+4$ con corda",
     "text": "Data la parabola $y=x^2-4$ e la retta $y=-2x+4$, determina la posizione reciproca, i punti di intersezione e la lunghezza della corda individuata.",
     "solution": "Secante; $P(2,0)$ e $P'(-4,12)$; $L=6\\sqrt{5}$",
-    "id": 410
+    "id": 512
   },
   {
     "subject": "matematica",
@@ -6237,7 +7773,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=x^2-2x+1$ e $y=-x+1$ con corda",
     "text": "Data la parabola $y=x^2-2x+1$ e la retta $y=-x+1$, determina la posizione reciproca e la corda intercettata.",
     "solution": "Secante; $L=\\sqrt{2}$",
-    "id": 411
+    "id": 513
   },
   {
     "subject": "matematica",
@@ -6252,7 +7788,7 @@ const EXERCISES = [
     "subtitle": "Tangenza tra $y=x^2+6x+9$ e l'asse $x$",
     "text": "Studia la posizione tra $y=x^2+6x+9$ e $y=0$ determinando i punti comuni.",
     "solution": "Tangente; $P(-3,0)$",
-    "id": 412
+    "id": 514
   },
   {
     "subject": "matematica",
@@ -6268,7 +7804,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=x^2$ e $y=mx+1$ al variare di $m$",
     "text": "Studia la posizione tra $y=x^2$ e $y=mx+1$, determinando eventuali condizioni di tangenza.",
     "solution": "Sempre secante per ogni $m\\in\\mathbb{R}$",
-    "id": 413
+    "id": 515
   },
   {
     "subject": "matematica",
@@ -6283,7 +7819,7 @@ const EXERCISES = [
     "subtitle": "Rette orizzontali con corda di lunghezza 6 su $y=x^2$",
     "text": "Trova le rette orizzontali che staccano dalla parabola $y=x^2$ una corda lunga $6$.",
     "solution": "$y=9$",
-    "id": 414
+    "id": 516
   },
   {
     "subject": "matematica",
@@ -6298,7 +7834,7 @@ const EXERCISES = [
     "subtitle": "Valori di $k$ per intersezione di $y=2x+k$ con $y=x^2-1$",
     "text": "Determina per quali valori di $k$ la retta $y=2x+k$ ha almeno un punto in comune con la parabola $y=x^2-1$.",
     "solution": "$k\\ge -2$",
-    "id": 415
+    "id": 517
   },
   {
     "subject": "matematica",
@@ -6314,7 +7850,7 @@ const EXERCISES = [
     "subtitle": "Valori di $m$ per cui $y=mx$ è tangente a $y=x^2+1$",
     "text": "Determina per quali $m$ la retta $y=mx$ è tangente alla parabola $y=x^2+1$.",
     "solution": "$m=\\pm 2$",
-    "id": 416
+    "id": 518
   },
   {
     "subject": "matematica",
@@ -6329,7 +7865,7 @@ const EXERCISES = [
     "subtitle": "Retta con corda di lunghezza 5 su $y=x^2-4x$",
     "text": "Determina l'equazione della retta parallela all'asse $x$ che stacca sulla parabola $y=x^2-4x$ una corda lunga $5$.",
     "solution": "$y=\\dfrac{9}{4}$",
-    "id": 417
+    "id": 519
   },
   {
     "subject": "matematica",
@@ -6344,7 +7880,7 @@ const EXERCISES = [
     "subtitle": "Posizione di $y=x^2$ e $y=mx+2$ al variare di $m$",
     "text": "Studia la posizione tra $y=x^2$ e $y=mx+2$.",
     "solution": "Sempre secante per ogni $m\\in\\mathbb{R}$",
-    "id": 418
+    "id": 520
   },
   {
     "subject": "matematica",
@@ -6360,7 +7896,7 @@ const EXERCISES = [
     "subtitle": "Valore di $k$ affinché $y=x+k$ stacchi corda lunga 3 su $y=x^2$",
     "text": "Trova $k$ affinché $y=x+k$ stacchi una corda lunga $3$ sulla parabola $y=x^2$.",
     "solution": "$k=\\dfrac{7}{8}$",
-    "id": 419
+    "id": 521
   },
   {
     "subject": "matematica",
@@ -6375,7 +7911,7 @@ const EXERCISES = [
     "subtitle": "Tangenti a $y=-x^2+3x$ per il punto $P(0,1)$",
     "text": "Determina le rette tangenti alla parabola $y=-x^2+3x$ passanti per il punto $P(0,1)$.",
     "solution": "$y=1$ e $y=-3x+1$",
-    "id": 420
+    "id": 522
   },
   {
     "subject": "matematica",
@@ -6390,7 +7926,7 @@ const EXERCISES = [
     "subtitle": "Tangenti a $y=-3x^2+2$ negli assi e area del triangolo",
     "text": "Determina le rette tangenti alla parabola di equazione $y = - 3x^2 + 2$ nei suoi punti d'intersezione con gli assi cartesiani e l'area del triangolo individuato da tali rette.",
     "solution": "Rette $y=-3x+2$; area $=2$",
-    "id": 421
+    "id": 523
   },
   {
     "subject": "matematica",
@@ -6405,7 +7941,7 @@ const EXERCISES = [
     "subtitle": "Tangente parallela a $y=2x$ alla parabola $y=x^2-3x+5$",
     "text": "Scrivi l'equazione della retta tangente alla parabola di equazione $y = x^2 - 3x + 5$ e parallela alla retta $y = 2x$. Determina poi le coordinate del punto di contatto tra la retta e la parabola.",
     "solution": "$y=2x+3$; punto di tangenza $P(2,3)$",
-    "id": 422
+    "id": 524
   },
   {
     "subject": "matematica",
@@ -6420,7 +7956,7 @@ const EXERCISES = [
     "subtitle": "Tangente perpendicolare a $y=-2x$ alla parabola $y=-\\frac12x^2+x$",
     "text": "Determina la retta tangente alla parabola $y = -\\dfrac{1}{2}x^2 + x$ perpendicolare a $y = -2x$.",
     "solution": "$y=\\dfrac{1}{2}x+\\dfrac{1}{2}$; punto di tangenza $P\\!\\left(1,\\dfrac{1}{2}\\right)$",
-    "id": 423
+    "id": 525
   },
   {
     "subject": "matematica",
@@ -6435,7 +7971,7 @@ const EXERCISES = [
     "subtitle": "Tangente perpendicolare a $y=-2x$ alla parabola (variante)",
     "text": "Determina la retta tangente alla parabola $y = -\\dfrac{1}{2}x^2 + x$ perpendicolare a $y = -2x$.",
     "solution": "$y=\\dfrac{1}{2}x+\\dfrac{1}{2}$",
-    "id": 424
+    "id": 526
   },
   {
     "subject": "matematica",
@@ -6450,7 +7986,7 @@ const EXERCISES = [
     "subtitle": "Fascio $y=x^2-2kx+k-1$: punti base e proprietà",
     "text": "Considera il fascio di parabole di equazione $y=x^2-2kx+k-1$ e determina i punti base e la caratteristica del fascio, la parabola passante per $P(1,1)$, quella avente asse di equazione $x=1$ e le eventuali parabole tangenti alla retta $y=0$.",
     "solution": "Punti base $(0,-1)$ e $(1,0)$; asse $x=k$; $k=-1$; mai tangente",
-    "id": 425
+    "id": 527
   },
   {
     "subject": "matematica",
@@ -6465,7 +8001,7 @@ const EXERCISES = [
     "subtitle": "Fascio $y=x^2+kx-2k$: punti base e proprietà",
     "text": "Considera il fascio $y=x^2+kx-2k$ e determina i punti base, la parabola passante per $P(2,0)$, quella con vertice sull'asse $y$ e le eventuali parabole tangenti alla retta $y=-1$.",
     "solution": "Punti base $(0,0)$ e $(2,0)$; passante per $P(2,0)$: impossibile; $k=0$; $k^2+8k-4=0$",
-    "id": 426
+    "id": 528
   },
   {
     "subject": "matematica",
@@ -6480,7 +8016,7 @@ const EXERCISES = [
     "subtitle": "Fascio $y=x^2+(k-1)x+k$: punti base e proprietà",
     "text": "Considera il fascio $y=x^2+(k-1)x+k$ e determina i punti base, la parabola passante per $P(0,2)$, quella con asse parallelo all'asse $y$ e le parabole tangenti all'asse $x$.",
     "solution": "Punti base $(0,0)$ e $(-1,1)$; $k=2$; $k^2-6k+1=0$",
-    "id": 427
+    "id": 529
   },
   {
     "subject": "matematica",
@@ -6495,7 +8031,7 @@ const EXERCISES = [
     "subtitle": "Fascio $y=x^2-2kx+k-1$: variante con vertice sull'asse $y$",
     "text": "Considera il fascio $y=x^2-2kx+k-1$ e determina i punti base, la parabola con vertice sull'asse $y$, quella passante per $P(1,1)$ e le parabole tangenti alla retta $y=1$.",
     "solution": "Raccogliendo $k$: $k(1-2x)+(x^2-1-y)=0$. I \\textbf{punti base} (indipendenti da $k$) si hanno per $1-2x=0$ e $y=x^2-1$, cioè l'unico punto $B\\!\\left(\\tfrac12,-\\tfrac34\\right)$. \\\\\nL'ascissa del vertice è $x_V=k$; \\textbf{vertice sull'asse $y$} $\\Rightarrow k=0$, parabola $y=x^2-1$. \\\\\n\\textbf{Passaggio per $P(1,1)$}: $1=1-2k+k-1\\Rightarrow k=-1$, parabola $y=x^2+2x-2$. \\\\\n\\textbf{Tangenza a $y=1$}: da $x^2-2kx+k-2=0$, $\\Delta=4(k^2-k+2)$; poiché $k^2-k+2$ ha discriminante $-7<0$ è sempre positivo, quindi $\\Delta>0$ per ogni $k$: \\emph{nessuna} parabola del fascio è tangente a $y=1$ (il vertice ha ordinata $-k^2+k-1\\le-\\tfrac34<1$, quindi la curva incontra sempre $y=1$ in due punti).",
-    "id": 428
+    "id": 530
   },
   {
     "subject": "matematica",
@@ -6511,7 +8047,7 @@ const EXERCISES = [
     "subtitle": "Fascio $y=x^2+kx+k-2$: punti base e tangenza",
     "text": "Considera il fascio $y=x^2+kx+k-2$ e determina i punti base, la parabola passante per $P(1,0)$, quella avente vertice sulla bisettrice $y=x$ e le parabole tangenti alla retta $y=-2$.",
     "solution": "Punti base $(0,-2)$ e $(2,0)$; $k=\\tfrac{1}{2}$; $k(k-4)=0$",
-    "id": 429
+    "id": 531
   },
   {
     "subject": "matematica",
@@ -6524,9 +8060,9 @@ const EXERCISES = [
       "esponenziali"
     ],
     "subtitle": "Riconoscimento di funzioni esponenziali",
-    "text": "Descrivere quali fra le seguenti funzioni sono esponenziali e spiegare il motivo\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $y=3^{-x}$\n\\item $y=(-2)^x$\n\\item $y=0{,}5^{2x}$\n\\item $y=(\\sqrt{3})^x$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Descrivere quali fra le seguenti funzioni sono esponenziali e spiegare il motivo\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $y=3^{-x}$\n\\item $y=(-2)^x$\n\\item $y=0{,}5^{2x}$\n\\item $y=(\\sqrt{3})^x$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "Sono esponenziali: $a)$ $y=3^{-x}$ (base $>0$, $\\neq1$); $c)$ $y=0{,}5^{2x}$ (base $>0$, $\\neq1$); $d)$ $y=(\\sqrt{3})^x$ (base $>0$, $\\neq1$). Non è esponenziale $b)$ perché la base è negativa.",
-    "id": 430
+    "id": 532
   },
   {
     "subject": "matematica",
@@ -6542,7 +8078,7 @@ const EXERCISES = [
     "subtitle": "Associazione tra funzioni esponenziali e grafici",
     "text": "Associare a ogni funzione il grafico corretto:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[label=\\arabic*),leftmargin=2cm]\n\\item $y=\\Big(\\dfrac{3}{2}\\Big)^x$\n\\item $y=\\Big(\\dfrac{1}{2}\\Big)^x$\n\\item $y=4^{x}$\n\\item $y=\\Big(\\dfrac{1}{3}\\Big)^{\\frac{x}{2}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}\n\n\\begin{center}\n\\includegraphics[width=\\textwidth]{images/grafici_esponenziali.png}\n\\end{center}\n\\vspace{-30pt}\n\\[ \\text{a)} \\hspace{30pt} \\text{b)} \\hspace{30pt} \\text{c)} \\hspace{30pt} \\text{d)} \\]",
     "solution": "Tutti i grafici passano per $(0,1)$. Si distinguono con due criteri: \\emph{monotonia} (base $>1$ crescente, base $<1$ decrescente) e \\emph{ripidità} (tanto più la base è lontana da $1$, tanto più la curva è ripida).\n\\begin{itemize}\n\\item 1) $\\big(\\tfrac32\\big)^x$: base $>1$, \\textbf{crescente} ma poco ripida.\n\\item 2) $\\big(\\tfrac12\\big)^x$: base $<1$, \\textbf{decrescente} e ripida.\n\\item 3) $4^x$: base $>1$, \\textbf{crescente} e molto ripida (la più ripida tra le crescenti).\n\\item 4) $\\big(\\tfrac13\\big)^{x/2}=\\big(\\tfrac{1}{\\sqrt3}\\big)^x\\approx(0{,}577)^x$: base $<1$, \\textbf{decrescente} e meno ripida della 2).\n\\end{itemize}\nSi associa quindi: le crescenti (1 e 3) ai due grafici che salgono, distinguendole per pendenza (3 più ripida di 1); le decrescenti (2 e 4) ai due che scendono (2 più ripida di 4).",
-    "id": 431
+    "id": 533
   },
   {
     "subject": "matematica",
@@ -6555,9 +8091,579 @@ const EXERCISES = [
       "esponenziali"
     ],
     "subtitle": "Equazioni esponenziali elementari",
-    "text": "Calcolare il valore di $x$ nelle seguenti equazioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $3^{x} = 81$\n\\item $2^{x+1} = 4 \\color{gray}$\n\\item $\\color{gray}\\dfrac{9}{3^x} = 27$\n\\item $e^{2x-1} = \\dfrac{1}{e^2}$\n\\item $25 \\cdot 5^{2x} = \\dfrac{1}{5} \\cdot 5^{x-1}$\n\\item $9^{-x} = -3$\n\\item $2^{2x} - 2^{x+2} + 4 = 0 \\color{gray}$\n\\item $\\color{gray} 5^{2x} + 3 \\cdot 5^x + 2 = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcolare il valore di $x$ nelle seguenti equazioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $3^{x} = 81$\n\\item $2^{x+1} = 4 \\color{gray}$\n\\item $\\color{gray}\\dfrac{9}{3^x} = 27$\n\\item $e^{2x-1} = \\dfrac{1}{e^2}$\n\\item $25 \\cdot 5^{2x} = \\dfrac{1}{5} \\cdot 5^{x-1}$\n\\item $9^{-x} = -3$\n\\item $2^{2x} - 2^{x+2} + 4 = 0 \\color{gray}$\n\\item $\\color{gray} 5^{2x} + 3 \\cdot 5^x + 2 = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x=4$; $b)\\ x=1$; $c)\\ x=-1$; $d)\\ x=-\\tfrac{1}{2}$; $e)\\ x=-2$; $f)$ impossibile; $g)\\ x=1$",
-    "id": 432
+    "id": 534
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 1,
+    "sourceId": "3.2",
+    "tags": [
+      "equazioni",
+      "esponenziali"
+    ],
+    "subtitle": "Equazioni esponenziali con la stessa base",
+    "text": "Risolvi le seguenti equazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $5^{x} = 125$\n\\item $7^{x} = \\dfrac{1}{49}$\n\\item $3^{2x-1} = 27$\n\\item $4^{x+1} = 8$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=3$\n\\item $x=-2$\n\\item $x=2$\n\\item $x=\\tfrac{1}{2}$\n\\end{enumerate}",
+    "id": 535
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "3.3",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "proprietà delle potenze"
+    ],
+    "subtitle": "Equazioni riconducibili alla stessa base",
+    "text": "Risolvi le seguenti equazioni esponenziali riconducendo i due membri alla stessa base:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $9^{x} = 3^{x+2}$\n\\item $\\left(\\dfrac{2}{3}\\right)^{x+1} = \\left(\\dfrac{3}{2}\\right)^{2x-4}$\n\\item $3^{x} \\cdot 9^{x-1} = 3\\sqrt{3}$\n\\item $0{,}25 \\cdot 2^{x} = \\sqrt[3]{2}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=2$\n\\item $x=1$\n\\item $x=\\tfrac{7}{6}$\n\\item $x=\\tfrac{7}{3}$\n\\end{enumerate}",
+    "id": 536
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "3.4",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "radicali",
+      "raccoglimento"
+    ],
+    "subtitle": "Equazioni con radicali e raccoglimento",
+    "text": "Risolvi le seguenti equazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\sqrt{8^{x}} = 4^{x-1}$\n\\item $3^{x+1} + 3^{x} = 36$\n\\item $5^{x+1} - 5^{x} + 5^{x-1} = 105$\n\\item $\\dfrac{\\sqrt[3]{2^{x-1}}}{\\sqrt{4^{x+1}}} = \\sqrt{8}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=4$\n\\item $x=2$\n\\item $x=2$\n\\item $x=-\\tfrac{17}{4}$\n\\end{enumerate}",
+    "id": 537
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "3.5",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Legge di annullamento del prodotto e incognita ausiliaria",
+    "text": "Risolvi le seguenti equazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $(2^{x} - 8)(3^{x} + 1) = 0$\n\\item $3^{x^2-2x} = 27$\n\\item $9^{x} - 8 \\cdot 3^{x} - 9 = 0$\n\\item $2^{2x} - 5 \\cdot 2^{x} + 4 = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=3$\n\\item $x=-1 \\vee x=3$\n\\item $x=2$\n\\item $x=0 \\vee x=2$\n\\end{enumerate}",
+    "id": 538
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "3.6",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Equazioni esponenziali con incognita ausiliaria",
+    "text": "Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $3^{x} + 3^{2-x} = 10$\n\\item $\\left(\\dfrac{2}{3}\\right)^{x} + \\left(\\dfrac{3}{2}\\right)^{x} = \\dfrac{97}{36}$\n\\item $8^{x} - 6 \\cdot 4^{x} + 8 \\cdot 2^{x} = 0$\n\\item $4^{x} - 2^{x+2} - 2^{x+\\frac{1}{2}} + 4\\sqrt{2} = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=0 \\vee x=2$\n\\item $x=-2 \\vee x=2$\n\\item $x=1 \\vee x=2$\n\\item $x=\\tfrac{1}{2} \\vee x=2$\n\\end{enumerate}",
+    "id": 539
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "3.7",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Equazioni con sostituzione: trinomi in $a^x$",
+    "text": "Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{2x} - 3 \\cdot 2^{x} + 2 = 0$\n\\item $4^{x} - 6 \\cdot 2^{x} + 8 = 0$\n\\item $9^{x} - 2 \\cdot 3^{x} - 3 = 0$\n\\item $25^{x} + 4 \\cdot 5^{x} - 5 = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=0 \\vee x=1$\n\\item $x=1 \\vee x=2$\n\\item $x=1$\n\\item $x=0$\n\\end{enumerate}",
+    "id": 540
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "3.8",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Equazioni con sostituzione: esponenti traslati",
+    "text": "Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{2x+1} - 5 \\cdot 2^{x} + 2 = 0$\n\\item $4^{x} - 2^{x+3} + 16 = 0$\n\\item $9^{x} - 4 \\cdot 3^{x+1} + 27 = 0$\n\\item $5^{2x+1} - 26 \\cdot 5^{x} + 5 = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=-1 \\vee x=1$\n\\item $x=2$\n\\item $x=1 \\vee x=2$\n\\item $x=-1 \\vee x=1$\n\\end{enumerate}",
+    "id": 541
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "3.9",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Equazioni con sostituzione: esponenti opposti",
+    "text": "Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{x} + 8 \\cdot 2^{-x} = 6$\n\\item $3^{x} - 3^{2-x} = 8$\n\\item $5^{x} + 5^{1-x} = 6$\n\\item $2^{x+1} + 2^{3-x} = 17$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=1 \\vee x=2$\n\\item $x=2$\n\\item $x=0 \\vee x=1$\n\\item $x=-1 \\vee x=3$\n\\end{enumerate}",
+    "id": 542
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "3.10",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "sostituzione",
+      "fratte"
+    ],
+    "subtitle": "Equazioni con sostituzione: forme fratte e radicali",
+    "text": "Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\dfrac{2^{x}+6}{2^{x}-1} = 2$\n\\item $\\dfrac{6}{2^{x}} - 2^{x} = 1$\n\\item $\\dfrac{2}{3^{x}-1} + \\dfrac{1}{3^{x}+1} = \\dfrac{5}{4}$\n\\item $3^{x} - 4\\sqrt{3^{x}} + 3 = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=3$\n\\item $x=1$\n\\item $x=1$\n\\item $x=0 \\vee x=2$\n\\end{enumerate}",
+    "id": 543
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "3.11",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Equazioni con sostituzione: grado superiore al secondo",
+    "text": "Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $e^{2x} - (1+e)\\,e^{x} + e = 0$\n\\item $8^{x} - 5 \\cdot 4^{x} + 2 \\cdot 2^{x} + 8 = 0$\n\\item $27^{x} - 13 \\cdot 9^{x} + 39 \\cdot 3^{x} - 27 = 0$\n\\item $2\\left(4^{x}+4^{-x}\\right) - 9\\left(2^{x}+2^{-x}\\right) + 14 = 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=0 \\vee x=1$\n\\item $x=1 \\vee x=2$\n\\item $x=0 \\vee x=1 \\vee x=2$\n\\item $x=0 \\vee x=\\pm 1$\n\\end{enumerate}",
+    "id": 544
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 1,
+    "sourceId": "4.1",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "valore assoluto"
+    ],
+    "subtitle": "Equazioni esponenziali con valore assoluto all'esponente",
+    "text": "Risolvi le seguenti equazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{|x|} = 8$\n\\item $3^{|x-1|} = 9$\n\\item $5^{|x|} = \\dfrac{1}{5}$\n\\item $4^{|x+2|} = 1$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=-3 \\vee x=3$\n\\item $x=-1 \\vee x=3$\n\\item impossibile\n\\item $x=-2$\n\\end{enumerate}",
+    "id": 545
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "4.2",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "valore assoluto"
+    ],
+    "subtitle": "Valore assoluto e riduzione alla stessa base",
+    "text": "Risolvi le seguenti equazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\left(\\dfrac{1}{2}\\right)^{|x|} = \\dfrac{1}{16}$\n\\item $2^{|2x-1|} = 32$\n\\item $3^{|x-2|} = \\sqrt{27}$\n\\item $9^{|x|} = 3^{x+2}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=-4 \\vee x=4$\n\\item $x=-2 \\vee x=3$\n\\item $x=\\tfrac{1}{2} \\vee x=\\tfrac{7}{2}$\n\\item $x=-\\tfrac{2}{3} \\vee x=2$\n\\end{enumerate}",
+    "id": 546
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "4.3",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "valore assoluto"
+    ],
+    "subtitle": "Valore assoluto con esponenti di secondo grado e discussione dei casi",
+    "text": "Risolvi le seguenti equazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $3^{|x|-1} = 9^{|x|-2}$\n\\item $2^{|x^2-5|} = 16$\n\\item $e^{|x|} \\cdot e^{5-3|x|} = \\sqrt{e}$\n\\item $5^{|x+1|} = 25^{x}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=-3 \\vee x=3$\n\\item $x=\\pm 1 \\vee x=\\pm 3$\n\\item $x=-\\tfrac{9}{4} \\vee x=\\tfrac{9}{4}$\n\\item $x=1$\n\\end{enumerate}",
+    "id": 547
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "4.4",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "valore assoluto",
+      "sostituzione"
+    ],
+    "subtitle": "Valore assoluto con raccoglimento e incognita ausiliaria",
+    "text": "Risolvi le seguenti equazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{|x|+1} + 2^{|x|} = 24$\n\\item $3^{|x-1|} + 3^{1+|x-1|} = 36$\n\\item $4^{|x|} - 5 \\cdot 2^{|x|} + 4 = 0$\n\\item $2^{|x|} + 2^{3-|x|} = 6$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=-3 \\vee x=3$\n\\item $x=-1 \\vee x=3$\n\\item $x=0 \\vee x=\\pm 2$\n\\item $x=\\pm 1 \\vee x=\\pm 2$\n\\end{enumerate}",
+    "id": 548
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "4.5",
+    "tags": [
+      "equazioni",
+      "esponenziali",
+      "valore assoluto"
+    ],
+    "subtitle": "Valore assoluto e incognita anche fuori dal modulo",
+    "text": "Risolvi le seguenti equazioni esponenziali, discutendo i casi del valore assoluto e verificando l'accettabilità delle soluzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{|x|} \\cdot 2^{x} = 16$\n\\item $2^{|x-1|} = 4^{x}$\n\\item $3^{|x+2|} = 9^{|x-1|}$\n\\item $5^{|x^2-4|} = 125^{x}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x=2$\n\\item $x=\\tfrac{1}{3}$\n\\item $x=0 \\vee x=4$\n\\item $x=1 \\vee x=4$\n\\end{enumerate}",
+    "id": 549
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 1,
+    "sourceId": "5.1",
+    "tags": [
+      "disequazioni",
+      "esponenziali"
+    ],
+    "subtitle": "Disequazioni esponenziali elementari",
+    "text": "Risolvi le seguenti disequazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{x} > 8$\n\\item $3^{x} \\leq \\dfrac{1}{9}$\n\\item $\\left(\\dfrac{1}{2}\\right)^{x} > 4$\n\\item $7^{x} > -3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x>3$\n\\item $x\\leq -2$\n\\item $x<-2$\n\\item $x\\in\\mathbb{R}$\n\\end{enumerate}",
+    "id": 550
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "5.2",
+    "tags": [
+      "disequazioni",
+      "esponenziali"
+    ],
+    "subtitle": "Disequazioni riconducibili alla stessa base",
+    "text": "Risolvi le seguenti disequazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $3^{2x+1} \\geq 27$\n\\item $\\left(\\dfrac{1}{9}\\right)^{x} < \\dfrac{1}{3}$\n\\item $3^{-x} \\cdot \\sqrt[3]{3} \\geq 1$\n\\item $\\left(\\dfrac{3}{4}\\right)^{x} > \\sqrt[4]{\\dfrac{27}{64}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x\\geq 1$\n\\item $x>\\tfrac{1}{2}$\n\\item $x\\leq \\tfrac{1}{3}$\n\\item $x<\\tfrac{3}{4}$\n\\end{enumerate}",
+    "id": 551
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "5.3",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "proprietà delle potenze"
+    ],
+    "subtitle": "Disequazioni con le proprietà delle potenze",
+    "text": "Risolvi le seguenti disequazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{x} \\cdot 16 \\leq 2^{1-x}$\n\\item $\\left(\\dfrac{1}{3}\\right)^{2-x} \\leq \\dfrac{1}{27}$\n\\item $3^{2x} > \\left(\\dfrac{1}{27}\\right)^{x-5}$\n\\item $3^{x+1} < \\dfrac{27}{3^{x-2}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x\\leq -\\tfrac{3}{2}$\n\\item $x\\leq -1$\n\\item $x>3$\n\\item $x<2$\n\\end{enumerate}",
+    "id": 552
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.4",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "secondo grado"
+    ],
+    "subtitle": "Disequazioni con esponente di secondo grado",
+    "text": "Risolvi le seguenti disequazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{x^2-1} \\leq 8$\n\\item $\\left(\\dfrac{5}{2}\\right)^{x^2-3} > \\dfrac{5}{2}$\n\\item $\\left(\\dfrac{1}{2}\\right)^{x^2-3x} \\geq 4$\n\\item $\\left(\\dfrac{2}{3}\\right)^{x^2+4x} \\geq \\dfrac{81}{16}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $-2\\leq x\\leq 2$\n\\item $x<-2 \\vee x>2$\n\\item $1\\leq x\\leq 2$\n\\item $x=-2$\n\\end{enumerate}",
+    "id": 553
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.5",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "sostituzione",
+      "valore assoluto"
+    ],
+    "subtitle": "Disequazioni con incognita ausiliaria e valore assoluto",
+    "text": "Risolvi le seguenti disequazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $9^{x} - 3^{x+2} \\leq 0$\n\\item $4^{x} - 5 \\cdot 2^{x} + 4 < 0$\n\\item $\\left(\\dfrac{3}{2}\\right)^{|x-1|} < \\dfrac{9}{4}$\n\\item $2^{|x+1|} + 2^{2+|x+1|} > 40$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x\\leq 2$\n\\item $0<x<2$\n\\item $-1<x<3$\n\\item $x<-4 \\vee x>2$\n\\end{enumerate}",
+    "id": 554
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "5.6",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Disequazioni con sostituzione: trinomi in $a^x$",
+    "text": "Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $4^{x} - 3 \\cdot 2^{x} + 2 > 0$\n\\item $9^{x} - 4 \\cdot 3^{x} + 3 \\leq 0$\n\\item $4^{x} - 2^{x} - 2 < 0$\n\\item $25^{x} + 4 \\cdot 5^{x} - 5 \\geq 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x<0 \\vee x>1$\n\\item $0\\leq x\\leq 1$\n\\item $x<1$\n\\item $x\\geq 0$\n\\end{enumerate}",
+    "id": 555
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "5.7",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Disequazioni con sostituzione: esponenti traslati",
+    "text": "Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{2x+1} - 5 \\cdot 2^{x} + 2 \\leq 0$\n\\item $9^{x} - 4 \\cdot 3^{x+1} + 27 > 0$\n\\item $4^{x} - 2^{x+3} + 16 > 0$\n\\item $3^{2x+1} + 2 \\cdot 3^{x} - 1 < 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $-1\\leq x\\leq 1$\n\\item $x<1 \\vee x>2$\n\\item $x\\neq 2$\n\\item $x<-1$\n\\end{enumerate}",
+    "id": 556
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.8",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Disequazioni con sostituzione: esponenti opposti",
+    "text": "Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{x} + 8 \\cdot 2^{-x} < 6$\n\\item $3^{x} - 3^{2-x} \\geq 8$\n\\item $5^{x} + 5^{1-x} > 6$\n\\item $2^{x+1} + 2^{3-x} \\leq 17$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $1<x<2$\n\\item $x\\geq 2$\n\\item $x<0 \\vee x>1$\n\\item $-1\\leq x\\leq 3$\n\\end{enumerate}",
+    "id": 557
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.9",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "sostituzione",
+      "fratte"
+    ],
+    "subtitle": "Disequazioni con sostituzione: forme fratte",
+    "text": "Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\dfrac{2^{x}-4}{2^{x}-1} \\geq 0$\n\\item $\\dfrac{3^{x}-9}{3^{x}+1} < 0$\n\\item $\\dfrac{1}{2^{x}-1} > 1$\n\\item $\\dfrac{4^{x} - 5 \\cdot 2^{x} + 4}{2^{x}-2} \\leq 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x<0 \\vee x\\geq 2$\n\\item $x<2$\n\\item $0<x<1$\n\\item $x\\leq 0 \\vee 1<x\\leq 2$\n\\end{enumerate}",
+    "id": 558
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.10",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "sostituzione"
+    ],
+    "subtitle": "Disequazioni con sostituzione: radicali e grado superiore",
+    "text": "Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognita ausiliaria:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $e^{2x} - (1+e)\\,e^{x} + e < 0$\n\\item $3^{x} - 4\\sqrt{3^{x}} + 3 \\geq 0$\n\\item $8^{x} - 5 \\cdot 4^{x} + 2 \\cdot 2^{x} + 8 > 0$\n\\item $2\\left(4^{x}+4^{-x}\\right) - 9\\left(2^{x}+2^{-x}\\right) + 14 \\leq 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $0<x<1$\n\\item $x\\leq 0 \\vee x\\geq 2$\n\\item $x<1 \\vee x>2$\n\\item $-1\\leq x\\leq 1$\n\\end{enumerate}",
+    "id": 559
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "5.11",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "basi diverse"
+    ],
+    "subtitle": "Disequazioni con basi diverse e stesso esponente",
+    "text": "Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra potenze con lo stesso esponente:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $3^{x} > 2^{x}$\n\\item $5^{x-1} \\leq 2^{x-1}$\n\\item $2^{x+3} < 7^{x+3}$\n\\item $3^{2x-1} \\geq 5^{2x-1}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x>0$\n\\item $x\\leq 1$\n\\item $x>-3$\n\\item $x\\leq \\tfrac{1}{2}$\n\\end{enumerate}",
+    "id": 560
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "5.12",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "basi diverse"
+    ],
+    "subtitle": "Disequazioni con basi diverse e coefficienti interi",
+    "text": "Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra potenze con lo stesso esponente:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $3 \\cdot 3^{x} > 2 \\cdot 2^{x}$\n\\item $\\dfrac{5^{x}}{25} < \\dfrac{3^{x}}{9}$\n\\item $4 \\cdot 2^{x} \\geq 9 \\cdot 3^{x}$\n\\item $27 \\cdot 2^{x} \\leq 8 \\cdot 3^{x}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x>-1$\n\\item $x<2$\n\\item $x\\leq -2$\n\\item $x\\geq 3$\n\\end{enumerate}",
+    "id": 561
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.13",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "basi diverse",
+      "radicali"
+    ],
+    "subtitle": "Disequazioni con basi diverse e radicali",
+    "text": "Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra potenze con lo stesso esponente:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\dfrac{3^{x}}{\\sqrt{2}} > \\dfrac{2^{x}}{\\sqrt{3}}$\n\\item $\\dfrac{3^{x}}{5\\sqrt{5}} \\geq \\dfrac{5^{x-1}}{\\sqrt{3}}$\n\\item $\\dfrac{2^{x}}{9\\sqrt{3}} < \\dfrac{3^{x}}{4\\sqrt{2}}$\n\\item $\\dfrac{7^{x+1}}{\\sqrt[3]{2}} \\leq \\dfrac{2^{x+1}}{\\sqrt[3]{7}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x>-\\tfrac{1}{2}$\n\\item $x\\leq -\\tfrac{1}{2}$\n\\item $x>-\\tfrac{5}{2}$\n\\item $x\\leq -\\tfrac{4}{3}$\n\\end{enumerate}",
+    "id": 562
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.14",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "basi diverse"
+    ],
+    "subtitle": "Disequazioni con prodotto di potenze di basi diverse",
+    "text": "Risolvi le seguenti disequazioni esponenziali riconducendo il primo membro a un'unica potenza:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^{x} \\cdot 3^{x} > 36$\n\\item $2^{x} \\cdot 5^{x} \\leq 0{,}01$\n\\item $2^{x+1} \\cdot 3^{x} \\geq 72$\n\\item $2^{2x} \\cdot 3^{x} < \\dfrac{1}{144}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x>2$\n\\item $x\\leq -2$\n\\item $x\\geq 2$\n\\item $x<-2$\n\\end{enumerate}",
+    "id": 563
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "5.15",
+    "tags": [
+      "disequazioni",
+      "esponenziali",
+      "basi diverse",
+      "valore assoluto"
+    ],
+    "subtitle": "Disequazioni con basi diverse, esponenti di secondo grado e moduli",
+    "text": "Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra potenze con lo stesso esponente:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $3^{x^2-4} > 2^{x^2-4}$\n\\item $5^{x^2-x} \\leq 7^{x^2-x}$\n\\item $\\dfrac{3^{|x|}}{27} \\leq \\dfrac{2^{|x|}}{8}$\n\\item $\\dfrac{2^{x^2}}{9} \\geq \\dfrac{3^{x^2}}{4}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "solution": "\\begin{enumerate}\n\\item $x<-2 \\vee x>2$\n\\item $x\\leq 0 \\vee x\\geq 1$\n\\item $-3\\leq x\\leq 3$\n\\item impossibile\n\\end{enumerate}",
+    "id": 564
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 2,
+    "sourceId": "6.1",
+    "tags": [
+      "problemi",
+      "esponenziali",
+      "decadimento",
+      "tempo di dimezzamento"
+    ],
+    "subtitle": "Tempo di dimezzamento dello iodio-131",
+    "text": "Lo iodio-131 è un isotopo radioattivo usato in medicina nucleare per la diagnosi e la cura delle malattie della tiroide. Il suo \\textbf{tempo di dimezzamento} è di $8$ giorni: ogni $8$ giorni la quantità di sostanza ancora radioattiva si riduce alla metà. Un ospedale riceve un campione contenente $80\\,\\text{mg}$ di iodio-131.\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Scrivi la legge $m(t)$ che esprime la massa di iodio-131 ancora presente dopo $t$ giorni.\n    \\item Calcola la massa rimasta dopo $24$ giorni.\n    \\item Quale percentuale della massa iniziale è ancora presente dopo $16$ giorni?\n    \\item Il campione non è più utilizzabile quando la massa scende sotto $2{,}5\\,\\text{mg}$. Per quanti giorni può essere usato?\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item A ogni intervallo di $8$ giorni la massa si moltiplica per $\\dfrac{1}{2}$. In $t$ giorni gli intervalli trascorsi sono $\\dfrac{t}{8}$, quindi:\n    \\[\n    m(t) = 80 \\cdot \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{8}}.\n    \\]\n    \\item $m(24) = 80 \\cdot \\left(\\dfrac{1}{2}\\right)^{3} = \\dfrac{80}{8} = 10\\,\\text{mg}$.\n    \\item Dopo $16$ giorni sono trascorsi due tempi di dimezzamento: $\\left(\\dfrac{1}{2}\\right)^{2} = \\dfrac{1}{4}$, cioè resta il $25\\%$ della massa iniziale ($20\\,\\text{mg}$).\n    \\item Il campione è utilizzabile finché $m(t) \\geq 2{,}5$:\n    \\[\n    80 \\cdot \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{8}} \\geq 2{,}5 \\quad\\Longrightarrow\\quad \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{8}} \\geq \\dfrac{1}{32} = \\left(\\dfrac{1}{2}\\right)^{5}.\n    \\]\n    La base è minore di $1$, quindi il verso della disequazione si inverte passando agli esponenti: $\\dfrac{t}{8} \\leq 5$, cioè $t \\leq 40$. Il campione può essere usato per $40$ giorni.\n\\end{enumerate}",
+    "id": 565
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "6.2",
+    "tags": [
+      "problemi",
+      "esponenziali",
+      "decadimento",
+      "farmaco"
+    ],
+    "subtitle": "Concentrazione di un farmaco nel sangue",
+    "text": "A un paziente viene somministrata per via endovenosa una dose di antibiotico che porta la concentrazione del farmaco nel sangue a $54\\,\\text{mg/L}$. L'organismo elimina progressivamente il farmaco: ogni $3$ ore la concentrazione si riduce a \\textbf{un terzo} del valore precedente. Il farmaco è efficace finché la concentrazione non scende sotto $2\\,\\text{mg/L}$.\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Scrivi la legge $C(t)$ che esprime la concentrazione del farmaco dopo $t$ ore dalla somministrazione.\n    \\item Calcola la concentrazione dopo $6$ ore.\n    \\item Per quante ore il farmaco resta efficace?\n    \\item Per mantenere l'effetto, dopo $6$ ore dalla prima dose il medico ne somministra una seconda identica, che fa aumentare la concentrazione di altri $54\\,\\text{mg/L}$. Qual è la concentrazione subito dopo la seconda dose? E dopo altre $3$ ore?\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Ogni $3$ ore la concentrazione si moltiplica per $\\dfrac{1}{3}$, quindi:\n    \\[\n    C(t) = 54 \\cdot \\left(\\dfrac{1}{3}\\right)^{\\frac{t}{3}}.\n    \\]\n    \\item $C(6) = 54 \\cdot \\left(\\dfrac{1}{3}\\right)^{2} = \\dfrac{54}{9} = 6\\,\\text{mg/L}$.\n    \\item Il farmaco è efficace finché $C(t) \\geq 2$:\n    \\[\n    54 \\cdot \\left(\\dfrac{1}{3}\\right)^{\\frac{t}{3}} \\geq 2 \\quad\\Longrightarrow\\quad \\left(\\dfrac{1}{3}\\right)^{\\frac{t}{3}} \\geq \\dfrac{1}{27} = \\left(\\dfrac{1}{3}\\right)^{3}.\n    \\]\n    Poiché la base è minore di $1$, si ha $\\dfrac{t}{3} \\leq 3$, cioè $t \\leq 9$. Il farmaco resta efficace per $9$ ore.\n    \\item Dopo $6$ ore sono rimasti $6\\,\\text{mg/L}$ della prima dose. Subito dopo la seconda dose la concentrazione è $6 + 54 = 60\\,\\text{mg/L}$. Da quel momento l'eliminazione riparte con la stessa legge: dopo altre $3$ ore la concentrazione è $60 \\cdot \\dfrac{1}{3} = 20\\,\\text{mg/L}$.\n\\end{enumerate}",
+    "id": 566
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "6.3",
+    "tags": [
+      "problemi",
+      "esponenziali",
+      "crescita",
+      "virus"
+    ],
+    "subtitle": "Carica virale e terapia antivirale",
+    "text": "In un paziente appena contagiato da un virus si misura una carica virale di $500$ copie per millilitro di sangue. In assenza di cure il virus si replica rapidamente: la carica virale \\textbf{raddoppia ogni $6$ ore}.\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Scrivi la legge $V(t)$ che esprime la carica virale dopo $t$ ore dal contagio.\n    \\item Calcola la carica virale dopo un giorno.\n    \\item Dopo quante ore la carica virale raggiunge le $64\\,000$ copie/mL?\n    \\item Quando la carica virale raggiunge le $64\\,000$ copie/mL il paziente inizia una terapia antivirale, grazie alla quale la carica si riduce a \\textbf{un quarto ogni $12$ ore}. Dopo quante ore di terapia la carica virale scende sotto le $1000$ copie/mL?\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Ogni $6$ ore la carica si moltiplica per $2$, quindi:\n    \\[\n    V(t) = 500 \\cdot 2^{\\frac{t}{6}}.\n    \\]\n    \\item Dopo un giorno, cioè $24$ ore: $V(24) = 500 \\cdot 2^{4} = 8000$ copie/mL.\n    \\item Imponiamo $V(t) = 64\\,000$:\n    \\[\n    500 \\cdot 2^{\\frac{t}{6}} = 64\\,000 \\quad\\Longrightarrow\\quad 2^{\\frac{t}{6}} = 128 = 2^{7} \\quad\\Longrightarrow\\quad \\dfrac{t}{6} = 7 \\quad\\Longrightarrow\\quad t = 42.\n    \\]\n    La carica raggiunge le $64\\,000$ copie/mL dopo $42$ ore.\n    \\item Indicando con $s$ le ore trascorse dall'inizio della terapia, la nuova legge è $W(s) = 64\\,000 \\cdot \\left(\\dfrac{1}{4}\\right)^{\\frac{s}{12}}$. Imponiamo $W(s) < 1000$:\n    \\[\n    \\left(\\dfrac{1}{4}\\right)^{\\frac{s}{12}} < \\dfrac{1}{64} = \\left(\\dfrac{1}{4}\\right)^{3}.\n    \\]\n    Poiché la base è minore di $1$, si ha $\\dfrac{s}{12} > 3$, cioè $s > 36$. La carica virale scende sotto le $1000$ copie/mL dopo $36$ ore di terapia.\n\\end{enumerate}",
+    "id": 567
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "6.4",
+    "tags": [
+      "problemi",
+      "esponenziali",
+      "decadimento",
+      "raffreddamento"
+    ],
+    "subtitle": "Raffreddamento di una tazza di tè",
+    "text": "Una tazza di tè appena versata si trova alla temperatura di $80\\,^\\circ\\text{C}$ in una stanza a $20\\,^\\circ\\text{C}$. Secondo la legge del raffreddamento di Newton, a diminuire in modo esponenziale non è la temperatura del tè, ma la \\textbf{differenza} tra la temperatura del tè e quella dell'ambiente: in questo caso tale differenza si dimezza ogni $5$ minuti. La temperatura dopo $t$ minuti è quindi\n\\[\nT(t) = 20 + 60 \\cdot \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{5}}.\n\\]\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Verifica che la legge fornisce la temperatura iniziale corretta e calcola la temperatura dopo $10$ minuti.\n    \\item Dopo quanti minuti il tè raggiunge la temperatura di $27{,}5\\,^\\circ\\text{C}$?\n    \\item Il tè è considerato freddo quando la sua temperatura scende sotto $23{,}75\\,^\\circ\\text{C}$. Dopo quanti minuti accade?\n    \\item Il tè può raggiungere la temperatura di $20\\,^\\circ\\text{C}$? E scendere sotto questo valore? Giustifica la risposta.\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Per $t=0$: $T(0) = 20 + 60 \\cdot 1 = 80\\,^\\circ\\text{C}$, come richiesto. Per $t=10$: $T(10) = 20 + 60 \\cdot \\left(\\dfrac{1}{2}\\right)^{2} = 20 + 15 = 35\\,^\\circ\\text{C}$.\n    \\item Imponiamo $T(t) = 27{,}5$:\n    \\[\n    60 \\cdot \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{5}} = 7{,}5 \\quad\\Longrightarrow\\quad \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{5}} = \\dfrac{1}{8} = \\left(\\dfrac{1}{2}\\right)^{3} \\quad\\Longrightarrow\\quad t = 15.\n    \\]\n    Il tè raggiunge $27{,}5\\,^\\circ\\text{C}$ dopo $15$ minuti.\n    \\item Imponiamo $T(t) < 23{,}75$:\n    \\[\n    60 \\cdot \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{5}} < 3{,}75 \\quad\\Longrightarrow\\quad \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{5}} < \\dfrac{1}{16} = \\left(\\dfrac{1}{2}\\right)^{4}.\n    \\]\n    Poiché la base è minore di $1$, si ha $\\dfrac{t}{5} > 4$, cioè $t > 20$. Il tè è freddo dopo $20$ minuti.\n    \\item No in entrambi i casi. Il termine $60 \\cdot \\left(\\dfrac{1}{2}\\right)^{\\frac{t}{5}}$ è sempre positivo, perché una potenza con base positiva non si annulla mai e non diventa mai negativa: quindi $T(t) > 20$ per ogni $t$. La temperatura si avvicina sempre di più a $20\\,^\\circ\\text{C}$ senza mai raggiungerla: la retta $T = 20$ è un asintoto orizzontale del grafico.\n\\end{enumerate}",
+    "id": 568
+  },
+  {
+    "subject": "matematica",
+    "category": "Esponenziali e Logaritmi",
+    "topic": "Esponenziali",
+    "difficulty": 3,
+    "sourceId": "6.5",
+    "tags": [
+      "problemi",
+      "esponenziali",
+      "crescita",
+      "decadimento",
+      "batteri"
+    ],
+    "subtitle": "Due colonie batteriche a confronto",
+    "text": "In un laboratorio si studiano due colonie dello stesso batterio. La colonia A, lasciata in un terreno di coltura favorevole, contiene inizialmente $200$ batteri e il loro numero \\textbf{raddoppia ogni ora}. La colonia B contiene inizialmente $51\\,200$ batteri e viene trattata con un antibiotico, per effetto del quale il numero di batteri \\textbf{si dimezza ogni ora}.\n\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item Scrivi le leggi $N_A(t)$ e $N_B(t)$ che esprimono il numero di batteri delle due colonie dopo $t$ ore.\n    \\item Calcola il numero di batteri di ciascuna colonia dopo $2$ ore.\n    \\item Dopo quante ore le due colonie hanno lo stesso numero di batteri? Quanti sono?\n    \\item L'antibiotico è considerato efficace quando la colonia B scende sotto i $100$ batteri. Dopo quante ore accade? Quanti batteri contiene in quel momento la colonia A?\n\\end{enumerate}",
+    "solution": "\\begin{enumerate}[label=\\alph*),leftmargin=1.8cm]\n    \\item $N_A(t) = 200 \\cdot 2^{t}$ e $N_B(t) = 51\\,200 \\cdot \\left(\\dfrac{1}{2}\\right)^{t} = 51\\,200 \\cdot 2^{-t}$.\n    \\item $N_A(2) = 200 \\cdot 4 = 800$ batteri; $N_B(2) = \\dfrac{51\\,200}{4} = 12\\,800$ batteri.\n    \\item Imponiamo $N_A(t) = N_B(t)$:\n    \\[\n    200 \\cdot 2^{t} = 51\\,200 \\cdot 2^{-t} \\quad\\Longrightarrow\\quad 2^{2t} = 256 = 2^{8} \\quad\\Longrightarrow\\quad t = 4.\n    \\]\n    Dopo $4$ ore le colonie contengono entrambe $200 \\cdot 2^{4} = 3200$ batteri.\n    \\item Imponiamo $N_B(t) < 100$:\n    \\[\n    51\\,200 \\cdot \\left(\\dfrac{1}{2}\\right)^{t} < 100 \\quad\\Longrightarrow\\quad \\left(\\dfrac{1}{2}\\right)^{t} < \\dfrac{1}{512} = \\left(\\dfrac{1}{2}\\right)^{9}.\n    \\]\n    Poiché la base è minore di $1$, si ha $t > 9$: l'antibiotico è efficace dopo $9$ ore. In quel momento la colonia A contiene $N_A(9) = 200 \\cdot 2^{9} = 102\\,400$ batteri.\n\\end{enumerate}",
+    "id": 569
   },
   {
     "subject": "matematica",
@@ -6570,9 +8676,9 @@ const EXERCISES = [
       "proprietà"
     ],
     "subtitle": "Calcolo di logaritmi con le proprietà",
-    "text": "Calcola il valore dei seguenti logaritmi usando le opportune proprietà:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_2 8$\n\\item $\\log 50 + \\log 2$\n\\item $\\log_3 \\dfrac{x^3}{y} \\color{gray}$\n\\item $\\color{gray}\\ln 4e^5 - \\ln e^2 - 2 \\ln 2$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcola il valore dei seguenti logaritmi usando le opportune proprietà:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_2 8$\n\\item $\\log 50 + \\log 2$\n\\item $\\log_3 \\dfrac{x^3}{y} \\color{gray}$\n\\item $\\color{gray}\\ln 4e^5 - \\ln e^2 - 2 \\ln 2$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ 3$; $b)\\ 2$; $c)\\ 3\\log_3 x - \\log_3 y$; $d)\\ 3$",
-    "id": 433
+    "id": 570
   },
   {
     "subject": "matematica",
@@ -6585,9 +8691,9 @@ const EXERCISES = [
       "proprietà"
     ],
     "subtitle": "Calcolo di logaritmi con le proprietà (variante)",
-    "text": "Calcola il valore dei seguenti logaritmi usando le opportune proprietà:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_3 27$\n\\item $\\log 20 + \\log 5$\n\\item $\\log_2 \\left(\\dfrac{x^4}{y^2}\\right) \\color{gray}$\n\\item $\\color{gray}\\ln 9e^3 - \\ln e - 2\\ln 3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Calcola il valore dei seguenti logaritmi usando le opportune proprietà:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_3 27$\n\\item $\\log 20 + \\log 5$\n\\item $\\log_2 \\left(\\dfrac{x^4}{y^2}\\right) \\color{gray}$\n\\item $\\color{gray}\\ln 9e^3 - \\ln e - 2\\ln 3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ 3$; $b)\\ \\log 100 = 2$; $c)\\ 4\\log_2 x - 2\\log_2 y$; $d)\\ 2$",
-    "id": 434
+    "id": 571
   },
   {
     "subject": "matematica",
@@ -6600,9 +8706,9 @@ const EXERCISES = [
       "definizione"
     ],
     "subtitle": "Equazioni logaritmiche elementari",
-    "text": "Risolvi le seguenti equazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_2 x = 3$\n\\item $\\log_5(2x-1) = 2$\n\\item $\\log(2x+1) = \\log(x-1)$\n\\item $\\log_3 x = 0 \\color{gray}$\n\\item $\\color{gray}\\log_3(x-4) + \\log_3(x+4) = 2$\n\\item $4^x = 3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi le seguenti equazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_2 x = 3$\n\\item $\\log_5(2x-1) = 2$\n\\item $\\log(2x+1) = \\log(x-1)$\n\\item $\\log_3 x = 0 \\color{gray}$\n\\item $\\color{gray}\\log_3(x-4) + \\log_3(x+4) = 2$\n\\item $4^x = 3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x=8$; $b)\\ x=13$; $c)$ impossibile (CE non soddisfatta); $d)\\ x=1$; $e)\\ x=5$; $f)\\ x=\\log_4 3$",
-    "id": 435
+    "id": 572
   },
   {
     "subject": "matematica",
@@ -6615,9 +8721,9 @@ const EXERCISES = [
       "definizione"
     ],
     "subtitle": "Equazioni logaritmiche elementari (variante)",
-    "text": "Risolvi le seguenti equazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_3 x = 2$\n\\item $\\log_4(3x-2) = 1$\n\\item $\\log(3x-1) = \\log(x+5)$\n\\item $\\log_2 x = -1 \\color{gray}$\n\\item $\\color{gray}\\log_2(x-1) + \\log_2(x+1) = 3$\n\\item $5^x = 7$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi le seguenti equazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_3 x = 2$\n\\item $\\log_4(3x-2) = 1$\n\\item $\\log(3x-1) = \\log(x+5)$\n\\item $\\log_2 x = -1 \\color{gray}$\n\\item $\\color{gray}\\log_2(x-1) + \\log_2(x+1) = 3$\n\\item $5^x = 7$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x=9$; $b)\\ x=2$; $c)\\ x=3$; $d)\\ x=\\tfrac{1}{2}$; $e)\\ x=3$; $f)\\ x=\\log_5 7$",
-    "id": 436
+    "id": 573
   },
   {
     "subject": "matematica",
@@ -6630,9 +8736,9 @@ const EXERCISES = [
       "confronto"
     ],
     "subtitle": "Equazioni logaritmiche per confronto",
-    "text": "Risolvi per confronto:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_2(x) = \\log_2(16)$\n\\item $\\log_3(x+1) = \\log_3(4)$\n\\item $\\log(x-2) = \\log(3)$\n\\item $\\log_4(x-1) = \\log_4(3)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi per confronto:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_2(x) = \\log_2(16)$\n\\item $\\log_3(x+1) = \\log_3(4)$\n\\item $\\log(x-2) = \\log(3)$\n\\item $\\log_4(x-1) = \\log_4(3)$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x=16$; $b)\\ x=3$; $c)\\ x=5$; $d)\\ x=4$",
-    "id": 437
+    "id": 574
   },
   {
     "subject": "matematica",
@@ -6645,9 +8751,9 @@ const EXERCISES = [
       "proprietà"
     ],
     "subtitle": "Equazioni logaritmiche con proprietà di somma",
-    "text": "Risolvi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_2(x) + \\log_2(x) = 4$\n\\item $\\log_3(x) + \\log_3(2) = \\log_3(18)$\n\\item $\\log(x) + \\log(x) = \\log(100)$\n\\item $\\log_5(x^2) = 2$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_2(x) + \\log_2(x) = 4$\n\\item $\\log_3(x) + \\log_3(2) = \\log_3(18)$\n\\item $\\log(x) + \\log(x) = \\log(100)$\n\\item $\\log_5(x^2) = 2$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x=4$; $b)\\ x=9$; $c)\\ x=10$; $d)\\ x=\\pm 5$",
-    "id": 438
+    "id": 575
   },
   {
     "subject": "matematica",
@@ -6660,9 +8766,9 @@ const EXERCISES = [
       "logaritmi"
     ],
     "subtitle": "Equazioni esponenziali risolte con i logaritmi",
-    "text": "Risolvi le seguenti equazioni esponenziali utilizzando i logaritmi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $2^x = 8$\n\\item $3^x = 20$\n\\item $10^x = 7$\n\\item $5^{x-1} = 12$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi le seguenti equazioni esponenziali utilizzando i logaritmi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^x = 8$\n\\item $3^x = 20$\n\\item $10^x = 7$\n\\item $5^{x-1} = 12$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x=3$; $b)\\ x=\\log_3 20$; $c)\\ x=\\log 7$; $d)\\ x=1+\\log_5 12$",
-    "id": 439
+    "id": 576
   },
   {
     "subject": "matematica",
@@ -6675,9 +8781,9 @@ const EXERCISES = [
       "definizione"
     ],
     "subtitle": "Disequazioni logaritmiche elementari",
-    "text": "Risolvi le seguenti disequazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_3 x > 2$\n\\item $\\log_{\\frac{1}{3}} x > 1 \\color{gray}$\n\\item $\\color{gray}\\log(2x+1) > \\log(x-1) \\color{gray}$\n\\item $\\color{gray}\\ln\\!\\left( \\tfrac{1}{2} x -1 \\right) < 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi le seguenti disequazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_3 x > 2$\n\\item $\\log_{\\frac{1}{3}} x > 1 \\color{gray}$\n\\item $\\color{gray}\\log(2x+1) > \\log(x-1) \\color{gray}$\n\\item $\\color{gray}\\ln\\!\\left( \\tfrac{1}{2} x -1 \\right) < 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x>9$; $b)\\ 0<x<\\tfrac{1}{3}$; $c)\\ x>2$; $d)\\ 2<x<4$",
-    "id": 440
+    "id": 577
   },
   {
     "subject": "matematica",
@@ -6690,9 +8796,9 @@ const EXERCISES = [
       "definizione"
     ],
     "subtitle": "Disequazioni logaritmiche elementari (variante)",
-    "text": "Risolvi le seguenti disequazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_2 x < 3$\n\\item $\\log_{\\frac{1}{2}} x \\geq 2 \\color{gray}$\n\\item $\\color{gray}\\log(3x-1) \\leq \\log(x+2)$\n\\item $\\ln(x-2) > 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi le seguenti disequazioni logaritmiche:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_2 x < 3$\n\\item $\\log_{\\frac{1}{2}} x \\geq 2 \\color{gray}$\n\\item $\\color{gray}\\log(3x-1) \\leq \\log(x+2)$\n\\item $\\ln(x-2) > 0$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ 0<x<8$; $b)\\ 0<x\\le\\tfrac{1}{4}$; $c)\\ \\tfrac{1}{3}<x\\le\\tfrac{3}{2}$; $d)\\ x>3$",
-    "id": 441
+    "id": 578
   },
   {
     "subject": "matematica",
@@ -6705,9 +8811,9 @@ const EXERCISES = [
       "confronto"
     ],
     "subtitle": "Disequazioni logaritmiche per confronto",
-    "text": "Risolvi le seguenti disequazioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_2(x) > \\log_2(16)$\n\\item $\\log_3(x+1) \\le \\log_3(4)$\n\\item $\\log(x-2) \\ge \\log(3)$\n\\item $\\log_4(x-1) < \\log_4(3)$\n\\item $\\log_5(2x) > \\log_5(10)$\n\\item $5^x \\le 12$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi le seguenti disequazioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_2(x) > \\log_2(16)$\n\\item $\\log_3(x+1) \\le \\log_3(4)$\n\\item $\\log(x-2) \\ge \\log(3)$\n\\item $\\log_4(x-1) < \\log_4(3)$\n\\item $\\log_5(2x) > \\log_5(10)$\n\\item $5^x \\le 12$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x>16$; $b)\\ -1<x\\le 3$; $c)\\ x\\ge 5$; $d)\\ 1<x<4$; $e)\\ x>5$; $f)\\ x\\le\\log_5 12$",
-    "id": 442
+    "id": 579
   },
   {
     "subject": "matematica",
@@ -6720,9 +8826,9 @@ const EXERCISES = [
       "proprietà"
     ],
     "subtitle": "Disequazioni logaritmiche con proprietà di somma",
-    "text": "Risolvi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $\\log_2(x) + \\log_2(x) > 4$\n\\item $\\log_3(x) + \\log_3(2) \\le \\log_3(18)$\n\\item $\\log(x) + \\log(x) \\ge \\log(100)$\n\\item $\\log_5(x^2) < 2$\n\\item $\\log_7(x) + \\log_7(x) \\ge \\log_7(49)$\n\\item $2^x > 5$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $\\log_2(x) + \\log_2(x) > 4$\n\\item $\\log_3(x) + \\log_3(2) \\le \\log_3(18)$\n\\item $\\log(x) + \\log(x) \\ge \\log(100)$\n\\item $\\log_5(x^2) < 2$\n\\item $\\log_7(x) + \\log_7(x) \\ge \\log_7(49)$\n\\item $2^x > 5$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x>4$; $b)\\ 0<x\\le 9$; $c)\\ x\\ge 10$; $d)\\ -5<x<5,\\ x\\neq 0$; $e)\\ x\\ge 7$; $f)\\ x>\\log_2 5$",
-    "id": 443
+    "id": 580
   },
   {
     "subject": "matematica",
@@ -6735,9 +8841,9 @@ const EXERCISES = [
       "logaritmi"
     ],
     "subtitle": "Disequazioni esponenziali risolte con i logaritmi",
-    "text": "Risolvi le seguenti disequazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $2^x > 8$\n\\item $3^x \\le 20$\n\\item $10^x \\ge 7$\n\\item $5^{x-1} < 12$\n\\item $e^x > 15$\n\\item $4^{2x} \\le 10$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Risolvi le seguenti disequazioni esponenziali:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $2^x > 8$\n\\item $3^x \\le 20$\n\\item $10^x \\ge 7$\n\\item $5^{x-1} < 12$\n\\item $e^x > 15$\n\\item $4^{2x} \\le 10$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$a)\\ x>3$; $b)\\ x\\le\\log_3 20$; $c)\\ x\\ge\\log 7$; $d)\\ x<1+\\log_5 12$; $e)\\ x>\\ln 15$; $f)\\ x\\le\\dfrac{\\log 10}{2\\log 4}=\\dfrac{1}{2\\log_2 10}$",
-    "id": 444
+    "id": 581
   },
   {
     "subject": "matematica",
@@ -6751,7 +8857,7 @@ const EXERCISES = [
     "subtitle": "Fascio $(k+1)x-(k+2)y+2=0$: tipo e centro",
     "text": "Dato il fascio di rette di equazione $(k+1) \\ x - (k+2) \\ y +2 = 0$, determinare le generatrici del fascio, il tipo di fascio ed eventualmente il suo centro.",
     "solution": "Si raccoglie il parametro: $k(x-y)+(x-2y+2)=0$. Le \\textbf{generatrici} sono $r_1:\\ x-y=0$ e $r_2:\\ x-2y+2=0$. Essendo non parallele, il fascio è \\textbf{proprio} e il centro è la loro intersezione: da $x=y$ in $x-2y+2=0$ si ha $-y+2=0\\Rightarrow y=2$, quindi il centro è $C(2,2)$.",
-    "id": 445
+    "id": 582
   },
   {
     "subject": "matematica",
@@ -6765,7 +8871,7 @@ const EXERCISES = [
     "subtitle": "Fascio $(k+1)x+(k-1)y+2k+3=0$: tipo e centro",
     "text": "Dato il fascio di rette di equazione $(k+1) \\ x + (k-1) \\ y + 2k + 3 = 0$, determinare le generatrici del fascio, il tipo di fascio ed eventualmente il suo centro.",
     "solution": "Raccogliendo $k$: $k(x+y+2)+(x-y+3)=0$. Le \\textbf{generatrici} sono $r_1:\\ x+y+2=0$ e $r_2:\\ x-y+3=0$, non parallele: fascio \\textbf{proprio}. Centro: sommando le due, $2x+5=0\\Rightarrow x=-\\tfrac52$; sottraendo, $2y-1=0\\Rightarrow y=\\tfrac12$. Centro $C\\!\\left(-\\tfrac52,\\tfrac12\\right)$.",
-    "id": 446
+    "id": 583
   },
   {
     "subject": "matematica",
@@ -6779,7 +8885,7 @@ const EXERCISES = [
     "subtitle": "Fascio $(k+1)x-(k+2)y+2=0$: determinazione di $k$",
     "text": "Dato il fascio di rette di equazione $(k+1) \\ x - (k+2) \\ y +2 = 0$, determinare il parametro $k$ affinché la retta corrispondente del fascio:\n\\begin{enumerate}\n    \\item passi per il punto $P(-2,4)$\n    \\item sia parallela all'asse $y$\n    \\item sia parallela alla retta di equazione $4x+2y-3=0$\n    \\item sia perpendicolare alla retta di equazione $x-5y-3=0$\n    \\item intersechi l'asse $x$ in un punto di ascissa negativa e l'asse $y$ in un punto di ordinata positiva.\n\\end{enumerate}",
     "solution": "Coefficiente angolare della generica retta: $m=\\dfrac{k+1}{k+2}$.\n\\begin{enumerate}\n\\item $P(-2,4)$: $-2(k+1)-4(k+2)+2=0\\Rightarrow-6k-8=0\\Rightarrow k=-\\tfrac43$.\n\\item Parallela all'asse $y$: coefficiente di $y$ nullo, $-(k+2)=0\\Rightarrow k=-2$ (retta $x=2$).\n\\item Parallela a $4x+2y-3=0$ (pendenza $-2$): $\\dfrac{k+1}{k+2}=-2\\Rightarrow k=-\\tfrac53$.\n\\item Perpendicolare a $x-5y-3=0$ (pendenza $\\tfrac15$, perpendicolare $-5$): $\\dfrac{k+1}{k+2}=-5\\Rightarrow k=-\\tfrac{11}{6}$.\n\\item Intercetta $x$: $x=-\\dfrac{2}{k+1}<0\\Rightarrow k>-1$; intercetta $y$: $y=\\dfrac{2}{k+2}>0\\Rightarrow k>-2$. Insieme: $k>-1$.\n\\end{enumerate}",
-    "id": 447
+    "id": 584
   },
   {
     "subject": "matematica",
@@ -6793,7 +8899,7 @@ const EXERCISES = [
     "subtitle": "Fascio $kx+(k-1)y+1=0$: determinazione di $k$",
     "text": "Dato il fascio di rette di equazione $k\\ x + (k-1) \\ y +1 = 0$, determinare il parametro $k$ affinché la retta corrispondente del fascio:\n\\begin{enumerate}\n    \\item passi per il punto $P(2,0)$\n    \\item sia parallela all'asse $y$\n    \\item sia parallela alla bisettrice del primo e terzo quadrante\n    \\item sia perpendicolare alla retta di equazione $x-5y-3=0$\n    \\item formi con l'asse $x$ un angolo di $30^\\circ$.\n\\end{enumerate}",
     "solution": "Coefficiente angolare: $m=-\\dfrac{k}{k-1}$.\n\\begin{enumerate}\n\\item $P(2,0)$: $2k+1=0\\Rightarrow k=-\\tfrac12$.\n\\item Parallela all'asse $y$: coefficiente di $y$ nullo, $k-1=0\\Rightarrow k=1$ (retta $x=-1$).\n\\item Parallela alla bisettrice $y=x$ (pendenza $1$): $-\\dfrac{k}{k-1}=1\\Rightarrow k=\\tfrac12$.\n\\item Perpendicolare a $x-5y-3=0$ (pendenza $\\tfrac15$, perpendicolare $-5$): $-\\dfrac{k}{k-1}=-5\\Rightarrow k=\\tfrac54$.\n\\item Angolo di $30^\\circ$, $m=\\pm\\tfrac{1}{\\sqrt3}$: da $-\\dfrac{k}{k-1}=\\tfrac{1}{\\sqrt3}$ si ha $k=\\dfrac{\\sqrt3-1}{2}$; da $-\\dfrac{k}{k-1}=-\\tfrac{1}{\\sqrt3}$ si ha $k=-\\dfrac{\\sqrt3+1}{2}$.\n\\end{enumerate}",
-    "id": 448
+    "id": 585
   },
   {
     "subject": "matematica",
@@ -6809,7 +8915,7 @@ const EXERCISES = [
     "subtitle": "Iniettività, suriettività e biettività da diagrammi a frecce",
     "text": "Stabilisci se ciascuna delle funzioni da $A$ a $B$ rappresentate nei seguenti diagrammi a frecce è iniettiva, suriettiva o biiettiva.\n\\newline\n\n\\centering\n\\includegraphics[width=\\linewidth]{images/insiemi_funzioni.png}\n\\[ \\text{a)} \\hspace{60pt} \\text{b)} \\hspace{60pt} \\text{c)} \\]",
     "solution": "Si applicano le definizioni leggendo le frecce del diagramma. Una funzione da $A$ a $B$ è:\n\\begin{itemize}\n\\item \\textbf{iniettiva} se elementi distinti di $A$ hanno immagini distinte, cioè in ogni elemento di $B$ arriva \\emph{al più} una freccia;\n\\item \\textbf{suriettiva} se ogni elemento di $B$ è immagine di almeno un elemento di $A$, cioè in ogni elemento di $B$ arriva \\emph{almeno} una freccia;\n\\item \\textbf{biiettiva} se è insieme iniettiva e suriettiva, cioè in ogni elemento di $B$ arriva \\emph{esattamente} una freccia.\n\\end{itemize}\nPer ciascun diagramma a), b), c) si conta quante frecce arrivano su ogni elemento di $B$: nessun elemento con due frecce $\\Rightarrow$ iniettiva; nessun elemento senza frecce $\\Rightarrow$ suriettiva; entrambe le condizioni $\\Rightarrow$ biiettiva.",
-    "id": 449
+    "id": 586
   },
   {
     "subject": "matematica",
@@ -6825,7 +8931,7 @@ const EXERCISES = [
     "subtitle": "Riconoscere funzioni da diagrammi a frecce",
     "text": "Stabilisci quali delle relazioni tra $A$ a $B$ rappresentate nei seguenti diagrammi a frecce sono funzioni.\n\\newline\n\n\\centering\n\\includegraphics[width=0.9\\linewidth]{images/insiemi_funzioni_1.png}\n\\[ \\text{a)} \\hspace{50pt} \\text{b)} \\hspace{50pt} \\text{c)} \\]",
     "solution": "Una relazione da $A$ a $B$ è una \\textbf{funzione} se a \\emph{ogni} elemento di $A$ è associato \\emph{uno e un solo} elemento di $B$. Quindi una relazione \\emph{non} è funzione se da qualche elemento di $A$ parte più di una freccia (immagine non unica) oppure non parte alcuna freccia (immagine mancante). Per ciascun diagramma a), b), c) basta verificare che da ogni punto di $A$ esca esattamente una freccia: in tal caso è una funzione, altrimenti no.",
-    "id": 450
+    "id": 587
   },
   {
     "subject": "matematica",
@@ -6838,9 +8944,9 @@ const EXERCISES = [
       "razionali"
     ],
     "subtitle": "Dominio di funzioni razionali",
-    "text": "Determinare il dominio delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=\\dfrac{2x+1}{x-3}$\n\\item $f(x)=\\dfrac{x^2-4}{x^2-9}$\n\\item $f(x)=\\dfrac{5}{x^3+1}$\n\\item $f(x)=\\dfrac{x-2}{\\sqrt{x^2-1}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare il dominio delle seguenti funzioni:\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=\\dfrac{2x+1}{x-3}$\n\\item $f(x)=\\dfrac{x^2-4}{x^2-9}$\n\\item $f(x)=\\dfrac{5}{x^3+1}$\n\\item $f(x)=\\dfrac{x-2}{\\sqrt{x^2-1}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "Si escludono i valori che annullano i denominatori e si impone l'argomento delle radici di indice pari $\\ge 0$ (e $>0$ se a denominatore). \\\\\na) Denominatore $x-3\\neq0$: $D=\\mathbb{R}\\setminus\\{3\\}$. \\\\\nb) $x^2-9\\neq0\\Rightarrow x\\neq\\pm3$: $D=\\mathbb{R}\\setminus\\{-3,3\\}$. \\\\\nc) $x^3+1\\neq0\\Rightarrow x\\neq-1$: $D=\\mathbb{R}\\setminus\\{-1\\}$. \\\\\nd) La radice è a denominatore, quindi $x^2-1>0\\Rightarrow x<-1$ o $x>1$: $D=(-\\infty,-1)\\cup(1,+\\infty)$.",
-    "id": 451
+    "id": 588
   },
   {
     "subject": "matematica",
@@ -6853,9 +8959,9 @@ const EXERCISES = [
       "radicali"
     ],
     "subtitle": "Dominio di funzioni irrazionali con radicali",
-    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=\\sqrt{4x-1}$\n\\item $f(x)=\\sqrt{2-|x|}$\n\\item $f(x)=\\dfrac{\\sqrt{x+6}}{x-1}$\n\\item $f(x)=\\sqrt[3]{\\dfrac{x-2}{x+3}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=\\sqrt{4x-1}$\n\\item $f(x)=\\sqrt{2-|x|}$\n\\item $f(x)=\\dfrac{\\sqrt{x+6}}{x-1}$\n\\item $f(x)=\\sqrt[3]{\\dfrac{x-2}{x+3}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "a) Radice di indice pari: $4x-1\\ge0\\Rightarrow x\\ge\\dfrac14$: $D=\\left[\\dfrac14,+\\infty\\right)$. \\\\\nb) $2-|x|\\ge0\\Rightarrow |x|\\le2$: $D=[-2,2]$. \\\\\nc) Numeratore: $x+6\\ge0\\Rightarrow x\\ge-6$; denominatore: $x\\neq1$: $D=[-6,1)\\cup(1,+\\infty)$. \\\\\nd) La radice cubica esiste per ogni argomento reale; basta che la frazione sia definita, cioè $x+3\\neq0$: $D=\\mathbb{R}\\setminus\\{-3\\}$.",
-    "id": 452
+    "id": 589
   },
   {
     "subject": "matematica",
@@ -6869,9 +8975,9 @@ const EXERCISES = [
       "composizione"
     ],
     "subtitle": "Dominio con valore assoluto e composizioni",
-    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=\\sqrt{|x|-2}$\n\\item $f(x)=\\dfrac{1}{|x-1|-2}$\n\\item $f(x)=\\sqrt{(x-1)(5-x)}$\n\\item $f(x)=\\dfrac{|x+2|}{\\sqrt{x-3}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=\\sqrt{|x|-2}$\n\\item $f(x)=\\dfrac{1}{|x-1|-2}$\n\\item $f(x)=\\sqrt{(x-1)(5-x)}$\n\\item $f(x)=\\dfrac{|x+2|}{\\sqrt{x-3}}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "a) $|x|-2\\ge0\\Rightarrow |x|\\ge2\\Rightarrow x\\le-2$ o $x\\ge2$: $D=(-\\infty,-2]\\cup[2,+\\infty)$. \\\\\nb) $|x-1|-2\\neq0\\Rightarrow |x-1|\\neq2\\Rightarrow x\\neq3$ e $x\\neq-1$: $D=\\mathbb{R}\\setminus\\{-1,3\\}$. \\\\\nc) Prodotto $\\ge0$: $(x-1)(5-x)\\ge0\\Rightarrow 1\\le x\\le5$: $D=[1,5]$. \\\\\nd) Radice a denominatore: $x-3>0\\Rightarrow x>3$: $D=(3,+\\infty)$.",
-    "id": 453
+    "id": 590
   },
   {
     "subject": "matematica",
@@ -6884,9 +8990,9 @@ const EXERCISES = [
       "trigonometria"
     ],
     "subtitle": "Dominio di funzioni trigonometriche",
-    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=\\dfrac{1}{\\sin x}$\n\\item $f(x)=\\tan(3x)$\n\\item $f(x)=\\dfrac{1}{1-\\cos(2x)}$\n\\item $f(x)=\\sqrt{\\sin x + 1}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=\\dfrac{1}{\\sin x}$\n\\item $f(x)=\\tan(3x)$\n\\item $f(x)=\\dfrac{1}{1-\\cos(2x)}$\n\\item $f(x)=\\sqrt{\\sin x + 1}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "Con $k\\in\\mathbb{Z}$. \\\\\na) $\\sin x\\neq0\\Rightarrow x\\neq k\\pi$: $D=\\mathbb{R}\\setminus\\{k\\pi\\}$. \\\\\nb) La tangente non esiste dove il suo argomento è $\\dfrac{\\pi}{2}+k\\pi$: $3x\\neq\\dfrac{\\pi}{2}+k\\pi\\Rightarrow x\\neq\\dfrac{\\pi}{6}+\\dfrac{k\\pi}{3}$. \\\\\nc) $1-\\cos(2x)\\neq0\\Rightarrow\\cos(2x)\\neq1\\Rightarrow 2x\\neq2k\\pi\\Rightarrow x\\neq k\\pi$: $D=\\mathbb{R}\\setminus\\{k\\pi\\}$. \\\\\nd) $\\sin x+1\\ge0$ è sempre vero perché $\\sin x\\ge-1$: $D=\\mathbb{R}$.",
-    "id": 454
+    "id": 591
   },
   {
     "subject": "matematica",
@@ -6900,9 +9006,9 @@ const EXERCISES = [
       "radicali"
     ],
     "subtitle": "Dominio di funzioni composte con radicali annidati",
-    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=\\sqrt{\\sqrt{x-1}-1}$\n\\item $f(x)=\\dfrac{\\sqrt{x-2}}{\\sqrt{x-5}}$\n\\item $f(x)=\\sqrt{\\dfrac{x-4}{x-6}}$\n\\item $f(x)=\\dfrac{\\sqrt{|x+1|-1}}{x-2}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare il dominio delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=\\sqrt{\\sqrt{x-1}-1}$\n\\item $f(x)=\\dfrac{\\sqrt{x-2}}{\\sqrt{x-5}}$\n\\item $f(x)=\\sqrt{\\dfrac{x-4}{x-6}}$\n\\item $f(x)=\\dfrac{\\sqrt{|x+1|-1}}{x-2}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "a) Radice annidata: serve $x-1\\ge0$ e $\\sqrt{x-1}-1\\ge0\\Rightarrow\\sqrt{x-1}\\ge1\\Rightarrow x-1\\ge1\\Rightarrow x\\ge2$: $D=[2,+\\infty)$. \\\\\nb) Numeratore: $x-2\\ge0$ ($x\\ge2$); denominatore (radice, $>0$): $x-5>0$ ($x>5$). Intersezione: $D=(5,+\\infty)$. \\\\\nc) Frazione sotto radice $\\ge0$: $\\dfrac{x-4}{x-6}\\ge0\\Rightarrow x\\le4$ o $x>6$ (escluso $x=6$): $D=(-\\infty,4]\\cup(6,+\\infty)$. \\\\\nd) $|x+1|-1\\ge0\\Rightarrow |x+1|\\ge1\\Rightarrow x\\le-2$ o $x\\ge0$; inoltre $x\\neq2$: $D=(-\\infty,-2]\\cup[0,2)\\cup(2,+\\infty)$.",
-    "id": 455
+    "id": 592
   },
   {
     "subject": "matematica",
@@ -6917,7 +9023,7 @@ const EXERCISES = [
     "subtitle": "Classificare funzioni da grafici — serie 1",
     "text": "Osserva i seguenti grafici di funzioni e indica per ciascuno se la funzione è iniettiva, suriettiva, biettiva o nessuna delle tre opzioni.\n\\begin{center}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis y line=center, axis x line=middle,\n    xmin=-2, xmax=8, ymin=-4, ymax=4,\n    xlabel=$x$,ylabel=$y$, xtick=\\empty, ytick=\\empty,\n    width=1.3\\linewidth, height=1.3\\linewidth\n]\n    \\addplot [smooth, red, thick, mark=none, domain=-8:8,samples=200] {ln (x)};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ a)\n\\end{minipage}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis y line=center, axis x line=middle,\n    xmin=-5, xmax=5, ymin=-10, ymax=10,\n    xlabel=$x$,ylabel=$y$, xtick=\\empty, ytick=\\empty,\n    width=1.3\\linewidth, height=1.3\\linewidth\n]\n    \\addplot [smooth, red, thick, mark=none, domain=-5:5,samples=40] {x^3-4*x^2+5};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ b)\n\\end{minipage}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis y line=center, axis x line=middle,\n    xmin=-3, xmax=3, ymin=-10, ymax=10,\n    xlabel=$x$,ylabel=$y$, xtick=\\empty, ytick=\\empty,\n    width=1.3\\linewidth, height=1.3\\linewidth\n]\n    \\addplot [smooth, red, thick, mark=none, domain=-3:3,samples=40] {x^3};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ c)\n\\end{minipage}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[axis lines=middle, xlabel=$x$, ylabel=$y$, width=1.3\\linewidth, height=1.3\\linewidth,\nxtick=\\empty, ytick=\\empty, xmin=-6.5, xmax=6.5, ymin=-1.5, ymax=1.5]\n\\addplot[domain=-6.28:6.28, samples=100, thick, red] {sin(deg(x))};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ d)\n\\end{minipage}\n\\end{center}",
     "solution": "Si usa il criterio della retta orizzontale (iniettività: ogni retta $y=k$ taglia il grafico al più una volta) e si confronta l'insieme dei valori assunti con il codominio $\\mathbb{R}$ (suriettività). \\\\\na) $y=\\ln x$: strettamente crescente (iniettiva) e assume tutti i valori reali, quindi \\textbf{biiettiva}. \\\\\nb) $y=x^3-4x^2+5$: ha un massimo e un minimo relativi, quindi una retta orizzontale può tagliarla 3 volte (non iniettiva); essendo di grado dispari assume tutti i valori di $\\mathbb{R}$ (suriettiva): \\textbf{solo suriettiva}. \\\\\nc) $y=x^3$: strettamente crescente e a valori in tutto $\\mathbb{R}$: \\textbf{biiettiva}. \\\\\nd) $y=\\sin x$: periodica (non iniettiva) e a valori in $[-1,1]\\neq\\mathbb{R}$ (non suriettiva): \\textbf{nessuna delle tre}.",
-    "id": 456
+    "id": 593
   },
   {
     "subject": "matematica",
@@ -6932,7 +9038,7 @@ const EXERCISES = [
     "subtitle": "Classificare funzioni da grafici — serie 2",
     "text": "Osserva i seguenti grafici di funzioni e indica per ciascuno se la funzione è iniettiva, suriettiva, biettiva o nessuna delle tre opzioni.\n\\begin{center}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis y line=center, axis x line=middle,\n    xmin=-2, xmax=2, ymin=-4, ymax=4,\n    xlabel=$x$,ylabel=$y$, xtick=\\empty, ytick=\\empty,\n    width=1.3\\linewidth, height=1.3\\linewidth\n]\n    \\addplot [smooth, red, thick, mark=none, domain=-8:8,samples=200] {x^2 -2};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ a)\n\\end{minipage}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis y line=center, axis x line=middle,\n    xmin=-5, xmax=5, ymin=-10, ymax=10,\n    xlabel=$x$,ylabel=$y$, xtick=\\empty, ytick=\\empty,\n    width=1.3\\linewidth, height=1.3\\linewidth\n]\n    \\addplot [smooth, red, thick, mark=none, domain=-5:5,samples=40] {x^3-4*x^2+5};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ b)\n\\end{minipage}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis y line=center, axis x line=middle,\n    xmin=-3, xmax=3, ymin=-10, ymax=10,\n    xlabel=$x$,ylabel=$y$, xtick=\\empty, ytick=\\empty,\n    width=1.3\\linewidth, height=1.3\\linewidth\n]\n    \\addplot [smooth, red, thick, mark=none, domain=0:3,samples=40] {2*x};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ c)\n\\end{minipage}\n\n\\begin{minipage}{0.24\\textwidth}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}[axis lines=middle, xlabel=$x$, ylabel=$y$, width=1.3\\linewidth, height=1.3\\linewidth,\nxtick=\\empty, ytick=\\empty, xmin=-4, xmax=4, ymin=-1.5, ymax=1.5]\n\\addplot[domain=-4:4, samples=100, thick, red] {x*e^x};\n\\end{axis}\n\\end{tikzpicture}\n\\\\ d)\n\\end{minipage}\n\\end{center}",
     "solution": "Come per la serie precedente, si valutano iniettività (retta orizzontale) e suriettività (valori assunti rispetto a $\\mathbb{R}$). \\\\\na) $y=x^2-2$: parabola simmetrica rispetto all'asse $y$ (non iniettiva); valori in $[-2,+\\infty)\\neq\\mathbb{R}$ (non suriettiva): \\textbf{nessuna delle tre}. \\\\\nb) $y=x^3-4x^2+5$: non iniettiva ma a valori in tutto $\\mathbb{R}$: \\textbf{solo suriettiva}. \\\\\nc) $y=2x$ ristretta a $[0,3]$: retta crescente (iniettiva), ma i valori sono $[0,6]\\neq\\mathbb{R}$ (non suriettiva): \\textbf{solo iniettiva}. \\\\\nd) $y=x\\,e^x$: ha un minimo in $x=-1$ (non iniettiva) e valori in $\\left[-\\tfrac{1}{e},+\\infty\\right)\\neq\\mathbb{R}$ (non suriettiva): \\textbf{nessuna delle tre}.",
-    "id": 457
+    "id": 594
   },
   {
     "subject": "matematica",
@@ -6945,9 +9051,9 @@ const EXERCISES = [
       "inversa"
     ],
     "subtitle": "Funzione inversa — serie 1",
-    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=2x+3$\n\\item $f(x)=\\frac{x-1}{3}$\n\\item $f(x)=\\frac{1}{x+2}$\n\\item $f(x)=\\sqrt{x+5}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=2x+3$\n\\item $f(x)=\\frac{x-1}{3}$\n\\item $f(x)=\\frac{1}{x+2}$\n\\item $f(x)=\\sqrt{x+5}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "Per invertire si scambiano $x$ e $y$ e si risolve rispetto a $y$. \\\\\na) $y=2x+3\\Rightarrow f^{-1}(x)=\\dfrac{x-3}{2}$. \\\\\nb) $y=\\dfrac{x-1}{3}\\Rightarrow f^{-1}(x)=3x+1$. \\\\\nc) $y=\\dfrac{1}{x+2}\\Rightarrow f^{-1}(x)=\\dfrac{1}{x}-2=\\dfrac{1-2x}{x}$, con $x\\neq0$. \\\\\nd) $y=\\sqrt{x+5}$ (con $y\\ge0$) $\\Rightarrow f^{-1}(x)=x^2-5$, definita per $x\\ge0$.",
-    "id": 458
+    "id": 595
   },
   {
     "subject": "matematica",
@@ -6960,9 +9066,9 @@ const EXERCISES = [
       "inversa"
     ],
     "subtitle": "Funzione inversa — serie 2",
-    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=\\frac{x+4}{5}$\n\\item $f(x)=3x-7$\n\\item $f(x)=\\frac{2}{x-1}$\n\\item $f(x)=\\sqrt{2x+3}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=\\frac{x+4}{5}$\n\\item $f(x)=3x-7$\n\\item $f(x)=\\frac{2}{x-1}$\n\\item $f(x)=\\sqrt{2x+3}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "Si scambiano $x$ e $y$ e si risolve per $y$. \\\\\na) $y=\\dfrac{x+4}{5}\\Rightarrow f^{-1}(x)=5x-4$. \\\\\nb) $y=3x-7\\Rightarrow f^{-1}(x)=\\dfrac{x+7}{3}$. \\\\\nc) $y=\\dfrac{2}{x-1}\\Rightarrow f^{-1}(x)=1+\\dfrac{2}{x}=\\dfrac{x+2}{x}$, con $x\\neq0$. \\\\\nd) $y=\\sqrt{2x+3}\\Rightarrow f^{-1}(x)=\\dfrac{x^2-3}{2}$, definita per $x\\ge0$.",
-    "id": 459
+    "id": 596
   },
   {
     "subject": "matematica",
@@ -6975,9 +9081,9 @@ const EXERCISES = [
       "inversa"
     ],
     "subtitle": "Funzione inversa — serie 3",
-    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=5x-2$\n\\item $f(x)=\\frac{x+3}{2}$\n\\item $f(x)=\\frac{1}{x-4}$\n\\item $f(x)=\\sqrt{x-1}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=5x-2$\n\\item $f(x)=\\frac{x+3}{2}$\n\\item $f(x)=\\frac{1}{x-4}$\n\\item $f(x)=\\sqrt{x-1}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "a) $y=5x-2\\Rightarrow f^{-1}(x)=\\dfrac{x+2}{5}$. \\\\\nb) $y=\\dfrac{x+3}{2}\\Rightarrow f^{-1}(x)=2x-3$. \\\\\nc) $y=\\dfrac{1}{x-4}\\Rightarrow f^{-1}(x)=\\dfrac{1}{x}+4=\\dfrac{1+4x}{x}$, con $x\\neq0$. \\\\\nd) $y=\\sqrt{x-1}\\Rightarrow f^{-1}(x)=x^2+1$, definita per $x\\ge0$.",
-    "id": 460
+    "id": 597
   },
   {
     "subject": "matematica",
@@ -6990,9 +9096,9 @@ const EXERCISES = [
       "inversa"
     ],
     "subtitle": "Funzione inversa — serie 4",
-    "text": "Determinare la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=\\frac{2x-1}{3}$\n\\item $f(x)=4x+5$\n\\item $f(x)=\\frac{3}{x+2}$\n\\item $f(x)=\\sqrt{3x-4}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=\\frac{2x-1}{3}$\n\\item $f(x)=4x+5$\n\\item $f(x)=\\frac{3}{x+2}$\n\\item $f(x)=\\sqrt{3x-4}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "a) $y=\\dfrac{2x-1}{3}\\Rightarrow f^{-1}(x)=\\dfrac{3x+1}{2}$. \\\\\nb) $y=4x+5\\Rightarrow f^{-1}(x)=\\dfrac{x-5}{4}$. \\\\\nc) $y=\\dfrac{3}{x+2}\\Rightarrow f^{-1}(x)=\\dfrac{3}{x}-2=\\dfrac{3-2x}{x}$, con $x\\neq0$. \\\\\nd) $y=\\sqrt{3x-4}\\Rightarrow f^{-1}(x)=\\dfrac{x^2+4}{3}$, definita per $x\\ge0$.",
-    "id": 461
+    "id": 598
   },
   {
     "subject": "matematica",
@@ -7005,9 +9111,9 @@ const EXERCISES = [
       "inversa"
     ],
     "subtitle": "Funzione inversa — serie 5",
-    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=7x+1$\n\\item $f(x)=\\frac{x-5}{6}$\n\\item $f(x)=\\frac{4}{x-3}$\n\\item $f(x)=\\sqrt{5x+2}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare, se possibile, la funzione inversa delle seguenti funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=7x+1$\n\\item $f(x)=\\frac{x-5}{6}$\n\\item $f(x)=\\frac{4}{x-3}$\n\\item $f(x)=\\sqrt{5x+2}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "a) $y=7x+1\\Rightarrow f^{-1}(x)=\\dfrac{x-1}{7}$. \\\\\nb) $y=\\dfrac{x-5}{6}\\Rightarrow f^{-1}(x)=6x+5$. \\\\\nc) $y=\\dfrac{4}{x-3}\\Rightarrow f^{-1}(x)=\\dfrac{4}{x}+3=\\dfrac{4+3x}{x}$, con $x\\neq0$. \\\\\nd) $y=\\sqrt{5x+2}\\Rightarrow f^{-1}(x)=\\dfrac{x^2-2}{5}$, definita per $x\\ge0$.",
-    "id": 462
+    "id": 599
   },
   {
     "subject": "matematica",
@@ -7020,9 +9126,9 @@ const EXERCISES = [
       "composte"
     ],
     "subtitle": "Funzione composta $(f\\circ g)(x)$ — serie 1",
-    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=2x+1, g(x)=x-3$\n\\item $f(x)=x^2, g(x)=x+2$\n\\item $f(x)=\\sqrt{x}, g(x)=3x-1$\n\\item $f(x)=\\frac{1}{x}, g(x)=x+4$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=2x+1, g(x)=x-3$\n\\item $f(x)=x^2, g(x)=x+2$\n\\item $f(x)=\\sqrt{x}, g(x)=3x-1$\n\\item $f(x)=\\frac{1}{x}, g(x)=x+4$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "Per definizione $(f\\circ g)(x)=f\\big(g(x)\\big)$: si sostituisce $g(x)$ al posto della variabile in $f$. \\\\\na) $f(g(x))=2(x-3)+1=2x-5$. \\\\\nb) $f(g(x))=(x+2)^2$. \\\\\nc) $f(g(x))=\\sqrt{3x-1}$. \\\\\nd) $f(g(x))=\\dfrac{1}{x+4}$.",
-    "id": 463
+    "id": 600
   },
   {
     "subject": "matematica",
@@ -7035,9 +9141,9 @@ const EXERCISES = [
       "composte"
     ],
     "subtitle": "Funzione composta $(f\\circ g)(x)$ — serie 2",
-    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=3x-2, g(x)=x^2$\n\\item $f(x)=\\sqrt{x}, g(x)=2x+5$\n\\item $f(x)=\\frac{1}{x}, g(x)=x-1$\n\\item $f(x)=x^2+1, g(x)=\\sqrt{x}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=3x-2, g(x)=x^2$\n\\item $f(x)=\\sqrt{x}, g(x)=2x+5$\n\\item $f(x)=\\frac{1}{x}, g(x)=x-1$\n\\item $f(x)=x^2+1, g(x)=\\sqrt{x}$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$(f\\circ g)(x)=f\\big(g(x)\\big)$. \\\\\na) $f(g(x))=3x^2-2$. \\\\\nb) $f(g(x))=\\sqrt{2x+5}$. \\\\\nc) $f(g(x))=\\dfrac{1}{x-1}$. \\\\\nd) $f(g(x))=(\\sqrt{x})^2+1=x+1$, per $x\\ge0$.",
-    "id": 464
+    "id": 601
   },
   {
     "subject": "matematica",
@@ -7050,9 +9156,9 @@ const EXERCISES = [
       "composte"
     ],
     "subtitle": "Funzione composta $(f\\circ g)(x)$ — serie 3",
-    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=5x+3, g(x)=x-4$\n\\item $f(x)=x^2-1, g(x)=2x+1$\n\\item $f(x)=\\sqrt{x+2}, g(x)=x^2$\n\\item $f(x)=\\frac{1}{x-3}, g(x)=x+5$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=5x+3, g(x)=x-4$\n\\item $f(x)=x^2-1, g(x)=2x+1$\n\\item $f(x)=\\sqrt{x+2}, g(x)=x^2$\n\\item $f(x)=\\frac{1}{x-3}, g(x)=x+5$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$(f\\circ g)(x)=f\\big(g(x)\\big)$. \\\\\na) $f(g(x))=5(x-4)+3=5x-17$. \\\\\nb) $f(g(x))=(2x+1)^2-1=4x^2+4x$. \\\\\nc) $f(g(x))=\\sqrt{x^2+2}$. \\\\\nd) $f(g(x))=\\dfrac{1}{(x+5)-3}=\\dfrac{1}{x+2}$.",
-    "id": 465
+    "id": 602
   },
   {
     "subject": "matematica",
@@ -7065,9 +9171,9 @@ const EXERCISES = [
       "composte"
     ],
     "subtitle": "Funzione composta $(f\\circ g)(x)$ — serie 4",
-    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=2x^2, g(x)=x+1$\n\\item $f(x)=x+3, g(x)=\\sqrt{x}$\n\\item $f(x)=\\frac{1}{x+2}, g(x)=2x-1$\n\\item $f(x)=\\sqrt{3x-5}, g(x)=x^2+1$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=2x^2, g(x)=x+1$\n\\item $f(x)=x+3, g(x)=\\sqrt{x}$\n\\item $f(x)=\\frac{1}{x+2}, g(x)=2x-1$\n\\item $f(x)=\\sqrt{3x-5}, g(x)=x^2+1$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$(f\\circ g)(x)=f\\big(g(x)\\big)$. \\\\\na) $f(g(x))=2(x+1)^2$. \\\\\nb) $f(g(x))=\\sqrt{x}+3$. \\\\\nc) $f(g(x))=\\dfrac{1}{(2x-1)+2}=\\dfrac{1}{2x+1}$. \\\\\nd) $f(g(x))=\\sqrt{3(x^2+1)-5}=\\sqrt{3x^2-2}$.",
-    "id": 466
+    "id": 603
   },
   {
     "subject": "matematica",
@@ -7080,9 +9186,9 @@ const EXERCISES = [
       "composte"
     ],
     "subtitle": "Funzione composta $(f\\circ g)(x)$ — serie 5",
-    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=2.5cm]\n\\item $f(x)=x^2+2, g(x)=x-3$\n\\item $f(x)=3x-4, g(x)=\\sqrt{x}$\n\\item $f(x)=\\frac{1}{x-1}, g(x)=x^2+1$\n\\item $f(x)=\\sqrt{x+5}, g(x)=2x-3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
+    "text": "Determinare la funzione composta \\( (f\\circ g)(x) \\) per le seguenti coppie di funzioni:\n\n\\begin{center}\\begin{minipage}{0.92\\linewidth}\n\\begin{multicols}{2}\n\\begin{enumerate}[leftmargin=3.2cm]\n\\item $f(x)=x^2+2, g(x)=x-3$\n\\item $f(x)=3x-4, g(x)=\\sqrt{x}$\n\\item $f(x)=\\frac{1}{x-1}, g(x)=x^2+1$\n\\item $f(x)=\\sqrt{x+5}, g(x)=2x-3$\n\\end{enumerate}\n\\end{multicols}\n\\end{minipage}\\end{center}",
     "solution": "$(f\\circ g)(x)=f\\big(g(x)\\big)$. \\\\\na) $f(g(x))=(x-3)^2+2$. \\\\\nb) $f(g(x))=3\\sqrt{x}-4$. \\\\\nc) $f(g(x))=\\dfrac{1}{(x^2+1)-1}=\\dfrac{1}{x^2}$. \\\\\nd) $f(g(x))=\\sqrt{(2x-3)+5}=\\sqrt{2x+2}$.",
-    "id": 467
+    "id": 604
   },
   {
     "subject": "matematica",
@@ -7098,7 +9204,7 @@ const EXERCISES = [
     "subtitle": "Composizione e inverse di $f(x)=x-1$ e $g(x)=x^3$",
     "text": "Date le funzioni\n\\[\nf(x)=x-1,\\quad g(x)=x^3,\n\\]\n\\begin{enumerate}\n    \\item Determinare \\(f \\circ g\\) e \\(g \\circ f\\);\n    \\item Giustificare perché le funzioni sono invertibili e determinare le espressioni di \\(f^{-1}\\) e \\(g^{-1}\\);\n    \\item Verificare che risulta $(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item $(f\\circ g)(x)=f\\big(g(x)\\big)=x^3-1$;\\quad $(g\\circ f)(x)=g\\big(f(x)\\big)=(x-1)^3$.\n\\item $f(x)=x-1$ è una funzione lineare, quindi strettamente crescente e biiettiva: invertibile, con $f^{-1}(x)=x+1$. Anche $g(x)=x^3$ è strettamente crescente su tutto $\\mathbb{R}$: invertibile, con $g^{-1}(x)=\\sqrt[3]{x}$.\n\\item Da $(f\\circ g)(x)=x^3-1$, ponendo $y=x^3-1$ si ricava $x=\\sqrt[3]{y+1}$, quindi $(f\\circ g)^{-1}(x)=\\sqrt[3]{x+1}$. D'altra parte $(g^{-1}\\circ f^{-1})(x)=g^{-1}\\big(f^{-1}(x)\\big)=g^{-1}(x+1)=\\sqrt[3]{x+1}$. Le due espressioni coincidono, come previsto dalla regola dell'inversa di una composizione (l'ordine si scambia).\n\\end{enumerate}",
-    "id": 468
+    "id": 605
   },
   {
     "subject": "matematica",
@@ -7114,7 +9220,7 @@ const EXERCISES = [
     "subtitle": "Parametro $a$ per $g\\circ f$ passante per $(0,4)$",
     "text": "Date le funzioni $f(x)=3x^{2}-x$ e $g(x)=2x-a$, determina $a$ in modo che il grafico della funzione $g \\circ f$ intersechi l'asse $y$ nel punto di coordinate $(0,4)$.",
     "solution": "Calcoliamo la composizione: $(g\\circ f)(x)=g\\big(f(x)\\big)=2(3x^2-x)-a=6x^2-2x-a$. L'intersezione con l'asse $y$ si ha in $x=0$, dove $(g\\circ f)(0)=-a$. Imponendo il passaggio per $(0,4)$:\n\\[\n-a=4 \\;\\Rightarrow\\; \\boxed{a=-4}.\n\\]",
-    "id": 469
+    "id": 606
   },
   {
     "subject": "matematica",
@@ -7129,7 +9235,7 @@ const EXERCISES = [
     "subtitle": "FAC: $f(f(f(x)))=8x+21$, trovare $a+b$",
     "text": "\\textbf{FAC)}\nSupponi che \\(f(x) = ax + b\\), dove \\(a\\) e \\(b\\) sono numeri reali. Sapendo che \\(f(f(f(x))) = 8x + 21\\), quanto vale \\(a + b\\)?",
     "solution": "Componendo tre volte una funzione lineare: $f(f(x))=a(ax+b)+b=a^2x+b(a+1)$ e quindi\n\\[\nf(f(f(x)))=a^3x+b(a^2+a+1).\n\\]\nConfrontando con $8x+21$: dal coefficiente di $x$, $a^3=8\\Rightarrow a=2$; dal termine noto, $b(a^2+a+1)=7b=21\\Rightarrow b=3$. Pertanto $a+b=\\boxed{5}$.",
-    "id": 470
+    "id": 607
   },
   {
     "subject": "matematica",
@@ -7144,7 +9250,7 @@ const EXERCISES = [
     "subtitle": "FAC: funzione con $f(x)+f(1/(1-x))=x$, trovare $f(2)$",
     "text": "\\textbf{FAC)}\nSia $f(x)$ una funzione tale che $f(x) + f\\Big(\\dfrac{1}{1-x}\\Big) = x$ per tutte le $x$ diverse da 0 e da 1. Quanto vale $f(2)$?",
     "solution": "La trasformazione $t(x)=\\dfrac{1}{1-x}$ è ciclica di periodo 3: applicandola si ottiene $t(x)=\\dfrac{1}{1-x}$, poi $t\\big(t(x)\\big)=\\dfrac{x-1}{x}$, e infine $t\\big(t(t(x))\\big)=x$. Scrivendo l'equazione data per $x$, per $t(x)$ e per $t^2(x)$ otteniamo il sistema:\n\\[\nf(x)+f\\!\\Big(\\tfrac{1}{1-x}\\Big)=x,\\quad\nf\\!\\Big(\\tfrac{1}{1-x}\\Big)+f\\!\\Big(\\tfrac{x-1}{x}\\Big)=\\tfrac{1}{1-x},\\quad\nf\\!\\Big(\\tfrac{x-1}{x}\\Big)+f(x)=\\tfrac{x-1}{x}.\n\\]\nSommando la prima e la terza e sottraendo la seconda si elimina tutto tranne $2f(x)$:\n\\[\nf(x)=\\tfrac12\\Big(x+\\tfrac{x-1}{x}-\\tfrac{1}{1-x}\\Big).\n\\]\nPer $x=2$: $f(2)=\\tfrac12\\Big(2+\\tfrac12-\\tfrac{1}{-1}\\Big)=\\tfrac12\\big(2+\\tfrac12+1\\big)=\\boxed{\\dfrac{7}{4}}$.",
-    "id": 471
+    "id": 608
   },
   {
     "subject": "matematica",
@@ -7158,7 +9264,7 @@ const EXERCISES = [
     "subtitle": "Rappresentazione di parti di piano — serie 1",
     "text": "Rappresenta graficamente le parti di piano definite dalle seguenti disequazioni o da sistemi di disequazioni:\n\\vspace{-10pt}\n\\begin{center}\\begin{minipage}{0.7\\linewidth}\n\\begin{enumerate}\n\\item $2 x - y > 1$\n\\item $\\begin{cases} x + y - 2 = 0 \\\\ x \\ge 1 \\end{cases}$\n\\item $\\begin{cases} 2x+y> 0 \\\\ y \\ge 3x+1 \\end{cases}$\n\\end{enumerate}\n\\end{minipage}\\end{center}\n\\vspace{-20pt}",
     "solution": "Si traccia la retta associata a ogni disequazione e si sceglie il semipiano corretto (continuo se $\\le/\\ge$, tratteggiato se $</>$).\n\\begin{itemize}\n\\item a) $2x-y>1\\Rightarrow y<2x-1$: semipiano \\emph{sotto} la retta $y=2x-1$ (esclusa).\n\\item b) $\\{x+y-2=0,\\ x\\ge1\\}$: la parte della retta $x+y=2$ con $x\\ge1$, cioè la \\emph{semiretta} a partire da $(1,1)$.\n\\item c) $\\{2x+y>0,\\ y\\ge3x+1\\}$: intersezione del semipiano sopra $y=-2x$ con quello sopra $y=3x+1$ (regione comune).\n\\end{itemize}",
-    "id": 472
+    "id": 609
   },
   {
     "subject": "matematica",
@@ -7172,7 +9278,7 @@ const EXERCISES = [
     "subtitle": "Rappresentazione di parti di piano — serie 2",
     "text": "Rappresenta graficamente le parti di piano definite dalle seguenti disequazioni o da sistemi di disequazioni:\n\\vspace{-10pt}\n\\begin{center}\\begin{minipage}{0.7\\linewidth}\n\\begin{enumerate}\n\\item $3 x - y < 1$\n\\item $\\begin{cases} 2x + y - 2 = 0 \\\\ x \\ge 1 \\end{cases}$\n\\item $\\begin{cases} 2x-y> 0 \\\\ y \\le 3x+1 \\end{cases}$\n\\end{enumerate}\n\\end{minipage}\\end{center}\n\\vspace{-20pt}",
     "solution": "\\begin{itemize}\n\\item a) $3x-y<1\\Rightarrow y>3x-1$: semipiano \\emph{sopra} la retta $y=3x-1$ (esclusa).\n\\item b) $\\{2x+y-2=0,\\ x\\ge1\\}$: la parte della retta $2x+y=2$ con $x\\ge1$, cioè la \\emph{semiretta} a partire da $(1,0)$.\n\\item c) $\\{2x-y>0,\\ y\\le3x+1\\}$: intersezione del semipiano sotto $y=2x$ (cioè $y<2x$) con quello sotto/sulla retta $y=3x+1$.\n\\end{itemize}",
-    "id": 473
+    "id": 610
   },
   {
     "subject": "matematica",
@@ -7186,7 +9292,7 @@ const EXERCISES = [
     "subtitle": "Punteggio di un test a risposta multipla",
     "text": "Uno studente svolge un test a risposta multipla in cui il punteggio assegnato è pari a 1 punto per ogni risposta corretta, – 0,25 punti per ogni risposta errata e 0 punti per ogni risposta non data.\nIl test è composto da 10 domande e, una volta completato, lo studente, confrontandosi con i compagni, si rende conto di aver sicuramente sbagliato almeno una domanda.\nRappresenta sul piano cartesiano ed elenca tutti i possibili esiti del test. \\textit{(Suggerimento: poni come variabile $x$ il numero di domande corrette e $y$ il numero di domande errate)}",
     "solution": "Con $x$ corrette e $y$ errate (interi $\\ge0$), i vincoli sono: $x+y\\le10$ (le restanti sono non date), $y\\ge1$ (almeno una errata), $x\\ge0$. La regione è il triangolo di vertici $(0,1)$, $(9,1)$, $(0,10)$, e gli esiti possibili sono i suoi \\emph{punti a coordinate intere}.\n\nIl punteggio associato a ciascun esito è $P=x-0{,}25\\,y$. Ad esempio: $9$ corrette e $1$ errata $\\to P=8{,}75$ (massimo possibile con almeno un errore); $0$ corrette e $10$ errate $\\to P=-2{,}5$ (minimo). In generale, per ogni coppia $(x,y)$ con $x\\ge0,\\ y\\ge1,\\ x+y\\le10$ si ottiene un esito ammissibile.",
-    "id": 474
+    "id": 611
   },
   {
     "subject": "matematica",
@@ -7200,7 +9306,7 @@ const EXERCISES = [
     "subtitle": "Composizione di un vassoio di dolci",
     "text": "Una pasticceria prepara un vassoio di dolci composto da dolci al cioccolato e dolci alla frutta, per un totale di più di 8 dolci.\nSi richiede che nel vassoio ci siano meno di 6 dolci alla frutta e che il numero dei dolci al cioccolato sia al massimo 5 in più rispetto a quelli alla frutta.\nRappresenta graficamente ed elenca tutti i possibili modi in cui può essere composto il vassoio di dolci.",
     "solution": "Sia $x$ il numero di dolci al cioccolato e $y$ quelli alla frutta (interi $\\ge0$). Vincoli: $x+y>8$ (cioè $x+y\\ge9$), $y<6$ (cioè $y\\le5$), $x\\le y+5$. La condizione $9-y\\le x\\le y+5$ ha soluzioni solo se $9-y\\le y+5$, cioè $y\\ge2$. Quindi $y\\in\\{2,3,4,5\\}$:\n\\begin{itemize}\n\\item $y=2$: $x=7$ $\\to$ $(7,2)$;\n\\item $y=3$: $x=6,7,8$;\n\\item $y=4$: $x=5,6,7,8,9$;\n\\item $y=5$: $x=4,5,6,7,8,9,10$.\n\\end{itemize}\nIn totale $1+3+5+7=16$ composizioni possibili. Graficamente sono i punti interi della regione delimitata da $x+y\\ge9$, $y\\le5$, $x\\le y+5$ (con $x,y\\ge0$).",
-    "id": 475
+    "id": 612
   },
   {
     "subject": "matematica",
@@ -7215,7 +9321,7 @@ const EXERCISES = [
     "subtitle": "Simmetria centrale rispetto a $P(1,1)$",
     "text": "Dopo aver descritto le leggi di trasformazione di una simmetria centrale rispetto al punto $P(1,1)$.\n\\begin{enumerate}\n\\item Determinare il punto $A'$ simmetrico rispetto ad $A(5,3)$;\n\\item Determinare l'equazione della curva $\\gamma'$ simmetrica di $\\gamma: \\ y+(x-2)^2 + 3 = 0 $ rispetto al punto $P$;\n\\item Verificare che la curva di equazione $x^2+4y^2-2x-8y+1=0$ ha centro di simmetria nel punto $P$.\n\\end{enumerate}",
     "solution": "La simmetria centrale rispetto a $P(1,1)$ ha equazioni $x'=2-x,\\ y'=2-y$ (il punto medio di ciascuna coppia punto–immagine è $P$).\n\\begin{enumerate}\n\\item $A(5,3)\\Rightarrow A'(2-5,\\ 2-3)=(-3,-1)$.\n\\item Si sostituisce $x\\to2-x$, $y\\to2-y$ nell'equazione di $\\gamma$: $(2-y)+((2-x)-2)^2+3=0\\Rightarrow x^2-y+5=0$, cioè $\\gamma':\\ y=x^2+5$ (la parabola, prima rivolta verso il basso con vertice $(2,-3)$, diventa rivolta verso l'alto con vertice $(0,5)$).\n\\item Completando i quadrati: $x^2-2x+4y^2-8y+1=(x-1)^2+4(y-1)^2-4=0$, cioè $(x-1)^2+4(y-1)^2=4$: ellisse di centro $(1,1)=P$. Avendo centro in $P$, è simmetrica rispetto a $P$.\n\\end{enumerate}",
-    "id": 476
+    "id": 613
   },
   {
     "subject": "matematica",
@@ -7230,7 +9336,7 @@ const EXERCISES = [
     "subtitle": "Simmetria assiale rispetto alla retta $x=1$",
     "text": "Dopo aver descritto le leggi di trasformazione di una simmetria assiale rispetto alla retta $x=1$.\n\\begin{enumerate}\n\\item Determinare il punto $A'$ simmetrico rispetto ad $A(5,3)$;\n\\item Determinare l'equazione della curva $\\gamma'$ simmetrica di $\\gamma: \\ y+(x-2)^2 + 3 = 0$;\n\\item Verificare che la curva di equazione $y=x^2-2x+3$ è simmetrica rispetto alla retta $x=1$\n\\end{enumerate}",
     "solution": "La simmetria assiale rispetto a $x=1$ ha equazioni $x'=2-x,\\ y'=y$ (cambia solo l'ascissa, riflessa attorno a $x=1$).\n\\begin{enumerate}\n\\item $A(5,3)\\Rightarrow A'(2-5,\\ 3)=(-3,3)$.\n\\item Sostituendo $x\\to2-x$, $y\\to y$ in $\\gamma$: $y+((2-x)-2)^2+3=0\\Rightarrow y+x^2+3=0$, cioè $\\gamma':\\ y=-x^2-3$ (vertice da $(2,-3)$ a $(0,-3)$).\n\\item $y=x^2-2x+3=(x-1)^2+2$: parabola di vertice $(1,2)$ e asse $x=1$. L'asse di simmetria coincide con la retta data, quindi la curva è simmetrica rispetto a $x=1$.\n\\end{enumerate}",
-    "id": 477
+    "id": 614
   },
   {
     "subject": "matematica",
@@ -7245,7 +9351,7 @@ const EXERCISES = [
     "subtitle": "Omotetia con centro $P(2,1)$ e rapporto $k=2$ sul triangolo $ABC$",
     "text": "Dato il triangolo di vertici $A(0,0), \\quad B(2,0), \\quad C(2,2)$, determinare il corrispondente triangolo $A'B'C'$ del triangolo $ABC$ nell'omotetia avente rapporto di omotetia $k=2$ e centro $P(2,1)$.\n\\begin{enumerate}\n\\item Determinare le equazioni della trasformazione;\n\\item Rappresentare i due triangoli;\n\\item Calcolare le aree dei due triangoli.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item Omotetia di centro $P(2,1)$ e rapporto $k=2$: $x'=k(x-2)+2=2x-2$, $y'=k(y-1)+1=2y-1$.\n\\item Immagini dei vertici: $A(0,0)\\to A'(-2,-1)$, $B(2,0)\\to B'(2,-1)$, $C(2,2)\\to C'(2,3)$. Si rappresentano $ABC$ (triangolo rettangolo in $B$) e $A'B'C'$ (rettangolo in $B'$), allineati lungo le rette per il centro $P$.\n\\item $ABC$: cateti $AB=2$ e $BC=2$, area $=\\tfrac12\\cdot2\\cdot2=2$. $A'B'C'$: cateti $A'B'=4$ e $B'C'=4$, area $=\\tfrac12\\cdot4\\cdot4=8$. Il rapporto delle aree è $k^2=4$, coerente con l'omotetia.\n\\end{enumerate}",
-    "id": 478
+    "id": 615
   },
   {
     "subject": "matematica",
@@ -7260,7 +9366,7 @@ const EXERCISES = [
     "subtitle": "Dilatazione con centro nell'origine sul triangolo $ABC$",
     "text": "Dato il triangolo di vertici $A(0,0), \\quad B(2,0), \\quad C(2,2)$, determinare il corrispondente triangolo $A'B'C'$ del triangolo $ABC$ nella dilatazione con centro nell'origine avente equazioni di trasformazione:\n\\[\n\\begin{cases}\nx' = -2x \\\\\ny' = 3y\n\\end{cases}\n\\]\n\\begin{enumerate}\n\\item Rappresentare i due triangoli;\n\\item Calcolare le aree dei due triangoli.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item Immagini dei vertici con $x'=-2x,\\ y'=3y$: $A(0,0)\\to A'(0,0)$, $B(2,0)\\to B'(-4,0)$, $C(2,2)\\to C'(-4,6)$. La dilatazione raddoppia (con riflessione) le ascisse e triplica le ordinate: $A'B'C'$ è rettangolo in $B'$.\n\\item $ABC$: area $=\\tfrac12\\cdot2\\cdot2=2$. $A'B'C'$: cateti $A'B'=4$ e $B'C'=6$, area $=\\tfrac12\\cdot4\\cdot6=12$. Il rapporto è $|{-2}\\cdot3|=6$, cioè il valore assoluto del prodotto dei due fattori di scala.\n\\end{enumerate}",
-    "id": 479
+    "id": 616
   },
   {
     "subject": "matematica",
@@ -7275,7 +9381,7 @@ const EXERCISES = [
     "subtitle": "Trasformazioni della retta $y=2x+1$",
     "text": "Data la retta $r:\\; y = 2x + 1$, determina l'equazione della retta corrispondente di $r$ nei seguenti casi:\n\\begin{enumerate}\n\\item nella simmetria rispetto all'asse $x$;\n\\item nella traslazione che trasforma $A(1,-3)$ in $A'(4,-2)$;\n\\item nell'omotetia avente centro nell'origine e rapporto 3.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item Simmetria rispetto all'asse $x$: $y\\to-y$, quindi $-y=2x+1\\Rightarrow y=-2x-1$.\n\\item La traslazione ha vettore $A\\to A'=(4-1,\\,-2-(-3))=(3,1)$, cioè $x'=x+3,\\ y'=y+1$. Sostituendo $x=x'-3,\\ y=y'-1$: $y'-1=2(x'-3)+1\\Rightarrow y'=2x'-4$, cioè $y=2x-4$.\n\\item Omotetia di centro $O$ e rapporto 3: $x'=3x,\\ y'=3y$. Sostituendo $x=\\tfrac{x'}{3},\\ y=\\tfrac{y'}{3}$: $\\tfrac{y'}{3}=2\\cdot\\tfrac{x'}{3}+1\\Rightarrow y'=2x'+3$, cioè $y=2x+3$.\n\\end{enumerate}",
-    "id": 480
+    "id": 617
   },
   {
     "subject": "matematica",
@@ -7290,7 +9396,7 @@ const EXERCISES = [
     "subtitle": "Trasformazioni della parabola $y=x^2+2$",
     "text": "Data la parabola $\\gamma:\\; y = x^2 + 2$, determina l'equazione della curva corrispondente $\\gamma'$ nei seguenti casi:\n\\begin{enumerate}\n\\item nella simmetria rispetto alla bisettrice del primo e terzo quadrante;\n\\item nella traslazione che trasforma $A(1,-3)$ in $A'(4,-2)$;\n\\item nell'omotetia avente centro nell'origine e rapporto 2.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item Simmetria rispetto a $y=x$: si scambiano $x$ e $y$, quindi $x=y^2+2$ (parabola con asse orizzontale, vertice $(2,0)$, rivolta verso destra).\n\\item Traslazione di vettore $(3,1)$: $x=x'-3,\\ y=y'-1$, da cui $y'-1=(x'-3)^2+2\\Rightarrow y'=(x'-3)^2+3$, cioè $y=x^2-6x+12$.\n\\item Omotetia di centro $O$ e rapporto 2: $x=\\tfrac{x'}{2},\\ y=\\tfrac{y'}{2}$, da cui $\\tfrac{y'}{2}=\\big(\\tfrac{x'}{2}\\big)^2+2\\Rightarrow y'=\\tfrac{x'^2}{2}+4$, cioè $y=\\tfrac{x^2}{2}+4$.\n\\end{enumerate}",
-    "id": 481
+    "id": 618
   },
   {
     "subject": "matematica",
@@ -7306,7 +9412,7 @@ const EXERCISES = [
     "subtitle": "Trasformazioni del grafico di $y=|x|$",
     "text": "Applicando opportune trasformazioni geometriche al grafico della funzione $y=|x|$ deduci l'equazione delle\nfunzioni il cui grafico non è etichettato.\n\\newline\n\n\\centering\n\\includegraphics[width=\\linewidth]{images/trasformazioni_valore_assoluto.png}",
     "solution": "Si parte da $y=|x|$ (V con vertice nell'origine e pendenze $\\pm1$) e si riconoscono le trasformazioni elementari:\n\\begin{itemize}\n\\item $y=|x-a|$: traslazione orizzontale di $a$ (vertice in $(a,0)$);\n\\item $y=|x|+b$: traslazione verticale di $b$ (vertice in $(0,b)$);\n\\item $y=-|x|$: simmetria rispetto all'asse $x$ (V capovolta);\n\\item $y=k|x|$: dilatazione verticale di fattore $k$ (rami più o meno ripidi).\n\\end{itemize}\nPer ogni grafico non etichettato si individua la posizione del vertice $(a,b)$ e l'orientamento/pendenza dei rami, scrivendo quindi l'equazione nella forma $y=\\pm k\\,|x-a|+b$.",
-    "id": 482
+    "id": 619
   },
   {
     "subject": "matematica",
@@ -7322,7 +9428,7 @@ const EXERCISES = [
     "subtitle": "Traslazione del grafico di $y=f(x)$",
     "text": "\\begin{minipage}{\\linewidth}\n\\begin{wrapfigure}{r}{0.35\\textwidth}\n    \\centering\n    \\vspace{-60pt}\n    \\includegraphics[width=0.35\\textwidth]{images/funzione_trasformazione.png}\n\\end{wrapfigure}\nIn figura è tracciato il grafico della funzione $y = f(x)$. Deduci e rappresenta il grafico della funzione $y'=f(x-2)+1$\n\\vspace{60pt}\n\\end{minipage}",
     "solution": "$f(x-2)$ trasla il grafico di $f$ di 2 unità verso \\emph{destra}; il $+1$ lo trasla di 1 unità verso l'\\emph{alto}. Complessivamente ogni punto $(x_0,y_0)$ del grafico di $f$ va in $(x_0+2,\\ y_0+1)$: si ridisegna la stessa curva spostata di vettore $(2,1)$.",
-    "id": 483
+    "id": 620
   },
   {
     "subject": "matematica",
@@ -7337,7 +9443,7 @@ const EXERCISES = [
     "subtitle": "Grafico e disequazione con $f(x)=|x+2|$ e $g(x)=2-\\frac12|x|$",
     "text": "Definite le seguenti funzioni:\n\\[ f(x) = |x+2| \\qquad\\qquad g(x) = 2 - \\dfrac{1}{2}|x| \\]\n\\begin{enumerate}\n\\item Rappresentare il grafico di $f(x)$ e $g(x)$;\n\\item Risolvere graficamente la disequazione $|x+2| < 2 - \\dfrac{1}{2}|x|$.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item $f(x)=|x+2|$: V con vertice $(-2,0)$, rami di pendenza $\\pm1$. $g(x)=2-\\tfrac12|x|$: V capovolta con vertice $(0,2)$, rami di pendenza $\\mp\\tfrac12$.\n\\item La disequazione $f(x)<g(x)$ è soddisfatta dove la V di $f$ sta \\emph{sotto} la $\\Lambda$ di $g$. Si trovano le ascisse di intersezione studiando i casi del valore assoluto:\n\\begin{itemize}\n\\item $x<-2$: $-x-2<2+\\tfrac{x}{2}\\Rightarrow x>-\\tfrac83$;\n\\item $-2\\le x<0$: $x+2<2+\\tfrac{x}{2}\\Rightarrow x<0$ (sempre vero nell'intervallo);\n\\item $x\\ge0$: $x+2<2-\\tfrac{x}{2}\\Rightarrow x<0$ (mai).\n\\end{itemize}\nUnendo: $-\\dfrac83<x<0$. (Agli estremi $x=-\\tfrac83$ e $x=0$ i due grafici si toccano: $f=g$.)\n\\end{enumerate}",
-    "id": 484
+    "id": 621
   },
   {
     "subject": "matematica",
@@ -7352,7 +9458,7 @@ const EXERCISES = [
     "subtitle": "Grafico e disequazione con $f(x)=|x-2|-1$ e $g(x)=2|x|-2$",
     "text": "Definite le seguenti funzioni:\n\\[ f(x) = |x-2|-1 \\qquad\\qquad g(x) = 2|x|-2 \\]\n\\begin{enumerate}\n\\item Rappresentare il grafico di $f(x)$ e $g(x)$;\n\\item Risolvere graficamente la disequazione $g(x) < f(x)$.\n\\end{enumerate}",
     "solution": "\\begin{enumerate}\n\\item $f(x)=|x-2|-1$: V con vertice $(2,-1)$, pendenze $\\pm1$. $g(x)=2|x|-2$: V con vertice $(0,-2)$, rami più ripidi (pendenze $\\pm2$).\n\\item $g(x)<f(x)\\Leftrightarrow 2|x|-|x-2|<1$. Studiando i casi:\n\\begin{itemize}\n\\item $x<0$: $-2x-(2-x)=-x-2<1\\Rightarrow x>-3$;\n\\item $0\\le x<2$: $2x-(2-x)=3x-2<1\\Rightarrow x<1$;\n\\item $x\\ge2$: $2x-(x-2)=x+2<1\\Rightarrow x<-1$ (mai).\n\\end{itemize}\nUnendo: $-3<x<1$. (Agli estremi $x=-3$ e $x=1$ risulta $g=f$.)\n\\end{enumerate}",
-    "id": 485
+    "id": 622
   },
   {
     "subject": "matematica",
@@ -7367,7 +9473,7 @@ const EXERCISES = [
     "subtitle": "Formule di addizione con $\\sin\\alpha=2/3$ e $\\sin\\beta=3/5$",
     "text": "Sapendo che $\\sin \\alpha = \\dfrac{2}{3}$ e $\\sin \\beta = \\dfrac{3}{5}$, con $0 < \\alpha < \\dfrac{\\pi}{2}$ e $\\dfrac{\\pi}{2} < \\beta < \\pi$, calcola:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin(\\alpha + \\beta)$\n\\item $\\cos(\\alpha - \\beta)$\n\\item $\\sin\\dfrac{\\alpha}{2}$\n\\item $\\tan\\dfrac{\\beta}{2}$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Ricaviamo prima le funzioni mancanti tenendo conto dei quadranti. Poiché $0<\\alpha<\\dfrac{\\pi}{2}$ ($\\alpha$ nel I quadrante), $\\cos\\alpha=\\sqrt{1-\\sin^2\\alpha}=\\sqrt{1-\\dfrac49}=\\dfrac{\\sqrt5}{3}$. Poiché $\\dfrac{\\pi}{2}<\\beta<\\pi$ ($\\beta$ nel II quadrante), $\\cos\\beta=-\\dfrac45$.\n\\begin{enumerate}\n\\item Per la formula di addizione del seno: $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta=\\dfrac23\\!\\cdot\\!\\Big(\\!-\\dfrac45\\Big)+\\dfrac{\\sqrt5}{3}\\!\\cdot\\!\\dfrac35=\\dfrac{3\\sqrt5-8}{15}$.\n\\item Per la formula di sottrazione del coseno: $\\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=\\dfrac{\\sqrt5}{3}\\!\\cdot\\!\\Big(\\!-\\dfrac45\\Big)+\\dfrac23\\!\\cdot\\!\\dfrac35=\\dfrac{6-4\\sqrt5}{15}$.\n\\item $\\dfrac{\\alpha}{2}$ è nel I quadrante, dove il seno è positivo: $\\sin\\dfrac{\\alpha}{2}=\\sqrt{\\dfrac{1-\\cos\\alpha}{2}}=\\sqrt{\\dfrac{3-\\sqrt5}{6}}$.\n\\item $\\dfrac{\\beta}{2}$ è nel I quadrante, dove la tangente è positiva: $\\tan\\dfrac{\\beta}{2}=\\dfrac{1-\\cos\\beta}{\\sin\\beta}=\\dfrac{1+\\frac45}{\\frac35}=3$.\n\\end{enumerate}",
-    "id": 486
+    "id": 623
   },
   {
     "subject": "matematica",
@@ -7382,7 +9488,7 @@ const EXERCISES = [
     "subtitle": "Formule di addizione con $\\cos\\alpha=4/5$ e $\\cos\\beta=-5/13$",
     "text": "Sapendo che $\\cos \\alpha = \\dfrac{4}{5}$ e $\\cos \\beta = -\\dfrac{5}{13}$, con $0 < \\alpha < \\dfrac{\\pi}{2}$ e $\\pi < \\beta < \\dfrac{3\\pi}{2}$, calcola:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\cos(\\alpha + \\beta)$\n\\item $\\sin(\\alpha - \\beta)$\n\\item $\\tan(\\alpha + \\beta)$\n\\item $\\cos\\dfrac{\\beta}{2}$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Quadranti: $0<\\alpha<\\dfrac{\\pi}{2}$ (I quadrante) dà $\\sin\\alpha=\\sqrt{1-\\frac{16}{25}}=\\dfrac35$; $\\pi<\\beta<\\dfrac{3\\pi}{2}$ (III quadrante) dà $\\sin\\beta=-\\sqrt{1-\\frac{25}{169}}=-\\dfrac{12}{13}$.\n\\begin{enumerate}\n\\item $\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=\\dfrac45\\!\\cdot\\!\\Big(\\!-\\dfrac{5}{13}\\Big)-\\dfrac35\\!\\cdot\\!\\Big(\\!-\\dfrac{12}{13}\\Big)=\\dfrac{-20+36}{65}=\\dfrac{16}{65}$.\n\\item $\\sin(\\alpha-\\beta)=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta=\\dfrac35\\!\\cdot\\!\\Big(\\!-\\dfrac{5}{13}\\Big)-\\dfrac45\\!\\cdot\\!\\Big(\\!-\\dfrac{12}{13}\\Big)=\\dfrac{-15+48}{65}=\\dfrac{33}{65}$.\n\\item Servono anche $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta=\\dfrac{-15-48}{65}=-\\dfrac{63}{65}$, quindi $\\tan(\\alpha+\\beta)=\\dfrac{\\sin(\\alpha+\\beta)}{\\cos(\\alpha+\\beta)}=\\dfrac{-63/65}{16/65}=-\\dfrac{63}{16}$.\n\\item $\\beta$ nel III quadrante $\\Rightarrow \\dfrac{\\beta}{2}$ nel II quadrante, dove il coseno è negativo: $\\cos\\dfrac{\\beta}{2}=-\\sqrt{\\dfrac{1+\\cos\\beta}{2}}=-\\sqrt{\\dfrac{1-\\frac{5}{13}}{2}}=-\\sqrt{\\dfrac{4}{13}}=-\\dfrac{2\\sqrt{13}}{13}$.\n\\end{enumerate}",
-    "id": 487
+    "id": 624
   },
   {
     "subject": "matematica",
@@ -7397,7 +9503,7 @@ const EXERCISES = [
     "subtitle": "Formule di addizione con $\\sin\\alpha=5/13$ e $\\cos\\beta=12/13$",
     "text": "Sapendo che $\\sin \\alpha = \\dfrac{5}{13}$ e $\\cos \\beta = \\dfrac{12}{13}$, con $0 < \\alpha < \\dfrac{\\pi}{2}$ e $0 < \\beta < \\dfrac{\\pi}{2}$, calcola:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin(\\alpha - \\beta)$\n\\item $\\cos(\\alpha + \\beta)$\n\\item $\\tan(\\alpha - \\beta)$\n\\item $\\sin\\dfrac{\\alpha}{2}$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Entrambi gli angoli sono nel I quadrante: $\\cos\\alpha=\\sqrt{1-\\frac{25}{169}}=\\dfrac{12}{13}$ e $\\sin\\beta=\\sqrt{1-\\frac{144}{169}}=\\dfrac{5}{13}$. Si nota che $\\sin\\alpha=\\sin\\beta$ e $\\cos\\alpha=\\cos\\beta$, cioè $\\alpha=\\beta$.\n\\begin{enumerate}\n\\item $\\sin(\\alpha-\\beta)=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta=\\dfrac{5}{13}\\!\\cdot\\!\\dfrac{12}{13}-\\dfrac{12}{13}\\!\\cdot\\!\\dfrac{5}{13}=0$ (coerente con $\\alpha=\\beta$).\n\\item $\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=\\dfrac{144-25}{169}=\\dfrac{119}{169}$.\n\\item $\\tan(\\alpha-\\beta)=\\dfrac{\\sin(\\alpha-\\beta)}{\\cos(\\alpha-\\beta)}=0$.\n\\item $\\dfrac{\\alpha}{2}$ è nel I quadrante: $\\sin\\dfrac{\\alpha}{2}=\\sqrt{\\dfrac{1-\\cos\\alpha}{2}}=\\sqrt{\\dfrac{1-\\frac{12}{13}}{2}}=\\sqrt{\\dfrac{1}{26}}=\\dfrac{\\sqrt{26}}{26}$.\n\\end{enumerate}",
-    "id": 488
+    "id": 625
   },
   {
     "subject": "matematica",
@@ -7412,7 +9518,7 @@ const EXERCISES = [
     "subtitle": "Formule di addizione con $\\cos\\alpha=-3/5$ e $\\sin\\beta=4/5$",
     "text": "Sapendo che $\\cos \\alpha = -\\dfrac{3}{5}$ e $\\sin \\beta = \\dfrac{4}{5}$, con $\\dfrac{\\pi}{2} < \\alpha < \\pi$ e $0 < \\beta < \\dfrac{\\pi}{2}$, calcola:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\cos(\\alpha - \\beta)$\n\\item $\\sin(\\alpha + \\beta)$\n\\item $\\tan(\\alpha + \\beta)$\n\\item $\\cos\\dfrac{\\alpha}{2}$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Quadranti: $\\dfrac{\\pi}{2}<\\alpha<\\pi$ (II quadrante) dà $\\sin\\alpha=\\sqrt{1-\\frac{9}{25}}=\\dfrac45$; $0<\\beta<\\dfrac{\\pi}{2}$ (I quadrante) dà $\\cos\\beta=\\sqrt{1-\\frac{16}{25}}=\\dfrac35$.\n\\begin{enumerate}\n\\item $\\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=\\Big(\\!-\\dfrac35\\Big)\\dfrac35+\\dfrac45\\!\\cdot\\!\\dfrac45=\\dfrac{-9+16}{25}=\\dfrac{7}{25}$.\n\\item $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta=\\dfrac45\\!\\cdot\\!\\dfrac35+\\Big(\\!-\\dfrac35\\Big)\\dfrac45=\\dfrac{12-12}{25}=0$.\n\\item Poiché $\\sin(\\alpha+\\beta)=0$ e $\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=\\dfrac{-9-16}{25}=-1$, risulta $\\alpha+\\beta=\\pi$ e quindi $\\tan(\\alpha+\\beta)=0$.\n\\item $\\alpha$ nel II quadrante $\\Rightarrow \\dfrac{\\alpha}{2}$ nel I quadrante, coseno positivo: $\\cos\\dfrac{\\alpha}{2}=\\sqrt{\\dfrac{1+\\cos\\alpha}{2}}=\\sqrt{\\dfrac{1-\\frac35}{2}}=\\sqrt{\\dfrac15}=\\dfrac{\\sqrt5}{5}$.\n\\end{enumerate}",
-    "id": 489
+    "id": 626
   },
   {
     "subject": "matematica",
@@ -7427,7 +9533,7 @@ const EXERCISES = [
     "subtitle": "Formule di addizione con $\\sin\\alpha=3/5$ e $\\cos\\beta=-8/17$",
     "text": "Sapendo che $\\sin \\alpha = \\dfrac{3}{5}$ e $\\cos \\beta = -\\dfrac{8}{17}$, con $0 < \\alpha < \\dfrac{\\pi}{2}$ e $\\pi < \\beta < \\dfrac{3\\pi}{2}$, calcola:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin(\\alpha + \\beta)$\n\\item $\\cos(\\alpha - \\beta)$\n\\item $\\sin\\dfrac{\\beta}{2}$\n\\item $\\tan\\dfrac{\\alpha}{2}$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Quadranti: $0<\\alpha<\\dfrac{\\pi}{2}$ (I quadrante) dà $\\cos\\alpha=\\sqrt{1-\\frac{9}{25}}=\\dfrac45$; $\\pi<\\beta<\\dfrac{3\\pi}{2}$ (III quadrante) dà $\\sin\\beta=-\\sqrt{1-\\frac{64}{289}}=-\\dfrac{15}{17}$.\n\\begin{enumerate}\n\\item $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta=\\dfrac35\\!\\cdot\\!\\Big(\\!-\\dfrac{8}{17}\\Big)+\\dfrac45\\!\\cdot\\!\\Big(\\!-\\dfrac{15}{17}\\Big)=\\dfrac{-24-60}{85}=-\\dfrac{84}{85}$.\n\\item $\\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=\\dfrac45\\!\\cdot\\!\\Big(\\!-\\dfrac{8}{17}\\Big)+\\dfrac35\\!\\cdot\\!\\Big(\\!-\\dfrac{15}{17}\\Big)=\\dfrac{-32-45}{85}=-\\dfrac{77}{85}$.\n\\item $\\beta$ nel III quadrante $\\Rightarrow \\dfrac{\\beta}{2}$ nel II quadrante, seno positivo: $\\sin\\dfrac{\\beta}{2}=\\sqrt{\\dfrac{1-\\cos\\beta}{2}}=\\sqrt{\\dfrac{1+\\frac{8}{17}}{2}}=\\sqrt{\\dfrac{25}{34}}=\\dfrac{5\\sqrt{34}}{34}$.\n\\item $\\dfrac{\\alpha}{2}$ è nel I quadrante: $\\tan\\dfrac{\\alpha}{2}=\\dfrac{1-\\cos\\alpha}{\\sin\\alpha}=\\dfrac{1-\\frac45}{\\frac35}=\\dfrac{1}{3}$.\n\\end{enumerate}",
-    "id": 490
+    "id": 627
   },
   {
     "subject": "matematica",
@@ -7443,7 +9549,7 @@ const EXERCISES = [
     "subtitle": "Semplificazione con formule di duplicazione e prostaferesi",
     "text": "Semplifica le seguenti espressioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\dfrac{1 + \\cos 2\\alpha}{\\cos \\alpha}$\n\\item $\\sin\\!\\left(2\\alpha + \\dfrac{\\pi}{4}\\right) - \\cos\\!\\left(2\\alpha + \\dfrac{\\pi}{4}\\right)$\n\\item $\\sin 3\\alpha + \\sin \\alpha$\n\\item $\\cos 5\\alpha - \\cos 3\\alpha$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "1) $2\\cos\\alpha$; 2) $\\sqrt{2}\\sin 2\\alpha$; 3) $2\\sin 2\\alpha\\cos\\alpha$; 4) $-2\\sin 4\\alpha\\sin\\alpha$",
-    "id": 491
+    "id": 628
   },
   {
     "subject": "matematica",
@@ -7458,7 +9564,7 @@ const EXERCISES = [
     "subtitle": "Semplificazione con formule di duplicazione (variante)",
     "text": "Semplifica le seguenti espressioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\dfrac{1 - \\cos 2x}{\\sin x}$\n\\item $\\cos\\!\\left(x + \\dfrac{\\pi}{6}\\right) + \\cos\\!\\left(x - \\dfrac{\\pi}{6}\\right)$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "1) $2\\sin x$; 2) $\\sqrt{3}\\cos x$",
-    "id": 492
+    "id": 629
   },
   {
     "subject": "matematica",
@@ -7474,7 +9580,7 @@ const EXERCISES = [
     "subtitle": "Semplificazione con duplicazione e prostaferesi",
     "text": "Semplifica le seguenti espressioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\dfrac{\\sin 2\\theta}{1 + \\cos 2\\theta}$\n\\item $\\sin\\!\\left(\\dfrac{3\\theta}{2}\\right) + \\sin\\!\\left(\\dfrac{\\theta}{2}\\right)$\n\\item $\\cos\\!\\left(2\\theta - \\dfrac{\\pi}{3}\\right) - \\cos\\!\\left(2\\theta + \\dfrac{\\pi}{3}\\right)$\n\\item $\\sin 5\\theta - \\sin 3\\theta$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "1) $\\tan\\theta$; 2) $2\\sin\\theta\\cos\\dfrac{\\theta}{2}$; 3) $\\sin 3\\theta$; 4) $2\\cos 4\\theta\\sin\\theta$",
-    "id": 493
+    "id": 630
   },
   {
     "subject": "matematica",
@@ -7490,7 +9596,7 @@ const EXERCISES = [
     "subtitle": "Semplificazione con duplicazione e prostaferesi (variante)",
     "text": "Semplifica le seguenti espressioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\dfrac{1 - \\cos 4x}{\\sin 2x}$\n\\item $\\sin\\!\\left(x + \\dfrac{\\pi}{3}\\right) + \\sin\\!\\left(x - \\dfrac{\\pi}{3}\\right)$\n\\item $\\cos 7x - \\cos 5x$\n\\item $\\sin 3x + \\sin x$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "1) $2\\sin 2x$; 2) $\\sin x$; 3) $-2\\sin 6x\\sin x$; 4) $2\\sin 2x\\cos x$",
-    "id": 494
+    "id": 631
   },
   {
     "subject": "matematica",
@@ -7506,7 +9612,7 @@ const EXERCISES = [
     "subtitle": "Semplificazione con duplicazione e prostaferesi (terza variante)",
     "text": "Semplifica le seguenti espressioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\dfrac{\\cos 2\\alpha - 1}{\\cos \\alpha}$\n\\item $\\sin\\!\\left(3\\alpha + \\dfrac{\\pi}{6}\\right) + \\sin\\!\\left(3\\alpha - \\dfrac{\\pi}{6}\\right)$\n\\item $\\cos 4\\alpha + \\cos 2\\alpha$\n\\item $\\sin 6\\alpha - \\sin 2\\alpha$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "1) $-2\\sin^2\\alpha/\\cos\\alpha$; 2) $\\sin 3\\alpha$; 3) $2\\cos 3\\alpha\\cos\\alpha$; 4) $2\\cos 4\\alpha\\sin 2\\alpha$",
-    "id": 495
+    "id": 632
   },
   {
     "subject": "matematica",
@@ -7522,7 +9628,7 @@ const EXERCISES = [
     "subtitle": "Formule di Werner e prostaferesi — serie 1",
     "text": "Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\dfrac{\\cos x + \\cos 3x}{\\cos 2x}$\n\\item $4 \\sin 2x \\cdot \\cos 3x$\n\\item $\\sin 4x + \\sin 2x$\n\\item $\\cos 5x - \\cos 3x$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "\\begin{enumerate}\n\\item Prostaferesi $\\cos p+\\cos q=2\\cos\\frac{p+q}{2}\\cos\\frac{p-q}{2}$: numeratore $\\cos x+\\cos 3x=2\\cos 2x\\cos x$, quindi $\\dfrac{\\cos x+\\cos 3x}{\\cos 2x}=2\\cos x$.\n\\item Werner $\\sin A\\cos B=\\tfrac12[\\sin(A+B)+\\sin(A-B)]$: $4\\sin 2x\\cos 3x=4\\cdot\\tfrac12[\\sin 5x+\\sin(-x)]=2\\sin 5x-2\\sin x$.\n\\item $\\sin p+\\sin q=2\\sin\\frac{p+q}{2}\\cos\\frac{p-q}{2}$: $\\sin 4x+\\sin 2x=2\\sin 3x\\cos x$.\n\\item $\\cos p-\\cos q=-2\\sin\\frac{p+q}{2}\\sin\\frac{p-q}{2}$: $\\cos 5x-\\cos 3x=-2\\sin 4x\\sin x$.\n\\end{enumerate}",
-    "id": 496
+    "id": 633
   },
   {
     "subject": "matematica",
@@ -7538,7 +9644,7 @@ const EXERCISES = [
     "subtitle": "Formule di Werner e prostaferesi — serie 2",
     "text": "Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin x + \\sin 3x$\n\\item $\\cos 2x - \\cos 4x$\n\\item $2 \\cos 3x \\cdot \\cos 2x$\n\\item $3 \\sin 5x \\cdot \\cos 2x$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "\\begin{enumerate}\n\\item $\\sin p+\\sin q=2\\sin\\frac{p+q}{2}\\cos\\frac{p-q}{2}$: $\\sin x+\\sin 3x=2\\sin 2x\\cos x$.\n\\item $\\cos p-\\cos q=-2\\sin\\frac{p+q}{2}\\sin\\frac{p-q}{2}$: $\\cos 2x-\\cos 4x=-2\\sin 3x\\sin(-x)=2\\sin 3x\\sin x$.\n\\item Werner $\\cos A\\cos B=\\tfrac12[\\cos(A-B)+\\cos(A+B)]$: $2\\cos 3x\\cos 2x=\\cos x+\\cos 5x$.\n\\item Werner $\\sin A\\cos B=\\tfrac12[\\sin(A+B)+\\sin(A-B)]$: $3\\sin 5x\\cos 2x=\\tfrac32(\\sin 7x+\\sin 3x)$.\n\\end{enumerate}",
-    "id": 497
+    "id": 634
   },
   {
     "subject": "matematica",
@@ -7554,7 +9660,7 @@ const EXERCISES = [
     "subtitle": "Formule di Werner e prostaferesi — serie 3",
     "text": "Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin 6x - \\sin 2x$\n\\item $\\cos 7x + \\cos 5x$\n\\item $\\dfrac{1 + \\cos 4x}{\\cos 2x}$\n\\item $\\sin 3x \\cdot \\cos x$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "\\begin{enumerate}\n\\item $\\sin p-\\sin q=2\\cos\\frac{p+q}{2}\\sin\\frac{p-q}{2}$: $\\sin 6x-\\sin 2x=2\\cos 4x\\sin 2x$.\n\\item $\\cos p+\\cos q=2\\cos\\frac{p+q}{2}\\cos\\frac{p-q}{2}$: $\\cos 7x+\\cos 5x=2\\cos 6x\\cos x$.\n\\item Usando $1+\\cos 4x=2\\cos^2 2x$: $\\dfrac{1+\\cos 4x}{\\cos 2x}=\\dfrac{2\\cos^2 2x}{\\cos 2x}=2\\cos 2x$.\n\\item Werner $\\sin A\\cos B=\\tfrac12[\\sin(A+B)+\\sin(A-B)]$: $\\sin 3x\\cos x=\\tfrac12(\\sin 4x+\\sin 2x)$.\n\\end{enumerate}",
-    "id": 498
+    "id": 635
   },
   {
     "subject": "matematica",
@@ -7570,7 +9676,7 @@ const EXERCISES = [
     "subtitle": "Formule di Werner e prostaferesi — serie 4",
     "text": "Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin 5x + \\sin 3x$\n\\item $\\cos 6x - \\cos 2x$\n\\item $4 \\sin 2x \\cdot \\cos 5x$\n\\item $2 \\cos 3x \\cdot \\cos 4x$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "\\begin{enumerate}\n\\item $\\sin p+\\sin q=2\\sin\\frac{p+q}{2}\\cos\\frac{p-q}{2}$: $\\sin 5x+\\sin 3x=2\\sin 4x\\cos x$.\n\\item $\\cos p-\\cos q=-2\\sin\\frac{p+q}{2}\\sin\\frac{p-q}{2}$: $\\cos 6x-\\cos 2x=-2\\sin 4x\\sin 2x$.\n\\item Werner $\\sin A\\cos B=\\tfrac12[\\sin(A+B)+\\sin(A-B)]$: $4\\sin 2x\\cos 5x=2[\\sin 7x+\\sin(-3x)]=2\\sin 7x-2\\sin 3x$.\n\\item Werner $\\cos A\\cos B=\\tfrac12[\\cos(A-B)+\\cos(A+B)]$: $2\\cos 3x\\cos 4x=\\cos x+\\cos 7x$.\n\\end{enumerate}",
-    "id": 499
+    "id": 636
   },
   {
     "subject": "matematica",
@@ -7586,7 +9692,7 @@ const EXERCISES = [
     "subtitle": "Formule di Werner e prostaferesi — serie 5",
     "text": "Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaferesi:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin 7x - \\sin 3x$\n\\item $\\cos 8x + \\cos 4x$\n\\item $\\dfrac{1 - \\cos 6x}{\\sin 3x}$\n\\item $\\sin 2x \\cdot \\cos 3x$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "\\begin{enumerate}\n\\item $\\sin p-\\sin q=2\\cos\\frac{p+q}{2}\\sin\\frac{p-q}{2}$: $\\sin 7x-\\sin 3x=2\\cos 5x\\sin 2x$.\n\\item $\\cos p+\\cos q=2\\cos\\frac{p+q}{2}\\cos\\frac{p-q}{2}$: $\\cos 8x+\\cos 4x=2\\cos 6x\\cos 2x$.\n\\item Usando $1-\\cos 6x=2\\sin^2 3x$: $\\dfrac{1-\\cos 6x}{\\sin 3x}=\\dfrac{2\\sin^2 3x}{\\sin 3x}=2\\sin 3x$.\n\\item Werner $\\sin A\\cos B=\\tfrac12[\\sin(A+B)+\\sin(A-B)]$: $\\sin 2x\\cos 3x=\\tfrac12[\\sin 5x+\\sin(-x)]=\\tfrac12(\\sin 5x-\\sin x)$.\n\\end{enumerate}",
-    "id": 500
+    "id": 637
   },
   {
     "subject": "matematica",
@@ -7601,7 +9707,7 @@ const EXERCISES = [
     "subtitle": "Equazioni goniometriche di vario tipo — serie 1",
     "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\cos \\ x = \\dfrac{-\\sqrt{2}}{2}$\n\\item $\\tan \\Big( 2x + \\dfrac{\\pi}{4}\\Big) = \\sqrt{3}$\n\\item $\\sin \\Big(\\pi - x \\Big) = \\cos \\Big(x -\\pi\\Big)$\n\\item $2 \\cos^2x - 3\\cos \\ x +1 = 0$\n\\item $\\sqrt{3} \\sin^2 x - \\sin \\ x \\cdot \\cos \\ x = 0$\n\\item $\\sin \\ x - \\sqrt{3} \\cos \\ x = 2$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Le soluzioni sono date a meno di periodicità, con $k\\in\\mathbb{Z}$.\n\\begin{enumerate}\n\\item $\\cos x=-\\dfrac{\\sqrt2}{2}\\Rightarrow x=\\pm\\dfrac{3\\pi}{4}+2k\\pi$.\n\\item $\\tan\\!\\Big(2x+\\dfrac{\\pi}{4}\\Big)=\\sqrt3\\Rightarrow 2x+\\dfrac{\\pi}{4}=\\dfrac{\\pi}{3}+k\\pi\\Rightarrow x=\\dfrac{\\pi}{24}+\\dfrac{k\\pi}{2}$.\n\\item $\\sin(\\pi-x)=\\sin x$ e $\\cos(x-\\pi)=-\\cos x$, quindi $\\sin x=-\\cos x\\Rightarrow \\tan x=-1\\Rightarrow x=-\\dfrac{\\pi}{4}+k\\pi$.\n\\item Posto $c=\\cos x$: $2c^2-3c+1=0\\Rightarrow(2c-1)(c-1)=0$. Da $\\cos x=\\dfrac12$, $x=\\pm\\dfrac{\\pi}{3}+2k\\pi$; da $\\cos x=1$, $x=2k\\pi$.\n\\item Raccolgo $\\sin x$: $\\sin x(\\sqrt3\\sin x-\\cos x)=0$. Da $\\sin x=0$, $x=k\\pi$; da $\\tan x=\\dfrac{1}{\\sqrt3}$, $x=\\dfrac{\\pi}{6}+k\\pi$.\n\\item Combinazione lineare: $\\sin x-\\sqrt3\\cos x=2\\sin\\!\\Big(x-\\dfrac{\\pi}{3}\\Big)=2\\Rightarrow \\sin\\!\\Big(x-\\dfrac{\\pi}{3}\\Big)=1\\Rightarrow x=\\dfrac{5\\pi}{6}+2k\\pi$.\n\\end{enumerate}",
-    "id": 501
+    "id": 638
   },
   {
     "subject": "matematica",
@@ -7616,7 +9722,7 @@ const EXERCISES = [
     "subtitle": "Equazioni goniometriche con duplicazione — serie 2",
     "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $2 \\sin x  \\cos x= \\dfrac{1}{2}$\n\\item $\\cos(2x - \\pi/3) = -\\dfrac{1}{2}$\n\\item $\\tan\\Big(x + \\dfrac{\\pi}{6}\\Big) = \\sqrt{3}$\n\\item $2 \\sin^2 x - \\sin x - 1 = 0$\n\\item $\\sqrt{3} \\sin x + \\cos x + 1 = 0 $\n\\item $\\sin x + \\sqrt{3} \\cos x = 0$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Con $k\\in\\mathbb{Z}$:\n\\begin{enumerate}\n\\item $2\\sin x\\cos x=\\sin 2x=\\dfrac12\\Rightarrow 2x=\\dfrac{\\pi}{6}+2k\\pi$ oppure $2x=\\dfrac{5\\pi}{6}+2k\\pi\\Rightarrow x=\\dfrac{\\pi}{12}+k\\pi$ o $x=\\dfrac{5\\pi}{12}+k\\pi$.\n\\item $\\cos\\!\\Big(2x-\\dfrac{\\pi}{3}\\Big)=-\\dfrac12\\Rightarrow 2x-\\dfrac{\\pi}{3}=\\pm\\dfrac{2\\pi}{3}+2k\\pi\\Rightarrow x=\\dfrac{\\pi}{2}+k\\pi$ o $x=-\\dfrac{\\pi}{6}+k\\pi$.\n\\item $\\tan\\!\\Big(x+\\dfrac{\\pi}{6}\\Big)=\\sqrt3\\Rightarrow x+\\dfrac{\\pi}{6}=\\dfrac{\\pi}{3}+k\\pi\\Rightarrow x=\\dfrac{\\pi}{6}+k\\pi$.\n\\item Posto $s=\\sin x$: $2s^2-s-1=0\\Rightarrow(2s+1)(s-1)=0$. Da $\\sin x=1$, $x=\\dfrac{\\pi}{2}+2k\\pi$; da $\\sin x=-\\dfrac12$, $x=-\\dfrac{\\pi}{6}+2k\\pi$ o $x=\\dfrac{7\\pi}{6}+2k\\pi$.\n\\item $\\sqrt3\\sin x+\\cos x+1=2\\sin\\!\\Big(x+\\dfrac{\\pi}{6}\\Big)+1=0\\Rightarrow\\sin\\!\\Big(x+\\dfrac{\\pi}{6}\\Big)=-\\dfrac12\\Rightarrow x=-\\dfrac{\\pi}{3}+2k\\pi$ o $x=\\pi+2k\\pi$.\n\\item $\\sin x+\\sqrt3\\cos x=0\\Rightarrow\\tan x=-\\sqrt3\\Rightarrow x=-\\dfrac{\\pi}{3}+k\\pi$.\n\\end{enumerate}",
-    "id": 502
+    "id": 639
   },
   {
     "subject": "matematica",
@@ -7631,7 +9737,7 @@ const EXERCISES = [
     "subtitle": "Equazioni goniometriche elementari",
     "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\cos x = \\dfrac{1}{2}$\n\\item $\\sin(3x - \\pi/4) = -\\dfrac{\\sqrt{2}}{2}$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Con $k\\in\\mathbb{Z}$:\n\\begin{enumerate}\n\\item $\\cos x=\\dfrac12\\Rightarrow x=\\pm\\dfrac{\\pi}{3}+2k\\pi$.\n\\item $\\sin\\!\\Big(3x-\\dfrac{\\pi}{4}\\Big)=-\\dfrac{\\sqrt2}{2}$. Le soluzioni di $\\sin\\theta=-\\dfrac{\\sqrt2}{2}$ sono $\\theta=-\\dfrac{\\pi}{4}+2k\\pi$ e $\\theta=\\dfrac{5\\pi}{4}+2k\\pi$. Quindi $3x=2k\\pi\\Rightarrow x=\\dfrac{2k\\pi}{3}$, oppure $3x=\\dfrac{3\\pi}{2}+2k\\pi\\Rightarrow x=\\dfrac{\\pi}{2}+\\dfrac{2k\\pi}{3}$.\n\\end{enumerate}",
-    "id": 503
+    "id": 640
   },
   {
     "subject": "matematica",
@@ -7646,7 +9752,7 @@ const EXERCISES = [
     "subtitle": "Equazioni goniometriche con duplicazione — serie 4",
     "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\sin 2x = \\dfrac{\\sqrt{3}}{2}$\n\\item $\\cos(3x + \\pi/6) = \\dfrac{1}{2}$\n\\item $\\tan(x - \\pi/3) = -\\sqrt{3}$\n\\item $2 \\cos^2 x - 1 = 0$\n\\item $\\sin x \\cos x = \\dfrac{1}{4}$\n\\item $\\sin x - \\cos x = 0$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Con $k\\in\\mathbb{Z}$:\n\\begin{enumerate}\n\\item $\\sin 2x=\\dfrac{\\sqrt3}{2}\\Rightarrow 2x=\\dfrac{\\pi}{3}+2k\\pi$ o $2x=\\dfrac{2\\pi}{3}+2k\\pi\\Rightarrow x=\\dfrac{\\pi}{6}+k\\pi$ o $x=\\dfrac{\\pi}{3}+k\\pi$.\n\\item $\\cos\\!\\Big(3x+\\dfrac{\\pi}{6}\\Big)=\\dfrac12\\Rightarrow 3x+\\dfrac{\\pi}{6}=\\pm\\dfrac{\\pi}{3}+2k\\pi\\Rightarrow x=\\dfrac{\\pi}{18}+\\dfrac{2k\\pi}{3}$ o $x=-\\dfrac{\\pi}{6}+\\dfrac{2k\\pi}{3}$.\n\\item $\\tan\\!\\Big(x-\\dfrac{\\pi}{3}\\Big)=-\\sqrt3\\Rightarrow x-\\dfrac{\\pi}{3}=-\\dfrac{\\pi}{3}+k\\pi\\Rightarrow x=k\\pi$.\n\\item $2\\cos^2x-1=\\cos 2x=0\\Rightarrow 2x=\\dfrac{\\pi}{2}+k\\pi\\Rightarrow x=\\dfrac{\\pi}{4}+\\dfrac{k\\pi}{2}$.\n\\item $\\sin x\\cos x=\\dfrac12\\sin 2x=\\dfrac14\\Rightarrow\\sin 2x=\\dfrac12\\Rightarrow x=\\dfrac{\\pi}{12}+k\\pi$ o $x=\\dfrac{5\\pi}{12}+k\\pi$.\n\\item $\\sin x-\\cos x=0\\Rightarrow\\tan x=1\\Rightarrow x=\\dfrac{\\pi}{4}+k\\pi$.\n\\end{enumerate}",
-    "id": 504
+    "id": 641
   },
   {
     "subject": "matematica",
@@ -7661,7 +9767,7 @@ const EXERCISES = [
     "subtitle": "Equazioni goniometriche miste — serie 5",
     "text": "Risolvi le seguenti equazioni:\n\\begin{multicols}{2}\n\\begin{enumerate}\n\\item $\\cos x = 0$\n\\item $\\sin(2x + \\pi/3) = -\\dfrac{1}{2}$\n\\item $\\tan(3x) = \\sqrt{3}$\n\\item $3 \\sin^2 x - 1 = 0$\n\\item $2 \\cos^2 x - \\sin x = 0$\n\\item $\\sin x + 2 \\cos x = 0$\n\\end{enumerate}\n\\end{multicols}",
     "solution": "Con $k\\in\\mathbb{Z}$:\n\\begin{enumerate}\n\\item $\\cos x=0\\Rightarrow x=\\dfrac{\\pi}{2}+k\\pi$.\n\\item $\\sin\\!\\Big(2x+\\dfrac{\\pi}{3}\\Big)=-\\dfrac12\\Rightarrow 2x+\\dfrac{\\pi}{3}=-\\dfrac{\\pi}{6}+2k\\pi$ o $=\\dfrac{7\\pi}{6}+2k\\pi\\Rightarrow x=-\\dfrac{\\pi}{4}+k\\pi$ o $x=\\dfrac{5\\pi}{12}+k\\pi$.\n\\item $\\tan 3x=\\sqrt3\\Rightarrow 3x=\\dfrac{\\pi}{3}+k\\pi\\Rightarrow x=\\dfrac{\\pi}{9}+\\dfrac{k\\pi}{3}$.\n\\item $3\\sin^2x-1=0\\Rightarrow\\sin x=\\pm\\dfrac{\\sqrt3}{3}\\Rightarrow x=k\\pi\\pm\\arcsin\\dfrac{\\sqrt3}{3}$ (con $\\arcsin\\dfrac{\\sqrt3}{3}\\approx 35{,}3^\\circ$).\n\\item $2\\cos^2x-\\sin x=0\\Rightarrow 2(1-\\sin^2x)-\\sin x=0\\Rightarrow 2\\sin^2x+\\sin x-2=0\\Rightarrow\\sin x=\\dfrac{-1+\\sqrt{17}}{4}\\approx 0{,}781$ (l'altra radice è $<-1$). Quindi $x\\approx 51{,}3^\\circ+2k\\pi$ o $x\\approx 128{,}7^\\circ+2k\\pi$.\n\\item $\\sin x+2\\cos x=0\\Rightarrow\\tan x=-2\\Rightarrow x=k\\pi-\\arctan 2$ (con $\\arctan 2\\approx 63{,}4^\\circ$).\n\\end{enumerate}",
-    "id": 505
+    "id": 642
   },
   {
     "subject": "matematica",
@@ -7677,7 +9783,7 @@ const EXERCISES = [
     "subtitle": "Interferenza di onde: sovrapposizione e ampiezza",
     "text": "\\textbf{FAC)} In un ondoscopio due sorgenti d'onda $S_1$ e $S_2$ producono onde con la stessa ampiezza $A$, lo stesso periodo $T$ e la stessa lunghezza d'onda $\\lambda$.\nLo spostamento trasversale che ognuna di esse produce è descritto dalle funzioni d'onda:\n\\[\ny_1 = A \\sin \\left[ 2\\pi \\left( \\frac{x_1}{\\lambda} - \\frac{t}{T} \\right) \\right], \\qquad\ny_2 = A \\sin \\left[ 2\\pi \\left( \\frac{x_2}{\\lambda} - \\frac{t}{T} \\right) \\right]\n\\]\ndove $x_1$ e $x_2$ rappresentano i cammini percorsi dalle due onde.\nIn un punto $P$ dell'ondoscopio le due onde si sovrappongono.\n\n\\begin{enumerate}[label=\\alph*)]\n  \\item Dimostra che la sovrapposizione è un'onda e che l'ampiezza non dipende dal tempo\n  \\item Poni $\\Delta x = x_1 - x_2$ e dimostra che l'ampiezza del moto è $0$ quando\n  \\[\n  \\Delta x = (2n + 1)\\frac{\\lambda}{2}, \\qquad n \\in \\mathbb{Z},\n  \\]\n  mentre è uguale a $2A$\n  quando $\\Delta x = n\\lambda$.\n\\end{enumerate}",
     "solution": "\\textbf{a)} Posto $\\theta_i=2\\pi\\Big(\\dfrac{x_i}{\\lambda}-\\dfrac{t}{T}\\Big)$, la sovrapposizione è $y=y_1+y_2=A(\\sin\\theta_1+\\sin\\theta_2)$. Per la prostaferesi $\\sin\\theta_1+\\sin\\theta_2=2\\sin\\dfrac{\\theta_1+\\theta_2}{2}\\cos\\dfrac{\\theta_1-\\theta_2}{2}$:\n\\[\ny=2A\\cos\\!\\Big(\\dfrac{\\pi\\,\\Delta x}{\\lambda}\\Big)\\,\\sin\\!\\Big[2\\pi\\Big(\\dfrac{x_1+x_2}{2\\lambda}-\\dfrac{t}{T}\\Big)\\Big],\n\\]\ndove si è usato $\\dfrac{\\theta_1-\\theta_2}{2}=\\dfrac{\\pi(x_1-x_2)}{\\lambda}=\\dfrac{\\pi\\,\\Delta x}{\\lambda}$. Si tratta ancora di un'onda sinusoidale di periodo $T$, la cui ampiezza $\\Big|2A\\cos\\dfrac{\\pi\\,\\Delta x}{\\lambda}\\Big|$ dipende solo dalla differenza di cammino $\\Delta x$ e \\emph{non} dal tempo.\n\n\\textbf{b)} L'ampiezza si annulla quando $\\cos\\dfrac{\\pi\\,\\Delta x}{\\lambda}=0$, cioè $\\dfrac{\\pi\\,\\Delta x}{\\lambda}=\\dfrac{\\pi}{2}+n\\pi$, da cui $\\Delta x=(2n+1)\\dfrac{\\lambda}{2}$ (interferenza distruttiva). È massima e pari a $2A$ quando $\\Big|\\cos\\dfrac{\\pi\\,\\Delta x}{\\lambda}\\Big|=1$, cioè $\\dfrac{\\pi\\,\\Delta x}{\\lambda}=n\\pi$, da cui $\\Delta x=n\\lambda$ (interferenza costruttiva).",
-    "id": 506
+    "id": 643
   }
 ];
 
@@ -7715,12 +9821,16 @@ const TOPICS = {
       "Espressioni",
       "Percentuali",
       "Prodotti Notevoli",
-      "Scomposizioni"
+      "Scomposizioni",
+      "Sistemi Lineari"
     ],
     "Analisi": [
       "Continuità",
       "Derivate",
+      "Dominio",
+      "Funzioni Composte",
       "Integrali",
+      "Introduzione Allo Studio Di Funzione",
       "Problemi Di Ottimizzazione",
       "Punti Di Non Derivabilità",
       "Studio Di Funzione",

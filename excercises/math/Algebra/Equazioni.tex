@@ -1,51 +1,592 @@
 %====================================================%
 % SEZIONE 1: Definizione
 %====================================================%
-\begin{question}[ID=1.1, subtitle={Classificazione di equazioni: determinata, indeterminata, impossibile}, difficulty=facile, tags={equazioni}]
+
+\begin{question}[ID=1.1, subtitle={Classificazione di equazioni}, difficulty=facile, tags={equazioni}]
 Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.
-\begin{center}\begin{minipage}{0.85\linewidth}
-\begin{enumerate}
-\item $5x = 0 \qquad \rule{5cm}{0.2pt}$
-\item $4x = 4x + 1 \qquad \rule{5cm}{0.2pt}$
-\item $2(x+1) - 2 = 2x \qquad \rule{5cm}{0.2pt}$
+\begin{enumerate}[leftmargin=3cm]
+    \item $\makebox[3cm][l]{5x = 0}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{4x = 4x + 1}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{2(x+1) - 2 = 2x}\rule{5cm}{0.2pt}$
 \end{enumerate}
-\end{minipage}\end{center}
-\begin{solution}$5x=0$: determinata ($x=0$); $4x=4x+1$: impossibile; $2(x+1)-2=2x$: indeterminata ($\infty$ soluzioni)\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $5x=0$: determinata ($x=0$); \\
+    \item $4x=4x+1$: impossibile; \\
+    \item $2(x+1)-2=2x$: indeterminata ($\infty$ soluzioni)
+\end{enumerate}
+\end{solution}
 \end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=1.2, subtitle={Classificazione di equazioni}, difficulty=facile, tags={equazioni}]
+Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.
+\begin{enumerate}[leftmargin=3cm]
+    \item $\makebox[3cm][l]{7x - 14 = 0}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{3x + 2 = 3x + 2}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{5x - 1 = 5x + 3}\rule{5cm}{0.2pt}$
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+    \item $7x-14=0$: determinata ($x=2$); \\
+    \item $3x+2=3x+2$: indeterminata ($\infty$ soluzioni); \\
+    \item $5x-1=5x+3$: impossibile
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=1.3, subtitle={Classificazione di equazioni}, difficulty=facile, tags={equazioni}]
+Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.
+\begin{enumerate}[leftmargin=3cm]
+    \item $\makebox[3cm][l]{2(x+3) = 2x + 6}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{4x - 5 = 4x - 8}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{3(x-2) = 3x - 5}\rule{5cm}{0.2pt}$
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+    \item $2(x+3)=2x+6$: indeterminata ($\infty$ soluzioni); \\
+    \item $4x-5=4x-8$: impossibile; \\
+    \item $3(x-2)=3x-5$: impossibile
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=1.4, subtitle={Classificazione di equazioni con parentesi}, difficulty=media, tags={equazioni}]
+Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.
+\begin{enumerate}[leftmargin=3cm]
+    \item $\makebox[3cm][l]{3(2x-1) = 6x - 3}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{5(x+2) - 3x = 2x + 7}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{4(2x-1) = 8x + 3}\rule{5cm}{0.2pt}$
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+    \item $3(2x-1)=6x-3$: indeterminata ($\infty$ soluzioni); \\
+    \item $5(x+2)-3x=2x+7$: determinata ($x=-\tfrac32$); \\
+    \item $4(2x-1)=8x+3$: impossibile
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=1.5, subtitle={Classificazione di equazioni con frazioni}, difficulty=difficile, tags={equazioni}]
+Stabilisci se le seguenti equazioni sono determinate, indeterminate o impossibili.
+\begin{enumerate}[leftmargin=3cm]
+    \item $\makebox[3cm][l]{\dfrac{3x-2}{2} = \dfrac{6x-4}{4}}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{2(3x-1) - (4x+5) = 2x - 7}\rule{5cm}{0.2pt}$
+    \item $\makebox[3cm][l]{\dfrac{2x+3}{3} + \dfrac{x-1}{2} = \dfrac{7x+4}{6}}\rule{5cm}{0.2pt}$
+\end{enumerate}
+\begin{solution}
+\begin{enumerate}
+    \item $\dfrac{3x-2}{2}=\dfrac{6x-4}{4}$: indeterminata ($\infty$ soluzioni); \\
+    \item $2(3x-1)-(4x+5)=2x-7$: indeterminata ($\infty$ soluzioni); \\
+    \item $\dfrac{2x+3}{3}+\dfrac{x-1}{2}=\dfrac{7x+4}{6}$: impossibile
+\end{enumerate}
+\end{solution}
+\end{question}
+
 
 %====================================================%
 % SEZIONE 2: Equazioni lineari
 %====================================================%
+
 \begin{question}[ID=2.1, subtitle={Equazioni di primo grado}, difficulty=facile, tags={equazioni lineari}]
 Risolvi le seguenti equazioni di primo grado:
-\begin{center}\begin{minipage}{0.92\linewidth}
 \begin{multicols}{2}
-\begin{enumerate}[label=\alph*),leftmargin=3.2cm]
-\item $x + 5 = 7$
-\item $3x - 7 = 2x + 4$
-\item $2(x - 3) + 4 = 3x - 2$
-\item $\color{gray} \frac{1}{2}x + 1 = \frac{2}{3}(x + 1)$
+\begin{enumerate}[leftmargin=3cm]
+    \item $x + 5 = 7$
+    \item $3x - 7 = 2x + 4$
+    \item $2(x - 3) + 4 = 3x - 2$
+    \item $\dfrac{1}{2}x + 1 = \dfrac{2}{3}(x + 1)$
 \end{enumerate}
 \end{multicols}
-\end{minipage}\end{center}
-\begin{solution}$a)\ x=2$; $b)\ x=11$; $c)\ x=0$; $d)\ x=-2$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=2$
+    \item $x=11$
+    \item $x=0$
+    \item $x=2$
+\end{enumerate}
+\end{solution}
 \end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=2.2, subtitle={Equazioni di primo grado}, difficulty=facile, tags={equazioni lineari}]
+Risolvi le seguenti equazioni di primo grado:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $2x + 3 = 11$
+    \item $5x - 4 = 2x + 8$
+    \item $3(x + 2) - 5 = 2x + 4$
+    \item $\dfrac{3}{4}x - 2 = \dfrac{1}{2}x + 1$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=4$
+    \item $x=4$
+    \item $x=3$
+    \item $x=12$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=2.3, subtitle={Equazioni di primo grado}, difficulty=facile, tags={equazioni lineari}]
+Risolvi le seguenti equazioni di primo grado:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $4x + 1 = 2x + 9$
+    \item $7 - 3x = x - 9$
+    \item $2(3x - 1) + 4 = 5x + 7$
+    \item $\dfrac{2x+1}{3} = \dfrac{x-2}{2}$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=4$
+    \item $x=4$
+    \item $x=5$
+    \item $x=-8$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=2.4, subtitle={Equazioni di primo grado}, difficulty=media, tags={equazioni lineari}]
+Risolvi le seguenti equazioni di primo grado:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $4(2x-3) - 5 = 3x + 6$
+    \item $7 - 2(3x+1) = 4x - 9$
+    \item $\dfrac{3x-2}{4} + \dfrac{x+1}{2} = 5$
+    \item $5(x-2) - 2(2x+1) = 3 - x$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=23/5$
+    \item $x=7/5$
+    \item $x=4$
+    \item $x=15$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=2.5, subtitle={Equazioni di primo grado con frazioni}, difficulty=difficile, tags={equazioni lineari}]
+Risolvi le seguenti equazioni di primo grado:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $\dfrac{2x-1}{3} - \dfrac{x+2}{4} = \dfrac{5x-7}{6}$
+    \item $2\left(\dfrac{x-3}{4}\right) - \dfrac{3x+1}{5} = \dfrac{x-7}{10}$
+    \item $\dfrac{3}{2}(x-4) - \dfrac{2}{3}(x+3) = \dfrac{x-5}{6}$
+    \item $\dfrac{5x-2}{6} - \dfrac{2x+1}{3} + \dfrac{x-4}{2} = 7$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item nessuna soluzione
+    \item $x=\tfrac{7}{2}$
+    \item $x=\tfrac{13}{5}$
+    \item nessuna soluzione
+\end{enumerate}
+\end{solution}
+\end{question}
+
 
 %====================================================%
 % SEZIONE 3: Equazioni frazionarie
 %====================================================%
+
 \begin{question}[ID=3.1, subtitle={Equazioni frazionarie}, difficulty=facile, tags={equazioni frazionarie}]
 Risolvi le seguenti equazioni frazionarie:
-\begin{center}\begin{minipage}{0.92\linewidth}
 \begin{multicols}{2}
-\begin{enumerate}[label=\alph*),leftmargin=3.2cm]
-\item $\frac{x+1}{x-2} = 0$
-\item $\frac{(x-3) \cdot (x+3)}{2x+6} = 0$
-\item $\frac{2x-1}{3x-1} = 2$
-\item $\color{gray} \frac{3}{x-3} = \frac{2}{2x+4}$
-\item $\color{gray} \frac{1+3x}{4x+4} - \frac{5-x}{x+1} = 2$
+\begin{enumerate}[leftmargin=3cm]
+    \item $\dfrac{x+1}{x-2} = 0$
+    \item $\dfrac{(x-3) \cdot (x+3)}{2x+6} = 0$
+    \item $\dfrac{2x-1}{3x-1} = 2$
+    \item $\dfrac{3}{x-3} = \dfrac{2}{2x+4}$
+    \item $\dfrac{1+3x}{4x+4} - \dfrac{5-x}{x+1} = 2$
 \end{enumerate}
 \end{multicols}
-\end{minipage}\end{center}
-\begin{solution}$a)\ x=-1$ (CE: $x\neq 2$); $b)\ x=3$ (CE: $x\neq -3$); $c)\ x=\tfrac14$ (CE: $x\neq\tfrac13$); $d)\ x=-\tfrac92$ (CE: $x\neq 3,\ x\neq -2$); $e)\ x=-27$ (CE: $x\neq -1$)\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=-1$ (CE: $x\neq 2$)
+    \item $x=3$ (CE: $x\neq -3$)
+    \item $x=\tfrac14$ (CE: $x\neq\tfrac13$)
+    \item $x=-\tfrac92$ (CE: $x\neq 3,\ x\neq -2$)
+    \item $x=-27$ (CE: $x\neq -1$)
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=3.2, subtitle={Equazioni frazionarie}, difficulty=facile, tags={equazioni frazionarie}]
+Risolvi le seguenti equazioni frazionarie:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $\dfrac{x-4}{x+1} = 0$
+    \item $\dfrac{(x-2)(x+2)}{x-2} = 0$
+    \item $\dfrac{x+3}{2x-1} = 1$
+    \item $\dfrac{4}{x+2} = \dfrac{2}{x-1}$
+    \item $\dfrac{2x+1}{x-2} - \dfrac{x+4}{x-2} = 3$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=4$ (CE: $x\neq -1$)
+    \item nessuna soluzione (CE: $x\neq 2$)
+    \item $x=4$ (CE: $x\neq\tfrac12$)
+    \item $x=5$ (CE: $x\neq -2,\ x\neq 1$)
+    \item $x=-\tfrac52$ (CE: $x\neq 2$)
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=3.3, subtitle={Equazioni frazionarie}, difficulty=facile, tags={equazioni frazionarie}]
+Risolvi le seguenti equazioni frazionarie:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $\dfrac{2x-6}{x+2} = 0$
+    \item $\dfrac{(x+1)(x-4)}{x+1} = 0$
+    \item $\dfrac{3x+2}{x-1} = 2$
+    \item $\dfrac{5}{x+1} = \dfrac{3}{x-1}$
+    \item $\dfrac{x+2}{3x-3} + \dfrac{2x-1}{3x-3} = 2$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=3$ (CE: $x\neq -2$)
+    \item $x=4$ (CE: $x\neq -1$)
+    \item $x=-4$ (CE: $x\neq 1$)
+    \item $x=4$ (CE: $x\neq -1,\ x\neq 1$)
+    \item $x=\tfrac52$ (CE: $x\neq 1$)
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=3.4, subtitle={Equazioni frazionarie}, difficulty=media, tags={equazioni frazionarie}]
+Risolvi le seguenti equazioni frazionarie:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $\dfrac{x-5}{x+2} = 2$
+    \item $\dfrac{2x+1}{x-3} = \dfrac{3}{x-3}$
+    \item $\dfrac{x+4}{x-1} - 1 = 0$
+    \item $\dfrac{3}{x+1} = \dfrac{x}{x+1}$
+    \item $\dfrac{2x-3}{x+2} + \dfrac{x+1}{x+2} = 4$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=-9$ (CE: $x\neq -2$)
+    \item $x=2$ (CE: $x\neq 3$)
+    \item $x=\tfrac52$ (CE: $x\neq 1$)
+    \item $x=3$ (CE: $x\neq -1$)
+    \item $x=\tfrac{10}{3}$ (CE: $x\neq -2$)
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=3.5, subtitle={Equazioni frazionarie con più denominatori}, difficulty=difficile, tags={equazioni frazionarie}]
+Risolvi le seguenti equazioni frazionarie:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $\dfrac{2x+1}{x-2} - \dfrac{x-3}{x+1} = 1$
+    \item $\dfrac{3}{x-1} + \dfrac{2}{x+2} = \dfrac{5x+1}{(x-1)(x+2)}$
+    \item $\dfrac{x+2}{x-3} = \dfrac{2x-1}{x+1}$
+    \item $\dfrac{4}{x-2} - \dfrac{1}{x+2} = \dfrac{3x+10}{x^2-4}$
+    \item $\dfrac{x-1}{x+3} + \dfrac{x+2}{x-2} = 2$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=\tfrac52$ (CE: $x\neq 2,\ x\neq -1$)
+    \item nessuna soluzione (CE: $x\neq 1,\ x\neq -2$)
+    \item $x=\tfrac{7}{2}$ (CE: $x\neq 3,\ x\neq -1$)
+    \item identità, quindi $\infty$ soluzioni (CE: $x\neq 2,\ x\neq -2$)
+    \item $x=\tfrac12$ (CE: $x\neq -3,\ x\neq 2$)
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%====================================================%
+% SEZIONE 4: Equazioni di grado superiore al secondo
+%====================================================%
+
+\begin{question}[ID=4.1, subtitle={Equazioni di grado superiore al secondo}, difficulty=facile, tags={equazioni di grado superiore}]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $x^3 - 8 = 0$
+    \item $x^3 + 27 = 0$
+    \item $x^4 - 16 = 0$
+    \item $x^4 - 81 = 0$
+    \item $x^3 - 4x = 0$
+    \item $x^3 - 9x = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=2$
+    \item $x=-3$
+    \item $x=\pm2$
+    \item $x=\pm3$
+    \item $x=-2,\ 0,\ 2$
+    \item $x=-3,\ 0,\ 3$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=4.2, subtitle={Equazioni di grado superiore al secondo}, difficulty=facile, tags={equazioni di grado superiore}]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $x^3 - 3x^2 = 0$
+    \item $x^3 + 2x^2 = 0$
+    \item $x^4 - 5x^2 = 0$
+    \item $x^4 - 13x^2 + 36 = 0$
+    \item $x^3 - 6x^2 + 9x = 0$
+    \item $x^4 - 10x^2 + 9 = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=0,\ 3$
+    \item $x=0,\ -2$
+    \item $x=0,\ \pm\sqrt{5}$
+    \item $x=\pm2,\ \pm3$
+    \item $x=0,\ 3$
+    \item $x=\pm1,\ \pm3$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=4.3, subtitle={Equazioni di grado superiore al secondo mediante scomposizione}, difficulty=media, tags={equazioni di grado superiore}]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $x^3 - 5x^2 + 6x = 0$
+    \item $x^3 + x^2 - 6x = 0$
+    \item $x^4 - 2x^3 - 8x^2 = 0$
+    \item $x^4 - 5x^2 + 4 = 0$
+    \item $x^3 - 4x^2 - x + 4 = 0$
+    \item $x^3 + 2x^2 - 9x - 18 = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=0,\ 2,\ 3$
+    \item $x=-3,\ 0,\ 2$
+    \item $x=-2,\ 0,\ 4$
+    \item $x=-2,\ -1,\ 1,\ 2$
+    \item $x=-1,\ 1,\ 4$
+    \item $x=-3,\ -2,\ 3$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=4.4, subtitle={Equazioni di grado superiore al secondo}, difficulty=media, tags={equazioni di grado superiore}]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $x^4 - 7x^2 + 12 = 0$
+    \item $x^4 - 13x^2 + 36 = 0$
+    \item $x^4 - 3x^3 - 4x^2 = 0$
+    \item $2x^3 - 8x^2 + 6x = 0$
+    \item $x^4 - x^3 - 6x^2 = 0$
+    \item $x^3 - 7x^2 + 14x - 8 = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=\pm\sqrt{3},\ \pm2$
+    \item $x=\pm2,\ \pm3$
+    \item $x=-1,\ 0,\ 4$
+    \item $x=0,\ 1,\ 3$
+    \item $x=-2,\ 0,\ 3$
+    \item $x=1,\ 2,\ 4$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=4.5, subtitle={Equazioni di grado superiore al secondo con scomposizioni complesse}, difficulty=difficile, tags={equazioni di grado superiore}]
+Risolvi le seguenti equazioni:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $x^4 - 2x^3 - 7x^2 + 8x + 12 = 0$
+    \item $x^4 + x^3 - 7x^2 - x + 6 = 0$
+    \item $x^3 - 6x^2 + 11x - 6 = 0$
+    \item $x^4 - 5x^3 + 5x^2 + 5x - 6 = 0$
+    \item $x^4 - 10x^2 + 9 = 0$
+    \item $x^6 - 13x^3 + 36 = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=-2,\ -1,\ 2,\ 3$
+    \item $x=-3,\ -1,\ 1,\ 2$
+    \item $x=1,\ 2,\ 3$
+    \item $x=-1,\ 1,\ 2,\ 3$
+    \item $x=-3,\ -1,\ 1,\ 3$
+    \item $x=\sqrt[3]{4},\ \sqrt[3]{9}$ \quad (nelle soluzioni reali)
+\end{enumerate}
+\end{solution}
+\end{question}
+
+
+%====================================================%
+% SEZIONE 5: Legge dell'annullamento del prodotto
+%====================================================%
+
+\begin{question}[ID=5.1, subtitle={Legge dell'annullamento del prodotto}, difficulty=facile, tags={annullamento del prodotto}]
+Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $(x-3)(x+2)=0$
+    \item $(x+5)(x-1)=0$
+    \item $x(x-7)=0$
+    \item $(2x-4)(x+3)=0$
+    \item $(3x+6)(x-2)=0$
+    \item $(x-4)(x+4)=0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=3,\ -2$
+    \item $x=-5,\ 1$
+    \item $x=0,\ 7$
+    \item $x=2,\ -3$
+    \item $x=-2,\ 2$
+    \item $x=-4,\ 4$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=5.2, subtitle={Legge dell'annullamento del prodotto}, difficulty=facile, tags={annullamento del prodotto}]
+Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $(2x+1)(x-5)=0$
+    \item $(3x-9)(x+4)=0$
+    \item $(x-2)(4x+8)=0$
+    \item $(5x-10)(2x+6)=0$
+    \item $(x+1)(3x-12)=0$
+    \item $(2x-6)(4x+1)=0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=-\tfrac12,\ 5$
+    \item $x=3,\ -4$
+    \item $x=2,\ -2$
+    \item $x=2,\ -3$
+    \item $x=-1,\ 4$
+    \item $x=3,\ -\tfrac14$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=5.3, subtitle={Legge dell'annullamento del prodotto con fattori di secondo grado}, difficulty=media, tags={annullamento del prodotto}]
+Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $x(x-2)(x+3)=0$
+    \item $(x-1)(x+2)(x-4)=0$
+    \item $(2x-3)(x^2-4)=0$
+    \item $(x+1)(x^2-9)=0$
+    \item $(3x+2)(x^2-5x+6)=0$
+    \item $(x-2)(x^2+x-6)=0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=-3,\ 0,\ 2$
+    \item $x=-2,\ 1,\ 4$
+    \item $x=-2,\ \tfrac32,\ 2$
+    \item $x=-3,\ -1,\ 3$
+    \item $x=-2,\ -\tfrac23,\ 3$
+    \item $x=-3,\ 2$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=5.4, subtitle={Legge dell'annullamento del prodotto e scomposizione}, difficulty=media, tags={annullamento del prodotto}]
+Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $x^2 - 5x + 6 = 0$
+    \item $x^2 - 9 = 0$
+    \item $x^3 - 4x^2 + 3x = 0$
+    \item $x^3 + 2x^2 - 8x = 0$
+    \item $x^3 - x^2 - 6x = 0$
+    \item $x^4 - 5x^2 + 4 = 0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=2,\ 3$
+    \item $x=-3,\ 3$
+    \item $x=0,\ 1,\ 3$
+    \item $x=-4,\ -2,\ 0$
+    \item $x=-2,\ 0,\ 3$
+    \item $x=-2,\ -1,\ 1,\ 2$
+\end{enumerate}
+\end{solution}
+\end{question}
+
+%----------------------------------------------------%
+
+\begin{question}[ID=5.5, subtitle={Legge dell'annullamento del prodotto con più fattori}, difficulty=difficile, tags={annullamento del prodotto}]
+Risolvi le seguenti equazioni applicando la legge dell'annullamento del prodotto e le opportune scomposizioni:
+\begin{multicols}{2}
+\begin{enumerate}[leftmargin=3cm]
+    \item $(x^2-4)(x^2-9)=0$
+    \item $(x^2-5x+6)(x^2-1)=0$
+    \item $x(x-1)(x^2-4)=0$
+    \item $(x^2-2x)(x^2-9)=0$
+    \item $(x^2-4x+3)(x^2-16)=0$
+    \item $(x^2-3x+2)(x^2+x-6)=0$
+\end{enumerate}
+\end{multicols}
+\begin{solution}
+\begin{enumerate}
+    \item $x=-3,\ -2,\ 2,\ 3$
+    \item $x=-1,\ 1,\ 2,\ 3$
+    \item $x=-2,\ -1,\ 0,\ 1,\ 2$
+    \item $x=-3,\ 0,\ 2,\ 3$
+    \item $x=-4,\ 1,\ 3,\ 4$
+    \item $x=-3,\ 1,\ 2$
+\end{enumerate}
+\end{solution}
 \end{question}

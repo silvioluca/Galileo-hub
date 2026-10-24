@@ -298,15 +298,17 @@ function latexToHtml(tex) {
     (_, src) => `<figure class="ex-figure"><img src="${src}" alt="figura"/></figure>`);
 
   // 3. \begin{enumerate}...\end{enumerate} → <ol>
+  //    Etichette a), b), c) di default; numeriche 1), 2) solo con label=\arabic*
   s = s.replace(/\\begin\{enumerate\}([\s\S]*?)\\end\{enumerate\}/g, (_, inner) => {
-    const items = inner.split(/\\item(?:\s*\[[^\]]*\])?/).slice(1);
-    return `<ol>${items.map(i => `<li>${i.trim()}</li>`).join('')}</ol>`;
+    const parts = inner.split(/\\item(?:\s*\[[^\]]*\])?/);
+    const cls = /label\s*=\s*\\arabic/.test(parts[0]) ? 'ol-num' : 'ol-alpha';
+    return `<ol class="${cls}">${parts.slice(1).map(i => `<li>${i.trim()}</li>`).join('')}</ol>`;
   });
 
   // 3.5. \begin{parts}...\end{parts} with \part → <ol>
   s = s.replace(/\\begin\{parts\}([\s\S]*?)\\end\{parts\}/g, (_, inner) => {
     const items = inner.split(/\\part\b(?:\s*\[[^\]]*\])?/).slice(1);
-    return `<ol>${items.map(i => `<li>${i.trim()}</li>`).join('')}</ol>`;
+    return `<ol class="ol-alpha">${items.map(i => `<li>${i.trim()}</li>`).join('')}</ol>`;
   });
 
   // 4. \begin{itemize}...\end{itemize} → <ul>
@@ -1396,7 +1398,9 @@ Prova strutturata secondo le indicazioni presenti nel ${tipo} con applicazione d
     if (opt.showPoints && state.scores.has(ex.id)) {
       tag = `\\hfill{\\small(${fmtPts(state.scores.get(ex.id))} punti)}`;
     }
-    const label = `\\noindent\\textbf{Esercizio ${i + 1}.}${tag}\\\\`;
+    // Numero e distanza sono gestiti da \esercizio (definito nel preambolo):
+    // riordinando i blocchi nel .tex la numerazione si aggiorna da sola
+    const label = `\\esercizio${tag ? `[${tag}]` : ''}`;
     const txt = ex.text.trim();
     const showBody = opt.solutions !== 'only';
     const sol = (opt.solutions !== 'none' && ex.solution && ex.solution.trim())
@@ -1407,7 +1411,7 @@ Prova strutturata secondo le indicazioni presenti nel ${tipo} con applicazione d
       return `{\\color{gray}%\n${label}\n${showBody ? txt : ''}${sol}\n}`;
     }
     return `${label}\n${showBody ? greyTex(txt, ex.id, tipo) : ''}${sol}`;
-  }).join(`\n\n%---------------------------------------------%\n\\vspace{${opt.spacing}pt}\n\n`);
+  }).join(`\n\n%---------------------------------------------%\n\n`);
 
   const gridBlock = opt.grid ? '\n\n' + gridTex(chosen) + '\n' : '';
 
@@ -1431,6 +1435,17 @@ ${helvet}\\usepackage{wrapfig}
 \\setlist{itemsep=${opt.enumSep}pt}
 \\renewcommand{\\labelenumi}{\\theenumi) \\ }
 
+% Distanza tra un esercizio e il successivo: basta cambiare questo valore
+\\newlength{\\distesercizi}
+\\setlength{\\distesercizi}{${opt.spacing}pt}
+
+% \\esercizio stampa "Esercizio N." con numerazione automatica;
+% l'argomento opzionale va a destra del titolo, es. \\esercizio[\\hfill(2 punti)]
+\\newcounter{esercizio}
+\\newcommand{\\esercizio}[1][]{%
+  \\par\\ifnum\\value{esercizio}>0 \\vspace{\\distesercizi}\\fi
+  \\refstepcounter{esercizio}%
+  \\noindent\\textbf{Esercizio \\theesercizio.}#1\\par\\nobreak}
 
 \\begin{document}
 

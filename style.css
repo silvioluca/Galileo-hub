@@ -598,6 +598,24 @@ header {
   break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
 }
 
+/* ── Elenchi del modal: sottoesercizi a), b), c) ───────────────── */
+/* (1), 2), … solo se il .tex chiede label=\arabic* → classe .ol-num) */
+.modal-text ol, .solution-text ol,
+.modal-text .multicols ol, .solution-text .multicols ol {
+  list-style: none; counter-reset: ex-item;
+  margin-left: 0; padding-left: 2em;
+}
+.modal-text ol > li, .solution-text ol > li {
+  counter-increment: ex-item; position: relative;
+}
+.modal-text ol > li::before, .solution-text ol > li::before {
+  content: counter(ex-item, lower-alpha) ")";
+  position: absolute; left: -2em; width: 1.6em; text-align: right;
+}
+.modal-text ol.ol-num > li::before, .solution-text ol.ol-num > li::before {
+  content: counter(ex-item) ")";
+}
+
 /* ── Filter separator ──────────────────────────────────────────── */
 .filter-sep {
   width: 1px; height: 20px;
