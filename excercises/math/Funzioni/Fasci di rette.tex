@@ -5,15 +5,35 @@
 \begin{question}[ID=1.1, subtitle={Fascio $(k+1)x-(k+2)y+2=0$: tipo e centro}, tags={fascio di rette}, difficulty=facile]
 Dato il fascio di rette di equazione $(k+1) \ x - (k+2) \ y +2 = 0$, determinare le generatrici del fascio, il tipo di fascio ed eventualmente il suo centro.
 \begin{solution}
-Si raccoglie il parametro: $k(x-y)+(x-2y+2)=0$. Le \textbf{generatrici} sono $r_1:\ x-y=0$ e $r_2:\ x-2y+2=0$. Essendo non parallele, il fascio è \textbf{proprio} e il centro è la loro intersezione: da $x=y$ in $x-2y+2=0$ si ha $-y+2=0\Rightarrow y=2$, quindi il centro è $C(2,2)$.
+Generatrici $x-y=0$ e $x-2y+2=0$; \ fascio proprio di centro $C(2,2)$.
 \end{solution}
+\begin{explanation}
+Per studiare un fascio si raccoglie il parametro $k$ nella forma $k\cdot r_1+r_2=0$: le rette $r_1$ e $r_2$ sono le \textbf{generatrici}. Se non sono parallele il fascio è \textbf{proprio} e tutte le rette passano per il loro punto d'intersezione, il \textbf{centro}; se sono parallele il fascio è \textbf{improprio} (rette tutte parallele).
+\[\begin{aligned}
+(k+1)x-(k+2)y+2 &= kx+x-ky-2y+2 && \textcolor{gray}{\text{svolgo i prodotti}}\\
+&= k(x-y)+(x-2y+2) && \textcolor{gray}{\text{raccolgo $k$}}
+\end{aligned}\]
+Generatrici $r_1:\ y=x$ (pendenza $1$) e $r_2:\ y=\tfrac12x+1$ (pendenza $\tfrac12$): non sono parallele, quindi il fascio è proprio. Centro:
+\[ \begin{cases} x=y\\ x-2y+2=0\end{cases} \;\Rightarrow\; -y+2=0 \;\Rightarrow\; C(2,2) \]
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.2, subtitle={Fascio $(k+1)x+(k-1)y+2k+3=0$: tipo e centro}, tags={fascio di rette}, difficulty=facile]
 Dato il fascio di rette di equazione $(k+1) \ x + (k-1) \ y + 2k + 3 = 0$, determinare le generatrici del fascio, il tipo di fascio ed eventualmente il suo centro.
 \begin{solution}
-Raccogliendo $k$: $k(x+y+2)+(x-y+3)=0$. Le \textbf{generatrici} sono $r_1:\ x+y+2=0$ e $r_2:\ x-y+3=0$, non parallele: fascio \textbf{proprio}. Centro: sommando le due, $2x+5=0\Rightarrow x=-\tfrac52$; sottraendo, $2y-1=0\Rightarrow y=\tfrac12$. Centro $C\!\left(-\tfrac52,\tfrac12\right)$.
+Generatrici $x+y+2=0$ e $x-y+3=0$; \ fascio proprio di centro $C\left(-\tfrac52,\tfrac12\right)$.
 \end{solution}
+\begin{explanation}
+Per studiare un fascio si raccoglie il parametro $k$ nella forma $k\cdot r_1+r_2=0$: le rette $r_1$ e $r_2$ sono le \textbf{generatrici}. Se non sono parallele il fascio è \textbf{proprio} e tutte le rette passano per il loro punto d'intersezione, il \textbf{centro}; se sono parallele il fascio è \textbf{improprio} (rette tutte parallele).
+\[ (k+1)x+(k-1)y+2k+3=k(x+y+2)+(x-y+3) \]
+Le generatrici hanno pendenze $-1$ e $1$: perpendicolari, quindi non parallele (fascio proprio). Centro:
+\[\begin{aligned}
+x+y+2 &= 0\\
+x-y+3 &= 0\\
+2x+5 &= 0 \;\Rightarrow\; x=-\dfrac52 && \textcolor{gray}{\text{sommo le equazioni}}\\
+y &= x+3=\dfrac12
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.3, subtitle={Fascio $(k+1)x-(k+2)y+2=0$: determinazione di $k$}, tags={fascio di rette}, difficulty=facile]
@@ -26,15 +46,36 @@ Dato il fascio di rette di equazione $(k+1) \ x - (k+2) \ y +2 = 0$, determinare
     \item intersechi l'asse $x$ in un punto di ascissa negativa e l'asse $y$ in un punto di ordinata positiva.
 \end{enumerate}
 \begin{solution}
-Coefficiente angolare della generica retta: $m=\dfrac{k+1}{k+2}$.
 \begin{enumerate}
-\item $P(-2,4)$: $-2(k+1)-4(k+2)+2=0\Rightarrow-6k-8=0\Rightarrow k=-\tfrac43$.
-\item Parallela all'asse $y$: coefficiente di $y$ nullo, $-(k+2)=0\Rightarrow k=-2$ (retta $x=2$).
-\item Parallela a $4x+2y-3=0$ (pendenza $-2$): $\dfrac{k+1}{k+2}=-2\Rightarrow k=-\tfrac53$.
-\item Perpendicolare a $x-5y-3=0$ (pendenza $\tfrac15$, perpendicolare $-5$): $\dfrac{k+1}{k+2}=-5\Rightarrow k=-\tfrac{11}{6}$.
-\item Intercetta $x$: $x=-\dfrac{2}{k+1}<0\Rightarrow k>-1$; intercetta $y$: $y=\dfrac{2}{k+2}>0\Rightarrow k>-2$. Insieme: $k>-1$.
+    \item $k=-\tfrac43$
+    \item $k=-2$ \ (retta $x=2$)
+    \item $k=-\tfrac53$
+    \item $k=-\tfrac{11}{6}$
+    \item $k>-1$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Per la retta $ax+by+c=0$ (con $b\neq0$) il coefficiente angolare è $m=-\dfrac ab$. Rette parallele hanno lo stesso $m$; rette perpendicolari hanno $m_1m_2=-1$.
+Per il fascio $(k+1)x-(k+2)y+2=0$: \ $m=-\dfrac{k+1}{-(k+2)}=\dfrac{k+1}{k+2}$.
+\begin{enumerate}
+    \item Sostituisco $P(-2,4)$:
+    \[\begin{aligned}
+    -2(k+1)-4(k+2)+2 &= 0\\
+    -6k-8 &= 0 \;\Rightarrow\; k=-\dfrac43
+    \end{aligned}\]
+    \item Una retta è parallela all'asse $y$ (verticale) quando manca il termine in $y$: $k+2=0$, $k=-2$. Si ottiene $-x+2=0$, cioè $x=2$.
+    \item $4x+2y-3=0$ ha pendenza $-2$:
+    \[ \dfrac{k+1}{k+2}=-2 \;\Rightarrow\; k+1=-2k-4 \;\Rightarrow\; k=-\dfrac53 \]
+    \item $x-5y-3=0$ ha pendenza $\tfrac15$, quindi la perpendicolare ha pendenza $-5$:
+    \[ \dfrac{k+1}{k+2}=-5 \;\Rightarrow\; k+1=-5k-10 \;\Rightarrow\; k=-\dfrac{11}{6} \]
+    \item Intersezioni con gli assi:
+    \[\begin{aligned}
+    y=0: &\quad x=-\dfrac{2}{k+1}<0 \;\Rightarrow\; k+1>0 \;\Rightarrow\; k>-1\\
+    x=0: &\quad y=\dfrac{2}{k+2}>0 \;\Rightarrow\; k>-2
+    \end{aligned}\]
+    Entrambe le condizioni: $k>-1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.4, subtitle={Fascio $kx+(k-1)y+1=0$: determinazione di $k$}, tags={fascio di rette}, difficulty=facile]
@@ -47,15 +88,31 @@ Dato il fascio di rette di equazione $k\ x + (k-1) \ y +1 = 0$, determinare il p
     \item formi con l'asse $x$ un angolo di $30^\circ$.
 \end{enumerate}
 \begin{solution}
-Coefficiente angolare: $m=-\dfrac{k}{k-1}$.
 \begin{enumerate}
-\item $P(2,0)$: $2k+1=0\Rightarrow k=-\tfrac12$.
-\item Parallela all'asse $y$: coefficiente di $y$ nullo, $k-1=0\Rightarrow k=1$ (retta $x=-1$).
-\item Parallela alla bisettrice $y=x$ (pendenza $1$): $-\dfrac{k}{k-1}=1\Rightarrow k=\tfrac12$.
-\item Perpendicolare a $x-5y-3=0$ (pendenza $\tfrac15$, perpendicolare $-5$): $-\dfrac{k}{k-1}=-5\Rightarrow k=\tfrac54$.
-\item Angolo di $30^\circ$, $m=\pm\tfrac{1}{\sqrt3}$: da $-\dfrac{k}{k-1}=\tfrac{1}{\sqrt3}$ si ha $k=\dfrac{\sqrt3-1}{2}$; da $-\dfrac{k}{k-1}=-\tfrac{1}{\sqrt3}$ si ha $k=-\dfrac{\sqrt3+1}{2}$.
+    \item $k=-\tfrac12$
+    \item $k=1$ \ (retta $x=-1$)
+    \item $k=\tfrac12$
+    \item $k=\tfrac54$
+    \item $k=\dfrac{\sqrt3-1}{2}$ \ oppure \ $k=-\dfrac{\sqrt3+1}{2}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Per la retta $ax+by+c=0$ (con $b\neq0$) il coefficiente angolare è $m=-\dfrac ab$. Rette parallele hanno lo stesso $m$; rette perpendicolari hanno $m_1m_2=-1$.
+Per il fascio $kx+(k-1)y+1=0$: \ $m=-\dfrac{k}{k-1}$.
+\begin{enumerate}
+    \item $P(2,0)$: \ $2k+0+1=0 \Rightarrow k=-\tfrac12$.
+    \item Manca il termine in $y$: $k-1=0$, $k=1$; la retta è $x+1=0$.
+    \item Bisettrice $y=x$, pendenza $1$:
+    \[ -\dfrac{k}{k-1}=1 \;\Rightarrow\; -k=k-1 \;\Rightarrow\; k=\dfrac12 \]
+    \item Pendenza della perpendicolare a $x-5y-3=0$: $-5$.
+    \[ -\dfrac{k}{k-1}=-5 \;\Rightarrow\; k=5k-5 \;\Rightarrow\; k=\dfrac54 \]
+    \item Un angolo di $30^\circ$ con l'asse $x$ corrisponde a $m=\tan30^\circ=\tfrac{1}{\sqrt3}$, oppure $m=-\tfrac1{\sqrt3}$ (angolo di $150^\circ$, cioè $30^\circ$ dall'altra parte).
+    \[\begin{aligned}
+    -\dfrac{k}{k-1}=\dfrac{1}{\sqrt3} &\;\Rightarrow\; -\sqrt3k=k-1 \;\Rightarrow\; k=\dfrac{1}{1+\sqrt3}=\dfrac{\sqrt3-1}{2} && \textcolor{gray}{\text{razionalizzo}}\\
+    -\dfrac{k}{k-1}=-\dfrac{1}{\sqrt3} &\;\Rightarrow\; \sqrt3k=k-1 \;\Rightarrow\; k=-\dfrac{1}{\sqrt3-1}=-\dfrac{\sqrt3+1}{2}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ===============================

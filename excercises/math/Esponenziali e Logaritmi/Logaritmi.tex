@@ -13,7 +13,26 @@ Calcola il valore dei seguenti logaritmi usando le opportune proprietà:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ 3$; $b)\ 2$; $c)\ 3\log_3 x - \log_3 y$; $d)\ 3$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $3$
+    \item $2$
+    \item $3\log_3x-\log_3y$
+    \item $3$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Proprietà dei logaritmi (argomenti positivi): \ $\log_a(xy)=\log_ax+\log_ay$; \ $\log_a\dfrac xy=\log_ax-\log_ay$; \ $\log_a x^n=n\log_ax$; \ $\log_a a^n=n$.
+\begin{enumerate}
+    \item $\log_2 8=\log_2 2^3=3$.
+    \item $\log50+\log2=\log(50\cdot2)=\log100=2$.
+    \item $\log_3\dfrac{x^3}{y}=\log_3x^3-\log_3y=3\log_3x-\log_3y$ \ (per $x,y>0$).
+    \item \[\begin{aligned}
+    \ln4e^5-\ln e^2-2\ln2 &= \ln4+\ln e^5-2-\ln4 && \textcolor{gray}{\text{$2\ln2=\ln4$}}\\
+    &= 5-2=3
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -30,7 +49,26 @@ Calcola il valore dei seguenti logaritmi usando le opportune proprietà:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ 3$; $b)\ \log 100 = 2$; $c)\ 4\log_2 x - 2\log_2 y$; $d)\ 2$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $3$
+    \item $2$
+    \item $4\log_2x-2\log_2y$
+    \item $2$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Proprietà dei logaritmi (argomenti positivi): \ $\log_a(xy)=\log_ax+\log_ay$; \ $\log_a\dfrac xy=\log_ax-\log_ay$; \ $\log_a x^n=n\log_ax$; \ $\log_a a^n=n$.
+\begin{enumerate}
+    \item $\log_3 27=\log_3 3^3=3$.
+    \item $\log20+\log5=\log100=2$.
+    \item $\log_2x^4-\log_2y^2=4\log_2x-2\log_2y$.
+    \item \[\begin{aligned}
+    \ln9e^3-\ln e-2\ln3 &= \ln9+3-1-\ln9 && \textcolor{gray}{\text{$2\ln3=\ln9$}}\\
+    &= 2
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -51,7 +89,32 @@ Risolvi le seguenti equazioni logaritmiche:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x=8$; $b)\ x=13$; $c)$ impossibile (CE non soddisfatta); $d)\ x=1$; $e)\ x=5$; $f)\ x=\log_4 3$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=8$
+    \item $x=13$
+    \item impossibile
+    \item $x=1$
+    \item $x=5$
+    \item $x=\log_43$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Prima si scrivono le \textbf{condizioni di esistenza} (argomenti positivi); poi si usa la definizione $\log_a A=b \iff A=a^b$, oppure il confronto $\log_aA=\log_aB \iff A=B$; infine si controllano le C.E.
+\begin{enumerate}
+    \item $x=2^3=8$.
+    \item C.E. $x>\tfrac12$. \ $2x-1=5^2=25 \Rightarrow x=13$, accettabile.
+    \item C.E. $2x+1>0$ e $x-1>0$, cioè $x>1$. \ Confronto: $2x+1=x-1 \Rightarrow x=-2$, che non rispetta le C.E.: impossibile.
+    \item $x=3^0=1$.
+    \item C.E. $x>4$.
+    \[\begin{aligned}
+    \log_3\big[(x-4)(x+4)\big] &= 2 && \textcolor{gray}{\text{somma di logaritmi}}\\
+    x^2-16 &= 9 \;\Rightarrow\; x=\pm5
+    \end{aligned}\]
+    Solo $x=5$ rispetta le C.E.
+    \item Applico il logaritmo in base $4$: \ $x=\log_43$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -70,7 +133,27 @@ Risolvi le seguenti equazioni logaritmiche:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x=9$; $b)\ x=2$; $c)\ x=3$; $d)\ x=\tfrac{1}{2}$; $e)\ x=3$; $f)\ x=\log_5 7$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=9$
+    \item $x=2$
+    \item $x=3$
+    \item $x=\tfrac12$
+    \item $x=3$
+    \item $x=\log_57$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Prima si scrivono le \textbf{condizioni di esistenza} (argomenti positivi); poi si usa la definizione $\log_a A=b \iff A=a^b$, oppure il confronto $\log_aA=\log_aB \iff A=B$; infine si controllano le C.E.
+\begin{enumerate}
+    \item $x=3^2=9$.
+    \item C.E. $x>\tfrac23$. \ $3x-2=4 \Rightarrow x=2$.
+    \item C.E. $x>\tfrac13$. \ $3x-1=x+5 \Rightarrow x=3$, accettabile.
+    \item $x=2^{-1}=\tfrac12$.
+    \item C.E. $x>1$. \ $\log_2(x^2-1)=3 \Rightarrow x^2-1=8 \Rightarrow x=\pm3$; solo $x=3$ accettabile.
+    \item $x=\log_57$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -87,7 +170,24 @@ Risolvi per confronto:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x=16$; $b)\ x=3$; $c)\ x=5$; $d)\ x=4$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=16$
+    \item $x=3$
+    \item $x=5$
+    \item $x=4$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Prima si scrivono le \textbf{condizioni di esistenza} (argomenti positivi); poi si usa la definizione $\log_a A=b \iff A=a^b$, oppure il confronto $\log_aA=\log_aB \iff A=B$; infine si controllano le C.E.
+Stessa base ai due membri: si uguagliano gli argomenti.
+\begin{enumerate}
+    \item $x=16$ (C.E. $x>0$ rispettata).
+    \item $x+1=4 \Rightarrow x=3$ (C.E. $x>-1$).
+    \item $x-2=3 \Rightarrow x=5$ (C.E. $x>2$).
+    \item $x-1=3 \Rightarrow x=4$ (C.E. $x>1$).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -104,7 +204,25 @@ Risolvi:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x=4$; $b)\ x=9$; $c)\ x=10$; $d)\ x=\pm 5$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=4$
+    \item $x=9$
+    \item $x=10$
+    \item $x=\pm5$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Prima si scrivono le \textbf{condizioni di esistenza} (argomenti positivi); poi si usa la definizione $\log_a A=b \iff A=a^b$, oppure il confronto $\log_aA=\log_aB \iff A=B$; infine si controllano le C.E.
+Proprietà dei logaritmi (argomenti positivi): \ $\log_a(xy)=\log_ax+\log_ay$; \ $\log_a\dfrac xy=\log_ax-\log_ay$; \ $\log_a x^n=n\log_ax$; \ $\log_a a^n=n$.
+\begin{enumerate}
+    \item C.E. $x>0$. \ $2\log_2x=4 \Rightarrow \log_2x=2 \Rightarrow x=4$.
+    \item C.E. $x>0$. \ $\log_3(2x)=\log_318 \Rightarrow 2x=18 \Rightarrow x=9$.
+    \item C.E. $x>0$. \ $2\log x=2 \Rightarrow \log x=1 \Rightarrow x=10$.
+    \item C.E. $x^2>0$, cioè $x\neq0$. \ $x^2=5^2=25 \Rightarrow x=\pm5$, entrambe accettabili. \\
+    (Attenzione: scrivere $2\log_5x$ farebbe perdere $x=-5$, perché richiederebbe $x>0$.)
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -121,7 +239,23 @@ Risolvi le seguenti equazioni esponenziali utilizzando i logaritmi:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x=3$; $b)\ x=\log_3 20$; $c)\ x=\log 7$; $d)\ x=1+\log_5 12$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=3$
+    \item $x=\log_320\approx2{,}73$
+    \item $x=\log7\approx0{,}85$
+    \item $x=1+\log_512\approx2{,}54$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Se i due membri non si possono scrivere con la stessa base, si applica il logaritmo: $a^x=b \iff x=\log_ab$. Per calcolarlo si usa il cambio di base $\log_ab=\dfrac{\log b}{\log a}$.
+\begin{enumerate}
+    \item $x=\log_28=3$.
+    \item $x=\log_320=\dfrac{\log20}{\log3}\approx\dfrac{1{,}301}{0{,}477}\approx2{,}73$.
+    \item $x=\log_{10}7\approx0{,}85$.
+    \item $x-1=\log_512 \Rightarrow x=1+\log_512\approx1+1{,}54$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -139,7 +273,24 @@ Risolvi le seguenti disequazioni logaritmiche:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x>9$; $b)\ 0<x<\tfrac{1}{3}$; $c)\ x>2$; $d)\ 2<x<4$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x>9$
+    \item $0<x<\tfrac13$
+    \item $x>1$
+    \item $2<x<4$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Nelle disequazioni si mettono a sistema le C.E. con la disequazione tra gli argomenti: il verso \textbf{si conserva} se la base è maggiore di $1$, \textbf{si inverte} se è tra $0$ e $1$.
+\begin{enumerate}
+    \item C.E. $x>0$; base $3>1$: $x>3^2=9$.
+    \item C.E. $x>0$; base $\tfrac13<1$: il verso si inverte, $x<\left(\tfrac13\right)^1$. \ Con le C.E.: $0<x<\tfrac13$.
+    \item \[ \begin{cases} 2x+1>0\\ x-1>0\\ 2x+1>x-1 \end{cases} \;\Rightarrow\; \begin{cases} x>-\dfrac12\\ x>1\\ x>-2 \end{cases} \;\Rightarrow\; x>1 \]
+    \item $\ln t<0 \iff 0<t<1$:
+    \[ 0<\dfrac12x-1<1 \;\Rightarrow\; 1<\dfrac12x<2 \;\Rightarrow\; 2<x<4 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -156,7 +307,23 @@ Risolvi le seguenti disequazioni logaritmiche:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ 0<x<8$; $b)\ 0<x\le\tfrac{1}{4}$; $c)\ \tfrac{1}{3}<x\le\tfrac{3}{2}$; $d)\ x>3$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $0<x<8$
+    \item $0<x\leq\tfrac14$
+    \item $\tfrac13<x\leq\tfrac32$
+    \item $x>3$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Nelle disequazioni si mettono a sistema le C.E. con la disequazione tra gli argomenti: il verso \textbf{si conserva} se la base è maggiore di $1$, \textbf{si inverte} se è tra $0$ e $1$.
+\begin{enumerate}
+    \item C.E. $x>0$; $x<2^3=8$.
+    \item Base $\tfrac12<1$: $x\leq\left(\tfrac12\right)^2=\tfrac14$; con $x>0$.
+    \item \[ \begin{cases} 3x-1>0\\ x+2>0\\ 3x-1\leq x+2 \end{cases} \;\Rightarrow\; \begin{cases} x>\dfrac13\\ x>-2\\ x\leq\dfrac32 \end{cases} \]
+    \item $\ln(x-2)>0 \iff x-2>1 \iff x>3$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -175,7 +342,28 @@ Risolvi le seguenti disequazioni:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x>16$; $b)\ -1<x\le 3$; $c)\ x\ge 5$; $d)\ 1<x<4$; $e)\ x>5$; $f)\ x\le\log_5 12$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x>16$
+    \item $-1<x\leq3$
+    \item $x\geq5$
+    \item $1<x<4$
+    \item $x>5$
+    \item $x\leq\log_512$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Nelle disequazioni si mettono a sistema le C.E. con la disequazione tra gli argomenti: il verso \textbf{si conserva} se la base è maggiore di $1$, \textbf{si inverte} se è tra $0$ e $1$.
+Tutte le basi sono maggiori di $1$: il verso si conserva.
+\begin{enumerate}
+    \item $x>16$ (che implica $x>0$).
+    \item $x+1\leq4$ con $x+1>0$: \ $-1<x\leq3$.
+    \item $x-2\geq3$: \ $x\geq5$.
+    \item $x-1<3$ con $x-1>0$: \ $1<x<4$.
+    \item $2x>10$: \ $x>5$.
+    \item $5^x\leq12 \Rightarrow x\leq\log_512$ (applico $\log_5$, funzione crescente).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -194,7 +382,28 @@ Risolvi:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x>4$; $b)\ 0<x\le 9$; $c)\ x\ge 10$; $d)\ -5<x<5,\ x\neq 0$; $e)\ x\ge 7$; $f)\ x>\log_2 5$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x>4$
+    \item $0<x\leq9$
+    \item $x\geq10$
+    \item $-5<x<5$, \ $x\neq0$
+    \item $x\geq7$
+    \item $x>\log_25$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Nelle disequazioni si mettono a sistema le C.E. con la disequazione tra gli argomenti: il verso \textbf{si conserva} se la base è maggiore di $1$, \textbf{si inverte} se è tra $0$ e $1$.
+Proprietà dei logaritmi (argomenti positivi): \ $\log_a(xy)=\log_ax+\log_ay$; \ $\log_a\dfrac xy=\log_ax-\log_ay$; \ $\log_a x^n=n\log_ax$; \ $\log_a a^n=n$.
+\begin{enumerate}
+    \item C.E. $x>0$: \ $2\log_2x>4 \Rightarrow \log_2x>2 \Rightarrow x>4$.
+    \item C.E. $x>0$: \ $\log_3(2x)\leq\log_318 \Rightarrow 2x\leq18 \Rightarrow x\leq9$.
+    \item C.E. $x>0$: \ $\log x^2\geq\log100 \Rightarrow x^2\geq100$; con $x>0$: $x\geq10$.
+    \item C.E. $x\neq0$: \ $x^2<25 \Rightarrow -5<x<5$, escluso $0$.
+    \item C.E. $x>0$: \ $x^2\geq49 \Rightarrow x\geq7$.
+    \item $x>\log_25$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -213,5 +422,30 @@ Risolvi le seguenti disequazioni esponenziali:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x>3$; $b)\ x\le\log_3 20$; $c)\ x\ge\log 7$; $d)\ x<1+\log_5 12$; $e)\ x>\ln 15$; $f)\ x\le\dfrac{\log 10}{2\log 4}=\dfrac{1}{2\log_2 10}$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x>3$
+    \item $x\leq\log_320$
+    \item $x\geq\log7$
+    \item $x<1+\log_512$
+    \item $x>\ln15$
+    \item $x\leq\tfrac12\log_410=\log_{16}10\approx0{,}83$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Si applica ai due membri il logaritmo nella base della potenza: le basi sono tutte maggiori di $1$, quindi il verso si conserva.
+\begin{enumerate}
+    \item $2^x>2^3 \Rightarrow x>3$.
+    \item $x\leq\log_320$.
+    \item $x\geq\log_{10}7$.
+    \item $x-1<\log_512 \Rightarrow x<1+\log_512$.
+    \item $x>\ln15$ (logaritmo in base $e$).
+    \item \[\begin{aligned}
+    4^{2x} &\leq 10\\
+    2x &\leq \log_410\\
+    x &\leq \dfrac12\log_410=\dfrac{\log10}{2\log4}=\dfrac{1}{4\log2}\approx0{,}83 && \textcolor{gray}{\text{cambio di base, $\log4=2\log2$}}
+    \end{aligned}\]
+    (Equivalentemente $4^{2x}=16^x$, quindi $x\leq\log_{16}10$.)
+\end{enumerate}
+\end{explanation}
 \end{question}

@@ -47,6 +47,42 @@ Risolvi i seguenti sistemi lineari di due equazioni:
     \item $(x,y)=(2,4)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Metodo di riduzione}: quando una stessa incognita ha coefficienti opposti (o uguali) nelle due equazioni, sommando (o sottraendo) le equazioni membro a membro quell'incognita sparisce. Trovata una incognita, si sostituisce in una delle equazioni per trovare l'altra.
+\begin{enumerate}
+    \item La $y$ ha coefficienti opposti ($+1$ e $-1$): sommo le equazioni.
+    \[\begin{aligned}
+    (x+y)+(x-y) &= 5+1 && \textcolor{gray}{\text{sommo membro a membro}}\\
+    2x &= 6\\
+    x &= 3\\
+    3+y &= 5 && \textcolor{gray}{\text{sostituisco nella prima}}\\
+    y &= 2
+    \end{aligned}\]
+    \item La $y$ ha coefficienti opposti: sommo.
+    \[\begin{aligned}
+    3x &= 9 && \textcolor{gray}{\text{$(2x+y)+(x-y)=7+2$}}\\
+    x &= 3\\
+    3-y &= 2 && \textcolor{gray}{\text{sostituisco nella seconda}}\\
+    y &= 1
+    \end{aligned}\]
+    \item La $x$ ha lo stesso coefficiente: sottraggo la seconda dalla prima.
+    \[\begin{aligned}
+    (x+2y)-(x-y) &= 8-2\\
+    3y &= 6\\
+    y &= 2\\
+    x-2 &= 2 && \textcolor{gray}{\text{sostituisco nella seconda}}\\
+    x &= 4
+    \end{aligned}\]
+    \item La $y$ ha lo stesso coefficiente: sottraggo.
+    \[\begin{aligned}
+    (3x+y)-(x+y) &= 10-6\\
+    2x &= 4\\
+    x &= 2\\
+    2+y &= 6 && \textcolor{gray}{\text{sostituisco nella seconda}}\\
+    y &= 4
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -93,9 +129,43 @@ Risolvi i seguenti sistemi lineari di due equazioni:
     \item $(x,y)=(3,2)$
     \item $(x,y)=(2,1)$
     \item $(x,y)=(2,3)$
-    \item $(x,y)=(1,3)$
+    \item $(x,y)=(2,3)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Metodo di sostituzione}: si ricava un'incognita da un'equazione (conviene quella con coefficiente $1$) e la si sostituisce nell'altra, che diventa un'equazione in una sola incognita.
+\begin{enumerate}
+    \item Dalla seconda ricavo $x=y+1$ e sostituisco nella prima:
+    \[\begin{aligned}
+    2(y+1)+3y &= 12\\
+    2y+2+3y &= 12 && \textcolor{gray}{\text{svolgo la parentesi}}\\
+    5y &= 10\\
+    y &= 2\\
+    x &= 2+1=3 && \textcolor{gray}{\text{torno a $x=y+1$}}
+    \end{aligned}\]
+    \item Dalla seconda ricavo $x=3-y$:
+    \[\begin{aligned}
+    3(3-y)-2y &= 4\\
+    9-3y-2y &= 4\\
+    -5y &= -5\\
+    y &= 1\\
+    x &= 3-1=2
+    \end{aligned}\]
+    \item La $y$ ha coefficienti opposti: conviene la riduzione (sommo).
+    \[\begin{aligned}
+    6x &= 12 && \textcolor{gray}{\text{$(4x+y)+(2x-y)=11+1$}}\\
+    x &= 2\\
+    y &= 11-4\cdot2=3 && \textcolor{gray}{\text{dalla prima}}
+    \end{aligned}\]
+    \item La $y$ ha coefficienti opposti ($+2y$ e $-2y$): sommo.
+    \[\begin{aligned}
+    6x &= 12 && \textcolor{gray}{\text{$(5x+2y)+(x-2y)=16-4$}}\\
+    x &= 2\\
+    2-2y &= -4 && \textcolor{gray}{\text{sostituisco nella seconda}}\\
+    y &= 3
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -139,12 +209,52 @@ Risolvi i seguenti sistemi lineari di due equazioni:
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-    \item $(x,y)=(3,2)$
-    \item $(x,y)=\left(\tfrac{19}{5},\tfrac{14}{5}\right)$
-    \item $(x,y)=(2,1)$
-    \item $(x,y)=\left(\tfrac{13}{4},\tfrac54\right)$
+    \item $(x,y)=\left(\tfrac52,\tfrac52\right)$
+    \item $(x,y)=(4,3)$
+    \item $(x,y)=(4,-1)$
+    \item $(x,y)=\left(\tfrac72,2\right)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Prima si porta ogni equazione nella \textbf{forma normale} $ax+by=c$ (svolgendo le parentesi ed eliminando i denominatori), poi si risolve.
+\begin{enumerate}
+    \item Divido la prima equazione per $2$: diventa $x+y=5$. La $y$ ha coefficienti opposti nelle due equazioni: sommo.
+    \[\begin{aligned}
+    (x+y)+(3x-y) &= 5+5\\
+    4x &= 10\\
+    x &= \dfrac52\\
+    y &= 5-\dfrac52=\dfrac52 && \textcolor{gray}{\text{da $x+y=5$}}
+    \end{aligned}\]
+    \item Moltiplico la prima per il m.c.m. $6$: $3x+2y=18$. Dalla seconda: $x=y+1$.
+    \[\begin{aligned}
+    3(y+1)+2y &= 18 && \textcolor{gray}{\text{sostituisco}}\\
+    5y+3 &= 18\\
+    y &= 3\\
+    x &= 4
+    \end{aligned}\]
+    \item Prima equazione: $3x-3+2y=7$, cioè $3x+2y=10$. Dalla seconda: $x=3-y$.
+    \[\begin{aligned}
+    3(3-y)+2y &= 10 && \textcolor{gray}{\text{sostituisco}}\\
+    9-y &= 10\\
+    y &= -1\\
+    x &= 3-(-1)=4
+    \end{aligned}\]
+    \item Elimino i denominatori:
+    \[\begin{aligned}
+    2x-1+3y &= 12 && \textcolor{gray}{\text{prima equazione per $3$}}\\
+    2x+3y &= 13\\
+    2x-(y+1) &= 4 && \textcolor{gray}{\text{seconda equazione per $2$}}\\
+    2x-y &= 5
+    \end{aligned}\]
+    La $x$ ha lo stesso coefficiente: sottraggo la seconda dalla prima.
+    \[\begin{aligned}
+    (2x+3y)-(2x-y) &= 13-5\\
+    4y &= 8\\
+    y &= 2\\
+    2x &= 5+2 \;\Rightarrow\; x=\dfrac72 && \textcolor{gray}{\text{da $2x-y=5$}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -188,12 +298,46 @@ Risolvi i seguenti sistemi lineari di due equazioni:
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-    \item $(x,y)=(3,1)$
-    \item $(x,y)=\left(\tfrac{16}{5},\tfrac65\right)$
-    \item $(x,y)=\left(\tfrac{37}{19},-\tfrac{4}{19}\right)$
-    \item $(x,y)=\left(\tfrac{21}{5},\tfrac95\right)$
+    \item $(x,y)=\left(\tfrac{59}{23},\tfrac{71}{23}\right)$
+    \item $(x,y)=\left(\tfrac{13}{4},\tfrac14\right)$
+    \item $(x,y)=\left(\tfrac{61}{19},-\tfrac{29}{19}\right)$
+    \item $(x,y)=\left(\tfrac{26}{5},\tfrac45\right)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Nessun coefficiente vale $1$: uso la riduzione. Per eliminare la $y$ rendo i suoi coefficienti opposti ($-6y$ e $+6y$):
+    \[\begin{aligned}
+    8x-6y &= 2 && \textcolor{gray}{\text{prima equazione per $2$}}\\
+    15x+6y &= 57 && \textcolor{gray}{\text{seconda equazione per $3$}}\\
+    23x &= 59 && \textcolor{gray}{\text{sommo}}\\
+    x &= \dfrac{59}{23}
+    \end{aligned}\]
+    Ricavo $y$ dalla prima equazione, $3y=4x-1$:
+    \[ 3y=\dfrac{236}{23}-\dfrac{23}{23}=\dfrac{213}{23} \;\Rightarrow\; y=\dfrac{71}{23} \]
+    \item Elimino i denominatori: $3x+y=10$ (per $2$) e $x-y=3$ (per $3$). La $y$ ha coefficienti opposti: sommo.
+    \[\begin{aligned}
+    4x &= 13\\
+    x &= \dfrac{13}{4}\\
+    y &= x-3=\dfrac{13}{4}-\dfrac{12}{4}=\dfrac14
+    \end{aligned}\]
+    \item Prima equazione in forma normale: $2x-4-3y-3=4$, cioè $2x-3y=11$. Riduzione sulla $y$:
+    \[\begin{aligned}
+    4x-6y &= 22 && \textcolor{gray}{\text{prima per $2$}}\\
+    15x+6y &= 39 && \textcolor{gray}{\text{seconda per $3$}}\\
+    19x &= 61 && \textcolor{gray}{\text{sommo}}\\
+    x &= \dfrac{61}{19}
+    \end{aligned}\]
+    Da $3y=2x-11$: \ $3y=\tfrac{122}{19}-\tfrac{209}{19}=-\tfrac{87}{19} \;\Rightarrow\; y=-\tfrac{29}{19}$.
+    \item Elimino i denominatori: $2x-3y=8$ (per $4$) e $x+y=6$ (per $3$). Dalla seconda: $x=6-y$.
+    \[\begin{aligned}
+    2(6-y)-3y &= 8 && \textcolor{gray}{\text{sostituisco}}\\
+    12-5y &= 8\\
+    y &= \dfrac45\\
+    x &= 6-\dfrac45=\dfrac{26}{5}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -237,12 +381,28 @@ Risolvi e classifica i seguenti sistemi lineari di due equazioni:
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-    \item Sistema indeterminato: infinite soluzioni.
-    \item Sistema impossibile: nessuna soluzione.
-    \item Sistema impossibile: nessuna soluzione.
-    \item Sistema indeterminato: infinite soluzioni.
+    \item indeterminato: infinite soluzioni $(3-2t,\ t)$
+    \item impossibile
+    \item impossibile
+    \item indeterminato: infinite soluzioni $\left(\tfrac{7+3t}{2},\ t\right)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Per classificare un sistema $\begin{cases} ax+by=c\\ a'x+b'y=c'\end{cases}$ si confrontano i rapporti tra i coefficienti:
+\begin{itemize}
+    \item se $\tfrac{a}{a'}\neq\tfrac{b}{b'}$ il sistema è \textbf{determinato} (una soluzione: le rette si incontrano);
+    \item se $\tfrac{a}{a'}=\tfrac{b}{b'}=\tfrac{c}{c'}$ è \textbf{indeterminato} (le equazioni sono equivalenti: rette coincidenti);
+    \item se $\tfrac{a}{a'}=\tfrac{b}{b'}\neq\tfrac{c}{c'}$ è \textbf{impossibile} (rette parallele distinte).
+\end{itemize}
+\begin{enumerate}
+    \item $\tfrac21=\tfrac42=\tfrac63=2$: la prima equazione è il doppio della seconda, quindi è un'unica equazione $x+2y=3$. \\
+    Ogni coppia con $y=t$ qualsiasi e $x=3-2t$ è soluzione: indeterminato.
+    \item Divido la prima per $3$: diventa $x-2y=3$, mentre la seconda dice $x-2y=1$. La stessa espressione non può valere sia $3$ sia $1$: impossibile.
+    \item Divido la prima per $2$: $2x+y=4$, mentre la seconda dice $2x+y=5$: impossibile.
+    \item $\tfrac24=\tfrac{-3}{-6}=\tfrac7{14}=\tfrac12$: la seconda è il doppio della prima. \\
+    Rimane $2x-3y=7$: posto $y=t$, si ha $x=\tfrac{7+3t}{2}$. Indeterminato.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -295,6 +455,35 @@ Risolvi i seguenti sistemi lineari di due equazioni:
     \item $(x,y)=(4,10)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Si moltiplica ogni equazione per il m.c.m. dei suoi denominatori, così i coefficienti diventano interi; poi si risolve per sostituzione o riduzione.
+\begin{enumerate}
+    \item Prima equazione per $6$: $3x+2y=18$. Dalla seconda: $x=y+1$.
+    \[\begin{aligned}
+    3(y+1)+2y &= 18 && \textcolor{gray}{\text{sostituisco}}\\
+    5y &= 15\\
+    y &= 3, \qquad x=4
+    \end{aligned}\]
+    \item Prima equazione per $6$: $2x+3y=18$. Dalla seconda: $y=2x-2$.
+    \[\begin{aligned}
+    2x+3(2x-2) &= 18 && \textcolor{gray}{\text{sostituisco}}\\
+    8x-6 &= 18\\
+    x &= 3, \qquad y=4
+    \end{aligned}\]
+    \item Prima per $4$: $x+4y=16$; \ seconda per $6$: $3x-2y=6$. Dalla prima: $x=16-4y$.
+    \[\begin{aligned}
+    3(16-4y)-2y &= 6 && \textcolor{gray}{\text{sostituisco}}\\
+    48-14y &= 6\\
+    y &= 3, \qquad x=16-12=4
+    \end{aligned}\]
+    \item Prima per $10$: $5x+2y=40$; \ seconda per $2$: $2x-y=-2$, da cui $y=2x+2$.
+    \[\begin{aligned}
+    5x+2(2x+2) &= 40 && \textcolor{gray}{\text{sostituisco}}\\
+    9x+4 &= 40\\
+    x &= 4, \qquad y=10
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -344,6 +533,36 @@ Risolvi i seguenti sistemi lineari di due equazioni:
     \item $(x,y)=(4,3)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Elimino i denominatori:
+    \[\begin{aligned}
+    3(x+1)+2y &= 18 \;\Rightarrow\; 3x+2y=15 && \textcolor{gray}{\text{prima per $6$}}\\
+    3x-y &= 6 && \textcolor{gray}{\text{seconda per $3$}}
+    \end{aligned}\]
+    La $x$ ha lo stesso coefficiente: sottraggo la seconda dalla prima.
+    \[ 3y=9 \;\Rightarrow\; y=3, \qquad 3x=6+3 \;\Rightarrow\; x=3 \]
+    \item Prima per $12$: $3x+4(y-1)=24$, cioè $3x+4y=28$; \ seconda per $2$: $2x-y=4$, da cui $y=2x-4$.
+    \[\begin{aligned}
+    3x+4(2x-4) &= 28 && \textcolor{gray}{\text{sostituisco}}\\
+    11x-16 &= 28\\
+    x &= 4, \qquad y=4
+    \end{aligned}\]
+    \item Prima per $6$: $2(x-2)+3y=18$, cioè $2x+3y=22$; \ dalla seconda $y=2x-6$.
+    \[\begin{aligned}
+    2x+3(2x-6) &= 22\\
+    8x &= 40\\
+    x &= 5, \qquad y=4
+    \end{aligned}\]
+    \item Prima per $4$: $2x+y+1=12$, cioè $2x+y=11$; \ seconda per $3$: $x-1+3y=12$, cioè $x+3y=13$. \\
+    Dalla prima $y=11-2x$:
+    \[\begin{aligned}
+    x+3(11-2x) &= 13\\
+    -5x+33 &= 13\\
+    x &= 4, \qquad y=3
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -393,6 +612,35 @@ Risolvi i seguenti sistemi lineari di due equazioni:
     \item $(x,y)=(4,4)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Prima per $6$: $2(2x-1)+3(y+1)=18$, cioè $4x+3y=17$; \ seconda per $6$: $3x-2y=0$, da cui $y=\tfrac32x$.
+    \[\begin{aligned}
+    4x+3\cdot\dfrac32x &= 17 && \textcolor{gray}{\text{sostituisco}}\\
+    \dfrac{17}{2}x &= 17\\
+    x &= 2, \qquad y=3
+    \end{aligned}\]
+    \item Prima per $6$: $3(x+y)+2x=24$, cioè $5x+3y=24$; \ seconda per $3$: $3x-y=6$, da cui $y=3x-6$.
+    \[\begin{aligned}
+    5x+3(3x-6) &= 24\\
+    14x &= 42\\
+    x &= 3, \qquad y=3
+    \end{aligned}\]
+    \item Prima per $4$: $3x-y+2x=12$, cioè $5x-y=12$; \ seconda per $4$: $2x-y=0$, da cui $y=2x$.
+    \[\begin{aligned}
+    5x-2x &= 12 && \textcolor{gray}{\text{sostituisco}}\\
+    x &= 4, \qquad y=8
+    \end{aligned}\]
+    \item Prima per $6$: $3x-2(y-1)=6$, cioè $3x-2y=4$; \ seconda per $12$: $4(x+2)-3y=12$, cioè $4x-3y=4$. \\
+    Riduzione sulla $y$:
+    \[\begin{aligned}
+    9x-6y &= 12 && \textcolor{gray}{\text{prima per $3$}}\\
+    8x-6y &= 8 && \textcolor{gray}{\text{seconda per $2$}}\\
+    x &= 4 && \textcolor{gray}{\text{sottraggo}}\\
+    2y &= 3\cdot4-4=8 \;\Rightarrow\; y=4
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -442,6 +690,23 @@ Risolvi i seguenti sistemi lineari di due equazioni:
     \item $(x,y)=(6,5)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Prima per $6$: $3x+2y=30$; \ seconda per $12$: $3x+4y=48$. La $x$ ha lo stesso coefficiente: sottraggo.
+    \[ 2y=18 \;\Rightarrow\; y=9, \qquad 3x=30-18 \;\Rightarrow\; x=4 \]
+    \item Prima per $6$: $4x-3y=6$; \ seconda per $6$: $3x+2y=30$. Riduzione sulla $y$:
+    \[\begin{aligned}
+    8x-6y &= 12 && \textcolor{gray}{\text{prima per $2$}}\\
+    9x+6y &= 90 && \textcolor{gray}{\text{seconda per $3$}}\\
+    17x &= 102 && \textcolor{gray}{\text{sommo}}\\
+    x &= 6, \qquad 3y=4\cdot6-6=18 \;\Rightarrow\; y=6
+    \end{aligned}\]
+    \item Entrambe per $10$: $6x+5y=40$ e $2x-5y=0$. La $y$ ha coefficienti opposti: sommo.
+    \[ 8x=40 \;\Rightarrow\; x=5, \qquad 5y=2\cdot5 \;\Rightarrow\; y=2 \]
+    \item Prima per $15$: $5x-6y=0$; \ seconda per $10$: $5x+2y=40$. Sottraggo la prima dalla seconda:
+    \[ 8y=40 \;\Rightarrow\; y=5, \qquad 5x=6\cdot5 \;\Rightarrow\; x=6 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -491,6 +756,28 @@ Risolvi i seguenti sistemi lineari di due equazioni:
     \item $(x,y)=(1,8)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Prima per $6$: $3(x-1)-2(y+1)=0$, cioè $3x-2y=5$; \ seconda per $4$: $x+1+2y=24$, cioè $x+2y=23$. \\
+    La $y$ ha coefficienti opposti: sommo.
+    \[ 4x=28 \;\Rightarrow\; x=7, \qquad 2y=23-7 \;\Rightarrow\; y=8 \]
+    \item Prima per $6$: $2(2x+y)-3(x-y)=18$, cioè $x+5y=18$; \ seconda per $6$: $3(x+y)-2x=12$, cioè $x+3y=12$. \\
+    Sottraggo:
+    \[ 2y=6 \;\Rightarrow\; y=3, \qquad x=12-9=3 \]
+    \item Prima per $6$: $3x+2(2y-1)=12$, cioè $3x+4y=14$; \ seconda per $4$: $3x-2-2y=0$, cioè $3x-2y=2$. \\
+    Sottraggo:
+    \[ 6y=12 \;\Rightarrow\; y=2, \qquad 3x=2+4 \;\Rightarrow\; x=2 \]
+    \item Prima per $12$: $8(x-1)+3y=24$, cioè $8x+3y=32$; \\
+    seconda per $21$: $7(x+y)-3(y-x)=42$, cioè $10x+4y=42$, che divisa per $2$ dà $5x+2y=21$. \\
+    Riduzione sulla $y$:
+    \[\begin{aligned}
+    16x+6y &= 64 && \textcolor{gray}{\text{prima per $2$}}\\
+    15x+6y &= 63 && \textcolor{gray}{\text{seconda per $3$}}\\
+    x &= 1 && \textcolor{gray}{\text{sottraggo}}\\
+    3y &= 32-8 \;\Rightarrow\; y=8
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -502,17 +789,19 @@ Risolvi i seguenti sistemi lineari di due equazioni:
 \begin{question}[ID=3.1, subtitle={Somma e differenza di due numeri}, difficulty=facile, tags={sistemi, problemi}]
 La somma di due numeri è $48$ e la loro differenza è $12$. Determina i due numeri.
 \begin{solution}
-Indichiamo con $x$ il numero maggiore e con $y$ il minore:
-\[
-\begin{cases}
-x+y=48\\
-x-y=12
-\end{cases}
-\]
-Sommando membro a membro: $2x=60$, quindi $x=30$ e $y=48-30=18$.
-
 I due numeri sono $30$ e $18$.
 \end{solution}
+\begin{explanation}
+Indico con $x$ il numero maggiore e con $y$ il minore e traduco le due informazioni in equazioni:
+\[ \begin{cases} x+y=48 & \text{la somma è $48$}\\ x-y=12 & \text{la differenza è $12$}\end{cases} \]
+La $y$ ha coefficienti opposti: sommo le equazioni.
+\[\begin{aligned}
+2x &= 60\\
+x &= 30\\
+y &= 48-30=18 && \textcolor{gray}{\text{dalla prima equazione}}
+\end{aligned}\]
+Verifica: $30+18=48$ e $30-18=12$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -520,17 +809,21 @@ I due numeri sono $30$ e $18$.
 \begin{question}[ID=3.2, subtitle={Biglietti del cinema}, difficulty=media, tags={sistemi, problemi}]
 Al cinema, $3$ biglietti interi e $2$ ridotti costano in tutto $37$ euro, mentre $1$ biglietto intero e $4$ ridotti costano $29$ euro. Quanto costano un biglietto intero e uno ridotto?
 \begin{solution}
-Sia $x$ il prezzo del biglietto intero e $y$ quello del ridotto:
-\[
-\begin{cases}
-3x+2y=37\\
-x+4y=29
-\end{cases}
-\]
-Dalla seconda: $x=29-4y$. Sostituendo nella prima: $87-12y+2y=37$, cioè $10y=50$, quindi $y=5$ e $x=9$.
-
 Il biglietto intero costa $9$ euro, il ridotto $5$ euro.
 \end{solution}
+\begin{explanation}
+Indico con $x$ il prezzo dell'intero e con $y$ quello del ridotto:
+\[ \begin{cases} 3x+2y=37 & \text{3 interi e 2 ridotti}\\ x+4y=29 & \text{1 intero e 4 ridotti}\end{cases} \]
+Dalla seconda ricavo $x=29-4y$ e lo sostituisco nella prima:
+\[\begin{aligned}
+3(29-4y)+2y &= 37\\
+87-12y+2y &= 37 && \textcolor{gray}{\text{svolgo la parentesi}}\\
+-10y &= -50\\
+y &= 5\\
+x &= 29-20=9
+\end{aligned}\]
+Verifica: $3\cdot9+2\cdot5=37$ e $9+4\cdot5=29$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -538,17 +831,19 @@ Il biglietto intero costa $9$ euro, il ridotto $5$ euro.
 \begin{question}[ID=3.3, subtitle={Dimensioni di un rettangolo}, difficulty=media, tags={sistemi, problemi}]
 Un rettangolo ha il perimetro di $56\,\text{cm}$ e la base supera di $4\,\text{cm}$ il doppio dell'altezza. Calcola le dimensioni del rettangolo.
 \begin{solution}
-Siano $b$ la base e $h$ l'altezza. Il semiperimetro è $28\,\text{cm}$:
-\[
-\begin{cases}
-b+h=28\\
-b=2h+4
-\end{cases}
-\]
-Sostituendo: $2h+4+h=28$, cioè $3h=24$, quindi $h=8$ e $b=20$.
-
-La base misura $20\,\text{cm}$ e l'altezza $8\,\text{cm}$.
+Base $20\,\text{cm}$, altezza $8\,\text{cm}$.
 \end{solution}
+\begin{explanation}
+Indico con $b$ la base e con $h$ l'altezza. Il perimetro è $2b+2h=56$, quindi il semiperimetro è $b+h=28$. La base supera di $4$ il doppio dell'altezza: $b=2h+4$.
+\[ \begin{cases} b+h=28\\ b=2h+4\end{cases} \]
+La seconda equazione dà già $b$: la sostituisco nella prima.
+\[\begin{aligned}
+2h+4+h &= 28\\
+3h &= 24\\
+h &= 8\\
+b &= 2\cdot8+4=20
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -556,17 +851,21 @@ La base misura $20\,\text{cm}$ e l'altezza $8\,\text{cm}$.
 \begin{question}[ID=3.4, subtitle={Monete in un salvadanaio}, difficulty=difficile, tags={sistemi, problemi}]
 In un salvadanaio ci sono $30$ monete, alcune da $50$ centesimi e altre da $2$ euro, per un totale di $36$ euro. Quante monete ci sono di ciascun tipo?
 \begin{solution}
-Sia $x$ il numero di monete da $0{,}50$ euro e $y$ quello delle monete da $2$ euro:
-\[
-\begin{cases}
-x+y=30\\
-0{,}5x+2y=36
-\end{cases}
-\]
-Dalla prima: $x=30-y$. Sostituendo: $15-0{,}5y+2y=36$, cioè $1{,}5y=21$, quindi $y=14$ e $x=16$.
-
-Ci sono $16$ monete da $50$ centesimi e $14$ monete da $2$ euro.
+$16$ monete da $50$ centesimi e $14$ monete da $2$ euro.
 \end{solution}
+\begin{explanation}
+Indico con $x$ il numero di monete da $0{,}50$ euro e con $y$ quello delle monete da $2$ euro. Una equazione conta le monete, l'altra il loro valore in euro:
+\[ \begin{cases} x+y=30 & \text{numero di monete}\\ 0{,}5x+2y=36 & \text{valore totale}\end{cases} \]
+Dalla prima $x=30-y$; sostituisco nella seconda:
+\[\begin{aligned}
+0{,}5(30-y)+2y &= 36\\
+15-0{,}5y+2y &= 36\\
+1{,}5y &= 21\\
+y &= 14\\
+x &= 30-14=16
+\end{aligned}\]
+Verifica: $16\cdot0{,}5+14\cdot2=8+28=36$ euro.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -574,17 +873,19 @@ Ci sono $16$ monete da $50$ centesimi e $14$ monete da $2$ euro.
 \begin{question}[ID=3.5, subtitle={Età di padre e figlio}, difficulty=difficile, tags={sistemi, problemi}]
 Un padre ha oggi un'età pari al triplo di quella del figlio. Fra $12$ anni l'età del padre sarà il doppio di quella del figlio. Quanti anni hanno oggi il padre e il figlio?
 \begin{solution}
-Siano $p$ l'età del padre e $f$ quella del figlio:
-\[
-\begin{cases}
-p=3f\\
-p+12=2(f+12)
-\end{cases}
-\]
-Sostituendo: $3f+12=2f+24$, quindi $f=12$ e $p=36$.
-
-Il figlio ha $12$ anni e il padre $36$ anni.
+Il figlio ha $12$ anni, il padre $36$.
 \end{solution}
+\begin{explanation}
+Indico con $p$ l'età attuale del padre e con $f$ quella del figlio. Fra $12$ anni entrambi avranno $12$ anni in più:
+\[ \begin{cases} p=3f & \text{oggi}\\ p+12=2(f+12) & \text{fra 12 anni}\end{cases} \]
+Sostituisco $p=3f$ nella seconda:
+\[\begin{aligned}
+3f+12 &= 2f+24 && \textcolor{gray}{\text{svolgo la parentesi}}\\
+f &= 12\\
+p &= 3\cdot12=36
+\end{aligned}\]
+Verifica: fra $12$ anni avranno $48$ e $24$ anni, e $48$ è il doppio di $24$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -592,17 +893,20 @@ Il figlio ha $12$ anni e il padre $36$ anni.
 \begin{question}[ID=3.6, subtitle={Miscela di due soluzioni}, difficulty=difficile, tags={sistemi, problemi, percentuali}]
 Un chimico vuole ottenere $40\,\text{litri}$ di una soluzione al $32\%$ mescolando una soluzione al $20\%$ con una soluzione al $50\%$. Quanti litri di ciascuna deve utilizzare?
 \begin{solution}
-Siano $x$ i litri della soluzione al $20\%$ e $y$ quelli della soluzione al $50\%$. Il soluto totale deve essere il $32\%$ di $40\,\text{litri}$, cioè $12{,}8\,\text{litri}$:
-\[
-\begin{cases}
-x+y=40\\
-0{,}2x+0{,}5y=12{,}8
-\end{cases}
-\]
-Dalla prima: $x=40-y$. Sostituendo: $8-0{,}2y+0{,}5y=12{,}8$, cioè $0{,}3y=4{,}8$, quindi $y=16$ e $x=24$.
-
-Servono $24\,\text{litri}$ di soluzione al $20\%$ e $16\,\text{litri}$ di soluzione al $50\%$.
+$24$ litri della soluzione al $20\%$ e $16$ litri di quella al $50\%$.
 \end{solution}
+\begin{explanation}
+Indico con $x$ i litri della soluzione al $20\%$ e con $y$ quelli della soluzione al $50\%$. \\
+Il volume totale è $40$ litri; la quantità di sostanza disciolta deve essere il $32\%$ di $40$, cioè $0{,}32\cdot40=12{,}8$ litri.
+\[ \begin{cases} x+y=40 & \text{volume totale}\\ 0{,}2x+0{,}5y=12{,}8 & \text{sostanza disciolta}\end{cases} \]
+Dalla prima $x=40-y$; sostituisco:
+\[\begin{aligned}
+0{,}2(40-y)+0{,}5y &= 12{,}8\\
+8+0{,}3y &= 12{,}8\\
+0{,}3y &= 4{,}8\\
+y &= 16, \qquad x=24
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -610,17 +914,20 @@ Servono $24\,\text{litri}$ di soluzione al $20\%$ e $16\,\text{litri}$ di soluzi
 \begin{question}[ID=3.7, subtitle={Battello e corrente del fiume}, difficulty=difficile, tags={sistemi, problemi, moto}]
 Un battello percorre $36\,\text{km}$ controcorrente in $3$ ore e gli stessi $36\,\text{km}$ a favore di corrente in $2$ ore. Calcola la velocità del battello in acqua ferma e la velocità della corrente.
 \begin{solution}
-Siano $v$ la velocità del battello e $c$ quella della corrente. Controcorrente la velocità effettiva è $v-c=\dfrac{36}{3}=12\,\text{km/h}$, a favore è $v+c=\dfrac{36}{2}=18\,\text{km/h}$:
-\[
-\begin{cases}
-v+c=18\\
-v-c=12
-\end{cases}
-\]
-Sommando membro a membro: $2v=30$, quindi $v=15$ e $c=3$.
-
-Il battello va a $15\,\text{km/h}$ in acqua ferma e la corrente scorre a $3\,\text{km/h}$.
+Battello: $15\,\text{km/h}$; \ corrente: $3\,\text{km/h}$.
 \end{solution}
+\begin{explanation}
+Indico con $v$ la velocità del battello in acqua ferma e con $c$ quella della corrente. \\
+Controcorrente la corrente frena il battello: la velocità effettiva è $v-c$. A favore di corrente lo spinge: $v+c$. \\
+Le velocità effettive si ricavano da spazio/tempo:
+\[ v-c=\dfrac{36}{3}=12\,\text{km/h}, \qquad v+c=\dfrac{36}{2}=18\,\text{km/h} \]
+Sommo le due equazioni:
+\[\begin{aligned}
+2v &= 30\\
+v &= 15\\
+c &= 18-15=3
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -628,17 +935,20 @@ Il battello va a $15\,\text{km/h}$ in acqua ferma e la corrente scorre a $3\,\te
 \begin{question}[ID=3.8, subtitle={Numero di due cifre}, difficulty=difficile, tags={sistemi, problemi, numeri}]
 Un numero di due cifre ha la somma delle cifre uguale a $11$. Scambiando tra loro le cifre si ottiene un numero che è minore di $27$ rispetto a quello di partenza. Determina il numero.
 \begin{solution}
-Siano $a$ la cifra delle decine e $b$ quella delle unità. Il numero è $10a+b$, quello con le cifre scambiate è $10b+a$:
-\[
-\begin{cases}
-a+b=11\\
-(10a+b)-(10b+a)=27
-\end{cases}
-\]
-La seconda equazione diventa $9a-9b=27$, cioè $a-b=3$. Sommando con la prima: $2a=14$, quindi $a=7$ e $b=4$.
-
-Il numero è $74$ (infatti $74-47=27$).
+Il numero è $74$.
 \end{solution}
+\begin{explanation}
+Indico con $a$ la cifra delle decine e con $b$ quella delle unità: il numero vale $10a+b$, quello con le cifre scambiate vale $10b+a$.
+\[ \begin{cases} a+b=11 & \text{somma delle cifre}\\ (10a+b)-(10b+a)=27 & \text{differenza tra i due numeri}\end{cases} \]
+Semplifico la seconda equazione:
+\[\begin{aligned}
+9a-9b &= 27\\
+a-b &= 3 && \textcolor{gray}{\text{divido per $9$}}
+\end{aligned}\]
+Sommo con la prima:
+\[ 2a=14 \;\Rightarrow\; a=7, \qquad b=11-7=4 \]
+Verifica: $74-47=27$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -646,22 +956,18 @@ Il numero è $74$ (infatti $74-47=27$).
 \begin{question}[ID=3.9, subtitle={Due ciclisti}, difficulty=difficile, tags={sistemi, problemi, moto}]
 Due ciclisti partono contemporaneamente da due città distanti $90\,\text{km}$. Se vanno l'uno incontro all'altro, si incontrano dopo $2$ ore. Se invece vanno nello stesso verso, il più veloce raggiunge l'altro dopo $6$ ore. Calcola le velocità dei due ciclisti.
 \begin{solution}
-Siano $x$ la velocità del ciclista più veloce e $y$ quella dell'altro, in $\text{km/h}$. Nel primo caso le velocità si sommano, nel secondo si sottraggono:
-\[
-\begin{cases}
-2(x+y)=90\\
-6(x-y)=90
-\end{cases}
-\qquad\Longrightarrow\qquad
-\begin{cases}
-x+y=45\\
-x-y=15
-\end{cases}
-\]
-Sommando membro a membro: $2x=60$, quindi $x=30$ e $y=15$.
-
-Le velocità sono $30\,\text{km/h}$ e $15\,\text{km/h}$.
+$30\,\text{km/h}$ e $15\,\text{km/h}$.
 \end{solution}
+\begin{explanation}
+Indico con $x$ la velocità del ciclista più veloce e con $y$ quella dell'altro (in km/h).
+\begin{itemize}
+    \item Andando l'uno incontro all'altro, la distanza si riduce di $x+y$ km ogni ora: in $2$ ore percorrono insieme $90$ km.
+    \item Andando nello stesso verso, il più veloce guadagna $x-y$ km ogni ora: in $6$ ore recupera i $90$ km di distacco.
+\end{itemize}
+\[ \begin{cases} 2(x+y)=90\\ 6(x-y)=90\end{cases} \;\Longrightarrow\; \begin{cases} x+y=45\\ x-y=15\end{cases} \]
+Sommo le due equazioni:
+\[ 2x=60 \;\Rightarrow\; x=30, \qquad y=45-30=15 \]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -669,17 +975,19 @@ Le velocità sono $30\,\text{km/h}$ e $15\,\text{km/h}$.
 \begin{question}[ID=3.10, subtitle={Prezzi scontati}, difficulty=difficile, tags={sistemi, problemi, percentuali}]
 Due articoli costano complessivamente $120$ euro. Il primo viene scontato del $20\%$ e il secondo del $10\%$, e in tutto si pagano $100$ euro. Quanto costava ciascun articolo prima dello sconto?
 \begin{solution}
-Siano $x$ e $y$ i prezzi originari. Dopo lo sconto si paga l'$80\%$ di $x$ e il $90\%$ di $y$:
-\[
-\begin{cases}
-x+y=120\\
-0{,}8x+0{,}9y=100
-\end{cases}
-\]
-Dalla prima: $x=120-y$. Sostituendo: $96-0{,}8y+0{,}9y=100$, cioè $0{,}1y=4$, quindi $y=40$ e $x=80$.
-
 Il primo articolo costava $80$ euro, il secondo $40$ euro.
 \end{solution}
+\begin{explanation}
+Indico con $x$ e $y$ i prezzi originari. Uno sconto del $20\%$ fa pagare l'$80\%$ del prezzo, uno del $10\%$ il $90\%$:
+\[ \begin{cases} x+y=120 & \text{prezzi pieni}\\ 0{,}8x+0{,}9y=100 & \text{prezzi scontati}\end{cases} \]
+Dalla prima $x=120-y$; sostituisco:
+\[\begin{aligned}
+0{,}8(120-y)+0{,}9y &= 100\\
+96+0{,}1y &= 100\\
+y &= 40, \qquad x=80
+\end{aligned}\]
+Verifica: $0{,}8\cdot80+0{,}9\cdot40=64+36=100$.
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -695,19 +1003,9 @@ Un'azienda produce magliette sostenendo costi fissi di $600$ euro e un costo di 
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item $C(x)=600+4x$ e $R(x)=10x$.
-    \item Il break-even point si ottiene quando costi e ricavi coincidono:
-    \[
-    \begin{cases}
-    y=600+4x\\
-    y=10x
-    \end{cases}
-    \quad\Longrightarrow\quad 10x=600+4x \quad\Longrightarrow\quad 6x=600 \quad\Longrightarrow\quad x=100.
-    \]
-    Quindi $y=1000$: il break-even point è $B(100;\,1000)$.
-    \item Le due rette si disegnano con due punti ciascuna: $C$ passa per $(0;\,600)$ e $(100;\,1000)$, $R$ passa per $(0;\,0)$ e $(100;\,1000)$. Si intersecano in $B(100;\,1000)$.
-
-    Per $x<100$ la retta dei costi sta sopra quella dei ricavi: l'azienda è in \textbf{perdita}. Per $x>100$ la retta dei ricavi sta sopra: l'azienda è in \textbf{utile}. Per $x=100$ non c'è né utile né perdita.
+    \item $C(x)=600+4x$, \ $R(x)=10x$
+    \item Break-even point $B(100;\,1000)$
+    \item Perdita per $x<100$, utile per $x>100$.
 \begin{center}
 \begin{tikzpicture}
 \begin{axis}[
@@ -730,6 +1028,21 @@ Un'azienda produce magliette sostenendo costi fissi di $600$ euro e un costo di 
 \end{center}
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item I costi sono formati da una parte fissa ($600$ euro) più una parte che cresce con il numero di magliette ($4$ euro ciascuna); i ricavi sono il prezzo di vendita per il numero di magliette:
+    \[ C(x)=600+4x, \qquad R(x)=10x \]
+    \item Il break-even point è il punto in cui ricavi e costi si uguagliano. Metto a sistema le due rette:
+    \[\begin{aligned}
+    10x &= 600+4x && \textcolor{gray}{\text{uguaglio $R$ e $C$}}\\
+    6x &= 600\\
+    x &= 100\\
+    y &= 10\cdot100=1000 && \textcolor{gray}{\text{sostituisco in $R$}}
+    \end{aligned}\]
+    \item Per disegnare ogni retta bastano due punti: $C$ passa per $(0;\,600)$ e $(100;\,1000)$, $R$ per l'origine e $(100;\,1000)$. \\
+    A sinistra di $B$ la retta dei costi sta sopra quella dei ricavi (perdita); a destra la retta dei ricavi, più inclinata, sta sopra (utile).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -744,17 +1057,9 @@ Un gelataio affitta un carretto pagando $450$ euro al mese. Ogni gelato gli cost
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item $C(x)=450+0{,}5x$ e $R(x)=2{,}5x$.
-    \item Risolviamo il sistema:
-    \[
-    \begin{cases}
-    y=450+0{,}5x\\
-    y=2{,}5x
-    \end{cases}
-    \quad\Longrightarrow\quad 2x=450 \quad\Longrightarrow\quad x=225.
-    \]
-    Quindi $y=2{,}5\cdot 225=562{,}5$. Servono $225$ gelati al mese e in quel punto costi e ricavi valgono $562{,}5$ euro: $B(225;\,562{,}5)$.
-    \item La retta dei costi parte da $(0;\,450)$ ed è poco inclinata (coefficiente angolare $0{,}5$), quella dei ricavi parte dall'origine ed è più inclinata (coefficiente angolare $2{,}5$). Le due rette si intersecano in $B$: a sinistra di $B$ i costi superano i ricavi (perdita), a destra i ricavi superano i costi (utile).
+    \item $C(x)=450+0{,}5x$, \ $R(x)=2{,}5x$
+    \item $225$ gelati; costi e ricavi valgono $562{,}5$ euro: $B(225;\,562{,}5)$
+    \item Prima di $B$ i costi superano i ricavi (perdita), dopo $B$ i ricavi superano i costi (utile).
 \begin{center}
 \begin{tikzpicture}
 \begin{axis}[
@@ -775,9 +1080,29 @@ Un gelataio affitta un carretto pagando $450$ euro al mese. Ogni gelato gli cost
 \end{axis}
 \end{tikzpicture}
 \end{center}
-    \item $U(x)=2{,}5x-(450+0{,}5x)=2x-450$. Per $x=300$: $U(300)=600-450=150$ euro.
+    \item $U(x)=2x-450$; \ $U(300)=150$ euro
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item Costo fisso $450$ euro più $0{,}50$ euro per gelato; ricavo $2{,}50$ euro per gelato:
+    \[ C(x)=450+0{,}5x, \qquad R(x)=2{,}5x \]
+    \item Uguaglio ricavi e costi:
+    \[\begin{aligned}
+    2{,}5x &= 450+0{,}5x\\
+    2x &= 450\\
+    x &= 225\\
+    y &= 2{,}5\cdot225=562{,}5
+    \end{aligned}\]
+    \item La retta dei costi parte da $(0;\,450)$ ed è poco inclinata (pendenza $0{,}5$); quella dei ricavi parte dall'origine ed è più inclinata (pendenza $2{,}5$), quindi prima o poi la supera: il punto di sorpasso è $B$.
+    \item L'utile è la differenza tra ricavi e costi:
+    \[\begin{aligned}
+    U(x) &= 2{,}5x-(450+0{,}5x) && \textcolor{gray}{\text{il meno cambia i segni nella parentesi}}\\
+    &= 2x-450\\
+    U(300) &= 600-450=150 \text{ euro}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -791,19 +1116,9 @@ Un operatore telefonico propone due tariffe mensili. Il piano A costa $5$ euro d
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item $S_A(x)=5+0{,}10x$ e $S_B(x)=20+0{,}04x$.
-    \item Risolviamo il sistema:
-    \[
-    \begin{cases}
-    y=5+0{,}10x\\
-    y=20+0{,}04x
-    \end{cases}
-    \quad\Longrightarrow\quad 0{,}06x=15 \quad\Longrightarrow\quad x=250.
-    \]
-    Quindi $y=5+0{,}10\cdot 250=30$. Le tariffe sono uguali a $250$ minuti, con una spesa di $30$ euro: punto $P(250;\,30)$.
-    \item La retta A parte più in basso (ordinata all'origine $5$) ma è più inclinata (coefficiente angolare $0{,}10$ contro $0{,}04$), quindi dopo l'intersezione si trova sopra la retta B.
-
-    Per $x<250$ la retta A è sotto B: conviene il \textbf{piano A}. Per $x>250$ la retta B è sotto A: conviene il \textbf{piano B}. Per $x=250$ i due piani sono equivalenti.
+    \item $S_A(x)=5+0{,}10x$, \ $S_B(x)=20+0{,}04x$
+    \item A $250$ minuti, con una spesa di $30$ euro: $P(250;\,30)$
+    \item Sotto i $250$ minuti conviene il piano A, sopra i $250$ minuti il piano B.
 \begin{center}
 \begin{tikzpicture}
 \begin{axis}[
@@ -826,6 +1141,21 @@ Un operatore telefonico propone due tariffe mensili. Il piano A costa $5$ euro d
 \end{center}
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item Ogni piano è canone fisso più costo al minuto per i minuti usati:
+    \[ S_A(x)=5+0{,}10x, \qquad S_B(x)=20+0{,}04x \]
+    \item Le tariffe costano uguale quando $S_A(x)=S_B(x)$:
+    \[\begin{aligned}
+    5+0{,}10x &= 20+0{,}04x\\
+    0{,}06x &= 15\\
+    x &= 250\\
+    y &= 5+0{,}10\cdot250=30
+    \end{aligned}\]
+    \item La retta A parte più in basso (ordinata all'origine $5$ contro $20$) ma cresce più in fretta (pendenza $0{,}10$ contro $0{,}04$): prima dell'intersezione è sotto B, dopo è sopra. \\
+    Conviene la retta che sta più in basso: A per pochi minuti, B per molti.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -840,17 +1170,9 @@ Due agenzie noleggiano la stessa auto. L'agenzia Alfa chiede $50$ euro di quota 
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item $C_A(x)=50+0{,}2x$ e $C_B(x)=20+0{,}3x$.
-    \item Risolviamo il sistema:
-    \[
-    \begin{cases}
-    y=50+0{,}2x\\
-    y=20+0{,}3x
-    \end{cases}
-    \quad\Longrightarrow\quad 0{,}1x=30 \quad\Longrightarrow\quad x=300.
-    \]
-    Quindi $y=50+0{,}2\cdot 300=110$. I costi coincidono a $300\,\text{km}$ e valgono $110$ euro: punto $P(300;\,110)$.
-    \item Le rette partono da $(0;\,50)$ e $(0;\,20)$. Beta parte più in basso ma cresce più rapidamente. Per $x<300$ la retta di Beta è sotto quella di Alfa: conviene \textbf{Beta}. Per $x>300$ la retta di Alfa è sotto: conviene \textbf{Alfa}.
+    \item $C_A(x)=50+0{,}2x$, \ $C_B(x)=20+0{,}3x$
+    \item A $300\,\text{km}$, con una spesa di $110$ euro: $P(300;\,110)$
+    \item Sotto i $300\,\text{km}$ conviene Beta, sopra i $300\,\text{km}$ conviene Alfa.
 \begin{center}
 \begin{tikzpicture}
 \begin{axis}[
@@ -871,9 +1193,29 @@ Due agenzie noleggiano la stessa auto. L'agenzia Alfa chiede $50$ euro di quota 
 \end{axis}
 \end{tikzpicture}
 \end{center}
-    \item Poiché $450>300$ conviene Alfa. Costi: $C_A(450)=50+90=140$ euro, $C_B(450)=20+135=155$ euro. Il cliente risparmia $15$ euro.
+    \item Sceglie Alfa ($140$ euro contro $155$): risparmia $15$ euro.
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item Quota fissa più costo per chilometro:
+    \[ C_A(x)=50+0{,}2x, \qquad C_B(x)=20+0{,}3x \]
+    \item Uguaglio i due costi:
+    \[\begin{aligned}
+    50+0{,}2x &= 20+0{,}3x\\
+    -0{,}1x &= -30\\
+    x &= 300\\
+    y &= 50+0{,}2\cdot300=110
+    \end{aligned}\]
+    \item Beta parte più in basso (quota fissa $20$) ma cresce più rapidamente (pendenza $0{,}3$): fino a $300$ km la sua retta sta sotto quella di Alfa, poi sopra. Conviene sempre l'agenzia la cui retta sta più in basso.
+    \item $450>300$, quindi conviene Alfa. Calcolo i due costi:
+    \[\begin{aligned}
+    C_A(450) &= 50+0{,}2\cdot450=140 \text{ euro}\\
+    C_B(450) &= 20+0{,}3\cdot450=155 \text{ euro}
+    \end{aligned}\]
+    Risparmio: $155-140=15$ euro.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -887,15 +1229,7 @@ Un laboratorio artigianale produce zaini. Ogni mese sostiene costi fissi di $1\,
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item Le funzioni sono $C(x)=1200+8x$ e $R(x)=14x$:
-    \[
-    \begin{cases}
-    y=1200+8x\\
-    y=14x
-    \end{cases}
-    \quad\Longrightarrow\quad 6x=1200 \quad\Longrightarrow\quad x=200.
-    \]
-    Quindi $y=2800$: break-even point $B(200;\,2800)$. Nel grafico la retta dei costi parte da $(0;\,1200)$, quella dei ricavi dall'origine, e si incontrano in $B$.
+    \item Break-even point $B(200;\,2800)$.
 \begin{center}
 \begin{tikzpicture}
 \begin{axis}[
@@ -916,10 +1250,34 @@ Un laboratorio artigianale produce zaini. Ogni mese sostiene costi fissi di $1\,
 \end{axis}
 \end{tikzpicture}
 \end{center}
-    \item L'utile è $U(x)=R(x)-C(x)=6x-1200$. Imponendo $U(x)=900$: $6x=2100$, quindi $x=350$. Il laboratorio deve vendere $350$ zaini.
-
-    Graficamente, si cerca il punto in cui la retta dei ricavi supera quella dei costi di esattamente $900$ euro.
-    \item Con $R(x)=16x$ si ha $16x=1200+8x$, cioè $8x=1200$, quindi $x=150$ e $y=2400$: il nuovo break-even point è $B'(150;\,2400)$. Il break-even viene raggiunto con meno zaini (da $200$ a $150$). Nel grafico la retta dei ricavi diventa più inclinata (coefficiente angolare da $14$ a $16$) e interseca prima la retta dei costi, che resta invariata.
+    \item $350$ zaini
+    \item Il break-even scende a $B'(150;\,2400)$: la retta dei ricavi diventa più inclinata e incontra prima quella dei costi.
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item Costi: $C(x)=1200+8x$; \ ricavi: $R(x)=14x$. Uguaglio:
+    \[\begin{aligned}
+    14x &= 1200+8x\\
+    6x &= 1200\\
+    x &= 200\\
+    y &= 14\cdot200=2800
+    \end{aligned}\]
+    Nel grafico la retta dei costi parte da $(0;\,1200)$, quella dei ricavi dall'origine; si incontrano in $B$.
+    \item L'utile è $U(x)=R(x)-C(x)=14x-1200-8x=6x-1200$. Impongo che valga $900$:
+    \[\begin{aligned}
+    6x-1200 &= 900\\
+    6x &= 2100\\
+    x &= 350
+    \end{aligned}\]
+    Graficamente è il punto in cui la retta dei ricavi sta $900$ euro sopra quella dei costi.
+    \item Con il nuovo prezzo $R(x)=16x$:
+    \[\begin{aligned}
+    16x &= 1200+8x\\
+    8x &= 1200\\
+    x &= 150, \qquad y=16\cdot150=2400
+    \end{aligned}\]
+    La retta dei costi non cambia; quella dei ricavi diventa più ripida (pendenza da $14$ a $16$) e quindi la incontra prima: bastano $150$ zaini invece di $200$.
+\end{enumerate}
+\end{explanation}
 \end{question}

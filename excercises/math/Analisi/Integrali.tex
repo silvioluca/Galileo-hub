@@ -14,22 +14,57 @@ Risolvi i seguenti integrali indefiniti
 \end{enumerate}
 \end{minipage}\end{center}
 \begin{solution}
-\begin{align*}
-\begin{split}
-a)& \quad x^3 - \frac{5}{2}x^2 + 2x + C \\[6pt]
-b)& \quad \frac{1}{2} \ln|2x+1| \Big|_0^1 = \frac{\ln 3}{2} \\[6pt]
-c)& \quad \frac{1}{4} \ln^4 x + C \\[6pt]
-d)& \quad \frac{x}{2} \sqrt{9 - x^2} + \frac{9}{2} \arcsin\left( \frac{x}{3} \right) + C \\
-\end{split}
-\quad\quad
-\begin{split}
-e)& \quad -x\cos x + \sin x + C \\[6pt]
-f)& \quad -\ln|\cos x| + C \\[6pt]
-g)& \quad \frac{1}{2} \ln|x-1| + \frac{3}{2} \ln|x+5| + C \\[6pt]
-h)& \quad \frac{1}{\sqrt{3}} \arctan\left( \frac{x+2}{\sqrt{3}} \right) + C
-\end{split}
-\end{align*}
+\begin{enumerate}
+    \item $x^3-\tfrac52x^2+2x+C$
+    \item $\tfrac{\ln3}{2}$
+    \item $\tfrac14\ln^4x+C$
+    \item $\tfrac x2\sqrt{9-x^2}+\tfrac92\arcsin\tfrac x3+C$
+    \item $-x\cos x+\sin x+C$
+    \item $-\ln|\cos x|+C$
+    \item $\tfrac56\ln|x-1|+\tfrac76\ln|x+5|+C$
+    \item $\tfrac{1}{\sqrt3}\arctan\tfrac{x+2}{\sqrt3}+C$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Integrale di un polinomio: si integra termine per termine con $\int x^n\,dx=\dfrac{x^{n+1}}{n+1}$.
+    \[ \int(3x^2-5x+2)\,dx=3\cdot\dfrac{x^3}{3}-5\cdot\dfrac{x^2}{2}+2x+C=x^3-\dfrac52x^2+2x+C \]
+    \item Questo è un integrale \textbf{definito}. Il numeratore è (a meno del fattore $2$) la derivata del denominatore, quindi la primitiva è un logaritmo:
+    \[\begin{aligned}
+    \int\dfrac{1}{2x+1}\,dx &= \dfrac12\int\dfrac{2}{2x+1}\,dx=\dfrac12\ln|2x+1| && \textcolor{gray}{\text{moltiplico e divido per $2$}}\\
+    \Big[\dfrac12\ln|2x+1|\Big]_0^1 &= \dfrac12\ln3-\dfrac12\ln1=\dfrac{\ln3}{2} && \textcolor{gray}{\text{teorema fondamentale}}
+    \end{aligned}\]
+    \item $\dfrac1x$ è la derivata di $\ln x$: l'integrale ha la forma $\int t^3\,t'\,dx$ con $t=\ln x$.
+    \[ \int\ln^3x\cdot\dfrac1x\,dx=\dfrac{\ln^4x}{4}+C \]
+    \item Sostituzione $x=3\sin t$ (con $dx=3\cos t\,dt$ e $\sqrt{9-x^2}=3\cos t$):
+    \[\begin{aligned}
+    \int\sqrt{9-x^2}\,dx &= \int9\cos^2t\,dt\\
+    &= \dfrac92\int(1+\cos2t)\,dt && \textcolor{gray}{\text{formula $\cos^2t=\dfrac{1+\cos2t}{2}$}}\\
+    &= \dfrac92\left(t+\sin t\cos t\right)+C && \textcolor{gray}{\text{$\dfrac12\sin2t=\sin t\cos t$}}\\
+    &= \dfrac92\arcsin\dfrac x3+\dfrac x2\sqrt{9-x^2}+C && \textcolor{gray}{\text{torno alla $x$: $\sin t=\dfrac x3$, $\cos t=\dfrac{\sqrt{9-x^2}}{3}$}}
+    \end{aligned}\]
+    \item Integrazione per parti $\int f\,g'=fg-\int f'g$, con $f=x$ (si semplifica derivando) e $g'=\sin x$:
+    \[\begin{aligned}
+    \int x\sin x\,dx &= x\cdot(-\cos x)-\int1\cdot(-\cos x)\,dx\\
+    &= -x\cos x+\sin x+C
+    \end{aligned}\]
+    \item Scrivo $\tan x=\dfrac{\sin x}{\cos x}$: il numeratore è l'opposto della derivata del denominatore.
+    \[ \int\dfrac{\sin x}{\cos x}\,dx=-\int\dfrac{-\sin x}{\cos x}\,dx=-\ln|\cos x|+C \]
+    \item Il denominatore si scompone: $x^2+4x-5=(x-1)(x+5)$. Scompongo in fratti semplici:
+    \[\begin{aligned}
+    \dfrac{2x+3}{(x-1)(x+5)} &= \dfrac{A}{x-1}+\dfrac{B}{x+5}\\
+    2x+3 &= A(x+5)+B(x-1) && \textcolor{gray}{\text{denominatore comune}}\\
+    x=1:\ 5 &= 6A \;\Rightarrow\; A=\dfrac56 && \textcolor{gray}{\text{sostituisco gli zeri del denominatore}}\\
+    x=-5:\ -7 &= -6B \;\Rightarrow\; B=\dfrac76
+    \end{aligned}\]
+    Integro ogni frazione come un logaritmo: $\tfrac56\ln|x-1|+\tfrac76\ln|x+5|+C$.
+    \item Il denominatore non si scompone ($\Delta<0$): completo il quadrato e riconduco all'arcotangente.
+    \[\begin{aligned}
+    x^2+4x+7 &= (x+2)^2+3 && \textcolor{gray}{\text{completamento del quadrato}}\\
+    \int\dfrac{dx}{(x+2)^2+3} &= \dfrac{1}{\sqrt3}\arctan\dfrac{x+2}{\sqrt3}+C && \textcolor{gray}{\text{$\int\dfrac{dt}{t^2+a^2}=\dfrac1a\arctan\dfrac ta$}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -51,22 +86,47 @@ Risolvi i seguenti integrali indefiniti
 \end{enumerate}
 \end{minipage}\end{center}
 \begin{solution}
-\begin{align*}
-\begin{split}
-a)& \quad \frac{1}{2}x^4 - \frac{1}{3}x^3 + 2x^2 - x + C \\
-b)& \quad \ln|x(x+1)| + C \\
-c)& \quad \ln|\ln x| + C \\
-d)& \quad \frac{x}{2} \sqrt{16 - x^2} + 8 \arcsin\left(\frac{x}{4}\right) + C
-\end{split}
-\quad\quad
-\begin{split}
-e)& \quad e^x(x - 1) + C \\
-f)& \quad \frac{1}{3} \tan(3x) + C \\
-g)& \quad \frac{1}{3} \arctan\left(\frac{x+1}{3}\right) + C \\
-h)& \quad \ln|x^2 - 9| + \frac{1}{6} \ln\left|\frac{x - 3}{x + 3}\right| + C
-\end{split}
-\end{align*}
+\begin{enumerate}
+    \item $\tfrac12x^4-\tfrac13x^3+2x^2-x+C$
+    \item $\ln|x^2+x|+C$
+    \item $\ln|\ln x|+C$
+    \item $\tfrac x2\sqrt{16-x^2}+8\arcsin\tfrac x4+C$
+    \item $e^x(x-1)+C$
+    \item $\tfrac13\tan(3x)+C$
+    \item $\tfrac13\arctan\tfrac{x+1}{3}+C$
+    \item $\tfrac76\ln|x-3|+\tfrac56\ln|x+3|+C$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Termine per termine: \ $2\cdot\dfrac{x^4}{4}-\dfrac{x^3}{3}+4\cdot\dfrac{x^2}{2}-x+C=\dfrac12x^4-\dfrac13x^3+2x^2-x+C$.
+    \item Il numeratore $2x+1$ è esattamente la derivata del denominatore $x^2+x$:
+    \[ \int\dfrac{f'(x)}{f(x)}\,dx=\ln|f(x)|+C \;\Rightarrow\; \ln|x^2+x|+C \]
+    \item $\dfrac1x$ è la derivata di $\ln x$: l'integrale ha la forma $\int\dfrac{t'}{t}\,dx$ con $t=\ln x$.
+    \[ \int\dfrac{1/x}{\ln x}\,dx=\ln|\ln x|+C \]
+    \item Come per $\sqrt{9-x^2}$, con la sostituzione $x=4\sin t$:
+    \[\begin{aligned}
+    \int\sqrt{16-x^2}\,dx &= \int16\cos^2t\,dt=8(t+\sin t\cos t)+C\\
+    &= 8\arcsin\dfrac x4+\dfrac x2\sqrt{16-x^2}+C
+    \end{aligned}\]
+    \item Per parti con $f=x$ e $g'=e^x$:
+    \[\begin{aligned}
+    \int xe^x\,dx &= xe^x-\int e^x\,dx\\
+    &= xe^x-e^x+C=e^x(x-1)+C
+    \end{aligned}\]
+    \item $\dfrac{1}{\cos^2t}$ è la derivata di $\tan t$; con $t=3x$ serve il fattore $3$:
+    \[ \int\dfrac{dx}{\cos^2(3x)}=\dfrac13\int\dfrac{3}{\cos^2(3x)}\,dx=\dfrac13\tan(3x)+C \]
+    \item Completo il quadrato: $x^2+2x+10=(x+1)^2+9$, poi uso $\int\dfrac{dt}{t^2+a^2}=\dfrac1a\arctan\dfrac ta$ con $a=3$:
+    \[ \dfrac13\arctan\dfrac{x+1}{3}+C \]
+    \item $x^2-9=(x-3)(x+3)$: fratti semplici.
+    \[\begin{aligned}
+    2x+1 &= A(x+3)+B(x-3)\\
+    x=3:\ 7 &= 6A \;\Rightarrow\; A=\dfrac76\\
+    x=-3:\ -5 &= -6B \;\Rightarrow\; B=\dfrac56
+    \end{aligned}\]
+    Quindi $\tfrac76\ln|x-3|+\tfrac56\ln|x+3|+C$ \ (equivale a $\ln|x^2-9|+\tfrac16\ln\left|\tfrac{x-3}{x+3}\right|+C$).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -77,8 +137,17 @@ h)& \quad \ln|x^2 - 9| + \frac{1}{6} \ln\left|\frac{x - 3}{x + 3}\right| + C
 \begin{question}[ID=2.1, subtitle={Primitiva di $f(x)=\ln x^2$ passante per $(1,1)$}, tags={integrali, primitiva}, difficulty=media]
 Tra le primitive della funzione $f(x) = \ln x^2$ determina quella il cui grafico passa per il punto $(1,1)$.
 \begin{solution}
-\[ F(x) = 2x \ln |x| - 2x + 3 \]
+$F(x)=2x\ln|x|-2x+3$
 \end{solution}
+\begin{explanation}
+Per le proprietà dei logaritmi $\ln x^2=2\ln|x|$. Calcolo $\int\ln x\,dx$ per parti, con $f=\ln x$ e $g'=1$:
+\[\begin{aligned}
+\int\ln x\,dx &= x\ln x-\int x\cdot\dfrac1x\,dx=x\ln x-x\\
+F(x) &= 2x\ln|x|-2x+C && \textcolor{gray}{\text{moltiplico per $2$}}
+\end{aligned}\]
+Impongo il passaggio per $(1,1)$:
+\[ F(1)=2\cdot1\cdot0-2+C=1 \;\Rightarrow\; C=3 \]
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -86,8 +155,14 @@ Tra le primitive della funzione $f(x) = \ln x^2$ determina quella il cui grafico
 \begin{question}[ID=2.2, subtitle={Primitiva di $f(x)=\ln(x)/x$ passante per $(1,0)$}, tags={integrali, primitiva}, difficulty=media]
 Tra le primitive della funzione $f(x) = \dfrac{\ln x}{x}$ determina quella il cui grafico passa per il punto $(1,0)$.
 \begin{solution}
-\[ F(x) = \frac{1}{2} (\ln x)^2 - \frac{1}{2} \]
+$F(x)=\dfrac12\ln^2x$
 \end{solution}
+\begin{explanation}
+$\dfrac1x$ è la derivata di $\ln x$, quindi l'integrale ha la forma $\int t\,t'\,dx$ con $t=\ln x$:
+\[ \int\ln x\cdot\dfrac1x\,dx=\dfrac{\ln^2x}{2}+C \]
+Impongo il passaggio per $(1,0)$:
+\[ F(1)=\dfrac{(\ln1)^2}{2}+C=0+C=0 \;\Rightarrow\; C=0 \]
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -95,8 +170,14 @@ Tra le primitive della funzione $f(x) = \dfrac{\ln x}{x}$ determina quella il cu
 \begin{question}[ID=2.3, subtitle={Primitiva di $f(x)=xe^{x^2}$ passante per $(0,0)$}, tags={integrali, primitiva}, difficulty=media]
 Tra le primitive della funzione $f(x) = x \cdot e^{x^2}$ determina quella il cui grafico passa per il punto $(0,0)$.
 \begin{solution}
-\[ F(x) = \frac{1}{2} e^{x^2} - \frac{1}{2} \]
+$F(x)=\dfrac12e^{x^2}-\dfrac12$
 \end{solution}
+\begin{explanation}
+$2x$ è la derivata dell'esponente $x^2$: moltiplico e divido per $2$.
+\[ \int xe^{x^2}\,dx=\dfrac12\int2x\,e^{x^2}\,dx=\dfrac12e^{x^2}+C \]
+Impongo il passaggio per $(0,0)$:
+\[ \dfrac12e^0+C=0 \;\Rightarrow\; C=-\dfrac12 \]
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -104,8 +185,13 @@ Tra le primitive della funzione $f(x) = x \cdot e^{x^2}$ determina quella il cui
 \begin{question}[ID=2.4, subtitle={Primitiva di $f(x)=1/(x^2+1)$ passante per $(1,0)$}, tags={integrali, primitiva}, difficulty=media]
 Tra le primitive della funzione $f(x) = \dfrac{1}{x^2 + 1}$ determina quella il cui grafico passa per il punto $(1,0)$.
 \begin{solution}
-\[ F(x) = \arctan(x) - \frac{\pi}{4} \]
+$F(x)=\arctan x-\dfrac\pi4$
 \end{solution}
+\begin{explanation}
+È un integrale immediato: $\int\dfrac{dx}{1+x^2}=\arctan x+C$. \\
+Impongo il passaggio per $(1,0)$:
+\[ \arctan1+C=0 \;\Rightarrow\; \dfrac\pi4+C=0 \;\Rightarrow\; C=-\dfrac\pi4 \]
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -113,8 +199,17 @@ Tra le primitive della funzione $f(x) = \dfrac{1}{x^2 + 1}$ determina quella il 
 \begin{question}[ID=3.1, subtitle={Valor medio di $\ln x$ su $[1,2]$}, tags={integrali, valor medio}, difficulty=media]
 Trova il valor medio $M$ della funzione $f(x) = \ln x$ su $[1, 2]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.
 \begin{solution}
-\[ M = \ln 4 - 1, \quad c = e^{\ln 4 - 1} = \frac{4}{e} \]
+$M=\ln4-1\approx0{,}386$, \quad $c=\dfrac4e\approx1{,}47$
 \end{solution}
+\begin{explanation}
+Il valor medio di $f$ su $[a,b]$ è $M=\dfrac{1}{b-a}\displaystyle\int_a^bf(x)\,dx$; il teorema della media garantisce un $c\in[a,b]$ con $f(c)=M$.
+\[\begin{aligned}
+\int_1^2\ln x\,dx &= \Big[x\ln x-x\Big]_1^2 && \textcolor{gray}{\text{primitiva calcolata per parti}}\\
+&= (2\ln2-2)-(0-1)=2\ln2-1=\ln4-1\\
+M &= \dfrac{\ln4-1}{2-1}=\ln4-1
+\end{aligned}\]
+Cerco $c$: \ $\ln c=\ln4-1 \;\Rightarrow\; c=e^{\ln4-1}=\dfrac{e^{\ln4}}{e}=\dfrac4e\approx1{,}47$, che appartiene a $[1,2]$.
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -122,8 +217,16 @@ Trova il valor medio $M$ della funzione $f(x) = \ln x$ su $[1, 2]$ e stabilisci 
 \begin{question}[ID=3.2, subtitle={Valor medio di $\sqrt{x}$ su $[1,4]$}, tags={integrali, valor medio}, difficulty=media]
 Trova il valor medio $M$ della funzione $f(x) = \sqrt{x}$ su $[1, 4]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.
 \begin{solution}
-\[ M = \frac{14}{9}, \quad c = \frac{196}{81} \]
+$M=\dfrac{14}{9}$, \quad $c=\dfrac{196}{81}\approx2{,}42$
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+\int_1^4\sqrt x\,dx &= \Big[\dfrac23x^{3/2}\Big]_1^4 && \textcolor{gray}{\text{$\sqrt x=x^{1/2}$}}\\
+&= \dfrac23(8-1)=\dfrac{14}{3}\\
+M &= \dfrac{1}{4-1}\cdot\dfrac{14}{3}=\dfrac{14}{9}
+\end{aligned}\]
+Cerco $c$: \ $\sqrt c=\dfrac{14}{9} \;\Rightarrow\; c=\dfrac{196}{81}\approx2{,}42\in[1,4]$.
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -131,8 +234,17 @@ Trova il valor medio $M$ della funzione $f(x) = \sqrt{x}$ su $[1, 4]$ e stabilis
 \begin{question}[ID=3.3, subtitle={Valor medio di $x^2+1$ su $[0,2]$}, tags={integrali, valor medio}, difficulty=media]
 Trova il valor medio $M$ della funzione $f(x) = x^2 + 1$ su $[0, 2]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.
 \begin{solution}
-\[ M = \frac{7}{3}, \quad c = \sqrt{\frac{4}{3}} = \frac{2}{\sqrt{3}} \]
+$M=\dfrac73$, \quad $c=\dfrac{2}{\sqrt3}\approx1{,}15$
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+\int_0^2(x^2+1)\,dx &= \Big[\dfrac{x^3}{3}+x\Big]_0^2=\dfrac83+2=\dfrac{14}{3}\\
+M &= \dfrac12\cdot\dfrac{14}{3}=\dfrac73
+\end{aligned}\]
+Cerco $c\in[0,2]$:
+\[ c^2+1=\dfrac73 \;\Rightarrow\; c^2=\dfrac43 \;\Rightarrow\; c=\dfrac{2}{\sqrt3} \]
+(la soluzione negativa è fuori dall'intervallo).
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -140,8 +252,15 @@ Trova il valor medio $M$ della funzione $f(x) = x^2 + 1$ su $[0, 2]$ e stabilisc
 \begin{question}[ID=3.4, subtitle={Valor medio di $\cos x$ su $[0,\pi/2]$}, tags={integrali, valor medio}, difficulty=media]
 Trova il valor medio $M$ della funzione $f(x) = \cos x$ su $[0, \dfrac{\pi}{2}]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.
 \begin{solution}
-\[ M = \frac{2}{\pi}, \quad c = \arccos\!\left(\frac{2}{\pi}\right) \]
+$M=\dfrac2\pi\approx0{,}64$, \quad $c=\arccos\dfrac2\pi\approx0{,}88$
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+\int_0^{\pi/2}\cos x\,dx &= \Big[\sin x\Big]_0^{\pi/2}=1-0=1\\
+M &= \dfrac{1}{\pi/2}\cdot1=\dfrac2\pi
+\end{aligned}\]
+Cerco $c\in\left[0,\tfrac\pi2\right]$ con $\cos c=\dfrac2\pi$: in questo intervallo il coseno è invertibile, quindi $c=\arccos\dfrac2\pi$.
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -149,8 +268,20 @@ Trova il valor medio $M$ della funzione $f(x) = \cos x$ su $[0, \dfrac{\pi}{2}]$
 \begin{question}[ID=3.5, subtitle={Valor medio di $1/(x+1)$ su $[1,3]$}, tags={integrali, valor medio}, difficulty=media]
 Trova il valor medio $M$ della funzione $f(x) = \dfrac{1}{x + 1}$ su $[1, 3]$ e stabilisci per quale ascissa $c$ vale $f(c) = M$.
 \begin{solution}
-\[ M = \frac{\ln 2}{2}, \quad c = \frac{2}{\ln 2} - 1 \]
+$M=\dfrac{\ln2}{2}\approx0{,}35$, \quad $c=\dfrac{2}{\ln2}-1\approx1{,}89$
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+\int_1^3\dfrac{dx}{x+1} &= \Big[\ln(x+1)\Big]_1^3=\ln4-\ln2=\ln2 && \textcolor{gray}{\text{$\ln a-\ln b=\ln\dfrac ab$}}\\
+M &= \dfrac{\ln2}{3-1}=\dfrac{\ln2}{2}
+\end{aligned}\]
+Cerco $c$:
+\[\begin{aligned}
+\dfrac{1}{c+1} &= \dfrac{\ln2}{2}\\
+c+1 &= \dfrac{2}{\ln2} && \textcolor{gray}{\text{passo ai reciproci}}\\
+c &= \dfrac{2}{\ln2}-1\approx1{,}89\in[1,3]
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -166,10 +297,21 @@ La \textit{versiera di Agnesi} è una curva a cui Gaetana Agnesi ha legato il su
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-    \item $A = \int_0^2 \frac{8a^3}{4a^2 + x^2} \, dx = 4a^2 \arctan\!\left(\frac{1}{a}\right)$
-    \item Per $a = 1$: $A = 4 \arctan(1) = \pi$
+    \item $A=4a^2\arctan\dfrac1a$
+    \item $A=\pi$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Nel primo quadrante la curva è sopra l'asse $x$, quindi l'area è l'integrale da $0$ a $2$. Raccolgo per ricondurmi alla forma $\int\dfrac{dx}{x^2+k^2}=\dfrac1k\arctan\dfrac xk$ con $k=2a$:
+    \[\begin{aligned}
+    A &= \int_0^2\dfrac{8a^3}{4a^2+x^2}\,dx=8a^3\int_0^2\dfrac{dx}{x^2+(2a)^2}\\
+    &= 8a^3\cdot\dfrac{1}{2a}\Big[\arctan\dfrac{x}{2a}\Big]_0^2\\
+    &= 4a^2\left(\arctan\dfrac1a-0\right)=4a^2\arctan\dfrac1a
+    \end{aligned}\]
+    \item Con $a=1$: \ $A=4\arctan1=4\cdot\dfrac\pi4=\pi$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -183,11 +325,21 @@ Calcolare l'area compresa tra la parabola $y = -x^2 + 2x$ \\ e la retta $y = -x$
 \includegraphics[width=\textwidth]{images/area_tra_curve.png}
 \end{minipage}
 \begin{solution}
-Intersezioni: $-x^2+2x=-x \Rightarrow x(x-3)=0 \Rightarrow x=0,3$.
-\[
-A = \int_0^3 [(-x^2 + 2x) - (-x)] \, dx = \int_0^3 (-x^2 + 3x) \, dx = \frac{9}{2}
-\]
+$A=\dfrac92$
 \end{solution}
+\begin{explanation}
+Trovo dove si incontrano le due curve:
+\[\begin{aligned}
+-x^2+2x &= -x\\
+-x^2+3x &= 0\\
+x(3-x) &= 0 \;\Rightarrow\; x=0,\ x=3
+\end{aligned}\]
+Tra $0$ e $3$ la parabola sta sopra la retta (ad esempio in $x=1$: $1>-1$). L'area è l'integrale della differenza \emph{sopra meno sotto}:
+\[\begin{aligned}
+A &= \int_0^3\big[(-x^2+2x)-(-x)\big]\,dx=\int_0^3(-x^2+3x)\,dx\\
+&= \Big[-\dfrac{x^3}{3}+\dfrac{3x^2}{2}\Big]_0^3=-9+\dfrac{27}{2}=\dfrac92
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------%
@@ -195,8 +347,14 @@ A = \int_0^3 [(-x^2 + 2x) - (-x)] \, dx = \int_0^3 (-x^2 + 3x) \, dx = \frac{9}{
 \begin{question}[ID=5.1, subtitle={Volume della tromba di Torricelli su $[1,2]$}, tags={integrali, volume, solido di rotazione}, difficulty=difficile]
 La tromba di Torricelli è un solido ottenuto dalla rivoluzione intorno all'asse $x$ della curva di equazione $y=\dfrac{1}{x}$. Determina il volume del solido di rotazione limitandoti all'intervallo $x \in [1, 2]$
 \begin{solution}
-\[
-V = \pi \int_1^2 \frac{1}{x^2} dx = \pi \left[ -\frac{1}{x} \right]_1^2 = \frac{\pi}{2}
-\]
+$V=\dfrac\pi2$
 \end{solution}
+\begin{explanation}
+Il volume del solido ottenuto ruotando il grafico di $f$ attorno all'asse $x$ tra $a$ e $b$ è $V=\pi\displaystyle\int_a^bf(x)^2\,dx$ (somma di tanti dischi di raggio $f(x)$).
+\[\begin{aligned}
+V &= \pi\int_1^2\dfrac{1}{x^2}\,dx\\
+&= \pi\Big[-\dfrac1x\Big]_1^2 && \textcolor{gray}{\text{$\int x^{-2}dx=-x^{-1}$}}\\
+&= \pi\left(-\dfrac12+1\right)=\dfrac\pi2
+\end{aligned}\]
+\end{explanation}
 \end{question}

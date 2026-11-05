@@ -4,8 +4,17 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \lim_{x \to 0} \frac{e^x - 1 - x}{x^2}
 \]
 \begin{solution}
-Forma $\tfrac{0}{0}$. $\dfrac{e^x-1}{2x} \xrightarrow{0/0} \dfrac{e^x}{2} \to \dfrac{1}{2}$
+$\dfrac12$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Per $x\to0$: numeratore $e^0-1-0=0$, denominatore $0$: forma $\tfrac00$.
+\[\begin{aligned}
+\lim_{x\to0}\dfrac{e^x-1-x}{x^2} &= \lim_{x\to0}\dfrac{e^x-1}{2x} && \textcolor{gray}{\text{De L'Hôpital: ancora $\dfrac00$}}\\
+&= \lim_{x\to0}\dfrac{e^x}{2} && \textcolor{gray}{\text{applico di nuovo il teorema}}\\
+&= \dfrac{e^0}{2}=\dfrac12
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %-----------------------------%
@@ -16,8 +25,17 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \lim_{x \to 1} \frac{x^3 - 1}{\ln(x)}
 \]
 \begin{solution}
-Forma $\tfrac{0}{0}$. $\dfrac{3x^2}{1/x}=3x^3 \to 3$
+$3$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Per $x\to1$: $1^3-1=0$ e $\ln1=0$: forma $\tfrac00$.
+\[\begin{aligned}
+\lim_{x\to1}\dfrac{x^3-1}{\ln x} &= \lim_{x\to1}\dfrac{3x^2}{1/x} && \textcolor{gray}{\text{derivo numeratore e denominatore}}\\
+&= \lim_{x\to1}3x^3 && \textcolor{gray}{\text{dividere per $\dfrac1x$ è moltiplicare per $x$}}\\
+&= 3
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %-----------------------------%
@@ -29,8 +47,17 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \]
 (Suggerimento: riscrivi l'espressione come una frazione per poter applicare il teorema)
 \begin{solution}
-$0 \cdot (-\infty)$. $\dfrac{\ln x}{1/x} \xrightarrow{-\infty/+\infty} \dfrac{1/x}{-1/x^2}=-x \to 0$
+$0$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Per $x\to0^+$: $x\to0$ e $\ln x\to-\infty$: forma $0\cdot\infty$, che non è un quoziente. La trasformo in frazione spostando $x$ al denominatore come $\dfrac1x$:
+\[\begin{aligned}
+\lim_{x\to0^+}x\ln x &= \lim_{x\to0^+}\dfrac{\ln x}{1/x} && \textcolor{gray}{\text{ora è $\dfrac{-\infty}{+\infty}$}}\\
+&= \lim_{x\to0^+}\dfrac{1/x}{-1/x^2} && \textcolor{gray}{\text{De L'Hôpital}}\\
+&= \lim_{x\to0^+}(-x)=0 && \textcolor{gray}{\text{semplifico: $\dfrac1x\cdot(-x^2)=-x$}}
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %-----------------------------%
@@ -41,8 +68,19 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \lim_{x \to \infty} \frac{x^3 + 2x}{e^{x/2}}
 \]
 \begin{solution}
-Forma $\tfrac{+\infty}{+\infty}$. Tre applicazioni successive: $\dfrac{6}{e^{x/2}/8}=\dfrac{48}{e^{x/2}} \to 0$
+$0$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Per $x\to+\infty$ numeratore e denominatore tendono a $+\infty$: forma $\tfrac\infty\infty$. Ogni applicazione abbassa di uno il grado del polinomio, mentre l'esponenziale resta tale ($\left(e^{x/2}\right)'=\tfrac12e^{x/2}$):
+\[\begin{aligned}
+\lim\dfrac{x^3+2x}{e^{x/2}} &= \lim\dfrac{3x^2+2}{\frac12e^{x/2}} && \textcolor{gray}{\text{prima applicazione}}\\
+&= \lim\dfrac{6x}{\frac14e^{x/2}} && \textcolor{gray}{\text{seconda (ancora $\dfrac\infty\infty$)}}\\
+&= \lim\dfrac{6}{\frac18e^{x/2}}=\lim\dfrac{48}{e^{x/2}} && \textcolor{gray}{\text{terza}}\\
+&= 0 && \textcolor{gray}{\text{numeratore costante, denominatore $\to+\infty$}}
+\end{aligned}\]
+In generale, all'infinito l'esponenziale cresce più velocemente di qualunque polinomio.
+\end{explanation}
 \end{question}
 
 %-----------------------------%
@@ -53,8 +91,18 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \lim_{x \to 0} \frac{x - x \cos(x)}{x^3}
 \]
 \begin{solution}
-$\dfrac{1-\cos x}{x^2} \xrightarrow{0/0} \dfrac{\sin x}{2x} \xrightarrow{0/0} \dfrac{\cos x}{2} \to \dfrac{1}{2}$
+$\dfrac12$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Conviene prima semplificare: raccolgo $x$ al numeratore.
+\[\begin{aligned}
+\dfrac{x-x\cos x}{x^3} &= \dfrac{x(1-\cos x)}{x^3}=\dfrac{1-\cos x}{x^2} && \textcolor{gray}{\text{forma $\dfrac00$}}\\
+\lim_{x\to0}\dfrac{1-\cos x}{x^2} &= \lim_{x\to0}\dfrac{\sin x}{2x} && \textcolor{gray}{\text{De L'Hôpital: ancora $\dfrac00$}}\\
+&= \lim_{x\to0}\dfrac{\cos x}{2}=\dfrac12 && \textcolor{gray}{\text{seconda applicazione}}
+\end{aligned}\]
+(Il penultimo passaggio si poteva chiudere anche con il limite notevole $\tfrac{\sin x}{x}\to1$.)
+\end{explanation}
 \end{question}
 
 %-----------------------------%
@@ -65,8 +113,17 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \lim_{x \to \infty} \frac{e^{1/x} - 1}{1/x}
 \]
 \begin{solution}
-Forma $\tfrac{0}{0}$ (con $t=1/x \to 0$): $\lim_{t\to0}\dfrac{e^t-1}{t}=1$
+$1$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Per $x\to+\infty$: $\dfrac1x\to0$, quindi $e^{1/x}-1\to0$: forma $\tfrac00$.
+\[\begin{aligned}
+\lim\dfrac{e^{1/x}-1}{1/x} &= \lim\dfrac{e^{1/x}\cdot\left(-\frac1{x^2}\right)}{-\frac1{x^2}} && \textcolor{gray}{\text{derivata della composta al numeratore}}\\
+&= \lim e^{1/x}=e^0=1 && \textcolor{gray}{\text{semplifico $-\dfrac1{x^2}$}}
+\end{aligned}\]
+In alternativa, con la sostituzione $t=\tfrac1x\to0$ si ottiene il limite notevole $\displaystyle\lim_{t\to0}\dfrac{e^t-1}{t}=1$.
+\end{explanation}
 \end{question}
 
 %-----------------------------%
@@ -77,8 +134,17 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \lim_{x \to 0^+}  x\, e^{1/x}
 \]
 \begin{solution}
-$0 \cdot (+\infty)$. $\dfrac{e^{1/x}}{1/x} \xrightarrow{+\infty/+\infty} \dfrac{-e^{1/x}/x^2}{-1/x^2}=e^{1/x} \to +\infty$
+$+\infty$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Per $x\to0^+$: $x\to0$ e $\dfrac1x\to+\infty$, quindi $e^{1/x}\to+\infty$: forma $0\cdot\infty$. La trasformo in frazione:
+\[\begin{aligned}
+\lim_{x\to0^+}xe^{1/x} &= \lim_{x\to0^+}\dfrac{e^{1/x}}{1/x} && \textcolor{gray}{\text{forma $\dfrac\infty\infty$}}\\
+&= \lim_{x\to0^+}\dfrac{e^{1/x}\cdot\left(-\frac1{x^2}\right)}{-\frac1{x^2}} && \textcolor{gray}{\text{De L'Hôpital}}\\
+&= \lim_{x\to0^+}e^{1/x}=+\infty
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %-----------------------------%
@@ -89,6 +155,15 @@ Calcola il seguente limite utilizzando il teorema de L'Hôpital:
 \lim_{x \to \infty}  x\, e^{-x^2}
 \]
 \begin{solution}
-$\dfrac{x}{e^{x^2}} \xrightarrow{+\infty/+\infty} \dfrac{1}{2x\,e^{x^2}} \to 0$
+$0$
 \end{solution}
+\begin{explanation}
+\textbf{Teorema di De L'Hôpital}: se $\dfrac{f(x)}{g(x)}$ si presenta nella forma $\dfrac00$ o $\dfrac\infty\infty$ e il limite del rapporto delle derivate $\dfrac{f'(x)}{g'(x)}$ esiste, allora i due limiti coincidono. Si derivano numeratore e denominatore \emph{separatamente} (non è la derivata del quoziente). Prima di applicarlo bisogna sempre verificare la forma indeterminata.
+Per $x\to+\infty$: $x\to+\infty$ e $e^{-x^2}\to0$: forma $\infty\cdot0$. Scrivo $e^{-x^2}=\dfrac{1}{e^{x^2}}$:
+\[\begin{aligned}
+\lim xe^{-x^2} &= \lim\dfrac{x}{e^{x^2}} && \textcolor{gray}{\text{forma $\dfrac\infty\infty$}}\\
+&= \lim\dfrac{1}{2x\,e^{x^2}} && \textcolor{gray}{\text{De L'Hôpital: $(e^{x^2})'=2xe^{x^2}$}}\\
+&= 0 && \textcolor{gray}{\text{il denominatore tende a $+\infty$}}
+\end{aligned}\]
+\end{explanation}
 \end{question}

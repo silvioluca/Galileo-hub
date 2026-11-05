@@ -465,6 +465,11 @@ header {
 .diff-dot.on.d2 { background: var(--accent-amber); border-color: var(--accent-amber); }
 .diff-dot.on.d3 { background: var(--accent-red);   border-color: var(--accent-red); }
 
+.ex-card-code, .modal-code {
+  font-family: 'Space Mono', monospace; font-size: 11px; color: var(--text-hint);
+  user-select: all; overflow-wrap: anywhere;
+}
+.ex-card-code { margin-bottom: -6px; }
 .ex-card-title { font-size: 14px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
 .ex-card-title .katex, .modal-title .katex { font-size: 1em; }
 .ex-card-preview {
@@ -572,6 +577,18 @@ header {
 .solution-text { font-size: var(--fz); line-height: 1.85; color: var(--text-secondary); }
 .solution-text .katex-display { margin: 12px 0; }
 .solution-text strong { color: var(--text-primary); font-weight: 600; }
+
+/* Pulsanti Soluzione / Spiega affiancati */
+.solution-buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn-explain {
+  border-color: rgba(74,144,226,0.3); background: rgba(74,144,226,0.07); color: var(--accent-blue);
+}
+.btn-explain:hover { background: rgba(74,144,226,0.14); border-color: rgba(74,144,226,0.45); }
+.explanation-block .solution-label { color: var(--accent-blue); }
+/* Passaggi incolonnati: su schermi stretti la formula scorre invece di uscire dal riquadro */
+.explanation-text .katex-display { overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
+.explanation-text .katex-display > .katex { text-align: left; }
+.explanation-text li + li { margin-top: 14px; }
 
 /* ── Liste e figure nel modal ──────────────────────────────────── */
 .modal-text ol, .modal-text ul,

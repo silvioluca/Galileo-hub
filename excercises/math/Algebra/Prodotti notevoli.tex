@@ -10,7 +10,24 @@ Scrivere se i polinomi seguenti sono completi, omogenei o nessuna delle due opzi
 \item $ab + a^3 b + b^3 \qquad \rule{5cm}{0.2pt}$
 \end{enumerate}
 \end{minipage}\end{center}
-\begin{solution}$x^2+2x-1$: completo, non omogeneo; $a^3+a^2b+b^3$: omogeneo (grado 3), non completo; $ab+a^3b+b^3$: nessuna delle due\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item completo, non omogeneo
+    \item omogeneo (grado $3$), non completo
+    \item né completo né omogeneo
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Un polinomio è \textbf{omogeneo} se tutti i suoi termini hanno lo stesso grado. È \textbf{completo} (rispetto a una lettera) se contiene tutte le potenze di quella lettera, dal grado massimo fino al termine noto.
+\begin{enumerate}
+    \item Gradi dei termini $x^2$, $2x$, $-1$: rispettivamente $2$, $1$, $0$. Sono diversi, quindi non è omogeneo. \\
+    Compaiono $x^2$, $x^1$ e $x^0$: è completo.
+    \item Gradi di $a^3$, $a^2b$, $b^3$: tutti $3$, quindi è omogeneo di grado $3$. \\
+    Rispetto ad $a$ compaiono $a^3$, $a^2$, $a^0$ ma manca $a^1$: non è completo.
+    \item Gradi di $ab$, $a^3b$, $b^3$: $2$, $4$, $3$, quindi non è omogeneo. \\
+    Rispetto ad $a$ compaiono $a^1$, $a^3$, $a^0$ ma manca $a^2$: non è completo.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=0.2, subtitle={Classificazione di polinomi — serie 2}, tags={prodotti, polinomi}, difficulty=facile]
@@ -22,7 +39,21 @@ Scrivere se i polinomi seguenti sono completi, omogenei o nessuna delle due opzi
 \item $x^4 + x^2 + 1 \qquad \rule{5cm}{0.2pt}$
 \end{enumerate}
 \end{minipage}\end{center}
-\begin{solution}$x^3-2x^2+x-5$: completo, non omogeneo; $a^2b+ab^2+b^3$: omogeneo (grado 3), non completo; $x^4+x^2+1$: nessuna delle due\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item completo, non omogeneo
+    \item omogeneo (grado $3$), non completo
+    \item né completo né omogeneo
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Gradi dei termini: $3$, $2$, $1$, $0$: non omogeneo. Compaiono tutte le potenze di $x$ da $x^3$ al termine noto: completo.
+    \item Gradi di $a^2b$, $ab^2$, $b^3$: tutti $3$, quindi omogeneo di grado $3$. \\
+    Rispetto ad $a$ manca $a^3$ (e rispetto a $b$ manca il termine senza $b$): non completo.
+    \item Gradi $4$, $2$, $0$: non omogeneo. Mancano $x^3$ e $x$: non completo.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ===============================
@@ -41,7 +72,23 @@ Calcola i seguenti prodotti di polinomi:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ 6x^2$; $b)\ -10a^2$; $c)\ x^2+4x$; $d)\ 6y^2-3y$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $6x^2$
+    \item $-10a^2$
+    \item $x^2+4x$
+    \item $6y^2-3y$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Nel prodotto di monomi si moltiplicano i coefficienti tra loro e le lettere tra loro (sommando gli esponenti). Un monomio per un polinomio si moltiplica per \textbf{ciascun} termine del polinomio (proprietà distributiva).
+\begin{enumerate}
+    \item \[ (2x)\cdot(3x)=(2\cdot3)\,(x\cdot x)=6x^2 \]
+    \item \[ (5a)\cdot(-2a)=(5\cdot(-2))\,(a\cdot a)=-10a^2 \]
+    \item \[ x\cdot(x+4)=x\cdot x+x\cdot4=x^2+4x \]
+    \item \[ 3y\cdot(2y-1)=3y\cdot2y+3y\cdot(-1)=6y^2-3y \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.2, subtitle={Prodotti tra binomi}, tags={prodotti, polinomi}, difficulty=facile]
@@ -54,7 +101,26 @@ Svolgi i seguenti prodotti tra binomi:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x^2+5x+6$; $b)\ a^2+4a-5$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x^2+5x+6$
+    \item $a^2+4a-5$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Ogni termine del primo binomio moltiplica ogni termine del secondo; poi si sommano i termini simili.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    (x+2)(x+3) &= x\cdot x+x\cdot3+2\cdot x+2\cdot3\\
+    &= x^2+3x+2x+6\\
+    &= x^2+5x+6 && \textcolor{gray}{\text{sommo i termini simili}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (a-1)(a+5) &= a^2+5a-a-5\\
+    &= a^2+4a-5
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.3, subtitle={Prodotti di polinomi e semplificazione}, tags={prodotti, polinomi}, difficulty=media]
@@ -69,7 +135,38 @@ Svolgi i seguenti prodotti e semplifica le espressioni:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ 2a^3-6a^2+a-3$; $b)\ 2m^3+m^2-8m-4$; $c)\ x^3-x^2+9x-3$; $d)\ y^2-5y+7$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $2a^3-6a^2+a-3$
+    \item $2m^3+m^2-8m-4$
+    \item $x^3-x^2+9x-3$
+    \item $y^2-5y+7$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item \[\begin{aligned}
+    (a-3)(2a^2+1) &= 2a^3+a-6a^2-3\\
+    &= 2a^3-6a^2+a-3 && \textcolor{gray}{\text{ordino per grado decrescente}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (2m+1)(m^2-4) &= 2m^3-8m+m^2-4\\
+    &= 2m^3+m^2-8m-4
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (2x-1)(x^2+3) &= 2x^3+6x-x^2-3 && \textcolor{gray}{\text{primo prodotto}}\\
+    x(-x^2+3) &= -x^3+3x && \textcolor{gray}{\text{secondo prodotto}}\\
+    \text{somma} &= 2x^3-x^3-x^2+6x+3x-3\\
+    &= x^3-x^2+9x-3
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (y+5)(y^2-y+1) &= y^3-y^2+y+5y^2-5y+5=y^3+4y^2-4y+5\\
+    (y+2)(y^2+y-1) &= y^3+y^2-y+2y^2+2y-2=y^3+3y^2+y-2
+    \end{aligned}\]
+    Sottraggo il secondo risultato dal primo (il meno cambia tutti i segni):
+    \[ y^3+4y^2-4y+5-y^3-3y^2-y+2=y^2-5y+7 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.4, subtitle={Prodotti di polinomi di grado superiore}, tags={prodotti, polinomi}, difficulty=media]
@@ -84,7 +181,35 @@ Calcola il prodotto dei seguenti polinomi:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x^3+3x^2+3x+2$; $b)\ y^3-4y^2+5y-2$; $c)\ a^3+a^2-8a-12$; $d)\ 2m^3+m^2+1$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x^3+3x^2+3x+2$
+    \item $y^3-4y^2+5y-2$
+    \item $a^3+a^2-8a-12$
+    \item $2m^3+m^2+1$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Ogni termine del trinomio moltiplica ogni termine del binomio; poi si sommano i termini simili.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    (x^2+x+1)(x+2) &= x^3+2x^2+x^2+2x+x+2\\
+    &= x^3+3x^2+3x+2
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (y^2-3y+2)(y-1) &= y^3-y^2-3y^2+3y+2y-2\\
+    &= y^3-4y^2+5y-2
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (a^2+4a+4)(a-3) &= a^3-3a^2+4a^2-12a+4a-12\\
+    &= a^3+a^2-8a-12
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (2m^2-m+1)(m+1) &= 2m^3+2m^2-m^2-m+m+1\\
+    &= 2m^3+m^2+1 && \textcolor{gray}{\text{i termini in $m$ si annullano}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.5, subtitle={Prodotti e riduzione di polinomi di secondo grado}, tags={prodotti, polinomi}, difficulty=difficile]
@@ -99,7 +224,43 @@ Effettua i prodotti e riduci i risultati:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ 2x^4-3x^3+3x^2-5x-3$; $b)\ a^4-2a^2-5a+a^3-a^2+2a-4a^2+4a-8=a^4+a^3 ...$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $2x^4-3x^3+3x^2+5x-3$
+    \item $a^4-3a^2+6a-8$
+    \item $2y^4+7y^3-9y^2+7y-3$
+    \item $3m^4-8m^3+10m^2+11m-10$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Conviene moltiplicare un termine alla volta del primo polinomio per tutto il secondo, scrivere i tre risultati uno sotto l'altro e poi sommare i termini dello stesso grado.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    x^2\cdot(2x^2+x-1) &= 2x^4+x^3-x^2\\
+    -2x\cdot(2x^2+x-1) &= -4x^3-2x^2+2x\\
+    3\cdot(2x^2+x-1) &= 6x^2+3x-3\\
+    \text{somma} &= 2x^4-3x^3+3x^2+5x-3
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    a^2\cdot(a^2-a+2) &= a^4-a^3+2a^2\\
+    a\cdot(a^2-a+2) &= a^3-a^2+2a\\
+    -4\cdot(a^2-a+2) &= -4a^2+4a-8\\
+    \text{somma} &= a^4-3a^2+6a-8 && \textcolor{gray}{\text{i termini in $a^3$ si annullano}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    2y^2\cdot(y^2+4y-3) &= 2y^4+8y^3-6y^2\\
+    -y\cdot(y^2+4y-3) &= -y^3-4y^2+3y\\
+    1\cdot(y^2+4y-3) &= y^2+4y-3\\
+    \text{somma} &= 2y^4+7y^3-9y^2+7y-3
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    m^2\cdot(3m^2+m-2) &= 3m^4+m^3-2m^2\\
+    -3m\cdot(3m^2+m-2) &= -9m^3-3m^2+6m\\
+    5\cdot(3m^2+m-2) &= 15m^2+5m-10\\
+    \text{somma} &= 3m^4-8m^3+10m^2+11m-10
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=1.6, subtitle={Prodotti di polinomi — variante}, tags={prodotti, polinomi}, difficulty=difficile]
@@ -112,7 +273,24 @@ Svolgi i seguenti prodotti e semplifica le espressioni:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ a^3+a^2+2a+2$; $b)\ a^3-3a-4+a^2-a=a^3+... $ vedi svolgimento\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $a^3+a^2+2a+2$
+    \item $a^3-5a+4$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item \[\begin{aligned}
+    (a+1)(a^2+2) &= a^3+2a+a^2+2\\
+    &= a^3+a^2+2a+2 && \textcolor{gray}{\text{ordino per grado}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (a^2+a-4)(a-1) &= a^3-a^2+a^2-a-4a+4\\
+    &= a^3-5a+4 && \textcolor{gray}{\text{i termini in $a^2$ si annullano}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ===============================
@@ -134,7 +312,58 @@ Calcola i seguenti prodotti notevoli:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ a^2+2a+1$; $b)\ 4a^2-12a+9$; $c)\ \tfrac{a^2}{4}+\tfrac{2ab}{3}+\tfrac{4b^2}{9}$; $d)\ a^3-3a^2b+3ab^2-b^3$; $e)\ 4x^2+y^2+1+4xy-4x-2y$; $f)\ 4a^2-9$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $a^2+2a+1$
+    \item $4a^2-12a+9$
+    \item $\tfrac{a^2}{4}+\tfrac{2ab}{3}+\tfrac{4b^2}{9}$
+    \item $a^3-3a^2b+3ab^2-b^3$
+    \item $4x^2+y^2+1+4xy-4x-2y$
+    \item $4a^2-9$
+    \item $\tfrac{a^3}{8}+\tfrac{a^2b}{2}+\tfrac{2ab^2}{3}+\tfrac{8b^3}{27}$
+    \item $\tfrac94a^2+\tfrac19b^2+c^2-ab+3ac-\tfrac23bc$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Formule dei prodotti notevoli:
+\[\begin{aligned}
+(A\pm B)^2 &= A^2\pm2AB+B^2 && \textcolor{gray}{\text{quadrato di binomio}}\\
+(A+B)(A-B) &= A^2-B^2 && \textcolor{gray}{\text{somma per differenza}}\\
+(A\pm B)^3 &= A^3\pm3A^2B+3AB^2\pm B^3 && \textcolor{gray}{\text{cubo di binomio}}\\
+(A+B+C)^2 &= A^2+B^2+C^2+2AB+2AC+2BC && \textcolor{gray}{\text{quadrato di trinomio}}
+\end{aligned}\]
+\begin{enumerate}
+    \item Quadrato di binomio con $A=a$, $B=1$: \ $a^2+2\cdot a\cdot1+1^2=a^2+2a+1$.
+    \item Con $A=2a$, $B=3$ (segno meno):
+    \[ (2a)^2-2\cdot2a\cdot3+3^2=4a^2-12a+9 \]
+    \item Con $A=\tfrac12a$, $B=\tfrac23b$:
+    \[ \left(\dfrac12a\right)^2+2\cdot\dfrac12a\cdot\dfrac23b+\left(\dfrac23b\right)^2=\dfrac{a^2}{4}+\dfrac{2ab}{3}+\dfrac{4b^2}{9} \]
+    \item Cubo di binomio con $A=a$, $B=b$ (segno meno): \ $a^3-3a^2b+3ab^2-b^3$.
+    \item Quadrato di trinomio con $A=2x$, $B=-1$, $C=y$: si sommano i tre quadrati e i tre doppi prodotti (attenzione ai segni).
+    \[\begin{aligned}
+    &(2x)^2+(-1)^2+y^2 && \textcolor{gray}{\text{quadrati}}\\
+    &+2(2x)(-1)+2(2x)(y)+2(-1)(y) && \textcolor{gray}{\text{doppi prodotti}}\\
+    &= 4x^2+1+y^2-4x+4xy-2y
+    \end{aligned}\]
+    \item Somma per differenza con $A=2a$, $B=3$: \ $(2a)^2-3^2=4a^2-9$.
+    \item Cubo di binomio con $A=\tfrac a2$, $B=\tfrac{2b}{3}$:
+    \[\begin{aligned}
+    A^3 &= \dfrac{a^3}{8}\\
+    3A^2B &= 3\cdot\dfrac{a^2}{4}\cdot\dfrac{2b}{3}=\dfrac{a^2b}{2}\\
+    3AB^2 &= 3\cdot\dfrac a2\cdot\dfrac{4b^2}{9}=\dfrac{2ab^2}{3}\\
+    B^3 &= \dfrac{8b^3}{27}
+    \end{aligned}\]
+    Risultato: $\tfrac{a^3}{8}+\tfrac{a^2b}{2}+\tfrac{2ab^2}{3}+\tfrac{8b^3}{27}$.
+    \item Quadrato di trinomio con $A=\tfrac32a$, $B=-\tfrac13b$, $C=c$:
+    \[\begin{aligned}
+    A^2+B^2+C^2 &= \dfrac94a^2+\dfrac19b^2+c^2 && \textcolor{gray}{\text{quadrati}}\\
+    2AB &= 2\cdot\dfrac32a\cdot\left(-\dfrac13b\right)=-ab\\
+    2AC &= 2\cdot\dfrac32a\cdot c=3ac\\
+    2BC &= 2\cdot\left(-\dfrac13b\right)\cdot c=-\dfrac23bc
+    \end{aligned}\]
+    Risultato: $\tfrac94a^2+\tfrac19b^2+c^2-ab+3ac-\tfrac23bc$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=2.2, subtitle={Prodotti notevoli — serie 2}, tags={prodotti notevoli, polinomi}, difficulty=facile]
@@ -149,7 +378,27 @@ Calcola i seguenti prodotti notevoli:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ a^2+2a+1$; $b)\ 8x^3-12x^2+6x-1$; $c)\ 4x^2+y^2+1+4xy-4x-2y$; $d)\ a^3-3a^2b+3ab^2-b^3$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $a^2+2a+1$
+    \item $8x^3-12x^2+6x-1$
+    \item $4x^2+y^2+1+4xy-4x-2y$
+    \item $a^3-3a^2b+3ab^2-b^3$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Quadrato di binomio: $(A+B)^2=A^2+2AB+B^2$ con $A=a$, $B=1$: \ $a^2+2a+1$.
+    \item Cubo di binomio $(A-B)^3=A^3-3A^2B+3AB^2-B^3$ con $A=2x$, $B=1$:
+    \[\begin{aligned}
+    (2x)^3-3(2x)^2\cdot1+3(2x)\cdot1^2-1^3 &= 8x^3-3\cdot4x^2+6x-1\\
+    &= 8x^3-12x^2+6x-1
+    \end{aligned}\]
+    \item Quadrato di trinomio con $A=2x$, $B=-1$, $C=y$ (quadrati più doppi prodotti):
+    \[ 4x^2+1+y^2+2(2x)(-1)+2(2x)y+2(-1)y=4x^2+y^2+1+4xy-4x-2y \]
+    \item Cubo di binomio con $A=a$, $B=b$: \ $a^3-3a^2b+3ab^2-b^3$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ===============================
@@ -161,9 +410,27 @@ Scomponi i seguenti polinomi:
 \begin{multicols}{2}
 \begin{enumerate}[leftmargin=3.2cm]
 \item $(x^3-1) \color{gray}$
-\item $\color{gray} \Big( \dfrac{1}{9}a^3 + 27\Big)$
+\item $\color{gray} \Big( \dfrac{1}{27}a^3 + 27\Big)$
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ (x-1)(x^2+x+1)$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $(x-1)(x^2+x+1)$
+    \item $\left(\tfrac a3+3\right)\left(\tfrac{a^2}{9}-a+9\right)$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Formule: \ $A^3-B^3=(A-B)(A^2+AB+B^2)$ \ e \ $A^3+B^3=(A+B)(A^2-AB+B^2)$. \\
+Il secondo fattore si chiama \emph{falso quadrato}: è come un quadrato di binomio, ma con il prodotto $AB$ invece del doppio prodotto.
+\begin{enumerate}
+    \item $x^3-1$ è una differenza di cubi con $A=x$, $B=1$:
+    \[ x^3-1^3=(x-1)(x^2+x\cdot1+1^2)=(x-1)(x^2+x+1) \]
+    \item $\tfrac{1}{27}a^3=\left(\tfrac a3\right)^3$ e $27=3^3$: è una somma di cubi con $A=\tfrac a3$, $B=3$.
+    \[\begin{aligned}
+    \left(\dfrac a3\right)^3+3^3 &= \left(\dfrac a3+3\right)\left(\left(\dfrac a3\right)^2-\dfrac a3\cdot3+3^2\right)\\
+    &= \left(\dfrac a3+3\right)\left(\dfrac{a^2}{9}-a+9\right)
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}

@@ -9,14 +9,20 @@ Stabilisci se ciascuna delle funzioni da $A$ a $B$ rappresentate nei seguenti di
 \includegraphics[width=\linewidth]{images/insiemi_funzioni.png}
 \[ \text{a)} \hspace{60pt} \text{b)} \hspace{60pt} \text{c)} \]
 \begin{solution}
-Si applicano le definizioni leggendo le frecce del diagramma. Una funzione da $A$ a $B$ è:
-\begin{itemize}
-\item \textbf{iniettiva} se elementi distinti di $A$ hanno immagini distinte, cioè in ogni elemento di $B$ arriva \emph{al più} una freccia;
-\item \textbf{suriettiva} se ogni elemento di $B$ è immagine di almeno un elemento di $A$, cioè in ogni elemento di $B$ arriva \emph{almeno} una freccia;
-\item \textbf{biiettiva} se è insieme iniettiva e suriettiva, cioè in ogni elemento di $B$ arriva \emph{esattamente} una freccia.
-\end{itemize}
-Per ciascun diagramma a), b), c) si conta quante frecce arrivano su ogni elemento di $B$: nessun elemento con due frecce $\Rightarrow$ iniettiva; nessun elemento senza frecce $\Rightarrow$ suriettiva; entrambe le condizioni $\Rightarrow$ biiettiva.
+\begin{enumerate}
+    \item iniettiva, non suriettiva
+    \item né iniettiva né suriettiva
+    \item suriettiva, non iniettiva
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Una funzione da $A$ a $B$ è \textbf{iniettiva} se elementi diversi di $A$ hanno immagini diverse (in ogni elemento di $B$ arriva al più una freccia), \textbf{suriettiva} se ogni elemento di $B$ è immagine di qualcosa (in ogni elemento di $B$ arriva almeno una freccia), \textbf{biiettiva} se è entrambe le cose.
+\begin{enumerate}
+    \item $a\to e$, $b\to f$, $c\to h$: frecce che arrivano in elementi diversi, quindi iniettiva. In $g$ non arriva nessuna freccia: non suriettiva.
+    \item In $f$ arrivano tre frecce (da $a$, $b$ e $d$): non iniettiva. In $e$ non arriva nessuna freccia: non suriettiva.
+    \item Tutti gli elementi di $B$ ($e$, $f$, $g$, $h$) ricevono almeno una freccia: suriettiva. In $e$ arrivano due frecce (da $a$ e da $c$): non iniettiva.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -29,8 +35,20 @@ Stabilisci quali delle relazioni tra $A$ a $B$ rappresentate nei seguenti diagra
 \includegraphics[width=0.9\linewidth]{images/insiemi_funzioni_1.png}
 \[ \text{a)} \hspace{50pt} \text{b)} \hspace{50pt} \text{c)} \]
 \begin{solution}
-Una relazione da $A$ a $B$ è una \textbf{funzione} se a \emph{ogni} elemento di $A$ è associato \emph{uno e un solo} elemento di $B$. Quindi una relazione \emph{non} è funzione se da qualche elemento di $A$ parte più di una freccia (immagine non unica) oppure non parte alcuna freccia (immagine mancante). Per ciascun diagramma a), b), c) basta verificare che da ogni punto di $A$ esca esattamente una freccia: in tal caso è una funzione, altrimenti no.
+\begin{enumerate}
+    \item non è una funzione
+    \item è una funzione
+    \item non è una funzione
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Una relazione da $A$ a $B$ è una \textbf{funzione} se da \emph{ogni} elemento di $A$ parte \emph{una e una sola} freccia (in $B$ invece possono arrivare più frecce, o nessuna).
+\begin{enumerate}
+    \item Da $a$ partono due frecce (verso $x$ e verso $y$): l'immagine di $a$ non è unica.
+    \item Da ogni elemento di $A$ parte esattamente una freccia; il fatto che in $z$ ne arrivino tre e in $w$ nessuna non conta.
+    \item Da $c$ non parte nessuna freccia: $c$ non ha immagine.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -53,12 +71,22 @@ Determinare il dominio delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-Si escludono i valori che annullano i denominatori e si impone l'argomento delle radici di indice pari $\ge 0$ (e $>0$ se a denominatore). \\
-a) Denominatore $x-3\neq0$: $D=\mathbb{R}\setminus\{3\}$. \\
-b) $x^2-9\neq0\Rightarrow x\neq\pm3$: $D=\mathbb{R}\setminus\{-3,3\}$. \\
-c) $x^3+1\neq0\Rightarrow x\neq-1$: $D=\mathbb{R}\setminus\{-1\}$. \\
-d) La radice è a denominatore, quindi $x^2-1>0\Rightarrow x<-1$ o $x>1$: $D=(-\infty,-1)\cup(1,+\infty)$.
+\begin{enumerate}
+    \item $D=\mathbb{R}\setminus\{3\}$
+    \item $D=\mathbb{R}\setminus\{-3,3\}$
+    \item $D=\mathbb{R}\setminus\{-1\}$
+    \item $D=(-\infty,-1)\cup(1,+\infty)$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Condizioni di esistenza: denominatori $\neq0$; radicandi di radici di indice pari $\geq0$ (strettamente $>0$ se la radice è al denominatore); le radici di indice dispari non pongono condizioni.
+\begin{enumerate}
+    \item $x-3\neq0 \Rightarrow x\neq3$.
+    \item $x^2-9\neq0 \Rightarrow x\neq\pm3$ (il numeratore non conta).
+    \item $x^3+1\neq0 \Rightarrow x^3\neq-1 \Rightarrow x\neq-1$.
+    \item La radice è al denominatore: $x^2-1>0$, valori esterni alle radici $\pm1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 %----------------------------------------------------%
 
@@ -77,11 +105,22 @@ Determinare il dominio delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-a) Radice di indice pari: $4x-1\ge0\Rightarrow x\ge\dfrac14$: $D=\left[\dfrac14,+\infty\right)$. \\
-b) $2-|x|\ge0\Rightarrow |x|\le2$: $D=[-2,2]$. \\
-c) Numeratore: $x+6\ge0\Rightarrow x\ge-6$; denominatore: $x\neq1$: $D=[-6,1)\cup(1,+\infty)$. \\
-d) La radice cubica esiste per ogni argomento reale; basta che la frazione sia definita, cioè $x+3\neq0$: $D=\mathbb{R}\setminus\{-3\}$.
+\begin{enumerate}
+    \item $D=\left[\tfrac14,+\infty\right)$
+    \item $D=[-2,2]$
+    \item $D=[-6,1)\cup(1,+\infty)$
+    \item $D=\mathbb{R}\setminus\{-3\}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Condizioni di esistenza: denominatori $\neq0$; radicandi di radici di indice pari $\geq0$ (strettamente $>0$ se la radice è al denominatore); le radici di indice dispari non pongono condizioni.
+\begin{enumerate}
+    \item $4x-1\geq0 \Rightarrow x\geq\tfrac14$.
+    \item $2-|x|\geq0 \Rightarrow |x|\leq2 \Rightarrow -2\leq x\leq2$.
+    \item $\begin{cases} x+6\geq0\\ x-1\neq0\end{cases} \Rightarrow x\geq-6,\ x\neq1$.
+    \item La radice cubica esiste per ogni argomento: basta che la frazione esista, $x\neq-3$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -100,11 +139,22 @@ Determinare il dominio delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-a) $|x|-2\ge0\Rightarrow |x|\ge2\Rightarrow x\le-2$ o $x\ge2$: $D=(-\infty,-2]\cup[2,+\infty)$. \\
-b) $|x-1|-2\neq0\Rightarrow |x-1|\neq2\Rightarrow x\neq3$ e $x\neq-1$: $D=\mathbb{R}\setminus\{-1,3\}$. \\
-c) Prodotto $\ge0$: $(x-1)(5-x)\ge0\Rightarrow 1\le x\le5$: $D=[1,5]$. \\
-d) Radice a denominatore: $x-3>0\Rightarrow x>3$: $D=(3,+\infty)$.
+\begin{enumerate}
+    \item $D=(-\infty,-2]\cup[2,+\infty)$
+    \item $D=\mathbb{R}\setminus\{-1,3\}$
+    \item $D=[1,5]$
+    \item $D=(3,+\infty)$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Condizioni di esistenza: denominatori $\neq0$; radicandi di radici di indice pari $\geq0$ (strettamente $>0$ se la radice è al denominatore); le radici di indice dispari non pongono condizioni.
+\begin{enumerate}
+    \item $|x|-2\geq0 \Rightarrow |x|\geq2 \Rightarrow x\leq-2 \vee x\geq2$.
+    \item $|x-1|\neq2 \Rightarrow x-1\neq\pm2 \Rightarrow x\neq3,\ x\neq-1$.
+    \item $(x-1)(5-x)\geq0$: i fattori sono concordi tra le radici $1$ e $5$ (estremi inclusi).
+    \item Il numeratore $|x+2|$ esiste sempre; la radice al denominatore richiede $x-3>0$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 %----------------------------------------------------%
 
@@ -123,12 +173,24 @@ Determinare il dominio delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-Con $k\in\mathbb{Z}$. \\
-a) $\sin x\neq0\Rightarrow x\neq k\pi$: $D=\mathbb{R}\setminus\{k\pi\}$. \\
-b) La tangente non esiste dove il suo argomento è $\dfrac{\pi}{2}+k\pi$: $3x\neq\dfrac{\pi}{2}+k\pi\Rightarrow x\neq\dfrac{\pi}{6}+\dfrac{k\pi}{3}$. \\
-c) $1-\cos(2x)\neq0\Rightarrow\cos(2x)\neq1\Rightarrow 2x\neq2k\pi\Rightarrow x\neq k\pi$: $D=\mathbb{R}\setminus\{k\pi\}$. \\
-d) $\sin x+1\ge0$ è sempre vero perché $\sin x\ge-1$: $D=\mathbb{R}$.
+\begin{enumerate}
+    \item $x\neq k\pi$
+    \item $x\neq\tfrac\pi6+k\tfrac\pi3$
+    \item $x\neq k\pi$
+    \item $D=\mathbb{R}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Condizioni di esistenza: denominatori $\neq0$; radicandi di radici di indice pari $\geq0$ (strettamente $>0$ se la radice è al denominatore); le radici di indice dispari non pongono condizioni.
+Con $k\in\mathbb{Z}$.
+\begin{enumerate}
+    \item $\sin x\neq0 \Rightarrow x\neq k\pi$.
+    \item $\tan t$ non esiste per $t=\tfrac\pi2+k\pi$:
+    \[ 3x\neq\dfrac\pi2+k\pi \;\Rightarrow\; x\neq\dfrac\pi6+k\dfrac\pi3 \]
+    \item $\cos2x\neq1 \Rightarrow 2x\neq2k\pi \Rightarrow x\neq k\pi$.
+    \item $\sin x\geq-1$ sempre, quindi $\sin x+1\geq0$ per ogni $x$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 %----------------------------------------------------%
 
@@ -147,11 +209,27 @@ Determinare il dominio delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-a) Radice annidata: serve $x-1\ge0$ e $\sqrt{x-1}-1\ge0\Rightarrow\sqrt{x-1}\ge1\Rightarrow x-1\ge1\Rightarrow x\ge2$: $D=[2,+\infty)$. \\
-b) Numeratore: $x-2\ge0$ ($x\ge2$); denominatore (radice, $>0$): $x-5>0$ ($x>5$). Intersezione: $D=(5,+\infty)$. \\
-c) Frazione sotto radice $\ge0$: $\dfrac{x-4}{x-6}\ge0\Rightarrow x\le4$ o $x>6$ (escluso $x=6$): $D=(-\infty,4]\cup(6,+\infty)$. \\
-d) $|x+1|-1\ge0\Rightarrow |x+1|\ge1\Rightarrow x\le-2$ o $x\ge0$; inoltre $x\neq2$: $D=(-\infty,-2]\cup[0,2)\cup(2,+\infty)$.
+\begin{enumerate}
+    \item $D=[2,+\infty)$
+    \item $D=(5,+\infty)$
+    \item $D=(-\infty,4]\cup(6,+\infty)$
+    \item $D=(-\infty,-2]\cup[0,2)\cup(2,+\infty)$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Condizioni di esistenza: denominatori $\neq0$; radicandi di radici di indice pari $\geq0$ (strettamente $>0$ se la radice è al denominatore); le radici di indice dispari non pongono condizioni.
+\begin{enumerate}
+    \item Due condizioni, una per ogni radice:
+    \[\begin{aligned}
+    x-1 &\geq 0 && \textcolor{gray}{\text{radice interna}}\\
+    \sqrt{x-1} &\geq 1 && \textcolor{gray}{\text{radice esterna}}\\
+    x-1 &\geq 1 \;\Rightarrow\; x\geq2 && \textcolor{gray}{\text{elevo al quadrato (entrambi $\geq0$)}}
+    \end{aligned}\]
+    \item $\begin{cases} x-2\geq0\\ x-5>0\end{cases} \Rightarrow x>5$.
+    \item $\dfrac{x-4}{x-6}\geq0$: concordi per $x<4$ o $x>6$; $x=4$ incluso, $x=6$ escluso.
+    \item $|x+1|\geq1 \Rightarrow x+1\geq1 \vee x+1\leq-1 \Rightarrow x\geq0 \vee x\leq-2$; inoltre $x\neq2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -220,12 +298,22 @@ xtick=\empty, ytick=\empty, xmin=-6.5, xmax=6.5, ymin=-1.5, ymax=1.5]
 \end{minipage}
 \end{center}
 \begin{solution}
-Si usa il criterio della retta orizzontale (iniettività: ogni retta $y=k$ taglia il grafico al più una volta) e si confronta l'insieme dei valori assunti con il codominio $\mathbb{R}$ (suriettività). \\
-a) $y=\ln x$: strettamente crescente (iniettiva) e assume tutti i valori reali, quindi \textbf{biiettiva}. \\
-b) $y=x^3-4x^2+5$: ha un massimo e un minimo relativi, quindi una retta orizzontale può tagliarla 3 volte (non iniettiva); essendo di grado dispari assume tutti i valori di $\mathbb{R}$ (suriettiva): \textbf{solo suriettiva}. \\
-c) $y=x^3$: strettamente crescente e a valori in tutto $\mathbb{R}$: \textbf{biiettiva}. \\
-d) $y=\sin x$: periodica (non iniettiva) e a valori in $[-1,1]\neq\mathbb{R}$ (non suriettiva): \textbf{nessuna delle tre}.
+\begin{enumerate}
+    \item biiettiva
+    \item solo suriettiva
+    \item biiettiva
+    \item nessuna delle tre
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Dal grafico: la funzione è \textbf{iniettiva} se ogni retta orizzontale lo incontra al più una volta; è \textbf{suriettiva} (su $\mathbb{R}$) se ogni retta orizzontale lo incontra almeno una volta, cioè se assume tutti i valori reali.
+\begin{enumerate}
+    \item $y=\ln x$ è sempre crescente (iniettiva) e assume tutti i valori reali (suriettiva).
+    \item $y=x^3-4x^2+5$ ha un massimo e un minimo relativi: alcune rette orizzontali la tagliano tre volte (non iniettiva). Essendo un polinomio di grado dispari va da $-\infty$ a $+\infty$ (suriettiva).
+    \item $y=x^3$ è sempre crescente e assume tutti i valori reali.
+    \item $y=\sin x$ è periodica (la retta $y=0$ la taglia infinite volte) e assume solo valori in $[-1,1]$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -291,12 +379,22 @@ xtick=\empty, ytick=\empty, xmin=-4, xmax=4, ymin=-1.5, ymax=1.5]
 \end{minipage}
 \end{center}
 \begin{solution}
-Come per la serie precedente, si valutano iniettività (retta orizzontale) e suriettività (valori assunti rispetto a $\mathbb{R}$). \\
-a) $y=x^2-2$: parabola simmetrica rispetto all'asse $y$ (non iniettiva); valori in $[-2,+\infty)\neq\mathbb{R}$ (non suriettiva): \textbf{nessuna delle tre}. \\
-b) $y=x^3-4x^2+5$: non iniettiva ma a valori in tutto $\mathbb{R}$: \textbf{solo suriettiva}. \\
-c) $y=2x$ ristretta a $[0,3]$: retta crescente (iniettiva), ma i valori sono $[0,6]\neq\mathbb{R}$ (non suriettiva): \textbf{solo iniettiva}. \\
-d) $y=x\,e^x$: ha un minimo in $x=-1$ (non iniettiva) e valori in $\left[-\tfrac{1}{e},+\infty\right)\neq\mathbb{R}$ (non suriettiva): \textbf{nessuna delle tre}.
+\begin{enumerate}
+    \item nessuna delle tre
+    \item solo suriettiva
+    \item solo iniettiva
+    \item nessuna delle tre
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Dal grafico: la funzione è \textbf{iniettiva} se ogni retta orizzontale lo incontra al più una volta; è \textbf{suriettiva} (su $\mathbb{R}$) se ogni retta orizzontale lo incontra almeno una volta, cioè se assume tutti i valori reali.
+\begin{enumerate}
+    \item $y=x^2-2$ è simmetrica rispetto all'asse $y$ (ad esempio $f(-1)=f(1)$) e non scende sotto $-2$.
+    \item Come nella serie 1: non iniettiva, ma assume tutti i valori.
+    \item $y=2x$ con $0\leq x\leq3$ è crescente (iniettiva) ma assume solo i valori in $[0,6]$.
+    \item $y=xe^x$ scende fino al minimo in $x=-1$ (dove vale $-\tfrac1e$) e poi risale: le rette $y=k$ con $-\tfrac1e<k<0$ la tagliano due volte (non iniettiva); i valori sotto $-\tfrac1e$ non vengono mai assunti (non suriettiva).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -317,12 +415,26 @@ Determinare, se possibile, la funzione inversa delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-Per invertire si scambiano $x$ e $y$ e si risolve rispetto a $y$. \\
-a) $y=2x+3\Rightarrow f^{-1}(x)=\dfrac{x-3}{2}$. \\
-b) $y=\dfrac{x-1}{3}\Rightarrow f^{-1}(x)=3x+1$. \\
-c) $y=\dfrac{1}{x+2}\Rightarrow f^{-1}(x)=\dfrac{1}{x}-2=\dfrac{1-2x}{x}$, con $x\neq0$. \\
-d) $y=\sqrt{x+5}$ (con $y\ge0$) $\Rightarrow f^{-1}(x)=x^2-5$, definita per $x\ge0$.
+\begin{enumerate}
+    \item $f^{-1}(x)=\dfrac{x-3}{2}$
+    \item $f^{-1}(x)=3x+1$
+    \item $f^{-1}(x)=\dfrac1x-2$ \ ($x\neq0$)
+    \item $f^{-1}(x)=x^2-5$ \ ($x\geq0$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Per trovare l'inversa si risolve $y=f(x)$ rispetto a $x$ e poi si scambiano i nomi delle variabili. L'inversa esiste se $f$ è biiettiva (tra il suo dominio e la sua immagine); il dominio di $f^{-1}$ è l'immagine di $f$.
+\begin{enumerate}
+    \item $y=2x+3 \Rightarrow 2x=y-3 \Rightarrow x=\dfrac{y-3}{2}$.
+    \item $y=\dfrac{x-1}{3} \Rightarrow x-1=3y \Rightarrow x=3y+1$.
+    \item \[\begin{aligned}
+    y &= \dfrac{1}{x+2}\\
+    x+2 &= \dfrac1y && \textcolor{gray}{\text{passo ai reciproci, $y\neq0$}}\\
+    x &= \dfrac1y-2
+    \end{aligned}\]
+    \item $y=\sqrt{x+5}$ con $y\geq0$: elevo al quadrato, $y^2=x+5 \Rightarrow x=y^2-5$. L'inversa ha dominio $x\geq0$ (l'immagine della radice).
+\end{enumerate}
+\end{explanation}
 
 \end{question}
 
@@ -342,12 +454,22 @@ Determinare, se possibile, la funzione inversa delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-Si scambiano $x$ e $y$ e si risolve per $y$. \\
-a) $y=\dfrac{x+4}{5}\Rightarrow f^{-1}(x)=5x-4$. \\
-b) $y=3x-7\Rightarrow f^{-1}(x)=\dfrac{x+7}{3}$. \\
-c) $y=\dfrac{2}{x-1}\Rightarrow f^{-1}(x)=1+\dfrac{2}{x}=\dfrac{x+2}{x}$, con $x\neq0$. \\
-d) $y=\sqrt{2x+3}\Rightarrow f^{-1}(x)=\dfrac{x^2-3}{2}$, definita per $x\ge0$.
+\begin{enumerate}
+    \item $f^{-1}(x)=5x-4$
+    \item $f^{-1}(x)=\dfrac{x+7}{3}$
+    \item $f^{-1}(x)=\dfrac2x+1$ \ ($x\neq0$)
+    \item $f^{-1}(x)=\dfrac{x^2-3}{2}$ \ ($x\geq0$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Per trovare l'inversa si risolve $y=f(x)$ rispetto a $x$ e poi si scambiano i nomi delle variabili. L'inversa esiste se $f$ è biiettiva (tra il suo dominio e la sua immagine); il dominio di $f^{-1}$ è l'immagine di $f$.
+\begin{enumerate}
+    \item $y=\dfrac{x+4}{5} \Rightarrow x+4=5y \Rightarrow x=5y-4$.
+    \item $y=3x-7 \Rightarrow x=\dfrac{y+7}{3}$.
+    \item $y=\dfrac{2}{x-1} \Rightarrow x-1=\dfrac2y \Rightarrow x=\dfrac2y+1$.
+    \item $y^2=2x+3 \Rightarrow x=\dfrac{y^2-3}{2}$, con $y\geq0$.
+\end{enumerate}
+\end{explanation}
 
 \end{question}
 
@@ -367,11 +489,22 @@ Determinare, se possibile, la funzione inversa delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-a) $y=5x-2\Rightarrow f^{-1}(x)=\dfrac{x+2}{5}$. \\
-b) $y=\dfrac{x+3}{2}\Rightarrow f^{-1}(x)=2x-3$. \\
-c) $y=\dfrac{1}{x-4}\Rightarrow f^{-1}(x)=\dfrac{1}{x}+4=\dfrac{1+4x}{x}$, con $x\neq0$. \\
-d) $y=\sqrt{x-1}\Rightarrow f^{-1}(x)=x^2+1$, definita per $x\ge0$.
+\begin{enumerate}
+    \item $f^{-1}(x)=\dfrac{x+2}{5}$
+    \item $f^{-1}(x)=2x-3$
+    \item $f^{-1}(x)=\dfrac1x+4$ \ ($x\neq0$)
+    \item $f^{-1}(x)=x^2+1$ \ ($x\geq0$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Per trovare l'inversa si risolve $y=f(x)$ rispetto a $x$ e poi si scambiano i nomi delle variabili. L'inversa esiste se $f$ è biiettiva (tra il suo dominio e la sua immagine); il dominio di $f^{-1}$ è l'immagine di $f$.
+\begin{enumerate}
+    \item $y=5x-2 \Rightarrow x=\dfrac{y+2}{5}$.
+    \item $y=\dfrac{x+3}{2} \Rightarrow x=2y-3$.
+    \item $x-4=\dfrac1y \Rightarrow x=\dfrac1y+4$.
+    \item $y^2=x-1 \Rightarrow x=y^2+1$, con $y\geq0$.
+\end{enumerate}
+\end{explanation}
 
 \end{question}
 
@@ -391,11 +524,22 @@ Determinare la funzione inversa delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-a) $y=\dfrac{2x-1}{3}\Rightarrow f^{-1}(x)=\dfrac{3x+1}{2}$. \\
-b) $y=4x+5\Rightarrow f^{-1}(x)=\dfrac{x-5}{4}$. \\
-c) $y=\dfrac{3}{x+2}\Rightarrow f^{-1}(x)=\dfrac{3}{x}-2=\dfrac{3-2x}{x}$, con $x\neq0$. \\
-d) $y=\sqrt{3x-4}\Rightarrow f^{-1}(x)=\dfrac{x^2+4}{3}$, definita per $x\ge0$.
+\begin{enumerate}
+    \item $f^{-1}(x)=\dfrac{3x+1}{2}$
+    \item $f^{-1}(x)=\dfrac{x-5}{4}$
+    \item $f^{-1}(x)=\dfrac3x-2$ \ ($x\neq0$)
+    \item $f^{-1}(x)=\dfrac{x^2+4}{3}$ \ ($x\geq0$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Per trovare l'inversa si risolve $y=f(x)$ rispetto a $x$ e poi si scambiano i nomi delle variabili. L'inversa esiste se $f$ è biiettiva (tra il suo dominio e la sua immagine); il dominio di $f^{-1}$ è l'immagine di $f$.
+\begin{enumerate}
+    \item $3y=2x-1 \Rightarrow x=\dfrac{3y+1}{2}$.
+    \item $y=4x+5 \Rightarrow x=\dfrac{y-5}{4}$.
+    \item $x+2=\dfrac3y \Rightarrow x=\dfrac3y-2$.
+    \item $y^2=3x-4 \Rightarrow x=\dfrac{y^2+4}{3}$, con $y\geq0$.
+\end{enumerate}
+\end{explanation}
 
 \end{question}
 
@@ -415,11 +559,22 @@ Determinare, se possibile, la funzione inversa delle seguenti funzioni:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-a) $y=7x+1\Rightarrow f^{-1}(x)=\dfrac{x-1}{7}$. \\
-b) $y=\dfrac{x-5}{6}\Rightarrow f^{-1}(x)=6x+5$. \\
-c) $y=\dfrac{4}{x-3}\Rightarrow f^{-1}(x)=\dfrac{4}{x}+3=\dfrac{4+3x}{x}$, con $x\neq0$. \\
-d) $y=\sqrt{5x+2}\Rightarrow f^{-1}(x)=\dfrac{x^2-2}{5}$, definita per $x\ge0$.
+\begin{enumerate}
+    \item $f^{-1}(x)=\dfrac{x-1}{7}$
+    \item $f^{-1}(x)=6x+5$
+    \item $f^{-1}(x)=\dfrac4x+3$ \ ($x\neq0$)
+    \item $f^{-1}(x)=\dfrac{x^2-2}{5}$ \ ($x\geq0$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Per trovare l'inversa si risolve $y=f(x)$ rispetto a $x$ e poi si scambiano i nomi delle variabili. L'inversa esiste se $f$ è biiettiva (tra il suo dominio e la sua immagine); il dominio di $f^{-1}$ è l'immagine di $f$.
+\begin{enumerate}
+    \item $y=7x+1 \Rightarrow x=\dfrac{y-1}{7}$.
+    \item $6y=x-5 \Rightarrow x=6y+5$.
+    \item $x-3=\dfrac4y \Rightarrow x=\dfrac4y+3$.
+    \item $y^2=5x+2 \Rightarrow x=\dfrac{y^2-2}{5}$, con $y\geq0$.
+\end{enumerate}
+\end{explanation}
 
 \end{question}
 
@@ -441,12 +596,22 @@ Determinare la funzione composta \( (f\circ g)(x) \) per le seguenti coppie di f
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-Per definizione $(f\circ g)(x)=f\big(g(x)\big)$: si sostituisce $g(x)$ al posto della variabile in $f$. \\
-a) $f(g(x))=2(x-3)+1=2x-5$. \\
-b) $f(g(x))=(x+2)^2$. \\
-c) $f(g(x))=\sqrt{3x-1}$. \\
-d) $f(g(x))=\dfrac{1}{x+4}$.
+\begin{enumerate}
+    \item $2x-5$
+    \item $(x+2)^2$
+    \item $\sqrt{3x-1}$
+    \item $\dfrac{1}{x+4}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item $f(x-3)=2(x-3)+1=2x-5$.
+    \item $f(x+2)=(x+2)^2$.
+    \item $f(3x-1)=\sqrt{3x-1}$ (definita per $x\geq\tfrac13$).
+    \item $f(x+4)=\dfrac{1}{x+4}$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -465,12 +630,22 @@ Determinare la funzione composta \( (f\circ g)(x) \) per le seguenti coppie di f
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-$(f\circ g)(x)=f\big(g(x)\big)$. \\
-a) $f(g(x))=3x^2-2$. \\
-b) $f(g(x))=\sqrt{2x+5}$. \\
-c) $f(g(x))=\dfrac{1}{x-1}$. \\
-d) $f(g(x))=(\sqrt{x})^2+1=x+1$, per $x\ge0$.
+\begin{enumerate}
+    \item $3x^2-2$
+    \item $\sqrt{2x+5}$
+    \item $\dfrac{1}{x-1}$
+    \item $x+1$ \ (per $x\geq0$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item $f(x^2)=3x^2-2$.
+    \item $f(2x+5)=\sqrt{2x+5}$.
+    \item $f(x-1)=\dfrac{1}{x-1}$.
+    \item $f(\sqrt x)=(\sqrt x)^2+1=x+1$, valida solo dove esiste $g$, cioè $x\geq0$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -489,12 +664,22 @@ Determinare la funzione composta \( (f\circ g)(x) \) per le seguenti coppie di f
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-$(f\circ g)(x)=f\big(g(x)\big)$. \\
-a) $f(g(x))=5(x-4)+3=5x-17$. \\
-b) $f(g(x))=(2x+1)^2-1=4x^2+4x$. \\
-c) $f(g(x))=\sqrt{x^2+2}$. \\
-d) $f(g(x))=\dfrac{1}{(x+5)-3}=\dfrac{1}{x+2}$.
+\begin{enumerate}
+    \item $5x-17$
+    \item $4x^2+4x$
+    \item $\sqrt{x^2+2}$
+    \item $\dfrac{1}{x+2}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item $5(x-4)+3=5x-17$.
+    \item $(2x+1)^2-1=4x^2+4x+1-1=4x^2+4x$.
+    \item $\sqrt{x^2+2}$.
+    \item $\dfrac{1}{(x+5)-3}=\dfrac{1}{x+2}$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -513,12 +698,22 @@ Determinare la funzione composta \( (f\circ g)(x) \) per le seguenti coppie di f
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-$(f\circ g)(x)=f\big(g(x)\big)$. \\
-a) $f(g(x))=2(x+1)^2$. \\
-b) $f(g(x))=\sqrt{x}+3$. \\
-c) $f(g(x))=\dfrac{1}{(2x-1)+2}=\dfrac{1}{2x+1}$. \\
-d) $f(g(x))=\sqrt{3(x^2+1)-5}=\sqrt{3x^2-2}$.
+\begin{enumerate}
+    \item $2(x+1)^2$
+    \item $\sqrt x+3$
+    \item $\dfrac{1}{2x+1}$
+    \item $\sqrt{3x^2-2}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item $f(x+1)=2(x+1)^2$.
+    \item $f(\sqrt x)=\sqrt x+3$.
+    \item $\dfrac{1}{(2x-1)+2}=\dfrac{1}{2x+1}$.
+    \item $\sqrt{3(x^2+1)-5}=\sqrt{3x^2-2}$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -537,12 +732,22 @@ Determinare la funzione composta \( (f\circ g)(x) \) per le seguenti coppie di f
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-$(f\circ g)(x)=f\big(g(x)\big)$. \\
-a) $f(g(x))=(x-3)^2+2$. \\
-b) $f(g(x))=3\sqrt{x}-4$. \\
-c) $f(g(x))=\dfrac{1}{(x^2+1)-1}=\dfrac{1}{x^2}$. \\
-d) $f(g(x))=\sqrt{(2x-3)+5}=\sqrt{2x+2}$.
+\begin{enumerate}
+    \item $(x-3)^2+2$
+    \item $3\sqrt x-4$
+    \item $\dfrac{1}{x^2}$
+    \item $\sqrt{2x+2}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item $f(x-3)=(x-3)^2+2$.
+    \item $f(\sqrt x)=3\sqrt x-4$.
+    \item $\dfrac{1}{(x^2+1)-1}=\dfrac{1}{x^2}$ ($x\neq0$).
+    \item $\sqrt{(2x-3)+5}=\sqrt{2x+2}$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -561,11 +766,28 @@ f(x)=x-1,\quad g(x)=x^3,
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-\item $(f\circ g)(x)=f\big(g(x)\big)=x^3-1$;\quad $(g\circ f)(x)=g\big(f(x)\big)=(x-1)^3$.
-\item $f(x)=x-1$ è una funzione lineare, quindi strettamente crescente e biiettiva: invertibile, con $f^{-1}(x)=x+1$. Anche $g(x)=x^3$ è strettamente crescente su tutto $\mathbb{R}$: invertibile, con $g^{-1}(x)=\sqrt[3]{x}$.
-\item Da $(f\circ g)(x)=x^3-1$, ponendo $y=x^3-1$ si ricava $x=\sqrt[3]{y+1}$, quindi $(f\circ g)^{-1}(x)=\sqrt[3]{x+1}$. D'altra parte $(g^{-1}\circ f^{-1})(x)=g^{-1}\big(f^{-1}(x)\big)=g^{-1}(x+1)=\sqrt[3]{x+1}$. Le due espressioni coincidono, come previsto dalla regola dell'inversa di una composizione (l'ordine si scambia).
+    \item $(f\circ g)(x)=x^3-1$; \ $(g\circ f)(x)=(x-1)^3$
+    \item $f^{-1}(x)=x+1$; \ $g^{-1}(x)=\sqrt[3]{x}$
+    \item $(f\circ g)^{-1}(x)=\sqrt[3]{x+1}=(g^{-1}\circ f^{-1})(x)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item $f\big(g(x)\big)=g(x)-1=x^3-1$; \quad $g\big(f(x)\big)=\big(f(x)\big)^3=(x-1)^3$.
+    \item Entrambe sono strettamente crescenti su $\mathbb{R}$ e assumono tutti i valori reali, quindi sono biiettive e invertibili.
+    \[\begin{aligned}
+    y=x-1 &\;\Rightarrow\; x=y+1\\
+    y=x^3 &\;\Rightarrow\; x=\sqrt[3]{y}
+    \end{aligned}\]
+    \item Inverto direttamente $f\circ g$:
+    \[\begin{aligned}
+    y &= x^3-1\\
+    x^3 &= y+1 \;\Rightarrow\; x=\sqrt[3]{y+1}
+    \end{aligned}\]
+    Calcolo invece $g^{-1}\circ f^{-1}$: prima $f^{-1}(x)=x+1$, poi $g^{-1}(x+1)=\sqrt[3]{x+1}$. \\
+    I risultati coincidono: l'inversa di una composizione si ottiene componendo le inverse in ordine scambiato.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -573,11 +795,15 @@ f(x)=x-1,\quad g(x)=x^3,
 \begin{question}[ID=6.2, subtitle={Parametro $a$ per $g\circ f$ passante per $(0,4)$}, difficulty=difficile, tags={funzioni,composte,inversa}]
 Date le funzioni $f(x)=3x^{2}-x$ e $g(x)=2x-a$, determina $a$ in modo che il grafico della funzione $g \circ f$ intersechi l'asse $y$ nel punto di coordinate $(0,4)$.
 \begin{solution}
-Calcoliamo la composizione: $(g\circ f)(x)=g\big(f(x)\big)=2(3x^2-x)-a=6x^2-2x-a$. L'intersezione con l'asse $y$ si ha in $x=0$, dove $(g\circ f)(0)=-a$. Imponendo il passaggio per $(0,4)$:
-\[
--a=4 \;\Rightarrow\; \boxed{a=-4}.
-\]
+$a=-4$
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+(g\circ f)(x) &= g\big(f(x)\big)=2(3x^2-x)-a=6x^2-2x-a\\
+(g\circ f)(0) &= -a && \textcolor{gray}{\text{intersezione con l'asse $y$: $x=0$}}\\
+-a &= 4 \;\Rightarrow\; a=-4
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -587,12 +813,20 @@ Calcoliamo la composizione: $(g\circ f)(x)=g\big(f(x)\big)=2(3x^2-x)-a=6x^2-2x-a
 \textbf{FAC)}
 Supponi che \(f(x) = ax + b\), dove \(a\) e \(b\) sono numeri reali. Sapendo che \(f(f(f(x))) = 8x + 21\), quanto vale \(a + b\)?
 \begin{solution}
-Componendo tre volte una funzione lineare: $f(f(x))=a(ax+b)+b=a^2x+b(a+1)$ e quindi
-\[
-f(f(f(x)))=a^3x+b(a^2+a+1).
-\]
-Confrontando con $8x+21$: dal coefficiente di $x$, $a^3=8\Rightarrow a=2$; dal termine noto, $b(a^2+a+1)=7b=21\Rightarrow b=3$. Pertanto $a+b=\boxed{5}$.
+$a+b=5$ \ ($a=2$, $b=3$)
 \end{solution}
+\begin{explanation}
+Compongo la funzione con se stessa:
+\[\begin{aligned}
+f(f(x)) &= a(ax+b)+b=a^2x+ab+b\\
+f(f(f(x))) &= a(a^2x+ab+b)+b=a^3x+a^2b+ab+b
+\end{aligned}\]
+Due polinomi sono uguali se hanno gli stessi coefficienti:
+\[\begin{aligned}
+a^3 &= 8 \;\Rightarrow\; a=2 && \textcolor{gray}{\text{coefficiente di $x$}}\\
+b(a^2+a+1) &= 21 \;\Rightarrow\; 7b=21 \;\Rightarrow\; b=3 && \textcolor{gray}{\text{termine noto}}
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -601,16 +835,16 @@ Confrontando con $8x+21$: dal coefficiente di $x$, $a^3=8\Rightarrow a=2$; dal t
 \textbf{FAC)}
 Sia $f(x)$ una funzione tale che $f(x) + f\Big(\dfrac{1}{1-x}\Big) = x$ per tutte le $x$ diverse da 0 e da 1. Quanto vale $f(2)$?
 \begin{solution}
-La trasformazione $t(x)=\dfrac{1}{1-x}$ è ciclica di periodo 3: applicandola si ottiene $t(x)=\dfrac{1}{1-x}$, poi $t\big(t(x)\big)=\dfrac{x-1}{x}$, e infine $t\big(t(t(x))\big)=x$. Scrivendo l'equazione data per $x$, per $t(x)$ e per $t^2(x)$ otteniamo il sistema:
-\[
-f(x)+f\!\Big(\tfrac{1}{1-x}\Big)=x,\quad
-f\!\Big(\tfrac{1}{1-x}\Big)+f\!\Big(\tfrac{x-1}{x}\Big)=\tfrac{1}{1-x},\quad
-f\!\Big(\tfrac{x-1}{x}\Big)+f(x)=\tfrac{x-1}{x}.
-\]
-Sommando la prima e la terza e sottraendo la seconda si elimina tutto tranne $2f(x)$:
-\[
-f(x)=\tfrac12\Big(x+\tfrac{x-1}{x}-\tfrac{1}{1-x}\Big).
-\]
-Per $x=2$: $f(2)=\tfrac12\Big(2+\tfrac12-\tfrac{1}{-1}\Big)=\tfrac12\big(2+\tfrac12+1\big)=\boxed{\dfrac{7}{4}}$.
+$f(2)=\dfrac74$
 \end{solution}
+\begin{explanation}
+Scrivo l'uguaglianza per $x=2$ e per i valori che vi compaiono. Con $x=2$: $\tfrac{1}{1-2}=-1$; con $x=-1$: $\tfrac{1}{1+1}=\tfrac12$; con $x=\tfrac12$: $\tfrac{1}{1-\frac12}=2$ (si torna al punto di partenza).
+\[\begin{aligned}
+f(2)+f(-1) &= 2 && \textcolor{gray}{\text{con $x=2$}}\\
+f(-1)+f\left(\dfrac12\right) &= -1 && \textcolor{gray}{\text{con $x=-1$}}\\
+f\left(\dfrac12\right)+f(2) &= \dfrac12 && \textcolor{gray}{\text{con $x=\dfrac12$}}
+\end{aligned}\]
+Sommo la prima e la terza e sottraggo la seconda:
+\[ 2f(2)=2+\dfrac12-(-1)=\dfrac72 \;\Rightarrow\; f(2)=\dfrac74 \]
+\end{explanation}
 \end{question}

@@ -7,14 +7,28 @@ Determina se esistono punti di discontinuità nei grafici seguenti e indicane la
   fig. 1 \hspace{200pt} fig. 2
 \end{center}
 \begin{solution}
-Si legge ciascun grafico nel punto critico confrontando limite sinistro, limite destro e valore della funzione. Le tipologie sono:
-\begin{itemize}
-\item \textbf{eliminabile} (3ª specie): $\lim_{x\to x_0^-}f=\lim_{x\to x_0^+}f$ finiti e uguali, ma il valore manca o è diverso (buco o punto isolato);
-\item \textbf{salto} (1ª specie): limite sinistro e destro finiti ma \emph{diversi}; l'ampiezza del salto è la loro differenza;
-\item \textbf{2ª specie}: almeno uno dei due limiti è infinito o non esiste (tipico degli asintoti verticali).
-\end{itemize}
-Per ogni figura si individua il punto $x_0$ in cui il tratto si interrompe e si classifica secondo lo schema precedente.
+\textbf{Fig. 1:} in $x=0$ discontinuità \textbf{eliminabile}; \ in $x=1$ \textbf{salto} (1ª specie). \\
+\textbf{Fig. 2:} in $x=-1$ discontinuità \textbf{eliminabile}; \ in $x=0$ \textbf{salto} (1ª specie); \ in $x=1$ discontinuità di \textbf{2ª specie}.
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\textbf{Fig. 1}
+\begin{itemize}
+    \item $x=0$: il grafico arriva da entrambi i lati allo stesso punto vuoto (i due limiti coincidono e sono finiti), ma il valore $f(0)$ è il punto pieno più in alto, diverso dal limite: \textbf{eliminabile}.
+    \item $x=1$: da sinistra il grafico arriva a un punto vuoto in alto, da destra riparte dal punto pieno sull'asse $x$. I limiti sono finiti ma diversi: \textbf{salto}.
+\end{itemize}
+\textbf{Fig. 2}
+\begin{itemize}
+    \item $x=-1$: la curva passa per un punto vuoto (limite destro e sinistro uguali), mentre $f(-1)$ è il punto pieno sull'asse $x$: \textbf{eliminabile}.
+    \item $x=0$: da sinistra il grafico arriva a un punto vuoto in basso, da destra parte da un punto pieno più in alto: limiti finiti diversi, \textbf{salto}.
+    \item $x=1$: da sinistra il limite è finito (punto vuoto), ma da destra la curva scende verso $-\infty$ lungo l'asintoto verticale tratteggiato: \textbf{2ª specie}.
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -28,14 +42,29 @@ Determina se esistono punti di discontinuità nei grafici seguenti e indicane la
   fig. 1 \hspace{200pt} fig. 2
 \end{center}
 \begin{solution}
-Stesso metodo: nel punto in cui il grafico si interrompe si confrontano $\lim_{x\to x_0^-}f$, $\lim_{x\to x_0^+}f$ e $f(x_0)$.
-\begin{itemize}
-\item Limiti uguali e finiti, valore mancante o diverso $\Rightarrow$ \textbf{eliminabile};
-\item limiti finiti ma diversi $\Rightarrow$ \textbf{salto} (1ª specie), di ampiezza pari alla differenza;
-\item un limite infinito o inesistente $\Rightarrow$ \textbf{2ª specie} (asintoto verticale o oscillazione).
-\end{itemize}
-Si applica a ciascuna figura nel rispettivo punto di discontinuità.
+\textbf{Fig. 1:} in $x=1$ discontinuità di \textbf{2ª specie}; \ in $x=3$ \textbf{salto} (1ª specie). \\
+\textbf{Fig. 2:} in $x=-1$ e in $x=1$ discontinuità di \textbf{2ª specie}; \ in $x=0$ discontinuità \textbf{eliminabile}; \ in $x=2$ \textbf{salto} (1ª specie).
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\textbf{Fig. 1}
+\begin{itemize}
+    \item $x=1$: da sinistra la curva scende verso $-\infty$ lungo l'asintoto verticale; da destra parte da un punto pieno a quota finita. Un limite è infinito: \textbf{2ª specie}.
+    \item $x=3$: da sinistra il segmento arriva a un punto vuoto più in basso, da destra riparte da un punto pieno più in alto: limiti finiti diversi, \textbf{salto}.
+\end{itemize}
+\textbf{Fig. 2}
+\begin{itemize}
+    \item $x=-1$: a sinistra la curva sale a $+\infty$, a destra scende a $-\infty$ (asintoto verticale): \textbf{2ª specie}.
+    \item $x=0$: la curva a forma di arco arriva da entrambi i lati allo stesso punto vuoto, mentre $f(0)$ è il punto pieno isolato più in alto: \textbf{eliminabile}.
+    \item $x=1$: a sinistra la curva scende a $-\infty$, a destra parte da un punto pieno a quota finita: \textbf{2ª specie}.
+    \item $x=2$: da sinistra il segmento arriva al punto vuoto sull'asse $x$, da destra riparte dal punto pieno più in basso: \textbf{salto}.
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -52,20 +81,53 @@ Individua e classifica gli eventuali punti singolari delle seguenti funzioni:
 \item $f(x) = \frac{1}{e^x-1}$
 \item $f(x) = \frac{1}{1-\cos x}$
 \item $f(x) = \begin{cases} x - 2 \quad & x \ge 2 \\ \frac{2x-4}{x-3} \quad & x < 2 \end{cases}$
-\item $f(x) = \begin{cases} \frac{\sin x}{x} \qquad x < 0 \\ e^{1/\ln x} \qquad x > 0 \end{cases}$
+\item $f(x) = \begin{cases} \frac{\sin x}{x} & x < 0 \\ e^{1/\ln x} & x > 0 \end{cases}$
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $\dfrac{x^2-4}{x+2}=x-2$ per $x\neq-2$: \textbf{eliminabile} in $x=-2$ (limite $-4$). \\
-2) Razionalizzando, $\dfrac{\sqrt{x+2}-2}{x-2}=\dfrac{1}{\sqrt{x+2}+2}$: \textbf{eliminabile} in $x=2$ (limite $\tfrac14$). \\
-3) $\dfrac{|x|}{x}$ vale $+1$ a destra e $-1$ a sinistra: \textbf{salto} (1ª specie) in $x=0$, ampiezza $2$. \\
-4) $\dfrac{(x-2)^2}{|x-2|}=|x-2|$ per $x\neq2$: \textbf{eliminabile} in $x=2$ (limite $0$). \\
-5) $e^x-1=0$ in $x=0$, con limiti $\pm\infty$: \textbf{2ª specie} (asintoto verticale) in $x=0$. \\
-6) $1-\cos x=0$ in $x=2k\pi$, denominatore $\to0^+$: \textbf{2ª specie} (poli) in $x=2k\pi$. \\
-7) In $x=2$ entrambi i rami valgono $0$ ($\lim_{x\to2^-}\tfrac{2x-4}{x-3}=0=f(2)$): \textbf{continua}, nessun punto singolare. \\
-8) In $x=0$ i due rami tendono a $1$ (buco): \textbf{eliminabile}; in $x=1$ è $\ln x\to0$ con $e^{1/\ln x}\to+\infty$ a destra: \textbf{2ª specie}.
+\begin{enumerate}[label=\arabic*)]
+    \item eliminabile in $x=-2$
+    \item eliminabile in $x=2$
+    \item salto in $x=0$ (ampiezza $2$)
+    \item eliminabile in $x=2$
+    \item 2ª specie in $x=0$
+    \item 2ª specie in $x=2k\pi$
+    \item nessun punto singolare (continua)
+    \item eliminabile in $x=0$; \ 2ª specie in $x=1$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\begin{enumerate}[label=\arabic*)]
+    \item Il punto da studiare è $x=-2$ (denominatore nullo). Scompongo e semplifico:
+    \[ \lim_{x\to-2}\dfrac{(x-2)(x+2)}{x+2}=\lim_{x\to-2}(x-2)=-4 \]
+    Limite finito ma funzione non definita: eliminabile.
+    \item In $x=2$ si ha la forma $\tfrac00$. Razionalizzo moltiplicando per $\sqrt{x+2}+2$:
+    \[\begin{aligned}
+    \dfrac{\sqrt{x+2}-2}{x-2} &= \dfrac{(x+2)-4}{(x-2)(\sqrt{x+2}+2)} && \textcolor{gray}{\text{differenza di quadrati al numeratore}}\\
+    &= \dfrac{1}{\sqrt{x+2}+2}\;\to\;\dfrac14
+    \end{aligned}\]
+    Limite finito: eliminabile.
+    \item Per $x>0$ $|x|=x$ e $f=1$; per $x<0$ $|x|=-x$ e $f=-1$. Limiti destro $1$ e sinistro $-1$: salto di ampiezza $2$.
+    \item $(x-2)^2=|x-2|^2$, quindi $f(x)=|x-2|$ per $x\neq2$, che tende a $0$: eliminabile.
+    \item $e^x-1=0$ per $x=0$. Il numeratore vale $1$: per $x\to0^+$ il denominatore tende a $0^+$ e $f\to+\infty$; per $x\to0^-$ tende a $0^-$ e $f\to-\infty$. Limiti infiniti: 2ª specie.
+    \item $1-\cos x=0$ quando $\cos x=1$, cioè $x=2k\pi$. Lì il denominatore tende a $0^+$ e $f\to+\infty$: 2ª specie in ogni $x=2k\pi$.
+    \item L'unico punto da controllare è il raccordo $x=2$ (il ramo sinistro non si annulla al denominatore per $x<2$):
+    \[ \lim_{x\to2^-}\dfrac{2x-4}{x-3}=\dfrac{0}{-1}=0, \qquad f(2)=2-2=0 \]
+    Coincidono: la funzione è continua.
+    \item Due punti da studiare.
+    \begin{itemize}
+        \item $x=0$ (non appartiene a nessun ramo): da sinistra $\dfrac{\sin x}{x}\to1$ (limite notevole); da destra $\ln x\to-\infty$, quindi $\dfrac{1}{\ln x}\to0$ e $e^{1/\ln x}\to e^0=1$. Limiti uguali e finiti: eliminabile.
+        \item $x=1$ (lì $\ln x=0$): per $x\to1^+$ si ha $\dfrac{1}{\ln x}\to+\infty$ e $f\to+\infty$: 2ª specie.
+    \end{itemize}
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -82,20 +144,44 @@ Individua e classifica gli eventuali punti singolari delle seguenti funzioni:
 \item $f(x) = \frac{1}{\sin x}$
 \item $f(x) = \frac{1}{1-\tan x}$
 \item $f(x) = \begin{cases} \sqrt{x} \quad & x \ge 0 \\ x^2 \quad & x < 0 \end{cases}$
-\item $f(x) = \begin{cases} e^x \qquad x \ge 0 \\ \frac{1}{x^2+1} \qquad x < 0 \end{cases}$
+\item $f(x) = \begin{cases} e^x & x \ge 0 \\ \frac{1}{x^2+1} & x < 0 \end{cases}$
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $\dfrac{x^2+1}{x-1}$: in $x=1$ numeratore $=2\neq0$, denominatore $\to0$: \textbf{2ª specie} (asintoto verticale). \\
-2) $\dfrac{\ln(x+1)}{x}\to1$ per $x\to0$ (limite notevole): \textbf{eliminabile} in $x=0$. \\
-3) $\dfrac{|x-1|}{x-1}=\pm1$: \textbf{salto} (1ª specie) in $x=1$, ampiezza $2$. \\
-4) $\dfrac{x^3}{|x|}=x^2\,\mathrm{sgn}(x)\to0$: \textbf{eliminabile} in $x=0$. \\
-5) $\sin x=0$ in $x=k\pi$: \textbf{2ª specie} (poli). \\
-6) $\tan x=1$ in $x=\tfrac{\pi}{4}+k\pi$: \textbf{2ª specie}; nei punti $x=\tfrac{\pi}{2}+k\pi$ (dove $\tan x\to\infty$) si ha $f\to0$: \textbf{eliminabile}. \\
-7) In $x=0$: $\sqrt0=0$ e $\lim_{x\to0^-}x^2=0$: \textbf{continua}. \\
-8) In $x=0$: $e^0=1$ e $\lim_{x\to0^-}\tfrac{1}{x^2+1}=1$: \textbf{continua}. Nessun punto singolare.
+\begin{enumerate}[label=\arabic*)]
+    \item 2ª specie in $x=1$
+    \item eliminabile in $x=0$
+    \item salto in $x=1$ (ampiezza $2$)
+    \item eliminabile in $x=0$
+    \item 2ª specie in $x=k\pi$
+    \item 2ª specie in $x=\tfrac\pi4+k\pi$; \ eliminabile in $x=\tfrac\pi2+k\pi$
+    \item nessun punto singolare (continua)
+    \item nessun punto singolare (continua)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\begin{enumerate}[label=\arabic*)]
+    \item In $x=1$ il denominatore si annulla, il numeratore vale $2\neq0$: $f\to\pm\infty$, 2ª specie.
+    \item In $x=0$ forma $\tfrac00$; è il limite notevole $\displaystyle\lim_{x\to0}\dfrac{\ln(1+x)}{x}=1$: eliminabile.
+    \item Per $x>1$ vale $1$, per $x<1$ vale $-1$: salto di ampiezza $2$.
+    \item Per $x>0$: $\dfrac{x^3}{x}=x^2$; per $x<0$: $\dfrac{x^3}{-x}=-x^2$. Entrambi tendono a $0$, ma $f(0)$ non esiste: eliminabile.
+    \item $\sin x=0$ per $x=k\pi$; lì il numeratore è $1$ e $f\to\pm\infty$: 2ª specie.
+    \item Due famiglie di punti:
+    \begin{itemize}
+        \item $1-\tan x=0$ per $\tan x=1$, cioè $x=\tfrac\pi4+k\pi$: denominatore nullo, $f\to\infty$, 2ª specie;
+        \item $\tan x$ non esiste per $x=\tfrac\pi2+k\pi$: lì $|\tan x|\to\infty$, quindi $f\to0$. Limite finito, funzione non definita: eliminabile.
+    \end{itemize}
+    \item Raccordo in $x=0$: $f(0)=\sqrt0=0$ e $\displaystyle\lim_{x\to0^-}x^2=0$: continua.
+    \item Raccordo in $x=0$: $f(0)=e^0=1$ e $\displaystyle\lim_{x\to0^-}\dfrac{1}{x^2+1}=1$: continua.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 \begin{question}[ID=2.3, subtitle={Punti singolari — serie 3}, tags={continuità, punti singolari}, difficulty=media]
@@ -110,20 +196,43 @@ Individua e classifica gli eventuali punti singolari delle seguenti funzioni:
 \item $f(x) = \frac{1}{e^{x^2}-1}$
 \item $f(x) = \frac{1}{\cos x - 1}$
 \item $f(x) = \begin{cases} x^3 - 1 \quad & x > 1 \\ \frac{x}{x+1} \quad & x \le 1 \end{cases}$
-\item $f(x) = \begin{cases} \ln(x) \qquad x > 1 \\ x^2 - 2x + 1 \qquad x \le 1 \end{cases}$
+\item $f(x) = \begin{cases} \ln(x) & x > 1 \\ x^2 - 2x + 1 & x \le 1 \end{cases}$
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $\dfrac{x^2-x}{x^2+x}=\dfrac{x-1}{x+1}$ per $x\neq0$: \textbf{eliminabile} in $x=0$ (limite $-1$), \textbf{2ª specie} in $x=-1$. \\
-2) $\dfrac{\sqrt{x}}{x-1}$ (dominio $x\ge0$): in $x=1$ numeratore $=1\neq0$: \textbf{2ª specie}. \\
-3) $\dfrac{|x+3|}{x+3}=\pm1$: \textbf{salto} (1ª specie) in $x=-3$, ampiezza $2$. \\
-4) $\dfrac{x^2-4x}{|x-2|}$: in $x=2$ numeratore $=-4\neq0$, $f\to-\infty$: \textbf{2ª specie}. \\
-5) $e^{x^2}-1=0$ solo in $x=0$, $f\to+\infty$: \textbf{2ª specie}. \\
-6) $\cos x=1$ in $x=2k\pi$, $f\to-\infty$: \textbf{2ª specie}. \\
-7) In $x=1$: $\lim_{x\to1^+}(x^3-1)=0$ ma $f(1)=\tfrac{1}{2}$: \textbf{salto} (1ª specie), ampiezza $\tfrac12$; inoltre \textbf{2ª specie} in $x=-1$ (dove $\tfrac{x}{x+1}$ esplode). \\
-8) In $x=1$: $\lim_{x\to1^+}\ln x=0=(1-1)^2$: \textbf{continua}.
+\begin{enumerate}[label=\arabic*)]
+    \item eliminabile in $x=0$; \ 2ª specie in $x=-1$
+    \item 2ª specie in $x=1$
+    \item salto in $x=-3$ (ampiezza $2$)
+    \item 2ª specie in $x=2$
+    \item 2ª specie in $x=0$
+    \item 2ª specie in $x=2k\pi$
+    \item salto in $x=1$ (ampiezza $\tfrac12$); \ 2ª specie in $x=-1$
+    \item nessun punto singolare (continua)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\begin{enumerate}[label=\arabic*)]
+    \item Denominatore $x(x+1)$: si annulla in $0$ e $-1$. Semplifico:
+    \[ \dfrac{x(x-1)}{x(x+1)}=\dfrac{x-1}{x+1} \quad (x\neq0) \]
+    In $x=0$ il limite è $\dfrac{-1}{1}=-1$, finito: eliminabile. In $x=-1$ il numeratore vale $-2\neq0$: 2ª specie.
+    \item Dominio $x\geq0$, $x\neq1$. In $x=1$ il numeratore vale $1$: $f\to\pm\infty$, 2ª specie.
+    \item Vale $1$ per $x>-3$ e $-1$ per $x<-3$: salto di ampiezza $2$.
+    \item In $x=2$ il numeratore vale $4-8=-4$ e il denominatore tende a $0^+$: $f\to-\infty$, 2ª specie.
+    \item $e^{x^2}-1=0$ solo per $x=0$, e il denominatore tende a $0^+$: $f\to+\infty$, 2ª specie.
+    \item $\cos x-1=0$ per $x=2k\pi$, dove il denominatore tende a $0^-$: $f\to-\infty$, 2ª specie.
+    \item Raccordo in $x=1$: \ $f(1)=\dfrac12$ (ramo sinistro), $\displaystyle\lim_{x\to1^+}(x^3-1)=0$. Diversi: salto di ampiezza $\tfrac12$. \\
+    Inoltre il ramo $\dfrac{x}{x+1}$, valido per $x\leq1$, ha il denominatore nullo in $x=-1$ con numeratore $-1$: 2ª specie.
+    \item Raccordo in $x=1$: $\displaystyle\lim_{x\to1^+}\ln x=0$ e $f(1)=(1-1)^2=0$: continua.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -140,20 +249,40 @@ Individua e classifica gli eventuali punti singolari delle seguenti funzioni:
 \item $f(x) = \frac{1}{e^{x+1} - 2}$
 \item $f(x) = \frac{1}{\tan x}$
 \item $f(x) = \begin{cases} x^2 - 1 \quad & x \neq 0 \\ 1 \quad & x = 0 \end{cases}$
-\item $f(x) = \begin{cases} \sin x \qquad x > 0 \\ x - 2 \qquad x \le 0 \end{cases}$
+\item $f(x) = \begin{cases} \sin x & x > 0 \\ x - 2 & x \le 0 \end{cases}$
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $\dfrac{x^3-3x}{x^2-1}$: in $x=\pm1$ numeratore $\neq0$: \textbf{2ª specie} in $x=1$ e $x=-1$. \\
-2) $\dfrac{\sqrt{x+1}}{x+2}$ (dominio $x\ge-1$): $x=-2$ è fuori dal dominio, quindi \textbf{nessun punto singolare}. \\
-3) $\dfrac{|x|}{x^2}=\dfrac{1}{|x|}\to+\infty$: \textbf{2ª specie} in $x=0$. \\
-4) $\dfrac{(x-3)^2}{|x-3|}=|x-3|$: \textbf{eliminabile} in $x=3$ (limite $0$). \\
-5) $e^{x+1}-2=0$ in $x=\ln2-1$: \textbf{2ª specie}. \\
-6) $\dfrac{1}{\tan x}$: $\tan x=0$ in $x=k\pi$ $\Rightarrow$ \textbf{2ª specie}; in $x=\tfrac{\pi}{2}+k\pi$ vale $0$: \textbf{eliminabile}. \\
-7) In $x=0$: $\lim(x^2-1)=-1$ ma $f(0)=1$: \textbf{eliminabile} (limite finito $\neq$ valore). \\
-8) In $x=0$: $\lim_{x\to0^+}\sin x=0$ ma $f(0)=-2$: \textbf{salto} (1ª specie), ampiezza $2$.
+\begin{enumerate}[label=\arabic*)]
+    \item 2ª specie in $x=\pm1$
+    \item nessun punto singolare
+    \item 2ª specie in $x=0$
+    \item eliminabile in $x=3$
+    \item 2ª specie in $x=\ln2-1$
+    \item 2ª specie in $x=k\pi$; \ eliminabile in $x=\tfrac\pi2+k\pi$
+    \item eliminabile in $x=0$
+    \item salto in $x=0$ (ampiezza $2$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\begin{enumerate}[label=\arabic*)]
+    \item Denominatore nullo in $x=\pm1$; il numeratore vale $1-3=-2$ e $-1+3=2$, non nullo: 2ª specie in entrambi.
+    \item Dominio: $x+1\geq0$, cioè $x\geq-1$. Il denominatore si annulla in $x=-2$, che è fuori dal dominio: nessun punto singolare.
+    \item $\dfrac{|x|}{x^2}=\dfrac{|x|}{|x|^2}=\dfrac{1}{|x|}\to+\infty$ per $x\to0$: 2ª specie.
+    \item Per $x\neq3$: $\dfrac{|x-3|^2}{|x-3|}=|x-3|\to0$. Limite finito: eliminabile.
+    \item $e^{x+1}=2 \;\Rightarrow\; x+1=\ln2 \;\Rightarrow\; x=\ln2-1$. Lì il denominatore si annulla con numeratore $1$: 2ª specie.
+    \item $\dfrac{1}{\tan x}$: dove $\tan x=0$ ($x=k\pi$) $f\to\infty$, 2ª specie; dove $\tan x$ non esiste ($x=\tfrac\pi2+k\pi$) $f\to0$, eliminabile.
+    \item $\displaystyle\lim_{x\to0}(x^2-1)=-1$, ma $f(0)=1$: limite finito diverso dal valore, eliminabile.
+    \item $f(0)=0-2=-2$ (ramo sinistro) e $\displaystyle\lim_{x\to0^+}\sin x=0$: salto di ampiezza $2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -170,20 +299,48 @@ Individua e classifica gli eventuali punti singolari delle seguenti funzioni:
 \item $f(x) = \frac{1}{e^x+1}$
 \item $f(x) = \frac{1}{\sin x - x}$
 \item $f(x) = \begin{cases} x^2 \quad & x \geq 2 \\ 2x - 1 \quad & x < 2 \end{cases}$
-\item $f(x) = \begin{cases} e^{-x} \qquad x > 0 \\ x + 3 \qquad x \le 0 \end{cases}$
+\item $f(x) = \begin{cases} e^{-x} & x > 0 \\ x + 3 & x \le 0 \end{cases}$
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $\dfrac{x^2+4x+4}{x^2-4}=\dfrac{x+2}{x-2}$ per $x\neq-2$: \textbf{eliminabile} in $x=-2$ (limite $0$), \textbf{2ª specie} in $x=2$. \\
-2) $\dfrac{\sqrt{x^2-1}}{x-1}$ (dominio $x\le-1$ o $x\ge1$): in $x=1$ il limite destro è $+\infty$: \textbf{2ª specie}. \\
-3) $\dfrac{|x-1|}{x^2-1}=\dfrac{|x-1|}{(x-1)(x+1)}$: \textbf{salto} in $x=1$ (limiti $\pm\tfrac12$, ampiezza $1$), \textbf{2ª specie} in $x=-1$. \\
-4) $\dfrac{x+2}{|x+2|}=\pm1$: \textbf{salto} (1ª specie) in $x=-2$, ampiezza $2$. \\
-5) $e^x+1>0$ sempre: \textbf{nessun punto singolare}. \\
-6) $\sin x-x=0$ solo in $x=0$, con $f\to-\infty$: \textbf{2ª specie} in $x=0$. \\
-7) In $x=2$: $f(2)=4$ ma $\lim_{x\to2^-}(2x-1)=3$: \textbf{salto} (1ª specie), ampiezza $1$. \\
-8) In $x=0$: $\lim_{x\to0^+}e^{-x}=1$ ma $f(0)=3$: \textbf{salto} (1ª specie), ampiezza $2$.
+\begin{enumerate}[label=\arabic*)]
+    \item eliminabile in $x=-2$; \ 2ª specie in $x=2$
+    \item 2ª specie in $x=1$
+    \item salto in $x=1$ (ampiezza $1$); \ 2ª specie in $x=-1$
+    \item salto in $x=-2$ (ampiezza $2$)
+    \item nessun punto singolare
+    \item 2ª specie in $x=0$
+    \item salto in $x=2$ (ampiezza $1$)
+    \item salto in $x=0$ (ampiezza $2$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\begin{enumerate}[label=\arabic*)]
+    \item Il numeratore è $(x+2)^2$, il denominatore $(x-2)(x+2)$. Semplifico: $\dfrac{x+2}{x-2}$ per $x\neq-2$. \\
+    In $x=-2$ il limite è $\dfrac{0}{-4}=0$: eliminabile. In $x=2$ il numeratore vale $4\neq0$: 2ª specie.
+    \item Dominio $x\leq-1 \vee x>1$. Per $x\to1^+$:
+    \[ \dfrac{\sqrt{(x-1)(x+1)}}{x-1}=\dfrac{\sqrt{x+1}}{\sqrt{x-1}}\to+\infty \]
+    2ª specie.
+    \item Scrivo il denominatore come $(x-1)(x+1)$:
+    \[\begin{aligned}
+    x\to1^+: &\quad \dfrac{x-1}{(x-1)(x+1)}=\dfrac{1}{x+1}\to\dfrac12\\
+    x\to1^-: &\quad \dfrac{-(x-1)}{(x-1)(x+1)}=-\dfrac{1}{x+1}\to-\dfrac12
+    \end{aligned}\]
+    Limiti finiti diversi: salto di ampiezza $1$. In $x=-1$ il numeratore vale $2\neq0$: 2ª specie.
+    \item Vale $1$ per $x>-2$ e $-1$ per $x<-2$: salto di ampiezza $2$.
+    \item $e^x+1>1$ per ogni $x$: il denominatore non si annulla mai, nessun punto singolare.
+    \item $\sin x=x$ solo per $x=0$ (per $x\neq0$ vale $|\sin x|<|x|$). Lì il denominatore si annulla con numeratore $1$: 2ª specie.
+    \item $f(2)=2^2=4$ (ramo destro) e $\displaystyle\lim_{x\to2^-}(2x-1)=3$: salto di ampiezza $1$.
+    \item $f(0)=0+3=3$ (ramo sinistro) e $\displaystyle\lim_{x\to0^+}e^{-x}=1$: salto di ampiezza $2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -200,20 +357,40 @@ Individua e classifica gli eventuali punti singolari delle seguenti funzioni:
 \item $f(x) = \frac{1}{e^{x-1} - 1}$
 \item $f(x) = \frac{1}{\cos(x)-1}$
 \item $f(x) = \begin{cases} x^3 - 1 \quad & x > 0 \\ x^2 - 2x \quad & x \le 0 \end{cases}$
-\item $f(x) = \begin{cases} \tan x \qquad x > 0 \\ x^3 - x \qquad x \le 0 \end{cases}$
+\item $f(x) = \begin{cases} \tan x & x > 0 \\ x^3 - x & x \le 0 \end{cases}$
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $\dfrac{2x+1}{x^2-x}=\dfrac{2x+1}{x(x-1)}$: \textbf{2ª specie} in $x=0$ e $x=1$. \\
-2) $\dfrac{\ln(x^2+1)}{x-1}$: in $x=1$ numeratore $=\ln2\neq0$: \textbf{2ª specie}. \\
-3) $\dfrac{|x+1|}{x-1}$: in $x=1$ numeratore $=2\neq0$: \textbf{2ª specie} (in $x=-1$ vale $0$, continua). \\
-4) $\dfrac{(x-1)^3}{|x+1|}$: in $x=-1$ numeratore $=-8\neq0$: \textbf{2ª specie}. \\
-5) $e^{x-1}-1=0$ in $x=1$: \textbf{2ª specie}. \\
-6) $\cos x=1$ in $x=2k\pi$: \textbf{2ª specie}. \\
-7) In $x=0$: $\lim_{x\to0^+}(x^3-1)=-1$ ma $f(0)=0$: \textbf{salto} (1ª specie), ampiezza $1$. \\
-8) In $x=0$: $\lim_{x\to0^+}\tan x=0=f(0)$: \textbf{continua}; restano \textbf{2ª specie} nei poli $x=\tfrac{\pi}{2}+k\pi$ ($k\ge0$).
+\begin{enumerate}[label=\arabic*)]
+    \item 2ª specie in $x=0$ e in $x=1$
+    \item 2ª specie in $x=1$
+    \item 2ª specie in $x=1$
+    \item 2ª specie in $x=-1$
+    \item 2ª specie in $x=1$
+    \item 2ª specie in $x=2k\pi$
+    \item salto in $x=0$ (ampiezza $1$)
+    \item continua in $x=0$; \ 2ª specie in $x=\tfrac\pi2+k\pi$ ($k\geq0$)
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ si confrontano il limite sinistro, il limite destro e il valore $f(x_0)$:
+\begin{itemize}
+    \item limiti uguali e finiti, ma valore mancante o diverso: discontinuità \textbf{eliminabile} (di 3ª specie);
+    \item limiti finiti ma diversi: \textbf{salto} (1ª specie), di ampiezza $|\lim_{x\to x_0^+}f-\lim_{x\to x_0^-}f|$;
+    \item almeno un limite infinito o inesistente: discontinuità di \textbf{2ª specie}.
+\end{itemize}
+\begin{enumerate}[label=\arabic*)]
+    \item Denominatore $x(x-1)$: nullo in $0$ e $1$, dove il numeratore vale $1$ e $3$: 2ª specie in entrambi.
+    \item In $x=1$ il numeratore vale $\ln2\neq0$: 2ª specie.
+    \item In $x=1$ il numeratore vale $|2|=2\neq0$: 2ª specie. (In $x=-1$ si annulla il numeratore, non il denominatore: lì la funzione vale $0$ ed è continua.)
+    \item In $x=-1$ il numeratore vale $(-2)^3=-8\neq0$ e il denominatore tende a $0^+$: $f\to-\infty$, 2ª specie.
+    \item $e^{x-1}=1$ per $x=1$: denominatore nullo, numeratore $1$: 2ª specie.
+    \item $\cos x=1$ per $x=2k\pi$: 2ª specie.
+    \item $f(0)=0^2-0=0$ (ramo sinistro) e $\displaystyle\lim_{x\to0^+}(x^3-1)=-1$: salto di ampiezza $1$.
+    \item Raccordo: $\displaystyle\lim_{x\to0^+}\tan x=0=f(0)$, continua. Il ramo $\tan x$ (per $x>0$) non esiste in $x=\tfrac\pi2+k\pi$, dove tende all'infinito: 2ª specie.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -221,11 +398,24 @@ Individua e classifica gli eventuali punti singolari delle seguenti funzioni:
 \begin{question}[ID=3.1, subtitle={Teorema degli zeri per $e^x-2x^2$ su $[0,2]$}, tags={continuità, teorema degli zeri}, difficulty=media]
 Stabilisci se la funzione soddisfa le ipotesi del \textit{teorema di esistenza degli zeri} nell'intervallo indicato, motivando adeguatamente la risposta e, se soddisfatte, trovane gli zeri.
 \begin{center}
-    $f(x) = e^x - 2x^2$ \qquad $[0,2]$
+    $f(x) = e^x - 2x^2$ su $[0,2]$
 \end{center}
 \begin{solution}
-$f$ continua su $[0,2]$; $f(0)=1>0$, $f(2)=e^2-8<0$: esiste uno zero in $(0,2)$.
+Ipotesi soddisfatte; c'è uno zero in $(0,2)$, circa $x\approx1{,}49$.
 \end{solution}
+\begin{explanation}
+\textbf{Teorema degli zeri}: se $f$ è continua su $[a,b]$ e $f(a)\cdot f(b)<0$ (valori agli estremi di segno opposto), allora esiste almeno un $c\in(a,b)$ con $f(c)=0$. Lo zero si può poi stimare dimezzando ripetutamente l'intervallo (metodo di bisezione).
+$f(x)=e^x-2x^2$ è continua su $[0,2]$ (somma di funzioni continue). Calcolo i valori agli estremi:
+\[ f(0)=e^0-0=1>0, \qquad f(2)=e^2-8\approx7{,}39-8=-0{,}61<0 \]
+Segni opposti: le ipotesi sono soddisfatte ed esiste uno zero in $(0,2)$. \\
+Lo stimo per bisezione:
+\[\begin{aligned}
+f(1) &= e-2\approx0{,}72>0 && \textcolor{gray}{\text{lo zero è in $(1,2)$}}\\
+f(1{,}5) &\approx -0{,}02<0 && \textcolor{gray}{\text{lo zero è in $(1;\ 1{,}5)$, vicino a $1{,}5$}}\\
+f(1{,}48) &\approx 0{,}01>0 && \textcolor{gray}{\text{lo zero è in $(1{,}48;\ 1{,}5)$}}
+\end{aligned}\]
+Quindi $x\approx1{,}49$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -233,11 +423,20 @@ $f$ continua su $[0,2]$; $f(0)=1>0$, $f(2)=e^2-8<0$: esiste uno zero in $(0,2)$.
 \begin{question}[ID=3.2, subtitle={Teorema degli zeri per $\sin x - x/2$ su $[0,\pi]$}, tags={continuità, teorema degli zeri}, difficulty=facile]
 Verifica se la funzione soddisfa le ipotesi del \textit{teorema di esistenza degli zeri} nell'intervallo indicato. Se le ipotesi sono soddisfatte, determina almeno uno zero della funzione.
 \begin{center}
-    $f(x) = \sin(x) - \dfrac{x}{2}$ \qquad $[0, \pi]$
+    $f(x) = \sin(x) - \dfrac{x}{2}$ su $[0, \pi]$
 \end{center}
 \begin{solution}
-$f(0)=0$: $x=0$ è già uno zero. $f(\pi)=-\pi/2<0$; esiste anche uno zero in $(0,\pi)$.
+Ipotesi \textbf{non} soddisfatte su $[0,\pi]$ (perché $f(0)=0$); $x=0$ è uno zero, e c'è un altro zero in $\left(\tfrac\pi2,\pi\right)$, circa $x\approx1{,}90$.
 \end{solution}
+\begin{explanation}
+\textbf{Teorema degli zeri}: se $f$ è continua su $[a,b]$ e $f(a)\cdot f(b)<0$ (valori agli estremi di segno opposto), allora esiste almeno un $c\in(a,b)$ con $f(c)=0$. Lo zero si può poi stimare dimezzando ripetutamente l'intervallo (metodo di bisezione).
+$f$ è continua su $[0,\pi]$. Agli estremi:
+\[ f(0)=\sin0-0=0, \qquad f(\pi)=0-\dfrac\pi2<0 \]
+Il prodotto $f(0)\cdot f(\pi)$ vale $0$, non è negativo: le ipotesi del teorema non sono soddisfatte sull'intervallo dato (anche se $x=0$ è già uno zero). \\
+Per cercare altri zeri applico il teorema su un intervallo più piccolo:
+\[ f\!\left(\dfrac\pi2\right)=1-\dfrac\pi4\approx0{,}21>0, \qquad f(\pi)<0 \]
+Su $\left[\tfrac\pi2,\pi\right]$ le ipotesi valgono: c'è uno zero in $\left(\tfrac\pi2,\pi\right)$. Per bisezione ($f(2)\approx-0{,}09<0$, $f(1{,}5)\approx0{,}25>0$, \ldots) si trova $x\approx1{,}90$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -245,11 +444,23 @@ $f(0)=0$: $x=0$ è già uno zero. $f(\pi)=-\pi/2<0$; esiste anche uno zero in $(
 \begin{question}[ID=3.3, subtitle={Teorema degli zeri per $\ln x + x - 3$ su $[1,4]$}, tags={continuità, teorema degli zeri}, difficulty=media]
 Stabilisci se la funzione data soddisfa le condizioni richieste dal \textit{teorema di esistenza degli zeri} nell'intervallo specificato. Spiega il ragionamento e, se possibile, calcola uno zero.
 \begin{center}
-    $f(x) = \ln(x) + x - 3$ \qquad $[1, 4]$
+    $f(x) = \ln(x) + x - 3$ su $[1, 4]$
 \end{center}
 \begin{solution}
-$f(1)=-2<0$, $f(4)=\ln4+1>0$: esiste uno zero in $(1,4)$.
+Ipotesi soddisfatte; c'è uno zero in $(1,4)$, circa $x\approx2{,}21$.
 \end{solution}
+\begin{explanation}
+\textbf{Teorema degli zeri}: se $f$ è continua su $[a,b]$ e $f(a)\cdot f(b)<0$ (valori agli estremi di segno opposto), allora esiste almeno un $c\in(a,b)$ con $f(c)=0$. Lo zero si può poi stimare dimezzando ripetutamente l'intervallo (metodo di bisezione).
+$f(x)=\ln x+x-3$ è continua su $[1,4]$ (lì $x>0$). Agli estremi:
+\[ f(1)=0+1-3=-2<0, \qquad f(4)=\ln4+1\approx2{,}39>0 \]
+Segni opposti: esiste uno zero in $(1,4)$. Lo stimo:
+\[\begin{aligned}
+f(2) &= \ln2-1\approx-0{,}31<0 && \textcolor{gray}{\text{lo zero è in $(2,4)$}}\\
+f(3) &= \ln3\approx1{,}10>0 && \textcolor{gray}{\text{lo zero è in $(2,3)$}}\\
+f(2{,}2) &\approx -0{,}01<0, \quad f(2{,}25)\approx0{,}06>0
+\end{aligned}\]
+Quindi $x\approx2{,}21$. Poiché $f$ è crescente (somma di funzioni crescenti), lo zero è unico.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -257,11 +468,23 @@ $f(1)=-2<0$, $f(4)=\ln4+1>0$: esiste uno zero in $(1,4)$.
 \begin{question}[ID=3.4, subtitle={Teorema degli zeri per $x^3-3x+1$ su $[-2,1]$}, tags={continuità, teorema degli zeri}, difficulty=media]
 Analizza la funzione nell'intervallo indicato per verificare l'applicabilità del \textit{teorema di esistenza degli zeri}. Se il teorema si applica, determina gli zeri (se possibile) o stima il loro valore.
 \begin{center}
-    $f(x) = x^3 - 3x + 1$ \qquad $[-2, 1]$
+    $f(x) = x^3 - 3x + 1$ su $[-2, 1]$
 \end{center}
 \begin{solution}
-$f(-2)=-1<0$, $f(0)=1>0$, $f(1)=-1<0$: esistono due zeri, in $(-2,0)$ e in $(0,1)$.
+Ipotesi \textbf{non} soddisfatte su $[-2,1]$ ($f(-2)$ e $f(1)$ hanno lo stesso segno); applicando il teorema su $[-2,0]$ e $[0,1]$ si trovano due zeri: $x\approx-1{,}88$ e $x\approx0{,}35$.
 \end{solution}
+\begin{explanation}
+\textbf{Teorema degli zeri}: se $f$ è continua su $[a,b]$ e $f(a)\cdot f(b)<0$ (valori agli estremi di segno opposto), allora esiste almeno un $c\in(a,b)$ con $f(c)=0$. Lo zero si può poi stimare dimezzando ripetutamente l'intervallo (metodo di bisezione).
+$f$ è un polinomio, quindi continua. Agli estremi:
+\[ f(-2)=-8+6+1=-1<0, \qquad f(1)=1-3+1=-1<0 \]
+Stesso segno: le ipotesi non sono soddisfatte sull'intervallo $[-2,1]$ (il che non esclude che ci siano zeri). \\
+Provo un punto intermedio: $f(0)=1>0$. Ora il teorema si applica su due intervalli:
+\[\begin{aligned}
+[-2,0]: &\quad f(-2)<0,\ f(0)>0 && \textcolor{gray}{\text{c'è uno zero}}\\
+[0,1]: &\quad f(0)>0,\ f(1)<0 && \textcolor{gray}{\text{c'è un altro zero}}
+\end{aligned}\]
+Con la bisezione: $f(-1{,}9)\approx-0{,}16$ e $f(-1{,}85)\approx0{,}22$ danno $x\approx-1{,}88$; \ $f(0{,}3)\approx0{,}13$ e $f(0{,}4)\approx-0{,}14$ danno $x\approx0{,}35$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -269,11 +492,20 @@ $f(-2)=-1<0$, $f(0)=1>0$, $f(1)=-1<0$: esistono due zeri, in $(-2,0)$ e in $(0,1
 \begin{question}[ID=3.5, subtitle={Teorema degli zeri per $e^{-x}-\cos x$ su $[0,\pi/2]$}, tags={continuità, teorema degli zeri}, difficulty=media]
 Dimostra se il \textit{teorema di esistenza degli zeri} è applicabile alla funzione considerata nell'intervallo specificato. Nel caso affermativo, calcola o stima almeno uno zero.
 \begin{center}
-    $f(x) = e^{-x} - \cos(x)$ \qquad $[0, \pi/2]$
+    $f(x) = e^{-x} - \cos(x)$ su $[0, \pi/2]$
 \end{center}
 \begin{solution}
-$f(0)=0$: $x=0$ è già uno zero della funzione.
+Ipotesi \textbf{non} soddisfatte su $\left[0,\tfrac\pi2\right]$ (perché $f(0)=0$); $x=0$ è uno zero, e c'è un altro zero in $\left(\tfrac12,\tfrac\pi2\right)$, circa $x\approx1{,}29$.
 \end{solution}
+\begin{explanation}
+\textbf{Teorema degli zeri}: se $f$ è continua su $[a,b]$ e $f(a)\cdot f(b)<0$ (valori agli estremi di segno opposto), allora esiste almeno un $c\in(a,b)$ con $f(c)=0$. Lo zero si può poi stimare dimezzando ripetutamente l'intervallo (metodo di bisezione).
+$f$ è continua. Agli estremi:
+\[ f(0)=e^0-\cos0=1-1=0, \qquad f\!\left(\dfrac\pi2\right)=e^{-\pi/2}-0\approx0{,}21>0 \]
+Il prodotto vale $0$: le ipotesi non sono soddisfatte (anche se $x=0$ è uno zero). \\
+Cerco un punto interno dove $f$ sia negativa:
+\[ f\!\left(\dfrac12\right)=e^{-0{,}5}-\cos0{,}5\approx0{,}61-0{,}88=-0{,}27<0 \]
+Su $\left[\tfrac12,\tfrac\pi2\right]$ i segni sono opposti: c'è uno zero. Con la bisezione ($f(1)\approx-0{,}17$, $f(1{,}5)\approx0{,}15$, \ldots) si ottiene $x\approx1{,}29$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -282,8 +514,8 @@ $f(0)=0$: $x=0$ è già uno zero della funzione.
 Determina per quali valori di $k$ la funzione
 \[
 f(x) = \begin{cases}
-    e^x - k \qquad x < 0 \\
-    x^3+k \qquad x \ge 0
+    e^x - k & x < 0 \\
+    x^3+k & x \ge 0
 \end{cases}
 \]
 \begin{enumerate}
@@ -291,8 +523,27 @@ f(x) = \begin{cases}
 \item presenti un punto di salto in $x=0$, con salto uguale a $2$
 \end{enumerate}
 \begin{solution}
-1) $1-k=k \Rightarrow k=\tfrac{1}{2}$. 2) $|1-2k|=2 \Rightarrow k=-\tfrac{1}{2}$ oppure $k=\tfrac{3}{2}$.
+\begin{enumerate}
+    \item $k=\tfrac12$
+    \item $k=-\tfrac12$ oppure $k=\tfrac32$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In $x_0$ si calcolano il limite sinistro (con il ramo di sinistra) e il valore $f(x_0)$, che coincide con il limite destro (ramo di destra, che contiene $x_0$). La funzione è \textbf{continua} se sono uguali; ha un \textbf{salto} di ampiezza $s$ se la loro differenza in valore assoluto vale $s$.
+\[\begin{aligned}
+\lim_{x\to0^-}(e^x-k) &= 1-k && \textcolor{gray}{\text{ramo sinistro}}\\
+f(0) &= 0+k=k && \textcolor{gray}{\text{ramo destro}}
+\end{aligned}\]
+\begin{enumerate}
+    \item Continuità: \ $1-k=k \;\Rightarrow\; 1=2k \;\Rightarrow\; k=\tfrac12$.
+    \item Salto $2$: la differenza vale $k-(1-k)=2k-1$.
+    \[\begin{aligned}
+    |2k-1| &= 2\\
+    2k-1=2 &\;\Rightarrow\; k=\dfrac32\\
+    2k-1=-2 &\;\Rightarrow\; k=-\dfrac12
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -301,8 +552,8 @@ f(x) = \begin{cases}
 Determina per quali valori di $k$ la funzione
 \[
 f(x) = \begin{cases}
-    \ln(1+x) - k \qquad x < 1 \\
-    kx^2 - 1 \qquad x \ge 1
+    \ln(1+x) - k & x < 1 \\
+    kx^2 - 1 & x \ge 1
 \end{cases}
 \]
 \begin{enumerate}
@@ -310,8 +561,27 @@ f(x) = \begin{cases}
 \item presenti un punto di salto in $x=1$, con salto uguale a $1$
 \end{enumerate}
 \begin{solution}
-1) $\ln2-k=k-1 \Rightarrow k=\tfrac{\ln2+1}{2}$. 2) $|\ln2+1-2k|=1 \Rightarrow k=\tfrac{\ln2}{2}$ oppure $k=\tfrac{\ln2+2}{2}$.
+\begin{enumerate}
+    \item $k=\dfrac{1+\ln2}{2}$
+    \item $k=\dfrac{\ln2}{2}$ oppure $k=\dfrac{2+\ln2}{2}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In $x_0$ si calcolano il limite sinistro (con il ramo di sinistra) e il valore $f(x_0)$, che coincide con il limite destro (ramo di destra, che contiene $x_0$). La funzione è \textbf{continua} se sono uguali; ha un \textbf{salto} di ampiezza $s$ se la loro differenza in valore assoluto vale $s$.
+\[\begin{aligned}
+\lim_{x\to1^-}\big(\ln(1+x)-k\big) &= \ln2-k\\
+f(1) &= k\cdot1-1=k-1
+\end{aligned}\]
+\begin{enumerate}
+    \item Continuità:
+    \[ \ln2-k=k-1 \;\Rightarrow\; 2k=1+\ln2 \;\Rightarrow\; k=\dfrac{1+\ln2}{2} \]
+    \item Differenza: $(k-1)-(\ln2-k)=2k-1-\ln2$. Impongo che valga $\pm1$:
+    \[\begin{aligned}
+    2k-1-\ln2=1 &\;\Rightarrow\; k=\dfrac{2+\ln2}{2}\\
+    2k-1-\ln2=-1 &\;\Rightarrow\; k=\dfrac{\ln2}{2}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -320,8 +590,8 @@ f(x) = \begin{cases}
 Trova i valori di $k$ per cui la funzione
 \[
 f(x) = \begin{cases}
-    x^2 - kx \qquad x < -1 \\
-    kx + 3 \qquad x \ge -1
+    x^2 - kx & x < -1 \\
+    kx + 3 & x \ge -1
 \end{cases}
 \]
 \begin{enumerate}
@@ -329,8 +599,23 @@ f(x) = \begin{cases}
 \item presenti un punto di salto in $x=-1$, con salto uguale a $4$
 \end{enumerate}
 \begin{solution}
-1) $1+k=-k+3 \Rightarrow k=1$. 2) $|2k-2|=4 \Rightarrow k=3$ oppure $k=-1$.
+\begin{enumerate}
+    \item $k=1$
+    \item $k=-1$ oppure $k=3$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In $x_0$ si calcolano il limite sinistro (con il ramo di sinistra) e il valore $f(x_0)$, che coincide con il limite destro (ramo di destra, che contiene $x_0$). La funzione è \textbf{continua} se sono uguali; ha un \textbf{salto} di ampiezza $s$ se la loro differenza in valore assoluto vale $s$.
+\[\begin{aligned}
+\lim_{x\to-1^-}(x^2-kx) &= 1+k\\
+f(-1) &= -k+3
+\end{aligned}\]
+\begin{enumerate}
+    \item Continuità: \ $1+k=3-k \;\Rightarrow\; 2k=2 \;\Rightarrow\; k=1$.
+    \item Differenza: $(3-k)-(1+k)=2-2k$.
+    \[ |2-2k|=4 \;\Rightarrow\; 2-2k=4 \;\Rightarrow\; k=-1, \qquad 2-2k=-4 \;\Rightarrow\; k=3 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -339,8 +624,8 @@ f(x) = \begin{cases}
 Determina per quali valori di $k$ la funzione
 \[
 f(x) = \begin{cases}
-    kx - 2 \qquad x < 2 \\
-    4x + k \qquad x \ge 2
+    kx - 2 & x < 2 \\
+    4x + k & x \ge 2
 \end{cases}
 \]
 \begin{enumerate}
@@ -348,8 +633,20 @@ f(x) = \begin{cases}
 \item presenti un punto di salto in $x=2$, con salto uguale a $3$
 \end{enumerate}
 \begin{solution}
-1) $2k-2=8+k \Rightarrow k=10$. 2) $|k-10|=3 \Rightarrow k=13$ oppure $k=7$.
+\begin{enumerate}
+    \item $k=10$
+    \item $k=7$ oppure $k=13$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In $x_0$ si calcolano il limite sinistro (con il ramo di sinistra) e il valore $f(x_0)$, che coincide con il limite destro (ramo di destra, che contiene $x_0$). La funzione è \textbf{continua} se sono uguali; ha un \textbf{salto} di ampiezza $s$ se la loro differenza in valore assoluto vale $s$.
+\[ \lim_{x\to2^-}(kx-2)=2k-2, \qquad f(2)=8+k \]
+\begin{enumerate}
+    \item Continuità: \ $2k-2=8+k \;\Rightarrow\; k=10$.
+    \item Differenza: $(8+k)-(2k-2)=10-k$.
+    \[ |10-k|=3 \;\Rightarrow\; k=7 \;\text{ oppure }\; k=13 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -358,8 +655,8 @@ f(x) = \begin{cases}
 Stabilisci i valori di $k$ per cui la funzione
 \[
 f(x) = \begin{cases}
-    k + \sin(x) \qquad x < \dfrac{\pi}{2} \\
-    k\cos(x) \qquad x \ge \dfrac{\pi}{2}
+    k + \sin(x) & x < \dfrac{\pi}{2} \\
+    k\cos(x) & x \ge \dfrac{\pi}{2}
 \end{cases}
 \]
 \begin{enumerate}
@@ -367,8 +664,20 @@ f(x) = \begin{cases}
 \item presenti un punto di salto in $x=\dfrac{\pi}{2}$, con salto uguale a $\dfrac{1}{2}$
 \end{enumerate}
 \begin{solution}
-1) $k+1=0 \Rightarrow k=-1$. 2) $|k+1|=\tfrac{1}{2} \Rightarrow k=-\tfrac{1}{2}$ oppure $k=-\tfrac{3}{2}$.
+\begin{enumerate}
+    \item $k=-1$
+    \item $k=-\tfrac12$ oppure $k=-\tfrac32$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In $x_0$ si calcolano il limite sinistro (con il ramo di sinistra) e il valore $f(x_0)$, che coincide con il limite destro (ramo di destra, che contiene $x_0$). La funzione è \textbf{continua} se sono uguali; ha un \textbf{salto} di ampiezza $s$ se la loro differenza in valore assoluto vale $s$.
+\[ \lim_{x\to\frac\pi2^-}(k+\sin x)=k+1, \qquad f\!\left(\dfrac\pi2\right)=k\cos\dfrac\pi2=0 \]
+\begin{enumerate}
+    \item Continuità: \ $k+1=0 \;\Rightarrow\; k=-1$.
+    \item Differenza: $|0-(k+1)|=|k+1|$.
+    \[ |k+1|=\dfrac12 \;\Rightarrow\; k=-\dfrac12 \;\text{ oppure }\; k=-\dfrac32 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -377,8 +686,8 @@ f(x) = \begin{cases}
 Determina per quali valori di $k$ la funzione
 \[
 f(x) = \begin{cases}
-    kx^2 + 1 \qquad x < 0 \\
-    e^x - k \qquad x \ge 0
+    kx^2 + 1 & x < 0 \\
+    e^x - k & x \ge 0
 \end{cases}
 \]
 \begin{enumerate}
@@ -386,8 +695,19 @@ f(x) = \begin{cases}
 \item presenti un punto di salto in $x=0$, con salto uguale a $5$
 \end{enumerate}
 \begin{solution}
-1) $1=1-k \Rightarrow k=0$. 2) $|k|=5 \Rightarrow k=\pm5$.
+\begin{enumerate}
+    \item $k=0$
+    \item $k=\pm5$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+In $x_0$ si calcolano il limite sinistro (con il ramo di sinistra) e il valore $f(x_0)$, che coincide con il limite destro (ramo di destra, che contiene $x_0$). La funzione è \textbf{continua} se sono uguali; ha un \textbf{salto} di ampiezza $s$ se la loro differenza in valore assoluto vale $s$.
+\[ \lim_{x\to0^-}(kx^2+1)=1, \qquad f(0)=e^0-k=1-k \]
+\begin{enumerate}
+    \item Continuità: \ $1=1-k \;\Rightarrow\; k=0$.
+    \item Differenza: $(1-k)-1=-k$, quindi $|k|=5 \;\Rightarrow\; k=\pm5$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -398,8 +718,20 @@ Studia la seguente funzione ponendo particolare attenzione a eventuali asintoti:
     f(x) =\frac{x^2+1}{x-1}
 \end{equation*}
 \begin{solution}
-Asintoto verticale $x=1$; asintoto obliquo $y=x+1$ (divisione: $x^2+1=(x-1)(x+1)+2$).
+Asintoto verticale $x=1$; \ asintoto obliquo $y=x+1$; \ nessun asintoto orizzontale.
 \end{solution}
+\begin{explanation}
+\textbf{Asintoti verticali.} Il denominatore si annulla in $x=1$, dove il numeratore vale $2\neq0$: $f\to\pm\infty$, quindi $x=1$ è asintoto verticale.
+
+\textbf{Asintoti orizzontali.} Il grado del numeratore ($2$) supera quello del denominatore ($1$): $f\to\pm\infty$ all'infinito, nessun asintoto orizzontale.
+
+\textbf{Asintoto obliquo.} I gradi differiscono di $1$: c'è un asintoto obliquo. Divido i polinomi:
+\[\begin{aligned}
+x^2+1 &= (x-1)(x+1)+2\\
+\dfrac{x^2+1}{x-1} &= x+1+\dfrac{2}{x-1}
+\end{aligned}\]
+Il termine $\dfrac{2}{x-1}$ tende a $0$ all'infinito: l'asintoto è $y=x+1$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -410,8 +742,14 @@ Studia la seguente funzione ponendo particolare attenzione a eventuali asintoti:
     f(x) = \frac{x^2 - 4}{x+2}
 \end{equation*}
 \begin{solution}
-$f(x)=x-2$ per $x\ne-2$: buco (discontinuità eliminabile) in $x=-2$, nessun asintoto.
+Nessun asintoto; \ discontinuità eliminabile in $x=-2$ (il grafico è la retta $y=x-2$ privata del punto $(-2,-4)$).
 \end{solution}
+\begin{explanation}
+Scompongo il numeratore: $x^2-4=(x-2)(x+2)$. Per $x\neq-2$:
+\[ f(x)=\dfrac{(x-2)(x+2)}{x+2}=x-2 \]
+In $x=-2$ il limite vale $-4$, finito: non c'è asintoto verticale ma un \emph{buco} (discontinuità eliminabile). \\
+Il grafico è una retta, quindi non ci sono asintoti orizzontali o obliqui (la retta coincide con se stessa).
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -422,8 +760,15 @@ Analizza la seguente funzione razionale determinando la presenza di eventuali as
     f(x) = \frac{2x+3}{x^2-1}
 \end{equation*}
 \begin{solution}
-Asintoti verticali $x=1$ e $x=-1$; asintoto orizzontale $y=0$.
+Asintoti verticali $x=1$ e $x=-1$; \ asintoto orizzontale $y=0$.
 \end{solution}
+\begin{explanation}
+\textbf{Verticali.} $x^2-1=0$ per $x=\pm1$; il numeratore vale $5$ e $1$, non nullo: entrambi asintoti verticali.
+
+\textbf{Orizzontale.} Il grado del numeratore ($1$) è minore di quello del denominatore ($2$):
+\[ \lim_{x\to\pm\infty}\dfrac{2x+3}{x^2-1}=0 \]
+quindi $y=0$ è asintoto orizzontale (e non c'è obliquo).
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -434,8 +779,20 @@ Studia la funzione seguente, soffermandoti su eventuali asintoti e sul comportam
     f(x) = \frac{x^3 - 2x}{x^2+1}
 \end{equation*}
 \begin{solution}
-Nessun asintoto verticale; asintoto obliquo $y=x$ (poiché $x^3-2x=(x^2+1)x-3x$, quindi $f(x)=x-\tfrac{3x}{x^2+1}\to x$).
+Nessun asintoto verticale né orizzontale; \ asintoto obliquo $y=x$.
 \end{solution}
+\begin{explanation}
+\textbf{Verticali.} $x^2+1>0$ sempre: nessun asintoto verticale.
+
+\textbf{Orizzontale.} Grado del numeratore $3$, del denominatore $2$: $f\to\pm\infty$, nessun asintoto orizzontale.
+
+\textbf{Obliquo.} I gradi differiscono di $1$. Divido:
+\[\begin{aligned}
+x^3-2x &= x(x^2+1)-3x\\
+f(x) &= x-\dfrac{3x}{x^2+1}
+\end{aligned}\]
+$\dfrac{3x}{x^2+1}\to0$ all'infinito (grado minore al numeratore): l'asintoto è $y=x$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -446,8 +803,17 @@ Determina il dominio della funzione e analizza eventuali asintoti:
     f(x) = \frac{x^2 + x + 1}{x^2 - 2x}
 \end{equation*}
 \begin{solution}
-Asintoti verticali $x=0$ e $x=2$; asintoto orizzontale $y=1$.
+Dominio $x\neq0,\ x\neq2$; \ asintoti verticali $x=0$ e $x=2$; \ asintoto orizzontale $y=1$.
 \end{solution}
+\begin{explanation}
+\textbf{Dominio.} $x^2-2x=x(x-2)\neq0$: \ $x\neq0$ e $x\neq2$.
+
+\textbf{Verticali.} Il numeratore vale $1$ in $x=0$ e $7$ in $x=2$ (non nullo): entrambi asintoti verticali. \\
+(Il numeratore $x^2+x+1$ ha $\Delta<0$ e non si annulla mai, quindi non ci sono semplificazioni.)
+
+\textbf{Orizzontale.} Numeratore e denominatore hanno lo stesso grado: il limite all'infinito è il rapporto dei coefficienti direttivi:
+\[ \lim_{x\to\pm\infty}\dfrac{x^2+x+1}{x^2-2x}=\dfrac11=1 \]
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -458,6 +824,19 @@ Studia la funzione seguente, con particolare attenzione agli asintoti verticali 
     f(x) = \frac{\sqrt{x^2+1}}{x-3}
 \end{equation*}
 \begin{solution}
-Asintoto verticale $x=3$; asintoti orizzontali $y=1$ (per $x\to+\infty$) e $y=-1$ (per $x\to-\infty$).
+Asintoto verticale $x=3$; \ asintoti orizzontali $y=1$ (per $x\to+\infty$) e $y=-1$ (per $x\to-\infty$).
 \end{solution}
+\begin{explanation}
+\textbf{Dominio.} Il radicando $x^2+1$ è sempre positivo; resta $x\neq3$.
+
+\textbf{Verticale.} In $x=3$ il numeratore vale $\sqrt{10}\neq0$: asintoto verticale.
+
+\textbf{Orizzontali.} Raccolgo $x^2$ sotto radice, ricordando che $\sqrt{x^2}=|x|$:
+\[\begin{aligned}
+\dfrac{\sqrt{x^2+1}}{x-3} &= \dfrac{|x|\sqrt{1+\frac1{x^2}}}{x\left(1-\frac3x\right)}\\
+x\to+\infty: &\quad |x|=x \;\Rightarrow\; f\to1\\
+x\to-\infty: &\quad |x|=-x \;\Rightarrow\; f\to-1
+\end{aligned}\]
+Due asintoti orizzontali diversi: $y=1$ a destra e $y=-1$ a sinistra.
+\end{explanation}
 \end{question}

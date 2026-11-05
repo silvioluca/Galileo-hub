@@ -20,12 +20,42 @@ Semplificare le seguenti espressioni usando le proprietà delle potenze e scrive
 \begin{enumerate}
     \item $2^0=1$
     \item $3^2=9$
-    \item $\left(\tfrac{2}{3}\right)^2=\tfrac{4}{9}$
+    \item $\left(\tfrac23\right)^2=\tfrac49$
     \item $5^5=3125$
     \item $2^2=4$
     \item $4^1=4$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Proprietà delle potenze (stessa base): nel prodotto gli esponenti si \textbf{sommano}, nella divisione si \textbf{sottraggono}, nella potenza di potenza si \textbf{moltiplicano}. Inoltre $\left(\tfrac ab\right)^{-n}=\left(\tfrac ba\right)^{n}$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    2^5\cdot2^{-3}:2^2 &= 2^{5+(-3)-2} && \textcolor{gray}{\text{stessa base: sommo e sottraggo gli esponenti}}\\
+    &= 2^0=1 && \textcolor{gray}{\text{ogni potenza con esponente $0$ vale $1$}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (3^2\cdot3^{-1})^2 &= (3^{2-1})^2 && \textcolor{gray}{\text{prodotto: sommo gli esponenti}}\\
+    &= (3^1)^2=3^2=9 && \textcolor{gray}{\text{potenza di potenza}}
+    \end{aligned}\]
+    \item Rendo tutto con base $\tfrac23$: \ $\left(\tfrac32\right)^{-2}=\left(\tfrac23\right)^{2}$.
+    \[\begin{aligned}
+    \left(\dfrac23\right)^3:\left(\dfrac23\right)^{-1}\cdot\left(\dfrac23\right)^{2}\cdot\left(\dfrac23\right)^{-4} &= \left(\dfrac23\right)^{3-(-1)+2+(-4)}\\
+    &= \left(\dfrac23\right)^{2}=\dfrac49
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (5^{-1})^{-3}\cdot5^2 &= 5^{3}\cdot5^2 && \textcolor{gray}{\text{potenza di potenza: $(-1)\cdot(-3)=3$}}\\
+    &= 5^5=3125
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (2^{-3}\cdot2^5)^2:2^2 &= (2^2)^2:2^2 && \textcolor{gray}{\text{nella parentesi: $-3+5=2$}}\\
+    &= 2^4:2^2=2^2=4
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (4^3)^{-1}\cdot4^4 &= 4^{-3}\cdot4^4 && \textcolor{gray}{\text{potenza di potenza}}\\
+    &= 4^{1}=4
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -45,13 +75,42 @@ Calcolare i seguenti valori e semplificare il più possibile:
 \begin{solution}
 \begin{enumerate}
     \item $8$
-    \item $\tfrac{1}{9}$
-    \item $8^{5/3}=32$
+    \item $\tfrac19$
+    \item $32$
     \item $a^{1/2}$
     \item $27$
     \item $b$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Un esponente frazionario indica una radice: $a^{m/n}=\sqrt[n]{a^m}$. Conviene scrivere la base come potenza di un numero primo e poi moltiplicare gli esponenti.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    16^{3/4} &= (2^4)^{3/4} && \textcolor{gray}{\text{$16=2^4$}}\\
+    &= 2^{4\cdot\frac34}=2^3=8
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    27^{-2/3} &= (3^3)^{-2/3} && \textcolor{gray}{\text{$27=3^3$}}\\
+    &= 3^{-2}=\dfrac{1}{9} && \textcolor{gray}{\text{esponente negativo: reciproco}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    \sqrt[3]{8^5} &= 8^{5/3}=(2^3)^{5/3} && \textcolor{gray}{\text{$8=2^3$}}\\
+    &= 2^5=32
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (a^{1/2}\cdot a^{-3/4})^{-2} &= (a^{\frac24-\frac34})^{-2} && \textcolor{gray}{\text{prodotto: sommo gli esponenti}}\\
+    &= (a^{-1/4})^{-2}=a^{1/2} && \textcolor{gray}{\text{potenza di potenza: $-\dfrac14\cdot(-2)=\dfrac12$}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    81^{3/4} &= (3^4)^{3/4} && \textcolor{gray}{\text{$81=3^4$}}\\
+    &= 3^3=27
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (b^{-1/2}\cdot b^{5/6})^3 &= (b^{-\frac36+\frac56})^3=(b^{1/3})^3 && \textcolor{gray}{\text{sommo gli esponenti}}\\
+    &= b^1=b
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -71,13 +130,52 @@ Risolvi le seguenti equazioni:
 \begin{solution}
 \begin{enumerate}
     \item $x=3$
-    \item $x=\tfrac{3}{2}$
+    \item $x=\tfrac32$
     \item $x=-2$
     \item $x=\pm2^{5/6}$
     \item $x=2$
-    \item $x=\tfrac{5}{3}$
+    \item $x=\tfrac53$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Si scrivono i due membri come potenze della \textbf{stessa base}: due potenze con la stessa base sono uguali solo se hanno lo stesso esponente.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    4^x &= 64\\
+    2^{2x} &= 2^6 && \textcolor{gray}{\text{$4=2^2$, \ $64=2^6$}}\\
+    2x &= 6 && \textcolor{gray}{\text{uguaglio gli esponenti}}\\
+    x &= 3
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    9\cdot3^{2x-1} &= 81\\
+    3^2\cdot3^{2x-1} &= 3^4 && \textcolor{gray}{\text{$9=3^2$, \ $81=3^4$}}\\
+    3^{2x+1} &= 3^4 && \textcolor{gray}{\text{prodotto: sommo gli esponenti}}\\
+    2x+1 &= 4\\
+    x &= \dfrac32
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    2^{2x+1} &= \dfrac18=2^{-3} && \textcolor{gray}{\text{$\dfrac18=2^{-3}$}}\\
+    2x+1 &= -3\\
+    x &= -2
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (x^3)^2 &= 32\\
+    x^6 &= 32=2^5 && \textcolor{gray}{\text{potenza di potenza}}\\
+    x &= \pm\sqrt[6]{2^5}=\pm2^{5/6} && \textcolor{gray}{\text{esponente pari: due soluzioni opposte}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    5^{x+1} &= 125=5^3\\
+    x+1 &= 3\\
+    x &= 2
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    27^{x-1} &= 9\\
+    3^{3(x-1)} &= 3^2 && \textcolor{gray}{\text{$27=3^3$, \ $9=3^2$}}\\
+    3x-3 &= 2\\
+    x &= \dfrac53
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -94,14 +192,38 @@ Potenze di 10 e notazione scientifica:
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-    \item $5{,}2\times10^{-4}$; $1{,}24\times10^6$
+    \item $5{,}2\times10^{-4}$; \ $1{,}24\times10^6$
     \item $1{,}6\times10^3$
     \item $10^2=100$
-    \item $\dfrac{1}{6{,}02\times10^{23}}\approx1{,}66\times10^{-24}$
+    \item $1{,}66\times10^{-24}$
     \item $1{,}5\times10^2$
     \item $3\times10^4$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Un numero è in notazione scientifica se è scritto come $a\times10^n$ con $1\leq a<10$. Nei calcoli si operano separatamente i numeri $a$ e le potenze di $10$, poi si riporta $a$ tra $1$ e $10$.
+\begin{enumerate}
+    \item $0{,}00052$: sposto la virgola di $4$ posti a destra per ottenere $5{,}2$, quindi l'esponente è $-4$: \ $5{,}2\times10^{-4}$. \\
+    $1\,240\,000$: sposto la virgola di $6$ posti a sinistra per ottenere $1{,}24$: \ $1{,}24\times10^{6}$.
+    \item \[\begin{aligned}
+    (3{,}2\times10^4)\cdot(5\times10^{-2}) &= (3{,}2\cdot5)\times10^{4-2} && \textcolor{gray}{\text{numeri con numeri, potenze con potenze}}\\
+    &= 16\times10^2\\
+    &= 1{,}6\times10^3 && \textcolor{gray}{\text{$16=1{,}6\times10$}}
+    \end{aligned}\]
+    \item \[ \dfrac{10^7\cdot10^{-3}}{10^2}=10^{7-3-2}=10^2=100 \]
+    \item $6{,}02\times10^{23}$ è già in notazione scientifica ($6{,}02$ è tra $1$ e $10$). Per il reciproco:
+    \[\begin{aligned}
+    (6{,}02\times10^{23})^{-1} &= \dfrac{1}{6{,}02}\times10^{-23}\\
+    &\approx 0{,}166\times10^{-23} && \textcolor{gray}{\text{$1:6{,}02\approx0{,}166$}}\\
+    &= 1{,}66\times10^{-24} && \textcolor{gray}{\text{riporto la mantissa tra $1$ e $10$}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    (7{,}5\cdot2)\times10^{-3+4} &= 15\times10^1\\
+    &= 1{,}5\times10^2
+    \end{aligned}\]
+    \item \[ \dfrac{3{,}6}{1{,}2}\times10^{7-3}=3\times10^4 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -129,14 +251,53 @@ Risolvi o argomenta i seguenti esercizi sulle potenze:
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-    \item Per gli esponenti naturali la proprietà deriva dalla somma dei fattori uguali; per gli esponenti negativi si usa $a^{-n}=\dfrac{1}{a^n}$ e si ottiene ancora $a^m\cdot a^n=a^{m+n}$.
-    \item $2^2a^{-1}b^{-1}=\dfrac{4}{ab}$
+    \item $a^m\cdot a^n=a^{m+n}$ per ogni $m,n$ interi (vedi spiegazione)
+    \item $\dfrac{4b^5}{a^6}$
     \item $49x^4$
-    \item $\dfrac{C(10)}{C(0)}=10^{-0{,}3}\approx0{,}501$; il dimezzamento avviene per $t=\dfrac{\log 2}{0{,}03}\approx10{,}03$ ore.
+    \item $\dfrac{C(10)}{C(0)}\approx0{,}501$; \ dimezzamento dopo circa $10$ ore
     \item $\dfrac{a^4}{3}$
-    \item $x=\dfrac{1+\log 4}{2}\approx0{,}801$
+    \item $x=\dfrac{1+\log4}{2}\approx0{,}801$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Per $m,n$ naturali, $a^m$ è il prodotto di $m$ fattori uguali ad $a$ e $a^n$ di $n$ fattori: moltiplicandoli si ottengono $m+n$ fattori, cioè
+    \[ a^m\cdot a^n=\underbrace{a\cdots a}_{m}\cdot\underbrace{a\cdots a}_{n}=a^{m+n}. \]
+    Per estendere agli esponenti negativi si definisce $a^{-n}=\dfrac{1}{a^n}$ (con $a\neq0$). Ad esempio, se $m>n>0$:
+    \[ a^m\cdot a^{-n}=\dfrac{a^m}{a^n}=a^{m-n}=a^{m+(-n)}, \]
+    perché $n$ fattori del numeratore si semplificano con quelli del denominatore. Gli altri casi si verificano allo stesso modo: la regola resta valida per tutti gli esponenti interi.
+    \item \[\begin{aligned}
+    (2^3a^{-2}b)^2 &= 2^6a^{-4}b^2 && \textcolor{gray}{\text{elevo ogni fattore al quadrato}}\\
+    (ab^{-1})^{-3} &= a^{-3}b^{3} && \textcolor{gray}{\text{elevo ogni fattore alla $-3$}}\\
+    \text{numeratore} &= 2^6a^{-7}b^5 && \textcolor{gray}{\text{sommo gli esponenti di $a$}}\\
+    \dfrac{2^6a^{-7}b^5}{2^4a^{-1}} &= 2^{6-4}a^{-7-(-1)}b^5 && \textcolor{gray}{\text{divisione: sottraggo gli esponenti}}\\
+    &= 4a^{-6}b^5=\dfrac{4b^5}{a^6}
+    \end{aligned}\]
+    \item Moltiplicare per $x^{-3}$ abbassa l'esponente di $3$; elevare al quadrato raddoppia esponente e quadrato del coefficiente:
+    \[ 7x^5\cdot x^{-3}=7x^2, \qquad (7x^2)^2=49x^4. \]
+    \item \[\begin{aligned}
+    \dfrac{C(10)}{C(0)} &= \dfrac{C_0\cdot10^{-0{,}03\cdot10}}{C_0\cdot10^0} && \textcolor{gray}{\text{sostituisco $t=10$ e $t=0$}}\\
+    &= 10^{-0{,}3}\approx0{,}501
+    \end{aligned}\]
+    Per la metà della concentrazione iniziale impongo $C(t)=\tfrac12C_0$:
+    \[\begin{aligned}
+    10^{-0{,}03t} &= \dfrac12 && \textcolor{gray}{\text{divido per $C_0$}}\\
+    -0{,}03t &= \log\dfrac12=-\log2 && \textcolor{gray}{\text{applico il logaritmo in base $10$}}\\
+    t &= \dfrac{\log2}{0{,}03}\approx\dfrac{0{,}301}{0{,}03}\approx10{,}03
+    \end{aligned}\]
+    Dopo circa $10$ ore (infatti già $C(10)/C(0)\approx0{,}5$).
+    \item \[\begin{aligned}
+    (3^{-2}a^3b^{-1})^2 &= 3^{-4}a^6b^{-2} && \textcolor{gray}{\text{elevo ogni fattore al quadrato}}\\
+    \dfrac{3^{-4}a^6b^{-2}}{3^{-3}a^2b^{-2}} &= 3^{-4+3}a^{6-2}b^{-2+2} && \textcolor{gray}{\text{sottraggo gli esponenti}}\\
+    &= 3^{-1}a^4b^0=\dfrac{a^4}{3}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    10^{2x-1} &= 4\\
+    2x-1 &= \log4 && \textcolor{gray}{\text{logaritmo in base $10$ di entrambi i membri}}\\
+    x &= \dfrac{1+\log4}{2}\approx\dfrac{1+0{,}602}{2}\approx0{,}801
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -160,14 +321,53 @@ Calcola il valore delle seguenti espressioni:
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-    \item $-\dfrac{17}{6}$
-    \item $\dfrac{2}{5}$
-    \item $\dfrac{5}{16}$
+    \item $-\tfrac{17}{6}$
+    \item $\tfrac25$
+    \item $\tfrac{5}{16}$
     \item $24$
-    \item $\dfrac{25}{24}$
-    \item $\dfrac{11}{6}$
+    \item $\tfrac{25}{24}$
+    \item $\tfrac{11}{6}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Si svolgono prima le parentesi più interne (tonde, poi quadre, poi graffe) e, dentro ciascuna, prima potenze, poi moltiplicazioni e divisioni, infine addizioni e sottrazioni.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    \dfrac12-\dfrac13 &= \dfrac16, \qquad \dfrac7{12}+\dfrac14=\dfrac{10}{12}=\dfrac56 && \textcolor{gray}{\text{tonde}}\\
+    \text{graffa} &= \dfrac16-\dfrac16+3-\dfrac56=\dfrac{13}{6}\\
+    -\dfrac23-\dfrac{13}{6} &= -\dfrac46-\dfrac{13}{6}=-\dfrac{17}{6} && \textcolor{gray}{\text{denominatore comune $6$}}
+    \end{aligned}\]
+    \item Osservo che $3-\tfrac12=\tfrac52$, quindi tutte le potenze hanno base $\tfrac52$ (e $\left(-\tfrac52\right)^6=\left(\tfrac52\right)^6$ perché l'esponente è pari).
+    \[\begin{aligned}
+    \left[\left(\dfrac52\right)^4\cdot\left(\dfrac52\right)^2\right] &= \left(\dfrac52\right)^6 && \textcolor{gray}{\text{prima quadra}}\\
+    \left(\dfrac52\right)^6:\left(\dfrac52\right)^2 &= \left(\dfrac52\right)^4\\
+    \left[\left(\dfrac52\right)^6:\dfrac52\right] &= \left(\dfrac52\right)^5 && \textcolor{gray}{\text{seconda quadra}}\\
+    \left(\dfrac52\right)^4:\left(\dfrac52\right)^5 &= \left(\dfrac52\right)^{-1}=\dfrac25
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    \dfrac32-\dfrac14 &= \dfrac54, \qquad \dfrac12+\dfrac14=\dfrac34 && \textcolor{gray}{\text{tonde}}\\
+    \left(\dfrac54\right)^2:\dfrac54 &= \dfrac54, \qquad \left(\dfrac34\right)^2=\dfrac{9}{16}\\
+    \text{quadra} &= \dfrac54-\dfrac9{16}=\dfrac{20-9}{16}=\dfrac{11}{16}\\
+    \text{graffa} &= \dfrac{15}{16}-\dfrac{11}{16}=\dfrac4{16}=\dfrac14\\
+    \left(\dfrac14\right)^2+\dfrac14 &= \dfrac1{16}+\dfrac4{16}=\dfrac5{16}
+    \end{aligned}\]
+    \item Trasformo i decimali: $0{,}20=\tfrac15$, \ $1{,}3=\tfrac{13}{10}$, \ $0{,}75=\tfrac34$.
+    \[\begin{aligned}
+    \left(\dfrac15+\dfrac23\right):\left(\dfrac73-2\right) &= \dfrac{13}{15}:\dfrac13=\dfrac{13}{15}\cdot3=\dfrac{13}{5} && \textcolor{gray}{\text{prima quadra}}\\
+    \left(\dfrac34-\dfrac23\right)^{-1} &= \left(\dfrac1{12}\right)^{-1}=12\\
+    \dfrac{13}{10}:12 &= \dfrac{13}{120} && \textcolor{gray}{\text{seconda quadra}}\\
+    \dfrac{13}{5}:\dfrac{13}{120} &= \dfrac{13}{5}\cdot\dfrac{120}{13}=24
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    \dfrac12-\dfrac18 &= \dfrac38 && \textcolor{gray}{\text{parentesi}}\\
+    \dfrac34-\dfrac38+\dfrac23 &= \dfrac{18-9+16}{24}=\dfrac{25}{24} && \textcolor{gray}{\text{denominatore comune $24$}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    \left(\dfrac53\right)^2:\dfrac53 &= \dfrac53 && \textcolor{gray}{\text{divisione tra potenze: $2-1=1$}}\\
+    \dfrac53+\dfrac16 &= \dfrac{10+1}{6}=\dfrac{11}{6}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -186,14 +386,43 @@ Calcola il valore delle seguenti espressioni:
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-    \item $-1$
-    \item $\dfrac{9}{4}$
-    \item $\dfrac{1}{4}$
+    \item $-\tfrac54$
+    \item $\tfrac94$
+    \item $\tfrac14$
     \item $2$
-    \item $\dfrac{9}{16}$
-    \item $\dfrac{7}{10}$
+    \item $\tfrac{9}{16}$
+    \item $\tfrac{7}{10}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item \[\begin{aligned}
+    \dfrac14-\dfrac12+1 &= \dfrac{1-2+4}{4}=\dfrac34 && \textcolor{gray}{\text{parentesi}}\\
+    -\dfrac12-\dfrac34 &= -\dfrac24-\dfrac34=-\dfrac54
+    \end{aligned}\]
+    \item \[ \left(\dfrac32\right)^3:\left(\dfrac32\right)=\left(\dfrac32\right)^{3-1}=\left(\dfrac32\right)^2=\dfrac94 \]
+    \item \[\begin{aligned}
+    \dfrac12+\dfrac13 &= \dfrac56 && \textcolor{gray}{\text{tonda}}\\
+    \dfrac56-\dfrac56 &= 0 && \textcolor{gray}{\text{quadra}}\\
+    0^2+\dfrac14 &= \dfrac14
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    0{,}5+\dfrac12 &= \dfrac12+\dfrac12=1\\
+    \dfrac32-1 &= \dfrac12\\
+    1:\dfrac12 &= 2
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    \dfrac34+\dfrac12 &= \dfrac54\\
+    \dfrac54:\dfrac53 &= \dfrac54\cdot\dfrac35=\dfrac34 && \textcolor{gray}{\text{divisione: moltiplico per il reciproco}}\\
+    \left(\dfrac34\right)^2 &= \dfrac9{16}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    0{,}6-\dfrac14 &= \dfrac35-\dfrac14=\dfrac{12-5}{20}=\dfrac{7}{20}\\
+    \dfrac7{20}:\dfrac7{10} &= \dfrac7{20}\cdot\dfrac{10}7=\dfrac12\\
+    \dfrac12+\dfrac15 &= \dfrac{5+2}{10}=\dfrac{7}{10}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -217,12 +446,47 @@ Calcola il valore delle seguenti espressioni con numeri periodici:
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-    \item $\dfrac{16}{15}$
-    \item $\dfrac{9}{25}$
-    \item $\dfrac{3}{5}$
-    \item $\dfrac{5}{9}$
-    \item $\dfrac{1}{9}$
-    \item $1$
+    \item $\tfrac{16}{15}$
+    \item $\tfrac{9}{25}$
+    \item $\tfrac35$
+    \item $\tfrac59$
+    \item $\tfrac29$
+    \item $\tfrac32$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Ogni numero decimale periodico si trasforma nella sua \textbf{frazione generatrice}: al numeratore il numero senza virgola meno il numero formato dalle cifre prima del periodo; al denominatore tanti $9$ quante sono le cifre del periodo, seguiti da tanti $0$ quante sono le cifre dell'antiperiodo.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    2{,}\overline{8} &= \dfrac{28-2}{9}=\dfrac{26}{9} && \textcolor{gray}{\text{frazione generatrice}}\\
+    (1{,}3\cdot10)^{-1} &= 13^{-1}=\dfrac1{13}\\
+    \dfrac35\cdot\dfrac{26}9\cdot\dfrac1{13} &= \dfrac{3\cdot26}{5\cdot9\cdot13}=\dfrac{2}{15} && \textcolor{gray}{\text{semplifico $26$ con $13$ e $3$ con $9$}}\\
+    1{,}2-\dfrac2{15} &= \dfrac65-\dfrac2{15}=\dfrac{18-2}{15}=\dfrac{16}{15}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    0{,}2\overline{6} &= \dfrac{26-2}{90}=\dfrac{24}{90}=\dfrac4{15} && \textcolor{gray}{\text{frazione generatrice}}\\
+    (0{,}4)^2 &= \left(\dfrac25\right)^2=\dfrac4{25}\\
+    \dfrac4{15}:\dfrac4{25} &= \dfrac4{15}\cdot\dfrac{25}4=\dfrac53\\
+    \left(\dfrac53\right)^2:\left(\dfrac53\right)^4 &= \left(\dfrac53\right)^{-2}=\left(\dfrac35\right)^2=\dfrac{9}{25}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    0{,}\overline{3} &= \dfrac39=\dfrac13, \qquad 0{,}2\overline{6}=\dfrac4{15}\\
+    \dfrac13+\dfrac4{15} &= \dfrac{5+4}{15}=\dfrac{9}{15}=\dfrac35
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    1{,}\overline{2} &= \dfrac{12-1}{9}=\dfrac{11}9, \qquad 0{,}\overline{6}=\dfrac69\\
+    \dfrac{11}9-\dfrac69 &= \dfrac59
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    0{,}\overline{6} &= \dfrac69=\dfrac23\\
+    \left(\dfrac23-\dfrac13\right)^2 &= \left(\dfrac13\right)^2=\dfrac19\\
+    \dfrac19+\dfrac19 &= \dfrac29
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    1{,}1\overline{6} &= \dfrac{116-11}{90}=\dfrac{105}{90}=\dfrac76 && \textcolor{gray}{\text{frazione generatrice}}\\
+    \dfrac76-\dfrac16 &= 1\\
+    1:\dfrac23 &= \dfrac32 && \textcolor{gray}{\text{$0{,}\overline6=\dfrac23$}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}

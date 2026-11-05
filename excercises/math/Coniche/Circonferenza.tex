@@ -3,35 +3,84 @@
 %----------------------------------------------------------%
 \begin{question}[ID=1.1, subtitle={Verifica della circonferenza $x^2+y^2-4x+6y-3=0$}, difficulty=facile, tags={circonferenza}]
 Verifica se l'equazione $x^2+y^2-4x+6y-3=0$ rappresenta una circonferenza e determina eventualmente centro e raggio.
-\begin{solution}$C(2,-3),\ r=4$\end{solution}
+\begin{solution}
+Sì: \ $C(2,-3)$, \ $r=4$.
+\end{solution}
+\begin{explanation}
+L'equazione $x^2+y^2+ax+by+c=0$ rappresenta una circonferenza reale se $r^2=\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c>0$; in tal caso il centro è $C\left(-\tfrac a2,\,-\tfrac b2\right)$ e il raggio $r=\sqrt{\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c}$.
+Qui $a=-4$, $b=6$, $c=-3$.
+\[\begin{aligned}
+C &= \left(-\dfrac{-4}{2},\,-\dfrac62\right)=(2,-3)\\
+r^2 &= 2^2+(-3)^2-(-3)=4+9+3=16>0 \;\Rightarrow\; r=4
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.2, subtitle={Verifica di una circonferenza non reale}, difficulty=facile, tags={circonferenza}]
 Verifica se l'equazione $x^2+y^2+2x-8y+20=0$ rappresenta una circonferenza.
-\begin{solution}L'equazione non rappresenta una circonferenza reale.\end{solution}
+\begin{solution}
+No: non rappresenta una circonferenza reale ($r^2=-3<0$).
+\end{solution}
+\begin{explanation}
+L'equazione $x^2+y^2+ax+by+c=0$ rappresenta una circonferenza reale se $r^2=\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c>0$; in tal caso il centro è $C\left(-\tfrac a2,\,-\tfrac b2\right)$ e il raggio $r=\sqrt{\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c}$.
+$a=2$, $b=-8$, $c=20$:
+\[ r^2=1^2+(-4)^2-20=1+16-20=-3<0 \]
+Nessun punto del piano soddisfa l'equazione.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.3, subtitle={Valori di $k$ per la forma canonica della circonferenza}, difficulty=media, tags={circonferenza, parametri}]
 Studia per quali valori di $k$ l'equazione $x^2+y^2+(k-1)x+2y-5=0$ rappresenta una circonferenza.
-\begin{solution}$\forall k\in\mathbb{R}$\end{solution}
+\begin{solution}
+Per ogni $k\in\mathbb{R}$.
+\end{solution}
+\begin{explanation}
+L'equazione $x^2+y^2+ax+by+c=0$ rappresenta una circonferenza reale se $r^2=\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c>0$; in tal caso il centro è $C\left(-\tfrac a2,\,-\tfrac b2\right)$ e il raggio $r=\sqrt{\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c}$.
+$a=k-1$, $b=2$, $c=-5$:
+\[ r^2=\left(\dfrac{k-1}{2}\right)^2+1+5=\dfrac{(k-1)^2}{4}+6 \]
+È somma di un quadrato e di un numero positivo: sempre $>0$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.4, subtitle={Intervallo di $k$ per cui esiste la circonferenza}, difficulty=media, tags={circonferenza, parametri}]
 Studia per quali valori di $k$ l'equazione $x^2+y^2+2(k-2)x+(k+1)y+1=0$ rappresenta una circonferenza.
-\begin{solution}$k<\dfrac{7-2\sqrt{11}}{5} \vee k>\dfrac{7+2\sqrt{11}}{5}$\end{solution}
+\begin{solution}
+Per ogni $k\in\mathbb{R}$.
+\end{solution}
+\begin{explanation}
+L'equazione $x^2+y^2+ax+by+c=0$ rappresenta una circonferenza reale se $r^2=\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c>0$; in tal caso il centro è $C\left(-\tfrac a2,\,-\tfrac b2\right)$ e il raggio $r=\sqrt{\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c}$.
+$a=2(k-2)$, $b=k+1$, $c=1$:
+\[\begin{aligned}
+r^2 &= (k-2)^2+\dfrac{(k+1)^2}{4}-1>0\\
+4(k^2-4k+4)+(k^2+2k+1)-4 &> 0 && \textcolor{gray}{\text{moltiplico per $4$}}\\
+5k^2-14k+13 &> 0
+\end{aligned}\]
+Il discriminante è $\tfrac\Delta4=49-65=-16<0$ e il coefficiente di $k^2$ è positivo: la disequazione è sempre verificata.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.5, subtitle={Raggio costante al variare di $k$}, difficulty=media, tags={circonferenza, parametri}]
 Studia per quali valori di $k$ l'equazione $x^2+y^2-2kx+4y+k^2-9=0$ rappresenta una circonferenza.
-\begin{solution}$\forall k\in\mathbb{R},\ r=\sqrt{13}$\end{solution}
+\begin{solution}
+Per ogni $k\in\mathbb{R}$; il raggio è sempre $r=\sqrt{13}$.
+\end{solution}
+\begin{explanation}
+L'equazione $x^2+y^2+ax+by+c=0$ rappresenta una circonferenza reale se $r^2=\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c>0$; in tal caso il centro è $C\left(-\tfrac a2,\,-\tfrac b2\right)$ e il raggio $r=\sqrt{\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c}$.
+$a=-2k$, $b=4$, $c=k^2-9$:
+\[\begin{aligned}
+C &= (k,\,-2)\\
+r^2 &= k^2+4-(k^2-9)=13 && \textcolor{gray}{\text{i termini in $k^2$ si eliminano}}
+\end{aligned}\]
+Sono circonferenze tutte uguali, con centro che scorre sulla retta $y=-2$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -39,112 +88,266 @@ Studia per quali valori di $k$ l'equazione $x^2+y^2-2kx+4y+k^2-9=0$ rappresenta 
 %----------------------------------------------------------%
 \begin{question}[ID=2.1, subtitle={Circonferenza con centro nell'origine e $r=3$}, difficulty=facile, tags={circonferenza}]
 Scrivi l'equazione della circonferenza con centro $C(0,0)$ e raggio $r=3$.
-\begin{solution}$x^2+y^2=9$\end{solution}
+\begin{solution}
+$x^2+y^2=9$
+\end{solution}
+\begin{explanation}
+Una circonferenza di centro $(x_0,y_0)$ e raggio $r$ ha equazione $(x-x_0)^2+(y-y_0)^2=r^2$. Con centro nell'origine e $r=3$: $x^2+y^2=9$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.2, subtitle={Circonferenza con centro $C(2,-1)$ e $r=4$}, difficulty=facile, tags={circonferenza}]
 Scrivi l'equazione della circonferenza con centro $C(2,-1)$ e raggio $r=4$.
-\begin{solution}$(x-2)^2+(y+1)^2=16$\end{solution}
+\begin{solution}
+$(x-2)^2+(y+1)^2=16$ \ (cioè $x^2+y^2-4x+2y-11=0$)
+\end{solution}
+\begin{explanation}
+\[\begin{aligned}
+(x-2)^2+(y-(-1))^2 &= 4^2\\
+x^2-4x+4+y^2+2y+1 &= 16 && \textcolor{gray}{\text{sviluppo i quadrati}}\\
+x^2+y^2-4x+2y-11 &= 0
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.3, subtitle={Verifica dell'appartenenza del punto $P(3,0)$}, difficulty=facile, tags={circonferenza}]
 Verifica se il punto $P(3,0)$ appartiene alla circonferenza $x^2 + y^2 = 9$.
-\begin{solution}Sì, $P(3,0)$ appartiene alla circonferenza.\end{solution}
+\begin{solution}
+Sì, $P$ appartiene alla circonferenza.
+\end{solution}
+\begin{explanation}
+Sostituisco le coordinate di $P$ nell'equazione: \ $3^2+0^2=9$. L'uguaglianza è verificata, quindi $P$ sta sulla circonferenza.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.4, subtitle={Centro e raggio di $x^2+y^2-4x+6y=3$}, difficulty=facile, tags={circonferenza}]
 Trova il centro e il raggio della circonferenza $x^2 + y^2 - 4x + 6y = 3$.
-\begin{solution}$C(2,-3),\ r=4$\end{solution}
+\begin{solution}
+$C(2,-3)$, \ $r=4$
+\end{solution}
+\begin{explanation}
+L'equazione $x^2+y^2+ax+by+c=0$ rappresenta una circonferenza reale se $r^2=\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c>0$; in tal caso il centro è $C\left(-\tfrac a2,\,-\tfrac b2\right)$ e il raggio $r=\sqrt{\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c}$.
+Porto tutto al primo membro: $x^2+y^2-4x+6y-3=0$, quindi $a=-4$, $b=6$, $c=-3$.
+\[ C=(2,-3), \qquad r^2=4+9+3=16 \;\Rightarrow\; r=4 \]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.5, subtitle={Circonferenza avente un segmento come diametro}, difficulty=media, tags={circonferenza}]
 Scrivi l'equazione della circonferenza avente diametro con estremi $A(1,2)$ e $B(5,6)$.
-\begin{solution}$(x-3)^2+(y-4)^2=8$\end{solution}
+\begin{solution}
+$(x-3)^2+(y-4)^2=8$
+\end{solution}
+\begin{explanation}
+Il centro è il punto medio del diametro, il raggio è metà del diametro.
+\[\begin{aligned}
+C &= \left(\dfrac{1+5}{2},\,\dfrac{2+6}{2}\right)=(3,4) && \textcolor{gray}{\text{punto medio di $AB$}}\\
+r^2 &= |CA|^2=(1-3)^2+(2-4)^2=8
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.6, subtitle={Circonferenza per tre punti $A(0,0)$, $B(2,0)$, $C(0,2)$}, difficulty=media, tags={circonferenza}]
 Determina l'equazione della circonferenza passante per i punti $A(0,0)$, $B(2,0)$, $C(0,2)$.
-\begin{solution}$(x-1)^2+(y-1)^2=2$\end{solution}
+\begin{solution}
+$(x-1)^2+(y-1)^2=2$
+\end{solution}
+\begin{explanation}
+Il centro è equidistante dai punti, quindi sta sugli assi dei segmenti che li uniscono. Quando due punti hanno la stessa ordinata (o ascissa), il loro asse è una retta verticale (o orizzontale) e i calcoli si semplificano.
+$A$ e $B$ hanno la stessa ordinata: l'asse di $AB$ è $x=1$. $A$ e $C$ hanno la stessa ascissa: l'asse di $AC$ è $y=1$.
+\[\begin{aligned}
+C_0 &= (1,1) && \textcolor{gray}{\text{intersezione degli assi}}\\
+r^2 &= (0-1)^2+(0-1)^2=2 && \textcolor{gray}{\text{distanza da $A$}}
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.7, subtitle={Circonferenza con centro sull'asse $x$ per $A(1,2)$ e $B(3,4)$}, difficulty=media, tags={circonferenza}]
 Scrivi l'equazione della circonferenza con centro sull'asse $x$, passante per $A(1,2)$ e $B(3,4)$.
-\begin{solution}$(x-2)^2+y^2=5$\end{solution}
+\begin{solution}
+$(x-5)^2+y^2=20$
+\end{solution}
+\begin{explanation}
+Il centro sta sull'asse $x$: $C(a,0)$. Deve essere equidistante da $A$ e $B$:
+\[\begin{aligned}
+(1-a)^2+2^2 &= (3-a)^2+4^2 && \textcolor{gray}{\text{$|CA|^2=|CB|^2$}}\\
+1-2a+a^2+4 &= 9-6a+a^2+16\\
+4a &= 20 \;\Rightarrow\; a=5\\
+r^2 &= (1-5)^2+4=20
+\end{aligned}\]
+Verifica con $B$: $(3-5)^2+16=20$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.8, subtitle={Circonferenza per $A(1,0)$ e $B(0,1)$ con centro su $x=y$}, difficulty=media, tags={circonferenza}]
 Trova la circonferenza passante per $A(1,0)$, $B(0,1)$ con centro sulla retta $x=y$.
-\begin{solution}$\left(x-\tfrac{1}{2}\right)^2+\left(y-\tfrac{1}{2}\right)^2=\tfrac{1}{2}$\end{solution}
+\begin{solution}
+Infinite circonferenze: $(x-a)^2+(y-a)^2=2a^2-2a+1$, per ogni $a\in\mathbb{R}$. \ Quella di raggio minimo (con $AB$ come diametro) è $\left(x-\tfrac12\right)^2+\left(y-\tfrac12\right)^2=\tfrac12$.
+\end{solution}
+\begin{explanation}
+Il centro sta sulla retta $y=x$: $C(a,a)$. Impongo $|CA|=|CB|$:
+\[\begin{aligned}
+(1-a)^2+a^2 &= a^2+(1-a)^2
+\end{aligned}\]
+L'uguaglianza è vera per \textbf{ogni} $a$: infatti la retta $y=x$ è proprio l'asse del segmento $AB$, quindi tutti i suoi punti sono equidistanti da $A$ e $B$. Il problema ha infinite soluzioni:
+\[ r^2=(1-a)^2+a^2=2a^2-2a+1 \]
+Il raggio è minimo per $a=\tfrac12$ (vertice della parabola $2a^2-2a+1$), cioè quando il centro è il punto medio di $AB$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.9, subtitle={Circonferenza per $A(2,0)$, $B(0,2)$, $C(2,2)$}, difficulty=media, tags={circonferenza}]
 Determina la circonferenza passante per $A(2,0)$, $B(0,2)$, $C(2,2)$.
-\begin{solution}$(x-1)^2+(y-1)^2=1$\end{solution}
+\begin{solution}
+$(x-1)^2+(y-1)^2=2$
+\end{solution}
+\begin{explanation}
+Il centro è equidistante dai punti, quindi sta sugli assi dei segmenti che li uniscono. Quando due punti hanno la stessa ordinata (o ascissa), il loro asse è una retta verticale (o orizzontale) e i calcoli si semplificano.
+Asse di $AC$ (stessa ascissa $2$): $y=1$. \ Asse di $BC$ (stessa ordinata $2$): $x=1$.
+\[\begin{aligned}
+C_0 &= (1,1)\\
+r^2 &= (2-1)^2+(0-1)^2=2
+\end{aligned}\]
+Osservazione: l'angolo in $C(2,2)$ è retto, quindi $AB$ è un diametro e il centro è il suo punto medio.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.10, subtitle={Circonferenza con centro sull'asse $y$ tangente all'asse $x$}, difficulty=media, tags={circonferenza}]
 Trova la circonferenza con centro sull'asse $y$, passante per $A(2,1)$ e tangente all'asse $x$.
-\begin{solution}$x^2+(y-1)^2=4$\end{solution}
+\begin{solution}
+$x^2+\left(y-\tfrac52\right)^2=\tfrac{25}{4}$
+\end{solution}
+\begin{explanation}
+Centro sull'asse $y$: $C(0,b)$. La circonferenza è tangente all'asse $x$, quindi il raggio è la distanza del centro dall'asse $x$: $r=|b|$. Impongo il passaggio per $A(2,1)$:
+\[\begin{aligned}
+(2-0)^2+(1-b)^2 &= b^2\\
+4+1-2b+b^2 &= b^2\\
+b &= \dfrac52, \qquad r=\dfrac52
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.11, subtitle={Circonferenza per $A(0,0)$ e $B(4,0)$ tangente all'asse $y$}, difficulty=media, tags={circonferenza}]
 Scrivi la circonferenza passante per $A(0,0)$, $B(4,0)$ e tangente all'asse $y$.
-\begin{solution}$(x-2)^2+(y-2)^2=8$\end{solution}
+\begin{solution}
+$(x-2)^2+y^2=4$
+\end{solution}
+\begin{explanation}
+$A$ e $B$ stanno sull'asse $x$: il centro è sull'asse di $AB$, cioè $x=2$: $C(2,b)$. \\
+Tangente all'asse $y$: il raggio è la distanza del centro dall'asse $y$, cioè $r=2$.
+\[\begin{aligned}
+(0-2)^2+(0-b)^2 &= 4 && \textcolor{gray}{\text{passaggio per $A$}}\\
+4+b^2 &= 4 \;\Rightarrow\; b=0
+\end{aligned}\]
+La circonferenza è tangente all'asse $y$ proprio nell'origine $A$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.12, subtitle={Circonferenza per $A(1,1)$, $B(3,1)$, $C(2,4)$}, difficulty=difficile, tags={circonferenza}]
 Determina la circonferenza passante per $A(1,1)$, $B(3,1)$, $C(2,4)$.
-\begin{solution}$(x-2)^2+(y-2)^2=2$\end{solution}
+\begin{solution}
+$(x-2)^2+\left(y-\tfrac73\right)^2=\tfrac{25}{9}$
+\end{solution}
+\begin{explanation}
+Il centro è equidistante dai punti, quindi sta sugli assi dei segmenti che li uniscono. Quando due punti hanno la stessa ordinata (o ascissa), il loro asse è una retta verticale (o orizzontale) e i calcoli si semplificano.
+$A$ e $B$ hanno ordinata $1$: l'asse è $x=2$, quindi $C_0(2,b)$. Impongo $|C_0A|=|C_0C|$:
+\[\begin{aligned}
+(2-1)^2+(b-1)^2 &= (2-2)^2+(b-4)^2\\
+1+b^2-2b+1 &= b^2-8b+16\\
+6b &= 14 \;\Rightarrow\; b=\dfrac73\\
+r^2 &= 1+\left(\dfrac43\right)^2=\dfrac{25}{9}
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.13, subtitle={Circonferenza con centro su $y=x$ per $A(2,0)$ e $B(0,2)$}, difficulty=difficile, tags={circonferenza}]
 Trova la circonferenza con centro sulla retta $y=x$ passante per $A(2,0)$ e $B(0,2)$.
-\begin{solution}$(x-1)^2+(y-1)^2=2$\end{solution}
+\begin{solution}
+Infinite circonferenze: $(x-a)^2+(y-a)^2=2a^2-4a+4$, per ogni $a\in\mathbb{R}$. \ Quella di raggio minimo è $(x-1)^2+(y-1)^2=2$.
+\end{solution}
+\begin{explanation}
+Centro su $y=x$: $C(a,a)$. Impongo $|CA|=|CB|$:
+\[ (2-a)^2+a^2=a^2+(2-a)^2 \]
+È sempre vera: la retta $y=x$ è l'asse del segmento $AB$ (con $A(2,0)$ e $B(0,2)$ simmetrici rispetto a essa). Ogni suo punto è un centro valido:
+\[ r^2=(2-a)^2+a^2=2a^2-4a+4 \]
+Il raggio minimo si ha per $a=1$ (punto medio di $AB$), con $r^2=2$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.14, subtitle={Circonferenza per $A(0,0)$, $B(2,4)$, $C(4,0)$}, difficulty=difficile, tags={circonferenza}]
 Determina la circonferenza passante per $A(0,0)$, $B(2,4)$, $C(4,0)$.
-\begin{solution}$(x-2)^2+(y-1)^2=5$\end{solution}
+\begin{solution}
+$(x-2)^2+\left(y-\tfrac32\right)^2=\tfrac{25}{4}$
+\end{solution}
+\begin{explanation}
+Il centro è equidistante dai punti, quindi sta sugli assi dei segmenti che li uniscono. Quando due punti hanno la stessa ordinata (o ascissa), il loro asse è una retta verticale (o orizzontale) e i calcoli si semplificano.
+$A$ e $C$ hanno ordinata $0$: asse $x=2$, centro $C_0(2,b)$. Impongo $|C_0A|=|C_0B|$:
+\[\begin{aligned}
+4+b^2 &= (2-2)^2+(4-b)^2\\
+4+b^2 &= 16-8b+b^2\\
+b &= \dfrac32, \qquad r^2=4+\dfrac94=\dfrac{25}{4}
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.15, subtitle={Circonferenza per $A(1,0)$, $B(3,2)$, $C(5,0)$}, difficulty=difficile, tags={circonferenza}]
 Trova la circonferenza passante per $A(1,0)$, $B(3,2)$, $C(5,0)$.
-\begin{solution}$(x-3)^2+(y-1)^2=2$\end{solution}
+\begin{solution}
+$(x-3)^2+y^2=4$
+\end{solution}
+\begin{explanation}
+Il centro è equidistante dai punti, quindi sta sugli assi dei segmenti che li uniscono. Quando due punti hanno la stessa ordinata (o ascissa), il loro asse è una retta verticale (o orizzontale) e i calcoli si semplificano.
+$A$ e $C$ hanno ordinata $0$: asse $x=3$, centro $C_0(3,b)$.
+\[\begin{aligned}
+(1-3)^2+b^2 &= (3-3)^2+(2-b)^2 && \textcolor{gray}{\text{$|C_0A|=|C_0B|$}}\\
+4+b^2 &= 4-4b+b^2\\
+b &= 0, \qquad r^2=4
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.16, subtitle={Circonferenza per $A(0,1)$, $B(2,3)$, $C(4,1)$}, difficulty=difficile, tags={circonferenza}]
 Determina la circonferenza passante per $A(0,1)$, $B(2,3)$, $C(4,1)$.
-\begin{solution}$(x-2)^2+(y-2)^2=2$\end{solution}
+\begin{solution}
+$(x-2)^2+(y-1)^2=4$
+\end{solution}
+\begin{explanation}
+Il centro è equidistante dai punti, quindi sta sugli assi dei segmenti che li uniscono. Quando due punti hanno la stessa ordinata (o ascissa), il loro asse è una retta verticale (o orizzontale) e i calcoli si semplificano.
+$A$ e $C$ hanno ordinata $1$: asse $x=2$, centro $C_0(2,b)$.
+\[\begin{aligned}
+(0-2)^2+(1-b)^2 &= (2-2)^2+(3-b)^2\\
+4+1-2b+b^2 &= 9-6b+b^2\\
+4b &= 4 \;\Rightarrow\; b=1, \qquad r^2=4
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -152,105 +355,234 @@ Determina la circonferenza passante per $A(0,1)$, $B(2,3)$, $C(4,1)$.
 %----------------------------------------------------------%
 \begin{question}[ID=3.1, subtitle={Posizione di $y=2$ rispetto a $x^2+y^2=9$}, difficulty=facile, tags={retta, circonferenza, posizione reciproca}]
 Determina la posizione reciproca tra la retta $y=2$ e la circonferenza $x^2+y^2=9$.
-\begin{solution}Secante\end{solution}
+\begin{solution}
+Secante
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+Centro $O(0,0)$, $r=3$. La retta $y=2$ dista $2$ dall'origine: $d=2<3$, secante (incontra la circonferenza in $(\pm\sqrt5,\,2)$).
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.2, subtitle={Posizione di $x=3$ rispetto a $x^2+y^2=9$}, difficulty=facile, tags={retta, circonferenza, posizione reciproca}]
 Determina la posizione reciproca tra la retta $x=3$ e la circonferenza $x^2+y^2=9$.
-\begin{solution}Tangente\end{solution}
+\begin{solution}
+Tangente
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+La retta $x=3$ dista $3$ dall'origine: $d=3=r$, tangente nel punto $(3,0)$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.3, subtitle={Posizione di $y=x$ rispetto a $x^2+y^2=4$}, difficulty=facile, tags={retta, circonferenza, posizione reciproca}]
 Stabilisci la posizione tra la retta $y=x$ e la circonferenza $x^2+y^2=4$.
-\begin{solution}Secante\end{solution}
+\begin{solution}
+Secante
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+La retta $y=x$ passa per il centro $O$: $d=0<2$. Ogni retta per il centro è secante (taglia un diametro).
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.4, subtitle={Intersezioni di $y=mx$ con la circonferenza unitaria al variare di $m$}, difficulty=media, tags={retta, circonferenza, parametrico}]
 La retta $y=mx$ interseca la circonferenza $x^2+y^2=1$. Studia il numero di intersezioni al variare di $m$.
-\begin{solution}Sempre secante per ogni $m\in\mathbb{R}$\end{solution}
+\begin{solution}
+Secante per ogni $m$ (due intersezioni).
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+Tutte le rette $y=mx$ passano per l'origine, che è il centro: $d=0<1$ per ogni $m$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.5, subtitle={Posizione di $y=k$ rispetto a $x^2+y^2=4$ al variare di $k$}, difficulty=media, tags={parametrico, retta, circonferenza}]
 Studia la posizione reciproca tra la retta $y=k$ e la circonferenza $x^2+y^2=4$ al variare di $k$.
-\begin{solution}$|k|<2$ secante; $|k|=2$ tangente; $|k|>2$ esterna\end{solution}
+\begin{solution}
+Secante per $|k|<2$; \ tangente per $k=\pm2$; \ esterna per $|k|>2$.
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+La retta orizzontale $y=k$ dista $|k|$ dal centro $O$; il raggio è $2$. Confronto $|k|$ con $2$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.6, subtitle={Valori di $k$ per cui $y=x+k$ è tangente a $x^2+y^2=1$}, difficulty=media, tags={parametrico, tangente, circonferenza}]
 Per quali valori di $k$ la retta $y=x+k$ è tangente alla circonferenza $x^2+y^2=1$?
-\begin{solution}$k=\pm\sqrt{2}$\end{solution}
+\begin{solution}
+$k=\pm\sqrt2$
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+Scrivo la retta come $x-y+k=0$ e impongo $d=r=1$:
+\[\begin{aligned}
+\dfrac{|0-0+k|}{\sqrt{1+1}} &= 1\\
+|k| &= \sqrt2
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.7, subtitle={Posizione di $y=mx+1$ rispetto a $x^2+y^2=4$ al variare di $m$}, difficulty=facile, tags={parametrico, retta, circonferenza}]
 Studia la posizione tra la retta $y=mx+1$ e la circonferenza $x^2+y^2=4$ al variare di $m$.
-\begin{solution}Sempre secante per ogni $m\in\mathbb{R}$\end{solution}
+\begin{solution}
+Secante per ogni $m$.
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+Tutte le rette $y=mx+1$ passano per $P(0,1)$. Poiché $0^2+1^2=1<4$, $P$ è \textbf{interno} alla circonferenza: ogni retta per un punto interno la taglia in due punti. \\
+(La retta verticale $x=0$, non compresa nel fascio, sarebbe anch'essa secante.)
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.8, subtitle={Valori di $k$ per cui $y=2x+k$ è esterna a $x^2+y^2=1$}, difficulty=media, tags={parametrico, retta, circonferenza}]
 Per quali valori di $k$ la retta $y=2x+k$ è esterna alla circonferenza $x^2+y^2=1$?
-\begin{solution}$|k|>\sqrt{5}$\end{solution}
+\begin{solution}
+$k<-\sqrt5 \;\vee\; k>\sqrt5$
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+Retta $2x-y+k=0$; esterna se $d>1$:
+\[\begin{aligned}
+\dfrac{|k|}{\sqrt{4+1}} &> 1\\
+|k| &> \sqrt5
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.9, subtitle={Valori di $k$ per cui $kx+y=1$ è tangente alla circonferenza unitaria}, difficulty=difficile, tags={parametrico, tangente}]
 Determina per quali valori di $k$ la retta $kx+y=1$ è tangente alla circonferenza $x^2+y^2=1$.
-\begin{solution}$k=0$\end{solution}
+\begin{solution}
+$k=0$
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+Retta $kx+y-1=0$; impongo $d=1$:
+\[\begin{aligned}
+\dfrac{|-1|}{\sqrt{k^2+1}} &= 1\\
+\sqrt{k^2+1} &= 1 \;\Rightarrow\; k=0
+\end{aligned}\]
+Infatti per $k=0$ la retta è $y=1$, tangente in $(0,1)$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.10, subtitle={Posizione di $y=kx$ rispetto a $x^2+y^2=1$ e tangenza}, difficulty=difficile, tags={parametrico, retta, circonferenza}]
 Studia la posizione reciproca tra la retta $y=kx$ e la circonferenza $x^2+y^2=1$ e determina per quali $k$ è tangente.
-\begin{solution}Nessun valore di $k$ rende la retta tangente\end{solution}
+\begin{solution}
+Sempre secante: nessun valore di $k$ la rende tangente.
+\end{solution}
+\begin{explanation}
+Posizione retta–circonferenza: si confronta la distanza $d$ del centro dalla retta con il raggio $r$: \ $d<r$ secante, $d=r$ tangente, $d>r$ esterna. La distanza di $(x_0,y_0)$ da $ax+by+c=0$ è $d=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+Le rette $y=kx$ passano tutte per il centro $O$: $d=0<1$ per ogni $k$, quindi sono sempre secanti e mai tangenti.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.11, subtitle={Corda di lunghezza 4 con retta orizzontale sulla circonferenza}, difficulty=media, tags={circonferenza, retta, corda}]
 Determina le equazioni delle rette parallele all'asse $x$ che individuano sulla circonferenza $x^2+y^2-4x-2y-4=0$ una corda di lunghezza $4$.
-\begin{solution}$y=1\pm\sqrt{3}$\end{solution}
+\begin{solution}
+$y=1+\sqrt5$ \ e \ $y=1-\sqrt5$
+\end{solution}
+\begin{explanation}
+Una retta a distanza $d$ dal centro stacca una corda lunga $\ell=2\sqrt{r^2-d^2}$ (teorema di Pitagora sul triangolo formato da raggio, distanza e mezza corda). Quindi si impone $d^2=r^2-\left(\tfrac\ell2\right)^2$.
+$a=-4$, $b=-2$, $c=-4$: \ centro $C(2,1)$, \ $r^2=4+1+4=9$.
+\[\begin{aligned}
+d^2 &= r^2-\left(\dfrac\ell2\right)^2=9-4=5 && \textcolor{gray}{\text{con $\ell=4$}}\\
+|q-1| &= \sqrt5 && \textcolor{gray}{\text{la retta $y=q$ dista $|q-1|$ dal centro}}\\
+q &= 1\pm\sqrt5
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.12, subtitle={Corda di lunghezza $2\sqrt{2}$ parallela alla bisettrice}, difficulty=media, tags={circonferenza, corda}]
 Determina le equazioni delle rette parallele alla bisettrice del primo e terzo quadrante che individuano sulla circonferenza $x^2+y^2-2x-2y-3=0$ una corda di lunghezza $2\sqrt{2}$.
-\begin{solution}$y=x+1,\ y=x-3$\end{solution}
+\begin{solution}
+$y=x+\sqrt6$ \ e \ $y=x-\sqrt6$
+\end{solution}
+\begin{explanation}
+Una retta a distanza $d$ dal centro stacca una corda lunga $\ell=2\sqrt{r^2-d^2}$ (teorema di Pitagora sul triangolo formato da raggio, distanza e mezza corda). Quindi si impone $d^2=r^2-\left(\tfrac\ell2\right)^2$.
+Centro $C(1,1)$, $r^2=1+1+3=5$. Le parallele alla bisettrice sono $x-y+q=0$.
+\[\begin{aligned}
+d^2 &= 5-\left(\sqrt2\right)^2=3 && \textcolor{gray}{\text{mezza corda $\sqrt2$}}\\
+\dfrac{(1-1+q)^2}{2} &= 3 && \textcolor{gray}{\text{distanza del centro dalla retta, al quadrato}}\\
+q^2 &= 6 \;\Rightarrow\; q=\pm\sqrt6
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.13, subtitle={Corda di lunghezza 6 parallela a $y=2x$ sulla circonferenza}, difficulty=media, tags={circonferenza, corda}]
 Determina le equazioni delle rette parallele alla retta $y=2x$ che individuano sulla circonferenza $x^2+y^2-6x+2y-3=0$ una corda di lunghezza $6$.
-\begin{solution}$y=2x+3,\ y=2x-9$\end{solution}
+\begin{solution}
+$y=2x-7+2\sqrt5$ \ e \ $y=2x-7-2\sqrt5$
+\end{solution}
+\begin{explanation}
+Una retta a distanza $d$ dal centro stacca una corda lunga $\ell=2\sqrt{r^2-d^2}$ (teorema di Pitagora sul triangolo formato da raggio, distanza e mezza corda). Quindi si impone $d^2=r^2-\left(\tfrac\ell2\right)^2$.
+Centro $C(3,-1)$, $r^2=9+1+3=13$. Le parallele a $y=2x$ sono $2x-y+q=0$.
+\[\begin{aligned}
+d^2 &= 13-3^2=4 && \textcolor{gray}{\text{mezza corda $3$}}\\
+\dfrac{(6+1+q)^2}{5} &= 4\\
+(7+q)^2 &= 20 \;\Rightarrow\; q=-7\pm2\sqrt5
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.14, subtitle={Corda di lunghezza $2\sqrt{5}$ parallela a $x-y+1=0$}, difficulty=media, tags={circonferenza, corda}]
 Determina le equazioni delle rette parallele alla retta $x-y+1=0$ che individuano sulla circonferenza $x^2+y^2-2x+4y-4=0$ una corda di lunghezza $2\sqrt{5}$.
-\begin{solution}$x-y+1\pm\sqrt{5}=0$\end{solution}
+\begin{solution}
+$x-y-3+2\sqrt2=0$ \ e \ $x-y-3-2\sqrt2=0$
+\end{solution}
+\begin{explanation}
+Una retta a distanza $d$ dal centro stacca una corda lunga $\ell=2\sqrt{r^2-d^2}$ (teorema di Pitagora sul triangolo formato da raggio, distanza e mezza corda). Quindi si impone $d^2=r^2-\left(\tfrac\ell2\right)^2$.
+Centro $C(1,-2)$, $r^2=1+4+4=9$. Le parallele sono $x-y+q=0$.
+\[\begin{aligned}
+d^2 &= 9-\left(\sqrt5\right)^2=4 && \textcolor{gray}{\text{mezza corda $\sqrt5$}}\\
+\dfrac{(1+2+q)^2}{2} &= 4\\
+(3+q)^2 &= 8 \;\Rightarrow\; q=-3\pm2\sqrt2
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.15, subtitle={Corda di lunghezza 4 parallela a $y=-x$ sulla circonferenza}, difficulty=difficile, tags={circonferenza, corda, parametrico}]
 Determina le equazioni delle rette parallele alla retta $y=-x$ che individuano sulla circonferenza $x^2+y^2-4x+6y-3=0$ una corda di lunghezza $4$.
-\begin{solution}$y=-x-1\pm 2\sqrt{6}$\end{solution}
+\begin{solution}
+$y=-x-1+2\sqrt6$ \ e \ $y=-x-1-2\sqrt6$
+\end{solution}
+\begin{explanation}
+Una retta a distanza $d$ dal centro stacca una corda lunga $\ell=2\sqrt{r^2-d^2}$ (teorema di Pitagora sul triangolo formato da raggio, distanza e mezza corda). Quindi si impone $d^2=r^2-\left(\tfrac\ell2\right)^2$.
+Centro $C(2,-3)$, $r^2=4+9+3=16$. Le parallele a $y=-x$ sono $x+y-q=0$.
+\[\begin{aligned}
+d^2 &= 16-2^2=12 && \textcolor{gray}{\text{mezza corda $2$}}\\
+\dfrac{(2-3-q)^2}{2} &= 12\\
+(1+q)^2 &= 24 \;\Rightarrow\; q=-1\pm2\sqrt6
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -258,35 +590,69 @@ Determina le equazioni delle rette parallele alla retta $y=-x$ che individuano s
 %----------------------------------------------------------%
 \begin{question}[ID=4.1, subtitle={Tangente a $x^2+y^2=9$ nel punto $P(3,0)$}, difficulty=facile, tags={tangente, circonferenza, punto}]
 Scrivi l'equazione della retta tangente alla circonferenza $x^2+y^2=9$ nel punto $P(3,0)$.
-\begin{solution}$x=3$\end{solution}
+\begin{solution}
+$x=3$
+\end{solution}
+\begin{explanation}
+La tangente in un punto $P$ è perpendicolare al raggio $CP$. Per una circonferenza $x^2+y^2=r^2$ con centro nell'origine, la tangente in $P(x_0,y_0)$ ha equazione $x_0x+y_0y=r^2$ (\emph{formula di sdoppiamento}).
+Con $P(3,0)$ e $r^2=9$: \ $3x+0\cdot y=9 \;\Rightarrow\; x=3$. Il raggio $OP$ è orizzontale, quindi la tangente è verticale.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=4.2, subtitle={Tangente a $x^2+y^2=4$ nel punto $P(0,2)$}, difficulty=facile, tags={tangente, circonferenza}]
 Scrivi la retta tangente alla circonferenza $x^2+y^2=4$ nel punto $P(0,2)$.
-\begin{solution}$y=2$\end{solution}
+\begin{solution}
+$y=2$
+\end{solution}
+\begin{explanation}
+La tangente in un punto $P$ è perpendicolare al raggio $CP$. Per una circonferenza $x^2+y^2=r^2$ con centro nell'origine, la tangente in $P(x_0,y_0)$ ha equazione $x_0x+y_0y=r^2$ (\emph{formula di sdoppiamento}).
+$0\cdot x+2y=4 \;\Rightarrow\; y=2$: il raggio $OP$ è verticale, la tangente orizzontale.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=4.3, subtitle={Tangente a $x^2+y^2=25$ nel punto $P(3,4)$}, difficulty=media, tags={tangente, circonferenza}]
 Trova l'equazione della tangente alla circonferenza $x^2+y^2=25$ nel punto $P(3,4)$.
-\begin{solution}$3x+4y=25$\end{solution}
+\begin{solution}
+$3x+4y=25$
+\end{solution}
+\begin{explanation}
+La tangente in un punto $P$ è perpendicolare al raggio $CP$. Per una circonferenza $x^2+y^2=r^2$ con centro nell'origine, la tangente in $P(x_0,y_0)$ ha equazione $x_0x+y_0y=r^2$ (\emph{formula di sdoppiamento}).
+$P(3,4)$ appartiene alla circonferenza ($9+16=25$).
+\[\begin{aligned}
+3x+4y &= 25 && \textcolor{gray}{\text{sdoppiamento}}
+\end{aligned}\]
+Controllo: il raggio $OP$ ha pendenza $\tfrac43$, la tangente $-\tfrac34$: il prodotto è $-1$, sono perpendicolari.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=4.4, subtitle={Tangente a $x^2+y^2=10$ nel punto $P(1,3)$}, difficulty=media, tags={tangente, circonferenza}]
 Determina la retta tangente alla circonferenza $x^2+y^2=10$ nel punto $P(1,3)$.
-\begin{solution}$x+3y=10$\end{solution}
+\begin{solution}
+$x+3y=10$
+\end{solution}
+\begin{explanation}
+La tangente in un punto $P$ è perpendicolare al raggio $CP$. Per una circonferenza $x^2+y^2=r^2$ con centro nell'origine, la tangente in $P(x_0,y_0)$ ha equazione $x_0x+y_0y=r^2$ (\emph{formula di sdoppiamento}).
+$P(1,3)$: $1+9=10$, appartiene. Sdoppiamento: $1\cdot x+3\cdot y=10$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=4.5, subtitle={Tangente a $x^2+y^2=13$ nel punto $P(2,3)$}, difficulty=media, tags={tangente, circonferenza}]
 Trova l'equazione della tangente alla circonferenza $x^2+y^2=13$ nel punto $P(2,3)$ e verifica che il punto appartenga alla circonferenza.
-\begin{solution}$2x+3y=13$\end{solution}
+\begin{solution}
+$P$ appartiene ($4+9=13$); \ tangente $2x+3y=13$.
+\end{solution}
+\begin{explanation}
+La tangente in un punto $P$ è perpendicolare al raggio $CP$. Per una circonferenza $x^2+y^2=r^2$ con centro nell'origine, la tangente in $P(x_0,y_0)$ ha equazione $x_0x+y_0y=r^2$ (\emph{formula di sdoppiamento}).
+Verifica: $2^2+3^2=13$. Sdoppiamento: $2x+3y=13$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -295,7 +661,13 @@ Trova l'equazione della tangente alla circonferenza $x^2+y^2=13$ nel punto $P(2,
 \begin{question}[ID=5.1, subtitle={Posizione di $C_1: x^2+y^2=9$ e $C_2: x^2+y^2=4$}, difficulty=facile, tags={circonferenze, posizione reciproca}]
 Determina la posizione reciproca tra le circonferenze:
 $C_1: x^2+y^2=9$ e $C_2: x^2+y^2=4$.
-\begin{solution}Circonferenze concentriche\end{solution}
+\begin{solution}
+Concentriche ($C_2$ interna a $C_1$).
+\end{solution}
+\begin{explanation}
+Posizione di due circonferenze: si confronta la distanza $d$ tra i centri con $r_1+r_2$ e $|r_1-r_2|$: \ $d>r_1+r_2$ esterne; $d=r_1+r_2$ tangenti esternamente; $|r_1-r_2|<d<r_1+r_2$ secanti; $d=|r_1-r_2|$ tangenti internamente; $d<|r_1-r_2|$ una interna all'altra ($d=0$: concentriche).
+Entrambe hanno centro nell'origine ($d=0$) e raggi $3$ e $2$ diversi: concentriche, la più piccola dentro l'altra.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -303,7 +675,13 @@ $C_1: x^2+y^2=9$ e $C_2: x^2+y^2=4$.
 \begin{question}[ID=5.2, subtitle={Posizione di $C_1: x^2+y^2=9$ e $C_2: (x-5)^2+y^2=4$}, difficulty=facile, tags={circonferenze, posizione reciproca}]
 Determina la posizione tra:
 $C_1: x^2+y^2=9$ e $C_2: (x-5)^2+y^2=4$.
-\begin{solution}Tangenti esternamente\end{solution}
+\begin{solution}
+Tangenti esternamente (nel punto $(3,0)$).
+\end{solution}
+\begin{explanation}
+Posizione di due circonferenze: si confronta la distanza $d$ tra i centri con $r_1+r_2$ e $|r_1-r_2|$: \ $d>r_1+r_2$ esterne; $d=r_1+r_2$ tangenti esternamente; $|r_1-r_2|<d<r_1+r_2$ secanti; $d=|r_1-r_2|$ tangenti internamente; $d<|r_1-r_2|$ una interna all'altra ($d=0$: concentriche).
+Centri $(0,0)$ e $(5,0)$: $d=5$; raggi $3$ e $2$: $r_1+r_2=5=d$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -311,7 +689,13 @@ $C_1: x^2+y^2=9$ e $C_2: (x-5)^2+y^2=4$.
 \begin{question}[ID=5.3, subtitle={Posizione di $C_1: (x-1)^2+y^2=4$ e $C_2: (x-6)^2+y^2=9$}, difficulty=media, tags={circonferenze, posizione reciproca}]
 Studia la posizione tra:
 $C_1: (x-1)^2+y^2=4$ e $C_2: (x-6)^2+y^2=9$.
-\begin{solution}Tangenti esternamente\end{solution}
+\begin{solution}
+Tangenti esternamente (nel punto $(3,0)$).
+\end{solution}
+\begin{explanation}
+Posizione di due circonferenze: si confronta la distanza $d$ tra i centri con $r_1+r_2$ e $|r_1-r_2|$: \ $d>r_1+r_2$ esterne; $d=r_1+r_2$ tangenti esternamente; $|r_1-r_2|<d<r_1+r_2$ secanti; $d=|r_1-r_2|$ tangenti internamente; $d<|r_1-r_2|$ una interna all'altra ($d=0$: concentriche).
+Centri $(1,0)$ e $(6,0)$: $d=5$; raggi $2$ e $3$: $r_1+r_2=5=d$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -319,7 +703,13 @@ $C_1: (x-1)^2+y^2=4$ e $C_2: (x-6)^2+y^2=9$.
 \begin{question}[ID=5.4, subtitle={Posizione di $C_1: x^2+y^2=25$ e $C_2: (x-3)^2+y^2=9$}, difficulty=media, tags={circonferenze, posizione reciproca}]
 Determina la posizione tra:
 $C_1: x^2+y^2=25$ e $C_2: (x-3)^2+y^2=9$.
-\begin{solution}Secanti\end{solution}
+\begin{solution}
+Secanti
+\end{solution}
+\begin{explanation}
+Posizione di due circonferenze: si confronta la distanza $d$ tra i centri con $r_1+r_2$ e $|r_1-r_2|$: \ $d>r_1+r_2$ esterne; $d=r_1+r_2$ tangenti esternamente; $|r_1-r_2|<d<r_1+r_2$ secanti; $d=|r_1-r_2|$ tangenti internamente; $d<|r_1-r_2|$ una interna all'altra ($d=0$: concentriche).
+Centri $(0,0)$ e $(3,0)$: $d=3$; raggi $5$ e $3$: \ $|r_1-r_2|=2<3<8=r_1+r_2$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -327,7 +717,13 @@ $C_1: x^2+y^2=25$ e $C_2: (x-3)^2+y^2=9$.
 \begin{question}[ID=5.5, subtitle={Posizione reciproca di due circonferenze al variare di $k$}, difficulty=media, tags={circonferenze, posizione reciproca, parametrico}]
 Studia la posizione reciproca al variare di $k$ tra:
 $C_1: x^2+y^2=4$ e $C_2: (x-k)^2+y^2=1$.
-\begin{solution}Secanti: $1<|k|<3$; tangenti interne: $|k|=1$; tangenti esterne: $|k|=3$; interne: $|k|<1$; esterne: $|k|>3$\end{solution}
+\begin{solution}
+Interne per $|k|<1$ (concentriche per $k=0$); \ tangenti internamente per $|k|=1$; \ secanti per $1<|k|<3$; \ tangenti esternamente per $|k|=3$; \ esterne per $|k|>3$.
+\end{solution}
+\begin{explanation}
+Posizione di due circonferenze: si confronta la distanza $d$ tra i centri con $r_1+r_2$ e $|r_1-r_2|$: \ $d>r_1+r_2$ esterne; $d=r_1+r_2$ tangenti esternamente; $|r_1-r_2|<d<r_1+r_2$ secanti; $d=|r_1-r_2|$ tangenti internamente; $d<|r_1-r_2|$ una interna all'altra ($d=0$: concentriche).
+Centri $(0,0)$ e $(k,0)$: $d=|k|$; raggi $2$ e $1$: \ $r_1+r_2=3$, \ $|r_1-r_2|=1$. Confronto $|k|$ con $1$ e $3$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -339,7 +735,19 @@ Considera il fascio $x^2+y^2+2x-4y+k=0$.
 \item Determina il centro e il raggio della circonferenza.
 \item Trova il valore di $k$ per cui la circonferenza passa per l'origine.
 \end{enumerate}
-\begin{solution}$C(-1,2),\ r=\sqrt{5-k},\ k=0$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $C(-1,2)$, \ $r=\sqrt{5-k}$ \ (circonferenza reale per $k<5$)
+    \item $k=0$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+L'equazione $x^2+y^2+ax+by+c=0$ rappresenta una circonferenza reale se $r^2=\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c>0$; in tal caso il centro è $C\left(-\tfrac a2,\,-\tfrac b2\right)$ e il raggio $r=\sqrt{\left(\tfrac a2\right)^2+\left(\tfrac b2\right)^2-c}$.
+\begin{enumerate}
+    \item $a=2$, $b=-4$, $c=k$: \ $C(-1,2)$, \ $r^2=1+4-k=5-k$, positivo per $k<5$.
+    \item Sostituisco $O(0,0)$: $0+0+0-0+k=0 \;\Rightarrow\; k=0$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -351,7 +759,31 @@ Considera il fascio $x^2+y^2-4x+k(x^2+y^2-4y)=0$.
 \item Trova $k$ per cui la circonferenza è tangente all'asse $x$.
 \item Studia per quali $k$ la circonferenza è degenere.
 \end{enumerate}
-\begin{solution}$C\!\left(2,\dfrac{2k}{1+k}\right)$; tangente per $k=0$ o $k=-2$; degenere per $k=-1$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item Centro $\left(\dfrac{2}{1+k},\ \dfrac{2k}{1+k}\right)$ \ ($k\neq-1$); i centri stanno sulla retta $x+y=2$.
+    \item Nessun valore (finito) di $k$; l'unica circonferenza del fascio tangente all'asse $x$ è la generatrice $x^2+y^2-4y=0$.
+    \item Degenere per $k=-1$: la retta $y=x$ (asse radicale).
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+In un fascio $\gamma_1+k\gamma_2=0$ si raccolgono i termini: $(1+k)(x^2+y^2)+\dots=0$. Per $k\neq-1$ si divide per $1+k$ e si leggono centro e raggio; per $k=-1$ i termini di secondo grado si annullano e si ottiene una retta (asse radicale). I \textbf{punti base} sono i punti comuni alle due generatrici: appartengono a tutte le circonferenze del fascio.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    (1+k)(x^2+y^2)-4x-4ky &= 0\\
+    x^2+y^2-\dfrac{4}{1+k}x-\dfrac{4k}{1+k}y &= 0 && \textcolor{gray}{\text{divido per $1+k$}}\\
+    C &= \left(\dfrac{2}{1+k},\ \dfrac{2k}{1+k}\right)
+    \end{aligned}\]
+    Sommando le coordinate: $\dfrac{2+2k}{1+k}=2$, quindi i centri stanno sulla retta $x+y=2$ (l'asse dei centri).
+    \item Tutte le circonferenze passano per l'origine (non c'è termine noto). Tangente all'asse $x$ vuol dire $|y_C|=r$:
+    \[\begin{aligned}
+    r^2 &= \dfrac{4}{(1+k)^2}+\dfrac{4k^2}{(1+k)^2}\\
+    \dfrac{4k^2}{(1+k)^2} &= \dfrac{4+4k^2}{(1+k)^2} \;\Rightarrow\; 0=4
+    \end{aligned}\]
+    Impossibile. Solo la seconda generatrice $x^2+y^2-4y=0$ (centro $(0,2)$, raggio $2$), che si ottiene solo al limite per $k\to\infty$, è tangente all'asse $x$ nell'origine.
+    \item Per $k=-1$ spariscono i termini di secondo grado: $-4x+4y=0$, cioè $y=x$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -363,7 +795,26 @@ Considera il fascio $(x^2+y^2-2x) + k(x^2+y^2+2y)=0$.
 \item Trova l'asse radicale.
 \item Determina per quali $k$ la circonferenza passa per $P(1,-1)$.
 \end{enumerate}
-\begin{solution}$C_1(1,0,r=1)$, $C_2(0,-1,r=1)$; asse radicale: $x+y=0$; $k=0$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item Punti base $O(0,0)$ e $(1,-1)$.
+    \item Asse radicale: $x+y=0$.
+    \item $P(1,-1)$ è un punto base: appartiene a \textbf{tutte} le circonferenze del fascio, per ogni $k$.
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+In un fascio $\gamma_1+k\gamma_2=0$ si raccolgono i termini: $(1+k)(x^2+y^2)+\dots=0$. Per $k\neq-1$ si divide per $1+k$ e si leggono centro e raggio; per $k=-1$ i termini di secondo grado si annullano e si ottiene una retta (asse radicale). I \textbf{punti base} sono i punti comuni alle due generatrici: appartengono a tutte le circonferenze del fascio.
+\begin{enumerate}
+    \item Metto a sistema le due generatrici e sottraggo:
+    \[\begin{aligned}
+    (x^2+y^2-2x)-(x^2+y^2+2y) &= 0 \;\Rightarrow\; y=-x\\
+    x^2+x^2-2x &= 0 \;\Rightarrow\; 2x(x-1)=0 && \textcolor{gray}{\text{sostituisco nella prima}}
+    \end{aligned}\]
+    $x=0 \Rightarrow (0,0)$; \quad $x=1 \Rightarrow (1,-1)$.
+    \item Per $k=-1$: $-2x-2y=0$, cioè $x+y=0$ (passa per i due punti base).
+    \item Sostituisco $P(1,-1)$: \ $(1+1-2)+k(1+1-2)=0+k\cdot0=0$, vero per ogni $k$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -375,7 +826,36 @@ Considera il fascio $x^2+y^2-6x+k(x^2+y^2-2y)=0$.
 \item Trova $k$ per cui la circonferenza è tangente alla retta $x=0$.
 \item Determina per quali $k$ la circonferenza ha area $4\pi$.
 \end{enumerate}
-\begin{solution}Centro $C\!\left(\dfrac{3}{1+k},\dfrac{k}{1+k}\right)$, $r^2=\dfrac{9+k^2}{(1+k)^2}$; tangente per $k=0$ o $k=-3$; area $4\pi$ per $k=-1\pm2$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $C\left(\dfrac{3}{1+k},\ \dfrac{k}{1+k}\right)$, \ $r^2=\dfrac{9+k^2}{(1+k)^2}$ \ ($k\neq-1$)
+    \item $k=0$
+    \item $k=\dfrac{-4\pm\sqrt{31}}{3}$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+In un fascio $\gamma_1+k\gamma_2=0$ si raccolgono i termini: $(1+k)(x^2+y^2)+\dots=0$. Per $k\neq-1$ si divide per $1+k$ e si leggono centro e raggio; per $k=-1$ i termini di secondo grado si annullano e si ottiene una retta (asse radicale). I \textbf{punti base} sono i punti comuni alle due generatrici: appartengono a tutte le circonferenze del fascio.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    (1+k)(x^2+y^2)-6x-2ky &= 0\\
+    x^2+y^2-\dfrac{6}{1+k}x-\dfrac{2k}{1+k}y &= 0\\
+    C=\left(\dfrac{3}{1+k},\ \dfrac{k}{1+k}\right), &\quad r^2=\dfrac{9+k^2}{(1+k)^2}
+    \end{aligned}\]
+    \item Tangente a $x=0$: la distanza del centro dall'asse $y$, cioè $|x_C|$, deve valere $r$:
+    \[\begin{aligned}
+    \dfrac{9}{(1+k)^2} &= \dfrac{9+k^2}{(1+k)^2}\\
+    k^2 &= 0 \;\Rightarrow\; k=0
+    \end{aligned}\]
+    Per $k=0$: $(x-3)^2+y^2=9$, tangente all'asse $y$ nell'origine.
+    \item Area $\pi r^2=4\pi \Rightarrow r^2=4$:
+    \[\begin{aligned}
+    9+k^2 &= 4(1+k)^2\\
+    9+k^2 &= 4+8k+4k^2\\
+    3k^2+8k-5 &= 0\\
+    k &= \dfrac{-8\pm\sqrt{64+60}}{6}=\dfrac{-4\pm\sqrt{31}}{3}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -387,5 +867,29 @@ Considera il fascio $x^2+y^2+2x+k(x^2+y^2-4y)=0$.
 \item Trova il valore di $k$ per cui la circonferenza è tangente alla circonferenza $x^2+y^2=1$.
 \item Determina per quali $k$ il centro si trova nel primo quadrante.
 \end{enumerate}
-\begin{solution}Centro $C\!\left(\dfrac{-1}{1+k},\dfrac{2k}{1+k}\right)$; tangente per $k=0$ o $k=-2$; $-1<k<0$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item Centri $\left(-\dfrac{1}{1+k},\ \dfrac{2k}{1+k}\right)$: il luogo è la retta $y=2x+2$ (privata del punto $(0,2)$).
+    \item Nessun valore di $k$: le circonferenze del fascio sono sempre secanti a $x^2+y^2=1$.
+    \item $k<-1$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+In un fascio $\gamma_1+k\gamma_2=0$ si raccolgono i termini: $(1+k)(x^2+y^2)+\dots=0$. Per $k\neq-1$ si divide per $1+k$ e si leggono centro e raggio; per $k=-1$ i termini di secondo grado si annullano e si ottiene una retta (asse radicale). I \textbf{punti base} sono i punti comuni alle due generatrici: appartengono a tutte le circonferenze del fascio.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    x^2+y^2+\dfrac{2}{1+k}x-\dfrac{4k}{1+k}y &= 0 && \textcolor{gray}{\text{divido per $1+k$}}\\
+    x_C=-\dfrac{1}{1+k}, &\quad y_C=\dfrac{2k}{1+k}
+    \end{aligned}\]
+    Elimino $k$: \ $y_C=\dfrac{2(1+k)-2}{1+k}=2-\dfrac{2}{1+k}=2+2x_C$. I centri stanno sulla retta $y=2x+2$, che passa per i centri delle generatrici $(-1,0)$ e $(0,2)$.
+    \item Punti base: sottraendo le generatrici, $2x+4y=0$, cioè $x=-2y$; sostituendo nella seconda si trovano $O(0,0)$ e $\left(-\tfrac85,\tfrac45\right)$. \\
+    Ogni circonferenza del fascio passa per $O$, che è \textbf{interno} alla circonferenza unitaria, e per $\left(-\tfrac85,\tfrac45\right)$, che è \textbf{esterno} (dista $\tfrac{\sqrt{80}}{5}\approx1{,}79$ da $O$). Una curva chiusa che passa per un punto interno e uno esterno deve attraversarla: non può esserle tangente.
+    \item Primo quadrante: $x_C>0$ e $y_C>0$.
+    \[\begin{aligned}
+    -\dfrac{1}{1+k}>0 &\;\Rightarrow\; 1+k<0 \;\Rightarrow\; k<-1\\
+    \dfrac{2k}{1+k}>0 &\;\Rightarrow\; k<-1 \;\vee\; k>0
+    \end{aligned}\]
+    Entrambe: $k<-1$.
+\end{enumerate}
+\end{explanation}
 \end{question}

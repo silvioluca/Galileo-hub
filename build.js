@@ -60,6 +60,30 @@ function findMatchingEnd(text, startPos, envName) {
   return -1;
 }
 
+// Codice univoco leggibile "Argomento.numero": "Sistemi Lineari" + "2.3" → "SistemiLineari.2.3"
+function makeCode(topic, sourceId) {
+  const name = topic
+    .split(/[\s']+/).filter(Boolean)
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join('');
+  return `${name}.${sourceId}`;
+}
+
+// Restituisce il contenuto di `key={...}` rispettando le graffe annidate.
+function extractBracedOption(opts, key) {
+  const m = new RegExp(`\\b${key}\\s*=\\s*\\{`, 'i').exec(opts);
+  if (!m) return null;
+  const start = m.index + m[0].length;
+  let depth = 1;
+  for (let i = start; i < opts.length; i++) {
+    const c = opts[i];
+    if (c === '\\') { i++; continue; }       // salta \{ \} escapati
+    if (c === '{') depth++;
+    else if (c === '}' && --depth === 0) return opts.slice(start, i).trim();
+  }
+  return null;
+}
+
 function makeTitleFrom(text, sourceId) {
   const lines = text.split('\n');
   let candidate = '';
@@ -153,8 +177,24 @@ function parseTex(rawContent, topic, subject, category) {
       ? tagsMatch[1].split(',').map(t => t.trim()).filter(Boolean)
       : [];
 
-    const titleMatch  = headerOpts.match(/\bsubtitle\s*=\s*\{([^}]*)\}/i);
-    const headerTitle = titleMatch ? titleMatch[1].trim() : null;
+    // Il sottotitolo può contenere LaTeX con graffe annidate (es. $e^{-x}$,
+    // $\sqrt{x}$): si estrae contando le graffe invece di fermarsi alla prima '}'.
+    const headerTitle = extractBracedOption(headerOpts, 'subtitle');
+
+    // ── Spiegazione (passaggi) ─────────────────────────────────────
+    // \begin{explanation}…\end{explanation} dentro la domanda: i passaggi
+    // commentati, mostrati dal pulsante "Spiega". La soluzione resta il solo risultato.
+    let explanationText = '';
+    const BEGIN_EXP = '\\begin{explanation}';
+    const END_EXP   = '\\end{explanation}';
+    const expIdx = body.indexOf(BEGIN_EXP);
+    if (expIdx !== -1) {
+      const expEnd = body.indexOf(END_EXP, expIdx);
+      if (expEnd !== -1) {
+        explanationText = body.slice(expIdx + BEGIN_EXP.length, expEnd).trim();
+        body = (body.slice(0, expIdx) + body.slice(expEnd + END_EXP.length)).trim();
+      }
+    }
 
     // ── Soluzione ──────────────────────────────────────────────────
     let solutionText = '';
@@ -199,10 +239,12 @@ function parseTex(rawContent, topic, subject, category) {
       topic,
       difficulty,
       sourceId,
+      code: makeCode(topic, sourceId ?? String(exercises.length + 1)),
       tags,
       subtitle: headerTitle ?? makeTitleFrom(body, sourceId),
       text:     body,
       solution: normalizeSolution(solutionText),
+      ...(explanationText ? { explanation: explanationText } : {}),
     });
   }
 
@@ -262,6 +304,16 @@ for (const { folder, subject } of SUBJECT_FOLDERS) {
 
     if (!topics[subject][cat].length) delete topics[subject][cat];
   }
+}
+
+// Il codice deve essere univoco: un duplicato indica un ID ripetuto in un file .tex
+const seenCodes = new Map();
+for (const ex of allExercises) {
+  if (seenCodes.has(ex.code)) {
+    console.error(`\nERRORE: codice duplicato "${ex.code}" (stesso ID usato due volte in "${ex.topic}")`);
+    process.exit(1);
+  }
+  seenCodes.set(ex.code, ex);
 }
 
 const catCount = Object.values(topics)

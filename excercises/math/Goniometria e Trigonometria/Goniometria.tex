@@ -13,14 +13,30 @@ Sapendo che $\sin \alpha = \dfrac{2}{3}$ e $\sin \beta = \dfrac{3}{5}$, con $0 <
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Ricaviamo prima le funzioni mancanti tenendo conto dei quadranti. Poiché $0<\alpha<\dfrac{\pi}{2}$ ($\alpha$ nel I quadrante), $\cos\alpha=\sqrt{1-\sin^2\alpha}=\sqrt{1-\dfrac49}=\dfrac{\sqrt5}{3}$. Poiché $\dfrac{\pi}{2}<\beta<\pi$ ($\beta$ nel II quadrante), $\cos\beta=-\dfrac45$.
 \begin{enumerate}
-\item Per la formula di addizione del seno: $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac23\!\cdot\!\Big(\!-\dfrac45\Big)+\dfrac{\sqrt5}{3}\!\cdot\!\dfrac35=\dfrac{3\sqrt5-8}{15}$.
-\item Per la formula di sottrazione del coseno: $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\dfrac{\sqrt5}{3}\!\cdot\!\Big(\!-\dfrac45\Big)+\dfrac23\!\cdot\!\dfrac35=\dfrac{6-4\sqrt5}{15}$.
-\item $\dfrac{\alpha}{2}$ è nel I quadrante, dove il seno è positivo: $\sin\dfrac{\alpha}{2}=\sqrt{\dfrac{1-\cos\alpha}{2}}=\sqrt{\dfrac{3-\sqrt5}{6}}$.
-\item $\dfrac{\beta}{2}$ è nel I quadrante, dove la tangente è positiva: $\tan\dfrac{\beta}{2}=\dfrac{1-\cos\beta}{\sin\beta}=\dfrac{1+\frac45}{\frac35}=3$.
+    \item $\dfrac{3\sqrt5-8}{15}$
+    \item $\dfrac{6-4\sqrt5}{15}$
+    \item $\sqrt{\dfrac{3-\sqrt5}{6}}$
+    \item $3$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Formule: \ $\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$; \ $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$; \ bisezione $\sin\tfrac\alpha2=\pm\sqrt{\tfrac{1-\cos\alpha}{2}}$, $\cos\tfrac\alpha2=\pm\sqrt{\tfrac{1+\cos\alpha}{2}}$, $\tan\tfrac\alpha2=\tfrac{1-\cos\alpha}{\sin\alpha}$. \\
+Prima si ricavano seno e coseno mancanti con $\sin^2+\cos^2=1$, scegliendo il segno in base al quadrante; il segno nelle formule di bisezione dipende dal quadrante di $\tfrac\alpha2$.
+\textbf{Funzioni mancanti.}
+\[\begin{aligned}
+\cos\alpha &= +\sqrt{1-\dfrac49}=\dfrac{\sqrt5}{3} && \textcolor{gray}{\text{$\alpha$ nel I quadrante}}\\
+\cos\beta &= -\sqrt{1-\dfrac{9}{25}}=-\dfrac45 && \textcolor{gray}{\text{$\beta$ nel II quadrante: coseno negativo}}
+\end{aligned}\]
+\begin{enumerate}
+    \item \[ \sin(\alpha+\beta)=\dfrac23\cdot\left(-\dfrac45\right)+\dfrac{\sqrt5}{3}\cdot\dfrac35=\dfrac{-8+3\sqrt5}{15} \]
+    \item \[ \cos(\alpha-\beta)=\dfrac{\sqrt5}{3}\cdot\left(-\dfrac45\right)+\dfrac23\cdot\dfrac35=\dfrac{-4\sqrt5+6}{15} \]
+    \item $0<\tfrac\alpha2<\tfrac\pi4$: seno positivo.
+    \[ \sin\dfrac\alpha2=\sqrt{\dfrac{1-\frac{\sqrt5}{3}}{2}}=\sqrt{\dfrac{3-\sqrt5}{6}} \]
+    \item $\tfrac\pi4<\tfrac\beta2<\tfrac\pi2$: I quadrante.
+    \[ \tan\dfrac\beta2=\dfrac{1-\cos\beta}{\sin\beta}=\dfrac{1+\frac45}{\frac35}=\dfrac{9}{5}\cdot\dfrac53=3 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -36,14 +52,33 @@ Sapendo che $\cos \alpha = \dfrac{4}{5}$ e $\cos \beta = -\dfrac{5}{13}$, con $0
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Quadranti: $0<\alpha<\dfrac{\pi}{2}$ (I quadrante) dà $\sin\alpha=\sqrt{1-\frac{16}{25}}=\dfrac35$; $\pi<\beta<\dfrac{3\pi}{2}$ (III quadrante) dà $\sin\beta=-\sqrt{1-\frac{25}{169}}=-\dfrac{12}{13}$.
 \begin{enumerate}
-\item $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\dfrac45\!\cdot\!\Big(\!-\dfrac{5}{13}\Big)-\dfrac35\!\cdot\!\Big(\!-\dfrac{12}{13}\Big)=\dfrac{-20+36}{65}=\dfrac{16}{65}$.
-\item $\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\dfrac35\!\cdot\!\Big(\!-\dfrac{5}{13}\Big)-\dfrac45\!\cdot\!\Big(\!-\dfrac{12}{13}\Big)=\dfrac{-15+48}{65}=\dfrac{33}{65}$.
-\item Servono anche $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac{-15-48}{65}=-\dfrac{63}{65}$, quindi $\tan(\alpha+\beta)=\dfrac{\sin(\alpha+\beta)}{\cos(\alpha+\beta)}=\dfrac{-63/65}{16/65}=-\dfrac{63}{16}$.
-\item $\beta$ nel III quadrante $\Rightarrow \dfrac{\beta}{2}$ nel II quadrante, dove il coseno è negativo: $\cos\dfrac{\beta}{2}=-\sqrt{\dfrac{1+\cos\beta}{2}}=-\sqrt{\dfrac{1-\frac{5}{13}}{2}}=-\sqrt{\dfrac{4}{13}}=-\dfrac{2\sqrt{13}}{13}$.
+    \item $\dfrac{16}{65}$
+    \item $\dfrac{33}{65}$
+    \item $-\dfrac{63}{16}$
+    \item $-\dfrac{2\sqrt{13}}{13}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Formule: \ $\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$; \ $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$; \ bisezione $\sin\tfrac\alpha2=\pm\sqrt{\tfrac{1-\cos\alpha}{2}}$, $\cos\tfrac\alpha2=\pm\sqrt{\tfrac{1+\cos\alpha}{2}}$, $\tan\tfrac\alpha2=\tfrac{1-\cos\alpha}{\sin\alpha}$. \\
+Prima si ricavano seno e coseno mancanti con $\sin^2+\cos^2=1$, scegliendo il segno in base al quadrante; il segno nelle formule di bisezione dipende dal quadrante di $\tfrac\alpha2$.
+\textbf{Funzioni mancanti.}
+\[\begin{aligned}
+\sin\alpha &= +\sqrt{1-\dfrac{16}{25}}=\dfrac35 && \textcolor{gray}{\text{I quadrante}}\\
+\sin\beta &= -\sqrt{1-\dfrac{25}{169}}=-\dfrac{12}{13} && \textcolor{gray}{\text{III quadrante: seno negativo}}
+\end{aligned}\]
+\begin{enumerate}
+    \item \[ \cos(\alpha+\beta)=\dfrac45\left(-\dfrac5{13}\right)-\dfrac35\left(-\dfrac{12}{13}\right)=\dfrac{-20+36}{65}=\dfrac{16}{65} \]
+    \item \[ \sin(\alpha-\beta)=\dfrac35\left(-\dfrac5{13}\right)-\dfrac45\left(-\dfrac{12}{13}\right)=\dfrac{-15+48}{65}=\dfrac{33}{65} \]
+    \item Serve anche il seno della somma:
+    \[\begin{aligned}
+    \sin(\alpha+\beta) &= \dfrac35\left(-\dfrac5{13}\right)+\dfrac45\left(-\dfrac{12}{13}\right)=-\dfrac{63}{65}\\
+    \tan(\alpha+\beta) &= \dfrac{-63/65}{16/65}=-\dfrac{63}{16}
+    \end{aligned}\]
+    \item $\pi<\beta<\tfrac32\pi \Rightarrow \tfrac\pi2<\tfrac\beta2<\tfrac34\pi$: II quadrante, coseno negativo.
+    \[ \cos\dfrac\beta2=-\sqrt{\dfrac{1-\frac5{13}}{2}}=-\sqrt{\dfrac{4}{13}}=-\dfrac{2}{\sqrt{13}}=-\dfrac{2\sqrt{13}}{13} \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -59,14 +94,27 @@ Sapendo che $\sin \alpha = \dfrac{5}{13}$ e $\cos \beta = \dfrac{12}{13}$, con $
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Entrambi gli angoli sono nel I quadrante: $\cos\alpha=\sqrt{1-\frac{25}{169}}=\dfrac{12}{13}$ e $\sin\beta=\sqrt{1-\frac{144}{169}}=\dfrac{5}{13}$. Si nota che $\sin\alpha=\sin\beta$ e $\cos\alpha=\cos\beta$, cioè $\alpha=\beta$.
 \begin{enumerate}
-\item $\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\dfrac{5}{13}\!\cdot\!\dfrac{12}{13}-\dfrac{12}{13}\!\cdot\!\dfrac{5}{13}=0$ (coerente con $\alpha=\beta$).
-\item $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\dfrac{144-25}{169}=\dfrac{119}{169}$.
-\item $\tan(\alpha-\beta)=\dfrac{\sin(\alpha-\beta)}{\cos(\alpha-\beta)}=0$.
-\item $\dfrac{\alpha}{2}$ è nel I quadrante: $\sin\dfrac{\alpha}{2}=\sqrt{\dfrac{1-\cos\alpha}{2}}=\sqrt{\dfrac{1-\frac{12}{13}}{2}}=\sqrt{\dfrac{1}{26}}=\dfrac{\sqrt{26}}{26}$.
+    \item $0$
+    \item $\dfrac{119}{169}$
+    \item $0$
+    \item $\dfrac{\sqrt{26}}{26}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Formule: \ $\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$; \ $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$; \ bisezione $\sin\tfrac\alpha2=\pm\sqrt{\tfrac{1-\cos\alpha}{2}}$, $\cos\tfrac\alpha2=\pm\sqrt{\tfrac{1+\cos\alpha}{2}}$, $\tan\tfrac\alpha2=\tfrac{1-\cos\alpha}{\sin\alpha}$. \\
+Prima si ricavano seno e coseno mancanti con $\sin^2+\cos^2=1$, scegliendo il segno in base al quadrante; il segno nelle formule di bisezione dipende dal quadrante di $\tfrac\alpha2$.
+\textbf{Funzioni mancanti} (entrambi nel I quadrante):
+\[ \cos\alpha=\sqrt{1-\dfrac{25}{169}}=\dfrac{12}{13}, \qquad \sin\beta=\sqrt{1-\dfrac{144}{169}}=\dfrac5{13} \]
+Quindi $\alpha$ e $\beta$ hanno stesso seno e stesso coseno: sono lo stesso angolo.
+\begin{enumerate}
+    \item $\sin(\alpha-\beta)=\tfrac5{13}\cdot\tfrac{12}{13}-\tfrac{12}{13}\cdot\tfrac5{13}=0$ (infatti $\alpha-\beta=0$).
+    \item $\cos(\alpha+\beta)=\tfrac{12}{13}\cdot\tfrac{12}{13}-\tfrac5{13}\cdot\tfrac5{13}=\dfrac{144-25}{169}=\dfrac{119}{169}$.
+    \item $\tan(\alpha-\beta)=\tan0=0$.
+    \item $\tfrac\alpha2$ nel I quadrante:
+    \[ \sin\dfrac\alpha2=\sqrt{\dfrac{1-\frac{12}{13}}{2}}=\sqrt{\dfrac1{26}}=\dfrac{\sqrt{26}}{26} \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -82,14 +130,26 @@ Sapendo che $\cos \alpha = -\dfrac{3}{5}$ e $\sin \beta = \dfrac{4}{5}$, con $\d
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Quadranti: $\dfrac{\pi}{2}<\alpha<\pi$ (II quadrante) dà $\sin\alpha=\sqrt{1-\frac{9}{25}}=\dfrac45$; $0<\beta<\dfrac{\pi}{2}$ (I quadrante) dà $\cos\beta=\sqrt{1-\frac{16}{25}}=\dfrac35$.
 \begin{enumerate}
-\item $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\Big(\!-\dfrac35\Big)\dfrac35+\dfrac45\!\cdot\!\dfrac45=\dfrac{-9+16}{25}=\dfrac{7}{25}$.
-\item $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac45\!\cdot\!\dfrac35+\Big(\!-\dfrac35\Big)\dfrac45=\dfrac{12-12}{25}=0$.
-\item Poiché $\sin(\alpha+\beta)=0$ e $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\dfrac{-9-16}{25}=-1$, risulta $\alpha+\beta=\pi$ e quindi $\tan(\alpha+\beta)=0$.
-\item $\alpha$ nel II quadrante $\Rightarrow \dfrac{\alpha}{2}$ nel I quadrante, coseno positivo: $\cos\dfrac{\alpha}{2}=\sqrt{\dfrac{1+\cos\alpha}{2}}=\sqrt{\dfrac{1-\frac35}{2}}=\sqrt{\dfrac15}=\dfrac{\sqrt5}{5}$.
+    \item $\dfrac{7}{25}$
+    \item $0$
+    \item $0$
+    \item $\dfrac{\sqrt5}{5}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Formule: \ $\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$; \ $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$; \ bisezione $\sin\tfrac\alpha2=\pm\sqrt{\tfrac{1-\cos\alpha}{2}}$, $\cos\tfrac\alpha2=\pm\sqrt{\tfrac{1+\cos\alpha}{2}}$, $\tan\tfrac\alpha2=\tfrac{1-\cos\alpha}{\sin\alpha}$. \\
+Prima si ricavano seno e coseno mancanti con $\sin^2+\cos^2=1$, scegliendo il segno in base al quadrante; il segno nelle formule di bisezione dipende dal quadrante di $\tfrac\alpha2$.
+\textbf{Funzioni mancanti.}
+\[ \sin\alpha=+\sqrt{1-\dfrac9{25}}=\dfrac45 \ \ \text{(II quadrante)}, \qquad \cos\beta=+\sqrt{1-\dfrac{16}{25}}=\dfrac35 \ \ \text{(I quadrante)} \]
+\begin{enumerate}
+    \item $\cos(\alpha-\beta)=\left(-\tfrac35\right)\tfrac35+\tfrac45\cdot\tfrac45=\dfrac{-9+16}{25}=\dfrac{7}{25}$.
+    \item $\sin(\alpha+\beta)=\tfrac45\cdot\tfrac35+\left(-\tfrac35\right)\tfrac45=0$.
+    \item $\cos(\alpha+\beta)=-\tfrac9{25}-\tfrac{16}{25}=-1$: l'angolo $\alpha+\beta$ vale $\pi$, quindi $\tan(\alpha+\beta)=\dfrac{0}{-1}=0$.
+    \item $\tfrac\pi4<\tfrac\alpha2<\tfrac\pi2$: coseno positivo.
+    \[ \cos\dfrac\alpha2=\sqrt{\dfrac{1-\frac35}{2}}=\sqrt{\dfrac15}=\dfrac{\sqrt5}{5} \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -105,14 +165,26 @@ Sapendo che $\sin \alpha = \dfrac{3}{5}$ e $\cos \beta = -\dfrac{8}{17}$, con $0
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Quadranti: $0<\alpha<\dfrac{\pi}{2}$ (I quadrante) dà $\cos\alpha=\sqrt{1-\frac{9}{25}}=\dfrac45$; $\pi<\beta<\dfrac{3\pi}{2}$ (III quadrante) dà $\sin\beta=-\sqrt{1-\frac{64}{289}}=-\dfrac{15}{17}$.
 \begin{enumerate}
-\item $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\dfrac35\!\cdot\!\Big(\!-\dfrac{8}{17}\Big)+\dfrac45\!\cdot\!\Big(\!-\dfrac{15}{17}\Big)=\dfrac{-24-60}{85}=-\dfrac{84}{85}$.
-\item $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\dfrac45\!\cdot\!\Big(\!-\dfrac{8}{17}\Big)+\dfrac35\!\cdot\!\Big(\!-\dfrac{15}{17}\Big)=\dfrac{-32-45}{85}=-\dfrac{77}{85}$.
-\item $\beta$ nel III quadrante $\Rightarrow \dfrac{\beta}{2}$ nel II quadrante, seno positivo: $\sin\dfrac{\beta}{2}=\sqrt{\dfrac{1-\cos\beta}{2}}=\sqrt{\dfrac{1+\frac{8}{17}}{2}}=\sqrt{\dfrac{25}{34}}=\dfrac{5\sqrt{34}}{34}$.
-\item $\dfrac{\alpha}{2}$ è nel I quadrante: $\tan\dfrac{\alpha}{2}=\dfrac{1-\cos\alpha}{\sin\alpha}=\dfrac{1-\frac45}{\frac35}=\dfrac{1}{3}$.
+    \item $-\dfrac{84}{85}$
+    \item $-\dfrac{77}{85}$
+    \item $\dfrac{5\sqrt{34}}{34}$
+    \item $\dfrac13$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Formule: \ $\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$; \ $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$; \ bisezione $\sin\tfrac\alpha2=\pm\sqrt{\tfrac{1-\cos\alpha}{2}}$, $\cos\tfrac\alpha2=\pm\sqrt{\tfrac{1+\cos\alpha}{2}}$, $\tan\tfrac\alpha2=\tfrac{1-\cos\alpha}{\sin\alpha}$. \\
+Prima si ricavano seno e coseno mancanti con $\sin^2+\cos^2=1$, scegliendo il segno in base al quadrante; il segno nelle formule di bisezione dipende dal quadrante di $\tfrac\alpha2$.
+\textbf{Funzioni mancanti.}
+\[ \cos\alpha=\dfrac45 \ \ \text{(I quadrante)}, \qquad \sin\beta=-\sqrt{1-\dfrac{64}{289}}=-\dfrac{15}{17} \ \ \text{(III quadrante)} \]
+\begin{enumerate}
+    \item $\sin(\alpha+\beta)=\tfrac35\left(-\tfrac8{17}\right)+\tfrac45\left(-\tfrac{15}{17}\right)=\dfrac{-24-60}{85}=-\dfrac{84}{85}$.
+    \item $\cos(\alpha-\beta)=\tfrac45\left(-\tfrac8{17}\right)+\tfrac35\left(-\tfrac{15}{17}\right)=\dfrac{-32-45}{85}=-\dfrac{77}{85}$.
+    \item $\tfrac\pi2<\tfrac\beta2<\tfrac34\pi$: II quadrante, seno positivo.
+    \[ \sin\dfrac\beta2=\sqrt{\dfrac{1+\frac8{17}}{2}}=\sqrt{\dfrac{25}{34}}=\dfrac{5}{\sqrt{34}}=\dfrac{5\sqrt{34}}{34} \]
+    \item $\tan\tfrac\alpha2=\dfrac{1-\cos\alpha}{\sin\alpha}=\dfrac{1-\frac45}{\frac35}=\dfrac13$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -130,7 +202,26 @@ Semplifica le seguenti espressioni:
 \item $\cos 5\alpha - \cos 3\alpha$
 \end{enumerate}
 \end{multicols}
-\begin{solution}1) $2\cos\alpha$; 2) $\sqrt{2}\sin 2\alpha$; 3) $2\sin 2\alpha\cos\alpha$; 4) $-2\sin 4\alpha\sin\alpha$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $2\cos\alpha$
+    \item $\sqrt2\sin2\alpha$
+    \item $2\sin2\alpha\cos\alpha$
+    \item $-2\sin4\alpha\sin\alpha$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+\begin{enumerate}
+    \item \[ \dfrac{1+\cos2\alpha}{\cos\alpha}=\dfrac{2\cos^2\alpha}{\cos\alpha}=2\cos\alpha \]
+    \item Pongo $u=2\alpha+\tfrac\pi4$ e uso $\sin u-\cos u=\sqrt2\sin\left(u-\tfrac\pi4\right)$ (che si verifica con la formula di sottrazione):
+    \[ \sqrt2\sin\left(2\alpha+\dfrac\pi4-\dfrac\pi4\right)=\sqrt2\sin2\alpha \]
+    \item $p=3\alpha$, $q=\alpha$: \ $2\sin\tfrac{4\alpha}{2}\cos\tfrac{2\alpha}{2}=2\sin2\alpha\cos\alpha$.
+    \item $-2\sin\tfrac{8\alpha}{2}\sin\tfrac{2\alpha}{2}=-2\sin4\alpha\sin\alpha$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -143,7 +234,22 @@ Semplifica le seguenti espressioni:
 \item $\cos\!\left(x + \dfrac{\pi}{6}\right) + \cos\!\left(x - \dfrac{\pi}{6}\right)$
 \end{enumerate}
 \end{multicols}
-\begin{solution}1) $2\sin x$; 2) $\sqrt{3}\cos x$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $2\sin x$
+    \item $\sqrt3\cos x$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+\begin{enumerate}
+    \item \[ \dfrac{1-\cos2x}{\sin x}=\dfrac{2\sin^2x}{\sin x}=2\sin x \]
+    \item Prostaferesi con $p=x+\tfrac\pi6$, $q=x-\tfrac\pi6$: \ $\tfrac{p+q}{2}=x$, $\tfrac{p-q}{2}=\tfrac\pi6$.
+    \[ 2\cos x\cos\dfrac\pi6=2\cos x\cdot\dfrac{\sqrt3}{2}=\sqrt3\cos x \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -158,7 +264,29 @@ Semplifica le seguenti espressioni:
 \item $\sin 5\theta - \sin 3\theta$
 \end{enumerate}
 \end{multicols}
-\begin{solution}1) $\tan\theta$; 2) $2\sin\theta\cos\dfrac{\theta}{2}$; 3) $\sin 3\theta$; 4) $2\cos 4\theta\sin\theta$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $\tan\theta$
+    \item $2\sin\theta\cos\dfrac\theta2$
+    \item $\sqrt3\sin2\theta$
+    \item $2\cos4\theta\sin\theta$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+\begin{enumerate}
+    \item \[ \dfrac{\sin2\theta}{1+\cos2\theta}=\dfrac{2\sin\theta\cos\theta}{2\cos^2\theta}=\dfrac{\sin\theta}{\cos\theta}=\tan\theta \]
+    \item $p=\tfrac{3\theta}{2}$, $q=\tfrac\theta2$: \ $\tfrac{p+q}{2}=\theta$, $\tfrac{p-q}{2}=\tfrac\theta2$: \ $2\sin\theta\cos\tfrac\theta2$.
+    \item $p=2\theta-\tfrac\pi3$, $q=2\theta+\tfrac\pi3$: \ $\tfrac{p+q}{2}=2\theta$, $\tfrac{p-q}{2}=-\tfrac\pi3$.
+    \[\begin{aligned}
+    \cos p-\cos q &= -2\sin2\theta\,\sin\left(-\dfrac\pi3\right)\\
+    &= 2\sin2\theta\cdot\dfrac{\sqrt3}{2}=\sqrt3\sin2\theta && \textcolor{gray}{\text{$\sin(-\dfrac\pi3)=-\dfrac{\sqrt3}{2}$}}
+    \end{aligned}\]
+    \item $2\cos\tfrac{8\theta}{2}\sin\tfrac{2\theta}{2}=2\cos4\theta\sin\theta$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -173,7 +301,26 @@ Semplifica le seguenti espressioni:
 \item $\sin 3x + \sin x$
 \end{enumerate}
 \end{multicols}
-\begin{solution}1) $2\sin 2x$; 2) $\sin x$; 3) $-2\sin 6x\sin x$; 4) $2\sin 2x\cos x$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $2\sin2x$
+    \item $\sin x$
+    \item $-2\sin6x\sin x$
+    \item $2\sin2x\cos x$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+\begin{enumerate}
+    \item $1-\cos4x=2\sin^22x$:
+    \[ \dfrac{2\sin^22x}{\sin2x}=2\sin2x \]
+    \item $p=x+\tfrac\pi3$, $q=x-\tfrac\pi3$: \ $2\sin x\cos\tfrac\pi3=2\sin x\cdot\tfrac12=\sin x$.
+    \item $-2\sin\tfrac{12x}{2}\sin\tfrac{2x}{2}=-2\sin6x\sin x$.
+    \item $2\sin\tfrac{4x}{2}\cos\tfrac{2x}{2}=2\sin2x\cos x$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -188,7 +335,27 @@ Semplifica le seguenti espressioni:
 \item $\sin 6\alpha - \sin 2\alpha$
 \end{enumerate}
 \end{multicols}
-\begin{solution}1) $-2\sin^2\alpha/\cos\alpha$; 2) $\sin 3\alpha$; 3) $2\cos 3\alpha\cos\alpha$; 4) $2\cos 4\alpha\sin 2\alpha$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $-\dfrac{2\sin^2\alpha}{\cos\alpha}$ \ ($=-2\sin\alpha\tan\alpha$)
+    \item $\sqrt3\sin3\alpha$
+    \item $2\cos3\alpha\cos\alpha$
+    \item $2\cos4\alpha\sin2\alpha$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+\begin{enumerate}
+    \item $\cos2\alpha-1=-2\sin^2\alpha$:
+    \[ \dfrac{-2\sin^2\alpha}{\cos\alpha}=-2\sin\alpha\cdot\dfrac{\sin\alpha}{\cos\alpha}=-2\sin\alpha\tan\alpha \]
+    \item $p=3\alpha+\tfrac\pi6$, $q=3\alpha-\tfrac\pi6$: \ $\tfrac{p+q}{2}=3\alpha$, $\tfrac{p-q}{2}=\tfrac\pi6$.
+    \[ 2\sin3\alpha\cos\dfrac\pi6=2\sin3\alpha\cdot\dfrac{\sqrt3}{2}=\sqrt3\sin3\alpha \]
+    \item $2\cos\tfrac{6\alpha}{2}\cos\tfrac{2\alpha}{2}=2\cos3\alpha\cos\alpha$.
+    \item $2\cos\tfrac{8\alpha}{2}\sin\tfrac{4\alpha}{2}=2\cos4\alpha\sin2\alpha$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ===============================
@@ -207,12 +374,27 @@ Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaf
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-\item Prostaferesi $\cos p+\cos q=2\cos\frac{p+q}{2}\cos\frac{p-q}{2}$: numeratore $\cos x+\cos 3x=2\cos 2x\cos x$, quindi $\dfrac{\cos x+\cos 3x}{\cos 2x}=2\cos x$.
-\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $4\sin 2x\cos 3x=4\cdot\tfrac12[\sin 5x+\sin(-x)]=2\sin 5x-2\sin x$.
-\item $\sin p+\sin q=2\sin\frac{p+q}{2}\cos\frac{p-q}{2}$: $\sin 4x+\sin 2x=2\sin 3x\cos x$.
-\item $\cos p-\cos q=-2\sin\frac{p+q}{2}\sin\frac{p-q}{2}$: $\cos 5x-\cos 3x=-2\sin 4x\sin x$.
+    \item $2\cos x$
+    \item $2\sin5x-2\sin x$
+    \item $2\sin3x\cos x$
+    \item $-2\sin4x\sin x$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+Werner: \ $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$, \ $\cos A\cos B=\tfrac12[\cos(A+B)+\cos(A-B)]$, \ $\sin A\sin B=\tfrac12[\cos(A-B)-\cos(A+B)]$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    \cos3x+\cos x &= 2\cos2x\cos x && \textcolor{gray}{\text{prostaferesi}}\\
+    \dfrac{2\cos2x\cos x}{\cos2x} &= 2\cos x
+    \end{aligned}\]
+    \item \[ 4\sin2x\cos3x=4\cdot\dfrac12\left[\sin5x+\sin(-x)\right]=2\sin5x-2\sin x \]
+    \item $2\sin\tfrac{6x}{2}\cos\tfrac{2x}{2}=2\sin3x\cos x$.
+    \item $-2\sin\tfrac{8x}{2}\sin\tfrac{2x}{2}=-2\sin4x\sin x$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -229,12 +411,24 @@ Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaf
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-\item $\sin p+\sin q=2\sin\frac{p+q}{2}\cos\frac{p-q}{2}$: $\sin x+\sin 3x=2\sin 2x\cos x$.
-\item $\cos p-\cos q=-2\sin\frac{p+q}{2}\sin\frac{p-q}{2}$: $\cos 2x-\cos 4x=-2\sin 3x\sin(-x)=2\sin 3x\sin x$.
-\item Werner $\cos A\cos B=\tfrac12[\cos(A-B)+\cos(A+B)]$: $2\cos 3x\cos 2x=\cos x+\cos 5x$.
-\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $3\sin 5x\cos 2x=\tfrac32(\sin 7x+\sin 3x)$.
+    \item $2\sin2x\cos x$
+    \item $2\sin3x\sin x$
+    \item $\cos5x+\cos x$
+    \item $\tfrac32(\sin7x+\sin3x)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+Werner: \ $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$, \ $\cos A\cos B=\tfrac12[\cos(A+B)+\cos(A-B)]$, \ $\sin A\sin B=\tfrac12[\cos(A-B)-\cos(A+B)]$.
+\begin{enumerate}
+    \item $2\sin\tfrac{4x}{2}\cos\tfrac{-2x}{2}=2\sin2x\cos x$ (il coseno è pari).
+    \item \[ \cos2x-\cos4x=-2\sin3x\sin(-x)=2\sin3x\sin x \quad \text{(il seno è dispari)} \]
+    \item $2\cos3x\cos2x=\cos5x+\cos x$.
+    \item $3\sin5x\cos2x=\tfrac32\left[\sin7x+\sin3x\right]$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -251,12 +445,24 @@ Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaf
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-\item $\sin p-\sin q=2\cos\frac{p+q}{2}\sin\frac{p-q}{2}$: $\sin 6x-\sin 2x=2\cos 4x\sin 2x$.
-\item $\cos p+\cos q=2\cos\frac{p+q}{2}\cos\frac{p-q}{2}$: $\cos 7x+\cos 5x=2\cos 6x\cos x$.
-\item Usando $1+\cos 4x=2\cos^2 2x$: $\dfrac{1+\cos 4x}{\cos 2x}=\dfrac{2\cos^2 2x}{\cos 2x}=2\cos 2x$.
-\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $\sin 3x\cos x=\tfrac12(\sin 4x+\sin 2x)$.
+    \item $2\cos4x\sin2x$
+    \item $2\cos6x\cos x$
+    \item $2\cos2x$
+    \item $\tfrac12(\sin4x+\sin2x)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+Werner: \ $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$, \ $\cos A\cos B=\tfrac12[\cos(A+B)+\cos(A-B)]$, \ $\sin A\sin B=\tfrac12[\cos(A-B)-\cos(A+B)]$.
+\begin{enumerate}
+    \item $2\cos\tfrac{8x}{2}\sin\tfrac{4x}{2}=2\cos4x\sin2x$.
+    \item $2\cos\tfrac{12x}{2}\cos\tfrac{2x}{2}=2\cos6x\cos x$.
+    \item $1+\cos4x=2\cos^22x$: \ $\dfrac{2\cos^22x}{\cos2x}=2\cos2x$.
+    \item $\sin3x\cos x=\tfrac12\left[\sin4x+\sin2x\right]$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -273,12 +479,24 @@ Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaf
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-\item $\sin p+\sin q=2\sin\frac{p+q}{2}\cos\frac{p-q}{2}$: $\sin 5x+\sin 3x=2\sin 4x\cos x$.
-\item $\cos p-\cos q=-2\sin\frac{p+q}{2}\sin\frac{p-q}{2}$: $\cos 6x-\cos 2x=-2\sin 4x\sin 2x$.
-\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $4\sin 2x\cos 5x=2[\sin 7x+\sin(-3x)]=2\sin 7x-2\sin 3x$.
-\item Werner $\cos A\cos B=\tfrac12[\cos(A-B)+\cos(A+B)]$: $2\cos 3x\cos 4x=\cos x+\cos 7x$.
+    \item $2\sin4x\cos x$
+    \item $-2\sin4x\sin2x$
+    \item $2\sin7x-2\sin3x$
+    \item $\cos7x+\cos x$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+Werner: \ $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$, \ $\cos A\cos B=\tfrac12[\cos(A+B)+\cos(A-B)]$, \ $\sin A\sin B=\tfrac12[\cos(A-B)-\cos(A+B)]$.
+\begin{enumerate}
+    \item $2\sin\tfrac{8x}{2}\cos\tfrac{2x}{2}=2\sin4x\cos x$.
+    \item $-2\sin\tfrac{8x}{2}\sin\tfrac{4x}{2}=-2\sin4x\sin2x$.
+    \item $4\sin2x\cos5x=2\left[\sin7x+\sin(-3x)\right]=2\sin7x-2\sin3x$.
+    \item $2\cos3x\cos4x=\cos7x+\cos(-x)=\cos7x+\cos x$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -295,12 +513,24 @@ Semplifica le seguenti espressioni utilizzando le formule di Werner o di prostaf
 \end{multicols}
 \begin{solution}
 \begin{enumerate}
-\item $\sin p-\sin q=2\cos\frac{p+q}{2}\sin\frac{p-q}{2}$: $\sin 7x-\sin 3x=2\cos 5x\sin 2x$.
-\item $\cos p+\cos q=2\cos\frac{p+q}{2}\cos\frac{p-q}{2}$: $\cos 8x+\cos 4x=2\cos 6x\cos 2x$.
-\item Usando $1-\cos 6x=2\sin^2 3x$: $\dfrac{1-\cos 6x}{\sin 3x}=\dfrac{2\sin^2 3x}{\sin 3x}=2\sin 3x$.
-\item Werner $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$: $\sin 2x\cos 3x=\tfrac12[\sin 5x+\sin(-x)]=\tfrac12(\sin 5x-\sin x)$.
+    \item $2\cos5x\sin2x$
+    \item $2\cos6x\cos2x$
+    \item $2\sin3x$
+    \item $\tfrac12(\sin5x-\sin x)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Duplicazione: $1+\cos2\alpha=2\cos^2\alpha$, \ $1-\cos2\alpha=2\sin^2\alpha$, \ $\sin2\alpha=2\sin\alpha\cos\alpha$. \\
+Prostaferesi: \ $\sin p+\sin q=2\sin\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\sin p-\sin q=2\cos\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$, \\
+$\cos p+\cos q=2\cos\tfrac{p+q}{2}\cos\tfrac{p-q}{2}$, \ $\cos p-\cos q=-2\sin\tfrac{p+q}{2}\sin\tfrac{p-q}{2}$.
+Werner: \ $\sin A\cos B=\tfrac12[\sin(A+B)+\sin(A-B)]$, \ $\cos A\cos B=\tfrac12[\cos(A+B)+\cos(A-B)]$, \ $\sin A\sin B=\tfrac12[\cos(A-B)-\cos(A+B)]$.
+\begin{enumerate}
+    \item $2\cos\tfrac{10x}{2}\sin\tfrac{4x}{2}=2\cos5x\sin2x$.
+    \item $2\cos\tfrac{12x}{2}\cos\tfrac{4x}{2}=2\cos6x\cos2x$.
+    \item $1-\cos6x=2\sin^23x$: \ $\dfrac{2\sin^23x}{\sin3x}=2\sin3x$.
+    \item $\sin2x\cos3x=\tfrac12\left[\sin5x+\sin(-x)\right]=\tfrac12(\sin5x-\sin x)$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ===============================
@@ -320,16 +550,40 @@ Risolvi le seguenti equazioni:
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Le soluzioni sono date a meno di periodicità, con $k\in\mathbb{Z}$.
 \begin{enumerate}
-\item $\cos x=-\dfrac{\sqrt2}{2}\Rightarrow x=\pm\dfrac{3\pi}{4}+2k\pi$.
-\item $\tan\!\Big(2x+\dfrac{\pi}{4}\Big)=\sqrt3\Rightarrow 2x+\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi\Rightarrow x=\dfrac{\pi}{24}+\dfrac{k\pi}{2}$.
-\item $\sin(\pi-x)=\sin x$ e $\cos(x-\pi)=-\cos x$, quindi $\sin x=-\cos x\Rightarrow \tan x=-1\Rightarrow x=-\dfrac{\pi}{4}+k\pi$.
-\item Posto $c=\cos x$: $2c^2-3c+1=0\Rightarrow(2c-1)(c-1)=0$. Da $\cos x=\dfrac12$, $x=\pm\dfrac{\pi}{3}+2k\pi$; da $\cos x=1$, $x=2k\pi$.
-\item Raccolgo $\sin x$: $\sin x(\sqrt3\sin x-\cos x)=0$. Da $\sin x=0$, $x=k\pi$; da $\tan x=\dfrac{1}{\sqrt3}$, $x=\dfrac{\pi}{6}+k\pi$.
-\item Combinazione lineare: $\sin x-\sqrt3\cos x=2\sin\!\Big(x-\dfrac{\pi}{3}\Big)=2\Rightarrow \sin\!\Big(x-\dfrac{\pi}{3}\Big)=1\Rightarrow x=\dfrac{5\pi}{6}+2k\pi$.
+    \item $x=\pm\tfrac34\pi+2k\pi$
+    \item $x=\tfrac{\pi}{24}+k\tfrac\pi2$
+    \item $x=-\tfrac\pi4+k\pi$
+    \item $x=2k\pi \vee x=\pm\tfrac\pi3+2k\pi$
+    \item $x=k\pi \vee x=\tfrac\pi6+k\pi$
+    \item $x=\tfrac56\pi+2k\pi$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Soluzioni con $k\in\mathbb{Z}$. Equazioni elementari: \ $\sin\theta=s \Rightarrow \theta=\theta_0+2k\pi \vee \theta=\pi-\theta_0+2k\pi$; \ $\cos\theta=c \Rightarrow \theta=\pm\theta_0+2k\pi$; \ $\tan\theta=t \Rightarrow \theta=\theta_0+k\pi$. Se l'argomento è un'espressione $\theta=ax+b$, si risolve prima in $\theta$ e poi si ricava $x$ (dividendo anche il periodo per $a$).
+\begin{enumerate}
+    \item Nella circonferenza goniometrica il coseno vale $-\tfrac{\sqrt2}{2}$ per $\theta=\tfrac34\pi$ e $\theta=-\tfrac34\pi$.
+    \item \[\begin{aligned}
+    2x+\dfrac\pi4 &= \dfrac\pi3+k\pi && \textcolor{gray}{\text{$\tan\dfrac\pi3=\sqrt3$}}\\
+    2x &= \dfrac\pi{12}+k\pi \;\Rightarrow\; x=\dfrac\pi{24}+k\dfrac\pi2
+    \end{aligned}\]
+    \item Archi associati: $\sin(\pi-x)=\sin x$, \ $\cos(x-\pi)=-\cos x$.
+    \[ \sin x=-\cos x \;\Rightarrow\; \tan x=-1 \;\Rightarrow\; x=-\dfrac\pi4+k\pi \quad \text{(divido per $\cos x\neq0$)} \]
+    \item Equazione di secondo grado in $c=\cos x$:
+    \[ 2c^2-3c+1=0 \;\Rightarrow\; c=\dfrac{3\pm1}{4}=1,\ \dfrac12 \]
+    $\cos x=1 \Rightarrow x=2k\pi$; \ $\cos x=\tfrac12 \Rightarrow x=\pm\tfrac\pi3+2k\pi$.
+    \item Raccolgo $\sin x$:
+    \[ \sin x\left(\sqrt3\sin x-\cos x\right)=0 \]
+    $\sin x=0 \Rightarrow x=k\pi$; \ $\sqrt3\sin x=\cos x \Rightarrow \tan x=\tfrac1{\sqrt3} \Rightarrow x=\tfrac\pi6+k\pi$.
+    \item Equazione lineare: la riscrivo come un solo seno (metodo dell'angolo aggiunto). Con $\sqrt{1+3}=2$:
+    \[\begin{aligned}
+    2\left(\dfrac12\sin x-\dfrac{\sqrt3}{2}\cos x\right) &= 2\\
+    \sin x\cos\dfrac\pi3-\cos x\sin\dfrac\pi3 &= 1\\
+    \sin\left(x-\dfrac\pi3\right) &= 1 && \textcolor{gray}{\text{formula di sottrazione}}\\
+    x-\dfrac\pi3 &= \dfrac\pi2+2k\pi \;\Rightarrow\; x=\dfrac56\pi+2k\pi
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -347,16 +601,37 @@ Risolvi le seguenti equazioni:
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Con $k\in\mathbb{Z}$:
 \begin{enumerate}
-\item $2\sin x\cos x=\sin 2x=\dfrac12\Rightarrow 2x=\dfrac{\pi}{6}+2k\pi$ oppure $2x=\dfrac{5\pi}{6}+2k\pi\Rightarrow x=\dfrac{\pi}{12}+k\pi$ o $x=\dfrac{5\pi}{12}+k\pi$.
-\item $\cos\!\Big(2x-\dfrac{\pi}{3}\Big)=-\dfrac12\Rightarrow 2x-\dfrac{\pi}{3}=\pm\dfrac{2\pi}{3}+2k\pi\Rightarrow x=\dfrac{\pi}{2}+k\pi$ o $x=-\dfrac{\pi}{6}+k\pi$.
-\item $\tan\!\Big(x+\dfrac{\pi}{6}\Big)=\sqrt3\Rightarrow x+\dfrac{\pi}{6}=\dfrac{\pi}{3}+k\pi\Rightarrow x=\dfrac{\pi}{6}+k\pi$.
-\item Posto $s=\sin x$: $2s^2-s-1=0\Rightarrow(2s+1)(s-1)=0$. Da $\sin x=1$, $x=\dfrac{\pi}{2}+2k\pi$; da $\sin x=-\dfrac12$, $x=-\dfrac{\pi}{6}+2k\pi$ o $x=\dfrac{7\pi}{6}+2k\pi$.
-\item $\sqrt3\sin x+\cos x+1=2\sin\!\Big(x+\dfrac{\pi}{6}\Big)+1=0\Rightarrow\sin\!\Big(x+\dfrac{\pi}{6}\Big)=-\dfrac12\Rightarrow x=-\dfrac{\pi}{3}+2k\pi$ o $x=\pi+2k\pi$.
-\item $\sin x+\sqrt3\cos x=0\Rightarrow\tan x=-\sqrt3\Rightarrow x=-\dfrac{\pi}{3}+k\pi$.
+    \item $x=\tfrac\pi{12}+k\pi \vee x=\tfrac5{12}\pi+k\pi$
+    \item $x=\tfrac\pi2+k\pi \vee x=-\tfrac\pi6+k\pi$
+    \item $x=\tfrac\pi6+k\pi$
+    \item $x=\tfrac\pi2+2k\pi \vee x=-\tfrac\pi6+2k\pi \vee x=\tfrac76\pi+2k\pi$
+    \item $x=-\tfrac\pi3+2k\pi \vee x=\pi+2k\pi$
+    \item $x=-\tfrac\pi3+k\pi$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Soluzioni con $k\in\mathbb{Z}$. Equazioni elementari: \ $\sin\theta=s \Rightarrow \theta=\theta_0+2k\pi \vee \theta=\pi-\theta_0+2k\pi$; \ $\cos\theta=c \Rightarrow \theta=\pm\theta_0+2k\pi$; \ $\tan\theta=t \Rightarrow \theta=\theta_0+k\pi$. Se l'argomento è un'espressione $\theta=ax+b$, si risolve prima in $\theta$ e poi si ricava $x$ (dividendo anche il periodo per $a$).
+\begin{enumerate}
+    \item Duplicazione: $2\sin x\cos x=\sin2x=\tfrac12$.
+    \[ 2x=\dfrac\pi6+2k\pi \;\vee\; 2x=\dfrac56\pi+2k\pi \;\Rightarrow\; x=\dfrac\pi{12}+k\pi \;\vee\; x=\dfrac5{12}\pi+k\pi \]
+    \item \[\begin{aligned}
+    2x-\dfrac\pi3 &= \pm\dfrac23\pi+2k\pi\\
+    2x &= \pi+2k\pi \;\vee\; 2x=-\dfrac\pi3+2k\pi && \textcolor{gray}{\text{sommo $\dfrac\pi3$}}\\
+    x &= \dfrac\pi2+k\pi \;\vee\; x=-\dfrac\pi6+k\pi
+    \end{aligned}\]
+    \item $x+\tfrac\pi6=\tfrac\pi3+k\pi \Rightarrow x=\tfrac\pi6+k\pi$.
+    \item Con $s=\sin x$: \ $2s^2-s-1=0 \Rightarrow s=\dfrac{1\pm3}{4}=1,\ -\tfrac12$. \\
+    $\sin x=1 \Rightarrow x=\tfrac\pi2+2k\pi$; \ $\sin x=-\tfrac12 \Rightarrow x=-\tfrac\pi6+2k\pi \vee x=\tfrac76\pi+2k\pi$.
+    \item Angolo aggiunto: $\sqrt3\sin x+\cos x=2\left(\tfrac{\sqrt3}{2}\sin x+\tfrac12\cos x\right)=2\sin\left(x+\tfrac\pi6\right)$.
+    \[\begin{aligned}
+    2\sin\left(x+\dfrac\pi6\right) &= -1\\
+    x+\dfrac\pi6 &= -\dfrac\pi6+2k\pi \;\vee\; x+\dfrac\pi6=\dfrac76\pi+2k\pi\\
+    x &= -\dfrac\pi3+2k\pi \;\vee\; x=\pi+2k\pi
+    \end{aligned}\]
+    \item $\cos x=0$ non è soluzione (darebbe $\sin x=\pm1\neq0$), quindi divido per $\cos x$: \ $\tan x=-\sqrt3 \Rightarrow x=-\tfrac\pi3+k\pi$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -370,12 +645,22 @@ Risolvi le seguenti equazioni:
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Con $k\in\mathbb{Z}$:
 \begin{enumerate}
-\item $\cos x=\dfrac12\Rightarrow x=\pm\dfrac{\pi}{3}+2k\pi$.
-\item $\sin\!\Big(3x-\dfrac{\pi}{4}\Big)=-\dfrac{\sqrt2}{2}$. Le soluzioni di $\sin\theta=-\dfrac{\sqrt2}{2}$ sono $\theta=-\dfrac{\pi}{4}+2k\pi$ e $\theta=\dfrac{5\pi}{4}+2k\pi$. Quindi $3x=2k\pi\Rightarrow x=\dfrac{2k\pi}{3}$, oppure $3x=\dfrac{3\pi}{2}+2k\pi\Rightarrow x=\dfrac{\pi}{2}+\dfrac{2k\pi}{3}$.
+    \item $x=\pm\tfrac\pi3+2k\pi$
+    \item $x=\tfrac23k\pi \vee x=\tfrac\pi2+\tfrac23k\pi$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Soluzioni con $k\in\mathbb{Z}$. Equazioni elementari: \ $\sin\theta=s \Rightarrow \theta=\theta_0+2k\pi \vee \theta=\pi-\theta_0+2k\pi$; \ $\cos\theta=c \Rightarrow \theta=\pm\theta_0+2k\pi$; \ $\tan\theta=t \Rightarrow \theta=\theta_0+k\pi$. Se l'argomento è un'espressione $\theta=ax+b$, si risolve prima in $\theta$ e poi si ricava $x$ (dividendo anche il periodo per $a$).
+\begin{enumerate}
+    \item Il coseno vale $\tfrac12$ per $\pm\tfrac\pi3$.
+    \item $\sin\theta=-\tfrac{\sqrt2}{2}$ per $\theta=-\tfrac\pi4$ e $\theta=\pi+\tfrac\pi4=\tfrac54\pi$.
+    \[\begin{aligned}
+    3x-\dfrac\pi4 &= -\dfrac\pi4+2k\pi \;\Rightarrow\; 3x=2k\pi \;\Rightarrow\; x=\dfrac23k\pi\\
+    3x-\dfrac\pi4 &= \dfrac54\pi+2k\pi \;\Rightarrow\; 3x=\dfrac32\pi+2k\pi \;\Rightarrow\; x=\dfrac\pi2+\dfrac23k\pi
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -393,16 +678,29 @@ Risolvi le seguenti equazioni:
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Con $k\in\mathbb{Z}$:
 \begin{enumerate}
-\item $\sin 2x=\dfrac{\sqrt3}{2}\Rightarrow 2x=\dfrac{\pi}{3}+2k\pi$ o $2x=\dfrac{2\pi}{3}+2k\pi\Rightarrow x=\dfrac{\pi}{6}+k\pi$ o $x=\dfrac{\pi}{3}+k\pi$.
-\item $\cos\!\Big(3x+\dfrac{\pi}{6}\Big)=\dfrac12\Rightarrow 3x+\dfrac{\pi}{6}=\pm\dfrac{\pi}{3}+2k\pi\Rightarrow x=\dfrac{\pi}{18}+\dfrac{2k\pi}{3}$ o $x=-\dfrac{\pi}{6}+\dfrac{2k\pi}{3}$.
-\item $\tan\!\Big(x-\dfrac{\pi}{3}\Big)=-\sqrt3\Rightarrow x-\dfrac{\pi}{3}=-\dfrac{\pi}{3}+k\pi\Rightarrow x=k\pi$.
-\item $2\cos^2x-1=\cos 2x=0\Rightarrow 2x=\dfrac{\pi}{2}+k\pi\Rightarrow x=\dfrac{\pi}{4}+\dfrac{k\pi}{2}$.
-\item $\sin x\cos x=\dfrac12\sin 2x=\dfrac14\Rightarrow\sin 2x=\dfrac12\Rightarrow x=\dfrac{\pi}{12}+k\pi$ o $x=\dfrac{5\pi}{12}+k\pi$.
-\item $\sin x-\cos x=0\Rightarrow\tan x=1\Rightarrow x=\dfrac{\pi}{4}+k\pi$.
+    \item $x=\tfrac\pi6+k\pi \vee x=\tfrac\pi3+k\pi$
+    \item $x=\tfrac\pi{18}+\tfrac23k\pi \vee x=-\tfrac\pi6+\tfrac23k\pi$
+    \item $x=k\pi$
+    \item $x=\tfrac\pi4+k\tfrac\pi2$
+    \item $x=\tfrac\pi{12}+k\pi \vee x=\tfrac5{12}\pi+k\pi$
+    \item $x=\tfrac\pi4+k\pi$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Soluzioni con $k\in\mathbb{Z}$. Equazioni elementari: \ $\sin\theta=s \Rightarrow \theta=\theta_0+2k\pi \vee \theta=\pi-\theta_0+2k\pi$; \ $\cos\theta=c \Rightarrow \theta=\pm\theta_0+2k\pi$; \ $\tan\theta=t \Rightarrow \theta=\theta_0+k\pi$. Se l'argomento è un'espressione $\theta=ax+b$, si risolve prima in $\theta$ e poi si ricava $x$ (dividendo anche il periodo per $a$).
+\begin{enumerate}
+    \item $2x=\tfrac\pi3+2k\pi \vee 2x=\tfrac23\pi+2k\pi$, poi divido per $2$.
+    \item \[\begin{aligned}
+    3x+\dfrac\pi6 &= \dfrac\pi3+2k\pi \;\Rightarrow\; 3x=\dfrac\pi6+2k\pi \;\Rightarrow\; x=\dfrac\pi{18}+\dfrac23k\pi\\
+    3x+\dfrac\pi6 &= -\dfrac\pi3+2k\pi \;\Rightarrow\; 3x=-\dfrac\pi2+2k\pi \;\Rightarrow\; x=-\dfrac\pi6+\dfrac23k\pi
+    \end{aligned}\]
+    \item $x-\tfrac\pi3=-\tfrac\pi3+k\pi \Rightarrow x=k\pi$.
+    \item Duplicazione: $2\cos^2x-1=\cos2x=0 \Rightarrow 2x=\tfrac\pi2+k\pi \Rightarrow x=\tfrac\pi4+k\tfrac\pi2$.
+    \item $\sin x\cos x=\tfrac12\sin2x$, quindi $\sin2x=\tfrac12$: come in 4.2 a).
+    \item $\cos x=0$ non è soluzione; divido: $\tan x=1 \Rightarrow x=\tfrac\pi4+k\pi$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % -------------------------------
@@ -420,16 +718,36 @@ Risolvi le seguenti equazioni:
 \end{enumerate}
 \end{multicols}
 \begin{solution}
-Con $k\in\mathbb{Z}$:
 \begin{enumerate}
-\item $\cos x=0\Rightarrow x=\dfrac{\pi}{2}+k\pi$.
-\item $\sin\!\Big(2x+\dfrac{\pi}{3}\Big)=-\dfrac12\Rightarrow 2x+\dfrac{\pi}{3}=-\dfrac{\pi}{6}+2k\pi$ o $=\dfrac{7\pi}{6}+2k\pi\Rightarrow x=-\dfrac{\pi}{4}+k\pi$ o $x=\dfrac{5\pi}{12}+k\pi$.
-\item $\tan 3x=\sqrt3\Rightarrow 3x=\dfrac{\pi}{3}+k\pi\Rightarrow x=\dfrac{\pi}{9}+\dfrac{k\pi}{3}$.
-\item $3\sin^2x-1=0\Rightarrow\sin x=\pm\dfrac{\sqrt3}{3}\Rightarrow x=k\pi\pm\arcsin\dfrac{\sqrt3}{3}$ (con $\arcsin\dfrac{\sqrt3}{3}\approx 35{,}3^\circ$).
-\item $2\cos^2x-\sin x=0\Rightarrow 2(1-\sin^2x)-\sin x=0\Rightarrow 2\sin^2x+\sin x-2=0\Rightarrow\sin x=\dfrac{-1+\sqrt{17}}{4}\approx 0{,}781$ (l'altra radice è $<-1$). Quindi $x\approx 51{,}3^\circ+2k\pi$ o $x\approx 128{,}7^\circ+2k\pi$.
-\item $\sin x+2\cos x=0\Rightarrow\tan x=-2\Rightarrow x=k\pi-\arctan 2$ (con $\arctan 2\approx 63{,}4^\circ$).
+    \item $x=\tfrac\pi2+k\pi$
+    \item $x=-\tfrac\pi4+k\pi \vee x=\tfrac5{12}\pi+k\pi$
+    \item $x=\tfrac\pi9+k\tfrac\pi3$
+    \item $x=\pm\arcsin\tfrac{\sqrt3}{3}+k\pi$ \ ($\arcsin\tfrac{\sqrt3}{3}\approx35{,}3^\circ$)
+    \item $x=\arcsin\tfrac{\sqrt{17}-1}{4}+2k\pi \vee x=\pi-\arcsin\tfrac{\sqrt{17}-1}{4}+2k\pi$ \ ($\approx51{,}3^\circ$ e $128{,}7^\circ$)
+    \item $x=-\arctan2+k\pi$ \ ($\arctan2\approx63{,}4^\circ$)
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Soluzioni con $k\in\mathbb{Z}$. Equazioni elementari: \ $\sin\theta=s \Rightarrow \theta=\theta_0+2k\pi \vee \theta=\pi-\theta_0+2k\pi$; \ $\cos\theta=c \Rightarrow \theta=\pm\theta_0+2k\pi$; \ $\tan\theta=t \Rightarrow \theta=\theta_0+k\pi$. Se l'argomento è un'espressione $\theta=ax+b$, si risolve prima in $\theta$ e poi si ricava $x$ (dividendo anche il periodo per $a$).
+\begin{enumerate}
+    \item Il coseno si annulla in $\tfrac\pi2$ e $\tfrac32\pi$, cioè ogni $\pi$.
+    \item $\sin\theta=-\tfrac12$ per $\theta=-\tfrac\pi6$ e $\theta=\tfrac76\pi$:
+    \[\begin{aligned}
+    2x+\dfrac\pi3=-\dfrac\pi6+2k\pi &\;\Rightarrow\; 2x=-\dfrac\pi2+2k\pi \;\Rightarrow\; x=-\dfrac\pi4+k\pi\\
+    2x+\dfrac\pi3=\dfrac76\pi+2k\pi &\;\Rightarrow\; 2x=\dfrac56\pi+2k\pi \;\Rightarrow\; x=\dfrac5{12}\pi+k\pi
+    \end{aligned}\]
+    \item $3x=\tfrac\pi3+k\pi \Rightarrow x=\tfrac\pi9+k\tfrac\pi3$.
+    \item $\sin^2x=\tfrac13 \Rightarrow \sin x=\pm\tfrac{1}{\sqrt3}=\pm\tfrac{\sqrt3}{3}$. Non è un valore notevole: si usa l'arcoseno. I quattro valori in un giro si raccolgono in $\pm\arcsin\tfrac{\sqrt3}{3}+k\pi$.
+    \item Esprimo tutto in seno con $\cos^2x=1-\sin^2x$:
+    \[\begin{aligned}
+    2(1-\sin^2x)-\sin x &= 0\\
+    2\sin^2x+\sin x-2 &= 0\\
+    \sin x &= \dfrac{-1\pm\sqrt{17}}{4}
+    \end{aligned}\]
+    $\tfrac{-1-\sqrt{17}}{4}\approx-1{,}28<-1$: impossibile. Resta $\sin x=\tfrac{\sqrt{17}-1}{4}\approx0{,}78$, che ha due soluzioni in un giro (I e II quadrante).
+    \item $\cos x=0$ non è soluzione; divido per $\cos x$: $\tan x=-2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -453,12 +771,30 @@ In un punto $P$ dell'ondoscopio le due onde si sovrappongono.
   quando $\Delta x = n\lambda$.
 \end{enumerate}
 \begin{solution}
-\textbf{a)} Posto $\theta_i=2\pi\Big(\dfrac{x_i}{\lambda}-\dfrac{t}{T}\Big)$, la sovrapposizione è $y=y_1+y_2=A(\sin\theta_1+\sin\theta_2)$. Per la prostaferesi $\sin\theta_1+\sin\theta_2=2\sin\dfrac{\theta_1+\theta_2}{2}\cos\dfrac{\theta_1-\theta_2}{2}$:
-\[
-y=2A\cos\!\Big(\dfrac{\pi\,\Delta x}{\lambda}\Big)\,\sin\!\Big[2\pi\Big(\dfrac{x_1+x_2}{2\lambda}-\dfrac{t}{T}\Big)\Big],
-\]
-dove si è usato $\dfrac{\theta_1-\theta_2}{2}=\dfrac{\pi(x_1-x_2)}{\lambda}=\dfrac{\pi\,\Delta x}{\lambda}$. Si tratta ancora di un'onda sinusoidale di periodo $T$, la cui ampiezza $\Big|2A\cos\dfrac{\pi\,\Delta x}{\lambda}\Big|$ dipende solo dalla differenza di cammino $\Delta x$ e \emph{non} dal tempo.
-
-\textbf{b)} L'ampiezza si annulla quando $\cos\dfrac{\pi\,\Delta x}{\lambda}=0$, cioè $\dfrac{\pi\,\Delta x}{\lambda}=\dfrac{\pi}{2}+n\pi$, da cui $\Delta x=(2n+1)\dfrac{\lambda}{2}$ (interferenza distruttiva). È massima e pari a $2A$ quando $\Big|\cos\dfrac{\pi\,\Delta x}{\lambda}\Big|=1$, cioè $\dfrac{\pi\,\Delta x}{\lambda}=n\pi$, da cui $\Delta x=n\lambda$ (interferenza costruttiva).
+\begin{enumerate}[label=\alph*)]
+    \item $y=2A\cos\left(\dfrac{\pi\,\Delta x}{\lambda}\right)\sin\left[2\pi\left(\dfrac{x_1+x_2}{2\lambda}-\dfrac tT\right)\right]$: un'onda di periodo $T$ con ampiezza $\left|2A\cos\dfrac{\pi\,\Delta x}{\lambda}\right|$, indipendente da $t$.
+    \item Ampiezza $0$ per $\Delta x=(2n+1)\tfrac\lambda2$; \ ampiezza $2A$ per $\Delta x=n\lambda$.
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*)]
+    \item Chiamo $\theta_1$ e $\theta_2$ gli argomenti dei due seni e applico la prostaferesi $\sin\theta_1+\sin\theta_2=2\sin\tfrac{\theta_1+\theta_2}{2}\cos\tfrac{\theta_1-\theta_2}{2}$:
+    \[\begin{aligned}
+    \dfrac{\theta_1+\theta_2}{2} &= 2\pi\left(\dfrac{x_1+x_2}{2\lambda}-\dfrac tT\right) && \textcolor{gray}{\text{il termine in $t$ resta}}\\
+    \dfrac{\theta_1-\theta_2}{2} &= \dfrac{\pi(x_1-x_2)}{\lambda}=\dfrac{\pi\,\Delta x}{\lambda} && \textcolor{gray}{\text{il termine in $t$ si elimina}}\\
+    y &= 2A\cos\dfrac{\pi\,\Delta x}{\lambda}\cdot\sin\left[2\pi\left(\dfrac{x_1+x_2}{2\lambda}-\dfrac tT\right)\right]
+    \end{aligned}\]
+    Il secondo fattore è un'onda sinusoidale con lo stesso periodo $T$; il primo non contiene $t$, quindi fa da ampiezza costante nel tempo.
+    \item \textbf{Ampiezza nulla}:
+    \[\begin{aligned}
+    \cos\dfrac{\pi\,\Delta x}{\lambda} &= 0\\
+    \dfrac{\pi\,\Delta x}{\lambda} &= \dfrac\pi2+n\pi \;\Rightarrow\; \Delta x=(2n+1)\dfrac\lambda2 && \textcolor{gray}{\text{interferenza distruttiva}}
+    \end{aligned}\]
+    \textbf{Ampiezza massima $2A$}:
+    \[\begin{aligned}
+    \left|\cos\dfrac{\pi\,\Delta x}{\lambda}\right| &= 1\\
+    \dfrac{\pi\,\Delta x}{\lambda} &= n\pi \;\Rightarrow\; \Delta x=n\lambda && \textcolor{gray}{\text{interferenza costruttiva}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}

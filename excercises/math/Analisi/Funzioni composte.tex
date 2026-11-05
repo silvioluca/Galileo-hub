@@ -24,6 +24,35 @@ Date le funzioni $f(x)=2x-1$ e $g(x)=x+3$, calcola:
     \item $x=1$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: si calcola prima $g(x)$ e il risultato diventa l'argomento di $f$. In pratica, nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    g(2) &= 2+3=5 && \textcolor{gray}{\text{prima applico $g$}}\\
+    f(5) &= 2\cdot5-1=9 && \textcolor{gray}{\text{poi $f$ al risultato}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    f(2) &= 2\cdot2-1=3 && \textcolor{gray}{\text{prima $f$}}\\
+    g(3) &= 3+3=6 && \textcolor{gray}{\text{poi $g$}}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    f\big(g(x)\big) &= f(x+3) && \textcolor{gray}{\text{sostituisco $g(x)$}}\\
+    &= 2(x+3)-1 && \textcolor{gray}{\text{al posto della $x$ di $f$ metto $x+3$}}\\
+    &= 2x+5
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    g\big(f(x)\big) &= g(2x-1)\\
+    &= (2x-1)+3=2x+2
+    \end{aligned}\]
+    Si nota che $f\circ g\neq g\circ f$: la composizione non è commutativa.
+    \item \[ g(-1)=2, \qquad f(2)=3 \]
+    \item \[\begin{aligned}
+    2x+5 &= 7 && \textcolor{gray}{\text{uso l'espressione trovata al punto c)}}\\
+    2x &= 2\\
+    x &= 1
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -44,12 +73,39 @@ Date le funzioni $f(x)=x^2+1$ e $g(x)=2x-3$, calcola:
 \begin{enumerate}
     \item $(f\circ g)(x)=4x^2-12x+10$
     \item $(g\circ f)(x)=2x^2-1$
-    \item $(f\circ g)(2)=2$
-    \item $(g\circ f)(-2)=7$
+    \item $2$
+    \item $7$
     \item $x=0\vee x=3$
     \item $x=\pm3$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: si calcola prima $g(x)$ e il risultato diventa l'argomento di $f$. In pratica, nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    f\big(g(x)\big) &= (2x-3)^2+1 && \textcolor{gray}{\text{al posto di $x$ metto $2x-3$}}\\
+    &= 4x^2-12x+9+1 && \textcolor{gray}{\text{quadrato di binomio}}\\
+    &= 4x^2-12x+10
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    g\big(f(x)\big) &= 2(x^2+1)-3\\
+    &= 2x^2-1
+    \end{aligned}\]
+    \item $g(2)=4-3=1$, \ $f(1)=1+1=2$.
+    \item $f(-2)=4+1=5$, \ $g(5)=10-3=7$.
+    \item \[\begin{aligned}
+    4x^2-12x+10 &= 10\\
+    4x^2-12x &= 0\\
+    4x(x-3) &= 0 && \textcolor{gray}{\text{raccolgo $4x$}}
+    \end{aligned}\]
+    Per la legge di annullamento del prodotto: $x=0$ oppure $x=3$.
+    \item \[\begin{aligned}
+    2x^2-1 &= 17\\
+    x^2 &= 9\\
+    x &= \pm3
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -70,12 +126,40 @@ Date le funzioni $f(x)=\dfrac{x+1}{2}$ e $g(x)=x^2-1$, calcola:
 \begin{enumerate}
     \item $(f\circ g)(x)=\dfrac{x^2}{2}$
     \item $(g\circ f)(x)=\dfrac{x^2+2x-3}{4}$
-    \item $(f\circ g)(3)=\dfrac{9}{2}$
-    \item $(g\circ f)(1)=0$
+    \item $\tfrac92$
+    \item $0$
     \item $x=\pm4$
-    \item $x=-1\pm\sqrt{27}$
+    \item $x=-1\pm2\sqrt7$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: si calcola prima $g(x)$ e il risultato diventa l'argomento di $f$. In pratica, nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    f\big(g(x)\big) &= \dfrac{(x^2-1)+1}{2} && \textcolor{gray}{\text{al posto di $x$ metto $x^2-1$}}\\
+    &= \dfrac{x^2}{2}
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    g\big(f(x)\big) &= \left(\dfrac{x+1}{2}\right)^2-1\\
+    &= \dfrac{x^2+2x+1}{4}-\dfrac44 && \textcolor{gray}{\text{quadrato e denominatore comune}}\\
+    &= \dfrac{x^2+2x-3}{4}
+    \end{aligned}\]
+    \item $(f\circ g)(3)=\dfrac{3^2}{2}=\dfrac92$.
+    \item $f(1)=\dfrac{1+1}{2}=1$, \ $g(1)=1-1=0$.
+    \item \[\begin{aligned}
+    \dfrac{x^2}{2} &= 8\\
+    x^2 &= 16\\
+    x &= \pm4
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    \dfrac{x^2+2x-3}{4} &= 6\\
+    x^2+2x-3 &= 24 && \textcolor{gray}{\text{moltiplico per $4$}}\\
+    x^2+2x-27 &= 0\\
+    x &= \dfrac{-2\pm\sqrt{4+108}}{2}=\dfrac{-2\pm\sqrt{112}}{2} && \textcolor{gray}{\text{formula risolutiva}}\\
+    x &= \dfrac{-2\pm4\sqrt7}{2}=-1\pm2\sqrt7 && \textcolor{gray}{\text{$\sqrt{112}=\sqrt{16\cdot7}=4\sqrt7$}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -95,13 +179,37 @@ Date le funzioni $f(x)=\sqrt{2x+1}$ e $g(x)=x^2+1$, calcola:
 \begin{solution}
 \begin{enumerate}
     \item $(f\circ g)(x)=\sqrt{2x^2+3}$
-    \item $(g\circ f)(x)=2x+2$
-    \item $(f\circ g)(2)=\sqrt{11}$
-    \item $(g\circ f)(4)=10$
+    \item $(g\circ f)(x)=2x+2$ \ (per $x\geq-\tfrac12$)
+    \item $\sqrt{11}$
+    \item $10$
     \item $x=3$
     \item $x=\pm2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+$(f\circ g)(x)=f\big(g(x)\big)$: si calcola prima $g(x)$ e il risultato diventa l'argomento di $f$. In pratica, nell'espressione di $f$ si sostituisce ogni $x$ con l'intera espressione di $g(x)$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    f\big(g(x)\big) &= \sqrt{2(x^2+1)+1}\\
+    &= \sqrt{2x^2+3}
+    \end{aligned}\]
+    Il radicando è sempre positivo: definita per ogni $x$.
+    \item \[\begin{aligned}
+    g\big(f(x)\big) &= \left(\sqrt{2x+1}\right)^2+1\\
+    &= 2x+1+1=2x+2
+    \end{aligned}\]
+    Attenzione: vale solo dove esiste $f$, cioè per $2x+1\geq0$, $x\geq-\tfrac12$.
+    \item $(f\circ g)(2)=\sqrt{2\cdot4+3}=\sqrt{11}$.
+    \item $f(4)=\sqrt{9}=3$, \ $g(3)=9+1=10$.
+    \item $2x+2=8 \;\Rightarrow\; x=3$, accettabile perché $3\geq-\tfrac12$.
+    \item \[\begin{aligned}
+    \sqrt{2x^2+3} &= \sqrt{11}\\
+    2x^2+3 &= 11 && \textcolor{gray}{\text{elevo al quadrato}}\\
+    x^2 &= 4\\
+    x &= \pm2
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -123,10 +231,39 @@ Date le funzioni $f(x)=2x-1$, $g(x)=x^2+1$ e $h(x)=3x-2$, calcola:
     \item $(f\circ g\circ h)(x)=18x^2-24x+9$
     \item $(g\circ f\circ h)(x)=36x^2-60x+26$
     \item $(h\circ g\circ f)(x)=12x^2-12x+4$
-    \item $(f\circ g)(h(1))=19$
-    \item $(g\circ h)(1)=2$
+    \item $3$
+    \item $2$
     \item $x=0\vee x=\tfrac43$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Nella composizione di tre funzioni si lavora \textbf{da destra verso sinistra}: in $f\circ g\circ h$ si applica prima $h$, poi $g$, infine $f$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    h(x) &= 3x-2\\
+    g\big(h(x)\big) &= (3x-2)^2+1=9x^2-12x+5 && \textcolor{gray}{\text{applico $g$}}\\
+    f\big(g(h(x))\big) &= 2(9x^2-12x+5)-1 && \textcolor{gray}{\text{applico $f$}}\\
+    &= 18x^2-24x+9
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    f\big(h(x)\big) &= 2(3x-2)-1=6x-5 && \textcolor{gray}{\text{prima $h$, poi $f$}}\\
+    g(6x-5) &= (6x-5)^2+1 && \textcolor{gray}{\text{infine $g$}}\\
+    &= 36x^2-60x+26
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    g\big(f(x)\big) &= (2x-1)^2+1=4x^2-4x+2 && \textcolor{gray}{\text{prima $f$, poi $g$}}\\
+    h(4x^2-4x+2) &= 3(4x^2-4x+2)-2 && \textcolor{gray}{\text{infine $h$}}\\
+    &= 12x^2-12x+4
+    \end{aligned}\]
+    \item \[ h(1)=3-2=1, \qquad g(1)=1+1=2, \qquad f(2)=4-1=3 \]
+    \item \[ h(1)=1, \qquad g(1)=2 \]
+    \item \[\begin{aligned}
+    18x^2-24x+9 &= 9 && \textcolor{gray}{\text{uso il risultato di a)}}\\
+    18x^2-24x &= 0\\
+    6x(3x-4) &= 0 && \textcolor{gray}{\text{raccolgo $6x$}}
+    \end{aligned}\]
+    $x=0$ oppure $3x-4=0$, cioè $x=\tfrac43$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 

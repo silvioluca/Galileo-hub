@@ -17,17 +17,69 @@ Calcola la derivata delle seguenti funzioni, semplificando dove possibile:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $f'(x)=3x^2-10x+2$. \\
-2) $\sqrt{x^2+4x+4}=|x+2|$, quindi $f'(x)=\dfrac{x+2}{|x+2|}$ ($x\neq-2$). \\
-3) $f'(x)=\dfrac{2(1-x^2)}{(x^2+1)^2}$. \\
-4) $f'(x)=x^2e^x(3+x)$. \\
-5) $f'(x)=\dfrac{2x}{x^2+1}$. \\
-6) $f'(x)=\dfrac{1}{\sqrt{1-(x-1)^2}}=\dfrac{1}{\sqrt{2x-x^2}}$ ($0<x<2$). \\
-7) $f'(x)=\tan x+\dfrac{x}{\cos^2 x}$. \\
-8) $f'(x)=-2^{-x}(\ln 2\,\cos x+\sin x)$. \\
-9) $\dfrac{|x-1|}{x}$: $f'(x)=\dfrac{1}{x^2}$ per $x>1$, $f'(x)=-\dfrac{1}{x^2}$ per $x<1$; non derivabile in $x=1$ (punto angoloso). \\
-10) $x^{3x}=e^{3x\ln x}$, quindi $f'(x)=3x^{3x}(\ln x+1)$.
+\begin{enumerate}[label=\arabic*)]
+    \item $f'(x)=3x^2-10x+2$
+    \item $f'(x)=\dfrac{x+2}{|x+2|}$ \ ($x\neq-2$)
+    \item $f'(x)=\dfrac{2(1-x^2)}{(x^2+1)^2}$
+    \item $f'(x)=x^2e^x(x+3)$
+    \item $f'(x)=\dfrac{2x}{x^2+1}$
+    \item $f'(x)=\dfrac{1}{\sqrt{2x-x^2}}$ \ ($0<x<2$)
+    \item $f'(x)=\tan x+\dfrac{x}{\cos^2x}$
+    \item $f'(x)=-2^{-x}(\ln2\,\cos x+\sin x)$
+    \item $f'(x)=\dfrac1{x^2}$ per $x>1$, \ $-\dfrac1{x^2}$ per $x<1$ ($x\neq0$); non derivabile in $x=1$
+    \item $f'(x)=3x^{3x}(\ln x+1)$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Regole usate: \ $(x^n)'=nx^{n-1}$; \ prodotto $(fg)'=f'g+fg'$; \ quoziente $\left(\dfrac fg\right)'=\dfrac{f'g-fg'}{g^2}$; \ funzione composta $\big(f(g(x))\big)'=f'(g(x))\cdot g'(x)$.
+\begin{enumerate}[label=\arabic*)]
+    \item Derivo termine per termine con la regola della potenza:
+    \[ f'(x)=3x^2-5\cdot2x+2=3x^2-10x+2 \]
+    \item Il radicando è un quadrato: $x^2+4x+4=(x+2)^2$, e $\sqrt{(x+2)^2}=|x+2|$.
+    \[\begin{aligned}
+    f(x) &= |x+2| && \textcolor{gray}{\text{vale $x+2$ per $x>-2$ e $-(x+2)$ per $x<-2$}}\\
+    f'(x) &= \dfrac{x+2}{|x+2|} && \textcolor{gray}{\text{cioè $+1$ a destra di $-2$, $-1$ a sinistra}}
+    \end{aligned}\]
+    In $x=-2$ la funzione ha un punto angoloso e non è derivabile.
+    \item Regola del quoziente con $f=2x$ e $g=x^2+1$:
+    \[\begin{aligned}
+    f'(x) &= \dfrac{2(x^2+1)-2x\cdot2x}{(x^2+1)^2}\\
+    &= \dfrac{2-2x^2}{(x^2+1)^2}=\dfrac{2(1-x^2)}{(x^2+1)^2}
+    \end{aligned}\]
+    \item Regola del prodotto:
+    \[\begin{aligned}
+    f'(x) &= 3x^2\cdot e^x+x^3\cdot e^x\\
+    &= x^2e^x(3+x) && \textcolor{gray}{\text{raccolgo $x^2e^x$}}
+    \end{aligned}\]
+    \item Funzione composta: la derivata di $\ln t$ è $\dfrac1t$, moltiplicata per la derivata dell'argomento.
+    \[ f'(x)=\dfrac{1}{x^2+1}\cdot2x=\dfrac{2x}{x^2+1} \]
+    \item $(\arcsin t)'=\dfrac{1}{\sqrt{1-t^2}}$, con $t=x-1$ e $t'=1$:
+    \[\begin{aligned}
+    f'(x) &= \dfrac{1}{\sqrt{1-(x-1)^2}}\\
+    &= \dfrac{1}{\sqrt{1-x^2+2x-1}}=\dfrac{1}{\sqrt{2x-x^2}} && \textcolor{gray}{\text{sviluppo il quadrato}}
+    \end{aligned}\]
+    Esiste dove $2x-x^2>0$, cioè $0<x<2$.
+    \item Prodotto di $x$ e $\tan x$, con $(\tan x)'=\dfrac{1}{\cos^2x}$:
+    \[ f'(x)=1\cdot\tan x+x\cdot\dfrac{1}{\cos^2x} \]
+    \item $(2^{-x})'=2^{-x}\ln2\cdot(-1)$ (esponenziale composta). Regola del prodotto:
+    \[\begin{aligned}
+    f'(x) &= -\ln2\cdot2^{-x}\cos x+2^{-x}(-\sin x)\\
+    &= -2^{-x}(\ln2\,\cos x+\sin x) && \textcolor{gray}{\text{raccolgo $-2^{-x}$}}
+    \end{aligned}\]
+    \item Tolgo il valore assoluto distinguendo i casi:
+    \[\begin{aligned}
+    x>1: &\quad f(x)=\dfrac{x-1}{x}=1-\dfrac1x \;\Rightarrow\; f'(x)=\dfrac{1}{x^2}\\
+    x<1: &\quad f(x)=\dfrac{1-x}{x}=\dfrac1x-1 \;\Rightarrow\; f'(x)=-\dfrac{1}{x^2}
+    \end{aligned}\]
+    In $x=1$ la derivata destra vale $1$ e la sinistra $-1$: punto angoloso, non derivabile.
+    \item Base ed esponente contengono la $x$: riscrivo con la base $e$.
+    \[\begin{aligned}
+    x^{3x} &= e^{3x\ln x} && \textcolor{gray}{\text{perché $a=e^{\ln a}$}}\\
+    f'(x) &= e^{3x\ln x}\cdot\left(3\ln x+3x\cdot\dfrac1x\right) && \textcolor{gray}{\text{derivata della composta}}\\
+    &= 3x^{3x}(\ln x+1)
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------------%
@@ -51,17 +103,59 @@ Calcola la derivata delle seguenti funzioni, semplificando dove possibile:
 \end{multicols}
 \end{minipage}\end{center}
 \begin{solution}
-1) $f'(x)=4x^3-9x^2+4x$. \\
-2) $f'(x)=\dfrac{2x^3}{\sqrt{1+x^4}}$. \\
-3) $f'(x)=-\dfrac{x}{(x^2+1)^{3/2}}$. \\
-4) $f'(x)=x(2\ln x+1)$. \\
-5) $x^{2x}=e^{2x\ln x}$, quindi $f'(x)=2x^{2x}(\ln x+1)$. \\
-6) $f'(x)=-3x^2\sin(x^3)$. \\
-7) $f'(x)=\dfrac{-(x^2+4x+1)}{(x^2-1)^2}$. \\
-8) $f'(x)=e^x(\sin x+\cos x)$. \\
-9) $|x^2-4|$: $f'(x)=2x$ per $|x|>2$, $f'(x)=-2x$ per $|x|<2$; non derivabile in $x=\pm2$. \\
-10) $\ln\sqrt{x^2+1}=\tfrac12\ln(x^2+1)$, quindi $f'(x)=\dfrac{x}{x^2+1}$.
+\begin{enumerate}[label=\arabic*)]
+    \item $f'(x)=4x^3-9x^2+4x$
+    \item $f'(x)=\dfrac{2x^3}{\sqrt{1+x^4}}$
+    \item $f'(x)=-\dfrac{x}{(x^2+1)^{3/2}}$
+    \item $f'(x)=x(2\ln x+1)$
+    \item $f'(x)=2x^{2x}(\ln x+1)$
+    \item $f'(x)=-3x^2\sin(x^3)$
+    \item $f'(x)=-\dfrac{x^2+4x+1}{(x^2-1)^2}$
+    \item $f'(x)=e^x(\sin x+\cos x)$
+    \item $f'(x)=2x$ per $|x|>2$, \ $-2x$ per $|x|<2$; non derivabile in $x=\pm2$
+    \item $f'(x)=\dfrac{x}{x^2+1}$
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+Regole usate: \ $(x^n)'=nx^{n-1}$; \ prodotto $(fg)'=f'g+fg'$; \ quoziente $\left(\dfrac fg\right)'=\dfrac{f'g-fg'}{g^2}$; \ funzione composta $\big(f(g(x))\big)'=f'(g(x))\cdot g'(x)$.
+\begin{enumerate}[label=\arabic*)]
+    \item Regola della potenza termine per termine: $4x^3-9x^2+4x$.
+    \item $(\sqrt t)'=\dfrac{1}{2\sqrt t}$, moltiplicata per la derivata del radicando:
+    \[ f'(x)=\dfrac{1}{2\sqrt{1+x^4}}\cdot4x^3=\dfrac{2x^3}{\sqrt{1+x^4}} \]
+    \item Scrivo $f(x)=(x^2+1)^{-1/2}$ e uso la potenza della composta:
+    \[\begin{aligned}
+    f'(x) &= -\dfrac12(x^2+1)^{-3/2}\cdot2x\\
+    &= -\dfrac{x}{(x^2+1)^{3/2}}
+    \end{aligned}\]
+    \item Regola del prodotto:
+    \[\begin{aligned}
+    f'(x) &= 2x\ln x+x^2\cdot\dfrac1x\\
+    &= 2x\ln x+x=x(2\ln x+1)
+    \end{aligned}\]
+    \item Riscrivo con base $e$: $x^{2x}=e^{2x\ln x}$.
+    \[\begin{aligned}
+    f'(x) &= e^{2x\ln x}\left(2\ln x+2x\cdot\dfrac1x\right)\\
+    &= 2x^{2x}(\ln x+1)
+    \end{aligned}\]
+    \item $(\cos t)'=-\sin t$, per la derivata dell'argomento $3x^2$:
+    \[ f'(x)=-\sin(x^3)\cdot3x^2 \]
+    \item Regola del quoziente:
+    \[\begin{aligned}
+    f'(x) &= \dfrac{1\cdot(x^2-1)-(x+2)\cdot2x}{(x^2-1)^2}\\
+    &= \dfrac{x^2-1-2x^2-4x}{(x^2-1)^2}=\dfrac{-x^2-4x-1}{(x^2-1)^2}
+    \end{aligned}\]
+    \item Regola del prodotto:
+    \[ f'(x)=e^x\sin x+e^x\cos x=e^x(\sin x+\cos x) \]
+    \item $x^2-4\geq0$ per $|x|\geq2$, negativo per $|x|<2$:
+    \[\begin{aligned}
+    |x|>2: &\quad f(x)=x^2-4 \;\Rightarrow\; f'(x)=2x\\
+    |x|<2: &\quad f(x)=4-x^2 \;\Rightarrow\; f'(x)=-2x
+    \end{aligned}\]
+    In $x=\pm2$ le derivate destra e sinistra sono opposte ($\pm4$): punti angolosi.
+    \item Proprietà dei logaritmi: $\ln\sqrt{x^2+1}=\tfrac12\ln(x^2+1)$.
+    \[ f'(x)=\dfrac12\cdot\dfrac{2x}{x^2+1}=\dfrac{x}{x^2+1} \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------------%
@@ -75,7 +169,35 @@ Determina l'equazione della retta tangente alla curva data nei seguenti punti:
 \item $f(x) = \ln(x+1), \quad x_0 = 1$
 \end{enumerate}
 \end{minipage}\end{center}
-\begin{solution}1) $y=-4$; 2) $y=1$; 3) $y=\tfrac{1}{2}(x-1)+\ln 2$\end{solution}
+\begin{solution}
+\begin{enumerate}[label=\arabic*)]
+    \item $y=-4$
+    \item $y=1$
+    \item $y=\tfrac12(x-1)+\ln2$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+La retta tangente al grafico nel punto di ascissa $x_0$ è
+\[ y=f(x_0)+f'(x_0)\,(x-x_0), \]
+quindi servono il valore della funzione e quello della derivata in $x_0$.
+\begin{enumerate}[label=\arabic*)]
+    \item \[\begin{aligned}
+    f(-1) &= 1-2-3=-4\\
+    f'(x) &= 2x+2 \;\Rightarrow\; f'(-1)=0 && \textcolor{gray}{\text{tangente orizzontale}}\\
+    y &= -4+0\cdot(x+1)=-4
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    f(0) &= e^0=1\\
+    f'(x) &= e^{x^2}\cdot2x \;\Rightarrow\; f'(0)=0\\
+    y &= 1
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    f(1) &= \ln2\\
+    f'(x) &= \dfrac{1}{x+1} \;\Rightarrow\; f'(1)=\dfrac12\\
+    y &= \ln2+\dfrac12(x-1)
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------------%
@@ -89,7 +211,36 @@ Trova l'equazione della retta tangente alla curva nei seguenti punti e verifica 
 \item $f(x) = \sqrt{x+2}, \quad x_0 = 2$
 \end{enumerate}
 \end{minipage}\end{center}
-\begin{solution}1) $y=x$; 2) $y=-\tfrac{\sqrt{3}}{2}(x-\tfrac{\pi}{3})+\tfrac{1}{2}$; 3) $y=\tfrac{1}{4}(x-2)+2$\end{solution}
+\begin{solution}
+\begin{enumerate}[label=\arabic*)]
+    \item $y=x$; \ interseca l'asse $y$ in $(0,0)$
+    \item $y=-\tfrac{\sqrt3}{2}\left(x-\tfrac{\pi}{3}\right)+\tfrac12$; \ interseca l'asse $y$ in $\left(0,\ \tfrac12+\tfrac{\sqrt3\,\pi}{6}\right)\approx(0;\ 1{,}41)$
+    \item $y=\tfrac14(x-2)+2$; \ interseca l'asse $y$ in $\left(0,\tfrac32\right)$
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Uso $y=f(x_0)+f'(x_0)(x-x_0)$. Una retta non verticale interseca sempre l'asse $y$: il punto si trova ponendo $x=0$.
+\begin{enumerate}[label=\arabic*)]
+    \item \[\begin{aligned}
+    f(1) &= 1-2+2=1\\
+    f'(x) &= 3x^2-2 \;\Rightarrow\; f'(1)=1\\
+    y &= 1+1\cdot(x-1)=x
+    \end{aligned}\]
+    Per $x=0$: $y=0$. La tangente passa per l'origine.
+    \item \[\begin{aligned}
+    f\left(\dfrac\pi3\right) &= \cos\dfrac\pi3=\dfrac12\\
+    f'(x) &= -\sin x \;\Rightarrow\; f'\left(\dfrac\pi3\right)=-\dfrac{\sqrt3}{2}\\
+    y &= \dfrac12-\dfrac{\sqrt3}{2}\left(x-\dfrac\pi3\right)
+    \end{aligned}\]
+    Per $x=0$: $y=\tfrac12+\tfrac{\sqrt3}{2}\cdot\tfrac\pi3=\tfrac12+\tfrac{\sqrt3\,\pi}{6}\approx1{,}41$.
+    \item \[\begin{aligned}
+    f(2) &= \sqrt4=2\\
+    f'(x) &= \dfrac{1}{2\sqrt{x+2}} \;\Rightarrow\; f'(2)=\dfrac14\\
+    y &= 2+\dfrac14(x-2)
+    \end{aligned}\]
+    Per $x=0$: $y=2-\tfrac12=\tfrac32$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------------%
@@ -100,11 +251,38 @@ Studia la seguente funzione, facendo particolare attenzione allo studio del segn
     f(x) = \frac{x^3}{x^2-4}
 \end{equation*}
 \begin{solution}
-\textbf{Dominio e simmetrie:} $x\neq\pm2$; funzione dispari ($f(-x)=-f(x)$). \\
-\textbf{Asintoti:} verticali $x=\pm2$. Dalla divisione $\dfrac{x^3}{x^2-4}=x+\dfrac{4x}{x^2-4}$ segue l'asintoto obliquo $y=x$. \\
-\textbf{Derivata prima:} $f'(x)=\dfrac{x^2(x^2-12)}{(x^2-4)^2}$. Poiché $x^2\ge0$ e il denominatore è positivo, $f'>0$ per $|x|>2\sqrt3$ e $f'<0$ per $|x|<2\sqrt3$ (escluso $x=\pm2$). Quindi massimo in $x=-2\sqrt3$ ($f=-3\sqrt3$), minimo in $x=2\sqrt3$ ($f=3\sqrt3$); in $x=0$ tangente orizzontale senza estremo (flesso). \\
-\textbf{Derivata seconda:} $f''(x)=\dfrac{8x(x^2+12)}{(x^2-4)^3}$, che si annulla in $x=0$: flesso in $(0,0)$. Concavità verso l'alto per $-2<x<0$ e $x>2$, verso il basso per $x<-2$ e $0<x<2$.
+\begin{itemize}
+    \item Dominio $x\neq\pm2$; funzione dispari.
+    \item Asintoti verticali $x=\pm2$; asintoto obliquo $y=x$.
+    \item Massimo relativo $\left(-2\sqrt3,\,-3\sqrt3\right)$, minimo relativo $\left(2\sqrt3,\,3\sqrt3\right)$.
+    \item Flesso a tangente orizzontale in $(0,0)$.
+    \item Concava verso l'alto per $-2<x<0$ e $x>2$; verso il basso per $x<-2$ e $0<x<2$.
+\end{itemize}
 \end{solution}
+\begin{explanation}
+\textbf{Dominio e simmetrie.} Il denominatore si annulla per $x^2=4$, quindi $D=\mathbb{R}\setminus\{\pm2\}$. \\
+$f(-x)=\dfrac{-x^3}{x^2-4}=-f(x)$: la funzione è dispari (simmetrica rispetto all'origine).
+
+\textbf{Asintoti.} Per $x\to\pm2$ il denominatore tende a zero e il numeratore no: $x=\pm2$ sono asintoti verticali. \\
+Il grado del numeratore supera di $1$ quello del denominatore: c'è un asintoto obliquo. Divido i polinomi:
+\[ \dfrac{x^3}{x^2-4}=x+\dfrac{4x}{x^2-4} \]
+Il resto tende a $0$ all'infinito, quindi l'asintoto è $y=x$.
+
+\textbf{Derivata prima.} Regola del quoziente:
+\[\begin{aligned}
+f'(x) &= \dfrac{3x^2(x^2-4)-x^3\cdot2x}{(x^2-4)^2}\\
+&= \dfrac{3x^4-12x^2-2x^4}{(x^2-4)^2}=\dfrac{x^2(x^2-12)}{(x^2-4)^2}
+\end{aligned}\]
+$x^2\geq0$ e il denominatore è positivo, quindi il segno dipende da $x^2-12$: $f'>0$ per $|x|>2\sqrt3$, $f'<0$ per $|x|<2\sqrt3$. \\
+La funzione cresce, poi decresce dopo $-2\sqrt3$ (massimo), e ricresce dopo $2\sqrt3$ (minimo):
+\[ f(2\sqrt3)=\dfrac{24\sqrt3}{12-4}=3\sqrt3, \qquad f(-2\sqrt3)=-3\sqrt3 \]
+In $x=0$ la derivata si annulla ma non cambia segno: non è un estremo.
+
+\textbf{Derivata seconda.} Derivando $f'$ e semplificando si ottiene
+\[ f''(x)=\dfrac{8x(x^2+12)}{(x^2-4)^3} \]
+$x^2+12>0$ sempre, quindi il segno è quello di $\dfrac{x}{(x^2-4)^3}$. Studio dei segni negli intervalli separati da $-2,\ 0,\ 2$: $-,\ +,\ -,\ +$. \\
+$f''$ cambia segno in $x=0$ (dove la funzione esiste): flesso in $(0,0)$, a tangente orizzontale perché $f'(0)=0$.
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------------%
@@ -115,18 +293,57 @@ Studia la seguente funzione, facendo particolare attenzione allo studio del segn
     f(x) = \frac{x^3}{x- 4}
 \end{equation*}
 \begin{solution}
-\textbf{Dominio:} $x\neq4$. \\
-\textbf{Asintoti:} verticale $x=4$. Dalla divisione $\dfrac{x^3}{x-4}=x^2+4x+16+\dfrac{64}{x-4}$ si vede che non c'è asintoto obliquo, ma un asintoto \emph{parabolico} $y=x^2+4x+16$. \\
-\textbf{Derivata prima:} $f'(x)=\dfrac{2x^2(x-6)}{(x-4)^2}$. Essendo $x^2\ge0$ e denominatore positivo, $f'>0$ per $x>6$ e $f'<0$ per $x<6$ (escluso $x=4$); minimo in $x=6$ con $f(6)=108$. In $x=0$ tangente orizzontale senza estremo. \\
-\textbf{Derivata seconda:} $f''(x)=2+\dfrac{128}{(x-4)^3}$, che si annulla in $x=0$: flesso in $(0,0)$. Concavità verso l'alto per $x<0$ e $x>4$, verso il basso per $0<x<4$.
+\begin{itemize}
+    \item Dominio $x\neq4$.
+    \item Asintoto verticale $x=4$; nessun asintoto obliquo (asintoto parabolico $y=x^2+4x+16$).
+    \item Minimo relativo $(6,\,108)$.
+    \item Flesso a tangente orizzontale in $(0,0)$.
+    \item Concava verso l'alto per $x<0$ e $x>4$; verso il basso per $0<x<4$.
+\end{itemize}
 \end{solution}
+\begin{explanation}
+\textbf{Dominio.} $x-4\neq0$: \ $D=\mathbb{R}\setminus\{4\}$.
+
+\textbf{Asintoti.} $x=4$ è asintoto verticale (il numeratore vale $64\neq0$). \\
+Il numeratore ha grado $3$, il denominatore $1$: la differenza è $2$, quindi non c'è asintoto obliquo. Dividendo:
+\[ \dfrac{x^3}{x-4}=x^2+4x+16+\dfrac{64}{x-4} \]
+All'infinito la funzione si avvicina alla parabola $y=x^2+4x+16$ (asintoto parabolico).
+
+\textbf{Derivata prima.}
+\[\begin{aligned}
+f'(x) &= \dfrac{3x^2(x-4)-x^3}{(x-4)^2}\\
+&= \dfrac{2x^3-12x^2}{(x-4)^2}=\dfrac{2x^2(x-6)}{(x-4)^2}
+\end{aligned}\]
+$2x^2\geq0$ e il denominatore è positivo: il segno è quello di $x-6$. La funzione decresce per $x<6$ ($x\neq4$) e cresce per $x>6$: minimo in $x=6$, con $f(6)=\dfrac{216}{2}=108$. \\
+In $x=0$ la derivata è nulla ma non cambia segno: non è un estremo.
+
+\textbf{Derivata seconda.} Conviene derivare la forma divisa:
+\[ f'(x)=2x+4-\dfrac{64}{(x-4)^2}, \qquad f''(x)=2+\dfrac{128}{(x-4)^3} \]
+$f''=0$ quando $(x-4)^3=-64$, cioè $x-4=-4$, $x=0$. \\
+Per $x>4$ entrambi i termini sono positivi: $f''>0$. Per $x<4$, $f''>0$ quando $(x-4)^3<-64$, cioè $x<0$. Quindi: concava verso l'alto per $x<0$ e $x>4$, verso il basso per $0<x<4$; flesso in $(0,0)$.
+\end{explanation}
 \end{question}
 
 %-----------------------------------------------------%
 
 \begin{question}[ID=4.1, subtitle={Segno della derivata di $ke^{kx}-e^{-2kx}$ in $x=0$}, tags={derivate, parametrico}, difficulty=media]
 Determina per quali valori di $k$ la derivata della funzione $f(x) = ke^{kx} - e^{-2kx}$ nel punto $x=0$ risulti positiva.
-\begin{solution}$k^2+2k>0 \Rightarrow k<-2 \vee k>0$\end{solution}
+\begin{solution}
+$k<-2 \;\vee\; k>0$
+\end{solution}
+\begin{explanation}
+Derivo con la regola della funzione composta: $(e^{kx})'=ke^{kx}$ e $(e^{-2kx})'=-2ke^{-2kx}$.
+\[\begin{aligned}
+f'(x) &= k\cdot ke^{kx}-(-2k)e^{-2kx}=k^2e^{kx}+2ke^{-2kx}\\
+f'(0) &= k^2+2k && \textcolor{gray}{\text{$e^0=1$}}
+\end{aligned}\]
+Impongo $f'(0)>0$:
+\[\begin{aligned}
+k^2+2k &> 0\\
+k(k+2) &> 0 && \textcolor{gray}{\text{raccolgo $k$}}
+\end{aligned}\]
+Il prodotto è positivo quando i fattori sono concordi: valori esterni alle radici $-2$ e $0$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -137,8 +354,21 @@ Determina per quali valori di \( k \) la derivata di $f(x)$ nel punto \( x = 1 \
 f(x) = k\ln(x+2) + e^{-kx}
 \]
 \begin{solution}
-$f'(x)=\dfrac{k}{x+2}-ke^{-kx}$. In $x=1$: $f'(1)=\dfrac{k}{3}-ke^{-k}=k\!\left(\dfrac13-e^{-k}\right)$. La condizione $f'(1)\ge1$ è trascendente; risolta numericamente dà $k\lesssim-0{,}70$ oppure $k\gtrsim3{,}45$.
+$k\lesssim-0{,}64 \;\vee\; k\gtrsim3{,}35$ \ (valori approssimati)
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+f'(x) &= \dfrac{k}{x+2}+e^{-kx}\cdot(-k) && \textcolor{gray}{\text{derivata del logaritmo e dell'esponenziale composta}}\\
+f'(1) &= \dfrac k3-ke^{-k}
+\end{aligned}\]
+La condizione $\dfrac k3-ke^{-k}\geq1$ contiene $k$ sia fuori sia dentro l'esponenziale: è un'equazione \textbf{trascendente}, che non si risolve con passaggi algebrici. \\
+Studio allora la funzione $g(k)=\dfrac k3-ke^{-k}-1$ e ne cerco gli zeri per tentativi (o con il metodo di bisezione):
+\[\begin{aligned}
+g(-1) &\approx 1{,}39>0, \qquad g(0)=-1<0 && \textcolor{gray}{\text{uno zero tra $-1$ e $0$: circa $-0{,}64$}}\\
+g(3) &\approx -0{,}15<0, \qquad g(4)\approx 0{,}26>0 && \textcolor{gray}{\text{uno zero tra $3$ e $4$: circa $3{,}35$}}
+\end{aligned}\]
+$g$ è positiva fuori dai due zeri e negativa tra di essi, quindi $f'(1)\geq1$ per $k\lesssim-0{,}64$ oppure $k\gtrsim3{,}35$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -150,8 +380,28 @@ f(x) = \sin(kx) + \cos(2kx),
 \]
 calcola la derivata e determina i valori di \( k \) tali che la derivata calcolata nel punto \( x = \dfrac{\pi}{6} \) sia positiva.
 \begin{solution}
-$f'(x)=k\cos(kx)-2k\sin(2kx)=k\big[\cos(kx)-2\sin(2kx)\big]$. In $x=\dfrac{\pi}{6}$: $f'\!\left(\dfrac{\pi}{6}\right)=k\Big[\cos\dfrac{k\pi}{6}-2\sin\dfrac{k\pi}{3}\Big]>0$. La parentesi dipende da $k$ in modo non elementare (funzione oscillante), quindi la disequazione si risolve graficamente: il segno di $f'$ è quello di $k$ moltiplicato per quello della parentesi.
+Posto $k_0=\dfrac6\pi\arcsin\dfrac14\approx0{,}48$ e $n$ intero:
+\begin{itemize}
+    \item per $k>0$: \ $k\in(12n-3,\ 12n+k_0)\cup(12n+3,\ 12n+6-k_0)$, cioè $0<k<0{,}48$, \ $3<k<5{,}52$, \ $9<k<12{,}48$, \ldots
+    \item per $k<0$: \ $k\in(12n+k_0,\ 12n+3)\cup(12n+6-k_0,\ 12n+9)$, cioè $-6{,}48<k<-3$, \ $-11{,}52<k<-9$, \ldots
+\end{itemize}
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+f'(x) &= k\cos(kx)-2k\sin(2kx)\\
+f'\left(\dfrac\pi6\right) &= k\left[\cos\dfrac{k\pi}{6}-2\sin\dfrac{k\pi}{3}\right]
+\end{aligned}\]
+Pongo $t=\dfrac{k\pi}{6}$, così $\dfrac{k\pi}{3}=2t$, e uso la formula di duplicazione $\sin2t=2\sin t\cos t$:
+\[\begin{aligned}
+\cos t-2\sin2t &= \cos t-4\sin t\cos t\\
+&= \cos t\,(1-4\sin t) && \textcolor{gray}{\text{raccolgo $\cos t$}}
+\end{aligned}\]
+Devo quindi avere $k\cdot\cos t\,(1-4\sin t)>0$. \\
+Studio il segno di $\cos t\,(1-4\sin t)$ in un periodo $[0,2\pi)$. Si annulla per $\cos t=0$ ($t=\tfrac\pi2,\ \tfrac32\pi$) e per $\sin t=\tfrac14$ ($t=\alpha$ e $t=\pi-\alpha$, con $\alpha=\arcsin\tfrac14\approx0{,}253$):
+\[ \text{positivo per } t\in\left(-\dfrac\pi2,\ \alpha\right)\cup\left(\dfrac\pi2,\ \pi-\alpha\right), \qquad \text{negativo per } t\in\left(\alpha,\ \dfrac\pi2\right)\cup\left(\pi-\alpha,\ \dfrac32\pi\right) \]
+(a meno di multipli di $2\pi$). \\
+Se $k>0$ serve la parentesi positiva, se $k<0$ negativa. Torno a $k=\dfrac{6t}{\pi}$: il periodo $2\pi$ diventa $12$, $\tfrac\pi2$ diventa $3$, $\alpha$ diventa $k_0=\tfrac6\pi\alpha\approx0{,}48$, e si ottengono gli intervalli della soluzione.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -163,8 +413,16 @@ f(x) = \frac{kx}{x+1} - e^{-kx}.
 \]
 Calcola la derivata e trova i valori di \( k \) per i quali la derivata nel punto \( x = 2 \) è negativa.
 \begin{solution}
-$f'(x)=\dfrac{k}{(x+1)^2}+ke^{-kx}=k\!\left[\dfrac{1}{(x+1)^2}+e^{-kx}\right]$. In $x=2$: $f'(2)=k\!\left(\dfrac19+e^{-2k}\right)$. La parentesi è sempre positiva, quindi $f'(2)<0\iff k<0$.
+$k<0$
 \end{solution}
+\begin{explanation}
+\[\begin{aligned}
+f'(x) &= \dfrac{k(x+1)-kx}{(x+1)^2}-e^{-kx}\cdot(-k) && \textcolor{gray}{\text{quoziente ed esponenziale composta}}\\
+&= \dfrac{k}{(x+1)^2}+ke^{-kx}\\
+f'(2) &= k\left(\dfrac19+e^{-2k}\right) && \textcolor{gray}{\text{raccolgo $k$}}
+\end{aligned}\]
+La parentesi è sempre positiva (somma di un numero positivo e di un esponenziale). Quindi $f'(2)$ ha lo stesso segno di $k$, ed è negativa se e solo se $k<0$.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------%
@@ -175,5 +433,15 @@ Per la funzione
 f(x) = kx^2 + e^{kx} - \ln(x+1),
 \]
 calcola la derivata e determina i valori di \( k \) tali che la derivata calcolata nel punto \( x = 0 \) sia maggiore o uguale a 2.
-\begin{solution}$f'(0) = k + 1 \ge 2 \Rightarrow k \ge 1$\end{solution}
+\begin{solution}
+$k\geq3$
+\end{solution}
+\begin{explanation}
+\[\begin{aligned}
+f'(x) &= 2kx+ke^{kx}-\dfrac{1}{x+1}\\
+f'(0) &= 0+k\cdot1-1=k-1 && \textcolor{gray}{\text{$e^0=1$}}
+\end{aligned}\]
+Impongo la condizione:
+\[ k-1\geq2 \;\Rightarrow\; k\geq3 \]
+\end{explanation}
 \end{question}

@@ -13,7 +13,23 @@ Descrivere quali fra le seguenti funzioni sono esponenziali e spiegare il motivo
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}Sono esponenziali: $a)$ $y=3^{-x}$ (base $>0$, $\neq1$); $c)$ $y=0{,}5^{2x}$ (base $>0$, $\neq1$); $d)$ $y=(\sqrt{3})^x$ (base $>0$, $\neq1$). Non è esponenziale $b)$ perché la base è negativa.\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item esponenziale
+    \item non esponenziale
+    \item esponenziale
+    \item esponenziale
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+Una funzione esponenziale ha la forma $y=a^x$ con base $a>0$ e $a\neq1$ (con base negativa, ad esempio, $a^{1/2}$ non esisterebbe).
+\begin{enumerate}
+    \item $3^{-x}=\left(\tfrac13\right)^x$: base $\tfrac13$, positiva e diversa da $1$.
+    \item Base $-2<0$: non è definita per molti valori (es. $(-2)^{1/2}$), quindi non è esponenziale.
+    \item $0{,}5^{2x}=(0{,}25)^x$: base $0{,}25$, accettabile.
+    \item Base $\sqrt3\approx1{,}73$, positiva e diversa da $1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -40,15 +56,17 @@ Associare a ogni funzione il grafico corretto:
 \vspace{-30pt}
 \[ \text{a)} \hspace{30pt} \text{b)} \hspace{30pt} \text{c)} \hspace{30pt} \text{d)} \]
 \begin{solution}
-Tutti i grafici passano per $(0,1)$. Si distinguono con due criteri: \emph{monotonia} (base $>1$ crescente, base $<1$ decrescente) e \emph{ripidità} (tanto più la base è lontana da $1$, tanto più la curva è ripida).
-\begin{itemize}
-\item 1) $\big(\tfrac32\big)^x$: base $>1$, \textbf{crescente} ma poco ripida.
-\item 2) $\big(\tfrac12\big)^x$: base $<1$, \textbf{decrescente} e ripida.
-\item 3) $4^x$: base $>1$, \textbf{crescente} e molto ripida (la più ripida tra le crescenti).
-\item 4) $\big(\tfrac13\big)^{x/2}=\big(\tfrac{1}{\sqrt3}\big)^x\approx(0{,}577)^x$: base $<1$, \textbf{decrescente} e meno ripida della 2).
-\end{itemize}
-Si associa quindi: le crescenti (1 e 3) ai due grafici che salgono, distinguendole per pendenza (3 più ripida di 1); le decrescenti (2 e 4) ai due che scendono (2 più ripida di 4).
+1) $\to$ c; \quad 2) $\to$ a; \quad 3) $\to$ b; \quad 4) $\to$ d
 \end{solution}
+\begin{explanation}
+Tutti i grafici passano per $(0,1)$. Le funzioni crescenti hanno base $>1$ (funzioni 1 e 3), le decrescenti base $<1$ (2 e 4). Per distinguerle uso i punti segnati sui grafici:
+\begin{itemize}
+    \item grafico c (crescente): passa per $\left(1,\tfrac32\right)$, e $\left(\tfrac32\right)^1=\tfrac32$: è la funzione 1;
+    \item grafico b (crescente): passa per $\left(\tfrac12,2\right)$, e $4^{1/2}=2$: è la funzione 3;
+    \item grafico a (decrescente): passa per $(-1,2)$, e $\left(\tfrac12\right)^{-1}=2$: è la funzione 2;
+    \item grafico d (decrescente): passa per $(-2,3)$, e $\left(\tfrac13\right)^{-2/2}=3$: è la funzione 4.
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -70,7 +88,44 @@ Calcolare il valore di $x$ nelle seguenti equazioni:
 \end{enumerate}
 \end{multicols}
 \end{minipage}\end{center}
-\begin{solution}$a)\ x=4$; $b)\ x=1$; $c)\ x=-1$; $d)\ x=-\tfrac{1}{2}$; $e)\ x=-2$; $f)$ impossibile; $g)\ x=1$\end{solution}
+\begin{solution}
+\begin{enumerate}
+    \item $x=4$
+    \item $x=1$
+    \item $x=-1$
+    \item $x=-\tfrac12$
+    \item $x=-4$
+    \item impossibile
+    \item $x=1$
+    \item impossibile
+\end{enumerate}
+\end{solution}
+\begin{explanation}
+\textbf{Stessa base}: si scrivono i due membri come potenze della stessa base; poiché l'esponenziale è iniettiva, $a^{f(x)}=a^{g(x)} \iff f(x)=g(x)$.
+\begin{enumerate}
+    \item $3^x=3^4 \;\Rightarrow\; x=4$.
+    \item $2^{x+1}=2^2 \;\Rightarrow\; x+1=2 \;\Rightarrow\; x=1$.
+    \item \[\begin{aligned}
+    \dfrac{3^2}{3^x} &= 3^3\\
+    3^{2-x} &= 3^3 && \textcolor{gray}{\text{quoziente di potenze}}\\
+    2-x &= 3 \;\Rightarrow\; x=-1
+    \end{aligned}\]
+    \item $e^{2x-1}=e^{-2} \;\Rightarrow\; 2x-1=-2 \;\Rightarrow\; x=-\tfrac12$.
+    \item \[\begin{aligned}
+    5^2\cdot5^{2x} &= 5^{-1}\cdot5^{x-1}\\
+    5^{2x+2} &= 5^{x-2} && \textcolor{gray}{\text{prodotto: sommo gli esponenti}}\\
+    2x+2 &= x-2 \;\Rightarrow\; x=-4
+    \end{aligned}\]
+    \item Una potenza di base positiva è sempre positiva: non può valere $-3$. Impossibile.
+    \item Con $t=2^x$ (e $2^{2x}=t^2$, $2^{x+2}=4t$):
+    \[\begin{aligned}
+    t^2-4t+4 &= 0\\
+    (t-2)^2 &= 0 \;\Rightarrow\; t=2 \;\Rightarrow\; 2^x=2 \;\Rightarrow\; x=1
+    \end{aligned}\]
+    \item Con $t=5^x>0$: \ $t^2+3t+2=0 \Rightarrow (t+1)(t+2)=0 \Rightarrow t=-1,\ t=-2$. \\
+    Entrambe negative, non accettabili: impossibile (del resto il primo membro è somma di termini positivi).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -89,12 +144,24 @@ Risolvi le seguenti equazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=3$
-\item $x=-2$
-\item $x=2$
-\item $x=\tfrac{1}{2}$
+    \item $x=3$
+    \item $x=-2$
+    \item $x=2$
+    \item $x=\tfrac12$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Stessa base}: si scrivono i due membri come potenze della stessa base; poiché l'esponenziale è iniettiva, $a^{f(x)}=a^{g(x)} \iff f(x)=g(x)$.
+\begin{enumerate}
+    \item $5^x=5^3 \;\Rightarrow\; x=3$.
+    \item $7^x=7^{-2} \;\Rightarrow\; x=-2$ \ (perché $\tfrac1{49}=7^{-2}$).
+    \item $3^{2x-1}=3^3 \;\Rightarrow\; 2x-1=3 \;\Rightarrow\; x=2$.
+    \item \[\begin{aligned}
+    (2^2)^{x+1} &= 2^3\\
+    2x+2 &= 3 \;\Rightarrow\; x=\dfrac12
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -113,12 +180,32 @@ Risolvi le seguenti equazioni esponenziali riconducendo i due membri alla stessa
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=2$
-\item $x=1$
-\item $x=\tfrac{7}{6}$
-\item $x=\tfrac{7}{3}$
+    \item $x=2$
+    \item $x=1$
+    \item $x=\tfrac76$
+    \item $x=\tfrac73$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Stessa base}: si scrivono i due membri come potenze della stessa base; poiché l'esponenziale è iniettiva, $a^{f(x)}=a^{g(x)} \iff f(x)=g(x)$.
+\begin{enumerate}
+    \item $3^{2x}=3^{x+2} \;\Rightarrow\; 2x=x+2 \;\Rightarrow\; x=2$.
+    \item $\tfrac32=\left(\tfrac23\right)^{-1}$, quindi il secondo membro è $\left(\tfrac23\right)^{-(2x-4)}$:
+    \[\begin{aligned}
+    x+1 &= -2x+4\\
+    3x &= 3 \;\Rightarrow\; x=1
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    3^x\cdot3^{2(x-1)} &= 3\cdot3^{1/2} && \textcolor{gray}{\text{$9=3^2$, \ $\sqrt3=3^{1/2}$}}\\
+    3^{3x-2} &= 3^{3/2}\\
+    3x-2 &= \dfrac32 \;\Rightarrow\; x=\dfrac76
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    2^{-2}\cdot2^x &= 2^{1/3} && \textcolor{gray}{\text{$0{,}25=2^{-2}$}}\\
+    x-2 &= \dfrac13 \;\Rightarrow\; x=\dfrac73
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -137,12 +224,37 @@ Risolvi le seguenti equazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=4$
-\item $x=2$
-\item $x=2$
-\item $x=-\tfrac{17}{4}$
+    \item $x=4$
+    \item $x=2$
+    \item $x=2$
+    \item $x=-\tfrac{17}{4}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Stessa base}: si scrivono i due membri come potenze della stessa base; poiché l'esponenziale è iniettiva, $a^{f(x)}=a^{g(x)} \iff f(x)=g(x)$.
+\begin{enumerate}
+    \item \[\begin{aligned}
+    (2^{3x})^{1/2} &= 2^{2(x-1)}\\
+    \dfrac32x &= 2x-2 \;\Rightarrow\; x=4
+    \end{aligned}\]
+    \item Raccolgo la potenza con l'esponente più basso, $3^x$:
+    \[\begin{aligned}
+    3^x(3+1) &= 36\\
+    3^x &= 9 \;\Rightarrow\; x=2
+    \end{aligned}\]
+    \item Raccolgo $5^{x-1}$:
+    \[\begin{aligned}
+    5^{x-1}(5^2-5+1) &= 105\\
+    21\cdot5^{x-1} &= 105 \;\Rightarrow\; 5^{x-1}=5 \;\Rightarrow\; x=2
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    \dfrac{2^{(x-1)/3}}{2^{x+1}} &= 2^{3/2} && \textcolor{gray}{\text{$\sqrt{4^{x+1}}=2^{x+1}$, \ $\sqrt8=2^{3/2}$}}\\
+    \dfrac{x-1}{3}-(x+1) &= \dfrac32\\
+    2x-2-6x-6 &= 9 && \textcolor{gray}{\text{moltiplico per $6$}}\\
+    x &= -\dfrac{17}{4}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -161,12 +273,24 @@ Risolvi le seguenti equazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=3$
-\item $x=-1 \vee x=3$
-\item $x=2$
-\item $x=0 \vee x=2$
+    \item $x=3$
+    \item $x=-1\vee x=3$
+    \item $x=2$
+    \item $x=0\vee x=2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item Legge di annullamento del prodotto: $2^x=8 \Rightarrow x=3$, oppure $3^x=-1$, impossibile.
+    \item \[\begin{aligned}
+    3^{x^2-2x} &= 3^3\\
+    x^2-2x-3 &= 0 \;\Rightarrow\; (x-3)(x+1)=0
+    \end{aligned}\]
+    \item $t=3^x$: \ $t^2-8t-9=0 \Rightarrow t=9$ o $t=-1$ (scartata). $3^x=9 \Rightarrow x=2$.
+    \item $t=2^x$: \ $t^2-5t+4=0 \Rightarrow t=1,\ t=4 \Rightarrow x=0,\ x=2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -185,12 +309,43 @@ Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita a
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=0 \vee x=2$
-\item $x=-2 \vee x=2$
-\item $x=1 \vee x=2$
-\item $x=\tfrac{1}{2} \vee x=2$
+    \item $x=0\vee x=2$
+    \item $x=-2\vee x=2$
+    \item $x=1\vee x=2$
+    \item $x=\tfrac12\vee x=2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item $3^{2-x}=\dfrac{9}{3^x}$; con $t=3^x$:
+    \[\begin{aligned}
+    t+\dfrac9t &= 10\\
+    t^2-10t+9 &= 0 && \textcolor{gray}{\text{moltiplico per $t>0$}}\\
+    t=1,\ t=9 &\;\Rightarrow\; x=0,\ x=2
+    \end{aligned}\]
+    \item $\left(\tfrac32\right)^x=\dfrac1t$ con $t=\left(\tfrac23\right)^x$:
+    \[\begin{aligned}
+    t+\dfrac1t &= \dfrac{97}{36}\\
+    36t^2-97t+36 &= 0\\
+    t &= \dfrac{97\pm\sqrt{9409-5184}}{72}=\dfrac{97\pm65}{72} \;\Rightarrow\; t=\dfrac94,\ t=\dfrac49
+    \end{aligned}\]
+    $\left(\tfrac23\right)^x=\tfrac49=\left(\tfrac23\right)^2 \Rightarrow x=2$; \ $\left(\tfrac23\right)^x=\tfrac94=\left(\tfrac23\right)^{-2} \Rightarrow x=-2$.
+    \item $t=2^x$: $8^x=t^3$, $4^x=t^2$.
+    \[\begin{aligned}
+    t^3-6t^2+8t &= 0\\
+    t(t-2)(t-4) &= 0
+    \end{aligned}\]
+    $t=0$ non accettabile; $t=2 \Rightarrow x=1$; $t=4 \Rightarrow x=2$.
+    \item $t=2^x$: \ $2^{x+2}=4t$, \ $2^{x+1/2}=\sqrt2\,t$.
+    \[\begin{aligned}
+    t^2-4t-\sqrt2\,t+4\sqrt2 &= 0\\
+    t(t-4)-\sqrt2(t-4) &= 0 && \textcolor{gray}{\text{raccoglimento parziale}}\\
+    (t-4)(t-\sqrt2) &= 0
+    \end{aligned}\]
+    $2^x=4 \Rightarrow x=2$; \ $2^x=\sqrt2=2^{1/2} \Rightarrow x=\tfrac12$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -209,12 +364,21 @@ Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita a
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=0 \vee x=1$
-\item $x=1 \vee x=2$
-\item $x=1$
-\item $x=0$
+    \item $x=0\vee x=1$
+    \item $x=1\vee x=2$
+    \item $x=1$
+    \item $x=0$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item $t=2^x$: \ $t^2-3t+2=(t-1)(t-2)=0 \Rightarrow 2^x=1,\ 2^x=2 \Rightarrow x=0,\ x=1$.
+    \item $t=2^x$ ($4^x=t^2$): \ $t^2-6t+8=(t-2)(t-4)=0 \Rightarrow x=1,\ x=2$.
+    \item $t=3^x$: \ $t^2-2t-3=(t-3)(t+1)=0$; \ $t=-1$ scartata, $3^x=3 \Rightarrow x=1$.
+    \item $t=5^x$: \ $t^2+4t-5=(t+5)(t-1)=0$; \ $t=-5$ scartata, $5^x=1 \Rightarrow x=0$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -233,12 +397,21 @@ Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita a
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=-1 \vee x=1$
-\item $x=2$
-\item $x=1 \vee x=2$
-\item $x=-1 \vee x=1$
+    \item $x=-1\vee x=1$
+    \item $x=2$
+    \item $x=1\vee x=2$
+    \item $x=-1\vee x=1$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item $2^{2x+1}=2t^2$ con $t=2^x$: \ $2t^2-5t+2=0 \Rightarrow t=\dfrac{5\pm3}{4}=2,\ \tfrac12 \Rightarrow x=1,\ x=-1$.
+    \item $2^{x+3}=8t$: \ $t^2-8t+16=(t-4)^2=0 \Rightarrow t=4 \Rightarrow x=2$.
+    \item $3^{x+1}=3t$ con $t=3^x$: \ $t^2-12t+27=(t-3)(t-9)=0 \Rightarrow x=1,\ x=2$.
+    \item $5^{2x+1}=5t^2$ con $t=5^x$: \ $5t^2-26t+5=0 \Rightarrow t=\dfrac{26\pm24}{10}=5,\ \tfrac15 \Rightarrow x=1,\ x=-1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -257,12 +430,27 @@ Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita a
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=1 \vee x=2$
-\item $x=2$
-\item $x=0 \vee x=1$
-\item $x=-1 \vee x=3$
+    \item $x=1\vee x=2$
+    \item $x=2$
+    \item $x=0\vee x=1$
+    \item $x=-1\vee x=3$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+Con esponenti opposti si usa $a^{-x}=\dfrac1t$ e si moltiplica per $t>0$.
+\begin{enumerate}
+    \item $t+\dfrac8t=6 \Rightarrow t^2-6t+8=0 \Rightarrow t=2,\ 4 \Rightarrow x=1,\ 2$.
+    \item $3^{2-x}=\dfrac9t$: \ $t-\dfrac9t=8 \Rightarrow t^2-8t-9=0 \Rightarrow t=9$ ($t=-1$ scartata) $\Rightarrow x=2$.
+    \item $5^{1-x}=\dfrac5t$: \ $t^2-6t+5=0 \Rightarrow t=1,\ 5 \Rightarrow x=0,\ 1$.
+    \item $2^{x+1}=2t$, \ $2^{3-x}=\dfrac8t$:
+    \[\begin{aligned}
+    2t+\dfrac8t &= 17\\
+    2t^2-17t+8 &= 0 \;\Rightarrow\; t=\dfrac{17\pm15}{4}=8,\ \dfrac12
+    \end{aligned}\]
+    $x=3$ e $x=-1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -281,12 +469,32 @@ Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita a
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=3$
-\item $x=1$
-\item $x=1$
-\item $x=0 \vee x=2$
+    \item $x=3$
+    \item $x=1$
+    \item $x=1$
+    \item $x=0\vee x=2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item $t=2^x$, condizione $t\neq1$ (denominatore):
+    \[\begin{aligned}
+    t+6 &= 2(t-1)\\
+    t &= 8 \;\Rightarrow\; x=3
+    \end{aligned}\]
+    \item $\dfrac6t-t=1 \Rightarrow 6-t^2=t \Rightarrow t^2+t-6=0 \Rightarrow t=2$ ($t=-3$ scartata) $\Rightarrow x=1$.
+    \item $t=3^x$, con $t\neq1$:
+    \[\begin{aligned}
+    \dfrac{2(t+1)+(t-1)}{t^2-1} &= \dfrac54 && \textcolor{gray}{\text{denominatore comune}}\\
+    4(3t+1) &= 5(t^2-1)\\
+    5t^2-12t-9 &= 0 \;\Rightarrow\; t=\dfrac{12\pm18}{10}=3,\ -\dfrac35
+    \end{aligned}\]
+    $t=3 \Rightarrow x=1$; la negativa si scarta.
+    \item Pongo $u=\sqrt{3^x}>0$, così $3^x=u^2$:
+    \[ u^2-4u+3=0 \;\Rightarrow\; u=1,\ u=3 \;\Rightarrow\; 3^x=1,\ 3^x=9 \;\Rightarrow\; x=0,\ x=2 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -305,12 +513,31 @@ Risolvi le seguenti equazioni esponenziali introducendo un'opportuna incognita a
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=0 \vee x=1$
-\item $x=1 \vee x=2$
-\item $x=0 \vee x=1 \vee x=2$
-\item $x=0 \vee x=\pm 1$
+    \item $x=0\vee x=1$
+    \item $x=1\vee x=2$
+    \item $x=0\vee x=1\vee x=2$
+    \item $x=0\vee x=\pm1$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item $t=e^x$: \ $t^2-(1+e)t+e=(t-1)(t-e)=0 \Rightarrow x=0,\ x=1$.
+    \item $t=2^x$: \ $t^3-5t^2+2t+8=0$. Provo $t=2$: $8-20+4+8=0$. Ruffini:
+    \[ (t-2)(t^2-3t-4)=(t-2)(t-4)(t+1)=0 \]
+    $t=2,\ 4 \Rightarrow x=1,\ 2$ ($t=-1$ scartata).
+    \item $t=3^x$: \ $t^3-13t^2+39t-27=0$. $t=1$ è radice ($1-13+39-27=0$):
+    \[ (t-1)(t^2-12t+27)=(t-1)(t-3)(t-9)=0 \]
+    $x=0,\ 1,\ 2$.
+    \item Pongo $u=2^x+2^{-x}$. Allora $u^2=4^x+2+4^{-x}$, cioè $4^x+4^{-x}=u^2-2$:
+    \[\begin{aligned}
+    2(u^2-2)-9u+14 &= 0\\
+    2u^2-9u+10 &= 0 \;\Rightarrow\; u=2,\ u=\dfrac52
+    \end{aligned}\]
+    $u=2$: $2^x+2^{-x}=2 \Rightarrow (2^x-1)^2=0 \Rightarrow x=0$. \\
+    $u=\tfrac52$: $2t^2-5t+2=0$ con $t=2^x$ $\Rightarrow t=2,\ \tfrac12 \Rightarrow x=\pm1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -330,12 +557,21 @@ Risolvi le seguenti equazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=-3 \vee x=3$
-\item $x=-1 \vee x=3$
-\item impossibile
-\item $x=-2$
+    \item $x=\pm3$
+    \item $x=-1\vee x=3$
+    \item impossibile
+    \item $x=-2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Valore assoluto}: dopo aver uguagliato gli esponenti, $|A|=k$ con $k>0$ dà $A=\pm k$; se all'esterno del modulo compare la $x$ si distinguono i casi $A\geq0$ e $A<0$ e si controlla l'accettabilità.
+\begin{enumerate}
+    \item $2^{|x|}=2^3 \Rightarrow |x|=3 \Rightarrow x=\pm3$.
+    \item $|x-1|=2 \Rightarrow x-1=\pm2 \Rightarrow x=3,\ x=-1$.
+    \item $5^{|x|}=5^{-1} \Rightarrow |x|=-1$: un valore assoluto non è mai negativo, impossibile.
+    \item $4^{|x+2|}=4^0 \Rightarrow |x+2|=0 \Rightarrow x=-2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -354,12 +590,25 @@ Risolvi le seguenti equazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=-4 \vee x=4$
-\item $x=-2 \vee x=3$
-\item $x=\tfrac{1}{2} \vee x=\tfrac{7}{2}$
-\item $x=-\tfrac{2}{3} \vee x=2$
+    \item $x=\pm4$
+    \item $x=-2\vee x=3$
+    \item $x=\tfrac12\vee x=\tfrac72$
+    \item $x=-\tfrac23\vee x=2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Valore assoluto}: dopo aver uguagliato gli esponenti, $|A|=k$ con $k>0$ dà $A=\pm k$; se all'esterno del modulo compare la $x$ si distinguono i casi $A\geq0$ e $A<0$ e si controlla l'accettabilità.
+\begin{enumerate}
+    \item $\left(\tfrac12\right)^{|x|}=\left(\tfrac12\right)^4 \Rightarrow |x|=4$.
+    \item $|2x-1|=5 \Rightarrow 2x-1=\pm5 \Rightarrow x=3,\ x=-2$.
+    \item $\sqrt{27}=3^{3/2}$: \ $|x-2|=\tfrac32 \Rightarrow x=\tfrac72,\ x=\tfrac12$.
+    \item $3^{2|x|}=3^{x+2} \Rightarrow 2|x|=x+2$.
+    \[\begin{aligned}
+    x\geq0: &\quad 2x=x+2 \;\Rightarrow\; x=2 && \textcolor{gray}{\text{accettabile}}\\
+    x<0: &\quad -2x=x+2 \;\Rightarrow\; x=-\dfrac23 && \textcolor{gray}{\text{accettabile}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -378,12 +627,25 @@ Risolvi le seguenti equazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=-3 \vee x=3$
-\item $x=\pm 1 \vee x=\pm 3$
-\item $x=-\tfrac{9}{4} \vee x=\tfrac{9}{4}$
-\item $x=1$
+    \item $x=\pm3$
+    \item $x=\pm1\vee x=\pm3$
+    \item $x=\pm\tfrac94$
+    \item $x=1$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Valore assoluto}: dopo aver uguagliato gli esponenti, $|A|=k$ con $k>0$ dà $A=\pm k$; se all'esterno del modulo compare la $x$ si distinguono i casi $A\geq0$ e $A<0$ e si controlla l'accettabilità.
+\begin{enumerate}
+    \item $3^{|x|-1}=3^{2(|x|-2)} \Rightarrow |x|-1=2|x|-4 \Rightarrow |x|=3$.
+    \item $|x^2-5|=4 \Rightarrow x^2-5=4$ oppure $x^2-5=-4 \Rightarrow x^2=9$ o $x^2=1$.
+    \item \[\begin{aligned}
+    e^{|x|+5-3|x|} &= e^{1/2}\\
+    5-2|x| &= \dfrac12 \;\Rightarrow\; |x|=\dfrac94
+    \end{aligned}\]
+    \item $5^{|x+1|}=5^{2x} \Rightarrow |x+1|=2x$. Il secondo membro deve essere $\geq0$, quindi $x\geq0$; in tal caso $x+1>0$:
+    \[ x+1=2x \;\Rightarrow\; x=1 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -402,12 +664,21 @@ Risolvi le seguenti equazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=-3 \vee x=3$
-\item $x=-1 \vee x=3$
-\item $x=0 \vee x=\pm 2$
-\item $x=\pm 1 \vee x=\pm 2$
+    \item $x=\pm3$
+    \item $x=-1\vee x=3$
+    \item $x=0\vee x=\pm2$
+    \item $x=\pm1\vee x=\pm2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Valore assoluto}: dopo aver uguagliato gli esponenti, $|A|=k$ con $k>0$ dà $A=\pm k$; se all'esterno del modulo compare la $x$ si distinguono i casi $A\geq0$ e $A<0$ e si controlla l'accettabilità.
+\begin{enumerate}
+    \item Raccolgo $2^{|x|}$: \ $2^{|x|}(2+1)=24 \Rightarrow 2^{|x|}=8 \Rightarrow |x|=3$.
+    \item Raccolgo $3^{|x-1|}$: \ $3^{|x-1|}(1+3)=36 \Rightarrow 3^{|x-1|}=9 \Rightarrow |x-1|=2$.
+    \item $t=2^{|x|}\geq1$: \ $t^2-5t+4=0 \Rightarrow t=1,\ 4 \Rightarrow |x|=0,\ |x|=2$.
+    \item $t=2^{|x|}$: \ $t+\dfrac8t=6 \Rightarrow t^2-6t+8=0 \Rightarrow t=2,\ 4 \Rightarrow |x|=1,\ 2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -426,12 +697,38 @@ Risolvi le seguenti equazioni esponenziali, discutendo i casi del valore assolut
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x=2$
-\item $x=\tfrac{1}{3}$
-\item $x=0 \vee x=4$
-\item $x=1 \vee x=4$
+    \item $x=2$
+    \item $x=\tfrac13$
+    \item $x=0\vee x=4$
+    \item $x=1\vee x=4$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Valore assoluto}: dopo aver uguagliato gli esponenti, $|A|=k$ con $k>0$ dà $A=\pm k$; se all'esterno del modulo compare la $x$ si distinguono i casi $A\geq0$ e $A<0$ e si controlla l'accettabilità.
+\begin{enumerate}
+    \item $2^{|x|+x}=2^4 \Rightarrow |x|+x=4$.
+    \[\begin{aligned}
+    x\geq0: &\quad 2x=4 \;\Rightarrow\; x=2 && \textcolor{gray}{\text{accettabile}}\\
+    x<0: &\quad -x+x=0=4 && \textcolor{gray}{\text{impossibile}}
+    \end{aligned}\]
+    \item $2^{|x-1|}=2^{2x} \Rightarrow |x-1|=2x$.
+    \[\begin{aligned}
+    x\geq1: &\quad x-1=2x \;\Rightarrow\; x=-1 && \textcolor{gray}{\text{non accettabile ($-1<1$)}}\\
+    x<1: &\quad 1-x=2x \;\Rightarrow\; x=\dfrac13 && \textcolor{gray}{\text{accettabile}}
+    \end{aligned}\]
+    \item $3^{|x+2|}=3^{2|x-1|} \Rightarrow |x+2|=2|x-1|$. Entrambi i membri sono $\geq0$: elevo al quadrato.
+    \[\begin{aligned}
+    (x+2)^2 &= 4(x-1)^2\\
+    x^2+4x+4 &= 4x^2-8x+4\\
+    3x^2-12x &= 0 \;\Rightarrow\; x=0,\ x=4
+    \end{aligned}\]
+    \item $5^{|x^2-4|}=5^{3x} \Rightarrow |x^2-4|=3x$, che richiede $x\geq0$.
+    \[\begin{aligned}
+    x^2\geq4: &\quad x^2-4=3x \;\Rightarrow\; x=4\ (x=-1 \text{ scartata}) && \textcolor{gray}{\text{$16\geq4$: accettabile}}\\
+    x^2<4: &\quad 4-x^2=3x \;\Rightarrow\; x=1\ (x=-4 \text{ scartata}) && \textcolor{gray}{\text{$1<4$: accettabile}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -451,12 +748,21 @@ Risolvi le seguenti disequazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x>3$
-\item $x\leq -2$
-\item $x<-2$
-\item $x\in\mathbb{R}$
+    \item $x>3$
+    \item $x\leq-2$
+    \item $x<-2$
+    \item $x\in\mathbb{R}$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Nelle disequazioni, passando agli esponenti il verso \textbf{si conserva} se la base è maggiore di $1$ (esponenziale crescente) e \textbf{si inverte} se la base è compresa tra $0$ e $1$ (decrescente).
+\begin{enumerate}
+    \item $2^x>2^3$, base $>1$: $x>3$.
+    \item $3^x\leq3^{-2}$, base $>1$: $x\leq-2$.
+    \item $\left(\tfrac12\right)^x>\left(\tfrac12\right)^{-2}$, base $<1$: il verso si inverte, $x<-2$.
+    \item Una potenza di base positiva è sempre positiva, quindi sempre maggiore di $-3$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -475,12 +781,21 @@ Risolvi le seguenti disequazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x\geq 1$
-\item $x>\tfrac{1}{2}$
-\item $x\leq \tfrac{1}{3}$
-\item $x<\tfrac{3}{4}$
+    \item $x\geq1$
+    \item $x>\tfrac12$
+    \item $x\leq\tfrac13$
+    \item $x<\tfrac34$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Nelle disequazioni, passando agli esponenti il verso \textbf{si conserva} se la base è maggiore di $1$ (esponenziale crescente) e \textbf{si inverte} se la base è compresa tra $0$ e $1$ (decrescente).
+\begin{enumerate}
+    \item $3^{2x+1}\geq3^3 \Rightarrow 2x+1\geq3 \Rightarrow x\geq1$.
+    \item $3^{-2x}<3^{-1}$ (base $3>1$): $-2x<-1 \Rightarrow x>\tfrac12$.
+    \item $3^{-x+\frac13}\geq3^0 \Rightarrow -x+\tfrac13\geq0 \Rightarrow x\leq\tfrac13$.
+    \item $\dfrac{27}{64}=\left(\tfrac34\right)^3$, quindi $\sqrt[4]{\tfrac{27}{64}}=\left(\tfrac34\right)^{3/4}$. Base $<1$: \ $x<\tfrac34$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -499,12 +814,21 @@ Risolvi le seguenti disequazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x\leq -\tfrac{3}{2}$
-\item $x\leq -1$
-\item $x>3$
-\item $x<2$
+    \item $x\leq-\tfrac32$
+    \item $x\leq-1$
+    \item $x>3$
+    \item $x<2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Nelle disequazioni, passando agli esponenti il verso \textbf{si conserva} se la base è maggiore di $1$ (esponenziale crescente) e \textbf{si inverte} se la base è compresa tra $0$ e $1$ (decrescente).
+\begin{enumerate}
+    \item $2^{x+4}\leq2^{1-x} \Rightarrow x+4\leq1-x \Rightarrow x\leq-\tfrac32$.
+    \item $\left(\tfrac13\right)^{2-x}\leq\left(\tfrac13\right)^3$, base $<1$: \ $2-x\geq3 \Rightarrow x\leq-1$.
+    \item $3^{2x}>3^{-3(x-5)} \Rightarrow 2x>-3x+15 \Rightarrow x>3$.
+    \item $3^{x+1}<3^{3-(x-2)}=3^{5-x} \Rightarrow x+1<5-x \Rightarrow x<2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -523,12 +847,24 @@ Risolvi le seguenti disequazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $-2\leq x\leq 2$
-\item $x<-2 \vee x>2$
-\item $1\leq x\leq 2$
-\item $x=-2$
+    \item $-2\leq x\leq2$
+    \item $x<-2\vee x>2$
+    \item $1\leq x\leq2$
+    \item $x=-2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Nelle disequazioni, passando agli esponenti il verso \textbf{si conserva} se la base è maggiore di $1$ (esponenziale crescente) e \textbf{si inverte} se la base è compresa tra $0$ e $1$ (decrescente).
+\begin{enumerate}
+    \item $2^{x^2-1}\leq2^3 \Rightarrow x^2-1\leq3 \Rightarrow x^2\leq4$.
+    \item Base $\tfrac52>1$: \ $x^2-3>1 \Rightarrow x^2>4$.
+    \item Base $\tfrac12<1$, e $4=\left(\tfrac12\right)^{-2}$: il verso si inverte.
+    \[ x^2-3x\leq-2 \;\Rightarrow\; x^2-3x+2\leq0 \;\Rightarrow\; (x-1)(x-2)\leq0 \]
+    \item $\dfrac{81}{16}=\left(\tfrac32\right)^4=\left(\tfrac23\right)^{-4}$, base $<1$:
+    \[ x^2+4x\leq-4 \;\Rightarrow\; (x+2)^2\leq0 \]
+    Un quadrato non è mai negativo: vale solo l'uguaglianza, $x=-2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -547,12 +883,22 @@ Risolvi le seguenti disequazioni esponenziali:
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x\leq 2$
-\item $0<x<2$
-\item $-1<x<3$
-\item $x<-4 \vee x>2$
+    \item $x\leq2$
+    \item $0<x<2$
+    \item $-1<x<3$
+    \item $x<-4\vee x>2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Nelle disequazioni, passando agli esponenti il verso \textbf{si conserva} se la base è maggiore di $1$ (esponenziale crescente) e \textbf{si inverte} se la base è compresa tra $0$ e $1$ (decrescente).
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item $t=3^x$: \ $t^2-9t\leq0 \Rightarrow t(t-9)\leq0 \Rightarrow 0\leq t\leq9$. Con $t>0$: $3^x\leq9 \Rightarrow x\leq2$.
+    \item $t=2^x$: \ $(t-1)(t-4)<0 \Rightarrow 1<t<4 \Rightarrow 0<x<2$.
+    \item $\tfrac94=\left(\tfrac32\right)^2$, base $>1$: \ $|x-1|<2 \Rightarrow -2<x-1<2$.
+    \item Raccolgo $2^{|x+1|}$: \ $2^{|x+1|}(1+4)>40 \Rightarrow 2^{|x+1|}>8 \Rightarrow |x+1|>3$, \ cioè $x+1>3$ oppure $x+1<-3$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -571,12 +917,22 @@ Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognit
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x<0 \vee x>1$
-\item $0\leq x\leq 1$
-\item $x<1$
-\item $x\geq 0$
+    \item $x<0\vee x>1$
+    \item $0\leq x\leq1$
+    \item $x<1$
+    \item $x\geq0$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+Si risolve la disequazione in $t$ e poi si traduce, tenendo conto che $t>0$.
+\begin{enumerate}
+    \item $t=2^x$: \ $(t-1)(t-2)>0 \Rightarrow t<1 \vee t>2 \Rightarrow x<0 \vee x>1$.
+    \item $t=3^x$: \ $(t-1)(t-3)\leq0 \Rightarrow 1\leq t\leq3 \Rightarrow 0\leq x\leq1$.
+    \item $t=2^x$: \ $(t-2)(t+1)<0 \Rightarrow -1<t<2$; con $t>0$: $2^x<2 \Rightarrow x<1$.
+    \item $t=5^x$: \ $(t+5)(t-1)\geq0 \Rightarrow t\geq1$ (l'altra parte, $t\leq-5$, è impossibile) $\Rightarrow x\geq0$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -595,12 +951,21 @@ Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognit
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $-1\leq x\leq 1$
-\item $x<1 \vee x>2$
-\item $x\neq 2$
-\item $x<-1$
+    \item $-1\leq x\leq1$
+    \item $x<1\vee x>2$
+    \item $x\neq2$
+    \item $x<-1$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+\begin{enumerate}
+    \item $2t^2-5t+2\leq0 \Rightarrow \tfrac12\leq t\leq2 \Rightarrow -1\leq x\leq1$.
+    \item $t^2-12t+27>0 \Rightarrow (t-3)(t-9)>0 \Rightarrow t<3 \vee t>9 \Rightarrow x<1 \vee x>2$.
+    \item $t^2-8t+16=(t-4)^2>0$: vero per ogni $t\neq4$, cioè $x\neq2$.
+    \item $t=3^x$: \ $3t^2+2t-1<0 \Rightarrow (3t-1)(t+1)<0 \Rightarrow -1<t<\tfrac13$; con $t>0$: $3^x<3^{-1} \Rightarrow x<-1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -619,12 +984,22 @@ Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognit
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $1<x<2$
-\item $x\geq 2$
-\item $x<0 \vee x>1$
-\item $-1\leq x\leq 3$
+    \item $1<x<2$
+    \item $x\geq2$
+    \item $x<0\vee x>1$
+    \item $-1\leq x\leq3$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+Si moltiplica per $t>0$ (il verso non cambia).
+\begin{enumerate}
+    \item $t^2-6t+8<0 \Rightarrow 2<t<4 \Rightarrow 1<x<2$.
+    \item $t^2-8t-9\geq0 \Rightarrow t\leq-1 \vee t\geq9$; con $t>0$: $t\geq9 \Rightarrow x\geq2$.
+    \item $t^2-6t+5>0 \Rightarrow t<1 \vee t>5 \Rightarrow x<0 \vee x>1$.
+    \item $2t^2-17t+8\leq0 \Rightarrow \tfrac12\leq t\leq8 \Rightarrow -1\leq x\leq3$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -643,12 +1018,26 @@ Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognit
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x<0 \vee x\geq 2$
-\item $x<2$
-\item $0<x<1$
-\item $x\leq 0 \vee 1<x\leq 2$
+    \item $x<0\vee x\geq2$
+    \item $x<2$
+    \item $0<x<1$
+    \item $x\leq0\vee1<x\leq2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+Si studia il segno della frazione in $t$ e poi si traduce.
+\begin{enumerate}
+    \item $\dfrac{t-4}{t-1}\geq0$: concordi per $t<1$ o $t\geq4$ ($t=1$ escluso) $\Rightarrow x<0 \vee x\geq2$.
+    \item Il denominatore $t+1$ è sempre positivo: basta $t-9<0 \Rightarrow x<2$.
+    \item \[\begin{aligned}
+    \dfrac{1}{t-1}-1 &> 0\\
+    \dfrac{2-t}{t-1} &> 0 \;\Rightarrow\; 1<t<2 \;\Rightarrow\; 0<x<1
+    \end{aligned}\]
+    \item $\dfrac{(t-1)(t-4)}{t-2}\leq0$. Zeri $1,\ 2,\ 4$; segni da sinistra $-,\ +,\ -,\ +$:
+    \[ t\leq1 \;\vee\; 2<t\leq4 \;\Rightarrow\; x\leq0 \;\vee\; 1<x\leq2 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -667,12 +1056,23 @@ Risolvi le seguenti disequazioni esponenziali introducendo un'opportuna incognit
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $0<x<1$
-\item $x\leq 0 \vee x\geq 2$
-\item $x<1 \vee x>2$
-\item $-1\leq x\leq 1$
+    \item $0<x<1$
+    \item $x\leq0\vee x\geq2$
+    \item $x<1\vee x>2$
+    \item $-1\leq x\leq1$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Incognita ausiliaria}: si pone $t=a^x$ (con $t>0$), si risolve l'equazione in $t$, si scartano le soluzioni $t\leq0$ e si torna alla $x$.
+Le equazioni associate sono quelle dell'esercizio 3.11 (e 3.10 d).
+\begin{enumerate}
+    \item $(t-1)(t-e)<0 \Rightarrow 1<e^x<e \Rightarrow 0<x<1$.
+    \item $u=\sqrt{3^x}$: \ $(u-1)(u-3)\geq0 \Rightarrow u\leq1 \vee u\geq3 \Rightarrow 3^x\leq1 \vee 3^x\geq9$.
+    \item $(t-2)(t-4)(t+1)>0$; poiché $t+1>0$ basta $(t-2)(t-4)>0 \Rightarrow t<2 \vee t>4$.
+    \item $u=2^x+2^{-x}$: \ $2u^2-9u+10\leq0 \Rightarrow 2\leq u\leq\tfrac52$. \\
+    $u\geq2$ vale sempre; $2^x+2^{-x}\leq\tfrac52 \Rightarrow 2t^2-5t+2\leq0 \Rightarrow \tfrac12\leq2^x\leq2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -691,12 +1091,21 @@ Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra 
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x>0$
-\item $x\leq 1$
-\item $x>-3$
-\item $x\leq \tfrac{1}{2}$
+    \item $x>0$
+    \item $x\leq1$
+    \item $x>-3$
+    \item $x\leq\tfrac12$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Basi diverse, stesso esponente}: si porta tutto nella forma $a^{E}$ e $b^{E}$ con lo stesso esponente $E$, poi si divide: $\left(\tfrac ab\right)^{E}$ è maggiore di $1$ se $E>0$ e la base $\tfrac ab>1$ (e viceversa).
+\begin{enumerate}
+    \item Divido per $2^x>0$: \ $\left(\tfrac32\right)^x>1=\left(\tfrac32\right)^0$, base $>1$: $x>0$.
+    \item $\left(\tfrac52\right)^{x-1}\leq1$, base $>1$: $x-1\leq0$.
+    \item $\left(\tfrac72\right)^{x+3}>1$: $x+3>0$.
+    \item $\left(\tfrac35\right)^{2x-1}\geq1$, base $<1$: $2x-1\leq0$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -715,12 +1124,21 @@ Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra 
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x>-1$
-\item $x<2$
-\item $x\leq -2$
-\item $x\geq 3$
+    \item $x>-1$
+    \item $x<2$
+    \item $x\leq-2$
+    \item $x\geq3$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Basi diverse, stesso esponente}: si porta tutto nella forma $a^{E}$ e $b^{E}$ con lo stesso esponente $E$, poi si divide: $\left(\tfrac ab\right)^{E}$ è maggiore di $1$ se $E>0$ e la base $\tfrac ab>1$ (e viceversa).
+\begin{enumerate}
+    \item $3^{x+1}>2^{x+1} \Rightarrow \left(\tfrac32\right)^{x+1}>1 \Rightarrow x>-1$.
+    \item $5^{x-2}<3^{x-2} \Rightarrow \left(\tfrac53\right)^{x-2}<1 \Rightarrow x<2$.
+    \item $2^{x+2}\geq3^{x+2} \Rightarrow \left(\tfrac23\right)^{x+2}\geq1$, base $<1$: $x+2\leq0$.
+    \item $3^3\cdot2^x\leq2^3\cdot3^x \Rightarrow 2^{x-3}\leq3^{x-3} \Rightarrow \left(\tfrac23\right)^{x-3}\leq1$, base $<1$: $x-3\geq0$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -739,12 +1157,22 @@ Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra 
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x>-\tfrac{1}{2}$
-\item $x\leq -\tfrac{1}{2}$
-\item $x>-\tfrac{5}{2}$
-\item $x\leq -\tfrac{4}{3}$
+    \item $x>-\tfrac12$
+    \item $x\leq-\tfrac12$
+    \item $x>-\tfrac52$
+    \item $x\leq-\tfrac43$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Basi diverse, stesso esponente}: si porta tutto nella forma $a^{E}$ e $b^{E}$ con lo stesso esponente $E$, poi si divide: $\left(\tfrac ab\right)^{E}$ è maggiore di $1$ se $E>0$ e la base $\tfrac ab>1$ (e viceversa).
+Si moltiplicano i due membri per i denominatori (positivi) e si scrivono i radicali come potenze.
+\begin{enumerate}
+    \item $3^x\cdot3^{1/2}>2^x\cdot2^{1/2} \Rightarrow \left(\tfrac32\right)^{x+\frac12}>1 \Rightarrow x>-\tfrac12$.
+    \item $3^x\cdot3^{1/2}\geq5^{x-1}\cdot5^{3/2}=5^{x+\frac12} \Rightarrow \left(\tfrac35\right)^{x+\frac12}\geq1$, base $<1$: $x\leq-\tfrac12$.
+    \item $2^x\cdot2^{2}\cdot2^{1/2}<3^x\cdot3^2\cdot3^{1/2} \Rightarrow \left(\tfrac23\right)^{x+\frac52}<1$, base $<1$: $x+\tfrac52>0$.
+    \item $7^{x+1}\cdot7^{1/3}\leq2^{x+1}\cdot2^{1/3} \Rightarrow \left(\tfrac72\right)^{x+\frac43}\leq1 \Rightarrow x\leq-\tfrac43$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -763,12 +1191,21 @@ Risolvi le seguenti disequazioni esponenziali riconducendo il primo membro a un'
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x>2$
-\item $x\leq -2$
-\item $x\geq 2$
-\item $x<-2$
+    \item $x>2$
+    \item $x\leq-2$
+    \item $x\geq2$
+    \item $x<-2$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Potenze con lo stesso esponente si moltiplicano moltiplicando le basi: $a^x\cdot b^x=(ab)^x$.
+\begin{enumerate}
+    \item $6^x>36=6^2 \Rightarrow x>2$.
+    \item $10^x\leq10^{-2} \Rightarrow x\leq-2$.
+    \item $2\cdot6^x\geq72 \Rightarrow 6^x\geq36 \Rightarrow x\geq2$.
+    \item $4^x\cdot3^x=12^x<\tfrac1{144}=12^{-2} \Rightarrow x<-2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -787,12 +1224,21 @@ Risolvi le seguenti disequazioni esponenziali riconducendole a un confronto tra 
 \end{minipage}\end{center}
 \begin{solution}
 \begin{enumerate}
-\item $x<-2 \vee x>2$
-\item $x\leq 0 \vee x\geq 1$
-\item $-3\leq x\leq 3$
-\item impossibile
+    \item $x<-2\vee x>2$
+    \item $x\leq0\vee x\geq1$
+    \item $-3\leq x\leq3$
+    \item impossibile
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Basi diverse, stesso esponente}: si porta tutto nella forma $a^{E}$ e $b^{E}$ con lo stesso esponente $E$, poi si divide: $\left(\tfrac ab\right)^{E}$ è maggiore di $1$ se $E>0$ e la base $\tfrac ab>1$ (e viceversa).
+\begin{enumerate}
+    \item $\left(\tfrac32\right)^{x^2-4}>1 \Rightarrow x^2-4>0$.
+    \item $\left(\tfrac57\right)^{x^2-x}\leq1$, base $<1$: $x^2-x\geq0 \Rightarrow x(x-1)\geq0$.
+    \item $3^{|x|-3}\leq2^{|x|-3} \Rightarrow \left(\tfrac32\right)^{|x|-3}\leq1 \Rightarrow |x|\leq3$.
+    \item $2^{x^2}\cdot2^2\geq3^{x^2}\cdot3^2 \Rightarrow \left(\tfrac23\right)^{x^2+2}\geq1$, base $<1$: $x^2+2\leq0$, impossibile.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %====================================================%
@@ -808,19 +1254,26 @@ Lo iodio-131 è un isotopo radioattivo usato in medicina nucleare per la diagnos
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item A ogni intervallo di $8$ giorni la massa si moltiplica per $\dfrac{1}{2}$. In $t$ giorni gli intervalli trascorsi sono $\dfrac{t}{8}$, quindi:
-    \[
-    m(t) = 80 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{8}}.
-    \]
-    \item $m(24) = 80 \cdot \left(\dfrac{1}{2}\right)^{3} = \dfrac{80}{8} = 10\,\text{mg}$.
-    \item Dopo $16$ giorni sono trascorsi due tempi di dimezzamento: $\left(\dfrac{1}{2}\right)^{2} = \dfrac{1}{4}$, cioè resta il $25\%$ della massa iniziale ($20\,\text{mg}$).
-    \item Il campione è utilizzabile finché $m(t) \geq 2{,}5$:
-    \[
-    80 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{8}} \geq 2{,}5 \quad\Longrightarrow\quad \left(\dfrac{1}{2}\right)^{\frac{t}{8}} \geq \dfrac{1}{32} = \left(\dfrac{1}{2}\right)^{5}.
-    \]
-    La base è minore di $1$, quindi il verso della disequazione si inverte passando agli esponenti: $\dfrac{t}{8} \leq 5$, cioè $t \leq 40$. Il campione può essere usato per $40$ giorni.
+    \item $m(t)=80\cdot\left(\tfrac12\right)^{t/8}$
+    \item $10$ mg
+    \item $25\%$ (cioè $20$ mg)
+    \item per $40$ giorni
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item Ogni $8$ giorni la massa si moltiplica per $\tfrac12$; in $t$ giorni ci sono $\tfrac t8$ periodi di dimezzamento:
+    \[ m(t)=80\cdot\left(\dfrac12\right)^{t/8} \]
+    \item $24$ giorni sono $3$ dimezzamenti: \ $m(24)=80\cdot\tfrac18=10$ mg.
+    \item $16$ giorni sono $2$ dimezzamenti: resta $\tfrac14$ della massa, cioè il $25\%$.
+    \item \[\begin{aligned}
+    80\left(\dfrac12\right)^{t/8} &\geq 2{,}5\\
+    \left(\dfrac12\right)^{t/8} &\geq \dfrac{1}{32}=\left(\dfrac12\right)^5 && \textcolor{gray}{\text{divido per $80$}}\\
+    \dfrac t8 &\leq 5 && \textcolor{gray}{\text{base $<1$: il verso si inverte}}\\
+    t &\leq 40
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -835,19 +1288,24 @@ A un paziente viene somministrata per via endovenosa una dose di antibiotico che
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item Ogni $3$ ore la concentrazione si moltiplica per $\dfrac{1}{3}$, quindi:
-    \[
-    C(t) = 54 \cdot \left(\dfrac{1}{3}\right)^{\frac{t}{3}}.
-    \]
-    \item $C(6) = 54 \cdot \left(\dfrac{1}{3}\right)^{2} = \dfrac{54}{9} = 6\,\text{mg/L}$.
-    \item Il farmaco è efficace finché $C(t) \geq 2$:
-    \[
-    54 \cdot \left(\dfrac{1}{3}\right)^{\frac{t}{3}} \geq 2 \quad\Longrightarrow\quad \left(\dfrac{1}{3}\right)^{\frac{t}{3}} \geq \dfrac{1}{27} = \left(\dfrac{1}{3}\right)^{3}.
-    \]
-    Poiché la base è minore di $1$, si ha $\dfrac{t}{3} \leq 3$, cioè $t \leq 9$. Il farmaco resta efficace per $9$ ore.
-    \item Dopo $6$ ore sono rimasti $6\,\text{mg/L}$ della prima dose. Subito dopo la seconda dose la concentrazione è $6 + 54 = 60\,\text{mg/L}$. Da quel momento l'eliminazione riparte con la stessa legge: dopo altre $3$ ore la concentrazione è $60 \cdot \dfrac{1}{3} = 20\,\text{mg/L}$.
+    \item $C(t)=54\cdot\left(\tfrac13\right)^{t/3}$
+    \item $6$ mg/L
+    \item per $9$ ore
+    \item $60$ mg/L subito dopo la seconda dose; $20$ mg/L dopo altre $3$ ore
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item Ogni $3$ ore la concentrazione si moltiplica per $\tfrac13$: \ $C(t)=54\cdot\left(\tfrac13\right)^{t/3}$.
+    \item $C(6)=54\cdot\left(\tfrac13\right)^2=\tfrac{54}{9}=6$ mg/L.
+    \item \[\begin{aligned}
+    54\left(\dfrac13\right)^{t/3} &\geq 2\\
+    \left(\dfrac13\right)^{t/3} &\geq \dfrac1{27}=\left(\dfrac13\right)^3\\
+    \dfrac t3 &\leq 3 \;\Rightarrow\; t\leq9 && \textcolor{gray}{\text{base $<1$: verso invertito}}
+    \end{aligned}\]
+    \item Dopo $6$ ore restano $6$ mg/L; la nuova dose ne aggiunge $54$: \ $6+54=60$ mg/L. Dopo altre $3$ ore la concentrazione si riduce a un terzo: $20$ mg/L.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -862,54 +1320,68 @@ In un paziente appena contagiato da un virus si misura una carica virale di $500
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item Ogni $6$ ore la carica si moltiplica per $2$, quindi:
-    \[
-    V(t) = 500 \cdot 2^{\frac{t}{6}}.
-    \]
-    \item Dopo un giorno, cioè $24$ ore: $V(24) = 500 \cdot 2^{4} = 8000$ copie/mL.
-    \item Imponiamo $V(t) = 64\,000$:
-    \[
-    500 \cdot 2^{\frac{t}{6}} = 64\,000 \quad\Longrightarrow\quad 2^{\frac{t}{6}} = 128 = 2^{7} \quad\Longrightarrow\quad \dfrac{t}{6} = 7 \quad\Longrightarrow\quad t = 42.
-    \]
-    La carica raggiunge le $64\,000$ copie/mL dopo $42$ ore.
-    \item Indicando con $s$ le ore trascorse dall'inizio della terapia, la nuova legge è $W(s) = 64\,000 \cdot \left(\dfrac{1}{4}\right)^{\frac{s}{12}}$. Imponiamo $W(s) < 1000$:
-    \[
-    \left(\dfrac{1}{4}\right)^{\frac{s}{12}} < \dfrac{1}{64} = \left(\dfrac{1}{4}\right)^{3}.
-    \]
-    Poiché la base è minore di $1$, si ha $\dfrac{s}{12} > 3$, cioè $s > 36$. La carica virale scende sotto le $1000$ copie/mL dopo $36$ ore di terapia.
+    \item $V(t)=500\cdot2^{t/6}$
+    \item $8000$ copie/mL
+    \item dopo $42$ ore
+    \item dopo più di $36$ ore di terapia
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item Raddoppio ogni $6$ ore: $V(t)=500\cdot2^{t/6}$.
+    \item $V(24)=500\cdot2^4=8000$.
+    \item \[\begin{aligned}
+    500\cdot2^{t/6} &= 64\,000\\
+    2^{t/6} &= 128=2^7 && \textcolor{gray}{\text{divido per $500$}}\\
+    t &= 42
+    \end{aligned}\]
+    \item Con $s$ ore di terapia: $W(s)=64\,000\cdot\left(\tfrac14\right)^{s/12}$.
+    \[\begin{aligned}
+    64\,000\left(\dfrac14\right)^{s/12} &< 1000\\
+    \left(\dfrac14\right)^{s/12} &< \dfrac1{64}=\left(\dfrac14\right)^3\\
+    \dfrac{s}{12} &> 3 \;\Rightarrow\; s>36 && \textcolor{gray}{\text{base $<1$: verso invertito}}
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
 
 \begin{question}[ID=6.4, subtitle={Raffreddamento di una tazza di tè}, difficulty=difficile, tags={problemi, esponenziali, decadimento, raffreddamento}]
-Una tazza di tè appena versata si trova alla temperatura di $80\,^\circ\text{C}$ in una stanza a $20\,^\circ\text{C}$. Secondo la legge del raffreddamento di Newton, a diminuire in modo esponenziale non è la temperatura del tè, ma la \textbf{differenza} tra la temperatura del tè e quella dell'ambiente: in questo caso tale differenza si dimezza ogni $5$ minuti. La temperatura dopo $t$ minuti è quindi
+Una tazza di tè appena versata si trova alla temperatura di $80\,{}^\circ\text{C}$ in una stanza a $20\,{}^\circ\text{C}$. Secondo la legge del raffreddamento di Newton, a diminuire in modo esponenziale non è la temperatura del tè, ma la \textbf{differenza} tra la temperatura del tè e quella dell'ambiente: in questo caso tale differenza si dimezza ogni $5$ minuti. La temperatura dopo $t$ minuti è quindi
 \[
 T(t) = 20 + 60 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{5}}.
 \]
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
     \item Verifica che la legge fornisce la temperatura iniziale corretta e calcola la temperatura dopo $10$ minuti.
-    \item Dopo quanti minuti il tè raggiunge la temperatura di $27{,}5\,^\circ\text{C}$?
-    \item Il tè è considerato freddo quando la sua temperatura scende sotto $23{,}75\,^\circ\text{C}$. Dopo quanti minuti accade?
-    \item Il tè può raggiungere la temperatura di $20\,^\circ\text{C}$? E scendere sotto questo valore? Giustifica la risposta.
+    \item Dopo quanti minuti il tè raggiunge la temperatura di $27{,}5\,{}^\circ\text{C}$?
+    \item Il tè è considerato freddo quando la sua temperatura scende sotto $23{,}75\,{}^\circ\text{C}$. Dopo quanti minuti accade?
+    \item Il tè può raggiungere la temperatura di $20\,{}^\circ\text{C}$? E scendere sotto questo valore? Giustifica la risposta.
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item Per $t=0$: $T(0) = 20 + 60 \cdot 1 = 80\,^\circ\text{C}$, come richiesto. Per $t=10$: $T(10) = 20 + 60 \cdot \left(\dfrac{1}{2}\right)^{2} = 20 + 15 = 35\,^\circ\text{C}$.
-    \item Imponiamo $T(t) = 27{,}5$:
-    \[
-    60 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{5}} = 7{,}5 \quad\Longrightarrow\quad \left(\dfrac{1}{2}\right)^{\frac{t}{5}} = \dfrac{1}{8} = \left(\dfrac{1}{2}\right)^{3} \quad\Longrightarrow\quad t = 15.
-    \]
-    Il tè raggiunge $27{,}5\,^\circ\text{C}$ dopo $15$ minuti.
-    \item Imponiamo $T(t) < 23{,}75$:
-    \[
-    60 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{5}} < 3{,}75 \quad\Longrightarrow\quad \left(\dfrac{1}{2}\right)^{\frac{t}{5}} < \dfrac{1}{16} = \left(\dfrac{1}{2}\right)^{4}.
-    \]
-    Poiché la base è minore di $1$, si ha $\dfrac{t}{5} > 4$, cioè $t > 20$. Il tè è freddo dopo $20$ minuti.
-    \item No in entrambi i casi. Il termine $60 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{5}}$ è sempre positivo, perché una potenza con base positiva non si annulla mai e non diventa mai negativa: quindi $T(t) > 20$ per ogni $t$. La temperatura si avvicina sempre di più a $20\,^\circ\text{C}$ senza mai raggiungerla: la retta $T = 20$ è un asintoto orizzontale del grafico.
+    \item $T(0)=80\,{}^\circ\text{C}$; \ $T(10)=35\,{}^\circ\text{C}$
+    \item dopo $15$ minuti
+    \item dopo $20$ minuti
+    \item no: $T(t)>20\,{}^\circ\text{C}$ per ogni $t$ ($T=20$ è un asintoto orizzontale)
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item $T(0)=20+60\cdot1=80$. \quad $T(10)=20+60\cdot\left(\tfrac12\right)^2=20+15=35$.
+    \item \[\begin{aligned}
+    20+60\left(\dfrac12\right)^{t/5} &= 27{,}5\\
+    \left(\dfrac12\right)^{t/5} &= \dfrac{7{,}5}{60}=\dfrac18=\left(\dfrac12\right)^3\\
+    t &= 15
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    60\left(\dfrac12\right)^{t/5} &< 3{,}75\\
+    \left(\dfrac12\right)^{t/5} &< \dfrac1{16}=\left(\dfrac12\right)^4\\
+    \dfrac t5 &> 4 \;\Rightarrow\; t>20 && \textcolor{gray}{\text{base $<1$}}
+    \end{aligned}\]
+    \item $60\left(\tfrac12\right)^{t/5}$ è sempre positivo (una potenza di base positiva non si annulla mai), quindi $T(t)>20$ sempre. Al crescere di $t$ quel termine tende a $0$: la temperatura si avvicina a $20\,{}^\circ\text{C}$ senza mai raggiungerla.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -924,18 +1396,26 @@ In un laboratorio si studiano due colonie dello stesso batterio. La colonia A, l
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}[label=\alph*),leftmargin=1.8cm]
-    \item $N_A(t) = 200 \cdot 2^{t}$ e $N_B(t) = 51\,200 \cdot \left(\dfrac{1}{2}\right)^{t} = 51\,200 \cdot 2^{-t}$.
-    \item $N_A(2) = 200 \cdot 4 = 800$ batteri; $N_B(2) = \dfrac{51\,200}{4} = 12\,800$ batteri.
-    \item Imponiamo $N_A(t) = N_B(t)$:
-    \[
-    200 \cdot 2^{t} = 51\,200 \cdot 2^{-t} \quad\Longrightarrow\quad 2^{2t} = 256 = 2^{8} \quad\Longrightarrow\quad t = 4.
-    \]
-    Dopo $4$ ore le colonie contengono entrambe $200 \cdot 2^{4} = 3200$ batteri.
-    \item Imponiamo $N_B(t) < 100$:
-    \[
-    51\,200 \cdot \left(\dfrac{1}{2}\right)^{t} < 100 \quad\Longrightarrow\quad \left(\dfrac{1}{2}\right)^{t} < \dfrac{1}{512} = \left(\dfrac{1}{2}\right)^{9}.
-    \]
-    Poiché la base è minore di $1$, si ha $t > 9$: l'antibiotico è efficace dopo $9$ ore. In quel momento la colonia A contiene $N_A(9) = 200 \cdot 2^{9} = 102\,400$ batteri.
+    \item $N_A(t)=200\cdot2^t$; \ $N_B(t)=51\,200\cdot2^{-t}$
+    \item $N_A(2)=800$; \ $N_B(2)=12\,800$
+    \item dopo $4$ ore, con $3200$ batteri ciascuna
+    \item dopo $9$ ore; la colonia A ha $102\,400$ batteri
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}[label=\alph*),leftmargin=1.8cm]
+    \item A raddoppia ogni ora: $200\cdot2^t$. B si dimezza ogni ora: $51\,200\cdot\left(\tfrac12\right)^t=51\,200\cdot2^{-t}$.
+    \item $N_A(2)=200\cdot4=800$; \ $N_B(2)=\tfrac{51\,200}{4}=12\,800$.
+    \item \[\begin{aligned}
+    200\cdot2^t &= 51\,200\cdot2^{-t}\\
+    2^{2t} &= \dfrac{51\,200}{200}=256=2^8 && \textcolor{gray}{\text{moltiplico per $2^t$ e divido per $200$}}\\
+    t &= 4, \qquad N_A(4)=200\cdot16=3200
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    51\,200\left(\dfrac12\right)^t &< 100\\
+    \left(\dfrac12\right)^t &< \dfrac1{512}=\left(\dfrac12\right)^9 \;\Rightarrow\; t>9
+    \end{aligned}\]
+    $N_A(9)=200\cdot512=102\,400$.
+\end{enumerate}
+\end{explanation}
 \end{question}

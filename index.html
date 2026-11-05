@@ -169,6 +169,7 @@
       <div class="modal-meta">
         <span class="modal-subject" id="modal-subject"></span>
         <span class="modal-topic" id="modal-topic"></span>
+        <span class="modal-code" id="modal-code" title="Codice dell'esercizio"></span>
         <span class="modal-dots" id="modal-dots"></span>
       </div>
       <div class="modal-actions">
@@ -190,15 +191,22 @@
     <h2 class="modal-title" id="modal-title"></h2>
     <div class="modal-text" id="modal-text"></div>
     <div class="modal-solution-wrap" id="modal-solution-wrap">
+      <div class="solution-buttons">
       <button class="btn-show-solution" id="btn-show-solution">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
         </svg>
         Mostra soluzione
       </button>
+      <button class="btn-show-solution btn-explain" id="btn-explain">Spiega</button>
+      </div>
       <div class="solution-block hidden" id="solution-block">
         <div class="solution-label">Soluzione</div>
         <div class="solution-text" id="solution-text"></div>
+      </div>
+      <div class="solution-block explanation-block hidden" id="explanation-block">
+        <div class="solution-label">Spiegazione passo per passo</div>
+        <div class="solution-text explanation-text" id="explanation-text"></div>
       </div>
     </div>
   </div>

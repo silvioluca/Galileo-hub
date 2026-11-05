@@ -9,13 +9,32 @@ Dopo aver descritto le leggi di trasformazione di una simmetria centrale rispett
 \item Verificare che la curva di equazione $x^2+4y^2-2x-8y+1=0$ ha centro di simmetria nel punto $P$.
 \end{enumerate}
 \begin{solution}
-La simmetria centrale rispetto a $P(1,1)$ ha equazioni $x'=2-x,\ y'=2-y$ (il punto medio di ciascuna coppia punto–immagine è $P$).
 \begin{enumerate}
-\item $A(5,3)\Rightarrow A'(2-5,\ 2-3)=(-3,-1)$.
-\item Si sostituisce $x\to2-x$, $y\to2-y$ nell'equazione di $\gamma$: $(2-y)+((2-x)-2)^2+3=0\Rightarrow x^2-y+5=0$, cioè $\gamma':\ y=x^2+5$ (la parabola, prima rivolta verso il basso con vertice $(2,-3)$, diventa rivolta verso l'alto con vertice $(0,5)$).
-\item Completando i quadrati: $x^2-2x+4y^2-8y+1=(x-1)^2+4(y-1)^2-4=0$, cioè $(x-1)^2+4(y-1)^2=4$: ellisse di centro $(1,1)=P$. Avendo centro in $P$, è simmetrica rispetto a $P$.
+    \item $A'(-3,-1)$
+    \item $\gamma':\ y=x^2+5$
+    \item $(x-1)^2+4(y-1)^2=4$: ellisse di centro $P(1,1)$, quindi simmetrica rispetto a $P$.
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Leggi della simmetria centrale} di centro $P(1,1)$: $P$ è il punto medio tra un punto e la sua immagine, quindi
+\[ \dfrac{x+x'}{2}=1,\ \ \dfrac{y+y'}{2}=1 \;\Rightarrow\; \begin{cases} x'=2-x\\ y'=2-y\end{cases} \]
+La trasformazione è involutoria: anche $x=2-x'$, $y=2-y'$.
+\begin{enumerate}
+    \item $A'(2-5,\ 2-3)=(-3,-1)$.
+    \item \[\begin{aligned}
+    (2-y')+\big((2-x')-2\big)^2+3 &= 0 && \textcolor{gray}{\text{sostituisco $x=2-x'$, $y=2-y'$}}\\
+    2-y'+x'^2+3 &= 0\\
+    y' &= x'^2+5
+    \end{aligned}\]
+    La parabola $\gamma$ (verso il basso, vertice $(2,-3)$) diventa una parabola verso l'alto con vertice $(0,5)$, simmetrico di $(2,-3)$ rispetto a $P$.
+    \item Completo i quadrati:
+    \[\begin{aligned}
+    (x^2-2x+1)+4(y^2-2y+1)-1-4+1 &= 0\\
+    (x-1)^2+4(y-1)^2 &= 4
+    \end{aligned}\]
+    Una curva è simmetrica rispetto a $P$ se l'equazione non cambia applicando la simmetria. Sostituendo $x\to2-x$, $y\to2-y$: $(1-x)^2+4(1-y)^2=4$, identica alla precedente.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -28,13 +47,25 @@ Dopo aver descritto le leggi di trasformazione di una simmetria assiale rispetto
 \item Verificare che la curva di equazione $y=x^2-2x+3$ è simmetrica rispetto alla retta $x=1$
 \end{enumerate}
 \begin{solution}
-La simmetria assiale rispetto a $x=1$ ha equazioni $x'=2-x,\ y'=y$ (cambia solo l'ascissa, riflessa attorno a $x=1$).
 \begin{enumerate}
-\item $A(5,3)\Rightarrow A'(2-5,\ 3)=(-3,3)$.
-\item Sostituendo $x\to2-x$, $y\to y$ in $\gamma$: $y+((2-x)-2)^2+3=0\Rightarrow y+x^2+3=0$, cioè $\gamma':\ y=-x^2-3$ (vertice da $(2,-3)$ a $(0,-3)$).
-\item $y=x^2-2x+3=(x-1)^2+2$: parabola di vertice $(1,2)$ e asse $x=1$. L'asse di simmetria coincide con la retta data, quindi la curva è simmetrica rispetto a $x=1$.
+    \item $A'(-3,3)$
+    \item $\gamma':\ y=-x^2-3$
+    \item $y=(x-1)^2+2$: parabola con asse $x=1$, quindi simmetrica rispetto a quella retta.
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\textbf{Leggi della simmetria assiale} rispetto alla retta verticale $x=1$: l'ordinata non cambia e l'ascissa si riflette attorno a $1$:
+\[ \begin{cases} x'=2-x\\ y'=y\end{cases} \]
+\begin{enumerate}
+    \item $A'(2-5,\ 3)=(-3,3)$.
+    \item \[\begin{aligned}
+    y'+\big((2-x')-2\big)^2+3 &= 0 && \textcolor{gray}{\text{sostituisco $x=2-x'$, $y=y'$}}\\
+    y' &= -x'^2-3
+    \end{aligned}\]
+    Il vertice passa da $(2,-3)$ a $(0,-3)$.
+    \item Completo il quadrato: $y=(x^2-2x+1)+2=(x-1)^2+2$. È una parabola con vertice $(1,2)$ e asse $x=1$. Verifica con la trasformazione: $(2-x-1)^2+2=(1-x)^2+2$, equazione invariata.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 
@@ -55,11 +86,28 @@ Dato il triangolo di vertici $A(0,0), \quad B(2,0), \quad C(2,2)$, determinare i
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-\item Omotetia di centro $P(2,1)$ e rapporto $k=2$: $x'=k(x-2)+2=2x-2$, $y'=k(y-1)+1=2y-1$.
-\item Immagini dei vertici: $A(0,0)\to A'(-2,-1)$, $B(2,0)\to B'(2,-1)$, $C(2,2)\to C'(2,3)$. Si rappresentano $ABC$ (triangolo rettangolo in $B$) e $A'B'C'$ (rettangolo in $B'$), allineati lungo le rette per il centro $P$.
-\item $ABC$: cateti $AB=2$ e $BC=2$, area $=\tfrac12\cdot2\cdot2=2$. $A'B'C'$: cateti $A'B'=4$ e $B'C'=4$, area $=\tfrac12\cdot4\cdot4=8$. Il rapporto delle aree è $k^2=4$, coerente con l'omotetia.
+    \item $x'=2x-2$, \ $y'=2y-1$
+    \item $A'(-2,-1)$, \ $B'(2,-1)$, \ $C'(2,3)$
+    \item area di $ABC=2$, \ area di $A'B'C'=8$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Un'omotetia di centro $P(x_0,y_0)$ e rapporto $k$ moltiplica per $k$ la distanza da $P$:
+    \[\begin{aligned}
+    x'-2 &= 2(x-2) \;\Rightarrow\; x'=2x-2\\
+    y'-1 &= 2(y-1) \;\Rightarrow\; y'=2y-1
+    \end{aligned}\]
+    \item \[\begin{aligned}
+    A(0,0) &\to (2\cdot0-2,\ 2\cdot0-1)=(-2,-1)\\
+    B(2,0) &\to (2,-1)\\
+    C(2,2) &\to (2,3)
+    \end{aligned}\]
+    Entrambi i triangoli sono rettangoli (in $B$ e in $B'$); ogni vertice e la sua immagine sono allineati con $P$.
+    \item $ABC$ ha cateti $2$ e $2$: area $2$. \ $A'B'C'$ ha cateti $4$ e $4$: area $8$. \\
+    Le lunghezze si moltiplicano per $k=2$, le aree per $k^2=4$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -78,10 +126,19 @@ y' = 3y
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-\item Immagini dei vertici con $x'=-2x,\ y'=3y$: $A(0,0)\to A'(0,0)$, $B(2,0)\to B'(-4,0)$, $C(2,2)\to C'(-4,6)$. La dilatazione raddoppia (con riflessione) le ascisse e triplica le ordinate: $A'B'C'$ è rettangolo in $B'$.
-\item $ABC$: area $=\tfrac12\cdot2\cdot2=2$. $A'B'C'$: cateti $A'B'=4$ e $B'C'=6$, area $=\tfrac12\cdot4\cdot6=12$. Il rapporto è $|{-2}\cdot3|=6$, cioè il valore assoluto del prodotto dei due fattori di scala.
+    \item $A'(0,0)$, \ $B'(-4,0)$, \ $C'(-4,6)$
+    \item area di $ABC=2$, \ area di $A'B'C'=12$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Applico $x'=-2x$, $y'=3y$ ai vertici:
+    \[ A(0,0)\to(0,0), \qquad B(2,0)\to(-4,0), \qquad C(2,2)\to(-4,6) \]
+    Il segno meno ribalta la figura a sinistra dell'asse $y$; le ascisse raddoppiano, le ordinate triplicano. $A'B'C'$ è rettangolo in $B'$.
+    \item $ABC$: $\tfrac12\cdot2\cdot2=2$. \ $A'B'C'$: cateti $4$ e $6$, area $\tfrac12\cdot4\cdot6=12$. \\
+    In una dilatazione le aree si moltiplicano per $|h\cdot k|=|-2\cdot3|=6$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ========================================
@@ -96,11 +153,29 @@ Data la retta $r:\; y = 2x + 1$, determina l'equazione della retta corrispondent
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-\item Simmetria rispetto all'asse $x$: $y\to-y$, quindi $-y=2x+1\Rightarrow y=-2x-1$.
-\item La traslazione ha vettore $A\to A'=(4-1,\,-2-(-3))=(3,1)$, cioè $x'=x+3,\ y'=y+1$. Sostituendo $x=x'-3,\ y=y'-1$: $y'-1=2(x'-3)+1\Rightarrow y'=2x'-4$, cioè $y=2x-4$.
-\item Omotetia di centro $O$ e rapporto 3: $x'=3x,\ y'=3y$. Sostituendo $x=\tfrac{x'}{3},\ y=\tfrac{y'}{3}$: $\tfrac{y'}{3}=2\cdot\tfrac{x'}{3}+1\Rightarrow y'=2x'+3$, cioè $y=2x+3$.
+    \item $y=-2x-1$
+    \item $y=2x-4$
+    \item $y=2x+3$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Per trovare l'equazione dell'immagine di una curva si scrivono le equazioni della trasformazione, si ricavano le \emph{vecchie} coordinate $x,y$ in funzione delle nuove $x',y'$ e si sostituiscono nell'equazione della curva; alla fine si tolgono gli apici.
+\begin{enumerate}
+    \item Simmetria rispetto all'asse $x$: $x'=x$, $y'=-y$. Sostituisco $y=-y'$:
+    \[ -y'=2x'+1 \;\Rightarrow\; y'=-2x'-1 \]
+    \item Il vettore di traslazione porta $A$ in $A'$: $\vec v=(4-1,\ -2+3)=(3,1)$, quindi $x'=x+3$, $y'=y+1$.
+    \[\begin{aligned}
+    y'-1 &= 2(x'-3)+1 && \textcolor{gray}{\text{sostituisco $x=x'-3$, $y=y'-1$}}\\
+    y' &= 2x'-4
+    \end{aligned}\]
+    \item Omotetia di centro $O$ e rapporto $3$: $x'=3x$, $y'=3y$.
+    \[\begin{aligned}
+    \dfrac{y'}{3} &= 2\cdot\dfrac{x'}{3}+1\\
+    y' &= 2x'+3 && \textcolor{gray}{\text{moltiplico per $3$}}
+    \end{aligned}\]
+    La pendenza non cambia (l'omotetia conserva le direzioni).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -114,11 +189,30 @@ Data la parabola $\gamma:\; y = x^2 + 2$, determina l'equazione della curva corr
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-\item Simmetria rispetto a $y=x$: si scambiano $x$ e $y$, quindi $x=y^2+2$ (parabola con asse orizzontale, vertice $(2,0)$, rivolta verso destra).
-\item Traslazione di vettore $(3,1)$: $x=x'-3,\ y=y'-1$, da cui $y'-1=(x'-3)^2+2\Rightarrow y'=(x'-3)^2+3$, cioè $y=x^2-6x+12$.
-\item Omotetia di centro $O$ e rapporto 2: $x=\tfrac{x'}{2},\ y=\tfrac{y'}{2}$, da cui $\tfrac{y'}{2}=\big(\tfrac{x'}{2}\big)^2+2\Rightarrow y'=\tfrac{x'^2}{2}+4$, cioè $y=\tfrac{x^2}{2}+4$.
+    \item $x=y^2+2$
+    \item $y=x^2-6x+12$
+    \item $y=\tfrac12x^2+4$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Per trovare l'equazione dell'immagine di una curva si scrivono le equazioni della trasformazione, si ricavano le \emph{vecchie} coordinate $x,y$ in funzione delle nuove $x',y'$ e si sostituiscono nell'equazione della curva; alla fine si tolgono gli apici.
+\begin{enumerate}
+    \item Simmetria rispetto alla bisettrice $y=x$: si scambiano le coordinate, $x'=y$, $y'=x$.
+    \[ x'=y'^2+2 \]
+    È una parabola con asse orizzontale, vertice $(2,0)$, aperta verso destra.
+    \item Traslazione di vettore $(3,1)$:
+    \[\begin{aligned}
+    y'-1 &= (x'-3)^2+2\\
+    y' &= x'^2-6x'+12
+    \end{aligned}\]
+    Il vertice passa da $(0,2)$ a $(3,3)$.
+    \item Omotetia di rapporto $2$: $x=\tfrac{x'}{2}$, $y=\tfrac{y'}{2}$.
+    \[\begin{aligned}
+    \dfrac{y'}{2} &= \dfrac{x'^2}{4}+2\\
+    y' &= \dfrac{x'^2}{2}+4
+    \end{aligned}\]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 % ========================================
@@ -132,15 +226,16 @@ funzioni il cui grafico non è etichettato.
 \centering
 \includegraphics[width=\linewidth]{images/trasformazioni_valore_assoluto.png}
 \begin{solution}
-Si parte da $y=|x|$ (V con vertice nell'origine e pendenze $\pm1$) e si riconoscono le trasformazioni elementari:
-\begin{itemize}
-\item $y=|x-a|$: traslazione orizzontale di $a$ (vertice in $(a,0)$);
-\item $y=|x|+b$: traslazione verticale di $b$ (vertice in $(0,b)$);
-\item $y=-|x|$: simmetria rispetto all'asse $x$ (V capovolta);
-\item $y=k|x|$: dilatazione verticale di fattore $k$ (rami più o meno ripidi).
-\end{itemize}
-Per ogni grafico non etichettato si individua la posizione del vertice $(a,b)$ e l'orientamento/pendenza dei rami, scrivendo quindi l'equazione nella forma $y=\pm k\,|x-a|+b$.
+a) $y=-|x-1|+3$; \quad b) $y=|x+1|+3$; \quad c) $y=-|x-3|-1$
 \end{solution}
+\begin{explanation}
+Ogni grafico blu ha rami di pendenza $\pm1$, come $y=|x|$: si ottiene quindi con traslazioni ed eventualmente una simmetria rispetto all'asse $x$ (che capovolge la V). La forma generale è $y=\pm|x-a|+b$, con vertice $(a,b)$.
+\begin{itemize}
+    \item \textbf{a)} V capovolta (segno $-$) con vertice $(1,3)$: $y=-|x-1|+3$. Verifica: passa per $(-1,1)$ e $(2,2)$, dove incontra $y=|x|$.
+    \item \textbf{b)} V dritta con vertice $(-1,3)$: traslazione di vettore $(-1,3)$, $y=|x+1|+3$. Verifica: per $x=0$ vale $4$.
+    \item \textbf{c)} V capovolta con vertice $(3,-1)$: $y=-|x-3|-1$. Verifica: per $x=0$ vale $-4$.
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -156,8 +251,37 @@ In figura è tracciato il grafico della funzione $y = f(x)$. Deduci e rappresent
 \vspace{60pt}
 \end{minipage}
 \begin{solution}
-$f(x-2)$ trasla il grafico di $f$ di 2 unità verso \emph{destra}; il $+1$ lo trasla di 1 unità verso l'\emph{alto}. Complessivamente ogni punto $(x_0,y_0)$ del grafico di $f$ va in $(x_0+2,\ y_0+1)$: si ridisegna la stessa curva spostata di vettore $(2,1)$.
+Il grafico di $y=f(x-2)+1$ è quello di $f$ traslato di vettore $(2,1)$: la spezzata che congiunge $(-2,-1)$, $(1,1)$, $(4,5)$, $(6,5)$.
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=9cm, height=6cm,
+    xmin=-5, xmax=7, ymin=-3, ymax=6,
+    axis lines=middle, xlabel={$x$}, ylabel={$y$}, grid=both,
+]
+
+\addplot[blue,thick,domain=-4:-1] {2/3*(x+1)};
+\addplot[blue,thick,domain=-1:2] {4/3*(x+1)};
+\addplot[blue,thick,domain=2:4] {4};
+\addplot[red,thick,domain=-2:1] {2/3*(x+2)-1};
+\addplot[red,thick,domain=1:4] {4/3*(x-1)+1};
+\addplot[red,thick,domain=4:6] {5};
+
+\node[blue] at (axis cs:-3.6,-0.5) {f};
+\node[red] at (axis cs:5,5.6) {f(x-2)+1};
+\end{axis}
+\end{tikzpicture}
+\end{center}
 \end{solution}
+\begin{explanation}
+\begin{itemize}
+    \item $f(x-2)$: il grafico si sposta di $2$ unità verso \textbf{destra} (il valore che $f$ assumeva in $x_0$ ora si trova in $x_0+2$);
+    \item $+1$: il grafico si sposta di $1$ unità verso l'\textbf{alto}.
+\end{itemize}
+Ogni punto $(x_0,y_0)$ va in $(x_0+2,\ y_0+1)$. Dal grafico i punti significativi di $f$ sono $(-4,-2)$, $(-1,0)$, $(2,4)$, $(4,4)$, che diventano
+\[ (-2,-1), \quad (1,1), \quad (4,5), \quad (6,5) \]
+e si congiungono con segmenti come nel grafico originale.
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -171,16 +295,39 @@ Definite le seguenti funzioni:
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-\item $f(x)=|x+2|$: V con vertice $(-2,0)$, rami di pendenza $\pm1$. $g(x)=2-\tfrac12|x|$: V capovolta con vertice $(0,2)$, rami di pendenza $\mp\tfrac12$.
-\item La disequazione $f(x)<g(x)$ è soddisfatta dove la V di $f$ sta \emph{sotto} la $\Lambda$ di $g$. Si trovano le ascisse di intersezione studiando i casi del valore assoluto:
-\begin{itemize}
-\item $x<-2$: $-x-2<2+\tfrac{x}{2}\Rightarrow x>-\tfrac83$;
-\item $-2\le x<0$: $x+2<2+\tfrac{x}{2}\Rightarrow x<0$ (sempre vero nell'intervallo);
-\item $x\ge0$: $x+2<2-\tfrac{x}{2}\Rightarrow x<0$ (mai).
-\end{itemize}
-Unendo: $-\dfrac83<x<0$. (Agli estremi $x=-\tfrac83$ e $x=0$ i due grafici si toccano: $f=g$.)
+    \item $f$: V con vertice $(-2,0)$; \ $g$: V capovolta con vertice $(0,2)$ e rami di pendenza $\pm\tfrac12$.
+    \item $-\dfrac83<x<0$
 \end{enumerate}
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=9cm, height=6cm,
+    xmin=-6, xmax=4, ymin=-2, ymax=4,
+    axis lines=middle, xlabel={$x$}, ylabel={$y$}, grid=both,
+]
+
+\addplot[blue,thick,domain=-6:4] {abs(x+2)};
+\addplot[red,thick,domain=-6:4] {2-0.5*abs(x)};
+
+\node[blue] at (axis cs:-5,3.4) {f};
+\node[red] at (axis cs:3,0.9) {g};
+\end{axis}
+\end{tikzpicture}
+\end{center}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item $f(x)=|x+2|$ è $y=|x|$ traslata di $2$ verso sinistra. \\
+    $g(x)=2-\tfrac12|x|$ è $y=|x|$ dilatata verticalmente di $\tfrac12$, ribaltata (segno $-$) e traslata di $2$ verso l'alto.
+    \item Cerco dove la V di $f$ sta sotto la V capovolta di $g$. Calcolo i punti di intersezione distinguendo i casi:
+    \[\begin{aligned}
+    x<-2: &\quad -x-2<2+\dfrac x2 \;\Rightarrow\; -\dfrac32x<4 \;\Rightarrow\; x>-\dfrac83\\
+    -2\leq x<0: &\quad x+2<2+\dfrac x2 \;\Rightarrow\; \dfrac x2<0 && \textcolor{gray}{\text{vero in tutto l'intervallo}}\\
+    x\geq0: &\quad x+2<2-\dfrac x2 \;\Rightarrow\; x<0 && \textcolor{gray}{\text{mai}}
+    \end{aligned}\]
+    Unendo: $-\tfrac83<x<0$. Agli estremi i grafici si incontrano (in $x=0$ entrambi valgono $2$).
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %---------------------------------------------------------------------------------%
@@ -194,14 +341,36 @@ Definite le seguenti funzioni:
 \end{enumerate}
 \begin{solution}
 \begin{enumerate}
-\item $f(x)=|x-2|-1$: V con vertice $(2,-1)$, pendenze $\pm1$. $g(x)=2|x|-2$: V con vertice $(0,-2)$, rami più ripidi (pendenze $\pm2$).
-\item $g(x)<f(x)\Leftrightarrow 2|x|-|x-2|<1$. Studiando i casi:
-\begin{itemize}
-\item $x<0$: $-2x-(2-x)=-x-2<1\Rightarrow x>-3$;
-\item $0\le x<2$: $2x-(2-x)=3x-2<1\Rightarrow x<1$;
-\item $x\ge2$: $2x-(x-2)=x+2<1\Rightarrow x<-1$ (mai).
-\end{itemize}
-Unendo: $-3<x<1$. (Agli estremi $x=-3$ e $x=1$ risulta $g=f$.)
+    \item $f$: V con vertice $(2,-1)$ e pendenze $\pm1$; \ $g$: V con vertice $(0,-2)$ e pendenze $\pm2$.
+    \item $-3<x<1$
 \end{enumerate}
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=9cm, height=6cm,
+    xmin=-5, xmax=5, ymin=-3, ymax=7,
+    axis lines=middle, xlabel={$x$}, ylabel={$y$}, grid=both,
+]
+
+\addplot[blue,thick,domain=-5:5] {abs(x-2)-1};
+\addplot[red,thick,domain=-4.5:4.5] {2*abs(x)-2};
+
+\node[blue] at (axis cs:-4.2,4.3) {f};
+\node[red] at (axis cs:3.6,4.8) {g};
+\end{axis}
+\end{tikzpicture}
+\end{center}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item $f(x)=|x-2|-1$: $y=|x|$ traslata di vettore $(2,-1)$. \ $g(x)=2|x|-2$: $y=|x|$ dilatata verticalmente di $2$ (rami più ripidi) e abbassata di $2$.
+    \item $g(x)<f(x) \iff 2|x|-2<|x-2|-1 \iff 2|x|-|x-2|<1$. Distinguo i casi secondo il segno di $x$ e di $x-2$:
+    \[\begin{aligned}
+    x<0: &\quad -2x-(2-x)<1 \;\Rightarrow\; -x<3 \;\Rightarrow\; x>-3\\
+    0\leq x<2: &\quad 2x-(2-x)<1 \;\Rightarrow\; 3x<3 \;\Rightarrow\; x<1\\
+    x\geq2: &\quad 2x-(x-2)<1 \;\Rightarrow\; x<-1 && \textcolor{gray}{\text{mai nell'intervallo}}
+    \end{aligned}\]
+    Unendo: $-3<x<1$. Graficamente è il tratto in cui la V più stretta di $g$ sta sotto quella di $f$; agli estremi $f=g$ (in $x=-3$ valgono $4$, in $x=1$ valgono $0$).
+\end{enumerate}
+\end{explanation}
 \end{question}

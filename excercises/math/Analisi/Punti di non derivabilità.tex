@@ -4,8 +4,31 @@ Studia la natura degli eventuali punti di non derivabilità della seguente funzi
     f(x) = \sqrt[3]{x^3-3x^2}
 \end{equation*}
 \begin{solution}
-$f'(x)=\dfrac{x-2}{x^{1/3}(x-3)^{2/3}}$. In $x=0$: $f'(0^{\pm})=\mp\infty$ (cuspide). In $x=3$: $f'(3^{\pm})=+\infty$ (tangente verticale).
+Cuspide in $x=0$; \ flesso a tangente verticale in $x=3$.
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ in cui $f$ è continua si calcolano la derivata sinistra $f'_-(x_0)$ e la derivata destra $f'_+(x_0)$:
+\begin{itemize}
+    \item finite ma diverse: \textbf{punto angoloso};
+    \item infinite di segno opposto: \textbf{cuspide};
+    \item infinite dello stesso segno: \textbf{flesso a tangente verticale}.
+\end{itemize}
+La radice cubica esiste per ogni $x$, quindi $f$ è continua su $\mathbb{R}$. Derivo come potenza di esponente $\tfrac13$:
+\[\begin{aligned}
+f'(x) &= \dfrac13(x^3-3x^2)^{-2/3}\cdot(3x^2-6x)\\
+&= \dfrac{x(x-2)}{\sqrt[3]{(x^3-3x^2)^2}}=\dfrac{x(x-2)}{\sqrt[3]{x^4(x-3)^2}} && \textcolor{gray}{\text{$x^3-3x^2=x^2(x-3)$}}\\
+&= \dfrac{x-2}{\sqrt[3]{x}\,\sqrt[3]{(x-3)^2}} && \textcolor{gray}{\text{semplifico $x$ con $\sqrt[3]{x^3}$}}
+\end{aligned}\]
+La derivata non esiste dove si annulla il denominatore: $x=0$ e $x=3$.
+\begin{itemize}
+    \item $x=0$: il numeratore tende a $-2$, $\sqrt[3]{(x-3)^2}\to\sqrt[3]9>0$, mentre $\sqrt[3]x\to0^+$ da destra e $0^-$ da sinistra:
+    \[ f'_+(0)=-\infty, \qquad f'_-(0)=+\infty \]
+    Infinite di segno opposto: cuspide.
+    \item $x=3$: il numeratore tende a $1$, $\sqrt[3]x\to\sqrt[3]3>0$ e $\sqrt[3]{(x-3)^2}\to0^+$ da entrambi i lati:
+    \[ f'_+(3)=f'_-(3)=+\infty \]
+    Infinite dello stesso segno: flesso a tangente verticale.
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %-------------------------------------------------------%
@@ -16,8 +39,27 @@ Studia la natura degli eventuali punti di non derivabilità della seguente funzi
     f(x) = \sqrt{1-\cos x}
 \end{equation*}
 \begin{solution}
-$f(x)=\sqrt{2}\,|\!\sin(x/2)|$. Nei punti $x=2k\pi$: derivata sinistra $-\dfrac{\sqrt{2}}{2}$, destra $+\dfrac{\sqrt{2}}{2}$ (punto angoloso).
+Punti angolosi in $x=2k\pi$ ($k\in\mathbb{Z}$), con derivate sinistra $-\tfrac{\sqrt2}{2}$ e destra $+\tfrac{\sqrt2}{2}$.
 \end{solution}
+\begin{explanation}
+In un punto $x_0$ in cui $f$ è continua si calcolano la derivata sinistra $f'_-(x_0)$ e la derivata destra $f'_+(x_0)$:
+\begin{itemize}
+    \item finite ma diverse: \textbf{punto angoloso};
+    \item infinite di segno opposto: \textbf{cuspide};
+    \item infinite dello stesso segno: \textbf{flesso a tangente verticale}.
+\end{itemize}
+Uso la formula di bisezione $1-\cos x=2\sin^2\dfrac x2$:
+\[\begin{aligned}
+f(x) &= \sqrt{2\sin^2\dfrac x2}=\sqrt2\,\left|\sin\dfrac x2\right| && \textcolor{gray}{\text{$\sqrt{a^2}=|a|$}}
+\end{aligned}\]
+Il valore assoluto può creare punti angolosi dove l'argomento si annulla: $\sin\tfrac x2=0$, cioè $x=2k\pi$. \\
+Vicino a $x=0$, a destra $\sin\tfrac x2>0$ e a sinistra $<0$:
+\[\begin{aligned}
+x>0: &\quad f(x)=\sqrt2\sin\dfrac x2 \;\Rightarrow\; f'(x)=\dfrac{\sqrt2}{2}\cos\dfrac x2 \to \dfrac{\sqrt2}{2}\\
+x<0: &\quad f(x)=-\sqrt2\sin\dfrac x2 \;\Rightarrow\; f'(x)=-\dfrac{\sqrt2}{2}\cos\dfrac x2 \to -\dfrac{\sqrt2}{2}
+\end{aligned}\]
+Derivate finite e diverse: punto angoloso. Per periodicità ($f$ ha periodo $2\pi$) lo stesso accade in ogni $x=2k\pi$.
+\end{explanation}
 \end{question}
 
 %-------------------------------------------------------%
@@ -35,8 +77,29 @@ f(x) = \begin{cases}
     \item Traccia il grafico della funzione in corrispondenza del valore di $k$ trovato e stabilisci se è derivabile in $\mathbb{R}$; in caso negativo, studia la natura dei punti di non derivabilità.
 \end{enumerate}
 \begin{solution}
-1) Continuità in $x=4$: $1=(k-4)^{1/3} \Rightarrow k=5$. 2) $f'(4^-)=1$, $f'(4^+)=-\tfrac{1}{3}$: punto angoloso in $x=4$.
+\begin{enumerate}
+    \item $k=5$
+    \item Non è derivabile in $\mathbb{R}$: punto angoloso in $x=4$ ($f'_-=1$, $f'_+=-\tfrac13$) e flesso a tangente verticale in $x=5$.
+\end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Entrambi i rami sono continui; resta da imporre la continuità nel raccordo $x=4$:
+    \[\begin{aligned}
+    f(4) &= 4-3=1 && \textcolor{gray}{\text{ramo sinistro}}\\
+    \lim_{x\to4^+}\sqrt[3]{k-x} &= \sqrt[3]{k-4} && \textcolor{gray}{\text{ramo destro}}\\
+    \sqrt[3]{k-4} &= 1 \;\Rightarrow\; k-4=1 \;\Rightarrow\; k=5 && \textcolor{gray}{\text{elevo al cubo}}
+    \end{aligned}\]
+    \item Con $k=5$ il grafico è la retta $y=x-3$ fino a $x=4$, poi la curva $y=\sqrt[3]{5-x}$, che scende passando per $(5,0)$. \\
+    Derivate nel raccordo:
+    \[\begin{aligned}
+    f'_-(4) &= 1 && \textcolor{gray}{\text{pendenza della retta}}\\
+    f'(x) &= -\dfrac{1}{3\sqrt[3]{(5-x)^2}} \;\Rightarrow\; f'_+(4)=-\dfrac13 && \textcolor{gray}{\text{ramo destro}}
+    \end{aligned}\]
+    Finite e diverse: punto angoloso in $x=4$. \\
+    Inoltre la derivata del ramo destro non esiste dove $5-x=0$: per $x\to5$ il denominatore tende a $0^+$ e $f'\to-\infty$ da entrambi i lati. Infinite dello stesso segno: flesso a tangente verticale in $x=5$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %-------------------------------------------------------%

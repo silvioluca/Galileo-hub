@@ -337,8 +337,17 @@ function latexToHtml(tex) {
   s = s.replace(/\\newline\b/g, '<br>');
   s = s.replace(/\\\\\s*\n/g, '<br>\n');
 
-  // 8. Ripristina le regioni matematiche protette (intatte, per KaTeX)
-  s = s.replace(/\x01M(\d+)\x01/g, (_, i) => mathStore[+i]);
+  // 7.5. Spaziature LaTeX in modalità testo (fuori dalle formule, già protette)
+  s = s.replace(/\\qquad\b/g, '&emsp;&emsp;').replace(/\\quad\b/g, '&emsp;');
+  s = s.replace(/(^|[^\\])\\[ ,;]/g, '$1 ');
+  s = s.replace(/\\checkmark\b/g, '✓');
+  s = s.replace(/\\l?dots\b/g, '…');
+
+  // 8. Ripristina le regioni matematiche protette (intatte, per KaTeX).
+  //    Escape HTML: altrimenti in $0<x<1$ il browser legge "<x" come un tag e
+  //    la formula sparisce. KaTeX legge il testo già decodificato (& < >).
+  const escMath = m => m.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  s = s.replace(/\x01M(\d+)\x01/g, (_, i) => escMath(mathStore[+i]));
 
   return s;
 }
@@ -628,7 +637,7 @@ function getFiltered() {
     if (!matchFeat(state.feat.mc, isMultipleChoice(ex))) return false;
     if (!matchFeat(state.feat.multi, hasMultiQuestions(ex))) return false;
     if (state.search) {
-      const hay = [ex.subtitle, ex.topic, ex.category, ex.subject, latexToPreview(ex.text)]
+      const hay = [ex.code, ex.subtitle, ex.topic, ex.category, ex.subject, latexToPreview(ex.text)]
         .join(' ').toLowerCase();
       if (!hay.includes(state.search)) return false;
     }
@@ -717,6 +726,7 @@ function render() {
         </div>
         <div class="diff-dots" title="Difficoltà ${ex.difficulty}/3">${dotsHTML(ex.difficulty)}</div>
       </div>
+      <div class="ex-card-code">${escHtml(ex.code)}</div>
       <div class="ex-card-title">${escHtml(ex.subtitle)}</div>
       <div class="ex-card-preview">${preview}</div>
       <div class="ex-card-footer">
@@ -763,6 +773,8 @@ const overlay       = document.getElementById('modal-overlay');
 const btnClose      = document.getElementById('modal-close');
 const btnSolution   = document.getElementById('btn-show-solution');
 const solutionBlock = document.getElementById('solution-block');
+const btnExplain       = document.getElementById('btn-explain');
+const explanationBlock = document.getElementById('explanation-block');
 
 // ── Dimensione del font negli esercizi ─────────────────────────────
 const FONT_MIN = 12, FONT_MAX = 24, FONT_DEFAULT = 14;
@@ -794,6 +806,7 @@ function openModal(id) {
   document.getElementById('modal-subject').textContent = ex.subject === 'fisica' ? 'Fisica' : 'Matematica';
   document.getElementById('modal-subject').className   = `modal-subject ${ex.subject}`;
   document.getElementById('modal-topic').textContent   = ex.topic;
+  document.getElementById('modal-code').textContent    = ex.code;
   document.getElementById('modal-dots').innerHTML      = dotsHTML(ex.difficulty);
   const titleEl = document.getElementById('modal-title');
   titleEl.textContent = ex.subtitle;
@@ -813,6 +826,14 @@ function openModal(id) {
   btnSolution.style.display = hasSolution ? '' : 'none';
   if (hasSolution) btnSolution.innerHTML = eyeIcon() + ' Mostra soluzione';
 
+  // Spiegazione passo per passo (non renderizzata finché non richiesta)
+  document.getElementById('explanation-text').innerHTML = latexToHtml(ex.explanation || '');
+  explanationBlock.classList.add('hidden');
+  btnExplain.classList.remove('revealed');
+  const hasExplanation = !!(ex.explanation && ex.explanation.trim());
+  btnExplain.style.display = hasExplanation ? '' : 'none';
+  if (hasExplanation) btnExplain.innerHTML = bulbIcon() + ' Spiega';
+
   overlay.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
 }
@@ -830,6 +851,18 @@ btnSolution.addEventListener('click', () => {
     btnSolution.innerHTML = eyeIcon() + ' Mostra soluzione';
   }
 });
+
+btnExplain.addEventListener('click', () => {
+  const hidden = explanationBlock.classList.contains('hidden');
+  explanationBlock.classList.toggle('hidden', !hidden);
+  btnExplain.classList.toggle('revealed', hidden);
+  if (hidden) renderMathIn(document.getElementById('explanation-text'));
+  btnExplain.innerHTML = bulbIcon() + (hidden ? ' Nascondi spiegazione' : ' Spiega');
+});
+
+function bulbIcon() {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg>`;
+}
 
 function eyeIcon() {
   return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`;
@@ -1203,7 +1236,7 @@ function renderScoreList(chosen) {
     const pv = state.scores.has(ex.id) ? state.scores.get(ex.id) : '';
     return `<div class="vf-score-row">
       <span class="vf-score-num">${i + 1}.</span>
-      <span class="vf-score-sub" title="${escHtml(ex.subtitle)}">${escHtml(ex.subtitle)}</span>
+      <span class="vf-score-sub" title="${escHtml(ex.code + ' — ' + ex.subtitle)}">${escHtml(ex.subtitle)}</span>
       <input class="vp-pts" type="number" min="0" step="0.5" data-id="${ex.id}" value="${pv}" placeholder="pt"/>
     </div>`;
   }).join('');

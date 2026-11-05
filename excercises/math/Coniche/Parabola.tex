@@ -4,70 +4,186 @@
 
 \begin{question}[ID=1.1, subtitle={Parabola $y=x^2$: vertice, asse, fuoco e direttrice}, difficulty=facile, tags={parabola, luogo}]
 Considera la parabola di equazione $y=x^2$. Determina vertice, asse, concavità, fuoco e direttrice e rappresentala nel piano cartesiano.
-\begin{solution}$V(0,0),\ x=0,\ F\!\left(0,\tfrac{1}{4}\right),\ y=-\tfrac{1}{4}$\end{solution}
+\begin{solution}
+$V(0,0)$; \ asse $x=0$; \ concavità verso l'alto; \ $F\left(0,\tfrac14\right)$; \ direttrice $y=-\tfrac14$.
+\end{solution}
+\begin{explanation}
+Per la parabola $y=ax^2+bx+c$ (asse verticale), con $\Delta=b^2-4ac$:
+\[ V\left(-\dfrac{b}{2a},\,-\dfrac{\Delta}{4a}\right), \quad F\left(-\dfrac{b}{2a},\,\dfrac{1-\Delta}{4a}\right), \quad \text{direttrice } y=-\dfrac{1+\Delta}{4a}, \quad \text{asse } x=-\dfrac{b}{2a}. \]
+Fuoco e direttrice distano entrambi $\tfrac{1}{4|a|}$ dal vertice, da parti opposte; la concavità è verso l'alto se $a>0$.
+$a=1$, $b=0$, $c=0$, $\Delta=0$:
+\[\begin{aligned}
+V &= (0,\,0)\\
+F &= \left(0,\ \dfrac{1-0}{4}\right)=\left(0,\dfrac14\right)\\
+d:\ y &= -\dfrac{1+0}{4}=-\dfrac14
+\end{aligned}\]
+$a=1>0$: concavità verso l'alto. Per disegnarla: $(\pm1,1)$, $(\pm2,4)$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.2, subtitle={Parabola $x=2y^2-3y+8$: elementi caratteristici}, difficulty=facile, tags={parabola}]
 Data la parabola $x=2y^2-3y+8$, determina vertice, asse, fuoco e direttrice e rappresentala nel piano cartesiano.
-\begin{solution}$V\!\left(\tfrac{31}{8},\tfrac{3}{4}\right),\ y=\tfrac{3}{4},\ F\!\left(\tfrac{33}{8},\tfrac{3}{4}\right),\ x=\tfrac{29}{8}$\end{solution}
+\begin{solution}
+$V\left(\tfrac{55}{8},\tfrac34\right)$; \ asse $y=\tfrac34$; \ $F\left(7,\tfrac34\right)$; \ direttrice $x=\tfrac{27}{4}$; \ concavità verso destra.
+\end{solution}
+\begin{explanation}
+È una parabola ad asse \textbf{orizzontale} ($x$ in funzione di $y$): valgono le stesse formule scambiando i ruoli di $x$ e $y$. Qui $a=2$, $b=-3$, $c=8$:
+\[\begin{aligned}
+\Delta &= 9-64=-55\\
+y_V &= -\dfrac{b}{2a}=\dfrac34 && \textcolor{gray}{\text{asse $y=\dfrac34$}}\\
+x_V &= -\dfrac{\Delta}{4a}=\dfrac{55}{8} && \textcolor{gray}{\text{oppure sostituendo $y=\dfrac34$}}\\
+x_F &= \dfrac{1-\Delta}{4a}=\dfrac{56}{8}=7\\
+d:\ x &= -\dfrac{1+\Delta}{4a}=\dfrac{54}{8}=\dfrac{27}{4}
+\end{aligned}\]
+$a>0$: si apre verso destra. Fuoco e direttrice distano $\tfrac18$ dal vertice.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.3, subtitle={Parabola $(x-2)^2=12(y+1)$: elementi caratteristici}, difficulty=media, tags={parabola}]
 Data la parabola $(x-2)^2=12(y+1)$, determina vertice, asse, fuoco, direttrice e concavità e rappresentala nel piano cartesiano.
-\begin{solution}$V(2,-1),\ x=2,\ F(2,2),\ y=-4$, concavità $\uparrow$\end{solution}
+\begin{solution}
+$V(2,-1)$; \ asse $x=2$; \ $F(2,2)$; \ direttrice $y=-4$; \ concavità verso l'alto.
+\end{solution}
+\begin{explanation}
+È nella forma $(x-x_V)^2=4p\,(y-y_V)$, con vertice $V(x_V,y_V)$ e distanza fuoco–vertice $p$.
+\[\begin{aligned}
+V &= (2,-1), \qquad 4p=12 \;\Rightarrow\; p=3\\
+F &= (2,\,-1+3)=(2,2)\\
+d:\ y &= -1-3=-4
+\end{aligned}\]
+$p>0$: concavità verso l'alto.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.4, subtitle={Luogo equidistante da $F(0,2)$ e dalla retta $y=-2$}, difficulty=media, tags={parabola, luogo}]
 Determina il luogo dei punti equidistanti da $F(0,2)$ e dalla retta $y=-2$, trovandone equazione, vertice, asse e fuoco.
-\begin{solution}$x^2=8y,\ V(0,0),\ x=0,\ F(0,2)$\end{solution}
+\begin{solution}
+$x^2=8y$ \ (cioè $y=\tfrac18x^2$); \ $V(0,0)$; \ asse $x=0$; \ $F(0,2)$.
+\end{solution}
+\begin{explanation}
+La parabola è il luogo dei punti $P(x,y)$ equidistanti dal fuoco $F$ e dalla direttrice $d$: si impone $|PF|=\text{dist}(P,d)$ e si elevano al quadrato entrambi i membri.
+\[\begin{aligned}
+\sqrt{x^2+(y-2)^2} &= |y+2| && \textcolor{gray}{\text{distanza da $F$ = distanza dalla retta}}\\
+x^2+y^2-4y+4 &= y^2+4y+4 && \textcolor{gray}{\text{elevo al quadrato}}\\
+x^2 &= 8y
+\end{aligned}\]
+Il vertice è a metà tra fuoco e direttrice: $V(0,0)$; asse $x=0$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.5, subtitle={Parabola $y=-x^2+4x-3$: forma canonica e fuoco}, difficulty=media, tags={parabola}]
 Data la parabola $y=-x^2+4x-3$, determinane vertice, asse, forma canonica, fuoco e direttrice.
-\begin{solution}$y=-(x-2)^2+1,\ V(2,1),\ x=2,\ F\!\left(2,\tfrac{3}{4}\right),\ y=\tfrac{5}{4}$\end{solution}
+\begin{solution}
+$y=-(x-2)^2+1$; \ $V(2,1)$; \ asse $x=2$; \ $F\left(2,\tfrac34\right)$; \ direttrice $y=\tfrac54$.
+\end{solution}
+\begin{explanation}
+Per la parabola $y=ax^2+bx+c$ (asse verticale), con $\Delta=b^2-4ac$:
+\[ V\left(-\dfrac{b}{2a},\,-\dfrac{\Delta}{4a}\right), \quad F\left(-\dfrac{b}{2a},\,\dfrac{1-\Delta}{4a}\right), \quad \text{direttrice } y=-\dfrac{1+\Delta}{4a}, \quad \text{asse } x=-\dfrac{b}{2a}. \]
+Fuoco e direttrice distano entrambi $\tfrac{1}{4|a|}$ dal vertice, da parti opposte; la concavità è verso l'alto se $a>0$.
+Completo il quadrato per ottenere la forma canonica:
+\[\begin{aligned}
+y &= -(x^2-4x)-3\\
+&= -(x^2-4x+4)+4-3 && \textcolor{gray}{\text{aggiungo e tolgo $4$}}\\
+&= -(x-2)^2+1
+\end{aligned}\]
+Vertice $(2,1)$. Con $a=-1$, fuoco e direttrice distano $\tfrac{1}{4}$ dal vertice; la concavità è verso il basso, quindi il fuoco sta \emph{sotto} il vertice:
+\[ F=\left(2,\ 1-\dfrac14\right)=\left(2,\dfrac34\right), \qquad d:\ y=1+\dfrac14=\dfrac54 \]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.6, subtitle={Parabola con vertice $V(1,0)$ e fuoco $F(3,0)$}, difficulty=media, tags={parabola}]
 Determina l'equazione e la direttrice della parabola avente vertice $V(1,0)$ e fuoco $F(3,0)$.
-\begin{solution}$y^2=8(x-1),\ x=-1$\end{solution}
+\begin{solution}
+$y^2=8(x-1)$; \ direttrice $x=-1$.
+\end{solution}
+\begin{explanation}
+Vertice e fuoco stanno sulla retta $y=0$: l'asse è orizzontale. La distanza vertice–fuoco è $p=3-1=2$, e il fuoco è a destra: la parabola si apre verso destra.
+\[\begin{aligned}
+(y-0)^2 &= 4p\,(x-1) && \textcolor{gray}{\text{forma con vertice $(1,0)$}}\\
+y^2 &= 8(x-1)\\
+d:\ x &= 1-p=-1 && \textcolor{gray}{\text{dalla parte opposta al fuoco}}
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.7, subtitle={Parabola con direttrice $y=-3$ e fuoco $F(0,3)$}, difficulty=media, tags={parabola}]
 Trova vertice, equazione e concavità della parabola avente direttrice $y=-3$ e fuoco $F(0,3)$.
-\begin{solution}$V(0,0),\ x^2=12y$, concavità $\uparrow$\end{solution}
+\begin{solution}
+$V(0,0)$; \ $x^2=12y$ \ (cioè $y=\tfrac{1}{12}x^2$); \ concavità verso l'alto.
+\end{solution}
+\begin{explanation}
+Il vertice è il punto medio tra il fuoco e il piede della perpendicolare sulla direttrice: tra $(0,3)$ e $(0,-3)$, cioè $V(0,0)$; $p=3$.
+\[\begin{aligned}
+\sqrt{x^2+(y-3)^2} &= |y+3|\\
+x^2-6y &= 6y && \textcolor{gray}{\text{elevo al quadrato e semplifico}}\\
+x^2 &= 12y
+\end{aligned}\]
+Il fuoco è sopra la direttrice: concavità verso l'alto.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.8, subtitle={Valore di $k$ affinché la parabola $y=x^2+k$ abbia direttrice $y=1$}, difficulty=difficile, tags={parabola, parametrico}]
 Determina per quali valori di $k$ la parabola $y=x^2+k$ ha direttrice $y=1$ e trova il fuoco.
-\begin{solution}$k=\tfrac{5}{4},\ F\!\left(0,\tfrac{3}{2}\right)$\end{solution}
+\begin{solution}
+$k=\tfrac54$; \ $F\left(0,\tfrac32\right)$.
+\end{solution}
+\begin{explanation}
+Per la parabola $y=ax^2+bx+c$ (asse verticale), con $\Delta=b^2-4ac$:
+\[ V\left(-\dfrac{b}{2a},\,-\dfrac{\Delta}{4a}\right), \quad F\left(-\dfrac{b}{2a},\,\dfrac{1-\Delta}{4a}\right), \quad \text{direttrice } y=-\dfrac{1+\Delta}{4a}, \quad \text{asse } x=-\dfrac{b}{2a}. \]
+Fuoco e direttrice distano entrambi $\tfrac{1}{4|a|}$ dal vertice, da parti opposte; la concavità è verso l'alto se $a>0$.
+$y=x^2+k$ ha $V(0,k)$ e $a=1$: fuoco e direttrice distano $\tfrac14$ dal vertice.
+\[\begin{aligned}
+k-\dfrac14 &= 1 && \textcolor{gray}{\text{direttrice sotto il vertice}}\\
+k &= \dfrac54\\
+F &= \left(0,\ \dfrac54+\dfrac14\right)=\left(0,\dfrac32\right)
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.9, subtitle={Luogo equidistante da $F(2,0)$ e dalla retta $x=-2$}, difficulty=difficile, tags={parabola, luogo}]
 Determina il luogo dei punti equidistanti da $F(2,0)$ e dalla retta $x=-2$, trovandone equazione, vertice, asse e direttrice.
-\begin{solution}$y^2=8x,\ V(0,0),\ y=0,\ x=-2$\end{solution}
+\begin{solution}
+$y^2=8x$; \ $V(0,0)$; \ asse $y=0$; \ direttrice $x=-2$.
+\end{solution}
+\begin{explanation}
+La parabola è il luogo dei punti $P(x,y)$ equidistanti dal fuoco $F$ e dalla direttrice $d$: si impone $|PF|=\text{dist}(P,d)$ e si elevano al quadrato entrambi i membri.
+\[\begin{aligned}
+\sqrt{(x-2)^2+y^2} &= |x+2|\\
+x^2-4x+4+y^2 &= x^2+4x+4\\
+y^2 &= 8x
+\end{aligned}\]
+Asse orizzontale ($y=0$), vertice nell'origine a metà tra $F$ e la direttrice.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=1.10, subtitle={Parabola verticale per l'origine passante per $P(2,1)$}, difficulty=difficile, tags={parabola}]
 Determina equazione, fuoco e direttrice della parabola con asse verticale, vertice nell'origine e passante per $P(2,1)$.
-\begin{solution}$y=\tfrac{1}{4}x^2,\ F(0,1),\ y=-1$\end{solution}
+\begin{solution}
+$y=\tfrac14x^2$; \ $F(0,1)$; \ direttrice $y=-1$.
+\end{solution}
+\begin{explanation}
+Asse verticale e vertice nell'origine: $y=ax^2$. Impongo il passaggio per $P(2,1)$:
+\[ 1=a\cdot4 \;\Rightarrow\; a=\dfrac14 \]
+Distanza fuoco–vertice $\dfrac{1}{4a}=1$: \ $F(0,1)$, direttrice $y=-1$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -76,70 +192,164 @@ Determina equazione, fuoco e direttrice della parabola con asse verticale, verti
 
 \begin{question}[ID=2.1, subtitle={Posizione di $y=x^2-4$ e $y=-2x+4$ con corda}, difficulty=facile, tags={parabola, retta, corda}]
 Data la parabola $y=x^2-4$ e la retta $y=-2x+4$, determina la posizione reciproca, i punti di intersezione e la lunghezza della corda individuata.
-\begin{solution}Secante; $P(2,0)$ e $P'(-4,12)$; $L=6\sqrt{5}$\end{solution}
+\begin{solution}
+Secante; \ punti $(2,0)$ e $(-4,12)$; \ corda $6\sqrt5$.
+\end{solution}
+\begin{explanation}
+Per la posizione retta–parabola si mette a sistema e si ottiene un'equazione di secondo grado: $\Delta>0$ secante (due punti), $\Delta=0$ tangente, $\Delta<0$ esterna.
+\[\begin{aligned}
+x^2-4 &= -2x+4\\
+x^2+2x-8 &= 0\\
+(x+4)(x-2) &= 0 \;\Rightarrow\; x=2,\ x=-4
+\end{aligned}\]
+Ordinate dalla retta: $y(2)=0$, $y(-4)=12$. Lunghezza della corda:
+\[ \sqrt{(2+4)^2+(0-12)^2}=\sqrt{36+144}=\sqrt{180}=6\sqrt5 \]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.2, subtitle={Posizione di $y=x^2-2x+1$ e $y=-x+1$ con corda}, difficulty=facile, tags={parabola, retta, corda}]
 Data la parabola $y=x^2-2x+1$ e la retta $y=-x+1$, determina la posizione reciproca e la corda intercettata.
-\begin{solution}Secante; $L=\sqrt{2}$\end{solution}
+\begin{solution}
+Secante; \ punti $(0,1)$ e $(1,0)$; \ corda $\sqrt2$.
+\end{solution}
+\begin{explanation}
+Per la posizione retta–parabola si mette a sistema e si ottiene un'equazione di secondo grado: $\Delta>0$ secante (due punti), $\Delta=0$ tangente, $\Delta<0$ esterna.
+\[\begin{aligned}
+x^2-2x+1 &= -x+1\\
+x^2-x &= 0 \;\Rightarrow\; x(x-1)=0
+\end{aligned}\]
+Punti $(0,1)$ e $(1,0)$; corda $\sqrt{1^2+1^2}=\sqrt2$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.3, subtitle={Tangenza tra $y=x^2+6x+9$ e l'asse $x$}, difficulty=media, tags={parabola, tangenza}]
 Studia la posizione tra $y=x^2+6x+9$ e $y=0$ determinando i punti comuni.
-\begin{solution}Tangente; $P(-3,0)$\end{solution}
+\begin{solution}
+Tangente nel punto $(-3,0)$.
+\end{solution}
+\begin{explanation}
+Per la posizione retta–parabola si mette a sistema e si ottiene un'equazione di secondo grado: $\Delta>0$ secante (due punti), $\Delta=0$ tangente, $\Delta<0$ esterna.
+$x^2+6x+9=0 \;\Rightarrow\; (x+3)^2=0$: radice doppia ($\Delta=0$). La parabola tocca l'asse $x$ nel suo vertice $(-3,0)$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.4, subtitle={Posizione di $y=x^2$ e $y=mx+1$ al variare di $m$}, difficulty=media, tags={parabola, retta, parametrico}]
 Studia la posizione tra $y=x^2$ e $y=mx+1$, determinando eventuali condizioni di tangenza.
-\begin{solution}Sempre secante per ogni $m\in\mathbb{R}$\end{solution}
+\begin{solution}
+Secante per ogni $m$; \ mai tangente.
+\end{solution}
+\begin{explanation}
+Per la posizione retta–parabola si mette a sistema e si ottiene un'equazione di secondo grado: $\Delta>0$ secante (due punti), $\Delta=0$ tangente, $\Delta<0$ esterna.
+\[\begin{aligned}
+x^2 &= mx+1\\
+x^2-mx-1 &= 0, \qquad \Delta=m^2+4>0
+\end{aligned}\]
+Sempre due intersezioni. Il motivo: tutte le rette passano per $(0,1)$, che sta \emph{dentro} la parabola (sopra il vertice).
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.5, subtitle={Rette orizzontali con corda di lunghezza 6 su $y=x^2$}, difficulty=media, tags={parabola, corda}]
 Trova le rette orizzontali che staccano dalla parabola $y=x^2$ una corda lunga $6$.
-\begin{solution}$y=9$\end{solution}
+\begin{solution}
+$y=9$
+\end{solution}
+\begin{explanation}
+La retta $y=c$ (con $c>0$) incontra $y=x^2$ in $x=\pm\sqrt c$: la corda è orizzontale e lunga $2\sqrt c$.
+\[ 2\sqrt c=6 \;\Rightarrow\; \sqrt c=3 \;\Rightarrow\; c=9 \]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.6, subtitle={Valori di $k$ per intersezione di $y=2x+k$ con $y=x^2-1$}, difficulty=media, tags={parabola, parametrico}]
 Determina per quali valori di $k$ la retta $y=2x+k$ ha almeno un punto in comune con la parabola $y=x^2-1$.
-\begin{solution}$k\ge -2$\end{solution}
+\begin{solution}
+$k\geq-2$
+\end{solution}
+\begin{explanation}
+Per la posizione retta–parabola si mette a sistema e si ottiene un'equazione di secondo grado: $\Delta>0$ secante (due punti), $\Delta=0$ tangente, $\Delta<0$ esterna.
+\[\begin{aligned}
+x^2-1 &= 2x+k\\
+x^2-2x-1-k &= 0\\
+\dfrac\Delta4 &= 1+1+k\geq0 && \textcolor{gray}{\text{almeno un punto comune}}\\
+k &\geq -2
+\end{aligned}\]
+(Per $k=-2$ la retta è tangente.)
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.7, subtitle={Valori di $m$ per cui $y=mx$ è tangente a $y=x^2+1$}, difficulty=media, tags={parabola, parametrico, tangenza}]
 Determina per quali $m$ la retta $y=mx$ è tangente alla parabola $y=x^2+1$.
-\begin{solution}$m=\pm 2$\end{solution}
+\begin{solution}
+$m=\pm2$
+\end{solution}
+\begin{explanation}
+Una retta $y=mx+q$ è tangente alla parabola quando l'equazione risolvente ha $\Delta=0$. In alternativa, la pendenza della tangente nel punto di ascissa $x_0$ è $y'(x_0)=2ax_0+b$.
+\[\begin{aligned}
+x^2+1 &= mx\\
+x^2-mx+1 &= 0\\
+\Delta &= m^2-4=0 \;\Rightarrow\; m=\pm2
+\end{aligned}\]
+Punti di tangenza $(1,2)$ e $(-1,2)$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.8, subtitle={Retta con corda di lunghezza 5 su $y=x^2-4x$}, difficulty=difficile, tags={parabola, corda}]
 Determina l'equazione della retta parallela all'asse $x$ che stacca sulla parabola $y=x^2-4x$ una corda lunga $5$.
-\begin{solution}$y=\dfrac{9}{4}$\end{solution}
+\begin{solution}
+$y=\tfrac94$
+\end{solution}
+\begin{explanation}
+La retta $y=c$ incontra la parabola dove $x^2-4x-c=0$. La corda è orizzontale, lunga quanto la distanza tra le due radici:
+\[\begin{aligned}
+|x_1-x_2| &= \sqrt{\Delta}=\sqrt{16+4c} && \textcolor{gray}{\text{con $a=1$}}\\
+\sqrt{16+4c} &= 5\\
+16+4c &= 25 \;\Rightarrow\; c=\dfrac94
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.9, subtitle={Posizione di $y=x^2$ e $y=mx+2$ al variare di $m$}, difficulty=difficile, tags={parabola, parametrico}]
 Studia la posizione tra $y=x^2$ e $y=mx+2$.
-\begin{solution}Sempre secante per ogni $m\in\mathbb{R}$\end{solution}
+\begin{solution}
+Secante per ogni $m$.
+\end{solution}
+\begin{explanation}
+Per la posizione retta–parabola si mette a sistema e si ottiene un'equazione di secondo grado: $\Delta>0$ secante (due punti), $\Delta=0$ tangente, $\Delta<0$ esterna.
+$x^2-mx-2=0$ ha $\Delta=m^2+8>0$ sempre: le rette passano tutte per $(0,2)$, interno alla parabola.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=2.10, subtitle={Valore di $k$ affinché $y=x+k$ stacchi corda lunga 3 su $y=x^2$}, difficulty=difficile, tags={parabola, corda, parametrico}]
 Trova $k$ affinché $y=x+k$ stacchi una corda lunga $3$ sulla parabola $y=x^2$.
-\begin{solution}$k=\dfrac{7}{8}$\end{solution}
+\begin{solution}
+$k=\tfrac78$
+\end{solution}
+\begin{explanation}
+\[ x^2=x+k \;\Rightarrow\; x^2-x-k=0, \qquad |x_1-x_2|=\sqrt{\Delta}=\sqrt{1+4k} \]
+La retta ha pendenza $1$: se le ascisse differiscono di $h$, anche le ordinate differiscono di $h$, e la corda è lunga $h\sqrt2$.
+\[\begin{aligned}
+\sqrt2\cdot\sqrt{1+4k} &= 3\\
+2(1+4k) &= 9 && \textcolor{gray}{\text{elevo al quadrato}}\\
+k &= \dfrac78
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -148,35 +358,98 @@ Trova $k$ affinché $y=x+k$ stacchi una corda lunga $3$ sulla parabola $y=x^2$.
 
 \begin{question}[ID=3.1, subtitle={Tangenti a $y=-x^2+3x$ per il punto $P(0,1)$}, difficulty=facile, tags={parabola, tangente}]
 Determina le rette tangenti alla parabola $y=-x^2+3x$ passanti per il punto $P(0,1)$.
-\begin{solution}$y=1$ e $y=-3x+1$\end{solution}
+\begin{solution}
+$y=5x+1$ \ e \ $y=x+1$
+\end{solution}
+\begin{explanation}
+Una retta $y=mx+q$ è tangente alla parabola quando l'equazione risolvente ha $\Delta=0$. In alternativa, la pendenza della tangente nel punto di ascissa $x_0$ è $y'(x_0)=2ax_0+b$.
+Rette per $P(0,1)$: $y=mx+1$. Le metto a sistema con la parabola:
+\[\begin{aligned}
+-x^2+3x &= mx+1\\
+x^2+(m-3)x+1 &= 0\\
+\Delta &= (m-3)^2-4=0 && \textcolor{gray}{\text{condizione di tangenza}}\\
+m-3 &= \pm2 \;\Rightarrow\; m=5,\ m=1
+\end{aligned}\]
+Punti di contatto: per $m=5$, $x=-1$, cioè $(-1,-4)$; per $m=1$, $x=1$, cioè $(1,2)$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.2, subtitle={Tangenti a $y=-3x^2+2$ negli assi e area del triangolo}, difficulty=facile, tags={parabola, tangente}]
 Determina le rette tangenti alla parabola di equazione $y = - 3x^2 + 2$ nei suoi punti d'intersezione con gli assi cartesiani e l'area del triangolo individuato da tali rette.
-\begin{solution}Rette $y=-3x+2$; area $=2$\end{solution}
+\begin{solution}
+Tangenti: $y=2$ (in $(0,2)$), \ $y=-2\sqrt6\,x+4$ e $y=2\sqrt6\,x+4$ (in $\left(\pm\sqrt{\tfrac23},0\right)$); \ area del triangolo $\dfrac{\sqrt6}{3}\approx0{,}82$.
+\end{solution}
+\begin{explanation}
+Una retta $y=mx+q$ è tangente alla parabola quando l'equazione risolvente ha $\Delta=0$. In alternativa, la pendenza della tangente nel punto di ascissa $x_0$ è $y'(x_0)=2ax_0+b$.
+\textbf{Intersezioni con gli assi:} con l'asse $y$ in $(0,2)$; con l'asse $x$ per $3x^2=2$, cioè $x=\pm\sqrt{\tfrac23}$. \\
+\textbf{Tangenti} (con $y'=-6x$):
+\[\begin{aligned}
+x_0=0: &\quad m=0 \;\Rightarrow\; y=2\\
+x_0=\sqrt{\dfrac23}: &\quad m=-6\sqrt{\dfrac23}=-2\sqrt6 \;\Rightarrow\; y=-2\sqrt6\left(x-\sqrt{\dfrac23}\right)=-2\sqrt6\,x+4\\
+x_0=-\sqrt{\dfrac23}: &\quad m=2\sqrt6 \;\Rightarrow\; y=2\sqrt6\,x+4 && \textcolor{gray}{\text{per simmetria}}
+\end{aligned}\]
+(Infatti $2\sqrt6\cdot\sqrt{\tfrac23}=2\sqrt4=4$.) \\
+\textbf{Triangolo.} Le due tangenti oblique si incontrano in $(0,4)$; ciascuna incontra $y=2$ dove $2\sqrt6\,|x|=2$, cioè $x=\pm\tfrac{1}{\sqrt6}$.
+\[ A=\dfrac12\cdot\dfrac{2}{\sqrt6}\cdot(4-2)=\dfrac{2}{\sqrt6}=\dfrac{\sqrt6}{3} \]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.3, subtitle={Tangente parallela a $y=2x$ alla parabola $y=x^2-3x+5$}, difficulty=media, tags={parabola, tangente}]
 Scrivi l'equazione della retta tangente alla parabola di equazione $y = x^2 - 3x + 5$ e parallela alla retta $y = 2x$. Determina poi le coordinate del punto di contatto tra la retta e la parabola.
-\begin{solution}$y=2x+3$; punto di tangenza $P(2,3)$\end{solution}
+\begin{solution}
+$y=2x-\tfrac54$; \ punto di contatto $\left(\tfrac52,\tfrac{15}{4}\right)$.
+\end{solution}
+\begin{explanation}
+Una retta $y=mx+q$ è tangente alla parabola quando l'equazione risolvente ha $\Delta=0$. In alternativa, la pendenza della tangente nel punto di ascissa $x_0$ è $y'(x_0)=2ax_0+b$.
+Una retta parallela a $y=2x$ ha pendenza $2$. Cerco il punto dove la derivata vale $2$:
+\[\begin{aligned}
+y' &= 2x-3=2 \;\Rightarrow\; x_0=\dfrac52\\
+y_0 &= \dfrac{25}{4}-\dfrac{15}{2}+5=\dfrac{15}{4}\\
+y &= 2\left(x-\dfrac52\right)+\dfrac{15}{4}=2x-\dfrac54
+\end{aligned}\]
+Verifica con $\Delta$: $x^2-3x+5=2x-\tfrac54 \Rightarrow x^2-5x+\tfrac{25}{4}=\left(x-\tfrac52\right)^2=0$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.4, subtitle={Tangente perpendicolare a $y=-2x$ alla parabola $y=-\frac12x^2+x$}, difficulty=media, tags={parabola, tangente}]
 Determina la retta tangente alla parabola $y = -\dfrac{1}{2}x^2 + x$ perpendicolare a $y = -2x$.
-\begin{solution}$y=\dfrac{1}{2}x+\dfrac{1}{2}$; punto di tangenza $P\!\left(1,\dfrac{1}{2}\right)$\end{solution}
+\begin{solution}
+$y=\tfrac12x+\tfrac18$; \ punto di contatto $\left(\tfrac12,\tfrac38\right)$.
+\end{solution}
+\begin{explanation}
+Una retta $y=mx+q$ è tangente alla parabola quando l'equazione risolvente ha $\Delta=0$. In alternativa, la pendenza della tangente nel punto di ascissa $x_0$ è $y'(x_0)=2ax_0+b$.
+Perpendicolare a $y=-2x$: pendenza $m=\tfrac12$ (le pendenze di rette perpendicolari hanno prodotto $-1$).
+\[\begin{aligned}
+y' &= -x+1=\dfrac12 \;\Rightarrow\; x_0=\dfrac12\\
+y_0 &= -\dfrac12\cdot\dfrac14+\dfrac12=\dfrac38\\
+y &= \dfrac12\left(x-\dfrac12\right)+\dfrac38=\dfrac12x+\dfrac18
+\end{aligned}\]
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=3.5, subtitle={Tangente perpendicolare a $y=-2x$ alla parabola (variante)}, difficulty=difficile, tags={parabola, tangente}]
 Determina la retta tangente alla parabola $y = -\dfrac{1}{2}x^2 + x$ perpendicolare a $y = -2x$.
-\begin{solution}$y=\dfrac{1}{2}x+\dfrac{1}{2}$\end{solution}
+\begin{solution}
+$y=\tfrac12x+\tfrac18$; \ punto di contatto $\left(\tfrac12,\tfrac38\right)$.
+\end{solution}
+\begin{explanation}
+Una retta $y=mx+q$ è tangente alla parabola quando l'equazione risolvente ha $\Delta=0$. In alternativa, la pendenza della tangente nel punto di ascissa $x_0$ è $y'(x_0)=2ax_0+b$.
+Svolgo con il metodo del discriminante. Rette perpendicolari a $y=-2x$: $y=\tfrac12x+q$.
+\[\begin{aligned}
+-\dfrac12x^2+x &= \dfrac12x+q\\
+x^2-x+2q &= 0 && \textcolor{gray}{\text{moltiplico per $-2$ e riordino}}\\
+\Delta &= 1-8q=0 \;\Rightarrow\; q=\dfrac18
+\end{aligned}\]
+Radice doppia $x=\tfrac12$, quindi contatto in $\left(\tfrac12,\tfrac38\right)$.
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -185,21 +458,67 @@ Determina la retta tangente alla parabola $y = -\dfrac{1}{2}x^2 + x$ perpendicol
 
 \begin{question}[ID=5.1, subtitle={Fascio $y=x^2-2kx+k-1$: punti base e proprietà}, difficulty=media, tags={parabola, fasci}]
 Considera il fascio di parabole di equazione $y=x^2-2kx+k-1$ e determina i punti base e la caratteristica del fascio, la parabola passante per $P(1,1)$, quella avente asse di equazione $x=1$ e le eventuali parabole tangenti alla retta $y=0$.
-\begin{solution}Punti base $(0,-1)$ e $(1,0)$; asse $x=k$; $k=-1$; mai tangente\end{solution}
+\begin{solution}
+Un solo punto base proprio $B\left(\tfrac12,-\tfrac34\right)$; \ asse $x=k$; \ per $P(1,1)$: $k=-1$ ($y=x^2+2x-2$); \ asse $x=1$: $k=1$ ($y=x^2-2x$); \ nessuna parabola tangente a $y=0$.
+\end{solution}
+\begin{explanation}
+In un fascio $y=f(x)+k\,g(x)$ i \textbf{punti base} sono quelli che soddisfano l'equazione per ogni $k$: si annulla il coefficiente di $k$ e si sostituisce nel resto. Se $g$ è di primo grado c'è un solo punto base proprio.
+Raccolgo $k$: \ $y=(x^2-1)+k(1-2x)$.
+\begin{itemize}
+    \item \textbf{Punti base}: $1-2x=0 \Rightarrow x=\tfrac12$, \ $y=\tfrac14-1=-\tfrac34$.
+    \item \textbf{Asse}: $x_V=-\dfrac{b}{2a}=k$.
+    \item \textbf{Per $P(1,1)$}: $1=1-2k+k-1 \Rightarrow k=-1$.
+    \item \textbf{Asse $x=1$}: $k=1$.
+    \item \textbf{Tangenza a $y=0$}: $x^2-2kx+k-1=0$ con $\tfrac\Delta4=k^2-k+1$, che ha discriminante $1-4<0$: è sempre positivo, quindi due intersezioni per ogni $k$.
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=5.2, subtitle={Fascio $y=x^2+kx-2k$: punti base e proprietà}, difficulty=media, tags={parabola, fasci}]
 Considera il fascio $y=x^2+kx-2k$ e determina i punti base, la parabola passante per $P(2,0)$, quella con vertice sull'asse $y$ e le eventuali parabole tangenti alla retta $y=-1$.
-\begin{solution}Punti base $(0,0)$ e $(2,0)$; passante per $P(2,0)$: impossibile; $k=0$; $k^2+8k-4=0$\end{solution}
+\begin{solution}
+Un solo punto base proprio $B(2,4)$; \ per $P(2,0)$: impossibile; \ vertice sull'asse $y$: $k=0$ ($y=x^2$); \ tangenti a $y=-1$: $k=-4\pm2\sqrt5$.
+\end{solution}
+\begin{explanation}
+In un fascio $y=f(x)+k\,g(x)$ i \textbf{punti base} sono quelli che soddisfano l'equazione per ogni $k$: si annulla il coefficiente di $k$ e si sostituisce nel resto. Se $g$ è di primo grado c'è un solo punto base proprio.
+$y=x^2+k(x-2)$.
+\begin{itemize}
+    \item \textbf{Punti base}: $x-2=0 \Rightarrow x=2$, $y=4$.
+    \item \textbf{Per $P(2,0)$}: per $x=2$ ogni parabola vale $4$, mai $0$: nessuna.
+    \item \textbf{Vertice sull'asse $y$}: $x_V=-\tfrac k2=0 \Rightarrow k=0$.
+    \item \textbf{Tangenza a $y=-1$}:
+    \[\begin{aligned}
+    x^2+kx-2k+1 &= 0\\
+    \Delta=k^2-4(1-2k) &= k^2+8k-4=0\\
+    k &= -4\pm\sqrt{16+4}=-4\pm2\sqrt5
+    \end{aligned}\]
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=5.3, subtitle={Fascio $y=x^2+(k-1)x+k$: punti base e proprietà}, difficulty=media, tags={parabola, fasci}]
 Considera il fascio $y=x^2+(k-1)x+k$ e determina i punti base, la parabola passante per $P(0,2)$, quella con asse parallelo all'asse $y$ e le parabole tangenti all'asse $x$.
-\begin{solution}Punti base $(0,0)$ e $(-1,1)$; $k=2$; $k^2-6k+1=0$\end{solution}
+\begin{solution}
+Un solo punto base proprio $B(-1,2)$; \ per $P(0,2)$: $k=2$; \ asse coincidente con l'asse $y$: $k=1$ ($y=x^2+1$); \ tangenti all'asse $x$: $k=3\pm2\sqrt2$.
+\end{solution}
+\begin{explanation}
+In un fascio $y=f(x)+k\,g(x)$ i \textbf{punti base} sono quelli che soddisfano l'equazione per ogni $k$: si annulla il coefficiente di $k$ e si sostituisce nel resto. Se $g$ è di primo grado c'è un solo punto base proprio.
+$y=(x^2-x)+k(x+1)$.
+\begin{itemize}
+    \item \textbf{Punti base}: $x=-1 \Rightarrow y=1+1=2$.
+    \item \textbf{Per $P(0,2)$}: $2=0+0+k \Rightarrow k=2$.
+    \item \textbf{Asse}: tutte le parabole del fascio hanno asse verticale (parallelo all'asse $y$); quella con asse \emph{coincidente} con l'asse $y$ ha $x_V=-\tfrac{k-1}{2}=0$, cioè $k=1$.
+    \item \textbf{Tangenza all'asse $x$}:
+    \[\begin{aligned}
+    \Delta=(k-1)^2-4k &= k^2-6k+1=0\\
+    k &= 3\pm\sqrt{9-1}=3\pm2\sqrt2
+    \end{aligned}\]
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
@@ -207,16 +526,45 @@ Considera il fascio $y=x^2+(k-1)x+k$ e determina i punti base, la parabola passa
 \begin{question}[ID=5.4, subtitle={Fascio $y=x^2-2kx+k-1$: variante con vertice sull'asse $y$}, difficulty=difficile, tags={parabola, fasci}]
 Considera il fascio $y=x^2-2kx+k-1$ e determina i punti base, la parabola con vertice sull'asse $y$, quella passante per $P(1,1)$ e le parabole tangenti alla retta $y=1$.
 \begin{solution}
-Raccogliendo $k$: $k(1-2x)+(x^2-1-y)=0$. I \textbf{punti base} (indipendenti da $k$) si hanno per $1-2x=0$ e $y=x^2-1$, cioè l'unico punto $B\!\left(\tfrac12,-\tfrac34\right)$. \\
-L'ascissa del vertice è $x_V=k$; \textbf{vertice sull'asse $y$} $\Rightarrow k=0$, parabola $y=x^2-1$. \\
-\textbf{Passaggio per $P(1,1)$}: $1=1-2k+k-1\Rightarrow k=-1$, parabola $y=x^2+2x-2$. \\
-\textbf{Tangenza a $y=1$}: da $x^2-2kx+k-2=0$, $\Delta=4(k^2-k+2)$; poiché $k^2-k+2$ ha discriminante $-7<0$ è sempre positivo, quindi $\Delta>0$ per ogni $k$: \emph{nessuna} parabola del fascio è tangente a $y=1$ (il vertice ha ordinata $-k^2+k-1\le-\tfrac34<1$, quindi la curva incontra sempre $y=1$ in due punti).
+Un solo punto base proprio $B\left(\tfrac12,-\tfrac34\right)$; \ vertice sull'asse $y$: $k=0$ ($y=x^2-1$); \ per $P(1,1)$: $k=-1$ ($y=x^2+2x-2$); \ nessuna parabola tangente a $y=1$.
 \end{solution}
+\begin{explanation}
+In un fascio $y=f(x)+k\,g(x)$ i \textbf{punti base} sono quelli che soddisfano l'equazione per ogni $k$: si annulla il coefficiente di $k$ e si sostituisce nel resto. Se $g$ è di primo grado c'è un solo punto base proprio.
+$y=(x^2-1)+k(1-2x)$.
+\begin{itemize}
+    \item \textbf{Punti base}: $1-2x=0$ e $y=x^2-1$: \ $B\left(\tfrac12,-\tfrac34\right)$.
+    \item \textbf{Vertice sull'asse $y$}: $x_V=k=0$.
+    \item \textbf{Per $P(1,1)$}: $1=1-2k+k-1 \Rightarrow k=-1$.
+    \item \textbf{Tangenza a $y=1$}:
+    \[\begin{aligned}
+    x^2-2kx+k-2 &= 0\\
+    \dfrac\Delta4=k^2-k+2 &> 0 && \textcolor{gray}{\text{discriminante $1-8<0$}}
+    \end{aligned}\]
+    Sempre due intersezioni. Infatti l'ordinata del vertice è $-k^2+k-1\leq-\tfrac34<1$: ogni parabola scende sotto la retta $y=1$.
+\end{itemize}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------------%
 
 \begin{question}[ID=5.5, subtitle={Fascio $y=x^2+kx+k-2$: punti base e tangenza}, difficulty=difficile, tags={parabola, fasci, parametrico}]
 Considera il fascio $y=x^2+kx+k-2$ e determina i punti base, la parabola passante per $P(1,0)$, quella avente vertice sulla bisettrice $y=x$ e le parabole tangenti alla retta $y=-2$.
-\begin{solution}Punti base $(0,-2)$ e $(2,0)$; $k=\tfrac{1}{2}$; $k(k-4)=0$\end{solution}
+\begin{solution}
+Un solo punto base proprio $B(-1,-1)$; \ per $P(1,0)$: $k=\tfrac12$; \ vertice su $y=x$: $k=2$ o $k=4$; \ tangenti a $y=-2$: $k=0$ o $k=4$.
+\end{solution}
+\begin{explanation}
+In un fascio $y=f(x)+k\,g(x)$ i \textbf{punti base} sono quelli che soddisfano l'equazione per ogni $k$: si annulla il coefficiente di $k$ e si sostituisce nel resto. Se $g$ è di primo grado c'è un solo punto base proprio.
+$y=(x^2-2)+k(x+1)$.
+\begin{itemize}
+    \item \textbf{Punti base}: $x=-1 \Rightarrow y=1-2=-1$.
+    \item \textbf{Per $P(1,0)$}: $0=1+k+k-2 \Rightarrow k=\tfrac12$.
+    \item \textbf{Vertice su $y=x$}:
+    \[\begin{aligned}
+    x_V &= -\dfrac k2, \qquad y_V=x_V^2+kx_V+k-2=-\dfrac{k^2}{4}+k-2\\
+    -\dfrac k2 &= -\dfrac{k^2}{4}+k-2 && \textcolor{gray}{\text{impongo $y_V=x_V$}}\\
+    k^2-6k+8 &= 0 \;\Rightarrow\; k=2,\ k=4 && \textcolor{gray}{\text{moltiplico per $4$}}
+    \end{aligned}\]
+    \item \textbf{Tangenza a $y=-2$}: $x^2+kx+k=0$, \ $\Delta=k^2-4k=k(k-4)=0 \Rightarrow k=0,\ k=4$.
+\end{itemize}
+\end{explanation}
 \end{question}

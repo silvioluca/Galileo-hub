@@ -24,6 +24,31 @@ Determina il dominio delle seguenti funzioni:
     \item $D=[-1,+\infty)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+Il dominio è l'insieme dei valori di $x$ per cui la funzione ha senso. Le condizioni da imporre sono:
+\begin{itemize}
+    \item denominatore $\neq 0$;
+    \item radicando di una radice di indice pari $\geq 0$ (strettamente $>0$ se la radice è al denominatore);
+    \item argomento di un logaritmo $>0$.
+\end{itemize}
+Se ci sono più condizioni, si mettono a sistema e si prendono i valori che le soddisfano tutte.
+\begin{enumerate}
+    \item È un polinomio: non ci sono denominatori, radici o logaritmi, quindi nessuna condizione. $D=\mathbb{R}$.
+    \item Radice quadrata: il radicando deve essere non negativo.
+    \[ x-3\geq 0 \;\Rightarrow\; x\geq 3 \]
+    \item Il denominatore non può essere zero.
+    \[ x-4\neq 0 \;\Rightarrow\; x\neq 4 \]
+    \item Radicando non negativo:
+    \[\begin{aligned}
+    5-x &\geq 0\\
+    -x &\geq -5\\
+    x &\leq 5 && \textcolor{gray}{\text{moltiplico per $-1$: il verso si inverte}}
+    \end{aligned}\]
+    \item Denominatore diverso da zero:
+    \[ 2x+1\neq 0 \;\Rightarrow\; x\neq -\dfrac12 \]
+    \item Radicando non negativo: \ $x+1\geq 0 \;\Rightarrow\; x\geq -1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -50,6 +75,22 @@ Determina il dominio delle seguenti funzioni:
     \item $D=(-\infty,-1)\cup(1,+\infty)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Ci sono una radice al numeratore e un denominatore: due condizioni da mettere a sistema.
+    \[ \begin{cases} 2x-1\geq 0 & \text{radicando}\\ x-3\neq 0 & \text{denominatore}\end{cases} \;\Rightarrow\; \begin{cases} x\geq\dfrac12\\ x\neq 3\end{cases} \]
+    \item La radice è al denominatore: oltre a essere definita non deve valere zero, quindi il radicando deve essere \textbf{strettamente} positivo.
+    \[ x+2>0 \;\Rightarrow\; x>-2 \]
+    \item Il radicando è una frazione: deve essere $\dfrac{x-1}{x+2}\geq 0$. Studio il segno di numeratore e denominatore:
+    \[ N\geq 0 \text{ per } x\geq 1, \qquad D>0 \text{ per } x>-2 \]
+    La frazione è positiva dove $N$ e $D$ hanno lo stesso segno ($x<-2$ oppure $x>1$), nulla in $x=1$; in $x=-2$ non esiste.
+    \item Radicando $\dfrac{3-x}{x+1}\geq 0$:
+    \[ N\geq 0 \text{ per } x\leq 3, \qquad D>0 \text{ per } x>-1 \]
+    Sono entrambi positivi tra $-1$ e $3$ (e $x=3$ annulla il numeratore, accettato); fuori sono discordi.
+    \item Argomento del logaritmo positivo: \ $x+3>0 \;\Rightarrow\; x>-3$.
+    \item Argomento del logaritmo positivo: $\dfrac{x-1}{x+1}>0$. Numeratore positivo per $x>1$, denominatore per $x>-1$: sono concordi per $x<-1$ oppure $x>1$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -76,6 +117,29 @@ Determina il dominio delle seguenti funzioni:
     \item $D=(2,+\infty)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item \[ \begin{cases} x^2-4\geq 0 & \text{radicando}\\ x-1\neq 0 & \text{denominatore}\end{cases} \]
+    $x^2-4\geq0$ vale per valori esterni alle radici $\pm2$: $x\leq -2$ oppure $x\geq 2$. Il valore escluso $x=1$ non appartiene già a questi intervalli.
+    \item \[ \begin{cases} \dfrac{x-2}{x+1}\geq 0 & \text{radicando}\\ x-3\neq 0 & \text{denominatore esterno}\end{cases} \]
+    La frazione è non negativa per $x<-1$ oppure $x\geq 2$ ($N$ e $D$ concordi, $x=2$ incluso). Tolgo poi $x=3$.
+    \item Argomento positivo: $x^2-1>0$, cioè valori esterni alle radici $\pm1$: $x<-1$ oppure $x>1$.
+    \item Due condizioni: il logaritmo deve esistere e il suo valore, che sta sotto radice, deve essere $\geq0$.
+    \[\begin{aligned}
+    x-1 &> 0 && \textcolor{gray}{\text{esistenza del logaritmo}}\\
+    \ln(x-1) &\geq 0 && \textcolor{gray}{\text{radicando non negativo}}\\
+    x-1 &\geq 1 && \textcolor{gray}{\text{$\ln t\geq0$ quando $t\geq1$}}\\
+    x &\geq 2
+    \end{aligned}\]
+    $x\geq2$ soddisfa anche $x>1$.
+    \item Il logaritmo deve esistere e, stando al denominatore, non deve valere zero:
+    \[\begin{aligned}
+    x-2 &> 0 \;\Rightarrow\; x>2\\
+    \ln(x-2) &\neq 0 \;\Rightarrow\; x-2\neq 1 \;\Rightarrow\; x\neq 3 && \textcolor{gray}{\text{$\ln t=0$ solo per $t=1$}}
+    \end{aligned}\]
+    \item Radicando $\dfrac{1}{x-2}\geq 0$: il numeratore vale $1>0$, quindi serve un denominatore positivo (non può essere nullo): $x-2>0$, cioè $x>2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -102,6 +166,31 @@ Determina il dominio delle seguenti funzioni:
     \item $D=(2,+\infty)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Radicando $\dfrac{x-1}{x-2}\geq 0$: numeratore $\geq0$ per $x\geq1$, denominatore $>0$ per $x>2$. \\
+    Concordi per $x<1$ e per $x>2$; $x=1$ annulla la frazione ed è incluso, $x=2$ è escluso.
+    \item Argomento $\dfrac{x+1}{x-2}>0$: concordi per $x<-1$ oppure $x>2$.
+    \item Il logaritmo sotto radice deve essere $\geq 0$, cioè il suo argomento deve essere $\geq 1$:
+    \[\begin{aligned}
+    \dfrac{x+1}{x-2} &\geq 1\\
+    \dfrac{x+1-(x-2)}{x-2} &\geq 0 && \textcolor{gray}{\text{porto tutto a sinistra, denominatore comune}}\\
+    \dfrac{3}{x-2} &\geq 0
+    \end{aligned}\]
+    Il numeratore è positivo, quindi serve $x-2>0$: $x>2$. In questo intervallo l'argomento del logaritmo è anche positivo.
+    \item L'argomento del logaritmo, cioè la radice, deve essere strettamente positivo: quindi il radicando deve essere $>0$.
+    \[ x^2-5x+6=(x-2)(x-3)>0 \;\Rightarrow\; x<2 \;\vee\; x>3 \]
+    \item Il logaritmo sotto radice deve essere $\geq0$, cioè l'argomento $\geq 1$:
+    \[\begin{aligned}
+    x^2-4x+3 &\geq 1\\
+    x^2-4x+2 &\geq 0\\
+    x &= \dfrac{4\pm\sqrt{16-8}}{2}=2\pm\sqrt2 && \textcolor{gray}{\text{radici dell'equazione associata}}
+    \end{aligned}\]
+    Disequazione $\geq0$ con coefficiente di $x^2$ positivo: valori esterni alle radici. Lì l'argomento vale almeno $1$, quindi esiste.
+    \item La radice è al denominatore, quindi il radicando deve essere strettamente positivo:
+    \[ \ln(x-1)>0 \;\Rightarrow\; x-1>1 \;\Rightarrow\; x>2 \]
+\end{enumerate}
+\end{explanation}
 \end{question}
 
 %----------------------------------------------------%
@@ -128,4 +217,31 @@ Determina il dominio delle seguenti funzioni:
     \item $D=(-\infty,-\sqrt2)\cup(-\sqrt2,-1)\cup(1,\sqrt2)\cup(\sqrt2,+\infty)$
 \end{enumerate}
 \end{solution}
+\begin{explanation}
+\begin{enumerate}
+    \item Radicando $\dfrac{x^2-9}{x^2-4}\geq 0$. Il numeratore si annulla in $\pm3$, il denominatore in $\pm2$. \\
+    Ordino gli zeri: $-3,\ -2,\ 2,\ 3$. Studiando il segno di ogni fattore, il quoziente vale da sinistra: $+,\ -,\ +,\ -,\ +$. \\
+    Prendo gli intervalli positivi, includendo $\pm3$ (numeratore nullo) ed escludendo $\pm2$.
+    \item Argomento $\dfrac{x^2-1}{x-2}>0$. Zeri: $-1,\ 1$ (numeratore) e $2$ (denominatore). \\
+    Segni da sinistra: $-,\ +,\ -,\ +$. Prendo gli intervalli positivi.
+    \item Condizioni:
+    \[ \begin{cases} x-2>0 & \text{esistenza del logaritmo}\\ \ln(x-2)\neq 0 & \text{denominatore}\\ \dfrac{x-1}{\ln(x-2)}\geq 0 & \text{radicando}\end{cases} \]
+    Per $x>2$ il numeratore $x-1$ è positivo, quindi la frazione è positiva solo se lo è il denominatore:
+    \[ \ln(x-2)>0 \;\Rightarrow\; x-2>1 \;\Rightarrow\; x>3 \]
+    \item L'argomento del logaritmo (la radice) deve essere strettamente positivo, quindi $\dfrac{x-1}{x+1}>0$: concordi per $x<-1$ oppure $x>1$.
+    \item Il logaritmo sotto radice deve essere $\geq0$, cioè l'argomento $\geq1$:
+    \[\begin{aligned}
+    \dfrac{x^2-1}{x^2-4} &\geq 1\\
+    \dfrac{x^2-1-(x^2-4)}{x^2-4} &\geq 0\\
+    \dfrac{3}{x^2-4} &\geq 0
+    \end{aligned}\]
+    Serve $x^2-4>0$: $x<-2$ oppure $x>2$.
+    \item Condizioni: argomento del logaritmo positivo e logaritmo diverso da zero (è al denominatore).
+    \[\begin{aligned}
+    \sqrt{x^2-1}>0 &\;\Rightarrow\; x^2-1>0 \;\Rightarrow\; x<-1 \;\vee\; x>1\\
+    \ln\sqrt{x^2-1}\neq 0 &\;\Rightarrow\; \sqrt{x^2-1}\neq 1 \;\Rightarrow\; x^2\neq 2 \;\Rightarrow\; x\neq\pm\sqrt2
+    \end{aligned}\]
+    Dagli intervalli $x<-1$ e $x>1$ tolgo i punti $\pm\sqrt2$.
+\end{enumerate}
+\end{explanation}
 \end{question}
